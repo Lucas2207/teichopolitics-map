@@ -16,7 +16,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `countries` | Countries or territories it separates    |
 | `separates` | Groups or areas it separates (optional)  |
 | `type`      | `wall`, `fence` or `berm`                |
-| `built`     | Year construction started                |
+| `built`     | Year construction started, or `null` if unknown (undated barriers are always shown and left out of the counts) |
 | `removed`   | Year it was dismantled, or `null`        |
 | `length_km` | Approximate length                       |
 | `owner`     | Who owns or maintains it (optional)      |

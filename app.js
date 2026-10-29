@@ -50,12 +50,16 @@ const statKm = document.getElementById("stat-km");
 
 let barriers = []; // { feature, layer, listItem }
 
+// Barriers without a build year are always shown and left out of the counts
 function isStanding(props, year) {
+  if (props.built == null) return true;
   return props.built <= year && (props.removed == null || props.removed > year);
 }
 
 function popupHtml(p) {
-  const period = p.removed ? `${p.built}–${p.removed}` : `${p.built}–present`;
+  const period = p.built == null
+    ? "date unknown"
+    : p.removed ? `${p.built}–${p.removed}` : `${p.built}–present`;
   const separates = p.separates ? `<br>Separates: ${p.separates}` : "";
   const owner = p.owner ? `<br>Owner: ${p.owner}` : "";
   const initiator = p.initiated_by ? `<br>Initiated by: ${p.initiated_by} (${p.initiator_type || "unknown"})` : "";
@@ -84,7 +88,7 @@ function update() {
     } else {
       barriersLayer.removeLayer(b.layer);
     }
-    if (standing) {
+    if (standing && p.built != null) {
       count += 1;
       km += p.length_km || 0;
     }
@@ -98,7 +102,9 @@ function update() {
 fetch("data/barriers.geojson")
   .then((r) => r.json())
   .then((data) => {
-    const features = data.features.sort((a, b) => a.properties.built - b.properties.built);
+    // Undated barriers go to the end of the list
+    const yearKey = (f) => (f.properties.built == null ? Infinity : f.properties.built);
+    const features = data.features.sort((a, b) => (yearKey(a) < yearKey(b) ? -1 : yearKey(a) > yearKey(b) ? 1 : 0));
     for (const feature of features) {
       const p = feature.properties;
       const layer = L.geoJSON(feature, {
@@ -110,9 +116,9 @@ fetch("data/barriers.geojson")
       }).bindPopup(popupHtml(p));
 
       const listItem = document.createElement("li");
-      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built}</small>`;
+      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built ?? "date unknown"}</small>`;
       listItem.addEventListener("click", () => {
-        if (!isStanding(p, Number(yearInput.value))) {
+        if (p.built != null && !isStanding(p, Number(yearInput.value))) {
           yearInput.value = p.built;
           update();
         }
