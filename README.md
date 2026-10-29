@@ -29,6 +29,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `maintenance_usd_2024`, `maintenance_eur_2024` | The same maintenance cost as numbers (optional) |
 | `security_technology` | Cameras, sensors, lighting and other equipment used with the barrier |
 | `geometry_quality` | How the line was drawn: `official border`, `approximate` or `placeholder` |
+| `typology` | Ballif & Rosière (2009) class: `marche`, `clôture`, `mur`, `front` (optional) |
 | `note`      | Short description                        |
 
 Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.

@@ -139,13 +139,14 @@ function popupHtml(p) {
   const technology = p.security_technology ? `<br>Security technology: ${p.security_technology}` : "";
   const construction = p.construction ? `<br>Construction: ${p.construction}` : "";
   const quality = p.geometry_quality ? `<br><small>Line: ${p.geometry_quality}</small>` : "";
+  const typology = p.typology ? `<br>Typology (Ballif & Rosière 2009): ${p.typology}` : "";
   const purpose = p.purpose ? `<br>Stated purpose: ${p.purpose}` : "";
   const term = p.term_note ? `<br>Term: ${p.term_note}` : "";
   const contractors = p.contractors ? `<br>Contractors: ${p.contractors}` : "";
   const sources = (p.sources || []).length
     ? `<br><small>Sources: ${p.sources.map((u) => `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(", ")}</small>`
     : "";
-  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${purpose}${term}${cost}${maintenance}${construction}${technology}${contractors}<br>
+  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${typology}${purpose}${term}${cost}${maintenance}${construction}${technology}${contractors}<br>
     ${period} · ${p.type} · ~${p.length_km} km${quality}<br><em>${p.note || ""}</em>${sources}`;
 }
 
