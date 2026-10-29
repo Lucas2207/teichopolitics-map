@@ -1,0 +1,171 @@
+:root {
+  --bg: #f7f6f2;
+  --panel: #ffffff;
+  --text: #1f1f1f;
+  --muted: #6b6b6b;
+  --border: #e2e0da;
+  --accent: #b3261e;
+  --wall: #b3261e;
+  --fence: #d97706;
+  --berm: #7c5c3b;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body {
+  display: flex;
+}
+
+#panel {
+  width: 320px;
+  flex-shrink: 0;
+  padding: 20px;
+  overflow-y: auto;
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  margin: 4px 0 20px;
+  color: var(--muted);
+}
+
+section { margin-bottom: 20px; }
+
+.year-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#year-label {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+#play {
+  padding: 6px 12px;
+  font: inherit;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  cursor: pointer;
+}
+
+#year {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.range-ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.stats div {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.stats strong {
+  display: block;
+  font-size: 1.4rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats span {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+#search {
+  width: 100%;
+  padding: 8px 10px;
+  font: inherit;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+#list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+#list li {
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+}
+
+#list li:hover { background: var(--bg); }
+
+#list li.hidden-by-year { color: var(--muted); }
+
+#list small {
+  display: block;
+  color: var(--muted);
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.swatch {
+  width: 24px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.swatch.wall { background: var(--wall); }
+.swatch.fence { background: var(--fence); }
+.swatch.berm { background: var(--berm); }
+
+.note {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Phones: map on top, panel below */
+@media (max-width: 700px) {
+  body { flex-direction: column; }
+  #map { height: 60vh; flex: none; }
+  #panel {
+    width: 100%;
+    order: 2;
+    border-right: none;
+    border-top: 1px solid var(--border);
+    padding: 16px;
+  }
+}

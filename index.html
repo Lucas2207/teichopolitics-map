@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teichopolitics Map</title>
+  <meta name="description" content="Interactive map of the construction of physical border barriers over time.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="panel">
+    <h1>Teichopolitics</h1>
+    <p class="subtitle">The building of physical frontiers</p>
+
+    <section class="year-block">
+      <div class="year-row">
+        <span id="year-label">2026</span>
+        <button id="play" type="button" aria-label="Play timeline">▶ Play</button>
+      </div>
+      <input id="year" type="range" min="1945" max="2026" step="1" value="2026" aria-label="Year">
+      <div class="range-ends"><span>1945</span><span>2026</span></div>
+    </section>
+
+    <section class="stats">
+      <div><strong id="stat-count">0</strong><span>barriers standing</span></div>
+      <div><strong id="stat-km">0</strong><span>km of barriers</span></div>
+    </section>
+
+    <section>
+      <input id="search" type="search" placeholder="Search a barrier or country…" aria-label="Search">
+      <ul id="list"></ul>
+    </section>
+
+    <section class="legend">
+      <div><span class="swatch wall"></span>Wall</div>
+      <div><span class="swatch fence"></span>Fence</div>
+      <div><span class="swatch berm"></span>Berm / earthwork</div>
+    </section>
+
+    <p class="note">Sample data with approximate lines. Replace <code>data/barriers.geojson</code> with your research.</p>
+  </aside>
+
+  <main id="map"></main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

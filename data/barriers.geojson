@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "_note": "SAMPLE DATA. Lines are rough approximations drawn by hand to demonstrate the map. Replace with your own researched geometries and dates.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Korean Demilitarized Zone", "countries": "North Korea / South Korea", "type": "fence", "built": 1953, "removed": null, "length_km": 250, "note": "Fortified zone established by the 1953 armistice." },
+      "geometry": { "type": "LineString", "coordinates": [[126.15, 37.75], [126.68, 37.95], [127.10, 38.25], [127.60, 38.30], [128.10, 38.32], [128.37, 38.61]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Berlin Wall", "countries": "East Germany / West Berlin", "type": "wall", "built": 1961, "removed": 1989, "length_km": 155, "note": "Encircled West Berlin until November 1989." },
+      "geometry": { "type": "LineString", "coordinates": [[13.20, 52.60], [13.40, 52.58], [13.45, 52.53], [13.42, 52.48], [13.48, 52.40], [13.25, 52.38], [13.12, 52.42], [13.12, 52.55], [13.20, 52.60]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Moroccan Western Sahara Wall (Berm)", "countries": "Morocco / Western Sahara", "type": "berm", "built": 1980, "removed": null, "length_km": 2700, "note": "Sand berm built in stages between 1980 and 1987." },
+      "geometry": { "type": "LineString", "coordinates": [[-8.67, 27.67], [-9.5, 27.0], [-11.0, 26.0], [-12.0, 25.0], [-13.0, 23.5], [-14.5, 22.5], [-16.0, 21.4], [-17.0, 21.35]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "India–Bangladesh border fence", "countries": "India / Bangladesh", "type": "fence", "built": 1986, "removed": null, "length_km": 3300, "note": "Construction started in the late 1980s, still being extended." },
+      "geometry": { "type": "LineString", "coordinates": [[88.1, 25.3], [88.5, 26.4], [89.8, 26.0], [90.5, 25.2], [92.0, 25.0], [92.3, 24.2], [91.6, 23.0], [92.2, 22.0]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ceuta border fence", "countries": "Spain / Morocco", "type": "fence", "built": 1993, "removed": null, "length_km": 8, "note": "Raised and reinforced several times since." },
+      "geometry": { "type": "LineString", "coordinates": [[-5.38, 35.91], [-5.36, 35.88], [-5.34, 35.87]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "US–Mexico border barrier", "countries": "United States / Mexico", "type": "fence", "built": 1994, "removed": null, "length_km": 1100, "note": "Expanded after the 2006 Secure Fence Act and again from 2017." },
+      "geometry": { "type": "LineString", "coordinates": [[-117.12, 32.54], [-114.72, 32.72], [-111.07, 31.33], [-108.21, 31.33], [-108.21, 31.78], [-106.53, 31.78], [-104.5, 29.6], [-101.4, 29.77], [-99.5, 27.5], [-97.15, 25.95]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Melilla border fence", "countries": "Spain / Morocco", "type": "fence", "built": 1998, "removed": null, "length_km": 12, "note": "Triple fence, heightened in 2005." },
+      "geometry": { "type": "LineString", "coordinates": [[-2.97, 35.31], [-2.95, 35.28], [-2.93, 35.27]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "West Bank barrier", "countries": "Israel / West Bank", "type": "wall", "built": 2002, "removed": null, "length_km": 710, "note": "Mix of concrete wall and fence sections." },
+      "geometry": { "type": "LineString", "coordinates": [[35.0, 32.55], [35.07, 32.25], [34.98, 32.0], [35.05, 31.85], [35.17, 31.72], [34.95, 31.40], [35.2, 31.35]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Greece–Turkey Evros fence", "countries": "Greece / Turkey", "type": "fence", "built": 2012, "removed": null, "length_km": 40, "note": "Initial 12.5 km section, extended from 2020." },
+      "geometry": { "type": "LineString", "coordinates": [[26.60, 41.60], [26.62, 41.70], [26.58, 41.80]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Saudi–Iraq border barrier", "countries": "Saudi Arabia / Iraq", "type": "fence", "built": 2014, "removed": null, "length_km": 900, "note": "Fences, berms and surveillance towers." },
+      "geometry": { "type": "LineString", "coordinates": [[38.8, 32.0], [40.4, 31.9], [42.1, 31.1], [44.7, 29.2], [46.4, 29.1]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Hungary–Serbia border fence", "countries": "Hungary / Serbia", "type": "fence", "built": 2015, "removed": null, "length_km": 175, "note": "Built during the 2015 migration crisis." },
+      "geometry": { "type": "LineString", "coordinates": [[19.0, 46.15], [19.7, 46.17], [20.26, 46.12]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Turkey–Syria border wall", "countries": "Turkey / Syria", "type": "wall", "built": 2015, "removed": null, "length_km": 830, "note": "Concrete wall completed around 2018." },
+      "geometry": { "type": "LineString", "coordinates": [[35.9, 36.0], [36.6, 36.8], [37.6, 36.65], [39.0, 36.68], [40.8, 37.1], [42.2, 37.3]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Poland–Belarus border barrier", "countries": "Poland / Belarus", "type": "fence", "built": 2022, "removed": null, "length_km": 186, "note": "Steel barrier completed in 2022." },
+      "geometry": { "type": "LineString", "coordinates": [[23.4, 53.95], [23.6, 53.5], [23.9, 53.0], [23.7, 52.6]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Finland–Russia border fence", "countries": "Finland / Russia", "type": "fence", "built": 2023, "removed": null, "length_km": 200, "note": "Pilot section near Imatra, planned extension to about 200 km." },
+      "geometry": { "type": "LineString", "coordinates": [[28.8, 61.2], [28.4, 60.95], [27.8, 60.55]] }
+    }
+  ]
+}
