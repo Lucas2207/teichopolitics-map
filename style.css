@@ -172,13 +172,55 @@ input:focus-visible {
 .swatch.wall { background: var(--wall); }
 .swatch.fence { background: var(--fence); }
 .swatch.berm { background: var(--berm); }
-.swatch.surveyed { background: var(--muted); }
-.swatch.approx { height: 0; border-top: 4px dotted var(--muted); }
+.legend-title {
+  margin: 10px 0 4px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.swatch.concrete { background: #b3261e; }
+.swatch.steel { background: #d97706; }
+.swatch.wire { background: #7c3aed; }
+.swatch.earth { background: #7c5c3b; }
+.swatch.unknown { background: #6b6b6b; }
+.swatch.line { background: #444; }
+.swatch.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #444;
+}
 
 .note {
   font-size: 0.8rem;
   color: var(--muted);
 }
+
+/* Place names on the map: centred on their point, with a light halo for legibility */
+.map-label { pointer-events: none; }
+.label-inner {
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  color: #1f1f1f;
+  font-weight: 600;
+  line-height: 1.15;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 2px #fff;
+  text-align: center;
+}
+.label-inner small {
+  display: block;
+  font-weight: 400;
+  color: #444;
+  font-size: 0.85em;
+}
+.map-label.country .label-inner {
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.map-label.place .label-inner { font-size: 12px; }
 
 /* Phones: map on top, panel below */
 @media (max-width: 700px) {

@@ -33,9 +33,11 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 
 Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.
 
+Colours show construction type (concrete, steel or mesh, barbed or razor wire, earthwork, not documented). Place names come from Natural Earth; native names are added where known.
+
 Lines marked `official border` follow the border between the two countries (Natural Earth 50m data),
-only along the stretches where the barrier exists. `approximate` lines are hand-placed and need tracing.
-`placeholder` marks a point geocoded from a street name. Replace approximate and placeholder lines with
+only along the stretches where the barrier exists. `approximate` barriers are placed from descriptions and are shown as a dot at their centre until surveyed.
+`placeholder` marks a point geocoded from a street name, also shown as a dot. Replace approximate and placeholder lines with
 researched geometries (for example drawn at [geojson.io](https://geojson.io) or exported from QGIS).
 
 ## Run locally

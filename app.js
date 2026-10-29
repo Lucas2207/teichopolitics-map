@@ -1,6 +1,28 @@
 // Teichopolitics map: border barriers shown by the year they were built.
 
-const COLORS = { wall: "#b3261e", fence: "#d97706", berm: "#7c5c3b" };
+// Colour by construction type (see constructionClass)
+const CONSTRUCTION_COLORS = {
+  concrete: "#b3261e", // concrete, stone or brick wall
+  steel: "#d97706",    // steel or mesh fence
+  wire: "#7c3aed",     // barbed or razor wire
+  earth: "#7c5c3b",    // earthwork, sand berm, trench
+  unknown: "#6b6b6b",  // not documented, or mixed
+};
+
+// Sort a barrier into a construction class from its free-text construction field
+function constructionClass(p) {
+  const c = (p.construction || "").toLowerCase();
+  if (c.includes("mixed")) return "unknown";
+  if (/concrete|stone|brick|block|blast/.test(c)) return "concrete";
+  if (/earth|sand|berm|dune|rammed|turf|trench/.test(c)) return "earth";
+  if (/steel|mesh|bollard|palisade|electronic/.test(c)) return "steel";
+  if (/wire|razor|barbed|concertina|blade/.test(c)) return "wire";
+  return "unknown";
+}
+
+function dotStyle(color, radius) {
+  return { radius, color: "#fff", weight: 2, fillColor: color, fillOpacity: 1 };
+}
 
 const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 
@@ -27,10 +49,49 @@ L.control.scale({ metric: true, imperial: false }).addTo(map);
 // Overlays
 const barriersLayer = L.layerGroup().addTo(map);
 const bordersLayer = L.layerGroup();
+const labelLayer = L.layerGroup().addTo(map);
 const layerControl = L.control.layers(baseLayers, {
   "Border barriers": barriersLayer,
   "Country borders": bordersLayer,
+  "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
+
+// Place names: English, with the native name where known. More appear as you zoom in.
+let labelData = null;
+fetch("data/labels-countries.json")
+  .then((r) => r.json())
+  .then((countries) => {
+    fetch("data/labels-places.json")
+      .then((r) => r.json())
+      .then((places) => {
+        labelData = { countries, places };
+        renderLabels();
+      });
+  });
+
+function labelIcon(en, native, kind) {
+  const sub = native && native !== en ? `<small>${native}</small>` : "";
+  return L.divIcon({ className: `map-label ${kind}`, html: `<span class="label-inner">${en}${sub}</span>`, iconSize: null });
+}
+
+function renderLabels() {
+  if (!labelData) return;
+  labelLayer.clearLayers();
+  const zoom = map.getZoom();
+  const bounds = map.getBounds();
+  // Countries: the largest first; a smaller rank shows at a lower zoom
+  const maxRank = zoom <= 2 ? 1 : zoom <= 3 ? 2 : zoom <= 4 ? 3 : zoom <= 5 ? 4 : 6;
+  for (const c of labelData.countries) {
+    if (c.rank > maxRank || !bounds.contains([c.lat, c.lon])) continue;
+    L.marker([c.lat, c.lon], { icon: labelIcon(c.en, c.native, "country"), interactive: false, keyboard: false }).addTo(labelLayer);
+  }
+  // Places: Natural Earth gives each city the zoom at which it appears
+  for (const p of labelData.places) {
+    if (p.min_zoom > zoom || !bounds.contains([p.lat, p.lon])) continue;
+    L.marker([p.lat, p.lon], { icon: labelIcon(p.en, p.native, "place"), interactive: false, keyboard: false }).addTo(labelLayer);
+  }
+}
+map.on("moveend", renderLabels);
 
 // Country borders from Natural Earth (via world-atlas)
 fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json")
@@ -78,8 +139,14 @@ function popupHtml(p) {
   const technology = p.security_technology ? `<br>Security technology: ${p.security_technology}` : "";
   const construction = p.construction ? `<br>Construction: ${p.construction}` : "";
   const quality = p.geometry_quality ? `<br><small>Line: ${p.geometry_quality}</small>` : "";
-  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${cost}${maintenance}${construction}${technology}<br>
-    ${period} · ${p.type} · ~${p.length_km} km${quality}<br><em>${p.note || ""}</em>`;
+  const purpose = p.purpose ? `<br>Stated purpose: ${p.purpose}` : "";
+  const term = p.term_note ? `<br>Term: ${p.term_note}` : "";
+  const contractors = p.contractors ? `<br>Contractors: ${p.contractors}` : "";
+  const sources = (p.sources || []).length
+    ? `<br><small>Sources: ${p.sources.map((u) => `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(", ")}</small>`
+    : "";
+  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${purpose}${term}${cost}${maintenance}${construction}${technology}${contractors}<br>
+    ${period} · ${p.type} · ~${p.length_km} km${quality}<br><em>${p.note || ""}</em>${sources}`;
 }
 
 function update() {
@@ -120,15 +187,19 @@ fetch("data/barriers.geojson")
     const features = data.features.sort((a, b) => (yearKey(a) < yearKey(b) ? -1 : yearKey(a) > yearKey(b) ? 1 : 0));
     for (const feature of features) {
       const p = feature.properties;
-      // Dotted lines mark positions that are not surveyed
-      const approximate = /^(approximate|placeholder)/.test(p.geometry_quality || "");
-      const layer = L.geoJSON(feature, {
-        style: {
-          color: COLORS[p.type] || "#333",
-          weight: 4,
-          dashArray: approximate ? "2 6" : p.type === "berm" ? "8 6" : null,
-        },
-      }).bindPopup(popupHtml(p));
+      // Area-only barriers (no surveyed line) are a dot at their centre; surveyed ones are a line
+      const areaOnly = /^(approximate|placeholder)/.test(p.geometry_quality || "");
+      const color = CONSTRUCTION_COLORS[constructionClass(p)];
+      let layer;
+      if (areaOnly) {
+        layer = L.featureGroup([L.circleMarker(L.geoJSON(feature).getBounds().getCenter(), dotStyle(color, 8))]);
+      } else {
+        const line = L.geoJSON(feature, { style: { color, weight: 4 } });
+        layer = L.featureGroup([line]);
+        // Short surveyed barriers are under a pixel at world zoom, so they also get a dot
+        if ((p.length_km || 0) < 25) layer.addLayer(L.circleMarker(line.getBounds().getCenter(), dotStyle(color, 6)));
+      }
+      layer.bindPopup(popupHtml(p));
 
       const listItem = document.createElement("li");
       listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built == null ? "date unknown" : formatYear(p.built)}</small>`;
