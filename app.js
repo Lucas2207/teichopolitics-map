@@ -28,9 +28,11 @@ const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 
 // Base maps (all free, attribution required)
 const baseLayers = {
+  // Streets switches to a dark style in dark mode (see applyTheme)
   "Streets": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
-    attribution: "&copy; OpenStreetMap contributors",
+    subdomains: "abcd",
+    attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
   }),
   "Terrain": L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
     maxZoom: 17,
@@ -263,6 +265,10 @@ document.getElementById("reset").addEventListener("click", () => {
 const themeToggle = document.getElementById("theme-toggle");
 function applyTheme(mode) {
   document.documentElement.dataset.theme = mode;
+  // Night-time map: CARTO dark tiles built on OpenStreetMap data (see the credits in the page note)
+  baseLayers["Streets"].setUrl(mode === "dark"
+    ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+    : "https://tile.openstreetmap.org/{z}/{x}/{y}.png");
   themeToggle.setAttribute("aria-checked", String(mode === "dark"));
   themeToggle.querySelector(".thumb").textContent = mode === "dark" ? "☾" : "☀︎";
 }
