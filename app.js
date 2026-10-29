@@ -53,6 +53,13 @@ const statKm = document.getElementById("stat-km");
 
 let barriers = []; // { feature, layer, listItem }
 
+// Ancient dates: "AD 122", "1200 BC"; modern years stay as they are
+function formatYear(y) {
+  if (y < 0) return `${-y} BC`;
+  if (y < 1000) return `AD ${y}`;
+  return `${y}`;
+}
+
 // Barriers without a build year are always shown and left out of the counts
 function isStanding(props, year) {
   if (props.built == null) return true;
@@ -62,7 +69,7 @@ function isStanding(props, year) {
 function popupHtml(p) {
   const period = p.built == null
     ? "date unknown"
-    : p.removed ? `${p.built}–${p.removed}` : `${p.built}–present`;
+    : `${formatYear(p.built)}–${p.removed ? formatYear(p.removed) : "present"}`;
   const separates = p.separates ? `<br>Separates: ${p.separates}` : "";
   const owner = p.owner ? `<br>Owner: ${p.owner}` : "";
   const initiator = p.initiated_by ? `<br>Initiated by: ${p.initiated_by} (${p.initiator_type || "unknown"})` : "";
@@ -121,7 +128,7 @@ fetch("data/barriers.geojson")
       }).bindPopup(popupHtml(p));
 
       const listItem = document.createElement("li");
-      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built ?? "date unknown"}</small>`;
+      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built == null ? "date unknown" : formatYear(p.built)}</small>`;
       listItem.addEventListener("click", () => {
         if (p.built != null && !isStanding(p, Number(yearInput.value))) {
           yearInput.value = p.built;
