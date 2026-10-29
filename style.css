@@ -300,6 +300,16 @@ input:focus-visible {
   .theme-switch, .theme-switch .thumb { transition: none; }
 }
 
+.native-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: -8px 0 16px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
 /* Phones: map on top, panel below */
 @media (max-width: 700px) {
   body { flex-direction: column; }

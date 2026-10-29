@@ -57,6 +57,7 @@ const layerControl = L.control.layers(baseLayers, {
 }, { collapsed: false }).addTo(map);
 
 // Place names: English, with the native name where known. More appear as you zoom in.
+const nativeNames = document.getElementById("native-names");
 let labelData = null;
 fetch("data/labels-countries.json")
   .then((r) => r.json())
@@ -70,8 +71,10 @@ fetch("data/labels-countries.json")
   });
 
 function labelIcon(en, native, kind) {
-  // English sits just above the native name, in a smaller, more transparent style
-  const sub = native && native !== en ? `<small>${native}</small>` : "";
+  // English sits just above the native name, in a smaller, more transparent style.
+  // Native names are shown only when the switch is on and they differ from the English name.
+  const showSub = nativeNames.checked && native && native.toLowerCase() !== en.toLowerCase();
+  const sub = showSub ? `<small>${native}</small>` : "";
   return L.divIcon({ className: `map-label ${kind}`, html: `<span class="label-inner"><span class="label-en">${en}</span>${sub}</span>`, iconSize: null });
 }
 
@@ -93,6 +96,7 @@ function renderLabels() {
   }
 }
 map.on("moveend", renderLabels);
+nativeNames.addEventListener("change", renderLabels);
 
 // Country borders from Natural Earth (via world-atlas)
 fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json")
