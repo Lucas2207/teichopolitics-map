@@ -74,9 +74,11 @@ function popupHtml(p) {
   const owner = p.owner ? `<br>Owner: ${p.owner}` : "";
   const initiator = p.initiated_by ? `<br>Initiated by: ${p.initiated_by} (${p.initiator_type || "unknown"})` : "";
   const cost = p.cost ? `<br>Cost: ${p.cost}` : "";
+  const maintenance = p.maintenance_cost ? `<br>Maintenance: ${p.maintenance_cost}` : "";
+  const technology = p.security_technology ? `<br>Security technology: ${p.security_technology}` : "";
   const construction = p.construction ? `<br>Construction: ${p.construction}` : "";
   const quality = p.geometry_quality ? `<br><small>Line: ${p.geometry_quality}</small>` : "";
-  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${cost}${construction}<br>
+  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${cost}${maintenance}${construction}${technology}<br>
     ${period} · ${p.type} · ~${p.length_km} km${quality}<br><em>${p.note || ""}</em>`;
 }
 
