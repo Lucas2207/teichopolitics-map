@@ -56,8 +56,13 @@ function isStanding(props, year) {
 
 function popupHtml(p) {
   const period = p.removed ? `${p.built}–${p.removed}` : `${p.built}–present`;
-  return `<strong>${p.name}</strong><br>${p.countries}<br>
-    ${period} · ${p.type} · ~${p.length_km} km<br><em>${p.note || ""}</em>`;
+  const separates = p.separates ? `<br>Separates: ${p.separates}` : "";
+  const owner = p.owner ? `<br>Owner: ${p.owner}` : "";
+  const initiator = p.initiated_by ? `<br>Initiated by: ${p.initiated_by} (${p.initiator_type || "unknown"})` : "";
+  const construction = p.construction ? `<br>Construction: ${p.construction}` : "";
+  const quality = p.geometry_quality ? `<br><small>Line: ${p.geometry_quality}</small>` : "";
+  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${construction}<br>
+    ${period} · ${p.type} · ~${p.length_km} km${quality}<br><em>${p.note || ""}</em>`;
 }
 
 function update() {

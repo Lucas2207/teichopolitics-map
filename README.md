@@ -14,14 +14,22 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 |-------------|------------------------------------------|
 | `name`      | Name of the barrier                      |
 | `countries` | Countries or territories it separates    |
+| `separates` | Groups or areas it separates (optional)  |
 | `type`      | `wall`, `fence` or `berm`                |
 | `built`     | Year construction started                |
 | `removed`   | Year it was dismantled, or `null`        |
 | `length_km` | Approximate length                       |
+| `owner`     | Who owns or maintains it (optional)      |
+| `initiated_by` | Who initiated it, or `Not documented` (optional) |
+| `initiator_type` | `government`, `other` or `unknown` (optional) |
+| `construction` | Type of construction, e.g. steel bollard fence, concrete wall (optional) |
+| `geometry_quality` | How the line was drawn: `official border`, `approximate` or `placeholder` |
 | `note`      | Short description                        |
 
-The current lines are rough sample approximations. Replace them with researched geometries
-(for example drawn at [geojson.io](https://geojson.io) or exported from QGIS).
+Lines marked `official border` follow the border between the two countries (Natural Earth 50m data),
+only along the stretches where the barrier exists. `approximate` lines are hand-placed and need tracing.
+`placeholder` marks a point geocoded from a street name. Replace approximate and placeholder lines with
+researched geometries (for example drawn at [geojson.io](https://geojson.io) or exported from QGIS).
 
 ## Run locally
 
