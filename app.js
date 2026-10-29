@@ -27,12 +27,20 @@ function dotStyle(color, radius) {
 const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 
 // Base maps (all free, attribution required)
+// Street map: country shapes in the page's own colours. Drawn here, so it carries no names of its own
+const LAND = {
+  light: { sea: "#dbe4ea", fill: "#f2f2ef", stroke: "#bdbdb6" },
+  dark: { sea: "#0f141b", fill: "#2a2a31", stroke: "#4a4a55" },
+};
+const landLayer = L.geoJSON(null, { style: { fillColor: LAND.light.fill, fillOpacity: 1, color: LAND.light.stroke, weight: 0.6 } });
+function applyLandStyle() {
+  const t = document.documentElement.dataset.theme === "dark" ? LAND.dark : LAND.light;
+  landLayer.setStyle({ fillColor: t.fill, color: t.stroke, fillOpacity: 1, weight: 0.6 });
+  map.getContainer().style.background = t.sea;
+}
+
 const baseLayers = {
-  // Streets: a label-free grey canvas, light or dark with the theme (see applyTheme)
-  "Streets": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-    maxZoom: 16,
-    attribution: "Tiles &copy; Esri",
-  }),
+  "Map": landLayer,
   // Shaded relief has no place names, so only the labels on this page appear
   "Terrain": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}", {
     maxZoom: 13,
@@ -43,7 +51,7 @@ const baseLayers = {
     attribution: "Tiles &copy; Esri, Maxar, Earthstar Geographics",
   }),
 };
-baseLayers["Streets"].addTo(map);
+landLayer.addTo(map);
 
 // Scale bar (metric only, as the data is in kilometres)
 L.control.scale({ metric: true, imperial: false }).addTo(map);
@@ -85,19 +93,33 @@ function renderLabels() {
   labelLayer.clearLayers();
   const zoom = map.getZoom();
   const bounds = map.getBounds();
-  // Countries: the largest first; a smaller rank shows at a lower zoom
-  const maxRank = zoom <= 2 ? 1 : zoom <= 3 ? 2 : zoom <= 4 ? 3 : zoom <= 5 ? 4 : 6;
-  for (const c of labelData.countries) {
-    if (c.rank > maxRank || !bounds.contains([c.lat, c.lon])) continue;
-    L.marker([c.lat, c.lon], { icon: labelIcon(c.en, c.native, "country"), interactive: false, keyboard: false }).addTo(labelLayer);
+  // Greedy placement: a label is skipped if its box would overlap one already placed,
+  // so the biggest names win and more appear as you zoom in
+  const placed = [];
+  const showNative = nativeNames.checked;
+  function place(en, native, lat, lon, kind) {
+    const pt = map.latLngToContainerPoint([lat, lon]);
+    const sub = showNative && native && native.toLowerCase() !== en.toLowerCase();
+    const w = en.length * (kind === "country" ? 7.5 : 6.5) + 8;
+    const h = kind === "country" ? (sub ? 30 : 16) : (sub ? 26 : 14);
+    const x = pt.x - w / 2;
+    const y = pt.y - h / 2;
+    if (placed.some((b) => x < b.x + b.w && x + w > b.x && y < b.y + b.h && y + h > b.y)) return;
+    placed.push({ x, y, w, h });
+    L.marker([lat, lon], { icon: labelIcon(en, native, kind), interactive: false, keyboard: false }).addTo(labelLayer);
   }
-  // Places: Natural Earth gives each city the zoom at which it appears
-  // Cities appear from zoom 4, and never repeat a country name
+  // Countries: largest rank first; more ranks are allowed as you zoom in
+  const maxRank = zoom <= 2 ? 2 : zoom <= 3 ? 3 : zoom <= 4 ? 4 : zoom <= 5 ? 5 : 7;
+  const countries = labelData.countries
+    .filter((c) => c.rank <= maxRank && bounds.contains([c.lat, c.lon]))
+    .sort((a, b) => a.rank - b.rank);
+  for (const c of countries) place(c.en, c.native, c.lat, c.lon, "country");
+  // Cities: from zoom 4, most important first, never repeating a country name
   const countryNames = new Set(labelData.countries.map((c) => c.en));
-  for (const p of labelData.places) {
-    if (Math.max(p.min_zoom, 4) > zoom || countryNames.has(p.en) || !bounds.contains([p.lat, p.lon])) continue;
-    L.marker([p.lat, p.lon], { icon: labelIcon(p.en, p.native, "place"), interactive: false, keyboard: false }).addTo(labelLayer);
-  }
+  const cities = labelData.places
+    .filter((p) => Math.max(p.min_zoom, 4) <= zoom && !countryNames.has(p.en) && bounds.contains([p.lat, p.lon]))
+    .sort((a, b) => a.min_zoom - b.min_zoom);
+  for (const p of cities) place(p.en, p.native, p.lat, p.lon, "place");
 }
 map.on("moveend", renderLabels);
 nativeNames.addEventListener("change", renderLabels);
@@ -107,6 +129,8 @@ fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json")
   .then((r) => r.json())
   .then((topo) => {
     const countries = topojson.feature(topo, topo.objects.countries);
+    landLayer.addData(countries);
+    applyLandStyle();
     L.geoJSON(countries, {
       style: { color: "#555", weight: 0.8, fill: false, dashArray: "3 3" },
     }).addTo(bordersLayer);
@@ -268,10 +292,7 @@ const themeToggle = document.getElementById("theme-toggle");
 function applyTheme(mode) {
   document.documentElement.dataset.theme = mode;
   // Night-time map: CARTO dark tiles built on OpenStreetMap data (see the credits in the page note)
-  // The "nolabels" styles have no place names, so the labels here are the only names shown
-  baseLayers["Streets"].setUrl(mode === "dark"
-    ? "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
-    : "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}");
+  applyLandStyle();
   themeToggle.setAttribute("aria-checked", String(mode === "dark"));
   themeToggle.querySelector(".thumb").textContent = mode === "dark" ? "☾" : "☀︎";
 }

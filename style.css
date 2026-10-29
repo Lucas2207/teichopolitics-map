@@ -215,6 +215,12 @@ input:focus-visible {
   color: #444;
   font-size: 0.85em;
 }
+/* Dark map: light labels with a dark halo */
+:root[data-theme="dark"] .label-inner {
+  color: #ececf1;
+  text-shadow: 0 0 3px #17171c, 0 0 3px #17171c, 0 0 2px #17171c;
+}
+:root[data-theme="dark"] .label-inner small { color: #b8b8c2; }
 /* English name above a smaller native name; semi-transparent so the map and walls stay visible */
 .label-inner { opacity: 0.85; }
 .label-en {
