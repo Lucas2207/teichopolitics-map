@@ -70,8 +70,9 @@ fetch("data/labels-countries.json")
   });
 
 function labelIcon(en, native, kind) {
+  // English sits just above the native name, in a smaller, more transparent style
   const sub = native && native !== en ? `<small>${native}</small>` : "";
-  return L.divIcon({ className: `map-label ${kind}`, html: `<span class="label-inner">${en}${sub}</span>`, iconSize: null });
+  return L.divIcon({ className: `map-label ${kind}`, html: `<span class="label-inner"><span class="label-en">${en}</span>${sub}</span>`, iconSize: null });
 }
 
 function renderLabels() {
@@ -252,4 +253,28 @@ document.getElementById("reset").addEventListener("click", () => {
   map.closePopup();
   map.setView([30, 20], 3);
   update();
+});
+
+// Light and dark mode: starts from the system setting, then remembers the user's choice
+const themeToggle = document.getElementById("theme-toggle");
+function applyTheme(mode) {
+  document.documentElement.dataset.theme = mode;
+  themeToggle.setAttribute("aria-checked", String(mode === "dark"));
+  themeToggle.querySelector(".thumb").textContent = mode === "dark" ? "☾" : "☀︎";
+}
+let savedTheme = null;
+try {
+  savedTheme = localStorage.getItem("theme");
+} catch (e) {
+  // Storage can be blocked; the system setting still applies
+}
+applyTheme(savedTheme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+themeToggle.addEventListener("click", () => {
+  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  applyTheme(next);
+  try {
+    localStorage.setItem("theme", next);
+  } catch (e) {
+    // Choice applies for this visit only
+  }
 });
