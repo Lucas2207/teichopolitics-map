@@ -28,15 +28,15 @@ const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 
 // Base maps (all free, attribution required)
 const baseLayers = {
-  // Streets switches to a dark style in dark mode (see applyTheme)
-  "Streets": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    subdomains: "abcd",
-    attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
+  // Streets: a label-free grey canvas, light or dark with the theme (see applyTheme)
+  "Streets": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 16,
+    attribution: "Tiles &copy; Esri",
   }),
-  "Terrain": L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png", {
-    maxZoom: 17,
-    attribution: "&copy; OpenStreetMap contributors, SRTM | &copy; OpenTopoMap (CC-BY-SA)",
+  // Shaded relief has no place names, so only the labels on this page appear
+  "Terrain": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 13,
+    attribution: "Tiles &copy; Esri",
   }),
   "Satellite": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
     maxZoom: 19,
@@ -92,8 +92,10 @@ function renderLabels() {
     L.marker([c.lat, c.lon], { icon: labelIcon(c.en, c.native, "country"), interactive: false, keyboard: false }).addTo(labelLayer);
   }
   // Places: Natural Earth gives each city the zoom at which it appears
+  // Cities appear from zoom 4, and never repeat a country name
+  const countryNames = new Set(labelData.countries.map((c) => c.en));
   for (const p of labelData.places) {
-    if (p.min_zoom > zoom || !bounds.contains([p.lat, p.lon])) continue;
+    if (Math.max(p.min_zoom, 4) > zoom || countryNames.has(p.en) || !bounds.contains([p.lat, p.lon])) continue;
     L.marker([p.lat, p.lon], { icon: labelIcon(p.en, p.native, "place"), interactive: false, keyboard: false }).addTo(labelLayer);
   }
 }
@@ -266,9 +268,10 @@ const themeToggle = document.getElementById("theme-toggle");
 function applyTheme(mode) {
   document.documentElement.dataset.theme = mode;
   // Night-time map: CARTO dark tiles built on OpenStreetMap data (see the credits in the page note)
+  // The "nolabels" styles have no place names, so the labels here are the only names shown
   baseLayers["Streets"].setUrl(mode === "dark"
-    ? "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-    : "https://tile.openstreetmap.org/{z}/{x}/{y}.png");
+    ? "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+    : "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}");
   themeToggle.setAttribute("aria-checked", String(mode === "dark"));
   themeToggle.querySelector(".thumb").textContent = mode === "dark" ? "☾" : "☀︎";
 }
