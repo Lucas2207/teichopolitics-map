@@ -21,6 +21,9 @@ const baseLayers = {
 };
 baseLayers["Streets"].addTo(map);
 
+// Scale bar (metric only, as the data is in kilometres)
+L.control.scale({ metric: true, imperial: false }).addTo(map);
+
 // Overlays
 const barriersLayer = L.layerGroup().addTo(map);
 const bordersLayer = L.layerGroup();
@@ -107,11 +110,13 @@ fetch("data/barriers.geojson")
     const features = data.features.sort((a, b) => (yearKey(a) < yearKey(b) ? -1 : yearKey(a) > yearKey(b) ? 1 : 0));
     for (const feature of features) {
       const p = feature.properties;
+      // Dotted lines mark positions that are not surveyed
+      const approximate = /^(approximate|placeholder)/.test(p.geometry_quality || "");
       const layer = L.geoJSON(feature, {
         style: {
           color: COLORS[p.type] || "#333",
           weight: 4,
-          dashArray: p.type === "berm" ? "8 6" : null,
+          dashArray: approximate ? "2 6" : p.type === "berm" ? "8 6" : null,
         },
       }).bindPopup(popupHtml(p));
 
@@ -156,3 +161,13 @@ playButton.addEventListener("click", () => {
 
 yearInput.addEventListener("input", update);
 searchInput.addEventListener("input", update);
+
+// Undo: back to the present year, no search, the whole world in view
+document.getElementById("reset").addEventListener("click", () => {
+  if (timer) playButton.click();
+  yearInput.value = yearInput.max;
+  searchInput.value = "";
+  map.closePopup();
+  map.setView([30, 20], 3);
+  update();
+});

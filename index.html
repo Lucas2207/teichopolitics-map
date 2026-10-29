@@ -22,13 +22,16 @@
       <div class="range-ends"><span>1945</span><span>2026</span></div>
     </section>
 
-    <section class="stats">
+    <section class="stats" aria-live="polite">
       <div><strong id="stat-count">0</strong><span>barriers standing</span></div>
       <div><strong id="stat-km">0</strong><span>km of barriers</span></div>
     </section>
 
     <section>
-      <input id="search" type="search" placeholder="Search a barrier or country…" aria-label="Search">
+      <div class="search-row">
+        <input id="search" type="search" placeholder="Search a barrier or country…" aria-label="Search">
+        <button id="reset" type="button">Reset</button>
+      </div>
       <ul id="list"></ul>
     </section>
 
@@ -36,9 +39,11 @@
       <div><span class="swatch wall"></span>Wall</div>
       <div><span class="swatch fence"></span>Fence</div>
       <div><span class="swatch berm"></span>Berm / earthwork</div>
+      <div><span class="swatch surveyed"></span>Solid: official border or survey</div>
+      <div><span class="swatch approx"></span>Dotted: approximate position</div>
     </section>
 
-    <p class="note">Sample data with approximate lines. Replace <code>data/barriers.geojson</code> with your research.</p>
+    <p class="note">Data as of October 2026. Sources: Natural Earth (country borders), NISRA and the Northern Ireland Office peacelines dataset (2006), Belfast Interface Project and Peacewall Archive (Belfast interfaces), the Moroccan Western Sahara Wall article and UN maps (Berm), and press and academic reports for the other barriers. Dotted lines are not surveyed; see the popup for each barrier.</p>
   </aside>
 
   <main id="map"></main>
