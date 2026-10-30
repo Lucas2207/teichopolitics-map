@@ -184,6 +184,7 @@ input:focus-visible {
 .swatch.wire { background: #7c3aed; }
 .swatch.earth { background: #7c5c3b; }
 .swatch.unknown { background: #6b6b6b; }
+.swatch.historical { background: #2f6f8f; }
 .swatch.line { background: #444; }
 .swatch.dot {
   width: 10px;

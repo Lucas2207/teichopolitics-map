@@ -7,6 +7,7 @@ const CONSTRUCTION_COLORS = {
   wire: "#7c3aed",     // barbed or razor wire
   earth: "#7c5c3b",    // earthwork, sand berm, trench
   unknown: "#6b6b6b",  // not documented, or mixed
+  historical: "#2f6f8f", // historical walls, no longer used as borders
 };
 
 // Sort a barrier into a construction class from its free-text construction field
@@ -223,15 +224,13 @@ fetch("data/barriers.geojson")
       const p = feature.properties;
       // Area-only barriers (no surveyed line) are a dot at their centre; surveyed ones are a line
       const areaOnly = /^(approximate|placeholder)/.test(p.geometry_quality || "");
-      const color = CONSTRUCTION_COLORS[constructionClass(p)];
+      const color = p.historical ? CONSTRUCTION_COLORS.historical : CONSTRUCTION_COLORS[constructionClass(p)];
       let layer;
       if (areaOnly) {
         layer = L.featureGroup([L.circleMarker(L.geoJSON(feature).getBounds().getCenter(), dotStyle(color, 8))]);
       } else {
-        const line = L.geoJSON(feature, { style: { color, weight: 4 } });
-        layer = L.featureGroup([line]);
-        // Short surveyed barriers are under a pixel at world zoom, so they also get a dot
-        if ((p.length_km || 0) < 25) layer.addLayer(L.circleMarker(line.getBounds().getCenter(), dotStyle(color, 6)));
+        // A surveyed barrier is drawn as its line only; no extra dot
+        layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4 } })]);
       }
       layer.bindPopup(popupHtml(p));
 
