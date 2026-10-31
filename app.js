@@ -28,6 +28,54 @@ function dotStyle(color, radius) {
 const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 
 // Base maps (all free, attribution required)
+// Roads, railways and rivers (Natural Earth, simplified). Major lines load at start; secondary lines load once you zoom past 6
+const NET = {
+  roads: { light: "#9a9a92", dark: "#55555e" },
+  railways: { light: "#6d6d6d", dark: "#9a9aa6" },
+  rivers: { light: "#7fb2d0", dark: "#2f5f7a" },
+};
+const networkLayers = []; // { kind, tier, layer }
+function networkStyle(kind, tier) {
+  const mode = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+  return {
+    color: NET[kind][mode],
+    weight: kind === "rivers" ? (tier === 1 ? 1.6 : 1) : tier === 1 ? 1.4 : 0.9,
+    dashArray: kind === "railways" ? "4 3" : null,
+    opacity: 0.9,
+  };
+}
+function loadNetwork(kind, label, tier) {
+  fetch(`data/networks/${kind}-${label}.json`)
+    .then((r) => r.json())
+    .then((fc) => {
+      const layer = L.geoJSON(fc, { style: () => networkStyle(kind, tier), interactive: false });
+      networkLayer.addLayer(layer);
+      networkLayers.push({ kind, tier, layer });
+    });
+}
+// Walls traced in many pieces (e.g. the Great Wall) show only the pieces long enough for the current zoom
+function refreshPieces(group) {
+  if (!group.pieces) return;
+  const zoom = map.getZoom();
+  const minKm = zoom >= 8 ? 1 : zoom >= 6 ? 5 : 20;
+  group.clearLayers();
+  for (const p of group.pieces) {
+    if (p.km < minKm) continue;
+    if (!p.line) p.line = L.polyline(p.latlngs, group.style);
+    group.addLayer(p.line);
+  }
+}
+map.on("zoomend", () => barriers.forEach((b) => refreshPieces(b.layer)));
+
+let secondaryLoaded = false;
+function loadSecondaryNetworks() {
+  if (secondaryLoaded) return;
+  secondaryLoaded = true;
+  loadNetwork("roads", "secondary", 2);
+  loadNetwork("railways", "secondary", 2);
+  loadNetwork("rivers", "secondary", 2);
+}
+
 // Street map: country shapes in the page's own colours. Drawn here, so it carries no names of its own
 // Shapes that cross the 180° meridian (Russia's far east, Antarctica, Fiji) would be drawn
 // as bands across the whole map. Unwrapping each ring keeps it continuous instead.
@@ -63,6 +111,7 @@ function applyLandStyle() {
   const t = document.documentElement.dataset.theme === "dark" ? LAND.dark : LAND.light;
   landLayer.setStyle({ fillColor: t.fill, color: t.stroke, fillOpacity: 1, weight: 0.6 });
   map.getContainer().style.background = t.sea;
+  networkLayers.forEach(({ kind, tier, layer }) => layer.setStyle(networkStyle(kind, tier)));
 }
 
 const baseLayers = {
@@ -86,9 +135,17 @@ L.control.scale({ metric: true, imperial: false }).addTo(map);
 const barriersLayer = L.layerGroup().addTo(map);
 const bordersLayer = L.layerGroup();
 const labelLayer = L.layerGroup().addTo(map);
+const networkLayer = L.layerGroup().addTo(map);
+loadNetwork("roads", "major", 1);
+loadNetwork("railways", "major", 1);
+loadNetwork("rivers", "major", 1);
+map.on("zoomend", () => {
+  if (map.getZoom() >= 6) loadSecondaryNetworks();
+});
 const layerControl = L.control.layers(baseLayers, {
   "Border barriers": barriersLayer,
   "Country borders": bordersLayer,
+  "Roads, railways and rivers": networkLayer,
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
@@ -254,8 +311,22 @@ fetch("data/barriers.geojson")
       if (areaOnly) {
         layer = L.featureGroup([L.circleMarker(L.geoJSON(feature).getBounds().getCenter(), dotStyle(color, 8))]);
       } else {
-        // A surveyed barrier is drawn as its line only; no extra dot
-        layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4 } })]);
+        const coords = feature.geometry.coordinates;
+        if (feature.geometry.type === "MultiLineString" && coords.length > 1) {
+          // Many pieces: keep each one, and show them by length as you zoom
+          layer = L.featureGroup();
+          layer.style = { color, weight: 4 };
+          layer.pieces = coords.map((c) => {
+            const latlngs = c.map(([lon, lat]) => [lat, lon]);
+            let km = 0;
+            for (let i = 1; i < latlngs.length; i++) km += map.distance(latlngs[i - 1], latlngs[i]) / 1000;
+            return { km, latlngs };
+          });
+          refreshPieces(layer);
+        } else {
+          // A surveyed barrier is drawn as its line only; no extra dot
+          layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4 } })]);
+        }
       }
       layer.bindPopup(popupHtml(p));
 
