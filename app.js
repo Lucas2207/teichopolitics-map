@@ -29,6 +29,31 @@ const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 
 // Base maps (all free, attribution required)
 // Street map: country shapes in the page's own colours. Drawn here, so it carries no names of its own
+// Shapes that cross the 180° meridian (Russia's far east, Antarctica, Fiji) would be drawn
+// as bands across the whole map. Unwrapping each ring keeps it continuous instead.
+function unwrapRing(ring) {
+  const out = [];
+  let shift = 0;
+  let prev = null;
+  for (const [lon, lat] of ring) {
+    if (prev !== null) {
+      if (lon + shift - prev > 180) shift -= 360;
+      else if (lon + shift - prev < -180) shift += 360;
+    }
+    out.push([lon + shift, lat]);
+    prev = lon + shift;
+  }
+  return out;
+}
+function unwrapFeatures(fc) {
+  for (const f of fc.features) {
+    const g = f.geometry;
+    if (g.type === "Polygon") g.coordinates = g.coordinates.map(unwrapRing);
+    if (g.type === "MultiPolygon") g.coordinates = g.coordinates.map((poly) => poly.map(unwrapRing));
+  }
+  return fc;
+}
+
 const LAND = {
   light: { sea: "#dbe4ea", fill: "#f2f2ef", stroke: "#bdbdb6" },
   dark: { sea: "#0f141b", fill: "#2a2a31", stroke: "#4a4a55" },
@@ -129,7 +154,7 @@ nativeNames.addEventListener("change", renderLabels);
 fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json")
   .then((r) => r.json())
   .then((topo) => {
-    const countries = topojson.feature(topo, topo.objects.countries);
+    const countries = unwrapFeatures(topojson.feature(topo, topo.objects.countries));
     landLayer.addData(countries);
     applyLandStyle();
     L.geoJSON(countries, {
