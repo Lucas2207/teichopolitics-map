@@ -263,7 +263,7 @@ function popupHtml(p) {
     ? `<br><small>Sources: ${p.sources.map((u) => `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(", ")}</small>`
     : "";
   return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${typology}${purpose}${term}${cost}${maintenance}${construction}${technology}${contractors}<br>
-    ${period} · ${p.type} · ~${p.length_km} km${quality}<br><em>${p.note || ""}</em>${sources}`;
+    ${period} · ${p.type} · ${p.length_km ? `~${p.length_km} km` : "length not given"}${quality}<br><em>${p.note || ""}</em>${sources}`;
 }
 
 function update() {
