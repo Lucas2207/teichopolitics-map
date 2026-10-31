@@ -86,17 +86,18 @@ function connectorsFor(pieces) {
 // Walls traced in many pieces (e.g. the Great Wall) show only the pieces long enough for the current zoom
 function refreshPieces(group) {
   if (!group.pieces) return;
+  // Every piece stays visible; only the thickness changes with zoom
   const zoom = map.getZoom();
-  const minKm = zoom >= 8 ? 1 : zoom >= 6 ? 5 : 20;
+  const weight = zoom >= 8 ? 4 : zoom >= 6 ? 2.5 : 1.5;
   group.clearLayers();
   for (const p of group.pieces) {
-    if (p.km < minKm) continue;
-    if (!p.line) p.line = L.polyline(p.latlngs, group.style);
+    if (!p.line) p.line = L.polyline(p.latlngs, { ...group.style });
+    p.line.setStyle({ weight });
     group.addLayer(p.line);
   }
   for (const c of group.connectors || []) {
-    if (minKm > c.minKm) continue;
-    if (!c.line) c.line = L.polyline(c.latlngs, { ...group.style, weight: 2, dashArray: "2 6" });
+    if (!c.line) c.line = L.polyline(c.latlngs, { ...group.style, dashArray: "2 6" });
+    c.line.setStyle({ weight: Math.max(1, weight - 1) });
     group.addLayer(c.line);
   }
 }
