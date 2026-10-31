@@ -53,6 +53,36 @@ function loadNetwork(kind, label, tier) {
       networkLayers.push({ kind, tier, layer });
     });
 }
+// Dotted connectors join each piece to its nearest piece within 5 km, so gaps between pieces read as gaps.
+// Skipped for walls with many pieces, to keep the page responsive.
+function connectorsFor(pieces) {
+  if (pieces.length < 2 || pieces.length > 300) return [];
+  const out = [];
+  const seen = new Set();
+  pieces.forEach((a, i) => {
+    const endsA = [a.latlngs[0], a.latlngs[a.latlngs.length - 1]];
+    let best = null;
+    pieces.forEach((b, j) => {
+      if (i === j) return;
+      const endsB = [b.latlngs[0], b.latlngs[b.latlngs.length - 1]];
+      for (const ea of endsA) {
+        for (const eb of endsB) {
+          const d = map.distance(ea, eb) / 1000;
+          if (d > 0.05 && d <= 5 && (!best || d < best.d)) best = { d, from: ea, to: eb, j };
+        }
+      }
+    });
+    if (best) {
+      const key = [i, best.j].sort().join("-");
+      if (!seen.has(key)) {
+        seen.add(key);
+        out.push({ latlngs: [best.from, best.to], minKm: Math.min(a.km, pieces[best.j].km), line: null });
+      }
+    }
+  });
+  return out;
+}
+
 // Walls traced in many pieces (e.g. the Great Wall) show only the pieces long enough for the current zoom
 function refreshPieces(group) {
   if (!group.pieces) return;
@@ -63,6 +93,11 @@ function refreshPieces(group) {
     if (p.km < minKm) continue;
     if (!p.line) p.line = L.polyline(p.latlngs, group.style);
     group.addLayer(p.line);
+  }
+  for (const c of group.connectors || []) {
+    if (minKm > c.minKm) continue;
+    if (!c.line) c.line = L.polyline(c.latlngs, { ...group.style, weight: 2, dashArray: "2 6" });
+    group.addLayer(c.line);
   }
 }
 map.on("zoomend", () => barriers.forEach((b) => refreshPieces(b.layer)));
@@ -322,6 +357,7 @@ fetch("data/barriers.geojson")
             for (let i = 1; i < latlngs.length; i++) km += map.distance(latlngs[i - 1], latlngs[i]) / 1000;
             return { km, latlngs };
           });
+          layer.connectors = connectorsFor(layer.pieces);
           refreshPieces(layer);
         } else {
           // A surveyed barrier is drawn as its line only; no extra dot
