@@ -30,18 +30,18 @@ const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
 // Base maps (all free, attribution required)
 // Roads, railways and rivers (Natural Earth, simplified). Major lines load at start; secondary lines load once you zoom past 6
 const NET = {
-  roads: { light: "#c9c9c1", dark: "#4a4a52" },
-  railways: { light: "#b5b5ad", dark: "#5a5a64" },
-  rivers: { light: "#b7d4e6", dark: "#3a6b86" },
+  roads: { light: "#a3a39a", dark: "#6a6a72" },
+  railways: { light: "#8f8f88", dark: "#7a7a84" },
+  rivers: { light: "#6fa8cc", dark: "#4f88aa" },
 };
 const networkLayers = []; // { kind, tier, layer }
 function networkStyle(kind, tier) {
   const mode = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
   return {
     color: NET[kind][mode],
-    weight: kind === "rivers" ? 0.8 : tier === 1 ? 0.8 : 0.5,
+    weight: kind === "rivers" ? (tier === 1 ? 1.2 : 0.8) : tier === 1 ? 1 : 0.6,
     dashArray: kind === "railways" ? "4 3" : null,
-    opacity: 0.7,
+    opacity: 0.9,
   };
 }
 function loadNetwork(kind, label, tier) {
@@ -51,7 +51,7 @@ function loadNetwork(kind, label, tier) {
       const layer = L.geoJSON(fc, { style: () => networkStyle(kind, tier), interactive: false, pane: "networks" });
       networkLayer.addLayer(layer);
       networkLayers.push({ kind, tier, layer });
-      layer.setStyle({ opacity: map.getZoom() >= (tier === 1 ? 5 : 7) ? 0.7 : 0 });
+      layer.setStyle({ opacity: map.getZoom() >= (tier === 1 ? 5 : 7) ? 0.9 : 0 });
     });
 }
 // Dotted connectors join each piece to its nearest piece within 5 km, so gaps between pieces read as gaps.
@@ -184,7 +184,7 @@ map.on("zoomend", () => {
   // Roads, railways and rivers come after the borders and walls: major from zoom 5, secondary from zoom 7
   networkLayers.forEach(({ tier, layer }) => {
     const show = map.getZoom() >= (tier === 1 ? 5 : 7);
-    layer.setStyle({ opacity: show ? 0.7 : 0 });
+    layer.setStyle({ opacity: show ? 0.9 : 0 });
   });
 });
 const layerControl = L.control.layers(baseLayers, {
@@ -203,8 +203,12 @@ fetch("data/labels-countries.json")
     fetch("data/labels-places.json")
       .then((r) => r.json())
       .then((places) => {
-        labelData = { countries, places };
-        renderLabels();
+        fetch("data/labels-natural.json")
+          .then((r) => r.json())
+          .then((natural) => {
+            labelData = { countries, places, natural };
+            renderLabels();
+          });
       });
   });
 
@@ -242,12 +246,18 @@ function renderLabels() {
     .filter((c) => c.rank <= maxRank && bounds.contains([c.lat, c.lon]))
     .sort((a, b) => a.rank - b.rank);
   for (const c of countries) place(c.en, c.native, c.lat, c.lon, "country");
+  // Rivers and mountains (serif, natural features): after the countries, before the cities
+  for (const n of labelData.natural || []) {
+    if (!bounds.contains([n.lat, n.lon])) continue;
+    const need = n.kind === "river" ? (n.tier === 1 ? 5 : 7) : (n.tier === 1 ? 4 : 6);
+    if (zoom >= need) place(n.en, "", n.lat, n.lon, n.kind);
+  }
   // Cities: from zoom 4, most important first, never repeating a country name
   const countryNames = new Set(labelData.countries.map((c) => c.en));
   const cities = labelData.places
     .filter((p) => Math.max(p.min_zoom, 4) <= zoom && !countryNames.has(p.en) && bounds.contains([p.lat, p.lon]))
     .sort((a, b) => a.min_zoom - b.min_zoom);
-  for (const p of cities) place(p.en, p.native, p.lat, p.lon, "place");
+  for (const p of cities) place(p.en, p.native, p.lat, p.lon, p.cap ? "capital" : "place");
 }
 map.on("moveend", renderLabels);
 nativeNames.addEventListener("change", renderLabels);
@@ -260,7 +270,7 @@ fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json")
     landLayer.addData(countries);
     applyLandStyle();
     L.geoJSON(countries, {
-      style: { color: "#3a3a3a", weight: 1.2, fill: false },
+      style: { color: "#3a3a3a", weight: 1.2, fill: false, dashArray: "6 4" },
     }).addTo(bordersLayer);
   });
 

@@ -216,6 +216,18 @@ input:focus-visible {
   color: #444;
   font-size: 0.85em;
 }
+/* Natural features: serif, rivers in italic blue (water), mountains in brown */
+.map-label.river .label-inner,
+.map-label.mountain .label-inner {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+.map-label.river .label-inner { font-style: italic; color: #2f5f7a; }
+.map-label.mountain .label-inner { color: #5a4a3a; letter-spacing: 0.04em; }
+:root[data-theme="dark"] .map-label.river .label-inner { color: #9cc7e2; }
+:root[data-theme="dark"] .map-label.mountain .label-inner { color: #cdbca6; }
+
 /* Dark map: light labels with a dark halo */
 :root[data-theme="dark"] .label-inner {
   color: #ececf1;
@@ -223,19 +235,20 @@ input:focus-visible {
 }
 :root[data-theme="dark"] .label-inner small { color: #b8b8c2; }
 /* English name above a smaller native name; semi-transparent so the map and walls stay visible */
-.label-inner { opacity: 0.85; }
-.label-en {
-  display: block;
-  font-size: 9px;
-  font-weight: 500;
+.label-inner { opacity: 0.9; }
+/* Hierarchy: countries largest and uppercase; capitals next; other cities smallest, in sentence case */
+.label-en { display: block; }
+.map-label.country .label-en {
+  font-size: 12px;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  opacity: 0.7;
 }
-.map-label.country .label-inner { font-size: 12px; }
-.map-label.place .label-inner { font-size: 11px; }
+.map-label.capital .label-inner { font-size: 11px; font-weight: 600; }
+.map-label.place .label-inner { font-size: 9.5px; font-weight: 400; }
 .map-label.country .label-inner small,
-.map-label.place .label-inner small { font-size: 0.9em; }
+.map-label.capital .label-inner small,
+.map-label.place .label-inner small { font-size: 0.85em; font-weight: 400; }
 
 /* Dark mode for the panel: follows the system setting until the user picks one with the switch */
 @media (prefers-color-scheme: dark) {
