@@ -305,7 +305,7 @@ function popupHtml(p) {
   const term = p.term_note ? `<br>Term: ${p.term_note}` : "";
   const contractors = p.contractors ? `<br>Contractors: ${p.contractors}` : "";
   const sources = (p.sources || []).length
-    ? `<br><small>Sources: ${p.sources.map((u) => `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`).join(", ")}</small>`
+    ? `<br><small>Sources: ${p.sources.map((u) => (/^https?:\/\//.test(u) ? `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>` : u)).join(", ")}</small>`
     : "";
   return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${typology}${purpose}${term}${cost}${maintenance}${construction}${technology}${contractors}<br>
     ${period} · ${p.type} · ${p.length_km ? `~${p.length_km} km` : "length not given"}${quality}<br><em>${p.note || ""}</em>${sources}`;
