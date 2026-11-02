@@ -41,6 +41,16 @@ only along the stretches where the barrier exists. `approximate` barriers are pl
 `placeholder` marks a point geocoded from a street name, also shown as a dot. Replace approximate and placeholder lines with
 researched geometries (for example drawn at [geojson.io](https://geojson.io) or exported from QGIS).
 
+## Cartographic conventions
+
+The map follows common cartographic conventions, described in Esri's article [Cartographic conventions](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/cartographic-conventions) (the article is not reproduced here):
+
+- Borders are dashed, since they are not physical features; walls are solid.
+- Water is blue (rivers and the sea), and rivers are labelled in italic.
+- Natural features (rivers, mountains) use a serif face; cultural names use a sans-serif face.
+- One font family per kind of feature, with a minimum label size of about 8 px.
+- North is at the top.
+
 ## Run locally
 
 ```bash
