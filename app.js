@@ -299,26 +299,36 @@ function isStanding(props, year) {
 }
 
 function popupHtml(p) {
+  // Fact sheet: every section always shows, and gaps read "Not documented" so sheets compare
+  const or = (v, fallback = "Not documented") => (v ? v : fallback);
   const period = p.built == null
-    ? "date unknown"
-    : `${formatYear(p.built)}–${p.removed ? formatYear(p.removed) : "present"}`;
-  const separates = p.separates ? `<br>Separates: ${p.separates}` : "";
-  const owner = p.owner ? `<br>Owner: ${p.owner}` : "";
-  const initiator = p.initiated_by ? `<br>Initiated by: ${p.initiated_by} (${p.initiator_type || "unknown"})` : "";
-  const cost = p.cost ? `<br>Cost: ${p.cost}` : "";
-  const maintenance = p.maintenance_cost ? `<br>Maintenance: ${p.maintenance_cost}` : "";
-  const technology = p.security_technology ? `<br>Security technology: ${p.security_technology}` : "";
-  const construction = p.construction ? `<br>Construction: ${p.construction}` : "";
-  const quality = p.geometry_quality ? `<br><small>Line: ${p.geometry_quality}</small>` : "";
-  const typology = p.typology ? `<br>Typology (Ballif & Rosière 2009): ${p.typology}` : "";
-  const purpose = p.purpose ? `<br>Stated purpose: ${p.purpose}` : "";
-  const term = p.term_note ? `<br>Term: ${p.term_note}` : "";
-  const contractors = p.contractors ? `<br>Contractors: ${p.contractors}` : "";
+    ? "Date unknown"
+    : `${formatYear(p.built)} – ${p.removed ? formatYear(p.removed) : "present"}`;
+  const length = p.length_km ? `About ${p.length_km} km` : "Length not given";
+  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const sources = (p.sources || []).length
-    ? `<br><small>Sources: ${p.sources.map((u) => (/^https?:\/\//.test(u) ? `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>` : u)).join(", ")}</small>`
-    : "";
-  return `<strong>${p.name}</strong><br>${p.countries}${separates}${owner}${initiator}${typology}${purpose}${term}${cost}${maintenance}${construction}${technology}${contractors}<br>
-    ${period} · ${p.type} · ${p.length_km ? `~${p.length_km} km` : "length not given"}${quality}<br><em>${p.note || ""}</em>${sources}`;
+    ? (p.sources || []).map((u) => (/^https?:\/\//.test(u) ? `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>` : u)).join(", ")
+    : "Not documented";
+  return `<div class="fiche">
+    <div class="fiche-title">${p.name}</div>
+    <dl>
+      ${row("Location", `${or(p.countries)}${p.separates ? ` · separates ${p.separates}` : ""}`)}
+      ${row("Type", `${or(p.type)}${p.typology ? ` · ${p.typology} (Ballif & Rosière 2009)` : ""}`)}
+      ${row("Length", `${length}${p.geometry_quality ? ` · line: ${p.geometry_quality}` : ""}`)}
+      ${row("Years of construction", `${period}${p.phases ? ` · ${p.phases}` : ""}`)}
+      ${row("Initiator and owner", `${or(p.initiated_by)}${p.owner ? ` · owner: ${p.owner}` : ""}`)}
+      ${row("Funded by", or(p.funded_by))}
+      ${row("Cost", or(p.cost, "Unknown (no source found)"))}
+      ${row("Maintenance and annual budget", or(p.maintenance_cost, "Unknown"))}
+      ${row("Additional equipment", or(p.security_technology))}
+      ${row("Gates and crossing points", or(p.gates))}
+      ${row("Construction", or(p.construction))}
+      ${row("Stated purpose", or(p.purpose))}
+      ${row("Status", or(p.term_note, "No term or removal recorded"))}
+      ${row("Notes", or(p.note, "None"))}
+      ${row("Sources", sources)}
+    </dl>
+  </div>`;
 }
 
 function update() {

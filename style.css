@@ -342,3 +342,26 @@ input:focus-visible {
     padding: 16px;
   }
 }
+
+/* Fact sheet in the map popup: large bold title, small bold section labels */
+.fiche { min-width: 240px; max-width: 320px; }
+.fiche-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+.fiche dl { margin: 0; }
+.fiche dt {
+  margin-top: 8px;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #666;
+}
+.fiche dd {
+  margin: 1px 0 0;
+  font-size: 12.5px;
+  line-height: 1.4;
+}
