@@ -324,7 +324,7 @@ function popupHtml(p) {
       ${row("Gates and crossing points", or(p.gates))}
       ${row("Construction", or(p.construction))}
       ${row("Stated purpose", or(p.purpose))}
-      ${row("Status", or(p.term_note, "No term or removal recorded"))}
+      ${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}
       ${row("Notes", or(p.note, "None"))}
       ${row("Sources", sources)}
     </dl>
@@ -380,7 +380,7 @@ fetch("data/barriers.geojson")
         if (feature.geometry.type === "MultiLineString" && coords.length > 1) {
           // Many pieces: keep each one, and show them by length as you zoom
           layer = L.featureGroup();
-          layer.style = { color, weight: 4 };
+          layer.style = { color, weight: 4, dashArray: p.status ? "2 6" : null };
           layer.pieces = coords.map((c) => {
             const latlngs = c.map(([lon, lat]) => [lat, lon]);
             let km = 0;
@@ -391,7 +391,8 @@ fetch("data/barriers.geojson")
           refreshPieces(layer);
         } else {
           // A surveyed barrier is drawn as its line only; no extra dot
-          layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4 } })]);
+          // Planned or under-construction sections are dotted
+          layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4, dashArray: p.status ? "2 6" : null } })]);
         }
       }
       layer.bindPopup(popupHtml(p));
