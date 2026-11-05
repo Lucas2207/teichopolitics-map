@@ -299,35 +299,41 @@ function isStanding(props, year) {
 }
 
 function popupHtml(p) {
-  // Fact sheet: every section always shows, and gaps read "Not documented" so sheets compare
+  // Summary first; detail sections open with an arrow (native <details>)
   const or = (v, fallback = "Not documented") => (v ? v : fallback);
   const period = p.built == null
     ? "Date unknown"
     : `${formatYear(p.built)} – ${p.removed ? formatYear(p.removed) : "present"}`;
   const length = p.length_km ? `About ${p.length_km} km` : "Length not given";
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
-  const sources = (p.sources || []).length
-    ? (p.sources || []).map((u) => (/^https?:\/\//.test(u) ? `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>` : u)).join(", ")
+  const section = (title, rows, open = false) => `<details${open ? " open" : ""}>
+      <summary>${title}</summary>
+      <dl>${rows}</dl>
+    </details>`;
+  const refs = (p.sources || []).length
+    ? `<ol class="refs">${(p.sources || []).map((r) => `<li>${r}</li>`).join("")}</ol>`
     : "Not documented";
+  const cite = p.cite ? `<p class="cite">In-text: ${p.cite}</p>` : "";
   return `<div class="fiche">
     <div class="fiche-title">${p.name}</div>
-    <dl>
+    <dl class="summary">
       ${row("Location", `${or(p.countries)}${p.separates ? ` · separates ${p.separates}` : ""}`)}
-      ${row("Type", `${or(p.type)}${p.typology ? ` · ${p.typology} (Ballif & Rosière 2009)` : ""}`)}
-      ${row("Length", `${length}${p.geometry_quality ? ` · line: ${p.geometry_quality}` : ""}`)}
-      ${row("Years of construction", `${period}${p.phases ? ` · ${p.phases}` : ""}`)}
+      ${row("Type", `${or(p.type)}${p.typology ? ` · ${p.typology}` : ""}`)}
+      ${row("Length", `${length}`)}
+      ${row("Years", period)}
       ${row("Initiator and owner", `${or(p.initiated_by)}${p.owner ? ` · owner: ${p.owner}` : ""}`)}
-      ${row("Funded by", or(p.funded_by))}
-      ${row("Cost", or(p.cost, "Unknown (no source found)"))}
-      ${row("Maintenance and annual budget", or(p.maintenance_cost, "Unknown"))}
-      ${row("Additional equipment", or(p.security_technology))}
-      ${row("Gates and crossing points", or(p.gates))}
-      ${row("Construction", or(p.construction))}
-      ${row("Stated purpose", or(p.purpose))}
-      ${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}
-      ${row("Notes", or(p.note, "None"))}
-      ${row("Sources", sources)}
+      ${row("Cost", or(p.cost, "Unknown"))}
     </dl>
+    ${section("Funding and budget", `${row("Funded by", or(p.funded_by))}${row("Maintenance and annual budget", or(p.maintenance_cost, "Unknown"))}`)}
+    ${section("Security equipment and gates", `${row("Additional equipment", or(p.security_technology))}${row("Gates and crossing points", or(p.gates))}`)}
+    ${section("Construction", `${row("Construction", or(p.construction))}${p.phases ? row("Phases", p.phases) : ""}${p.geometry_quality ? row("Line", p.geometry_quality) : ""}`)}
+    ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
+    ${section("Notes", row("Notes", or(p.note, "None")))}
+    <details class="refs-box">
+      <summary>References (Harvard)</summary>
+      ${cite}
+      ${refs}
+    </details>
   </div>`;
 }
 
