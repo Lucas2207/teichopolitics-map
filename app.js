@@ -158,10 +158,12 @@ const baseLayers = {
   // Shaded relief has no place names, so only the labels on this page appear
   "Terrain": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}", {
     maxZoom: 13,
+    className: "terrain-tiles",
     attribution: "Tiles &copy; Esri",
   }),
   "Satellite": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
     maxZoom: 19,
+    className: "satellite-tiles",
     attribution: "Tiles &copy; Esri, Maxar, Earthstar Geographics",
   }),
 };
@@ -608,7 +610,7 @@ document.getElementById("reset").addEventListener("click", () => {
 const themeToggle = document.getElementById("theme-toggle");
 function applyTheme(mode) {
   document.documentElement.dataset.theme = mode;
-  // Night-time map: CARTO dark tiles built on OpenStreetMap data (see the credits in the page note)
+  // Night-time map: the land layer is recoloured here; terrain and satellite tiles are darkened in style.css
   applyLandStyle();
   themeToggle.setAttribute("aria-checked", String(mode === "dark"));
   themeToggle.querySelector(".thumb").textContent = mode === "dark" ? "☾" : "☀︎";

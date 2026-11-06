@@ -519,7 +519,12 @@ input:focus-visible {
 @media (max-width: 700px), (max-height: 500px) {
   .map-legend { max-width: 190px; font-size: 10px; }
 }
-.map-legend div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+.map-legend .legend-body { display: block; }
+.map-legend .legend-body > div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+
+/* Night-time map: the terrain and satellite tiles are darkened in dark mode */
+:root[data-theme="dark"] .terrain-tiles { filter: invert(1) hue-rotate(180deg) brightness(0.8) contrast(0.95) saturate(0.6); }
+:root[data-theme="dark"] .satellite-tiles { filter: brightness(0.7); }
 .map-legend .swatch { flex-shrink: 0; }
 .swatch.dotted { height: 0; background: none; border-top: 3px dotted #444; }
 .swatch.border { height: 0; background: none; border-top: 2px dashed #3a3a3a; }
