@@ -525,6 +525,10 @@ input:focus-visible {
   .map-legend { max-width: 190px; font-size: 10px; }
 }
 .map-legend .legend-body { display: block; }
+.map-legend .legend-body > .legend-dep { display: block; }
+.map-legend .legend-body > .legend-dep[hidden] { display: none; }
+.map-legend .legend-body .legend-dep > div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+.swatch.fill { width: 14px; height: 10px; border: 1px solid rgba(0, 0, 0, 0.2); }
 .map-legend .legend-body > div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
 
 /* Night-time map: the terrain and satellite tiles are darkened in dark mode */

@@ -68,4 +68,9 @@ Traced walls:
 - US–Mexico fence: Reveal from The Center for Investigative Reporting and OpenStreetMap contributors, [border_fence_map](https://github.com/cirlabs/border_fence_map) (2017), linked to [revealnews.org/wall](https://www.revealnews.org/wall/). Licensed under the [Open Database License](https://opendatacommons.org/licenses/odbl/1.0/).
 - Hadrian's Wall: Murphy, K., Turner, A. and Collins, R. (2024) *WallGIS* [data-set], Archaeology Data Service, [doi:10.5284/1100071](https://doi.org/10.5284/1100071), CC BY 4.0. The curtain-wall line was converted from British National Grid (EPSG:27700) to WGS84.
 - West Bank barrier: OCHA oPt, [West Bank Separation Barrier, January 2018](https://data.humdata.org/dataset/west-bank-barrier) (HDX, CC BY). This is still the newest public release.
-- Other traced walls: OpenStreetMap contributors (ODbL).
+- Other traced walls: OpenStreetMap contributors (ODbL), including the privately built walls at Sunland Park and Mission (2019–2020).
+
+Context layers and city data:
+
+- Deprivation around the peace walls ([`data/ni-deprivation.json`](data/ni-deprivation.json)): NISRA, [Northern Ireland Multiple Deprivation Measure 2017, Small Area results](https://www.nisra.gov.uk/publications/nimdm17-sa-level-results), joined to the [Small Area boundaries](https://www.nisra.gov.uk/publications/small-area-boundaries-gis-format) (converted from Irish Grid to WGS84 and simplified). This covers the 1,112 small areas within 2.5 km of a peace wall. Open Government Licence.
+- City census data ([`data/city-census.json`](data/city-census.json)): NISRA Census 2021 (settlements), U.S. Census Bureau QuickFacts, INEGI Censo 2020 (ITER, municipal totals) and HCP RGPH 2024 (legal population by commune). Records with `lat`/`lon` only apply to the city of that name within 60 km.

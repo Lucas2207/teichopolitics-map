@@ -170,6 +170,19 @@ const baseLayers = {
 baseLayers["Terrain"].addTo(map);
 
 // Legend on the map: what the colours and line styles mean
+// Deprivation by small area (NISRA, NIMDM 2017): classes by national decile of the overall rank (1 = most deprived)
+const DEP_CLASSES = [
+  { max: 1, color: "#67001f", label: "Most deprived 10% of Northern Ireland" },
+  { max: 2, color: "#b2182b", label: "10–20%" },
+  { max: 4, color: "#e0785f", label: "20–40%" },
+  { max: 7, color: "#f4c9a8", label: "40–70%" },
+  { max: 10, color: "#f7f1e8", label: "Least deprived 30%" },
+];
+const SA_COUNT = 4537;
+function depClass(rank) {
+  const decile = Math.min(10, Math.ceil((rank / SA_COUNT) * 10));
+  return DEP_CLASSES.find((c) => decile <= c.max);
+}
 const legend = L.control({ position: "bottomleft" });
 legend.onAdd = () => {
   const div = L.DomUtil.create("div", "map-legend" + (SMALL_SCREEN ? " collapsed" : ""));
@@ -188,6 +201,10 @@ legend.onAdd = () => {
     <div><span class="swatch dotted"></span>Dotted: planned, under construction, or a gap between traced pieces</div>
     <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
     <div><span class="swatch border"></span>Dashed: official country border</div>
+    <div class="legend-dep" hidden>
+      <p class="legend-title">Deprivation, Northern Ireland (2017)</p>
+      ${DEP_CLASSES.map((c) => `<div><span class="swatch fill" style="background:${c.color}"></span>${c.label}</div>`).join("")}
+    </div>
     </div>`;
   const toggle = div.querySelector(".legend-toggle");
   toggle.addEventListener("click", () => {
@@ -235,11 +252,54 @@ map.on("zoomend", () => {
     layer.setStyle({ opacity: show ? 0.9 : 0 });
   });
 });
+// Deprivation around the peace walls (Belfast, Derry, Lurgan, Portadown): off by default, loaded when switched on
+map.createPane("context");
+map.getPane("context").style.zIndex = 370;
+const depLayer = L.layerGroup();
+let depLoaded = false;
+function depCardHtml(p) {
+  const c = depClass(p.mdm);
+  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
+  return `<div class="fiche">
+    <div class="fiche-title">${p.area.replace(/_/g, " ")} · small area ${p.sa}</div>
+    <dl>
+      ${row("Council area", p.lgd)}
+      ${row("Overall deprivation", `Rank ${p.mdm.toLocaleString("en")} of ${SA_COUNT.toLocaleString("en")} (1 = most deprived): ${c.label.toLowerCase()}`)}
+      ${row("Low income", `${p.low_income_pct}% of residents live in households below 60% of the Northern Ireland median income (income rank ${p.inc_rank.toLocaleString("en")})`)}
+      ${row("Employment deprivation", `${p.emp_deprived_pct}% of working-age residents are employment deprived (employment rank ${p.emp_rank.toLocaleString("en")})`)}
+    </dl>
+    <p class="cite">Most indicators relate to 2015/16. In-text: (NISRA, 2017)</p>
+    <p class="cite">References: NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: Small Area level results. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/publications/nimdm17-sa-level-results (Accessed: 6 November 2026). NISRA (2013) Small Area boundaries in GIS format. Available at: https://www.nisra.gov.uk/publications/small-area-boundaries-gis-format (Accessed: 6 November 2026).</p>
+  </div>`;
+}
+map.on("overlayadd", (e) => {
+  if (e.layer !== depLayer) return;
+  document.querySelector(".legend-dep").hidden = false;
+  if (depLoaded) return;
+  depLoaded = true;
+  fetch("data/ni-deprivation.json")
+    .then((r) => r.json())
+    .then((fc) => {
+      L.geoJSON(fc, {
+        pane: "context",
+        style: (f) => ({ fillColor: depClass(f.properties.mdm).color, fillOpacity: 0.6, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
+        onEachFeature: (f, lyr) => lyr.on("click", (ev) => {
+          L.DomEvent.stopPropagation(ev);
+          showInfoCard(depCardHtml(f.properties));
+        }),
+      }).addTo(depLayer);
+    });
+});
+map.on("overlayremove", (e) => {
+  if (e.layer === depLayer) document.querySelector(".legend-dep").hidden = true;
+});
+
 const layerControl = L.control.layers(baseLayers, {
   "Border barriers": barriersLayer,
   "Country borders": bordersLayer,
   "Roads, railways and rivers": networkLayer,
   "Place names": labelLayer,
+  "Deprivation around Northern Ireland's peace walls (2017)": depLayer,
 }, { collapsed: false }).addTo(map);
 
 // The layer box folds into a small "Layers" button, like the legend (folded by default on phones)
@@ -334,16 +394,20 @@ function labelIcon(en, native, kind) {
 
 // City popup: population and census details, from data/city-census.json where available
 function cityPopupHtml(en, meta) {
-  const c = (labelData && labelData.census && labelData.census[en]) || null;
-  const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (Natural Earth estimate)` : "Not documented";
+  let c = (labelData && labelData.census && labelData.census[en]) || null;
+  // Records with coordinates only apply to the city of that name within 60 km (several places share a name)
+  if (c && c.lat != null && Math.hypot((c.lon - meta.lon) * Math.cos((meta.lat * Math.PI) / 180), c.lat - meta.lat) * 111 > 60) c = null;
+  const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (GeoNames or Natural Earth estimate)` : "Not documented";
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const census = c
-    ? `${row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}`)}
+    ? `${row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`)}
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
+       ${c.economy ? row("Income and employment", c.economy) : ""}
        ${c.cite ? `<dt>Source</dt><dd>${c.cite}</dd>` : ""}`
     : row("Census", "No census data added yet for this city");
+  const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
     <dl>
@@ -352,8 +416,15 @@ function cityPopupHtml(en, meta) {
       ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
       ${census}
     </dl>
-    <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)</p>
-    <p class="cite">References: GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026). Natural Earth (n.d.) Urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).</p>
+    <details>
+      <summary>References (Harvard)</summary>
+      <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)${c && c.cite ? "; " + c.cite : ""}</p>
+      <ol class="refs">
+        <li>GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026).</li>
+        <li>Natural Earth (n.d.) Populated places and urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).</li>
+        ${censusRefs}
+      </ol>
+    </details>
   </div>`;
 }
 

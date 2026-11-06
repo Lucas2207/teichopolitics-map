@@ -1,11 +1,19 @@
 {
  "Belfast": {
+  "lat": 54.6,
+  "lon": -5.93,
+  "area_note": "Belfast City (census settlement)",
   "census_year": 2021,
-  "population": 345418,
-  "ethnic": "Just under 10% of residents born outside the British Isles (2021 census, per Wikipedia).",
-  "language": "Not documented in the source fetched.",
-  "religion": "Not documented in the source fetched (Catholic and Protestant communities mentioned, without census figures).",
-  "cite": "(Wikipedia, n.d.)"
+  "population": 293298,
+  "ethnic": "White 92.2%. National identity: Irish only 34.3%, British only 27.0%, Northern Irish only 16.6%.",
+  "language": "Some ability in Irish: 15.4% of residents aged 3+.",
+  "religion": "Catholic 42.5%, Presbyterian 12.4%, Church of Ireland 8.6%, Methodist 2.8%, other Christian 6.0%, other religions 3.3%, no religion 22.3%. Religion or religion brought up in (community background): Catholic 47.9%, Protestant and other Christian 36.5%, other 3.7%, none 12.0%.",
+  "economy": "Unemployed: 4.9% of the economically active population aged 16+; long-term sick or disabled: 9.7% of residents aged 16+ (2021). Deprivation and the peace walls: of Belfast's small areas within 300 m of a peace wall, 56% are among Northern Ireland's 10% most deprived, against 25% at 300 m–1 km and 7% beyond 1 km (own calculation from NISRA, 2017; most indicators 2015/16). Median share of residents on low income: 16% near a wall, 9% beyond 1 km.",
+  "sources": [
+   "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026).",
+   "NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: Small Area level results. Available at: https://www.nisra.gov.uk/publications/nimdm17-sa-level-results (Accessed: 6 November 2026)."
+  ],
+  "cite": "(NISRA, 2022–2023); (NISRA, 2017)"
  },
  "Calais": {
   "census_year": 2023,
@@ -62,5 +70,330 @@
   "language": "Not documented in the source fetched.",
   "religion": "Not documented in the source fetched.",
   "cite": "(Wikipedia, n.d.)"
+ },
+ "San Diego": {
+  "lat": 32.72,
+  "lon": -117.16,
+  "area_note": "San Diego city, California (city limits)",
+  "census_year": 2020,
+  "population": 1386932,
+  "ethnic": "Hispanic or Latino 29.8%; White, not Hispanic 40.9%; Asian 17.6%. Foreign-born: 25.1% (2020–2024).",
+  "language": "Language other than English spoken at home: 39.0% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $57,083 (2024 dollars); 11.0% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: San Diego city, California. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Yuma": {
+  "lat": 32.69,
+  "lon": -114.62,
+  "area_note": "Yuma city, Arizona (city limits)",
+  "census_year": 2020,
+  "population": 95548,
+  "ethnic": "Hispanic or Latino 60.8%; White, not Hispanic 31.2%. Foreign-born: 19.5% (2020–2024).",
+  "language": "Language other than English spoken at home: 47.2% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $33,951 (2024 dollars); 15.5% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: Yuma city, Arizona. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "El Paso": {
+  "lat": 31.76,
+  "lon": -106.49,
+  "area_note": "El Paso city, Texas (city limits)",
+  "census_year": 2020,
+  "population": 678815,
+  "ethnic": "Hispanic or Latino 81.2%; White, not Hispanic 12.0%. Foreign-born: 22.4% (2020–2024).",
+  "language": "Language other than English spoken at home: 65.9% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $29,956 (2024 dollars); 18.4% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: El Paso city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Laredo": {
+  "lat": 27.53,
+  "lon": -99.49,
+  "area_note": "Laredo city, Texas (city limits)",
+  "census_year": 2020,
+  "population": 255205,
+  "ethnic": "Hispanic or Latino 95.1%; White, not Hispanic 3.4%. Foreign-born: 25.1% (2020–2024).",
+  "language": "Language other than English spoken at home: 86.8% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $25,161 (2024 dollars); 20.9% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: Laredo city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Brownsville": {
+  "lat": 25.9,
+  "lon": -97.5,
+  "area_note": "Brownsville city, Texas (city limits)",
+  "census_year": 2020,
+  "population": 186738,
+  "ethnic": "Hispanic or Latino 94.0%; White, not Hispanic 4.4%. Foreign-born: 27.5% (2020–2024).",
+  "language": "Language other than English spoken at home: 83.6% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $22,512 (2024 dollars); 23.7% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: Brownsville city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "McAllen": {
+  "lat": 26.2,
+  "lon": -98.23,
+  "area_note": "McAllen city, Texas (city limits)",
+  "census_year": 2020,
+  "population": 142210,
+  "ethnic": "Hispanic or Latino 87.0%; White, not Hispanic 8.5%. Foreign-born: 26.2% (2020–2024).",
+  "language": "Language other than English spoken at home: 73.7% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $30,885 (2024 dollars); 20.0% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: McAllen city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Tijuana": {
+  "lat": 32.53,
+  "lon": -117.04,
+  "area_note": "Tijuana municipality, Baja California",
+  "census_year": 2020,
+  "population": 1922523,
+  "ethnic": "Born in another Mexican state: 44.3% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.7% of people aged 3+.",
+  "religion": "Catholic 62.5%; Protestant or evangelical 15.7%; no religion 21.0%.",
+  "economy": "Unemployment at the census: 1.2% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Mexicali": {
+  "lat": 32.62,
+  "lon": -115.45,
+  "area_note": "Mexicali municipality, Baja California",
+  "census_year": 2020,
+  "population": 1049792,
+  "ethnic": "Born in another Mexican state: 28.8% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
+  "religion": "Catholic 66.0%; Protestant or evangelical 14.1%; no religion 19.4%.",
+  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Nogales": {
+  "lat": 31.31,
+  "lon": -110.94,
+  "area_note": "Nogales municipality, Sonora",
+  "census_year": 2020,
+  "population": 264782,
+  "ethnic": "Born in another Mexican state: 24.8% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.8% of people aged 3+.",
+  "religion": "Catholic 67.2%; Protestant or evangelical 14.9%; no religion 17.5%.",
+  "economy": "Unemployment at the census: 1.7% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Ciudad Juárez": {
+  "lat": 31.69,
+  "lon": -106.42,
+  "area_note": "Juárez municipality, Chihuahua",
+  "census_year": 2020,
+  "population": 1512450,
+  "ethnic": "Born in another Mexican state: 27.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
+  "religion": "Catholic 65.5%; Protestant or evangelical 14.3%; no religion 19.5%.",
+  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Nuevo Laredo": {
+  "lat": 27.48,
+  "lon": -99.51,
+  "area_note": "Nuevo Laredo municipality, Tamaulipas",
+  "census_year": 2020,
+  "population": 425058,
+  "ethnic": "Born in another Mexican state: 29.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.4% of people aged 3+.",
+  "religion": "Catholic 69.1%; Protestant or evangelical 17.0%; no religion 13.5%.",
+  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Reynosa": {
+  "lat": 26.08,
+  "lon": -98.29,
+  "area_note": "Reynosa municipality, Tamaulipas",
+  "census_year": 2020,
+  "population": 704767,
+  "ethnic": "Born in another Mexican state: 32.9% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.9% of people aged 3+.",
+  "religion": "Catholic 60.9%; Protestant or evangelical 18.3%; no religion 20.1%.",
+  "economy": "Unemployment at the census: 1.5% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Matamoros": {
+  "lat": 25.87,
+  "lon": -97.5,
+  "area_note": "Matamoros municipality, Tamaulipas",
+  "census_year": 2020,
+  "population": 541979,
+  "ethnic": "Born in another Mexican state: 20.5% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.8% of people aged 3+.",
+  "religion": "Catholic 62.1%; Protestant or evangelical 20.7%; no religion 16.9%.",
+  "economy": "Unemployment at the census: 2.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Derry": {
+  "lat": 54.99,
+  "lon": -7.32,
+  "area_note": "Derry City (census settlement)",
+  "census_year": 2021,
+  "population": 85277,
+  "ethnic": "White 97.0%. National identity: Irish only 60.7%, Northern Irish only 16.1%, British only 13.2%.",
+  "language": "Some ability in Irish: 17.0% of residents aged 3+.",
+  "religion": "Catholic 72.9%, Presbyterian 6.5%, Church of Ireland 6.0%, other Christian 2.5%, other religions 1.1%, no religion 9.3%. Religion or religion brought up in (community background): Catholic 77.9%, Protestant and other Christian 17.0%, other 1.2%, none 3.9%.",
+  "economy": "Unemployed: 6.7% of the economically active population aged 16+; long-term sick or disabled: 12.2% of residents aged 16+ (2021).",
+  "sources": [
+   "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+  ],
+  "cite": "(NISRA, 2022–2023)"
+ },
+ "Craigavon": {
+  "lat": 54.45,
+  "lon": -6.39,
+  "area_note": "Craigavon Urban Area, including Lurgan, Portadown and Aghacommon (census settlement)",
+  "census_year": 2021,
+  "population": 72300,
+  "ethnic": "White 93.6%. National identity: Irish only 28.7%, British only 27.4%, Northern Irish only 17.5%.",
+  "language": "Some ability in Irish: 12.8% of residents aged 3+.",
+  "religion": "Catholic 48.6%, Church of Ireland 13.9%, Presbyterian 6.8%, Methodist 3.0%, other Christian 7.9%, other religions 1.5%, no religion 16.6%. Religion or religion brought up in (community background): Catholic 52.3%, Protestant and other Christian 36.0%, other 1.6%, none 10.1%.",
+  "economy": "Unemployed: 3.9% of the economically active population aged 16+; long-term sick or disabled: 8.8% of residents aged 16+ (2021).",
+  "sources": [
+   "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+  ],
+  "cite": "(NISRA, 2022–2023)"
+ },
+ "Laayoune": {
+  "lat": 27.15,
+  "lon": -13.2,
+  "area_note": "Commune of Laâyoune",
+  "census_year": 2024,
+  "population": 262791,
+  "ethnic": "Foreign residents: 1,293 (0.5%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
+  "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+  "religion": "Not collected: Morocco's census does not ask about religion.",
+  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%).",
+  "sources": [
+   "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+  ],
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+ },
+ "Dakhla": {
+  "lat": 23.68,
+  "lon": -15.96,
+  "area_note": "Commune of Dakhla",
+  "census_year": 2024,
+  "population": 165463,
+  "ethnic": "Foreign residents: 5,371 (3.2%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
+  "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+  "religion": "Not collected: Morocco's census does not ask about religion.",
+  "economy": "Unemployment at the census, Dakhla-Oued Ed-Dahab region: 10.6% (2024; national 21.3%).",
+  "sources": [
+   "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+  ],
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+ },
+ "Smara": {
+  "lat": 26.74,
+  "lon": -11.67,
+  "area_note": "Commune of Es-Semara",
+  "census_year": 2024,
+  "population": 56607,
+  "ethnic": "Foreign residents: 35 (0.1%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
+  "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+  "religion": "Not collected: Morocco's census does not ask about religion.",
+  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%).",
+  "sources": [
+   "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+  ],
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+ },
+ "Boujdour": {
+  "lat": 26.13,
+  "lon": -14.48,
+  "area_note": "Commune of Boujdour",
+  "census_year": 2024,
+  "population": 57360,
+  "ethnic": "Foreign residents: 31 (0.1%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
+  "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+  "religion": "Not collected: Morocco's census does not ask about religion.",
+  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%).",
+  "sources": [
+   "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+  ],
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+ },
+ "Oujda": {
+  "lat": 34.68,
+  "lon": -1.91,
+  "area_note": "City of Oujda",
+  "census_year": 2024,
+  "population": 506224,
+  "ethnic": "The census does not record ethnicity.",
+  "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+  "religion": "Not collected: Morocco's census does not ask about religion.",
+  "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%).",
+  "sources": [
+   "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b)"
+ },
+ "Nador": {
+  "lat": 35.17,
+  "lon": -2.93,
+  "area_note": "City of Nador",
+  "census_year": 2024,
+  "population": 158202,
+  "ethnic": "The census does not record ethnicity.",
+  "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+  "religion": "Not collected: Morocco's census does not ask about religion.",
+  "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%).",
+  "sources": [
+   "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+  ],
+  "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b)"
  }
 }
