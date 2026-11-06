@@ -68,6 +68,7 @@ section { margin-bottom: 20px; }
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--bg);
+  color: var(--text);
   cursor: pointer;
 }
 
@@ -118,7 +119,10 @@ section { margin-bottom: 20px; }
   font: inherit;
   border: 1px solid var(--border);
   border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
 }
+#search::placeholder { color: var(--muted); }
 
 #reset {
   padding: 8px 12px;
@@ -126,6 +130,7 @@ section { margin-bottom: 20px; }
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--bg);
+  color: var(--text);
   cursor: pointer;
 }
 
