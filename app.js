@@ -216,6 +216,31 @@ const layerControl = L.control.layers(baseLayers, {
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
+// Popups fit in the free space of the map: below the layer box (top right), right of the legend
+// (bottom left) and inside the frame. Taller content scrolls inside the popup.
+function fitPopup(popup) {
+  const size = map.getSize();
+  const gap = 12;
+  const layersBox = layerControl.getContainer();
+  const legendBox = legend.getContainer && legend.getContainer();
+  let top = (layersBox ? layersBox.offsetHeight : 0) + gap * 2;
+  let left = (legendBox ? legendBox.offsetWidth : 0) + gap * 2;
+  // On small maps, keep at least 280 px of height and 300 px of width for the popup
+  if (size.y - top - gap < 280) top = gap;
+  if (size.x - left - gap < 300) left = gap;
+  popup.options.autoPan = true;
+  popup.options.autoPanPaddingTopLeft = L.point(left, top);
+  popup.options.autoPanPaddingBottomRight = L.point(gap, gap);
+  const content = popup.getElement() && popup.getElement().querySelector(".leaflet-popup-content");
+  if (content) {
+    // Room left for the content once the popup's tip and padding are taken off
+    content.style.maxHeight = Math.max(160, size.y - top - gap - 60) + "px";
+  }
+  popup.update();
+  if (popup._adjustPan) popup._adjustPan();
+}
+map.on("popupopen", (e) => fitPopup(e.popup));
+
 // Place names: English, with the native name where known. More appear as you zoom in.
 const nativeNames = document.getElementById("native-names");
 let labelData = null;

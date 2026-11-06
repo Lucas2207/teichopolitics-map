@@ -343,6 +343,17 @@ input:focus-visible {
   }
 }
 
+/* Popups scroll inside when taller than the free map space (max-height is set in app.js) */
+.leaflet-popup-content {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding-right: 6px;
+}
+.leaflet-popup-content::-webkit-scrollbar { width: 6px; }
+.leaflet-popup-content::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.25); border-radius: 3px; }
+:root[data-theme="dark"] .leaflet-popup-content::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.3); }
+
 /* Fact sheet in the map popup: large bold title, small bold section labels */
 .fiche { min-width: 240px; max-width: 320px; }
 .fiche-title {
