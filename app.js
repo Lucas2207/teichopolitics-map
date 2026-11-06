@@ -25,7 +25,9 @@ function dotStyle(color, radius) {
   return { radius, color: "#fff", weight: 2, fillColor: color, fillOpacity: 1 };
 }
 
-const map = L.map("map", { worldCopyJump: true }).setView([30, 20], 3);
+// Phones (upright or on their side): the legend and the layer box start folded into small buttons
+const SMALL_SCREEN = window.matchMedia("(max-width: 700px), (max-height: 500px)").matches;
+const map = L.map("map", { worldCopyJump: true }).setView([30, 20], SMALL_SCREEN ? 2 : 3);
 
 // Base maps (all free, attribution required)
 // Roads, railways and rivers (Natural Earth, simplified). Major lines load at start; secondary lines load once you zoom past 6
@@ -168,8 +170,10 @@ baseLayers["Terrain"].addTo(map);
 // Legend on the map: what the colours and line styles mean
 const legend = L.control({ position: "bottomleft" });
 legend.onAdd = () => {
-  const div = L.DomUtil.create("div", "map-legend");
+  const div = L.DomUtil.create("div", "map-legend" + (SMALL_SCREEN ? " collapsed" : ""));
   div.innerHTML = `
+    <button type="button" class="legend-toggle" aria-expanded="${!SMALL_SCREEN}">Legend</button>
+    <div class="legend-body">
     <p class="legend-title">Construction</p>
     <div><span class="swatch concrete"></span>Concrete, stone or brick wall</div>
     <div><span class="swatch steel"></span>Steel or mesh fence</div>
@@ -181,11 +185,31 @@ legend.onAdd = () => {
     <div><span class="swatch line"></span>Line: traced on the ground</div>
     <div><span class="swatch dotted"></span>Dotted: planned, under construction, or a gap between traced pieces</div>
     <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
-    <div><span class="swatch border"></span>Dashed: official country border</div>`;
+    <div><span class="swatch border"></span>Dashed: official country border</div>
+    </div>`;
+  const toggle = div.querySelector(".legend-toggle");
+  toggle.addEventListener("click", () => {
+    const collapsed = div.classList.toggle("collapsed");
+    toggle.setAttribute("aria-expanded", String(!collapsed));
+  });
   L.DomEvent.disableClickPropagation(div);
+  L.DomEvent.disableScrollPropagation(div);
   return div;
 };
 legend.addTo(map);
+
+// Phones: a ☰ button on the map opens the side panel as a drawer; × or a tap on the map closes it
+const panelButton = L.control({ position: "topleft" });
+panelButton.onAdd = () => {
+  const wrap = L.DomUtil.create("div", "leaflet-bar panel-btn-wrap");
+  wrap.innerHTML = `<button type="button" class="panel-open-btn" aria-label="Open the panel: timeline, search and notes" aria-controls="panel">☰</button>`;
+  L.DomEvent.disableClickPropagation(wrap);
+  wrap.querySelector("button").addEventListener("click", () => document.body.classList.add("panel-open"));
+  return wrap;
+};
+panelButton.addTo(map);
+document.getElementById("panel-close").addEventListener("click", () => document.body.classList.remove("panel-open"));
+map.on("click", () => document.body.classList.remove("panel-open"));
 
 // Scale bar (metric only, as the data is in kilometres)
 L.control.scale({ metric: true, imperial: false }).addTo(map);
@@ -214,7 +238,7 @@ const layerControl = L.control.layers(baseLayers, {
   "Country borders": bordersLayer,
   "Roads, railways and rivers": networkLayer,
   "Place names": labelLayer,
-}, { collapsed: false }).addTo(map);
+}, { collapsed: SMALL_SCREEN }).addTo(map);
 
 // Popups fit in the free space of the map: below the layer box (top right), right of the legend
 // (bottom left) and inside the frame. Taller content scrolls inside the popup.

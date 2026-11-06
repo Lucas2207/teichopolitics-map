@@ -330,17 +330,10 @@ input:focus-visible {
   cursor: pointer;
 }
 
-/* Phones: map on top, panel below */
-@media (max-width: 700px) {
-  body { flex-direction: column; }
-  #map { height: 60vh; flex: none; }
-  #panel {
-    width: 100%;
-    order: 2;
-    border-right: none;
-    border-top: 1px solid var(--border);
-    padding: 16px;
-  }
+/* Button that opens the side panel on phones (hidden on larger screens) */
+.panel-open-btn, .panel-close-btn, .panel-btn-wrap { display: none; }
+@media (max-width: 700px), (max-height: 500px) {
+  .panel-btn-wrap { display: block; }
 }
 
 /* Popups scroll inside when taller than the free map space (max-height is set in app.js) */
@@ -416,8 +409,60 @@ input:focus-visible {
   overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
 }
-@media (max-width: 700px) {
-  #map { height: 60vh; margin: 8px; }
+/* Phones (upright or on their side): the map fills the screen and the side panel becomes
+   a drawer, closed by default, opened with the ☰ button and closed with × or by tapping the map */
+@media (max-width: 700px), (max-height: 500px) {
+  #map {
+    height: calc(100vh - 12px);
+    height: calc(100svh - 12px);
+    margin: 6px;
+  }
+  #panel {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2000;
+    width: min(320px, 86vw);
+    box-sizing: border-box;
+    padding: 16px;
+    transform: translateX(-105%);
+    transition: transform 0.25s ease;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.25);
+  }
+  body.panel-open #panel { transform: none; }
+  #list { max-height: none; }
+  .panel-close-btn {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: var(--panel);
+    color: var(--text);
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .panel-open-btn {
+    display: block;
+    width: 34px;
+    height: 34px;
+    border: 0;
+    border-radius: 4px;
+    background: #fff;
+    color: #222;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  :root[data-theme="dark"] .panel-open-btn { background: #2a2a31; color: #ececf1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #panel { transition: none; }
 }
 
 /* 50% opacity backgrounds for popups, the layer control and the legend; a light blur keeps text readable */
@@ -450,7 +495,30 @@ input:focus-visible {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
 .map-legend .legend-title { margin: 6px 0 3px; font-size: 10px; }
-.map-legend .legend-title:first-child { margin-top: 0; }
+.map-legend .legend-title:first-of-type { margin-top: 0; }
+/* The legend folds into a small "Legend" button; folded by default on small screens */
+.legend-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  margin: 0 0 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.legend-toggle::after { content: "▾"; font-size: 10px; }
+.map-legend.collapsed .legend-toggle { margin: 0; }
+.map-legend.collapsed .legend-toggle::after { content: "▸"; }
+.map-legend.collapsed .legend-body { display: none; }
+@media (max-width: 700px), (max-height: 500px) {
+  .map-legend { max-width: 190px; font-size: 10px; }
+}
 .map-legend div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
 .map-legend .swatch { flex-shrink: 0; }
 .swatch.dotted { height: 0; background: none; border-top: 3px dotted #444; }
