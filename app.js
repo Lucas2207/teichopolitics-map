@@ -238,32 +238,65 @@ const layerControl = L.control.layers(baseLayers, {
   "Country borders": bordersLayer,
   "Roads, railways and rivers": networkLayer,
   "Place names": labelLayer,
-}, { collapsed: SMALL_SCREEN }).addTo(map);
+}, { collapsed: false }).addTo(map);
 
-// Popups fit in the free space of the map: below the layer box (top right), right of the legend
-// (bottom left) and inside the frame. Taller content scrolls inside the popup.
-function fitPopup(popup) {
-  const size = map.getSize();
-  const gap = 12;
-  const layersBox = layerControl.getContainer();
-  const legendBox = legend.getContainer && legend.getContainer();
-  let top = (layersBox ? layersBox.offsetHeight : 0) + gap * 2;
-  let left = (legendBox ? legendBox.offsetWidth : 0) + gap * 2;
-  // On small maps, keep at least 280 px of height and 300 px of width for the popup
-  if (size.y - top - gap < 280) top = gap;
-  if (size.x - left - gap < 300) left = gap;
-  popup.options.autoPan = true;
-  popup.options.autoPanPaddingTopLeft = L.point(left, top);
-  popup.options.autoPanPaddingBottomRight = L.point(gap, gap);
-  const content = popup.getElement() && popup.getElement().querySelector(".leaflet-popup-content");
-  if (content) {
-    // Room left for the content once the popup's tip and padding are taken off
-    content.style.maxHeight = Math.max(160, size.y - top - gap - 60) + "px";
-  }
-  popup.update();
-  if (popup._adjustPan) popup._adjustPan();
+// The layer box folds into a small "Layers" button, like the legend (folded by default on phones)
+{
+  const box = layerControl.getContainer();
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "legend-toggle layers-toggle";
+  btn.textContent = "Layers";
+  box.insertBefore(btn, box.firstChild);
+  const setFolded = (folded) => {
+    box.classList.toggle("folded", folded);
+    btn.setAttribute("aria-expanded", String(!folded));
+    fitInfoCard();
+  };
+  btn.addEventListener("click", () => setFolded(!box.classList.contains("folded")));
+  setTimeout(() => setFolded(SMALL_SCREEN), 0);
 }
-map.on("popupopen", (e) => fitPopup(e.popup));
+
+// Information card: the fact sheet of a barrier or city, docked under the layer box (top right).
+// It stays in place when the map is dragged or zoomed; long content scrolls inside the card.
+const infoCard = L.control({ position: "topright" });
+let infoBody = null;
+infoCard.onAdd = () => {
+  const div = L.DomUtil.create("div", "info-card");
+  div.hidden = true;
+  div.setAttribute("role", "dialog");
+  div.setAttribute("aria-label", "Details");
+  div.innerHTML = `<button type="button" class="info-close" aria-label="Close the details">×</button><div class="info-body"></div>`;
+  infoBody = div.querySelector(".info-body");
+  div.querySelector(".info-close").addEventListener("click", closeInfoCard);
+  L.DomEvent.disableClickPropagation(div);
+  L.DomEvent.disableScrollPropagation(div);
+  return div;
+};
+infoCard.addTo(map);
+
+function fitInfoCard() {
+  const card = infoCard.getContainer();
+  if (!card || card.hidden) return;
+  const mapBox = map.getContainer().getBoundingClientRect();
+  const cardTop = card.getBoundingClientRect().top;
+  // From the card's top to the bottom of the map frame, less a margin
+  card.style.maxHeight = Math.max(160, mapBox.bottom - cardTop - 12) + "px";
+}
+function showInfoCard(html, extraClass) {
+  const card = infoCard.getContainer();
+  infoBody.innerHTML = html;
+  card.className = "info-card leaflet-control" + (extraClass ? " " + extraClass : "");
+  card.hidden = false;
+  fitInfoCard();
+  infoBody.scrollTop = 0;
+}
+function closeInfoCard() {
+  infoCard.getContainer().hidden = true;
+}
+window.addEventListener("resize", fitInfoCard);
+// Opening or closing a section changes nothing in the card's frame; the content scrolls
+map.on("click", closeInfoCard);
 
 // Place names: English, with the native name where known. More appear as you zoom in.
 const nativeNames = document.getElementById("native-names");
@@ -341,9 +374,12 @@ function renderLabels() {
     if (placed.some((b) => x < b.x + b.w && x + w > b.x && y < b.y + b.h && y + h > b.y)) return;
     placed.push({ x, y, w, h });
     if (meta) {
-      // Cities and capitals are clickable: a popup with population and census details
+      // Cities and capitals are clickable: the card shows population and census details
       L.marker([lat, lon], { icon: labelIcon(en, native, kind), keyboard: false })
-        .bindPopup(cityPopupHtml(en, meta), { className: "city-popup" })
+        .on("click", (e) => {
+          L.DomEvent.stopPropagation(e);
+          showInfoCard(cityPopupHtml(en, meta), "city-card");
+        })
         .addTo(labelLayer);
     } else {
       L.marker([lat, lon], { icon: labelIcon(en, native, kind), interactive: false, keyboard: false }).addTo(labelLayer);
@@ -510,7 +546,10 @@ fetch("data/barriers.geojson")
           layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4, dashArray: p.status ? "2 6" : null } })]);
         }
       }
-      layer.bindPopup(popupHtml(p));
+      layer.on("click", (e) => {
+        L.DomEvent.stopPropagation(e);
+        showInfoCard(popupHtml(p));
+      });
 
       const listItem = document.createElement("li");
       listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built == null ? "date unknown" : formatYear(p.built)}</small>`;
@@ -520,7 +559,8 @@ fetch("data/barriers.geojson")
           update();
         }
         map.fitBounds(layer.getBounds(), { maxZoom: 10, padding: [40, 40] });
-        layer.openPopup();
+        showInfoCard(popupHtml(p));
+        document.body.classList.remove("panel-open");
       });
       list.appendChild(listItem);
 
@@ -559,7 +599,7 @@ document.getElementById("reset").addEventListener("click", () => {
   if (timer) playButton.click();
   yearInput.value = yearInput.max;
   searchInput.value = "";
-  map.closePopup();
+  closeInfoCard();
   map.setView([30, 20], 3);
   update();
 });
