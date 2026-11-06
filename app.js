@@ -243,8 +243,11 @@ function cityPopupHtml(en, meta) {
     <dl>
       ${row("Country", meta.country || "Not documented")}
       ${row("Population", pop)}
+      ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
       ${census}
     </dl>
+    <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)</p>
+    <p class="cite">References: GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026). Natural Earth (n.d.) Urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).</p>
   </div>`;
 }
 
