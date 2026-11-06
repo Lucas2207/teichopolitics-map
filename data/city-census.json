@@ -1,0 +1,66 @@
+{
+ "Belfast": {
+  "census_year": 2021,
+  "population": 345418,
+  "ethnic": "Just under 10% of residents born outside the British Isles (2021 census, per Wikipedia).",
+  "language": "Not documented in the source fetched.",
+  "religion": "Not documented in the source fetched (Catholic and Protestant communities mentioned, without census figures).",
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Calais": {
+  "census_year": 2023,
+  "population": 67571,
+  "ethnic": "Not documented in the source fetched.",
+  "language": "Not documented in the source fetched.",
+  "religion": "Not documented in the source fetched.",
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Ceuta": {
+  "census_year": 2021,
+  "population": 84071,
+  "ethnic": "2025: 69.4% born in Ceuta; immigrants 13.6%, of whom 86.7% born in Morocco; Arab Muslims about half the population (undated).",
+  "language": "2025: Spanish speakers nearly 60%; Arabic speakers 40–42%; Sindhi about 1% (as reported).",
+  "religion": "2006: 51% Christian, 48% Muslim (as reported; the article says this needs updating).",
+  "cite": "(Wikipedia, n.d.; INE, 2021)"
+ },
+ "Melilla": {
+  "census_year": 2021,
+  "population": 86450,
+  "ethnic": "2025: immigrants 24.6%, of whom 86.3% born in Morocco; Iberian and Riffian extraction (undated).",
+  "language": "Spanish (official) and Tarifit (second language, mainly at home).",
+  "religion": "2019 CIS survey: 65.0% Roman Catholic; 2020 estimate: Muslims about 53.2%. The sources conflict.",
+  "cite": "(Wikipedia, n.d.; INE, 2021; CIS, 2019)"
+ },
+ "Baghdad": {
+  "census_year": 2024,
+  "population": 7837463,
+  "ethnic": "Not documented in the source fetched (Kurds mentioned as a minority, without figures).",
+  "language": "Not documented in the source fetched.",
+  "religion": "Not documented for the current period (historical Jewish population noted).",
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Beirut": {
+  "census_year": 2017,
+  "population": 433249,
+  "ethnic": "Not documented in the source fetched.",
+  "language": "Not documented in the source fetched.",
+  "religion": "2022 (as reported): Sunni Islam 43.8%; Shia Islam 15.5%; Christian 40.0%; other 0.7%.",
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Jerusalem": {
+  "census_year": 2020,
+  "population": 951100,
+  "ethnic": "2020: Jews 59.9%, Muslims 37.2%, Christians 1.7%, unclassified 1.1% (Jerusalem Institute, 2022, as cited).",
+  "language": "Not documented in the source fetched.",
+  "religion": "See ethnic line: the 2020 breakdown is given by religion and community.",
+  "cite": "(Wikipedia, n.d.; Jerusalem Institute, 2022)"
+ },
+ "Berlin": {
+  "census_year": 2022,
+  "population": 3596999,
+  "ethnic": "Not documented in the source fetched.",
+  "language": "Not documented in the source fetched.",
+  "religion": "Not documented in the source fetched.",
+  "cite": "(Wikipedia, n.d.)"
+ }
+}

@@ -163,7 +163,7 @@ const baseLayers = {
     attribution: "Tiles &copy; Esri, Maxar, Earthstar Geographics",
   }),
 };
-landLayer.addTo(map);
+baseLayers["Terrain"].addTo(map);
 
 // Scale bar (metric only, as the data is in kilometres)
 L.control.scale({ metric: true, imperial: false }).addTo(map);
@@ -206,8 +206,14 @@ fetch("data/labels-countries.json")
         fetch("data/labels-natural.json")
           .then((r) => r.json())
           .then((natural) => {
-            labelData = { countries, places, natural };
-            renderLabels();
+            labelData = { countries, places, natural, census: {} };
+            fetch("data/city-census.json")
+              .then((r) => r.json())
+              .then((census) => {
+                labelData.census = census;
+                renderLabels();
+              })
+              .catch(() => renderLabels());
           });
       });
   });
@@ -220,6 +226,28 @@ function labelIcon(en, native, kind) {
   return L.divIcon({ className: `map-label ${kind}`, html: `<span class="label-inner"><span class="label-en">${en}</span>${sub}</span>`, iconSize: null });
 }
 
+// City popup: population and census details, from data/city-census.json where available
+function cityPopupHtml(en, meta) {
+  const c = (labelData && labelData.census && labelData.census[en]) || null;
+  const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (Natural Earth estimate)` : "Not documented";
+  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
+  const census = c
+    ? `${row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}`)}
+       ${row("Ethnic / national groups", c.ethnic || "Not documented")}
+       ${row("Languages", c.language || "Not documented")}
+       ${row("Religion", c.religion || "Not documented")}
+       ${c.cite ? `<dt>Source</dt><dd>${c.cite}</dd>` : ""}`
+    : row("Census", "No census data added yet for this city");
+  return `<div class="fiche city-fiche">
+    <div class="fiche-title">${en}</div>
+    <dl>
+      ${row("Country", meta.country || "Not documented")}
+      ${row("Population", pop)}
+      ${census}
+    </dl>
+  </div>`;
+}
+
 function renderLabels() {
   if (!labelData) return;
   labelLayer.clearLayers();
@@ -229,7 +257,7 @@ function renderLabels() {
   // so the biggest names win and more appear as you zoom in
   const placed = [];
   const showNative = nativeNames.checked;
-  function place(en, native, lat, lon, kind) {
+  function place(en, native, lat, lon, kind, meta = null) {
     const pt = map.latLngToContainerPoint([lat, lon]);
     const sub = showNative && native && native.toLowerCase() !== en.toLowerCase();
     const w = en.length * (kind === "country" ? 7.5 : 6.5) + 8;
@@ -238,7 +266,14 @@ function renderLabels() {
     const y = pt.y - h / 2;
     if (placed.some((b) => x < b.x + b.w && x + w > b.x && y < b.y + b.h && y + h > b.y)) return;
     placed.push({ x, y, w, h });
-    L.marker([lat, lon], { icon: labelIcon(en, native, kind), interactive: false, keyboard: false }).addTo(labelLayer);
+    if (meta) {
+      // Cities and capitals are clickable: a popup with population and census details
+      L.marker([lat, lon], { icon: labelIcon(en, native, kind), keyboard: false })
+        .bindPopup(cityPopupHtml(en, meta), { className: "city-popup" })
+        .addTo(labelLayer);
+    } else {
+      L.marker([lat, lon], { icon: labelIcon(en, native, kind), interactive: false, keyboard: false }).addTo(labelLayer);
+    }
   }
   // Countries: largest rank first; more ranks are allowed as you zoom in
   const maxRank = zoom <= 2 ? 2 : zoom <= 3 ? 3 : zoom <= 4 ? 4 : zoom <= 5 ? 5 : 7;
@@ -257,7 +292,7 @@ function renderLabels() {
   const cities = labelData.places
     .filter((p) => Math.max(p.min_zoom, 4) <= zoom && !countryNames.has(p.en) && bounds.contains([p.lat, p.lon]))
     .sort((a, b) => a.min_zoom - b.min_zoom);
-  for (const p of cities) place(p.en, p.native, p.lat, p.lon, p.cap ? "capital" : "place");
+  for (const p of cities) place(p.en, p.native, p.lat, p.lon, p.cap ? "capital" : "place", p);
 }
 map.on("moveend", renderLabels);
 nativeNames.addEventListener("change", renderLabels);

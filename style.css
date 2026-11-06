@@ -383,3 +383,14 @@ input:focus-visible {
 .fiche .refs { margin: 4px 0 0 18px; padding: 0; font-size: 11.5px; line-height: 1.4; }
 .fiche .refs li { margin-bottom: 4px; }
 .fiche .cite { font-size: 11.5px; margin: 4px 0; color: #555; }
+
+/* Clickable city and capital names */
+.map-label.place, .map-label.capital { pointer-events: auto; cursor: pointer; }
+.map-label.place .label-inner:hover, .map-label.capital .label-inner:hover { text-decoration: underline; }
+
+/* City popup: 50% opacity background so the map stays visible behind it */
+.city-popup .leaflet-popup-content-wrapper,
+.city-popup .leaflet-popup-tip { background: rgba(255, 255, 255, 0.5); }
+:root[data-theme="dark"] .city-popup .leaflet-popup-content-wrapper,
+:root[data-theme="dark"] .city-popup .leaflet-popup-tip { background: rgba(30, 30, 37, 0.5); color: #ececf1; }
+:root[data-theme="dark"] .city-popup .fiche-title, :root[data-theme="dark"] .city-popup dt { color: #ececf1; }
