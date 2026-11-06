@@ -394,3 +394,87 @@ input:focus-visible {
 :root[data-theme="dark"] .city-popup .leaflet-popup-content-wrapper,
 :root[data-theme="dark"] .city-popup .leaflet-popup-tip { background: rgba(30, 30, 37, 0.5); color: #ececf1; }
 :root[data-theme="dark"] .city-popup .fiche-title, :root[data-theme="dark"] .city-popup dt { color: #ececf1; }
+
+/* Fine frame around the map instead of a full-bleed map */
+#map {
+  flex: 1;
+  height: calc(100vh - 24px);
+  margin: 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 700px) {
+  #map { height: 60vh; margin: 8px; }
+}
+
+/* 50% opacity backgrounds for popups, the layer control and the legend; a light blur keeps text readable */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip,
+.leaflet-control-layers,
+.map-legend {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+:root[data-theme="dark"] .leaflet-popup-content-wrapper,
+:root[data-theme="dark"] .leaflet-popup-tip,
+:root[data-theme="dark"] .leaflet-control-layers,
+:root[data-theme="dark"] .map-legend {
+  background: rgba(30, 30, 37, 0.5);
+  color: #ececf1;
+}
+:root[data-theme="dark"] .fiche dt,
+:root[data-theme="dark"] .fiche summary,
+:root[data-theme="dark"] .fiche .cite { color: #c8c8d0; }
+
+/* Legend on the map */
+.map-legend {
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  line-height: 1.3;
+  max-width: 230px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.map-legend .legend-title { margin: 6px 0 3px; font-size: 10px; }
+.map-legend .legend-title:first-child { margin-top: 0; }
+.map-legend div { display: flex; align-items: center; gap: 6px; margin-bottom: 3px; }
+.map-legend .swatch { flex-shrink: 0; }
+.swatch.dotted { height: 0; background: none; border-top: 3px dotted #444; }
+.swatch.border { height: 0; background: none; border-top: 2px dashed #3a3a3a; }
+:root[data-theme="dark"] .swatch.dotted { border-top-color: #c8c8d0; }
+:root[data-theme="dark"] .swatch.border { border-top-color: #c8c8d0; }
+
+/* Smaller layer control (top right) */
+.leaflet-control-layers { font-size: 11px; line-height: 1.3; }
+.leaflet-control-layers-expanded { padding: 4px 8px 4px 6px; }
+.leaflet-control-layers label { margin: 1px 0; }
+.leaflet-control-layers-separator { margin: 4px -8px 4px -6px; }
+
+/* Legend keys drawn to match the map: dashes (6 on, 4 off) for borders, dots (2 on, 6 off) for planned or gaps */
+.map-legend .swatch.border {
+  height: 2px;
+  border: none;
+  border-radius: 0;
+  background: repeating-linear-gradient(90deg, #3a3a3a 0 6px, transparent 6px 10px);
+}
+.map-legend .swatch.dotted {
+  height: 3px;
+  border: none;
+  border-radius: 0;
+  background: repeating-linear-gradient(90deg, #444 0 2px, transparent 2px 8px);
+}
+/* Dots on the map have a white ring, so the key does too */
+.map-legend .swatch.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #444;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+:root[data-theme="dark"] .map-legend .swatch.border { background: repeating-linear-gradient(90deg, #c8c8d0 0 6px, transparent 6px 10px); }
+:root[data-theme="dark"] .map-legend .swatch.dotted { background: repeating-linear-gradient(90deg, #c8c8d0 0 2px, transparent 2px 8px); }

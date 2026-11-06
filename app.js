@@ -165,6 +165,28 @@ const baseLayers = {
 };
 baseLayers["Terrain"].addTo(map);
 
+// Legend on the map: what the colours and line styles mean
+const legend = L.control({ position: "bottomleft" });
+legend.onAdd = () => {
+  const div = L.DomUtil.create("div", "map-legend");
+  div.innerHTML = `
+    <p class="legend-title">Construction</p>
+    <div><span class="swatch concrete"></span>Concrete, stone or brick wall</div>
+    <div><span class="swatch steel"></span>Steel or mesh fence</div>
+    <div><span class="swatch wire"></span>Barbed or razor wire</div>
+    <div><span class="swatch earth"></span>Earthwork, sand berm or trench</div>
+    <div><span class="swatch unknown"></span>Not documented or mixed</div>
+    <div><span class="swatch historical"></span>Historical, no longer a border</div>
+    <p class="legend-title">Shape</p>
+    <div><span class="swatch line"></span>Line: traced on the ground</div>
+    <div><span class="swatch dotted"></span>Dotted: planned, under construction, or a gap between traced pieces</div>
+    <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
+    <div><span class="swatch border"></span>Dashed: official country border</div>`;
+  L.DomEvent.disableClickPropagation(div);
+  return div;
+};
+legend.addTo(map);
+
 // Scale bar (metric only, as the data is in kilometres)
 L.control.scale({ metric: true, imperial: false }).addTo(map);
 
@@ -402,7 +424,7 @@ function update() {
     b.listItem.classList.toggle("hidden-by-year", !standing);
   }
   statCount.textContent = count;
-  statKm.textContent = km.toLocaleString();
+  statKm.textContent = Math.round(km).toLocaleString("en");
 }
 
 fetch("data/barriers.geojson")
