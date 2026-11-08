@@ -395,5 +395,242 @@
    "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
   ],
   "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b)"
+ },
+ "Chula Vista": {
+  "lat": 32.64,
+  "lon": -117.08,
+  "area_note": "Chula Vista city, California (city limits)",
+  "census_year": 2020,
+  "population": 275487,
+  "ethnic": "Hispanic or Latino 61.1%; White, not Hispanic 15.3%; Asian 14.6%. Foreign-born: 29.4% (2020–2024).",
+  "language": "Language other than English spoken at home: 57.4% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $41,343 (2024 dollars); 8.7% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: Chula Vista city, California. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "National City": {
+  "lat": 32.68,
+  "lon": -117.1,
+  "area_note": "National City city, California (city limits)",
+  "census_year": 2020,
+  "population": 56173,
+  "ethnic": "Hispanic or Latino 63.5%; White, not Hispanic 10.6%; Asian 17.1%. Foreign-born: 36.0% (2020–2024).",
+  "language": "Language other than English spoken at home: 66.0% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $30,909 (2024 dollars); 14.6% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: National City city, California. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Edinburg": {
+  "lat": 26.3,
+  "lon": -98.16,
+  "area_note": "Edinburg city, Texas (city limits)",
+  "census_year": 2020,
+  "population": 100243,
+  "ethnic": "Hispanic or Latino 86.7%; White, not Hispanic 8.6%. Foreign-born: 19.7% (2020–2024).",
+  "language": "Language other than English spoken at home: 71.9% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $28,336 (2024 dollars); 26.0% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: Edinburg city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Harlingen": {
+  "lat": 26.19,
+  "lon": -97.7,
+  "area_note": "Harlingen city, Texas (city limits)",
+  "census_year": 2020,
+  "population": 71829,
+  "ethnic": "Hispanic or Latino 82.3%; White, not Hispanic 13.9%. Foreign-born: 14.6% (2020–2024).",
+  "language": "Language other than English spoken at home: 52.4% of people aged 5+ (2020–2024).",
+  "religion": "Not collected: the US census does not ask about religion.",
+  "economy": "Per capita income $26,512 (2024 dollars); 25.1% of people below the poverty line (2020–2024).",
+  "sources": [
+   "U.S. Census Bureau (2025) QuickFacts: Harlingen city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026)."
+  ],
+  "cite": "(U.S. Census Bureau, 2025)"
+ },
+ "Ciudad Acuna": {
+  "lat": 29.32,
+  "lon": -100.93,
+  "area_note": "Acuña municipality, Coahuila",
+  "census_year": 2020,
+  "population": 163058,
+  "ethnic": "Born in another Mexican state: 19.7% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.3% of people aged 3+.",
+  "religion": "Catholic 51.4%; Protestant or evangelical 21.7%; no religion 26.5%.",
+  "economy": "Unemployment at the census: 1.5% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Piedras Negras": {
+  "lat": 28.7,
+  "lon": -100.52,
+  "area_note": "Piedras Negras municipality, Coahuila",
+  "census_year": 2020,
+  "population": 176327,
+  "ethnic": "Born in another Mexican state: 13.5% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.2% of people aged 3+.",
+  "religion": "Catholic 63.2%; Protestant or evangelical 20.9%; no religion 15.5%.",
+  "economy": "Unemployment at the census: 1.9% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "San Luis Rio Colorado": {
+  "lat": 32.46,
+  "lon": -114.77,
+  "area_note": "San Luis Río Colorado municipality, Sonora",
+  "census_year": 2020,
+  "population": 199021,
+  "ethnic": "Born in another Mexican state: 30.8% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.5% of people aged 3+.",
+  "religion": "Catholic 66.2%; Protestant or evangelical 15.3%; no religion 18.2%.",
+  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Rosarito": {
+  "lat": 32.36,
+  "lon": -117.05,
+  "area_note": "Playas de Rosarito municipality, Baja California",
+  "census_year": 2020,
+  "population": 126890,
+  "ethnic": "Born in another Mexican state: 44.4% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 1.0% of people aged 3+.",
+  "religion": "Catholic 57.7%; Protestant or evangelical 21.3%; no religion 19.8%.",
+  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Ciudad Juarez": {
+  "lat": 31.69,
+  "lon": -106.42,
+  "area_note": "Juárez municipality, Chihuahua",
+  "census_year": 2020,
+  "population": 1512450,
+  "ethnic": "Born in another Mexican state: 27.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
+  "religion": "Catholic 65.5%; Protestant or evangelical 14.3%; no religion 19.5%.",
+  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Heroica Matamoros": {
+  "lat": 25.87,
+  "lon": -97.5,
+  "area_note": "Matamoros municipality, Tamaulipas",
+  "census_year": 2020,
+  "population": 541979,
+  "ethnic": "Born in another Mexican state: 20.5% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
+  "language": "Speakers of an indigenous language: 0.8% of people aged 3+.",
+  "religion": "Catholic 62.1%; Protestant or evangelical 20.7%; no religion 16.9%.",
+  "economy": "Unemployment at the census: 2.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "sources": [
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+  ],
+  "cite": "(INEGI, 2021)"
+ },
+ "Subotica": {
+  "lat": 46.1,
+  "lon": 19.67,
+  "area_note": "City proper (administrative area: 123,952)",
+  "census_year": 2022,
+  "population": 88752,
+  "ethnic": "City proper: Serbs 34.3%, Hungarians 26.2%, Croats 7.4%, Bunjevci 6.5%, Roma about 3.3%, Yugoslavs 1.9%, undeclared 11.4%.",
+  "language": "Administrative area: Serbian 48.2%, Hungarian 29.2%, Croatian 3.2%, Bunjevac 2.4%, Romani 2.4%.",
+  "religion": "Administrative area: Catholic 48.3%, Orthodox 30.5%, Muslim 2.6%, Protestant 1.3%, atheist 1.7%, undeclared 10.1%.",
+  "sources": [
+   "Wikipedia (n.d.) Subotica. Available at: https://en.wikipedia.org/wiki/Subotica (figures reported there from the 2022 census of the Statistical Office of the Republic of Serbia) (Accessed: 8 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 Serbian census)"
+ },
+ "Szeged": {
+  "lat": 46.25,
+  "lon": 20.15,
+  "area_note": "City",
+  "census_year": 2022,
+  "population": 158797,
+  "ethnic": "Hungarians 83.9%, Roma 0.9%, Germans 0.9%, Serbs 0.8%, Romanians 0.3%, Slovaks 0.2% (infobox figures; the official agency is not named on the page).",
+  "language": "Not documented in the source used.",
+  "religion": "Roman Catholic 36.4%, Calvinist 4.8%, Lutheran 1.2%, Greek Catholic 0.4%, non-religious 23.4%, unknown 31.4% (agency not named on the page).",
+  "economy": "Unemployment 4.1% in 2016, after a peak of 6.9% in 2013.",
+  "sources": [
+   "Wikipedia (n.d.) Szeged. Available at: https://en.wikipedia.org/wiki/Szeged (Accessed: 8 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Daugavpils": {
+  "lat": 55.88,
+  "lon": 26.53,
+  "area_note": "City",
+  "census_year": 2026,
+  "population": 77486,
+  "ethnic": "Russians 48.6%, Latvians 20.1%, Poles 13.3%, Belarusians 7.6%, Ukrainians 2.0%, Lithuanians 0.9% (2019 estimate from an unofficial compilation, pop-stat.mashke.org).",
+  "language": "Overwhelmingly Russian-speaking (uncited on the page).",
+  "religion": "Lutheran, Catholic, Orthodox and Old Believer congregations; no shares published in the source used.",
+  "economy": "GDP €857.7 million in 2021, or €10,746 per person (Central Statistical Bureau of Latvia).",
+  "sources": [
+   "Wikipedia (n.d.) Daugavpils. Available at: https://en.wikipedia.org/wiki/Daugavpils (population and GDP reported there from the Central Statistical Bureau of Latvia) (Accessed: 8 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Brest": {
+  "lat": 52.1,
+  "lon": 23.7,
+  "area_note": "City (population estimate, 1 January 2026)",
+  "census_year": 2026,
+  "population": 347138,
+  "ethnic": "Belarusians 81.2%, Russians 11.5%, Ukrainians 4.4%, Poles 0.9%, others 2.1% (2019 census, Belstat).",
+  "language": "Not documented in the source used.",
+  "religion": "Orthodox, Catholic, Jewish and other communities; no shares published in the source used.",
+  "sources": [
+   "Wikipedia (n.d.) Брест (Белоруссия). Available at: https://ru.wikipedia.org/wiki/Брест_(Белоруссия) (figures reported there from Belstat, 2019 census) (Accessed: 8 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Belstat 2019)"
+ },
+ "Siliguri": {
+  "lat": 26.71,
+  "lon": 88.43,
+  "area_note": "Municipal corporation (urban agglomeration: 701,489)",
+  "census_year": 2011,
+  "population": 513264,
+  "ethnic": "Scheduled Castes 8.8%, Scheduled Tribes 1.3%. About 32% of residents live in slums (City Development Plan 2041).",
+  "language": "First language: Bengali 60.9%, Hindi 25.2%, Nepali 4.7%, Bhojpuri 2.4%, Marwari 1.6%, Urdu 1.2%.",
+  "religion": "Hindu 92.0%, Muslim 5.4%, Christian 0.9%, Buddhist 0.7%.",
+  "sources": [
+   "Wikipedia (n.d.) Siliguri. Available at: https://en.wikipedia.org/wiki/Siliguri (figures reported there from the 2011 Census of India) (Accessed: 8 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)"
+ },
+ "Nicosia": {
+  "lat": 35.17,
+  "lon": 33.36,
+  "area_note": "Republic of Cyprus municipality, 2021 (urban area 256,119); north Nicosia (Lefkoşa) municipality 61,378 and urban area 82,929 at the 2011 Turkish Cypriot census",
+  "census_year": 2021,
+  "population": 111797,
+  "ethnic": "Divided city: Greek Cypriots in the south, Turkish Cypriots and settlers from Turkey in the north; the Walled City is now populated mostly by migrants (Foka, 2015). No shares in the sources used.",
+  "language": "Greek in the south, Turkish in the north.",
+  "religion": "Orthodox Christian in the south, Muslim in the north; no shares in the sources used.",
+  "sources": [
+   "Wikipedia (n.d.) Nicosia. Available at: https://en.wikipedia.org/wiki/Nicosia (Accessed: 8 November 2026).",
+   "Foka, Z. (2015) 'Shared space in conflict areas: exploring the case of Nicosia's buffer zone', Athens Journal of Mediterranean Studies, 1(1), pp. 45–60. doi:10.30958/ajms.1-1-3."
+  ],
+  "cite": "(Wikipedia, n.d.); (Foka, 2015)"
  }
 }

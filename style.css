@@ -374,6 +374,11 @@ input:focus-visible {
   font-size: 12.5px;
   line-height: 1.4;
 }
+.fiche .fiche-text {
+  margin: 6px 0 2px;
+  font-size: 12.5px;
+  line-height: 1.4;
+}
 
 /* Popup detail sections: opened with an arrow, summary stays visible */
 .fiche details { margin-top: 6px; border-top: 1px solid var(--border); padding-top: 4px; }

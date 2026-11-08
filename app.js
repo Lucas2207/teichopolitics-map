@@ -404,15 +404,14 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy ? row("Income and employment", c.economy) : ""}
-       ${c.cite ? `<dt>Source</dt><dd>${c.cite}</dd>` : ""}`
+       ${c.economy ? row("Income and employment", c.economy) : ""}`
     : row("Census", "No census data added yet for this city");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
     <dl>
       ${row("Country", meta.country || "Not documented")}
-      ${row("Population", pop)}
+      ${c ? "" : row("Population", pop)}
       ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
       ${census}
     </dl>
@@ -528,25 +527,41 @@ function popupHtml(p) {
       <summary>${title}</summary>
       <dl>${rows}</dl>
     </details>`;
-  const refs = (p.sources || []).length
-    ? `<ol class="refs">${(p.sources || []).map((r) => `<li>${r}</li>`).join("")}</ol>`
+  // A section with one item shows the text alone, without repeating the section title as a label
+  const single = (title, text) => `<details>
+      <summary>${title}</summary>
+      <p class="fiche-text">${text}</p>
+    </details>`;
+  // Repeated values are shown once: same countries in "separates", same body as initiator and owner
+  const same = (a, b) => {
+    const n = (s) => String(s || "").toLowerCase().replace(/[–—-]/g, "/").replace(/[^a-z/]/g, "");
+    return n(a) && (n(a) === n(b) || n(b).includes(n(a)));
+  };
+  const showSeparates = p.separates && p.separates !== "Not documented" && !same(p.separates, p.countries);
+  const showOwner = p.owner && !same(p.owner, p.initiated_by);
+  const sources = [...new Set(p.sources || [])];
+  const refs = sources.length
+    ? `<ol class="refs">${sources.map((r) => `<li>${r}</li>`).join("")}</ol>`
     : "Not documented";
-  const cite = p.cite ? `<p class="cite">In-text: ${p.cite}</p>` : "";
+  const citeParts = p.cite ? [...new Set(p.cite.split(/;\s*/).map((s) => s.trim()).filter(Boolean))] : [];
+  const cite = citeParts.length ? `<p class="cite">In-text: ${citeParts.join("; ")}</p>` : "";
+  const construction = [p.construction ? or(p.construction) : "", p.phases ? `Phases: ${p.phases}` : "", p.geometry_quality ? `Line on the map: ${p.geometry_quality}.` : ""]
+    .filter(Boolean);
   return `<div class="fiche">
     <div class="fiche-title">${p.name}</div>
     <dl class="summary">
-      ${row("Location", `${or(p.countries)}${p.separates ? ` · separates ${p.separates}` : ""}`)}
+      ${row("Location", `${or(p.countries)}${showSeparates ? ` · separates ${p.separates}` : ""}`)}
       ${row("Type", `${or(p.type)}${p.typology ? ` · ${p.typology}` : ""}`)}
       ${row("Length", `${length}`)}
       ${row("Years", period)}
-      ${row("Initiator and owner", `${or(p.initiated_by)}${p.owner ? ` · owner: ${p.owner}` : ""}`)}
+      ${row(showOwner ? "Initiator and owner" : "Initiator", `${or(p.initiated_by)}${showOwner ? ` · owner: ${p.owner}` : ""}`)}
       ${row("Cost", or(p.cost, "Unknown"))}
     </dl>
     ${section("Funding and budget", `${row("Funded by", or(p.funded_by))}${row("Maintenance and annual budget", or(p.maintenance_cost, "Unknown"))}`)}
     ${section("Security equipment and gates", `${row("Additional equipment", or(p.security_technology))}${row("Gates and crossing points", or(p.gates))}`)}
-    ${section("Construction", `${row("Construction", or(p.construction))}${p.phases ? row("Phases", p.phases) : ""}${p.geometry_quality ? row("Line", p.geometry_quality) : ""}`)}
+    ${single("Construction", construction.length ? construction.join("<br>") : "Not documented")}
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
-    ${section("Notes", row("Notes", or(p.note, "None")))}
+    ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>
       ${cite}
