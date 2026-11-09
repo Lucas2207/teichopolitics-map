@@ -69,6 +69,7 @@ Base maps: OpenStreetMap, OpenTopoMap, Esri World Imagery. Country borders: Natu
 Traced walls:
 
 - US–Mexico fence: Reveal from The Center for Investigative Reporting and OpenStreetMap contributors, [border_fence_map](https://github.com/cirlabs/border_fence_map) (2017), linked to [revealnews.org/wall](https://www.revealnews.org/wall/). Licensed under the [Open Database License](https://opendatacommons.org/licenses/odbl/1.0/).
+- US Smart Wall sections under construction or awarded: U.S. Customs and Border Protection, [Smart Wall map](https://www.cbp.gov/border-security/along-us-borders/smart-wall-map), public project alignments layer, edited 2 November 2026 (US government work, public domain).
 - Hadrian's Wall: Murphy, K., Turner, A. and Collins, R. (2024) *WallGIS* [data-set], Archaeology Data Service, [doi:10.5284/1100071](https://doi.org/10.5284/1100071), CC BY 4.0. The curtain-wall line was converted from British National Grid (EPSG:27700) to WGS84.
 - West Bank barrier: OCHA oPt, [West Bank Separation Barrier, January 2018](https://data.humdata.org/dataset/west-bank-barrier) (HDX, CC BY). This is still the newest public release.
 - Other traced walls: OpenStreetMap contributors (ODbL), including the privately built walls at Sunland Park and Mission (2019–2020).
