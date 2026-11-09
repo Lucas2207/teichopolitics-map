@@ -360,6 +360,20 @@ infoCard.onAdd = () => {
   return div;
 };
 infoCard.addTo(map);
+// Deprivation tick box inside a card: show or hide the neighbourhood layer, going to Belfast first if needed
+infoBody.addEventListener("change", (e) => {
+  if (!e.target.classList.contains("dep-toggle-input")) return;
+  if (!e.target.checked) {
+    map.removeLayer(depLayer);
+    return;
+  }
+  if (depOffered) {
+    map.addLayer(depLayer);
+  } else {
+    map.once("moveend", () => map.addLayer(depLayer));
+    map.fitBounds([[54.55, -6.02], [54.65, -5.86]]);
+  }
+});
 
 function fitInfoCard() {
   const card = infoCard.getContainer();
@@ -428,7 +442,7 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy ? row("Income and employment", c.economy) : ""}`
+       ${c.economy || inNI(meta.lat, meta.lon) ? row("Income and employment", `${c.economy || ""}${inNI(meta.lat, meta.lon) ? depToggleHtml() : ""}`) : ""}`
     : row("Census", "No census data added yet for this city");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
@@ -539,6 +553,28 @@ function isStanding(props, year) {
   return props.built <= year && (props.removed == null || props.removed > year);
 }
 
+// Physical type of the structure (what it is made as), in English
+const TYPE_LABELS = { wall: "Wall", fence: "Fence", berm: "Berm (sand or earth embankment)", ditch: "Ditch or trench" };
+// Ballif & Rosière (2009) classify closed borders between states in four types; urban and historic walls fall outside them
+const CATEGORY_LABELS = {
+  "marche": "March (marche): a border with no crossing points, which becomes a buffer zone",
+  "clôture": "Fence (clôture): wire mesh or barbed wire, relatively cheap",
+  "mur": "Wall (mur): a heavier structure with high-tech surveillance",
+  "clôture et mur": "Fence and wall (clôture et mur): both types along the same border",
+  "front": "Fortified military line (front): a frozen, unrecognised line of contact held by armed forces",
+  "urbaine (hors typologie)": "Urban barrier: discussed by Ballif & Rosière as urban teichopolitics (Belfast's peace lines are their example), outside their four border types",
+  "historique": "Historic frontier: outside Ballif & Rosière's typology, which covers contemporary closed borders",
+  "non classé (type not stated)": "Not classified: the sources do not describe the structure",
+};
+const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193.";
+
+// Tick box shown in Northern Ireland wall and city cards: turns the neighbourhood deprivation layer on or off
+function depToggleHtml() {
+  return `<label class="dep-toggle"><input type="checkbox" class="dep-toggle-input"${map.hasLayer(depLayer) ? " checked" : ""}>
+    Show deprivation by neighbourhood on the map (NISRA, 2017): income and employment deprivation of each small area</label>`;
+}
+const inNI = (lat, lon) => NI_BOUNDS.contains([lat, lon]);
+
 function popupHtml(p) {
   // Summary first; detail sections open with an arrow (native <details>)
   const or = (v, fallback = "Not documented") => (v ? v : fallback);
@@ -563,11 +599,14 @@ function popupHtml(p) {
   };
   const showSeparates = p.separates && p.separates !== "Not documented" && !same(p.separates, p.countries);
   const showOwner = p.owner && !same(p.owner, p.initiated_by);
-  const sources = [...new Set(p.sources || [])];
+  // Ballif & Rosière's category is shown apart from the physical type, and their article is then cited
+  const cat = CATEGORY_LABELS[p.typology] || (p.typology ? p.typology : "");
+  const sources = [...new Set([...(p.sources || []), ...(cat ? [BALLIF_ROSIERE] : [])])];
+  const citeExtra = cat ? "(Ballif and Rosière, 2009)" : "";
   const refs = sources.length
     ? `<ol class="refs">${sources.map((r) => `<li>${r}</li>`).join("")}</ol>`
     : "Not documented";
-  const citeParts = p.cite ? [...new Set(p.cite.split(/;\s*/).map((s) => s.trim()).filter(Boolean))] : [];
+  const citeParts = [...new Set([...(p.cite ? p.cite.split(/;\s*/) : []), citeExtra].map((s) => s.trim()).filter(Boolean))];
   const cite = citeParts.length ? `<p class="cite">In-text: ${citeParts.join("; ")}</p>` : "";
   const construction = [p.construction ? or(p.construction) : "", p.phases ? `Phases: ${p.phases}` : "", p.geometry_quality ? `Line on the map: ${p.geometry_quality}.` : ""]
     .filter(Boolean);
@@ -575,7 +614,8 @@ function popupHtml(p) {
     <div class="fiche-title">${p.name}</div>
     <dl class="summary">
       ${row("Location", `${or(p.countries)}${showSeparates ? ` · separates ${p.separates}` : ""}`)}
-      ${row("Type", `${or(p.type)}${p.typology ? ` · ${p.typology}` : ""}`)}
+      ${row("Type", or(TYPE_LABELS[p.type] || p.type))}
+      ${cat ? row("Ballif & Rosière (2009) category", cat) : ""}
       ${row("Length", `${length}`)}
       ${row("Years", period)}
       ${row(showOwner ? "Initiator and owner" : "Initiator", `${or(p.initiated_by)}${showOwner ? ` · owner: ${p.owner}` : ""}`)}
@@ -585,6 +625,7 @@ function popupHtml(p) {
     ${section("Security equipment and gates", `${row("Additional equipment", or(p.security_technology))}${row("Gates and crossing points", or(p.gates))}`)}
     ${single("Construction", construction.length ? construction.join("<br>") : "Not documented")}
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
+    ${/Northern Ireland/.test(p.countries || "") ? single("Income and employment", depToggleHtml()) : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>

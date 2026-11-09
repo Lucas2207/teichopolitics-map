@@ -15,7 +15,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `name`      | Name of the barrier                      |
 | `countries` | Countries or territories it separates    |
 | `separates` | Groups or areas it separates (optional)  |
-| `type`      | `wall`, `fence` or `berm`                |
+| `type`      | Physical structure: `wall`, `fence` or `berm` |
 | `built`     | Year construction started, or `null` if unknown (undated barriers are always shown and left out of the counts) |
 | `removed`   | Year it was dismantled, or `null`        |
 | `length_km` | Approximate length                       |
@@ -29,7 +29,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `maintenance_usd_2024`, `maintenance_eur_2024` | The same maintenance cost as numbers (optional) |
 | `security_technology` | Cameras, sensors, lighting and other equipment used with the barrier |
 | `geometry_quality` | How the line was drawn: `official border`, `approximate` or `placeholder` |
-| `typology` | Ballif & Rosière (2009) class: `marche`, `clôture`, `mur`, `front` (optional) |
+| `typology` | Category in Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques »', *L'Espace géographique*, 38(3), pp. 193–206: `marche` (march), `clôture` (fence), `mur` (wall), `front` (fortified military line) for borders between states. Urban walls (`urbaine (hors typologie)`) and historic walls (`historique`) fall outside their four types. Shown in the pop-up separately from `type` |
 | `note`      | Short description                        |
 
 Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.

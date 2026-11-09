@@ -374,6 +374,16 @@ input:focus-visible {
   font-size: 12.5px;
   line-height: 1.4;
 }
+.dep-toggle {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+  cursor: pointer;
+}
+.dep-toggle input { margin-top: 2px; flex-shrink: 0; }
 .fiche .fiche-text {
   margin: 6px 0 2px;
   font-size: 12.5px;
