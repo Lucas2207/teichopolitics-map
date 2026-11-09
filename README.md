@@ -36,7 +36,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `construction_class` | Sets the colour class by hand when the text alone would misclassify it: `mixed` for sections built differently, or another class (optional) |
 | `note`      | Short description                        |
 
-Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.
+Costs are converted to 2024 prices with US CPI (World Bank; U.S. Bureau of Labor Statistics CPI-U for 2025 and January to September 2026), euro-area HICP (Eurostat) and annual average exchange rates (World Bank; European Central Bank reference rates for 2026). Spending over several years uses the midpoint year, and where a source gives no year, the assumed year is stated in the record. Planned and projected budgets are converted in the text only, with no numeric fields, because they are not money spent.
 
 Colours show construction type (concrete, stone or brick; steel, metal or mesh; barbed or razor wire; earthwork; mixed; not documented; historical). The material named first in `construction` is the main structure, and anything added to it does not change the class. Mixed means sections built differently, such as a concrete wall with fenced sections. Seven hues were chosen for perceptual distance (CIEDE2000) under normal vision and simulated colour blindness; the pale yellow carries a thin outline in a darker shade of its own hue. Place names come from Natural Earth; native names are added where known.
 
