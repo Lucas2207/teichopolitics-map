@@ -173,18 +173,36 @@ const baseLayers = {
 baseLayers["Terrain"].addTo(map);
 
 // Legend on the map: what the colours and line styles mean
-// Deprivation by small area (NISRA, NIMDM 2017): classes by national decile of the overall rank (1 = most deprived)
-const DEP_CLASSES = [
-  { max: 1, color: "#67001f", label: "Most deprived 10% of Northern Ireland" },
-  { max: 2, color: "#b2182b", label: "10–20%" },
-  { max: 4, color: "#e0785f", label: "20–40%" },
-  { max: 7, color: "#f4c9a8", label: "40–70%" },
-  { max: 10, color: "#f7f1e8", label: "Least deprived 30%" },
-];
-const SA_COUNT = 4537;
-function depClass(rank) {
-  const decile = Math.min(10, Math.ceil((rank / SA_COUNT) * 10));
-  return DEP_CLASSES.find((c) => decile <= c.max);
+// Neighbourhood themes around Northern Ireland's peace walls: one shown at a time, each with its own colour scale.
+// "sa" = Small Areas (NIMDM 2017, income); "dz" = Data Zones (Census 2021)
+const THEMES = {
+  income: { label: "Income: residents on low income (2017)", src: "sa", field: "low_income_pct", breaks: [10, 15, 20, 30],
+    colors: ["#fef0d9", "#fdcc8a", "#fc8d59", "#e34a33", "#b30000"],
+    note: "Share of residents in households below 60% of the Northern Ireland median income" },
+  unemp: { label: "Employment: unemployment rate (2021)", src: "dz", field: "unemp", breaks: [3, 5, 8, 12],
+    colors: ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
+    note: "Unemployed residents as a share of the economically active aged 16+" },
+  prof: { label: "Occupations: managerial and professional (2021)", src: "dz", field: "prof", breaks: [15, 25, 35, 45],
+    colors: ["#eff3ff", "#bdd7e7", "#6baed6", "#3182bd", "#08519c"],
+    note: "Share of residents aged 16+ (excluding students) in managerial, administrative and professional occupations" },
+  community: { label: "Community background: Catholic / Protestant (2021)", src: "dz", field: "cath_share", breaks: [20, 40, 60, 80],
+    colors: ["#5e3c99", "#b2abd2", "#ececec", "#80cdc1", "#018571"],
+    labels: ["Over 80% Protestant background", "60–80% Protestant", "Mixed (40–60%)", "60–80% Catholic", "Over 80% Catholic background"],
+    note: "Religion or religion brought up in, among residents of Catholic or Protestant background" },
+  minority: { label: "Ethnic minorities: residents not White (2021)", src: "dz", field: "minority", breaks: [1, 3, 6, 10],
+    colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
+    note: "Share of residents who are not of White ethnic group" },
+};
+function themeColor(th, v) {
+  if (v == null) return "#cccccc";
+  let i = th.breaks.findIndex((b) => v < b);
+  if (i < 0) i = th.breaks.length;
+  return th.colors[i];
+}
+function themeLabels(th) {
+  if (th.labels) return th.labels;
+  const b = th.breaks;
+  return [`Under ${b[0]}%`, ...b.slice(0, -1).map((x, i) => `${x}–${b[i + 1]}%`), `${b[b.length - 1]}% and over`];
 }
 const legend = L.control({ position: "bottomleft" });
 legend.onAdd = () => {
@@ -205,8 +223,9 @@ legend.onAdd = () => {
     <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
     <div><span class="swatch border"></span>Dashed: official country border</div>
     <div class="legend-dep" hidden>
-      <p class="legend-title">Deprivation, Northern Ireland (2017)</p>
-      ${DEP_CLASSES.map((c) => `<div><span class="swatch fill" style="background:${c.color}"></span>${c.label}</div>`).join("")}
+      <p class="legend-title legend-theme-title"></p>
+      <div class="legend-theme-rows"></div>
+      <p class="legend-theme-note"></p>
     </div>
     </div>`;
   const toggle = div.querySelector(".legend-toggle");
@@ -255,49 +274,91 @@ map.on("zoomend", () => {
     layer.setStyle({ opacity: show ? 0.9 : 0 });
   });
 });
-// Deprivation around the peace walls (Belfast, Derry, Lurgan, Portadown): off by default, loaded when switched on
+// Neighbourhood themes around the peace walls (Belfast, Derry, Lurgan, Portadown): loaded when switched on
 map.createPane("context");
 map.getPane("context").style.zIndex = 370;
-const depLayer = L.layerGroup();
-let depLoaded = false;
-function depCardHtml(p) {
-  const c = depClass(p.mdm);
+const themeLayers = Object.fromEntries(Object.keys(THEMES).map((k) => [k, L.layerGroup()]));
+let activeTheme = null;
+const themeData = {};
+function loadThemeData(src) {
+  if (!themeData[src]) themeData[src] = fetch(src === "sa" ? "data/ni-deprivation.json" : "data/ni-census-dz.json").then((r) => r.json());
+  return themeData[src];
+}
+const NISRA_DZ_REFS = [
+  "NISRA (2023) Census 2021 Flexible Table Builder: Data Zone tables for religion or religion brought up in, economic activity, National Statistics Socio-economic Classification, ethnic group and national identity. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://build.nisra.gov.uk/ (Accessed: 9 November 2026).",
+  "NISRA (2023) Data Zone boundaries in GIS format. Available at: https://www.nisra.gov.uk/publications/data-zone-boundaries-gis-format (Accessed: 9 November 2026).",
+];
+const NISRA_SA_REFS = [
+  "NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: Small Area level results. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/publications/nimdm17-sa-level-results (Accessed: 6 November 2026).",
+  "NISRA (2013) Small Area boundaries in GIS format. Available at: https://www.nisra.gov.uk/publications/small-area-boundaries-gis-format (Accessed: 6 November 2026).",
+];
+function areaCardHtml(p, src) {
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
+  const pc = (v) => (v == null ? "not available" : `${v}%`);
+  const refs = (list, cite) => `<details><summary>References (Harvard)</summary><p class="cite">In-text: ${cite}</p><ol class="refs">${list.map((r) => `<li>${r}</li>`).join("")}</ol></details>`;
+  if (src === "sa") {
+    return `<div class="fiche">
+      <div class="fiche-title">${p.area.replace(/_/g, " ")} · small area ${p.sa}</div>
+      <dl>
+        ${row("Council area", p.lgd)}
+        ${row("Low income", `${p.low_income_pct}% of residents live in households below 60% of the Northern Ireland median income`)}
+        ${row("Employment deprivation", `${p.emp_deprived_pct}% of working-age residents are employment deprived (out of work and claiming related benefits)`)}
+        ${row("Overall rank", `${p.mdm.toLocaleString("en")} of 4,537 small areas on NISRA's multiple deprivation measure (1 = most deprived)`)}
+      </dl>
+      <p class="cite">Most indicators relate to 2015/16. The 2021 census figures for this area appear under the other themes.</p>
+      ${refs(NISRA_SA_REFS, "(NISRA, 2017)")}
+    </div>`;
+  }
   return `<div class="fiche">
-    <div class="fiche-title">${p.area.replace(/_/g, " ")} · small area ${p.sa}</div>
+    <div class="fiche-title">${p.name} · Data Zone ${p.dz}</div>
     <dl>
       ${row("Council area", p.lgd)}
-      ${row("Overall deprivation", `Rank ${p.mdm.toLocaleString("en")} of ${SA_COUNT.toLocaleString("en")} (1 = most deprived): ${c.label.toLowerCase()}`)}
-      ${row("Low income", `${p.low_income_pct}% of residents live in households below 60% of the Northern Ireland median income (income rank ${p.inc_rank.toLocaleString("en")})`)}
-      ${row("Employment deprivation", `${p.emp_deprived_pct}% of working-age residents are employment deprived (employment rank ${p.emp_rank.toLocaleString("en")})`)}
+      ${row("Residents (2021)", p.pop.toLocaleString("en"))}
+      ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the economically active aged 16+; ${pc(p.employed)} of residents aged 16+ in work`)}
+      ${row("Occupations", `Managerial and professional ${pc(p.prof)}; semi-routine and routine ${pc(p.routine)}; never worked or long-term unemployed ${pc(p.never)} (residents aged 16+, excluding students)`)}
+      ${row("Community background", `Catholic ${pc(p.cath)}; Protestant and other Christian ${pc(p.prot)}; other religions ${pc(p.other_rel)}; none ${pc(p.none)} (religion or religion brought up in)`)}
+      ${row("National identity", `British only ${pc(p.british)}; Irish only ${pc(p.irish)}; Northern Irish only ${pc(p.ni)}`)}
+      ${row("Ethnic group", `Not White: ${pc(p.minority)}`)}
     </dl>
-    <p class="cite">Most indicators relate to 2015/16. In-text: (NISRA, 2017)</p>
-    <p class="cite">References: NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: Small Area level results. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/publications/nimdm17-sa-level-results (Accessed: 6 November 2026). NISRA (2013) Small Area boundaries in GIS format. Available at: https://www.nisra.gov.uk/publications/small-area-boundaries-gis-format (Accessed: 6 November 2026).</p>
+    ${refs(NISRA_DZ_REFS, "(NISRA, 2023)")}
   </div>`;
 }
-map.on("overlayadd", (e) => {
-  if (e.layer !== depLayer) return;
-  document.querySelector(".legend-dep").hidden = false;
-  // Open the legend so the colour key is visible
+function showThemeLegend(key) {
+  const box = document.querySelector(".legend-dep");
+  if (!key) { box.hidden = true; return; }
+  const th = THEMES[key];
+  box.querySelector(".legend-theme-title").textContent = th.label;
+  box.querySelector(".legend-theme-rows").innerHTML = themeLabels(th)
+    .map((l, i) => `<div><span class="swatch fill" style="background:${th.colors[i]}"></span>${l}</div>`).join("");
+  box.querySelector(".legend-theme-note").textContent = th.note + ". Source: NISRA.";
+  box.hidden = false;
   const legendBox = legend.getContainer();
   if (legendBox.classList.contains("collapsed")) legendBox.querySelector(".legend-toggle").click();
-  if (depLoaded) return;
-  depLoaded = true;
-  fetch("data/ni-deprivation.json")
-    .then((r) => r.json())
-    .then((fc) => {
-      L.geoJSON(fc, {
-        pane: "context",
-        style: (f) => ({ fillColor: depClass(f.properties.mdm).color, fillOpacity: 0.6, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
-        onEachFeature: (f, lyr) => lyr.on("click", (ev) => {
-          L.DomEvent.stopPropagation(ev);
-          showInfoCard(depCardHtml(f.properties));
-        }),
-      }).addTo(depLayer);
-    });
+}
+map.on("overlayadd", (e) => {
+  const key = Object.keys(themeLayers).find((k) => themeLayers[k] === e.layer);
+  if (!key) return;
+  // One theme at a time
+  Object.entries(themeLayers).forEach(([k, l]) => { if (k !== key && map.hasLayer(l)) map.removeLayer(l); });
+  // Leaflet does not redraw its checkboxes while it is handling a click, so refresh them just after
+  setTimeout(() => layerControl._update && layerControl._update(), 0);
+  activeTheme = key;
+  showThemeLegend(key);
+  const th = THEMES[key];
+  if (e.layer.getLayers().length) return;
+  loadThemeData(th.src).then((fc) => {
+    L.geoJSON(fc, {
+      pane: "context",
+      style: (f) => ({ fillColor: themeColor(th, f.properties[th.field]), fillOpacity: 0.65, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
+      onEachFeature: (f, lyr) => lyr.on("click", (ev) => {
+        L.DomEvent.stopPropagation(ev);
+        showInfoCard(areaCardHtml(f.properties, th.src));
+      }),
+    }).addTo(e.layer);
+  });
 });
 map.on("overlayremove", (e) => {
-  if (e.layer === depLayer) document.querySelector(".legend-dep").hidden = true;
+  if (activeTheme && themeLayers[activeTheme] === e.layer) { activeTheme = null; showThemeLegend(null); }
 });
 
 const layerControl = L.control.layers(baseLayers, {
@@ -307,24 +368,24 @@ const layerControl = L.control.layers(baseLayers, {
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
-// The deprivation layer is offered only when the map shows Northern Ireland (zoom 8 or closer);
-// moving away removes the option and switches the layer off
+// The neighbourhood themes are offered only when the map shows Northern Ireland (zoom 8 or closer);
+// moving away removes the options and switches any theme off
 const NI_BOUNDS = L.latLngBounds([54.0, -8.2], [55.35, -5.4]);
-const DEP_LABEL = "Deprivation by neighbourhood, Northern Ireland (2017)";
-let depOffered = false;
-function updateDepOption() {
+let themesOffered = false;
+function updateThemeOptions() {
   const show = map.getZoom() >= 8 && NI_BOUNDS.contains(map.getCenter());
-  if (show === depOffered) return;
-  depOffered = show;
-  if (show) {
-    layerControl.addOverlay(depLayer, DEP_LABEL);
-  } else {
-    if (map.hasLayer(depLayer)) map.removeLayer(depLayer);
-    layerControl.removeLayer(depLayer);
-  }
+  if (show === themesOffered) return;
+  themesOffered = show;
+  Object.entries(THEMES).forEach(([k, th]) => {
+    if (show) layerControl.addOverlay(themeLayers[k], `Northern Ireland · ${th.label}`);
+    else {
+      if (map.hasLayer(themeLayers[k])) map.removeLayer(themeLayers[k]);
+      layerControl.removeLayer(themeLayers[k]);
+    }
+  });
   fitInfoCard();
 }
-map.on("moveend", updateDepOption);
+map.on("moveend", updateThemeOptions);
 
 // The layer box folds into a small "Layers" button, like the legend (folded by default on phones)
 {
@@ -360,17 +421,18 @@ infoCard.onAdd = () => {
   return div;
 };
 infoCard.addTo(map);
-// Deprivation tick box inside a card: show or hide the neighbourhood layer, going to Belfast first if needed
+// Theme picker inside a wall or city card: show a neighbourhood theme, going to Belfast first if needed
 infoBody.addEventListener("change", (e) => {
-  if (!e.target.classList.contains("dep-toggle-input")) return;
-  if (!e.target.checked) {
-    map.removeLayer(depLayer);
+  if (!e.target.classList.contains("theme-select")) return;
+  const key = e.target.value;
+  if (!key) {
+    if (activeTheme) map.removeLayer(themeLayers[activeTheme]);
     return;
   }
-  if (depOffered) {
-    map.addLayer(depLayer);
+  if (themesOffered) {
+    map.addLayer(themeLayers[key]);
   } else {
-    map.once("moveend", () => map.addLayer(depLayer));
+    map.once("moveend", () => map.addLayer(themeLayers[key]));
     map.fitBounds([[54.55, -6.02], [54.65, -5.86]]);
   }
 });
@@ -442,7 +504,7 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy || inNI(meta.lat, meta.lon) ? row("Income and employment", `${c.economy || ""}${inNI(meta.lat, meta.lon) ? depToggleHtml() : ""}`) : ""}`
+       ${c.economy || inNI(meta.lat, meta.lon) ? row("Income and employment", `${c.economy || ""}${inNI(meta.lat, meta.lon) ? themePickerHtml() : ""}`) : ""}`
     : row("Census", "No census data added yet for this city");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
@@ -568,10 +630,13 @@ const CATEGORY_LABELS = {
 };
 const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193.";
 
-// Tick box shown in Northern Ireland wall and city cards: turns the neighbourhood deprivation layer on or off
-function depToggleHtml() {
-  return `<label class="dep-toggle"><input type="checkbox" class="dep-toggle-input"${map.hasLayer(depLayer) ? " checked" : ""}>
-    Show deprivation by neighbourhood on the map (NISRA, 2017): income and employment deprivation of each small area</label>`;
+// Picker shown in Northern Ireland wall and city cards: map a neighbourhood theme (income, employment, occupations, community, ethnicity)
+function themePickerHtml() {
+  return `<label class="dep-toggle">Show by neighbourhood on the map:
+    <select class="theme-select">
+      <option value="">None</option>
+      ${Object.entries(THEMES).map(([k, th]) => `<option value="${k}"${activeTheme === k ? " selected" : ""}>${th.label}</option>`).join("")}
+    </select></label>`;
 }
 const inNI = (lat, lon) => NI_BOUNDS.contains([lat, lon]);
 
@@ -625,7 +690,7 @@ function popupHtml(p) {
     ${section("Security equipment and gates", `${row("Additional equipment", or(p.security_technology))}${row("Gates and crossing points", or(p.gates))}`)}
     ${single("Construction", construction.length ? construction.join("<br>") : "Not documented")}
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
-    ${/Northern Ireland/.test(p.countries || "") ? single("Income and employment", depToggleHtml()) : ""}
+    ${/Northern Ireland/.test(p.countries || "") ? single("Income, employment and population by neighbourhood", themePickerHtml()) : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>
