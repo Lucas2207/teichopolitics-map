@@ -79,13 +79,14 @@
   "population": 1386932,
   "ethnic": "Hispanic or Latino 29.8%; White, not Hispanic 40.9%; Asian 17.6%. Foreign-born: 25.1% (2020–2024).",
   "language": "Language other than English spoken at home: 39.0% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "San Diego County, 2020: 41.4% of residents counted as adherents by congregations; Catholic Church 22.9%; Non-denominational Christian Churches 5.6%; Church of Jesus Christ of Latter-day Saints 2.1%; Muslim Estimate 1.5%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.0% of the civilian labour force; median household income $108,077 (2024 dollars); per capita income $57,083 (2024 dollars); 11.0% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: San Diego city, California. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Yuma": {
   "lat": 32.69,
@@ -95,13 +96,14 @@
   "population": 95548,
   "ethnic": "Hispanic or Latino 60.8%; White, not Hispanic 31.2%. Foreign-born: 19.5% (2020–2024).",
   "language": "Language other than English spoken at home: 47.2% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "Yuma County, 2020: 35.0% of residents counted as adherents by congregations; Catholic Church 20.9%; Church of Jesus Christ of Latter-day Saints 2.9%; Non-denominational Christian Churches 2.5%; Jehovah's Witnesses 2.1%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.3% of the civilian labour force; median household income $65,482 (2024 dollars); per capita income $33,951 (2024 dollars); 15.5% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: Yuma city, Arizona. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "El Paso": {
   "lat": 31.76,
@@ -111,13 +113,14 @@
   "population": 678815,
   "ethnic": "Hispanic or Latino 81.2%; White, not Hispanic 12.0%. Foreign-born: 22.4% (2020–2024).",
   "language": "Language other than English spoken at home: 65.9% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "El Paso County, 2020: 62.4% of residents counted as adherents by congregations; Catholic Church 48.0%; Non-denominational Christian Churches 5.8%; Southern Baptist Convention 2.2%; Jehovah's Witnesses 1.8%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.0% of the civilian labour force; median household income $59,745 (2024 dollars); per capita income $29,956 (2024 dollars); 18.4% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: El Paso city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Laredo": {
   "lat": 27.53,
@@ -127,13 +130,14 @@
   "population": 255205,
   "ethnic": "Hispanic or Latino 95.1%; White, not Hispanic 3.4%. Foreign-born: 25.1% (2020–2024).",
   "language": "Language other than English spoken at home: 86.8% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "Webb County, 2020: 68.7% of residents counted as adherents by congregations; Catholic Church 59.9%; Assemblies of God 2.8%; Non-denominational Christian Churches 1.8%; Jehovah's Witnesses 1.5%. The US census itself does not ask about religion.",
   "economy": "Unemployment 5.4% of the civilian labour force; median household income $63,915 (2024 dollars); per capita income $25,161 (2024 dollars); 20.9% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: Laredo city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Brownsville": {
   "lat": 25.9,
@@ -143,13 +147,14 @@
   "population": 186738,
   "ethnic": "Hispanic or Latino 94.0%; White, not Hispanic 4.4%. Foreign-born: 27.5% (2020–2024).",
   "language": "Language other than English spoken at home: 83.6% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "Cameron County, 2020: 54.6% of residents counted as adherents by congregations; Catholic Church 36.8%; Non-denominational Christian Churches 7.7%; Southern Baptist Convention 2.7%; Jehovah's Witnesses 2.1%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.2% of the civilian labour force; median household income $52,130 (2024 dollars); per capita income $22,512 (2024 dollars); 23.7% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: Brownsville city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "McAllen": {
   "lat": 26.2,
@@ -159,13 +164,14 @@
   "population": 142210,
   "ethnic": "Hispanic or Latino 87.0%; White, not Hispanic 8.5%. Foreign-born: 26.2% (2020–2024).",
   "language": "Language other than English spoken at home: 73.7% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "Hidalgo County, 2020: 61.4% of residents counted as adherents by congregations; Catholic Church 46.6%; Non-denominational Christian Churches 5.1%; Southern Baptist Convention 2.1%; Jehovah's Witnesses 2.1%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.0% of the civilian labour force; median household income $61,579 (2024 dollars); per capita income $30,885 (2024 dollars); 20.0% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: McAllen city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 6 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Tijuana": {
   "lat": 32.53,
@@ -410,13 +416,14 @@
   "population": 275487,
   "ethnic": "Hispanic or Latino 61.1%; White, not Hispanic 15.3%; Asian 14.6%. Foreign-born: 29.4% (2020–2024).",
   "language": "Language other than English spoken at home: 57.4% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "San Diego County, 2020: 41.4% of residents counted as adherents by congregations; Catholic Church 22.9%; Non-denominational Christian Churches 5.6%; Church of Jesus Christ of Latter-day Saints 2.1%; Muslim Estimate 1.5%. The US census itself does not ask about religion.",
   "economy": "Unemployment 8.0% of the civilian labour force; median household income $108,032 (2024 dollars); per capita income $41,343 (2024 dollars); 8.7% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: Chula Vista city, California. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "National City": {
   "lat": 32.68,
@@ -426,13 +433,14 @@
   "population": 56173,
   "ethnic": "Hispanic or Latino 63.5%; White, not Hispanic 10.6%; Asian 17.1%. Foreign-born: 36.0% (2020–2024).",
   "language": "Language other than English spoken at home: 66.0% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "San Diego County, 2020: 41.4% of residents counted as adherents by congregations; Catholic Church 22.9%; Non-denominational Christian Churches 5.6%; Church of Jesus Christ of Latter-day Saints 2.1%; Muslim Estimate 1.5%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.6% of the civilian labour force; median household income $66,841 (2024 dollars); per capita income $30,909 (2024 dollars); 14.6% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: National City city, California. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Edinburg": {
   "lat": 26.3,
@@ -442,13 +450,14 @@
   "population": 100243,
   "ethnic": "Hispanic or Latino 86.7%; White, not Hispanic 8.6%. Foreign-born: 19.7% (2020–2024).",
   "language": "Language other than English spoken at home: 71.9% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "Hidalgo County, 2020: 61.4% of residents counted as adherents by congregations; Catholic Church 46.6%; Non-denominational Christian Churches 5.1%; Southern Baptist Convention 2.1%; Jehovah's Witnesses 2.1%. The US census itself does not ask about religion.",
   "economy": "Unemployment 6.1% of the civilian labour force; median household income $59,466 (2024 dollars); per capita income $28,336 (2024 dollars); 26.0% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: Edinburg city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Harlingen": {
   "lat": 26.19,
@@ -458,13 +467,14 @@
   "population": 71829,
   "ethnic": "Hispanic or Latino 82.3%; White, not Hispanic 13.9%. Foreign-born: 14.6% (2020–2024).",
   "language": "Language other than English spoken at home: 52.4% of people aged 5+ (2020–2024).",
-  "religion": "Not collected: the US census does not ask about religion.",
+  "religion": "Cameron County, 2020: 54.6% of residents counted as adherents by congregations; Catholic Church 36.8%; Non-denominational Christian Churches 7.7%; Southern Baptist Convention 2.7%; Jehovah's Witnesses 2.1%. The US census itself does not ask about religion.",
   "economy": "Unemployment 5.2% of the civilian labour force; median household income $53,645 (2024 dollars); per capita income $26,512 (2024 dollars); 25.1% of people below the poverty line (2020–2024).",
   "sources": [
    "U.S. Census Bureau (2025) QuickFacts: Harlingen city, Texas. Census 2020 and American Community Survey 5-year estimates 2020–2024. Available at: https://www.census.gov/quickfacts/ (Accessed: 8 November 2026).",
-   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026)."
+   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
   ],
-  "cite": "(U.S. Census Bureau, 2025)"
+  "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
  },
  "Ciudad Acuna": {
   "lat": 29.32,
@@ -642,5 +652,1556 @@
    "Foka, Z. (2015) 'Shared space in conflict areas: exploring the case of Nicosia's buffer zone', Athens Journal of Mediterranean Studies, 1(1), pp. 45–60. doi:10.30958/ajms.1-1-3."
   ],
   "cite": "(Wikipedia, n.d.); (Foka, 2015)"
+ },
+ "Agartala": {
+  "lat": 23.835,
+  "lon": 91.28,
+  "area_note": "City, Tripura",
+  "census_year": 2011,
+  "population": 400004,
+  "ethnic": "Bengalis, Tripuris and Meiteis; no shares published.",
+  "language": "Bengali 90.8%, Kokborok 4.1%, Hindi 2.4%, Meitei 0.8%.",
+  "religion": "Hindu 94.1%, Muslim 4.4%, Christian 1.0%, Buddhist 0.3%.",
+  "sources": [
+   "Wikipedia (n.d.) Agartala. Available at: https://en.wikipedia.org/wiki/Agartala (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 86.2% (2011). Unemployment and income not found."
+ },
+ "Raiganj": {
+  "lat": 25.613,
+  "lon": 88.124,
+  "area_note": "City, Uttar Dinajpur, West Bengal",
+  "census_year": 2011,
+  "population": 183682,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Bengali (shares not published).",
+  "religion": "Hindu 97.4%, Muslim 2.2%, Jain 0.2%.",
+  "sources": [
+   "Wikipedia (n.d.) Raiganj. Available at: https://en.wikipedia.org/wiki/Raiganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 81.7% (2011). Unemployment and income not found."
+ },
+ "Malda": {
+  "lat": 25.004,
+  "lon": 88.146,
+  "area_note": "English Bazar municipality (Malda metro 324,237), West Bengal",
+  "census_year": 2011,
+  "population": 216083,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Hindu 87.0%, Muslim 11.0%, Christian 0.3%.",
+  "sources": [
+   "Wikipedia (n.d.) English Bazar. Available at: https://en.wikipedia.org/wiki/English_Bazar (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 84.7% (2011). Unemployment and income not found."
+ },
+ "Balurghat": {
+  "lat": 25.221,
+  "lon": 88.777,
+  "area_note": "Municipality, Dakshin Dinajpur, West Bengal",
+  "census_year": 2011,
+  "population": 153279,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Bengali 94.4%, Hindi 3.4%, Santali 1.4%.",
+  "religion": "Hindu 98.7%, Muslim 0.5%.",
+  "sources": [
+   "Wikipedia (n.d.) Balurghat. Available at: https://en.wikipedia.org/wiki/Balurghat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 91.7% (2011). Unemployment and income not found."
+ },
+ "Krishnanagar": {
+  "lat": 23.38,
+  "lon": 88.53,
+  "area_note": "City (agglomeration 203,429), West Bengal",
+  "census_year": 2011,
+  "population": 181182,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Bengali 97.5%, Hindi 2.0%, Santali 0.2%.",
+  "religion": "Hindu 90.8%, Christian 6.1%, Muslim 3.0%.",
+  "sources": [
+   "Wikipedia (n.d.) Krishnanagar, Nadia. Available at: https://en.wikipedia.org/wiki/Krishnanagar,_Nadia (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 88.1% (2011). Unemployment and income not found."
+ },
+ "Basirhat City": {
+  "lat": 22.661,
+  "lon": 88.855,
+  "area_note": "Municipality, North 24 Parganas, West Bengal",
+  "census_year": 2011,
+  "population": 125254,
+  "ethnic": "Scheduled Castes 18.9%, Scheduled Tribes 0.4%.",
+  "language": "Bengali 99.8%.",
+  "religion": "Hindu 77.6%, Muslim 22.2%.",
+  "sources": [
+   "Wikipedia (n.d.) Basirhat. Available at: https://en.wikipedia.org/wiki/Basirhat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 87.4% (2011). Unemployment and income not found."
+ },
+ "Bangaon": {
+  "lat": 23.046,
+  "lon": 88.831,
+  "area_note": "Town, North 24 Parganas, West Bengal",
+  "census_year": 2011,
+  "population": 110668,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Bengali (shares not published).",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Bangaon. Available at: https://en.wikipedia.org/wiki/Bangaon (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 90.3% (2011). Unemployment and income not found."
+ },
+ "Firozpur": {
+  "lat": 30.926,
+  "lon": 74.613,
+  "area_note": "City, Punjab, on the India–Pakistan border",
+  "census_year": 2011,
+  "population": 110313,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Punjabi (shares not published).",
+  "religion": "Hindu 70.5%, Sikh 26.3%, Christian 2.4%, Muslim 0.3%.",
+  "sources": [
+   "Wikipedia (n.d.) Firozpur. Available at: https://en.wikipedia.org/wiki/Firozpur (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 70.7% (2011). Unemployment and income not found."
+ },
+ "Jalpaiguri": {
+  "lat": 26.517,
+  "lon": 88.733,
+  "area_note": "City (metro 169,002), West Bengal",
+  "census_year": 2011,
+  "population": 107341,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Bengali 83.3%, Hindi 14.1%, Nepali 2.1%.",
+  "religion": "Hindu 88.2%, Muslim 9.6%, Christian 1.0%, Buddhist 0.5%.",
+  "sources": [
+   "Wikipedia (n.d.) Jalpaiguri. Available at: https://en.wikipedia.org/wiki/Jalpaiguri (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 86.4% (2011); per capita income ₹193,726 (2024–25)."
+ },
+ "Kishanganj": {
+  "lat": 26.102,
+  "lon": 87.955,
+  "area_note": "City, Bihar",
+  "census_year": 2011,
+  "population": 105782,
+  "ethnic": "Scheduled Castes 11.6%, Scheduled Tribes 1.5%.",
+  "language": "Hindi 59.8%, Urdu 23.1%, Bengali 5.7%, Surjapuri 5.6%, Maithili 3.2%, Bhojpuri 2.5%.",
+  "religion": "Hindu 55.5%, Muslim 42.7%, Jain 1.1%.",
+  "sources": [
+   "Wikipedia (n.d.) Kishanganj. Available at: https://en.wikipedia.org/wiki/Kishanganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
+  "economy": "Literacy 73.5% (2011). Unemployment and income not found."
+ },
+ "Sialkot": {
+  "lat": 32.493,
+  "lon": 74.531,
+  "area_note": "City, Punjab",
+  "census_year": 2023,
+  "population": 911817,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Punjabi 85.7%, Urdu 10.4%, Pashto 2.9%.",
+  "religion": "Muslim 96.0%, Christian 3.8%.",
+  "sources": [
+   "Wikipedia (n.d.) Sialkot. Available at: https://en.wikipedia.org/wiki/Sialkot (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "Unemployment and household income not found."
+ },
+ "Kasur": {
+  "lat": 31.125,
+  "lon": 74.455,
+  "area_note": "City, Punjab, near the Indian border",
+  "census_year": 2023,
+  "population": 510875,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Punjabi 88.6%, Urdu 6.1%, Mewati 4.7%.",
+  "religion": "Muslim 96.1%, Christian 3.8% (2017).",
+  "sources": [
+   "Wikipedia (n.d.) Kasur. Available at: https://en.wikipedia.org/wiki/Kasur (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "Unemployment and household income not found."
+ },
+ "Narowal": {
+  "lat": 32.102,
+  "lon": 74.873,
+  "area_note": "Narowal city 130,692; figures for Narowal District (1,950,954)",
+  "census_year": 2023,
+  "population": 130692,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "District: Punjabi 94.3%, Urdu 3.1%, Mewati 2.3%.",
+  "religion": "District: Muslim 97.5%, Christian 2.2%.",
+  "sources": [
+   "Wikipedia (n.d.) Narowal District. Available at: https://en.wikipedia.org/wiki/Narowal_District (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "District literacy 75.3% (2023). Unemployment and income not found."
+ },
+ "Shakargarh": {
+  "lat": 32.264,
+  "lon": 75.16,
+  "area_note": "Shakargarh tehsil; language and religion for Narowal District",
+  "census_year": 2023,
+  "population": 769339,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "District: Punjabi 94.3%, Urdu 3.1%, Mewati 2.3%.",
+  "religion": "District: Muslim 97.5%, Christian 2.2%.",
+  "sources": [
+   "Wikipedia (n.d.) Narowal District. Available at: https://en.wikipedia.org/wiki/Narowal_District (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "District literacy 75.3% (2023). Unemployment and income not found."
+ },
+ "Harunabad": {
+  "lat": 29.612,
+  "lon": 73.138,
+  "area_note": "Haroonabad tehsil; language and religion for Bahawalnagar District",
+  "census_year": 2023,
+  "population": 615476,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "District: Punjabi 94.1%, Urdu 3.4%, Saraiki 1.7%.",
+  "religion": "District: Muslim 99.5%, Christian 0.4%, Hindu 0.1%.",
+  "sources": [
+   "Wikipedia (n.d.) Bahawalnagar District. Available at: https://en.wikipedia.org/wiki/Bahawalnagar_District (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "District literacy 57.0% (2023). Unemployment and income not found."
+ },
+ "Chaman": {
+  "lat": 30.918,
+  "lon": 66.453,
+  "area_note": "City, Balochistan, on the Afghan border",
+  "census_year": 2023,
+  "population": 130139,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Pashto 98.2%, Punjabi 0.7%, Urdu 0.3%.",
+  "religion": "Muslim 99.2%, Christian 0.4%, Hindu 0.3% (2017).",
+  "sources": [
+   "Wikipedia (n.d.) Chaman. Available at: https://en.wikipedia.org/wiki/Chaman (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "Unemployment and income not found."
+ },
+ "New Mirpur City": {
+  "lat": 33.148,
+  "lon": 73.752,
+  "area_note": "City, Pakistan-administered Kashmir",
+  "census_year": 2017,
+  "population": 124352,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "District: Pahari-Pothwari/Punjabi about 85%, Gojri about 10%.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Mirpur, Azad Kashmir. Available at: https://en.wikipedia.org/wiki/Mirpur,_Azad_Kashmir (figures reported there from the 2017 census of Pakistan and the AJ&K Statistical Year Book 2019) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2017 census of Pakistan and the AJ&K Statistical Year Book 2019)"
+ },
+ "Haveli Lakha": {
+  "lat": 30.451,
+  "lon": 73.694,
+  "area_note": "Figures for Okara District; no figure for the town itself",
+  "census_year": 2023,
+  "population": 3515490,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "District: Punjabi 94.2%, Urdu 4.6%.",
+  "religion": "District: Muslim 98.4%, Christian 1.6%.",
+  "sources": [
+   "Wikipedia (n.d.) Okara District. Available at: https://en.wikipedia.org/wiki/Okara_District (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "District literacy 60.3% (2023). Unemployment and income not found."
+ },
+ "Rajshahi": {
+  "lat": 24.377,
+  "lon": 88.603,
+  "area_note": "City (metro about 1,032,000)",
+  "census_year": 2022,
+  "population": 553288,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Bengali, with an Urdu-speaking minority (shares not published).",
+  "religion": "Muslim 94.2%, Hindu 5.1%, Christian 0.5%.",
+  "sources": [
+   "Wikipedia (n.d.) Rajshahi. Available at: https://en.wikipedia.org/wiki/Rajshahi (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 75.2% (2022). Unemployment and income not found."
+ },
+ "Brahmanbaria": {
+  "lat": 23.975,
+  "lon": 91.112,
+  "area_note": "City",
+  "census_year": 2022,
+  "population": 264341,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Muslim 90.0%, Hindu 9.9%.",
+  "sources": [
+   "Wikipedia (n.d.) Brahmanbaria. Available at: https://en.wikipedia.org/wiki/Brahmanbaria (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 83.3% (2022). Unemployment and income not found."
+ },
+ "Dinajpur": {
+  "lat": 25.627,
+  "lon": 88.638,
+  "area_note": "Figures for Dinajpur District",
+  "census_year": 2022,
+  "population": 3315236,
+  "ethnic": "Bengali 98.4%, Santal 1.2%.",
+  "language": "Bengali (shares not published).",
+  "religion": "Muslim 78.6%, Hindu 19.6%, Christian 1.4%.",
+  "sources": [
+   "Wikipedia (n.d.) Dinajpur, Bangladesh. Available at: https://en.wikipedia.org/wiki/Dinajpur,_Bangladesh (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 76.1% (2022). Unemployment and income not found."
+ },
+ "Satkhira": {
+  "lat": 22.708,
+  "lon": 89.072,
+  "area_note": "Satkhira municipality",
+  "census_year": 2022,
+  "population": 138411,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Muslim 89.8%, Hindu 9.8%, Christian 0.4%.",
+  "sources": [
+   "Wikipedia (n.d.) Satkhira. Available at: https://en.wikipedia.org/wiki/Satkhira (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 86.4% (2022). Unemployment and income not found."
+ },
+ "Nawabganj": {
+  "lat": 24.58,
+  "lon": 88.35,
+  "area_note": "Town",
+  "census_year": 2022,
+  "population": 201000,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Muslim 96.6%, Hindu 3.4%.",
+  "sources": [
+   "Wikipedia (n.d.) Chapai Nawabganj. Available at: https://en.wikipedia.org/wiki/Chapai_Nawabganj (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 74.2% (2022). Unemployment and income not found."
+ },
+ "Puthia": {
+  "lat": 24.365,
+  "lon": 88.834,
+  "area_note": "Upazila",
+  "census_year": 2022,
+  "population": 224143,
+  "ethnic": "Ethnic minorities 1.2% (Santal 1,320; Oraon 910).",
+  "language": "Not found in the sources consulted.",
+  "religion": "Muslim 94.0%, Hindu 5.2%, Christian 0.5%.",
+  "sources": [
+   "Wikipedia (n.d.) Puthia Upazila. Available at: https://en.wikipedia.org/wiki/Puthia_Upazila (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 71.5% (2022). Unemployment and income not found."
+ },
+ "Karnaphuli": {
+  "lat": 22.691,
+  "lon": 92.235,
+  "area_note": "Upazila",
+  "census_year": 2022,
+  "population": 203705,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Muslim 96.5%, Hindu 3.0%.",
+  "sources": [
+   "Wikipedia (n.d.) Karnaphuli Upazila. Available at: https://en.wikipedia.org/wiki/Karnaphuli_Upazila (figures reported there from the 2022 census of Bangladesh (Bangladesh Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2022 census of Bangladesh (Bangladesh Bureau of Statistics))",
+  "economy": "Literacy 77.2% (2022). Unemployment and income not found."
+ },
+ "Nusaybin": {
+  "lat": 37.075,
+  "lon": 41.218,
+  "area_note": "District, Mardin province, facing Qamishli",
+  "census_year": 2022,
+  "population": 115586,
+  "ethnic": "The Turkish census does not record ethnicity. Described as predominantly Kurdish, with an Arab minority. Mardin province: 43,227 registered Syrians, 4.6% of its population (July 2026).",
+  "language": "Kurdish (Kurmanji) dominant; Turkish official.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Nusaybin. Available at: https://en.wikipedia.org/wiki/Nusaybin (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Kiziltepe": {
+  "lat": 37.188,
+  "lon": 40.577,
+  "area_note": "District, Mardin province",
+  "census_year": 2022,
+  "population": 267151,
+  "ethnic": "The Turkish census does not record ethnicity. Described as mostly Kurdish (Kîkan tribe); the Assyrian community was massacred in 1915. Mardin province: 43,227 registered Syrians, 4.6% of its population (July 2026).",
+  "language": "Kurdish; Turkish official.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Kızıltepe. Available at: https://en.wikipedia.org/wiki/K%C4%B1z%C4%B1ltepe (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Mardin": {
+  "lat": 37.313,
+  "lon": 40.744,
+  "area_note": "City",
+  "census_year": 2021,
+  "population": 129864,
+  "ethnic": "The Turkish census does not record ethnicity. A 2013 study estimates Kurds about 49% and Arabs about 49%, with a Syriac Christian community. Mardin province: 43,227 registered Syrians, 4.6% of its population (July 2026).",
+  "language": "Historically Arabic and Kurdish.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Mardin. Available at: https://en.wikipedia.org/wiki/Mardin (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Cizre": {
+  "lat": 37.33,
+  "lon": 42.185,
+  "area_note": "Town, Şırnak province, at the Syrian and Iraqi borders",
+  "census_year": 2021,
+  "population": 130916,
+  "ethnic": "The Turkish census does not record ethnicity. Described as predominantly Kurdish.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Cizre. Available at: https://en.wikipedia.org/wiki/Cizre (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK))",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Silopi": {
+  "lat": 37.244,
+  "lon": 42.463,
+  "area_note": "Town, Şırnak province",
+  "census_year": 2023,
+  "population": 108880,
+  "ethnic": "The Turkish census does not record ethnicity. Kurds of the Sipêrtî and Zewkan tribes.",
+  "language": "Kurdish.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Silopi. Available at: https://en.wikipedia.org/wiki/Silopi (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK))",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Suruc": {
+  "lat": 36.976,
+  "lon": 38.425,
+  "area_note": "District, Şanlıurfa province, facing Kobani",
+  "census_year": 2022,
+  "population": 100961,
+  "ethnic": "The Turkish census does not record ethnicity. Described as mostly Kurdish and Turkish. Şanlıurfa province: 190,861 registered Syrians, 7.8% of its population (July 2026).",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Suruç. Available at: https://en.wikipedia.org/wiki/Suru%C3%A7 (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Kilis": {
+  "lat": 36.716,
+  "lon": 37.115,
+  "area_note": "City",
+  "census_year": 2022,
+  "population": 112187,
+  "ethnic": "The Turkish census does not record ethnicity.  Kilis province: 46,189 registered Syrians, 22.7% of its population (July 2026).",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Kilis. Available at: https://en.wikipedia.org/wiki/Kilis (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Edirne": {
+  "lat": 41.67,
+  "lon": 26.57,
+  "area_note": "City",
+  "census_year": 2022,
+  "population": 180002,
+  "ethnic": "The Turkish census does not record ethnicity. ",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Edirne. Available at: https://en.wikipedia.org/wiki/Edirne (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK))",
+  "economy": "Unemployment and income by town not found."
+ },
+ "Gaza City": {
+  "lat": 31.53,
+  "lon": 34.445,
+  "area_note": "City, 2017 census",
+  "census_year": 2017,
+  "population": 590481,
+  "ethnic": "Palestinian. Pre-war count. UNOSAT found 81% of structures in Gaza damaged as of 11 October 2025; about 1.3 million people were living at displacement sites in January 2026 (OCHA, 2026). Current city populations are not known.",
+  "language": "Arabic.",
+  "religion": "Overwhelmingly Muslim; small Christian community in Gaza City.",
+  "sources": [
+   "Wikipedia (n.d.) List of cities in the Gaza Strip. Available at: https://en.wikipedia.org/wiki/List_of_cities_in_the_Gaza_Strip (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026).",
+   "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
+  "economy": "Unemployment and income by city not found."
+ },
+ "Jabalya": {
+  "lat": 31.527,
+  "lon": 34.483,
+  "area_note": "City, 2017 census",
+  "census_year": 2017,
+  "population": 172704,
+  "ethnic": "Palestinian. Pre-war count. UNOSAT found 81% of structures in Gaza damaged as of 11 October 2025; about 1.3 million people were living at displacement sites in January 2026 (OCHA, 2026). Current city populations are not known.",
+  "language": "Arabic.",
+  "religion": "Overwhelmingly Muslim; small Christian community in Gaza City.",
+  "sources": [
+   "Wikipedia (n.d.) List of cities in the Gaza Strip. Available at: https://en.wikipedia.org/wiki/List_of_cities_in_the_Gaza_Strip (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026).",
+   "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
+  "economy": "Unemployment and income by city not found."
+ },
+ "Khan Yunis": {
+  "lat": 31.34,
+  "lon": 34.306,
+  "area_note": "City, 2017 census",
+  "census_year": 2017,
+  "population": 205125,
+  "ethnic": "Palestinian. Pre-war count. UNOSAT found 81% of structures in Gaza damaged as of 11 October 2025; about 1.3 million people were living at displacement sites in January 2026 (OCHA, 2026). Current city populations are not known.",
+  "language": "Arabic.",
+  "religion": "Overwhelmingly Muslim; small Christian community in Gaza City.",
+  "sources": [
+   "Wikipedia (n.d.) List of cities in the Gaza Strip. Available at: https://en.wikipedia.org/wiki/List_of_cities_in_the_Gaza_Strip (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026).",
+   "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
+  "economy": "Unemployment and income by city not found."
+ },
+ "Rafah": {
+  "lat": 31.297,
+  "lon": 34.244,
+  "area_note": "City, 2017 census",
+  "census_year": 2017,
+  "population": 171899,
+  "ethnic": "Palestinian. Pre-war count. UNOSAT found 81% of structures in Gaza damaged as of 11 October 2025; about 1.3 million people were living at displacement sites in January 2026 (OCHA, 2026). Current city populations are not known.",
+  "language": "Arabic.",
+  "religion": "Overwhelmingly Muslim; small Christian community in Gaza City.",
+  "sources": [
+   "Wikipedia (n.d.) List of cities in the Gaza Strip. Available at: https://en.wikipedia.org/wiki/List_of_cities_in_the_Gaza_Strip (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026).",
+   "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
+  "economy": "Unemployment and income by city not found."
+ },
+ "Hebron": {
+  "lat": 31.529,
+  "lon": 35.094,
+  "area_note": "City (the 1997 Hebron Protocol divides it into H1 and H2)",
+  "census_year": 2017,
+  "population": 201063,
+  "ethnic": "Palestinian, with Israeli settlers in H2.",
+  "language": "Arabic.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Hebron. Available at: https://en.wikipedia.org/wiki/Hebron (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census)",
+  "economy": "Unemployment and income not found."
+ },
+ "Nablus": {
+  "lat": 32.221,
+  "lon": 35.254,
+  "area_note": "City (metro 431,584)",
+  "census_year": 2017,
+  "population": 156906,
+  "ethnic": "Palestinian; refugees about 24% (1997).",
+  "language": "Arabic.",
+  "religion": "Predominantly Muslim; about 650 Christians (2008).",
+  "sources": [
+   "Wikipedia (n.d.) Nablus. Available at: https://en.wikipedia.org/wiki/Nablus (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census)",
+  "economy": "Unemployment 60% in 2004 at the height of the Second Intifada; no recent city figure found."
+ },
+ "East Jerusalem": {
+  "lat": 31.783,
+  "lon": 35.234,
+  "area_note": "Israeli-annexed part of the city, 2020",
+  "census_year": 2020,
+  "population": 595000,
+  "ethnic": "Palestinian Arabs 361,700 (61%); Jewish settlers 234,000 (39%).",
+  "language": "Arabic and Hebrew.",
+  "religion": "Muslim, Christian and Jewish.",
+  "sources": [
+   "Wikipedia (n.d.) East Jerusalem. Available at: https://en.wikipedia.org/wiki/East_Jerusalem (figures reported there from UN and UNCTAD sources) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)",
+  "economy": "Poverty in 2010: 77% of non-Jewish households against 24.4% of Jewish families (UNCTAD, 2013)."
+ },
+ "Tel Aviv": {
+  "lat": 32.082,
+  "lon": 34.768,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 494900,
+  "ethnic": "Jews and others 89.0%; Arabs 5.5%; foreign residents 5.6%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+   "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+  "economy": "Average gross wage NIS 22,359 a month (first half of 2025)."
+ },
+ "Petah Tiqva": {
+  "lat": 32.089,
+  "lon": 34.887,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 270403,
+  "ethnic": "Jews and others 95.4%; Arabs 0.3%; foreign residents 4.3%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Rishon LeTsiyyon": {
+  "lat": 31.971,
+  "lon": 34.789,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 259275,
+  "ethnic": "Jews and others 97.5%; Arabs 0.2%; foreign residents 2.3%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Bnei Brak": {
+  "lat": 32.081,
+  "lon": 34.834,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 229995,
+  "ethnic": "Jews and others 97.4%; Arabs 0.1%; foreign residents 2.5%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+   "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+  "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
+ },
+ "Netanya": {
+  "lat": 32.333,
+  "lon": 34.859,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 234812,
+  "ethnic": "Jews and others 96.9%; Arabs 0.4%; foreign residents 2.8%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Beer Sheva": {
+  "lat": 31.25,
+  "lon": 34.83,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 223587,
+  "ethnic": "Jews and others 93.0%; Arabs 4.5%; foreign residents 2.5%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Holon": {
+  "lat": 32.012,
+  "lon": 34.778,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 191829,
+  "ethnic": "Jews and others 96.9%; Arabs 0.3%; foreign residents 2.8%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Bet Shemesh": {
+  "lat": 31.731,
+  "lon": 34.993,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 176786,
+  "ethnic": "Jews and others 97.8%; Arabs 0.1%; foreign residents 2.1%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+   "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+  "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
+ },
+ "Ramat Gan": {
+  "lat": 32.082,
+  "lon": 34.811,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 172242,
+  "ethnic": "Jews and others 96.6%; Arabs 0.7%; foreign residents 2.7%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Rehovot": {
+  "lat": 31.894,
+  "lon": 34.809,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 155050,
+  "ethnic": "Jews and others 97.2%; Arabs 0.4%; foreign residents 2.4%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Ashkelon": {
+  "lat": 31.669,
+  "lon": 34.571,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 166865,
+  "ethnic": "Jews and others 96.5%; Arabs 0.4%; foreign residents 3.1%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Nazareth": {
+  "lat": 32.704,
+  "lon": 35.296,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 75704,
+  "ethnic": "Jews and others 0.2%; Arabs 99.4%; foreign residents 0.4%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+   "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+  "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
+ },
+ "Bat Yam": {
+  "lat": 32.018,
+  "lon": 34.75,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 129495,
+  "ethnic": "Jews and others 95.0%; Arabs 1.2%; foreign residents 3.9%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Herzliya": {
+  "lat": 32.166,
+  "lon": 34.825,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 110885,
+  "ethnic": "Jews and others 96.8%; Arabs 0.5%; foreign residents 2.7%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+   "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+  "economy": "Highest average gross wage among large cities: NIS 22,951 a month (first half of 2025)."
+ },
+ "Hadera": {
+  "lat": 32.442,
+  "lon": 34.904,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 107974,
+  "ethnic": "Jews and others 97.2%; Arabs 1.1%; foreign residents 1.7%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "West Jerusalem": {
+  "lat": 31.782,
+  "lon": 35.22,
+  "area_note": "Figures for the whole municipality, including East Jerusalem",
+  "census_year": 2024,
+  "population": 1050151,
+  "ethnic": "Jews and others 56.8%; Arabs 38.2%; foreign residents 5.0%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+   "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+  "economy": "Average gross wage for the whole city NIS 11,415 a month (first half of 2025)."
+ },
+ "Jaffa": {
+  "lat": 32.05,
+  "lon": 34.752,
+  "area_note": "Figures for the whole municipality of Tel Aviv-Yafo",
+  "census_year": 2024,
+  "population": 494900,
+  "ethnic": "Jews and others 89.0%; Arabs 5.5%; foreign residents 5.6%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Newcastle upon Tyne": {
+  "lat": 54.973,
+  "lon": -1.614,
+  "area_note": "Local authority",
+  "census_year": 2021,
+  "population": 300127,
+  "ethnic": "White 80.0%; Asian 11.4%; Black 3.3%; Mixed 2.3%; other 3.1%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Christian 41.3%; no religion 40.8%; Muslim 9.0%; Hindu 1.4%; Buddhist 0.5%; Sikh 0.5%; not answered 6.0%.",
+  "sources": [
+   "Office for National Statistics (2022) Census 2021 tables TS021 (ethnic group), TS030 (religion) and TS066 (economic activity). Nomis. Available at: https://www.nomisweb.co.uk/sources/census_2021 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Office for National Statistics, 2022)",
+  "economy": "Unemployed: 8.5% of the economically active aged 16+; long-term sick or disabled 5.2% of residents aged 16+ (2021)."
+ },
+ "Sunderland": {
+  "lat": 54.92,
+  "lon": -1.38,
+  "area_note": "Local authority",
+  "census_year": 2021,
+  "population": 274173,
+  "ethnic": "White 94.6%; Asian 3.0%; Black 1.0%; Mixed 0.9%; other 0.5%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Christian 53.2%; no religion 39.5%; Muslim 1.8%; not answered 4.5%.",
+  "sources": [
+   "Office for National Statistics (2022) Census 2021 tables TS021 (ethnic group), TS030 (religion) and TS066 (economic activity). Nomis. Available at: https://www.nomisweb.co.uk/sources/census_2021 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Office for National Statistics, 2022)",
+  "economy": "Unemployed: 7.0% of the economically active aged 16+; long-term sick or disabled 6.6% of residents aged 16+ (2021)."
+ },
+ "Hohhot": {
+  "lat": 40.822,
+  "lon": 111.658,
+  "area_note": "Prefecture-level city, Inner Mongolia",
+  "census_year": 2020,
+  "population": 3446100,
+  "ethnic": "Han 87.2%, Mongol 10.0%, Hui 1.5% (2010 census).",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Hohhot. Available at: https://en.wikipedia.org/wiki/Hohhot (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥101,492 (year not stated)."
+ },
+ "Datong": {
+  "lat": 40.094,
+  "lon": 113.291,
+  "area_note": "Prefecture-level city, Shanxi",
+  "census_year": 2020,
+  "population": 3105591,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Datong. Available at: https://en.wikipedia.org/wiki/Datong (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥44,110 (year not stated)."
+ },
+ "Yinchuan": {
+  "lat": 38.47,
+  "lon": 106.271,
+  "area_note": "Prefecture-level city, Ningxia",
+  "census_year": 2020,
+  "population": 2859074,
+  "ethnic": "Han 72.4%, Hui 25.8%, other minorities 1.8% (2019, city statistics bureau).",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Yinchuan. Available at: https://en.wikipedia.org/wiki/Yinchuan (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥104,100 (2025)."
+ },
+ "Jinzhou": {
+  "lat": 41.108,
+  "lon": 121.142,
+  "area_note": "Prefecture-level city, Liaoning",
+  "census_year": 2020,
+  "population": 2703853,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Jinzhou. Available at: https://en.wikipedia.org/wiki/Jinzhou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥43,207 (year not stated)."
+ },
+ "Zhongwei": {
+  "lat": 37.511,
+  "lon": 105.191,
+  "area_note": "Prefecture-level city, Ningxia",
+  "census_year": 2024,
+  "population": 1079800,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Zhongwei. Available at: https://en.wikipedia.org/wiki/Zhongwei (figures reported there from local statistics) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting local statistics)",
+  "economy": "GDP per person CN¥58,700 (2025)."
+ },
+ "Qinhuangdao": {
+  "lat": 39.941,
+  "lon": 119.589,
+  "area_note": "Prefecture-level city, Hebei",
+  "census_year": 2020,
+  "population": 3136879,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Qinhuangdao. Available at: https://en.wikipedia.org/wiki/Qinhuangdao (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥48,230 (2024)."
+ },
+ "Shizuishan": {
+  "lat": 38.981,
+  "lon": 106.389,
+  "area_note": "Prefecture-level city, Ningxia",
+  "census_year": 2024,
+  "population": 739400,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Shizuishan. Available at: https://en.wikipedia.org/wiki/Shizuishan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin)",
+  "economy": "GDP per person CN¥78,400 (2025)."
+ },
+ "Zhangjiakou": {
+  "lat": 40.783,
+  "lon": 114.871,
+  "area_note": "Prefecture-level city, Hebei",
+  "census_year": 2020,
+  "population": 4118908,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Zhangjiakou. Available at: https://en.wikipedia.org/wiki/Zhangjiakou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)"
+ },
+ "Fuxin": {
+  "lat": 42.016,
+  "lon": 121.659,
+  "area_note": "Prefecture-level city, Liaoning",
+  "census_year": 2020,
+  "population": 1647280,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Fuxin. Available at: https://en.wikipedia.org/wiki/Fuxin (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥29,491 (year not stated)."
+ },
+ "Shuozhou": {
+  "lat": 39.316,
+  "lon": 112.422,
+  "area_note": "Prefecture-level city, Shanxi",
+  "census_year": 2010,
+  "population": 1714857,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Shuozhou. Available at: https://en.wikipedia.org/wiki/Shuozhou (figures reported there from the 2010 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2010 census of China)",
+  "economy": "GDP per person CN¥69,152 (Shanxi Statistical Yearbook 2021)."
+ },
+ "Jiuquan": {
+  "lat": 39.743,
+  "lon": 98.517,
+  "area_note": "Prefecture-level city, Gansu",
+  "census_year": 2022,
+  "population": 1053100,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Jiuquan. Available at: https://en.wikipedia.org/wiki/Jiuquan (figures reported there from the Gansu Development Yearbook 2023) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Gansu Development Yearbook 2023)",
+  "economy": "GDP per person CN¥79,840 (year not stated)."
+ },
+ "Guyuan": {
+  "lat": 36.007,
+  "lon": 106.281,
+  "area_note": "Prefecture-level city, Ningxia",
+  "census_year": 2024,
+  "population": 1140800,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Guyuan. Available at: https://en.wikipedia.org/wiki/Guyuan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin)",
+  "economy": "GDP per person CN¥42,800 (2025)."
+ },
+ "Jiayuguan": {
+  "lat": 39.82,
+  "lon": 98.3,
+  "area_note": "Prefecture-level city, Gansu",
+  "census_year": 2020,
+  "population": 312663,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Jiayuguan City. Available at: https://en.wikipedia.org/wiki/Jiayuguan_City (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥78,336 (year not stated)."
+ },
+ "Jinchang": {
+  "lat": 38.501,
+  "lon": 102.194,
+  "area_note": "Prefecture-level city, Gansu",
+  "census_year": 2020,
+  "population": 438026,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Jinchang. Available at: https://en.wikipedia.org/wiki/Jinchang (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥116,448 (year not stated); average urban income 131,056 yuan (2022)."
+ },
+ "Xuanhua": {
+  "lat": 40.612,
+  "lon": 115.065,
+  "area_note": "District of Zhangjiakou; figures for the whole prefecture",
+  "census_year": 2020,
+  "population": 4118908,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Zhangjiakou. Available at: https://en.wikipedia.org/wiki/Zhangjiakou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)"
+ },
+ "Huinong": {
+  "lat": 39.233,
+  "lon": 106.769,
+  "area_note": "District of Shizuishan; figures for the whole prefecture",
+  "census_year": 2024,
+  "population": 739400,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Shizuishan. Available at: https://en.wikipedia.org/wiki/Shizuishan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin)",
+  "economy": "GDP per person CN¥78,400 (2025)."
+ },
+ "Shanhaiguan": {
+  "lat": 40.001,
+  "lon": 119.754,
+  "area_note": "District of Qinhuangdao, at the eastern end of the Great Wall; figures for the whole prefecture",
+  "census_year": 2020,
+  "population": 3136879,
+  "ethnic": "Population only: the 2020 census ethnic breakdown was not found for this city.",
+  "language": "Not found in the sources consulted.",
+  "religion": "China's census does not ask about religion.",
+  "sources": [
+   "Wikipedia (n.d.) Qinhuangdao. Available at: https://en.wikipedia.org/wiki/Qinhuangdao (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
+  "economy": "GDP per person CN¥48,230 (2024)."
+ },
+ "Mitte": {
+  "lat": 52.52,
+  "lon": 13.405,
+  "area_note": "Borough of Mitte, 31 December 2025",
+  "census_year": 2025,
+  "population": 365741,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Kreuzberg": {
+  "lat": 52.5,
+  "lon": 13.403,
+  "area_note": "Borough of Friedrichshain-Kreuzberg, 31 December 2025",
+  "census_year": 2025,
+  "population": 267258,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Friedrichshain Bezirk": {
+  "lat": 52.516,
+  "lon": 13.455,
+  "area_note": "Borough of Friedrichshain-Kreuzberg, 31 December 2025",
+  "census_year": 2025,
+  "population": 267258,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Prenzlauer Berg Bezirk": {
+  "lat": 52.539,
+  "lon": 13.424,
+  "area_note": "Borough of Pankow, 31 December 2025",
+  "census_year": 2025,
+  "population": 411133,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Charlottenburg": {
+  "lat": 52.517,
+  "lon": 13.283,
+  "area_note": "Borough of Charlottenburg-Wilmersdorf, 31 December 2025",
+  "census_year": 2025,
+  "population": 323712,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Wilmersdorf": {
+  "lat": 52.483,
+  "lon": 13.317,
+  "area_note": "Borough of Charlottenburg-Wilmersdorf, 31 December 2025",
+  "census_year": 2025,
+  "population": 323712,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Schoeneberg": {
+  "lat": 52.498,
+  "lon": 13.344,
+  "area_note": "Borough of Tempelhof-Schöneberg, 31 December 2025",
+  "census_year": 2025,
+  "population": 339042,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Neukoelln": {
+  "lat": 52.477,
+  "lon": 13.431,
+  "area_note": "Borough of Neukölln, 31 December 2025",
+  "census_year": 2025,
+  "population": 309241,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Marzahn": {
+  "lat": 52.545,
+  "lon": 13.57,
+  "area_note": "Borough of Marzahn-Hellersdorf, 31 December 2025",
+  "census_year": 2025,
+  "population": 285222,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (de) (n.d.) Verwaltungsgliederung Berlins. Available at: https://de.wikipedia.org/wiki/Verwaltungsgliederung_Berlins (figures reported there; the Amt für Statistik Berlin-Brandenburg is listed as the official source) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d.)"
+ },
+ "Potsdam": {
+  "lat": 52.4,
+  "lon": 13.07,
+  "area_note": "City",
+  "census_year": 2025,
+  "population": 185137,
+  "ethnic": "Largest foreign groups (2019): Ukrainian 2,947; Syrian 2,415; Russian 1,305; Polish 1,186; Vietnamese 1,063.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Potsdam. Available at: https://en.wikipedia.org/wiki/Potsdam (figures reported there from the City of Potsdam) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the City of Potsdam)"
+ },
+ "Trieste": {
+  "lat": 45.65,
+  "lon": 13.8,
+  "area_note": "City, on the Italy–Slovenia border",
+  "census_year": 2026,
+  "population": 198622,
+  "ethnic": "Foreign-born 17.6% (2025): Serbia 5,072; Romania 2,496; Croatia 2,460; Kosovo 2,130; Ukraine 1,566.",
+  "language": "Italian and Triestine; Slovene in some suburbs (1971: Italian 91.8%, Slovene 5.7%).",
+  "religion": "Predominantly Roman Catholic (no share published).",
+  "sources": [
+   "Wikipedia (n.d.) Trieste. Available at: https://en.wikipedia.org/wiki/Trieste (figures reported there from ISTAT) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting ISTAT)"
+ },
+ "Algeciras": {
+  "lat": 36.127,
+  "lon": -5.467,
+  "area_note": "Municipality, across the strait from Ceuta",
+  "census_year": 2025,
+  "population": 126589,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Algeciras. Available at: https://en.wikipedia.org/wiki/Algeciras (figures reported there from INE, Spain) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting INE, Spain)"
+ },
+ "Kaesong": {
+  "lat": 37.964,
+  "lon": 126.564,
+  "area_note": "City, North Korea, just north of the DMZ",
+  "census_year": 2009,
+  "population": 192578,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Korean.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Kaesong. Available at: https://en.wikipedia.org/wiki/Kaesong (figures reported there from United Nations data) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting United Nations data)",
+  "economy": "The Kaesong Industrial Region employed over 53,400 North Korean workers (2013) before closing in 2016."
+ },
+ "Paju": {
+  "lat": 37.761,
+  "lon": 126.773,
+  "area_note": "City, South Korea, on the DMZ",
+  "census_year": 2024,
+  "population": 520803,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Korean.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Paju. Available at: https://en.wikipedia.org/wiki/Paju (figures reported there from Paju City statistics) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Paju City statistics)"
+ },
+ "Goyang": {
+  "lat": 37.655,
+  "lon": 126.835,
+  "area_note": "City, South Korea",
+  "census_year": 2025,
+  "population": 1061752,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Korean.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Goyang. Available at: https://en.wikipedia.org/wiki/Goyang (figures reported there from Goyang City) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Goyang City)"
+ },
+ "Gimpo-si": {
+  "lat": 37.624,
+  "lon": 126.714,
+  "area_note": "City, South Korea",
+  "census_year": 2024,
+  "population": 486258,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Korean.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Gimpo. Available at: https://en.wikipedia.org/wiki/Gimpo (figures reported there from the Ministry of the Interior and Safety) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Ministry of the Interior and Safety)",
+  "economy": "Workforce 129,440 (2014)."
+ },
+ "Aley": {
+  "lat": 33.805,
+  "lon": 35.6,
+  "area_note": "City (estimate, no year); Lebanon has had no census since 1932",
+  "census_year": 2014,
+  "population": 75000,
+  "ethnic": "Druze predominant.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Registered voters 2014: Druze 67.3%, Greek Orthodox 12.0%, other Christians 16.6%, other 4.1%.",
+  "sources": [
+   "Wikipedia (n.d.) Aley. Available at: https://en.wikipedia.org/wiki/Aley (figures reported there from the Municipality of Aley and 2014 voter rolls) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Municipality of Aley and 2014 voter rolls)"
+ },
+ "Sadr City": {
+  "lat": 33.389,
+  "lon": 44.458,
+  "area_note": "District of Baghdad",
+  "census_year": 2018,
+  "population": 1211849,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Arabic.",
+  "religion": "Mostly Shia Muslim.",
+  "sources": [
+   "Wikipedia (n.d.) Sadr City. Available at: https://en.wikipedia.org/wiki/Sadr_City (figures reported there from Iraq's Central Statistical Organization) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Iraq's Central Statistical Organization)",
+  "economy": "Among Baghdad's poorest districts (2014, 2019)."
+ },
+ "Abu Ghurayb": {
+  "lat": 33.306,
+  "lon": 44.185,
+  "area_note": "Town west of Baghdad",
+  "census_year": 2025,
+  "population": 900000,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Arabic.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Abu Ghraib. Available at: https://en.wikipedia.org/wiki/Abu_Ghraib (figures reported there from an uncited estimate) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting an uncited estimate)"
+ },
+ "Al Qamishli": {
+  "lat": 37.03,
+  "lon": 41.23,
+  "area_note": "City, Syria–Turkey border",
+  "census_year": 2004,
+  "population": 184231,
+  "ethnic": "Kurdish majority, with Arabs and Assyrians and a smaller Armenian community.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Sunni Muslim over 80%; about 40,000 Christians before the war, roughly half gone by 2017.",
+  "sources": [
+   "Wikipedia (n.d.) Qamishli. Available at: https://en.wikipedia.org/wiki/Qamishli (figures reported there from the Syrian Central Bureau of Statistics) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Syrian Central Bureau of Statistics)"
+ },
+ "'Ajlun": {
+  "lat": 32.333,
+  "lon": 35.753,
+  "area_note": "Town (governorate 176,080)",
+  "census_year": 2015,
+  "population": 148870,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Arabic.",
+  "religion": "Muslim majority (no share published).",
+  "sources": [
+   "Wikipedia (n.d.) Ajloun. Available at: https://en.wikipedia.org/wiki/Ajloun (figures reported there from Jordan's Department of Statistics) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Jordan's Department of Statistics)"
+ },
+ "Hrodna": {
+  "lat": 53.678,
+  "lon": 23.834,
+  "area_note": "City, near the Poland and Lithuania borders",
+  "census_year": 2019,
+  "population": 355932,
+  "ethnic": "Belarusians 62.6%, Poles 19.7%, Russians 12.2%, Ukrainians 1.8% (Belstat, 2009).",
+  "language": "Not found in the sources consulted.",
+  "religion": "Orthodox and Catholic, with one of the largest Catholic concentrations in Belarus (no shares published).",
+  "sources": [
+   "Wikipedia (n.d.) Grodno. Available at: https://en.wikipedia.org/wiki/Grodno (figures reported there from Belstat) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Belstat)"
+ },
+ "Sialkote": {
+  "lat": 32.52,
+  "lon": 74.56,
+  "area_note": "City, Punjab",
+  "census_year": 2023,
+  "population": 911817,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Punjabi 85.7%, Urdu 10.4%, Pashto 2.9%.",
+  "religion": "Muslim 96.0%, Christian 3.8%.",
+  "sources": [
+   "Wikipedia (n.d.) Sialkot. Available at: https://en.wikipedia.org/wiki/Sialkot (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
+  "economy": "Unemployment and household income not found."
+ },
+ "Goyang-si": {
+  "lat": 37.656,
+  "lon": 126.835,
+  "area_note": "City, South Korea",
+  "census_year": 2025,
+  "population": 1061752,
+  "ethnic": "Not found in the sources consulted.",
+  "language": "Korean.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Goyang. Available at: https://en.wikipedia.org/wiki/Goyang (figures reported there from Goyang City) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting Goyang City)"
+ },
+ "Beersheba": {
+  "lat": 31.252,
+  "lon": 34.791,
+  "area_note": "Locality, Israeli population register",
+  "census_year": 2024,
+  "population": 223587,
+  "ethnic": "Jews and others 93.0%; Arabs 4.5%; foreign residents 2.5%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+  "sources": [
+   "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Central Bureau of Statistics, 2025)"
+ },
+ "Al Khalil": {
+  "lat": 31.541,
+  "lon": 35.096,
+  "area_note": "City (the 1997 Hebron Protocol divides it into H1 and H2)",
+  "census_year": 2017,
+  "population": 201063,
+  "ethnic": "Palestinian, with Israeli settlers in H2.",
+  "language": "Arabic.",
+  "religion": "Not found in the sources consulted.",
+  "sources": [
+   "Wikipedia (n.d.) Hebron. Available at: https://en.wikipedia.org/wiki/Hebron (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census)",
+  "economy": "Unemployment and income not found."
+ },
+ "Gaza": {
+  "lat": 31.502,
+  "lon": 34.467,
+  "area_note": "City, 2017 census",
+  "census_year": 2017,
+  "population": 590481,
+  "ethnic": "Palestinian. Pre-war count. UNOSAT found 81% of structures in Gaza damaged as of 11 October 2025; about 1.3 million people were living at displacement sites in January 2026 (OCHA, 2026). Current city populations are not known.",
+  "language": "Arabic.",
+  "religion": "Overwhelmingly Muslim; small Christian community in Gaza City.",
+  "sources": [
+   "Wikipedia (n.d.) List of cities in the Gaza Strip. Available at: https://en.wikipedia.org/wiki/List_of_cities_in_the_Gaza_Strip (figures reported there from the Palestinian Central Bureau of Statistics, 2017 census) (Accessed: 9 November 2026).",
+   "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
+  "economy": "Unemployment and income by city not found."
+ },
+ "Newcastle": {
+  "lat": 55.002,
+  "lon": -1.602,
+  "area_note": "Local authority",
+  "census_year": 2021,
+  "population": 300127,
+  "ethnic": "White 80.0%; Asian 11.4%; Black 3.3%; Mixed 2.3%; other 3.1%.",
+  "language": "Not found in the sources consulted.",
+  "religion": "Christian 41.3%; no religion 40.8%; Muslim 9.0%; Hindu 1.4%; Buddhist 0.5%; Sikh 0.5%; not answered 6.0%.",
+  "sources": [
+   "Office for National Statistics (2022) Census 2021 tables TS021 (ethnic group), TS030 (religion) and TS066 (economic activity). Nomis. Available at: https://www.nomisweb.co.uk/sources/census_2021 (Accessed: 9 November 2026)."
+  ],
+  "cite": "(Office for National Statistics, 2022)",
+  "economy": "Unemployed: 8.5% of the economically active aged 16+; long-term sick or disabled 5.2% of residents aged 16+ (2021)."
+ },
+ "Ra's Bayrut": {
+  "census_year": 2017,
+  "population": 433249,
+  "ethnic": "Not documented in the source fetched.",
+  "language": "Not documented in the source fetched.",
+  "religion": "2022 (as reported): Sunni Islam 43.8%; Shia Islam 15.5%; Christian 40.0%; other 0.7%.",
+  "cite": "(Wikipedia, n.d.)",
+  "lat": 33.9,
+  "lon": 35.483
  }
 }

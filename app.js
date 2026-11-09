@@ -176,22 +176,49 @@ baseLayers["Terrain"].addTo(map);
 // Neighbourhood themes around Northern Ireland's peace walls: one shown at a time, each with its own colour scale.
 // "sa" = Small Areas (NIMDM 2017, income); "dz" = Data Zones (Census 2021)
 const THEMES = {
-  income: { label: "Income: residents on low income (2017)", src: "sa", field: "low_income_pct", breaks: [10, 15, 20, 30],
+  income: { region: "ni", label: "Income: residents on low income (2015/16)", src: "sa", field: "low_income_pct", breaks: [10, 15, 20, 30],
     colors: ["#fef0d9", "#fdcc8a", "#fc8d59", "#e34a33", "#b30000"],
-    note: "Share of residents in households below 60% of the Northern Ireland median income" },
-  unemp: { label: "Employment: unemployment rate (2021)", src: "dz", field: "unemp", breaks: [3, 5, 8, 12],
+    note: "Share of residents in households below 60% of the Northern Ireland median equivalised income, April 2015 to March 2016. The median was £24,253 a year, so the low-income line is about £280 a week" },
+  unemp: { region: "ni", label: "Employment: unemployment rate (2021)", src: "dz", field: "unemp", breaks: [3, 5, 8, 12],
     colors: ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
     note: "Unemployed residents as a share of the economically active aged 16+" },
-  prof: { label: "Occupations: managerial and professional (2021)", src: "dz", field: "prof", breaks: [15, 25, 35, 45],
+  prof: { region: "ni", label: "Occupations: managerial and professional (2021)", src: "dz", field: "prof", breaks: [15, 25, 35, 45],
     colors: ["#eff3ff", "#bdd7e7", "#6baed6", "#3182bd", "#08519c"],
     note: "Share of residents aged 16+ (excluding students) in managerial, administrative and professional occupations" },
-  community: { label: "Community background: Catholic / Protestant (2021)", src: "dz", field: "cath_share", breaks: [20, 40, 60, 80],
+  community: { region: "ni", label: "Community background: Catholic / Protestant (2021)", src: "dz", field: "cath_share", breaks: [20, 40, 60, 80],
     colors: ["#5e3c99", "#b2abd2", "#ececec", "#80cdc1", "#018571"],
     labels: ["Over 80% Protestant background", "60–80% Protestant", "Mixed (40–60%)", "60–80% Catholic", "Over 80% Catholic background"],
     note: "Religion or religion brought up in, among residents of Catholic or Protestant background" },
-  minority: { label: "Ethnic minorities: residents not White (2021)", src: "dz", field: "minority", breaks: [1, 3, 6, 10],
+  minority: { region: "ni", label: "Ethnic minorities: residents not White (2021)", src: "dz", field: "minority", breaks: [1, 3, 6, 10],
     colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
     note: "Share of residents who are not of White ethnic group" },
+  us_income: { region: "us", label: "Income: median household income (2020–24)", src: "us", field: "income", breaks: [40000, 60000, 80000, 110000],
+    colors: ["#b30000", "#e34a33", "#fc8d59", "#fdcc8a", "#fef0d9"],
+    labels: ["Under $40,000", "$40,000–60,000", "$60,000–80,000", "$80,000–110,000", "$110,000 and over"],
+    note: "Median household income in 2024 dollars, by census tract", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_poverty: { region: "us", label: "Income: people below the poverty line (2020–24)", src: "us", field: "poverty", breaks: [10, 20, 30, 40],
+    colors: ["#fef0d9", "#fdcc8a", "#fc8d59", "#e34a33", "#b30000"],
+    note: "Share of people below the federal poverty line", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_unemp: { region: "us", label: "Employment: unemployment rate (2020–24)", src: "us", field: "unemp", breaks: [3, 5, 8, 12],
+    colors: ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
+    note: "Unemployed as a share of the civilian labour force", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_hisp: { region: "us", label: "Ethnicity: Hispanic or Latino residents (2020–24)", src: "us", field: "hisp", breaks: [20, 40, 60, 80],
+    colors: ["#f2f0f7", "#cbc9e2", "#9e9ac8", "#756bb1", "#54278f"],
+    note: "Share of residents who are Hispanic or Latino, of any race", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_foreign: { region: "us", label: "Migration: foreign-born residents (2020–24)", src: "us", field: "foreign", breaks: [10, 20, 30, 40],
+    colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
+    note: "Share of residents born outside the United States", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_spanish: { region: "us", label: "Language: Spanish spoken at home (2020–24)", src: "us", field: "spanish", breaks: [20, 40, 60, 80],
+    colors: ["#eff3ff", "#bdd7e7", "#6baed6", "#3182bd", "#08519c"],
+    note: "Share of people aged 5 and over who speak Spanish at home", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_religion: { region: "us", label: "Religion: Catholic adherents, by county (2020)", src: "county", field: "catholic", breaks: [15, 25, 35, 45],
+    colors: ["#f7f4f9", "#d4b9da", "#c994c7", "#dd1c77", "#980043"],
+    note: "Adherents counted by congregations, as a share of county population. The US census does not ask about religion, so this is by county", source: "U.S. Religion Census 2020" },
+};
+// Places where neighbourhood themes exist. A theme is offered only when the map shows its region
+const REGIONS = {
+  ni: { name: "Northern Ireland", bounds: L.latLngBounds([54.0, -8.2], [55.35, -5.4]), minZoom: 8, home: [[54.55, -6.02], [54.65, -5.86]] },
+  us: { name: "US border", bounds: L.latLngBounds([25.4, -117.8], [33.4, -96.6]), minZoom: 7, home: [[31.6, -106.75], [31.95, -106.15]] },
 };
 function themeColor(th, v) {
   if (v == null) return "#cccccc";
@@ -281,14 +308,22 @@ const themeLayers = Object.fromEntries(Object.keys(THEMES).map((k) => [k, L.laye
 let activeTheme = null;
 const themeData = {};
 function loadThemeData(src) {
-  if (!themeData[src]) themeData[src] = fetch(src === "sa" ? "data/ni-deprivation.json" : "data/ni-census-dz.json").then((r) => r.json());
+  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json" }[src]).then((r) => r.json());
   return themeData[src];
 }
 const NISRA_DZ_REFS = [
   "NISRA (2023) Census 2021 Flexible Table Builder: Data Zone tables for religion or religion brought up in, economic activity, National Statistics Socio-economic Classification, ethnic group and national identity. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://build.nisra.gov.uk/ (Accessed: 9 November 2026).",
   "NISRA (2023) Data Zone boundaries in GIS format. Available at: https://www.nisra.gov.uk/publications/data-zone-boundaries-gis-format (Accessed: 9 November 2026).",
 ];
+const US_ACS_REFS = [
+  "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profiles DP02, DP03 and DP05, by census tract. Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
+  "U.S. Census Bureau (2025) 2024 cartographic boundary files: census tracts, 1:500,000. Available at: https://www2.census.gov/geo/tiger/GENZ2024/shp/ (Accessed: 9 November 2026).",
+];
+const US_RELIGION_REFS = [
+  "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026).",
+];
 const NISRA_SA_REFS = [
+  "NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: technical report. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/files/nisra/publications/NIMDM%202017_Technical%20Report.pdf (Accessed: 9 November 2026).",
   "NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: Small Area level results. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/publications/nimdm17-sa-level-results (Accessed: 6 November 2026).",
   "NISRA (2013) Small Area boundaries in GIS format. Available at: https://www.nisra.gov.uk/publications/small-area-boundaries-gis-format (Accessed: 6 November 2026).",
 ];
@@ -296,12 +331,39 @@ function areaCardHtml(p, src) {
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const pc = (v) => (v == null ? "not available" : `${v}%`);
   const refs = (list, cite) => `<details><summary>References (Harvard)</summary><p class="cite">In-text: ${cite}</p><ol class="refs">${list.map((r) => `<li>${r}</li>`).join("")}</ol></details>`;
+  if (src === "county") {
+    return `<div class="fiche">
+      <div class="fiche-title">${p.name}, ${p.state}</div>
+      <dl>
+        ${row("Population (2020)", p.pop.toLocaleString("en"))}
+        ${row("Religious adherents", `${pc(p.adherents)} of residents are counted as adherents by congregations; the rest are not necessarily non-religious`)}
+        ${row("Largest groups", p.top.map((t) => `${t[0]} ${t[1]}%`).join("; "))}
+      </dl>
+      <p class="cite">The US census does not ask about religion; this is a separate count by county.</p>
+      ${refs(US_RELIGION_REFS, "(Grammich et al., 2022)")}
+    </div>`;
+  }
+  if (src === "us") {
+    return `<div class="fiche">
+      <div class="fiche-title">${p.name}, ${p.county}, ${p.state}</div>
+      <dl>
+        ${row("Residents", p.pop == null ? "not available" : p.pop.toLocaleString("en"))}
+        ${row("Median household income", p.income == null ? "not available" : `$${p.income.toLocaleString("en")} (2024 dollars)`)}
+        ${row("Poverty", `${pc(p.poverty)} of people below the federal poverty line`)}
+        ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the civilian labour force`)}
+        ${row("Ethnicity", `Hispanic or Latino ${pc(p.hisp)}; White, not Hispanic ${pc(p.white)}`)}
+        ${row("Migration and language", `Foreign-born ${pc(p.foreign)}; Spanish spoken at home ${pc(p.spanish)}`)}
+      </dl>
+      <p class="cite">American Community Survey estimates, 2020–2024 average. Religion is not asked by the US census: see the county religion theme.</p>
+      ${refs(US_ACS_REFS, "(U.S. Census Bureau, 2025)")}
+    </div>`;
+  }
   if (src === "sa") {
     return `<div class="fiche">
       <div class="fiche-title">${p.area.replace(/_/g, " ")} · small area ${p.sa}</div>
       <dl>
         ${row("Council area", p.lgd)}
-        ${row("Low income", `${p.low_income_pct}% of residents live in households below 60% of the Northern Ireland median income`)}
+        ${row("Low income (April 2015 to March 2016)", `${p.low_income_pct}% of residents live in households below 60% of the Northern Ireland median equivalised income. The median was £24,253 a year; the low-income line is about £280 a week`)}
         ${row("Employment deprivation", `${p.emp_deprived_pct}% of working-age residents are employment deprived (out of work and claiming related benefits)`)}
         ${row("Overall rank", `${p.mdm.toLocaleString("en")} of 4,537 small areas on NISRA's multiple deprivation measure (1 = most deprived)`)}
       </dl>
@@ -330,7 +392,7 @@ function showThemeLegend(key) {
   box.querySelector(".legend-theme-title").textContent = th.label;
   box.querySelector(".legend-theme-rows").innerHTML = themeLabels(th)
     .map((l, i) => `<div><span class="swatch fill" style="background:${th.colors[i]}"></span>${l}</div>`).join("");
-  box.querySelector(".legend-theme-note").textContent = th.note + ". Source: NISRA.";
+  box.querySelector(".legend-theme-note").textContent = `${th.note}. Source: ${th.source || "NISRA"}.`;
   box.hidden = false;
   const legendBox = legend.getContainer();
   if (legendBox.classList.contains("collapsed")) legendBox.querySelector(".legend-toggle").click();
@@ -368,20 +430,22 @@ const layerControl = L.control.layers(baseLayers, {
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
-// The neighbourhood themes are offered only when the map shows Northern Ireland (zoom 8 or closer);
+// Neighbourhood themes are offered only when the map shows their region;
 // moving away removes the options and switches any theme off
-const NI_BOUNDS = L.latLngBounds([54.0, -8.2], [55.35, -5.4]);
-let themesOffered = false;
+const offered = {};
+const regionShown = (r) => map.getZoom() >= REGIONS[r].minZoom && REGIONS[r].bounds.contains(map.getCenter());
 function updateThemeOptions() {
-  const show = map.getZoom() >= 8 && NI_BOUNDS.contains(map.getCenter());
-  if (show === themesOffered) return;
-  themesOffered = show;
-  Object.entries(THEMES).forEach(([k, th]) => {
-    if (show) layerControl.addOverlay(themeLayers[k], `Northern Ireland · ${th.label}`);
-    else {
-      if (map.hasLayer(themeLayers[k])) map.removeLayer(themeLayers[k]);
-      layerControl.removeLayer(themeLayers[k]);
-    }
+  Object.keys(REGIONS).forEach((r) => {
+    const show = regionShown(r);
+    if (show === !!offered[r]) return;
+    offered[r] = show;
+    Object.entries(THEMES).filter(([, th]) => th.region === r).forEach(([k, th]) => {
+      if (show) layerControl.addOverlay(themeLayers[k], `${REGIONS[r].name} · ${th.label}`);
+      else {
+        if (map.hasLayer(themeLayers[k])) map.removeLayer(themeLayers[k]);
+        layerControl.removeLayer(themeLayers[k]);
+      }
+    });
   });
   fitInfoCard();
 }
@@ -429,11 +493,14 @@ infoBody.addEventListener("change", (e) => {
     if (activeTheme) map.removeLayer(themeLayers[activeTheme]);
     return;
   }
-  if (themesOffered) {
+  const r = THEMES[key].region;
+  if (offered[r]) {
     map.addLayer(themeLayers[key]);
   } else {
     map.once("moveend", () => map.addLayer(themeLayers[key]));
-    map.fitBounds([[54.55, -6.02], [54.65, -5.86]]);
+    // Already over the region: just zoom in; otherwise go to its main urban area
+    if (REGIONS[r].bounds.contains(map.getCenter())) map.setZoom(REGIONS[r].minZoom);
+    else map.fitBounds(REGIONS[r].home);
   }
 });
 
@@ -504,7 +571,7 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy || inNI(meta.lat, meta.lon) ? row("Income and employment", `${c.economy || ""}${inNI(meta.lat, meta.lon) ? themePickerHtml() : ""}`) : ""}`
+       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml(cityRegion(meta)) : ""}`) : ""}`
     : row("Census", "No census data added yet for this city");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
@@ -631,14 +698,20 @@ const CATEGORY_LABELS = {
 const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193.";
 
 // Picker shown in Northern Ireland wall and city cards: map a neighbourhood theme (income, employment, occupations, community, ethnicity)
-function themePickerHtml() {
+function themePickerHtml(region) {
   return `<label class="dep-toggle">Show by neighbourhood on the map:
     <select class="theme-select">
       <option value="">None</option>
-      ${Object.entries(THEMES).map(([k, th]) => `<option value="${k}"${activeTheme === k ? " selected" : ""}>${th.label}</option>`).join("")}
+      ${Object.entries(THEMES).filter(([, th]) => th.region === region).map(([k, th]) => `<option value="${k}"${activeTheme === k ? " selected" : ""}>${th.label}</option>`).join("")}
     </select></label>`;
 }
-const inNI = (lat, lon) => NI_BOUNDS.contains([lat, lon]);
+// Which themed region a city belongs to (US themes only cover the US side of the border)
+function cityRegion(meta) {
+  if (REGIONS.ni.bounds.contains([meta.lat, meta.lon]) && /United Kingdom|Ireland/.test(meta.country || "")) return "ni";
+  if (REGIONS.us.bounds.contains([meta.lat, meta.lon]) && /United States/.test(meta.country || "")) return "us";
+  return null;
+}
+const wallRegion = (p) => (/Northern Ireland/.test(p.countries || "") ? "ni" : /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "") ? "us" : null);
 
 function popupHtml(p) {
   // Summary first; detail sections open with an arrow (native <details>)
@@ -690,7 +763,7 @@ function popupHtml(p) {
     ${section("Security equipment and gates", `${row("Additional equipment", or(p.security_technology))}${row("Gates and crossing points", or(p.gates))}`)}
     ${single("Construction", construction.length ? construction.join("<br>") : "Not documented")}
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
-    ${/Northern Ireland/.test(p.countries || "") ? single("Income, employment and population by neighbourhood", themePickerHtml()) : ""}
+    ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>
