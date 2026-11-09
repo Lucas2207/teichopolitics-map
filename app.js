@@ -214,11 +214,27 @@ const THEMES = {
   us_religion: { region: "us", label: "Religion: Catholic adherents, by county (2020)", src: "county", field: "catholic", breaks: [15, 25, 35, 45],
     colors: ["#f7f4f9", "#d4b9da", "#c994c7", "#dd1c77", "#980043"],
     note: "Adherents counted by congregations, as a share of county population. The US census does not ask about religion, so this is by county", source: "U.S. Religion Census 2020" },
+  mx_unemp: { region: "mx", label: "Employment: unemployment rate (2020)", src: "mxageb", field: "unemp", breaks: [1, 2, 3, 5],
+    colors: ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
+        note: "Unemployed as a share of the economically active. The census measure runs lower than INEGI's labour survey. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
+  mx_cath: { region: "mx", label: "Religion: Catholic (2020)", src: "mxageb", field: "cath", breaks: [50, 60, 70, 80],
+    colors: ["#f7f4f9", "#d4b9da", "#c994c7", "#dd1c77", "#980043"],
+    note: "Share of residents who are Catholic. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
+  mx_prot: { region: "mx", label: "Religion: Protestant or evangelical (2020)", src: "mxageb", field: "prot", breaks: [10, 15, 20, 25],
+    colors: ["#eff3ff", "#bdd7e7", "#6baed6", "#3182bd", "#08519c"],
+    note: "Share of residents who are Protestant or evangelical. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
+  mx_none: { region: "mx", label: "Religion: no religion (2020)", src: "mxageb", field: "none", breaks: [10, 15, 20, 30],
+    colors: ["#f7f7f7", "#cccccc", "#969696", "#636363", "#252525"],
+    note: "Share of residents with no religion. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
+  mx_born: { region: "mx", label: "Migration: born in another state (2020)", src: "mxageb", field: "born", breaks: [15, 25, 35, 45],
+    colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
+    note: "Share of residents born in another Mexican state. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
 };
 // Places where neighbourhood themes exist. A theme is offered only when the map shows its region
 const REGIONS = {
   ni: { name: "Northern Ireland", bounds: L.latLngBounds([54.0, -8.2], [55.35, -5.4]), minZoom: 8, home: [[54.55, -6.02], [54.65, -5.86]] },
   us: { name: "US border", bounds: L.latLngBounds([25.4, -117.8], [33.4, -96.6]), minZoom: 7, home: [[31.6, -106.75], [31.95, -106.15]] },
+  mx: { name: "Mexican border", bounds: L.latLngBounds([25.4, -117.8], [33.4, -96.6]), minZoom: 7, home: [[31.6, -106.75], [31.95, -106.15]] },
 };
 function themeColor(th, v) {
   if (v == null) return "#cccccc";
@@ -249,11 +265,7 @@ legend.onAdd = () => {
     <div><span class="swatch dotted"></span>Dotted: planned, under construction, or a gap between traced pieces</div>
     <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
     <div><span class="swatch border"></span>Dashed: official country border</div>
-    <div class="legend-dep" hidden>
-      <p class="legend-title legend-theme-title"></p>
-      <div class="legend-theme-rows"></div>
-      <p class="legend-theme-note"></p>
-    </div>
+    <div class="legend-dep" hidden></div>
     </div>`;
   const toggle = div.querySelector(".legend-toggle");
   toggle.addEventListener("click", () => {
@@ -305,10 +317,10 @@ map.on("zoomend", () => {
 map.createPane("context");
 map.getPane("context").style.zIndex = 370;
 const themeLayers = Object.fromEntries(Object.keys(THEMES).map((k) => [k, L.layerGroup()]));
-let activeTheme = null;
+const activeThemes = {}; // one theme per region, so both sides of a border can be compared
 const themeData = {};
 function loadThemeData(src) {
-  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json" }[src]).then((r) => r.json());
+  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json", mx: "data/mx-border-municipalities.json", mxageb: "data/mx-border-ageb.json" }[src]).then((r) => r.json());
   return themeData[src];
 }
 const NISRA_DZ_REFS = [
@@ -318,6 +330,14 @@ const NISRA_DZ_REFS = [
 const US_ACS_REFS = [
   "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profiles DP02, DP03 and DP05, by census tract. Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
   "U.S. Census Bureau (2025) 2024 cartographic boundary files: census tracts, 1:500,000. Available at: https://www2.census.gov/geo/tiger/GENZ2024/shp/ (Accessed: 9 November 2026).",
+];
+const MX_AGEB_REFS = [
+  "INEGI (2021a) Censo de Población y Vivienda 2020: Principales resultados por AGEB y manzana urbana. Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 9 November 2026).",
+  "INEGI (2021b) Marco Geoestadístico. Censo de Población y Vivienda 2020. Available at: https://www.inegi.org.mx/app/biblioteca/ficha.html?upc=889463807469 (Accessed: 9 November 2026).",
+];
+const MX_REFS = [
+  "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 9 November 2026).",
+  "World Bank (2012) Mexico municipalities 2012, distributed by geoBoundaries (CC BY 4.0). Available at: https://www.geoboundaries.org/ (Accessed: 9 November 2026).",
 ];
 const US_RELIGION_REFS = [
   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026).",
@@ -341,6 +361,32 @@ function areaCardHtml(p, src) {
       </dl>
       <p class="cite">The US census does not ask about religion; this is a separate count by county.</p>
       ${refs(US_RELIGION_REFS, "(Grammich et al., 2022)")}
+    </div>`;
+  }
+  if (src === "mxageb") {
+    return `<div class="fiche">
+      <div class="fiche-title">Urban area ${p.id.slice(-4)}, ${p.mun}, ${p.state}</div>
+      <dl>
+        ${row("Residents (2020)", p.pop.toLocaleString("en"))}
+        ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the economically active; ${pc(p.active)} of residents aged 12+ economically active`)}
+        ${row("Religion", `Catholic ${pc(p.cath)}; Protestant or evangelical ${pc(p.prot)}; no religion ${pc(p.none)}`)}
+        ${row("Migration and language", `Born in another Mexican state ${pc(p.born)}; speakers of an indigenous language ${pc(p.indig)}`)}
+      </dl>
+      <p class="cite">INEGI's urban area (AGEB) ${p.id}. Very small counts are withheld by INEGI and appear as not available. The census does not ask about income, and its unemployment measure runs lower than INEGI's labour survey (ENOE).</p>
+      ${refs(MX_AGEB_REFS, "(INEGI, 2021a); (INEGI, 2021b)")}
+    </div>`;
+  }
+  if (src === "mx") {
+    return `<div class="fiche">
+      <div class="fiche-title">${p.name}, ${p.state}</div>
+      <dl>
+        ${row("Residents (2020)", p.pop.toLocaleString("en"))}
+        ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the economically active; ${pc(p.active)} of residents aged 12+ economically active`)}
+        ${row("Religion", `Catholic ${pc(p.cath)}; Protestant or evangelical ${pc(p.prot)}; no religion ${pc(p.none)}`)}
+        ${row("Migration and language", `Born in another Mexican state ${pc(p.born)}; speakers of an indigenous language ${pc(p.indig)}`)}
+      </dl>
+      <p class="cite">Whole municipality. The census does not ask about income, and its unemployment measure runs lower than INEGI's labour survey (ENOE).</p>
+      ${refs(MX_REFS, "(INEGI, 2021); (World Bank, 2012)")}
     </div>`;
   }
   if (src === "us") {
@@ -385,42 +431,49 @@ function areaCardHtml(p, src) {
     ${refs(NISRA_DZ_REFS, "(NISRA, 2023)")}
   </div>`;
 }
-function showThemeLegend(key) {
+function renderThemeLegend() {
   const box = document.querySelector(".legend-dep");
-  if (!key) { box.hidden = true; return; }
-  const th = THEMES[key];
-  box.querySelector(".legend-theme-title").textContent = th.label;
-  box.querySelector(".legend-theme-rows").innerHTML = themeLabels(th)
-    .map((l, i) => `<div><span class="swatch fill" style="background:${th.colors[i]}"></span>${l}</div>`).join("");
-  box.querySelector(".legend-theme-note").textContent = `${th.note}. Source: ${th.source || "NISRA"}.`;
-  box.hidden = false;
-  const legendBox = legend.getContainer();
-  if (legendBox.classList.contains("collapsed")) legendBox.querySelector(".legend-toggle").click();
+  const keys = Object.values(activeThemes);
+  box.hidden = !keys.length;
+  box.innerHTML = keys.map((key) => {
+    const th = THEMES[key];
+    return `<p class="legend-title legend-theme-title">${REGIONS[th.region].name}: ${th.label}</p>
+      <div class="legend-theme-rows">${themeLabels(th).map((l, i) => `<div><span class="swatch fill" style="background:${th.colors[i]}"></span>${l}</div>`).join("")}</div>
+      <p class="legend-theme-note">${th.note}. Source: ${th.source || "NISRA"}.</p>`;
+  }).join("");
+  if (keys.length) {
+    const legendBox = legend.getContainer();
+    if (legendBox.classList.contains("collapsed")) legendBox.querySelector(".legend-toggle").click();
+  }
 }
 map.on("overlayadd", (e) => {
   const key = Object.keys(themeLayers).find((k) => themeLayers[k] === e.layer);
   if (!key) return;
-  // One theme at a time
-  Object.entries(themeLayers).forEach(([k, l]) => { if (k !== key && map.hasLayer(l)) map.removeLayer(l); });
+  // One theme at a time for each region
+  Object.entries(themeLayers).forEach(([k, l]) => { if (k !== key && THEMES[k].region === THEMES[key].region && map.hasLayer(l)) map.removeLayer(l); });
   // Leaflet does not redraw its checkboxes while it is handling a click, so refresh them just after
   setTimeout(() => layerControl._update && layerControl._update(), 0);
-  activeTheme = key;
-  showThemeLegend(key);
+  activeThemes[THEMES[key].region] = key;
+  renderThemeLegend();
   const th = THEMES[key];
   if (e.layer.getLayers().length) return;
-  loadThemeData(th.src).then((fc) => {
+  const draw = (src, opacity) => loadThemeData(src).then((fc) => {
     L.geoJSON(fc, {
       pane: "context",
-      style: (f) => ({ fillColor: themeColor(th, f.properties[th.field]), fillOpacity: 0.65, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
+      style: (f) => ({ fillColor: themeColor(th, f.properties[th.field]), fillOpacity: opacity, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
       onEachFeature: (f, lyr) => lyr.on("click", (ev) => {
         L.DomEvent.stopPropagation(ev);
-        showInfoCard(areaCardHtml(f.properties, th.src));
+        showInfoCard(areaCardHtml(f.properties, src));
       }),
     }).addTo(e.layer);
   });
+  // Mexico: whole municipalities first, so rural areas are covered, then the finer urban areas on top
+  if (th.src === "mxageb") draw("mx", 0.4).then(() => draw("mxageb", 0.75));
+  else draw(th.src, 0.65);
 });
 map.on("overlayremove", (e) => {
-  if (activeTheme && themeLayers[activeTheme] === e.layer) { activeTheme = null; showThemeLegend(null); }
+  const key = Object.keys(themeLayers).find((k) => themeLayers[k] === e.layer);
+  if (key && activeThemes[THEMES[key].region] === key) { delete activeThemes[THEMES[key].region]; renderThemeLegend(); }
 });
 
 const layerControl = L.control.layers(baseLayers, {
@@ -450,6 +503,19 @@ function updateThemeOptions() {
   fitInfoCard();
 }
 map.on("moveend", updateThemeOptions);
+// Ticking a theme unticks the other themes of its region before Leaflet reads the boxes, whatever their order in the list
+layerControl.getContainer().addEventListener("click", (e) => {
+  const input = e.target;
+  if (input.type !== "checkbox" || input.layerId == null || !input.checked) return;
+  const keyOf = (el) => Object.keys(themeLayers).find((k) => themeLayers[k] === layerControl._getLayer(el.layerId).layer);
+  const key = keyOf(input);
+  if (!key) return;
+  layerControl.getContainer().querySelectorAll("input[type=checkbox]").forEach((other) => {
+    if (other === input || other.layerId == null) return;
+    const k = keyOf(other);
+    if (k && THEMES[k].region === THEMES[key].region) other.checked = false;
+  });
+}, true);
 
 // The layer box folds into a small "Layers" button, like the legend (folded by default on phones)
 {
@@ -490,7 +556,8 @@ infoBody.addEventListener("change", (e) => {
   if (!e.target.classList.contains("theme-select")) return;
   const key = e.target.value;
   if (!key) {
-    if (activeTheme) map.removeLayer(themeLayers[activeTheme]);
+    const current = activeThemes[e.target.dataset.region];
+    if (current) map.removeLayer(themeLayers[current]);
     return;
   }
   const r = THEMES[key].region;
@@ -571,7 +638,7 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml(cityRegion(meta)) : ""}`) : ""}`
+       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}`) : ""}`
     : row("Census", "No census data added yet for this city");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
@@ -698,20 +765,21 @@ const CATEGORY_LABELS = {
 const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193.";
 
 // Picker shown in Northern Ireland wall and city cards: map a neighbourhood theme (income, employment, occupations, community, ethnicity)
-function themePickerHtml(region) {
-  return `<label class="dep-toggle">Show by neighbourhood on the map:
-    <select class="theme-select">
+function themePickerHtml(regions) {
+  return regions.map((r) => `<label class="dep-toggle">${REGIONS[r].name}: show by area on the map
+    <select class="theme-select" data-region="${r}">
       <option value="">None</option>
-      ${Object.entries(THEMES).filter(([, th]) => th.region === region).map(([k, th]) => `<option value="${k}"${activeTheme === k ? " selected" : ""}>${th.label}</option>`).join("")}
-    </select></label>`;
+      ${Object.entries(THEMES).filter(([, th]) => th.region === r).map(([k, th]) => `<option value="${k}"${activeThemes[r] === k ? " selected" : ""}>${th.label}</option>`).join("")}
+    </select></label>`).join("");
 }
 // Which themed region a city belongs to (US themes only cover the US side of the border)
 function cityRegion(meta) {
   if (REGIONS.ni.bounds.contains([meta.lat, meta.lon]) && /United Kingdom|Ireland/.test(meta.country || "")) return "ni";
   if (REGIONS.us.bounds.contains([meta.lat, meta.lon]) && /United States/.test(meta.country || "")) return "us";
+  if (REGIONS.mx.bounds.contains([meta.lat, meta.lon]) && /Mexico/.test(meta.country || "")) return "mx";
   return null;
 }
-const wallRegion = (p) => (/Northern Ireland/.test(p.countries || "") ? "ni" : /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "") ? "us" : null);
+const wallRegion = (p) => (/Northern Ireland/.test(p.countries || "") ? ["ni"] : /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "") ? ["us", "mx"] : null);
 
 function popupHtml(p) {
   // Summary first; detail sections open with an arrow (native <details>)

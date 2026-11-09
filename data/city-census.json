@@ -182,11 +182,12 @@
   "ethnic": "Born in another Mexican state: 44.3% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.7% of people aged 3+.",
   "religion": "Catholic 62.5%; Protestant or evangelical 15.7%; no religion 21.0%.",
-  "economy": "Unemployment at the census: 1.2% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.2% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Baja California state GDP per person: MXN 216,675 (US$23,740 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Mexicali": {
   "lat": 32.62,
@@ -197,11 +198,12 @@
   "ethnic": "Born in another Mexican state: 28.8% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
   "religion": "Catholic 66.0%; Protestant or evangelical 14.1%; no religion 19.4%.",
-  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Baja California state GDP per person: MXN 216,675 (US$23,740 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Nogales": {
   "lat": 31.31,
@@ -212,11 +214,12 @@
   "ethnic": "Born in another Mexican state: 24.8% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.8% of people aged 3+.",
   "religion": "Catholic 67.2%; Protestant or evangelical 14.9%; no religion 17.5%.",
-  "economy": "Unemployment at the census: 1.7% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.7% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Sonora state GDP per person: MXN 260,071 (US$28,495 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Ciudad Juárez": {
   "lat": 31.69,
@@ -227,11 +230,12 @@
   "ethnic": "Born in another Mexican state: 27.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
   "religion": "Catholic 65.5%; Protestant or evangelical 14.3%; no religion 19.5%.",
-  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Chihuahua state GDP per person: MXN 207,980 (US$22,787 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Nuevo Laredo": {
   "lat": 27.48,
@@ -242,11 +246,12 @@
   "ethnic": "Born in another Mexican state: 29.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.4% of people aged 3+.",
   "religion": "Catholic 69.1%; Protestant or evangelical 17.0%; no religion 13.5%.",
-  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Tamaulipas state GDP per person: MXN 188,482 (US$20,651 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Reynosa": {
   "lat": 26.08,
@@ -257,11 +262,12 @@
   "ethnic": "Born in another Mexican state: 32.9% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.9% of people aged 3+.",
   "religion": "Catholic 60.9%; Protestant or evangelical 18.3%; no religion 20.1%.",
-  "economy": "Unemployment at the census: 1.5% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.5% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Tamaulipas state GDP per person: MXN 188,482 (US$20,651 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Matamoros": {
   "lat": 25.87,
@@ -272,11 +278,12 @@
   "ethnic": "Born in another Mexican state: 20.5% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.8% of people aged 3+.",
   "religion": "Catholic 62.1%; Protestant or evangelical 20.7%; no religion 16.9%.",
-  "economy": "Unemployment at the census: 2.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 2.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Tamaulipas state GDP per person: MXN 188,482 (US$20,651 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Derry": {
   "lat": 54.99,
@@ -317,13 +324,14 @@
   "ethnic": "Foreign residents: 1,293 (0.5%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
   "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
   "religion": "Not collected: Morocco's census does not ask about religion.",
-  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%).",
+  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%). Laâyoune-Sakia El Hamra region GDP per person: 71,246 dirhams (2022; national 36,284).",
   "sources": [
    "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
    "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
-   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
+   "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
   ],
-  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
  },
  "Dakhla": {
   "lat": 23.68,
@@ -334,13 +342,14 @@
   "ethnic": "Foreign residents: 5,371 (3.2%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
   "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
   "religion": "Not collected: Morocco's census does not ask about religion.",
-  "economy": "Unemployment at the census, Dakhla-Oued Ed-Dahab region: 10.6% (2024; national 21.3%).",
+  "economy": "Unemployment at the census, Dakhla-Oued Ed-Dahab region: 10.6% (2024; national 21.3%). Dakhla-Oued Ed-Dahab region GDP per person: 80,996 dirhams (2022; national 36,284).",
   "sources": [
    "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
    "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
-   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
+   "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
   ],
-  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
  },
  "Smara": {
   "lat": 26.74,
@@ -351,13 +360,14 @@
   "ethnic": "Foreign residents: 35 (0.1%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
   "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
   "religion": "Not collected: Morocco's census does not ask about religion.",
-  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%).",
+  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%). Laâyoune-Sakia El Hamra region GDP per person: 71,246 dirhams (2022; national 36,284).",
   "sources": [
    "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
    "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
-   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
+   "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
   ],
-  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
  },
  "Boujdour": {
   "lat": 26.13,
@@ -368,13 +378,14 @@
   "ethnic": "Foreign residents: 31 (0.1%). The census does not record ethnicity. Western Sahara is listed by the United Nations as a Non-Self-Governing Territory; these figures come from Morocco's census (United Nations, n.d.).",
   "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
   "religion": "Not collected: Morocco's census does not ask about religion.",
-  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%).",
+  "economy": "Unemployment at the census, Laâyoune-Sakia El Hamra region: 26.6% (2024; national 21.3%). Laâyoune-Sakia El Hamra region GDP per person: 71,246 dirhams (2022; national 36,284).",
   "sources": [
    "HCP (2024) Population légale du Royaume du Maroc répartie par régions, provinces et préfectures et communes selon les résultats du RGPH 2024. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242341/ (Accessed: 6 November 2026).",
    "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
-   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026)."
+   "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
+   "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
   ],
-  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.)"
+  "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
  },
  "Oujda": {
   "lat": 34.68,
@@ -385,12 +396,13 @@
   "ethnic": "The census does not record ethnicity.",
   "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
   "religion": "Not collected: Morocco's census does not ask about religion.",
-  "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%).",
+  "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284).",
   "sources": [
    "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
-   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
+   "HCP Direction régionale de l'Oriental (2024) Note sur les comptes régionaux de l'Oriental 2022. Available at: https://hcp.ma/region-oriental/docs/comptesregionaux/Note%20Compte%20Reg.%20Oriental%202022_Fr.pdf (Accessed: 9 November 2026)."
   ],
-  "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b)"
+  "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b); (HCP Direction régionale de l'Oriental, 2024)"
  },
  "Nador": {
   "lat": 35.17,
@@ -401,12 +413,13 @@
   "ethnic": "The census does not record ethnicity.",
   "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
   "religion": "Not collected: Morocco's census does not ask about religion.",
-  "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%).",
+  "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284).",
   "sources": [
    "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
-   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+   "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
+   "HCP Direction régionale de l'Oriental (2024) Note sur les comptes régionaux de l'Oriental 2022. Available at: https://hcp.ma/region-oriental/docs/comptesregionaux/Note%20Compte%20Reg.%20Oriental%202022_Fr.pdf (Accessed: 9 November 2026)."
   ],
-  "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b)"
+  "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b); (HCP Direction régionale de l'Oriental, 2024)"
  },
  "Chula Vista": {
   "lat": 32.64,
@@ -485,11 +498,12 @@
   "ethnic": "Born in another Mexican state: 19.7% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.3% of people aged 3+.",
   "religion": "Catholic 51.4%; Protestant or evangelical 21.7%; no religion 26.5%.",
-  "economy": "Unemployment at the census: 1.5% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.5% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Coahuila state GDP per person: MXN 289,002 (US$31,665 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Piedras Negras": {
   "lat": 28.7,
@@ -500,11 +514,12 @@
   "ethnic": "Born in another Mexican state: 13.5% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.2% of people aged 3+.",
   "religion": "Catholic 63.2%; Protestant or evangelical 20.9%; no religion 15.5%.",
-  "economy": "Unemployment at the census: 1.9% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.9% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Coahuila state GDP per person: MXN 289,002 (US$31,665 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "San Luis Rio Colorado": {
   "lat": 32.46,
@@ -515,11 +530,12 @@
   "ethnic": "Born in another Mexican state: 30.8% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.5% of people aged 3+.",
   "religion": "Catholic 66.2%; Protestant or evangelical 15.3%; no religion 18.2%.",
-  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Sonora state GDP per person: MXN 260,071 (US$28,495 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Rosarito": {
   "lat": 32.36,
@@ -530,11 +546,12 @@
   "ethnic": "Born in another Mexican state: 44.4% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 1.0% of people aged 3+.",
   "religion": "Catholic 57.7%; Protestant or evangelical 21.3%; no religion 19.8%.",
-  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.6% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Baja California state GDP per person: MXN 216,675 (US$23,740 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Ciudad Juarez": {
   "lat": 31.69,
@@ -545,11 +562,12 @@
   "ethnic": "Born in another Mexican state: 27.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
   "religion": "Catholic 65.5%; Protestant or evangelical 14.3%; no religion 19.5%.",
-  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Chihuahua state GDP per person: MXN 207,980 (US$22,787 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Heroica Matamoros": {
   "lat": 25.87,
@@ -560,11 +578,12 @@
   "ethnic": "Born in another Mexican state: 20.5% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
   "language": "Speakers of an indigenous language: 0.8% of people aged 3+.",
   "religion": "Catholic 62.1%; Protestant or evangelical 20.7%; no religion 16.9%.",
-  "economy": "Unemployment at the census: 2.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE).",
+  "economy": "Unemployment at the census: 2.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Tamaulipas state GDP per person: MXN 188,482 (US$20,651 PPP), 2018.",
   "sources": [
-   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026)."
+   "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
+   "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
   ],
-  "cite": "(INEGI, 2021)"
+  "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
  },
  "Subotica": {
   "lat": 46.1,
@@ -634,9 +653,11 @@
   "language": "First language: Bengali 60.9%, Hindi 25.2%, Nepali 4.7%, Bhojpuri 2.4%, Marwari 1.6%, Urdu 1.2%.",
   "religion": "Hindu 92.0%, Muslim 5.4%, Christian 0.9%, Buddhist 0.7%.",
   "sources": [
-   "Wikipedia (n.d.) Siliguri. Available at: https://en.wikipedia.org/wiki/Siliguri (figures reported there from the 2011 Census of India) (Accessed: 8 November 2026)."
+   "Wikipedia (n.d.) Siliguri. Available at: https://en.wikipedia.org/wiki/Siliguri (figures reported there from the 2011 Census of India) (Accessed: 8 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)"
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "West Bengal state GDP per person: ₹181,786 (2024–25). Literacy 77.6% (the same page also gives 85.5%)."
  },
  "Nicosia": {
   "lat": 35.17,
@@ -663,10 +684,11 @@
   "language": "Bengali 90.8%, Kokborok 4.1%, Hindi 2.4%, Meitei 0.8%.",
   "religion": "Hindu 94.1%, Muslim 4.4%, Christian 1.0%, Buddhist 0.3%.",
   "sources": [
-   "Wikipedia (n.d.) Agartala. Available at: https://en.wikipedia.org/wiki/Agartala (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Agartala. Available at: https://en.wikipedia.org/wiki/Agartala (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 86.2% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 86.2% (2011). Unemployment and income not found. Tripura state GDP per person: ₹213,377 (2024–25)."
  },
  "Raiganj": {
   "lat": 25.613,
@@ -678,10 +700,11 @@
   "language": "Bengali (shares not published).",
   "religion": "Hindu 97.4%, Muslim 2.2%, Jain 0.2%.",
   "sources": [
-   "Wikipedia (n.d.) Raiganj. Available at: https://en.wikipedia.org/wiki/Raiganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Raiganj. Available at: https://en.wikipedia.org/wiki/Raiganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 81.7% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 81.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Malda": {
   "lat": 25.004,
@@ -693,10 +716,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "Hindu 87.0%, Muslim 11.0%, Christian 0.3%.",
   "sources": [
-   "Wikipedia (n.d.) English Bazar. Available at: https://en.wikipedia.org/wiki/English_Bazar (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) English Bazar. Available at: https://en.wikipedia.org/wiki/English_Bazar (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 84.7% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 84.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Balurghat": {
   "lat": 25.221,
@@ -708,10 +732,11 @@
   "language": "Bengali 94.4%, Hindi 3.4%, Santali 1.4%.",
   "religion": "Hindu 98.7%, Muslim 0.5%.",
   "sources": [
-   "Wikipedia (n.d.) Balurghat. Available at: https://en.wikipedia.org/wiki/Balurghat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Balurghat. Available at: https://en.wikipedia.org/wiki/Balurghat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 91.7% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 91.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Krishnanagar": {
   "lat": 23.38,
@@ -723,10 +748,11 @@
   "language": "Bengali 97.5%, Hindi 2.0%, Santali 0.2%.",
   "religion": "Hindu 90.8%, Christian 6.1%, Muslim 3.0%.",
   "sources": [
-   "Wikipedia (n.d.) Krishnanagar, Nadia. Available at: https://en.wikipedia.org/wiki/Krishnanagar,_Nadia (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Krishnanagar, Nadia. Available at: https://en.wikipedia.org/wiki/Krishnanagar,_Nadia (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 88.1% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 88.1% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Basirhat City": {
   "lat": 22.661,
@@ -738,10 +764,11 @@
   "language": "Bengali 99.8%.",
   "religion": "Hindu 77.6%, Muslim 22.2%.",
   "sources": [
-   "Wikipedia (n.d.) Basirhat. Available at: https://en.wikipedia.org/wiki/Basirhat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Basirhat. Available at: https://en.wikipedia.org/wiki/Basirhat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 87.4% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 87.4% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Bangaon": {
   "lat": 23.046,
@@ -753,10 +780,11 @@
   "language": "Bengali (shares not published).",
   "religion": "Not found in the sources consulted.",
   "sources": [
-   "Wikipedia (n.d.) Bangaon. Available at: https://en.wikipedia.org/wiki/Bangaon (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Bangaon. Available at: https://en.wikipedia.org/wiki/Bangaon (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 90.3% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 90.3% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Firozpur": {
   "lat": 30.926,
@@ -768,10 +796,11 @@
   "language": "Punjabi (shares not published).",
   "religion": "Hindu 70.5%, Sikh 26.3%, Christian 2.4%, Muslim 0.3%.",
   "sources": [
-   "Wikipedia (n.d.) Firozpur. Available at: https://en.wikipedia.org/wiki/Firozpur (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Firozpur. Available at: https://en.wikipedia.org/wiki/Firozpur (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 70.7% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 70.7% (2011). Unemployment and income not found. Punjab state GDP per person: ₹253,317 (2024–25)."
  },
  "Jalpaiguri": {
   "lat": 26.517,
@@ -783,10 +812,11 @@
   "language": "Bengali 83.3%, Hindi 14.1%, Nepali 2.1%.",
   "religion": "Hindu 88.2%, Muslim 9.6%, Christian 1.0%, Buddhist 0.5%.",
   "sources": [
-   "Wikipedia (n.d.) Jalpaiguri. Available at: https://en.wikipedia.org/wiki/Jalpaiguri (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Jalpaiguri. Available at: https://en.wikipedia.org/wiki/Jalpaiguri (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 86.4% (2011); per capita income ₹193,726 (2024–25)."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 86.4% (2011); per capita income ₹193,726 (2024–25). West Bengal state GDP per person: ₹181,786 (2024–25)."
  },
  "Kishanganj": {
   "lat": 26.102,
@@ -798,10 +828,11 @@
   "language": "Hindi 59.8%, Urdu 23.1%, Bengali 5.7%, Surjapuri 5.6%, Maithili 3.2%, Bhojpuri 2.5%.",
   "religion": "Hindu 55.5%, Muslim 42.7%, Jain 1.1%.",
   "sources": [
-   "Wikipedia (n.d.) Kishanganj. Available at: https://en.wikipedia.org/wiki/Kishanganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Kishanganj. Available at: https://en.wikipedia.org/wiki/Kishanganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India)",
-  "economy": "Literacy 73.5% (2011). Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
+  "economy": "Literacy 73.5% (2011). Unemployment and income not found. Bihar state GDP per person: ₹76,490 (2024–25)."
  },
  "Sialkot": {
   "lat": 32.493,
@@ -813,10 +844,11 @@
   "language": "Punjabi 85.7%, Urdu 10.4%, Pashto 2.9%.",
   "religion": "Muslim 96.0%, Christian 3.8%.",
   "sources": [
-   "Wikipedia (n.d.) Sialkot. Available at: https://en.wikipedia.org/wiki/Sialkot (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Sialkot. Available at: https://en.wikipedia.org/wiki/Sialkot (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) Sialkot District. Available at: https://en.wikipedia.org/wiki/Sialkot_District (figures reported there from the Pakistan Bureau of Statistics, 2023 census) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
-  "economy": "Unemployment and household income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics)); (Wikipedia, n.d., reporting the Pakistan Bureau of Statistics, 2023 census)",
+  "economy": "District literacy 78.4% (men 80.2%, women 76.5%) (2023)."
  },
  "Kasur": {
   "lat": 31.125,
@@ -828,10 +860,11 @@
   "language": "Punjabi 88.6%, Urdu 6.1%, Mewati 4.7%.",
   "religion": "Muslim 96.1%, Christian 3.8% (2017).",
   "sources": [
-   "Wikipedia (n.d.) Kasur. Available at: https://en.wikipedia.org/wiki/Kasur (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Kasur. Available at: https://en.wikipedia.org/wiki/Kasur (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) Kasur District. Available at: https://en.wikipedia.org/wiki/Kasur_District (figures reported there from the Pakistan Bureau of Statistics, 2023 census) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
-  "economy": "Unemployment and household income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics)); (Wikipedia, n.d., reporting the Pakistan Bureau of Statistics, 2023 census)",
+  "economy": "District literacy 62.9% (men 68.0%, women 57.4%) (2023)."
  },
  "Narowal": {
   "lat": 32.102,
@@ -888,10 +921,11 @@
   "language": "Pashto 98.2%, Punjabi 0.7%, Urdu 0.3%.",
   "religion": "Muslim 99.2%, Christian 0.4%, Hindu 0.3% (2017).",
   "sources": [
-   "Wikipedia (n.d.) Chaman. Available at: https://en.wikipedia.org/wiki/Chaman (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Chaman. Available at: https://en.wikipedia.org/wiki/Chaman (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) Chaman District. Available at: https://en.wikipedia.org/wiki/Chaman_District (figures reported there from the Pakistan Bureau of Statistics, 2023 census) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
-  "economy": "Unemployment and income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics)); (Wikipedia, n.d., reporting the Pakistan Bureau of Statistics, 2023 census)",
+  "economy": "Unemployment and income not found. District literacy 40.0% (men 47.7%, women 30.6%) (2023)."
  },
  "New Mirpur City": {
   "lat": 33.148,
@@ -1038,10 +1072,11 @@
   "religion": "Not found in the sources consulted.",
   "sources": [
    "Wikipedia (n.d.) Nusaybin. Available at: https://en.wikipedia.org/wiki/Nusaybin (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
-   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024)."
  },
  "Kiziltepe": {
   "lat": 37.188,
@@ -1054,10 +1089,11 @@
   "religion": "Not found in the sources consulted.",
   "sources": [
    "Wikipedia (n.d.) Kızıltepe. Available at: https://en.wikipedia.org/wiki/K%C4%B1z%C4%B1ltepe (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
-   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024)."
  },
  "Mardin": {
   "lat": 37.313,
@@ -1070,10 +1106,11 @@
   "religion": "Not found in the sources consulted.",
   "sources": [
    "Wikipedia (n.d.) Mardin. Available at: https://en.wikipedia.org/wiki/Mardin (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
-   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024)."
  },
  "Cizre": {
   "lat": 37.33,
@@ -1085,10 +1122,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "Not found in the sources consulted.",
   "sources": [
-   "Wikipedia (n.d.) Cizre. Available at: https://en.wikipedia.org/wiki/Cizre (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Cizre. Available at: https://en.wikipedia.org/wiki/Cizre (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK))",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Şırnak province GDP per person: ₺306,150 (2024)."
  },
  "Silopi": {
   "lat": 37.244,
@@ -1100,10 +1138,11 @@
   "language": "Kurdish.",
   "religion": "Not found in the sources consulted.",
   "sources": [
-   "Wikipedia (n.d.) Silopi. Available at: https://en.wikipedia.org/wiki/Silopi (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Silopi. Available at: https://en.wikipedia.org/wiki/Silopi (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK))",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Şırnak province GDP per person: ₺306,150 (2024)."
  },
  "Suruc": {
   "lat": 36.976,
@@ -1116,10 +1155,11 @@
   "religion": "Not found in the sources consulted.",
   "sources": [
    "Wikipedia (n.d.) Suruç. Available at: https://en.wikipedia.org/wiki/Suru%C3%A7 (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
-   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Şanlıurfa province GDP per person: ₺188,144 (2024)."
  },
  "Kilis": {
   "lat": 36.716,
@@ -1132,10 +1172,11 @@
   "religion": "Not found in the sources consulted.",
   "sources": [
    "Wikipedia (n.d.) Kilis. Available at: https://en.wikipedia.org/wiki/Kilis (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
-   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026)."
+   "AIDA (2026) Statistics: Türkiye. Asylum Information Database, table of Syrians under temporary protection by province, 9 July 2026, from the Presidency of Migration Management. Available at: https://asylumineurope.org/reports/country/turkiye/statistics/ (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026)",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Kilis province GDP per person: ₺253,567 (2024)."
  },
  "Edirne": {
   "lat": 41.67,
@@ -1147,10 +1188,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "Not found in the sources consulted.",
   "sources": [
-   "Wikipedia (n.d.) Edirne. Available at: https://en.wikipedia.org/wiki/Edirne (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Edirne. Available at: https://en.wikipedia.org/wiki/Edirne (figures reported there from the Turkish Statistical Institute (TÜİK)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Turkish provinces by GDP. Available at: https://en.wikipedia.org/wiki/List_of_Turkish_provinces_by_GDP (figures reported there from the Turkish Statistical Institute, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK))",
-  "economy": "Unemployment and income by town not found."
+  "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (Wikipedia, n.d., reporting TÜİK)",
+  "economy": "Unemployment and income by town not found. Edirne province GDP per person: ₺417,266 (2024)."
  },
  "Gaza City": {
   "lat": 31.53,
@@ -1551,10 +1593,12 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Hohhot. Available at: https://en.wikipedia.org/wiki/Hohhot (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Hohhot. Available at: https://en.wikipedia.org/wiki/Hohhot (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese prefecture-level cities by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_prefecture-level_cities_by_GDP_per_capita (figures from city statistical communiqués, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥101,492 (year not stated)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (Wikipedia, n.d., reporting city communiqués)",
+  "economy": "Inner Mongolia province GDP per person: CN¥112,181 (US$15,705), 2025 preliminary. City GDP per person: CN¥113,400 (US$15,923), 2024."
  },
  "Datong": {
   "lat": 40.094,
@@ -1566,10 +1610,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Datong. Available at: https://en.wikipedia.org/wiki/Datong (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Datong. Available at: https://en.wikipedia.org/wiki/Datong (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥44,110 (year not stated)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥44,110 (year not stated). Shanxi province GDP per person: CN¥74,224 (US$10,391), 2025 preliminary."
  },
  "Yinchuan": {
   "lat": 38.47,
@@ -1581,10 +1626,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Yinchuan. Available at: https://en.wikipedia.org/wiki/Yinchuan (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Yinchuan. Available at: https://en.wikipedia.org/wiki/Yinchuan (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥104,100 (2025)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥104,100 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
  },
  "Jinzhou": {
   "lat": 41.108,
@@ -1596,10 +1642,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Jinzhou. Available at: https://en.wikipedia.org/wiki/Jinzhou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Jinzhou. Available at: https://en.wikipedia.org/wiki/Jinzhou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥43,207 (year not stated)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥43,207 (year not stated). Liaoning province GDP per person: CN¥80,094 (US$11,213), 2025 preliminary."
  },
  "Zhongwei": {
   "lat": 37.511,
@@ -1611,10 +1658,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Zhongwei. Available at: https://en.wikipedia.org/wiki/Zhongwei (figures reported there from local statistics) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Zhongwei. Available at: https://en.wikipedia.org/wiki/Zhongwei (figures reported there from local statistics) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting local statistics)",
-  "economy": "GDP per person CN¥58,700 (2025)."
+  "cite": "(Wikipedia, n.d., reporting local statistics); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥58,700 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
  },
  "Qinhuangdao": {
   "lat": 39.941,
@@ -1626,10 +1674,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Qinhuangdao. Available at: https://en.wikipedia.org/wiki/Qinhuangdao (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Qinhuangdao. Available at: https://en.wikipedia.org/wiki/Qinhuangdao (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥48,230 (2024)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥48,230 (2024). Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary."
  },
  "Shizuishan": {
   "lat": 38.981,
@@ -1641,10 +1690,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Shizuishan. Available at: https://en.wikipedia.org/wiki/Shizuishan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Shizuishan. Available at: https://en.wikipedia.org/wiki/Shizuishan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin)",
-  "economy": "GDP per person CN¥78,400 (2025)."
+  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥78,400 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
  },
  "Zhangjiakou": {
   "lat": 40.783,
@@ -1656,9 +1706,12 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Zhangjiakou. Available at: https://en.wikipedia.org/wiki/Zhangjiakou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Zhangjiakou. Available at: https://en.wikipedia.org/wiki/Zhangjiakou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026).",
+   "CEIC (n.d.) China GDP per capita: Hebei: Zhangjiakou. Available at: https://www.ceicdata.com/en/china/gross-domestic-product-prefecture-level-city-per-capita (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)"
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (CEIC, n.d.)",
+  "economy": "Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary. City GDP per person: CN¥42,049 (2021, CEIC)."
  },
  "Fuxin": {
   "lat": 42.016,
@@ -1670,10 +1723,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Fuxin. Available at: https://en.wikipedia.org/wiki/Fuxin (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Fuxin. Available at: https://en.wikipedia.org/wiki/Fuxin (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥29,491 (year not stated)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥29,491 (year not stated). Liaoning province GDP per person: CN¥80,094 (US$11,213), 2025 preliminary."
  },
  "Shuozhou": {
   "lat": 39.316,
@@ -1685,10 +1739,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Shuozhou. Available at: https://en.wikipedia.org/wiki/Shuozhou (figures reported there from the 2010 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Shuozhou. Available at: https://en.wikipedia.org/wiki/Shuozhou (figures reported there from the 2010 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2010 census of China)",
-  "economy": "GDP per person CN¥69,152 (Shanxi Statistical Yearbook 2021)."
+  "cite": "(Wikipedia, n.d., reporting the 2010 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥69,152 (Shanxi Statistical Yearbook 2021). Shanxi province GDP per person: CN¥74,224 (US$10,391), 2025 preliminary."
  },
  "Jiuquan": {
   "lat": 39.743,
@@ -1700,10 +1755,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Jiuquan. Available at: https://en.wikipedia.org/wiki/Jiuquan (figures reported there from the Gansu Development Yearbook 2023) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Jiuquan. Available at: https://en.wikipedia.org/wiki/Jiuquan (figures reported there from the Gansu Development Yearbook 2023) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the Gansu Development Yearbook 2023)",
-  "economy": "GDP per person CN¥79,840 (year not stated)."
+  "cite": "(Wikipedia, n.d., reporting the Gansu Development Yearbook 2023); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥79,840 (year not stated). Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary."
  },
  "Guyuan": {
   "lat": 36.007,
@@ -1715,10 +1771,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Guyuan. Available at: https://en.wikipedia.org/wiki/Guyuan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Guyuan. Available at: https://en.wikipedia.org/wiki/Guyuan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin)",
-  "economy": "GDP per person CN¥42,800 (2025)."
+  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥42,800 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
  },
  "Jiayuguan": {
   "lat": 39.82,
@@ -1730,10 +1787,12 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Jiayuguan City. Available at: https://en.wikipedia.org/wiki/Jiayuguan_City (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Jiayuguan City. Available at: https://en.wikipedia.org/wiki/Jiayuguan_City (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese prefecture-level cities by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_prefecture-level_cities_by_GDP_per_capita (figures from city statistical communiqués, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥78,336 (year not stated)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (Wikipedia, n.d., reporting city communiqués)",
+  "economy": "Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary. City GDP per person: CN¥98,365 (US$13,812), 2024."
  },
  "Jinchang": {
   "lat": 38.501,
@@ -1745,10 +1804,12 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Jinchang. Available at: https://en.wikipedia.org/wiki/Jinchang (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Jinchang. Available at: https://en.wikipedia.org/wiki/Jinchang (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese prefecture-level cities by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_prefecture-level_cities_by_GDP_per_capita (figures from city statistical communiqués, 2024) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥116,448 (year not stated); average urban income 131,056 yuan (2022)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (Wikipedia, n.d., reporting city communiqués)",
+  "economy": "average urban income 131,056 yuan (2022). Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary. City GDP per person: CN¥116,448 (US$16,351), 2024."
  },
  "Xuanhua": {
   "lat": 40.612,
@@ -1760,9 +1821,12 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Zhangjiakou. Available at: https://en.wikipedia.org/wiki/Zhangjiakou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Zhangjiakou. Available at: https://en.wikipedia.org/wiki/Zhangjiakou (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026).",
+   "CEIC (n.d.) China GDP per capita: Hebei: Zhangjiakou. Available at: https://www.ceicdata.com/en/china/gross-domestic-product-prefecture-level-city-per-capita (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)"
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (CEIC, n.d.)",
+  "economy": "Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary. City GDP per person: CN¥42,049 (2021, CEIC)."
  },
  "Huinong": {
   "lat": 39.233,
@@ -1774,10 +1838,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Shizuishan. Available at: https://en.wikipedia.org/wiki/Shizuishan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Shizuishan. Available at: https://en.wikipedia.org/wiki/Shizuishan (figures reported there from the city's 2024 statistical bulletin) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin)",
-  "economy": "GDP per person CN¥78,400 (2025)."
+  "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥78,400 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
  },
  "Shanhaiguan": {
   "lat": 40.001,
@@ -1789,10 +1854,11 @@
   "language": "Not found in the sources consulted.",
   "religion": "China's census does not ask about religion.",
   "sources": [
-   "Wikipedia (n.d.) Qinhuangdao. Available at: https://en.wikipedia.org/wiki/Qinhuangdao (figures reported there from the 2020 census of China) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Qinhuangdao. Available at: https://en.wikipedia.org/wiki/Qinhuangdao (figures reported there from the 2020 census of China) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2020 census of China)",
-  "economy": "GDP per person CN¥48,230 (2024)."
+  "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
+  "economy": "GDP per person CN¥48,230 (2024). Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary."
  },
  "Mitte": {
   "lat": 52.52,
@@ -2115,10 +2181,11 @@
   "language": "Punjabi 85.7%, Urdu 10.4%, Pashto 2.9%.",
   "religion": "Muslim 96.0%, Christian 3.8%.",
   "sources": [
-   "Wikipedia (n.d.) Sialkot. Available at: https://en.wikipedia.org/wiki/Sialkot (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026)."
+   "Wikipedia (n.d.) Sialkot. Available at: https://en.wikipedia.org/wiki/Sialkot (figures reported there from the 2023 census of Pakistan (Pakistan Bureau of Statistics)) (Accessed: 9 November 2026).",
+   "Wikipedia (n.d.) Sialkot District. Available at: https://en.wikipedia.org/wiki/Sialkot_District (figures reported there from the Pakistan Bureau of Statistics, 2023 census) (Accessed: 9 November 2026)."
   ],
-  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics))",
-  "economy": "Unemployment and household income not found."
+  "cite": "(Wikipedia, n.d., reporting the 2023 census of Pakistan (Pakistan Bureau of Statistics)); (Wikipedia, n.d., reporting the Pakistan Bureau of Statistics, 2023 census)",
+  "economy": "District literacy 78.4% (men 80.2%, women 76.5%) (2023)."
  },
  "Goyang-si": {
   "lat": 37.656,
