@@ -675,7 +675,7 @@ function cityPopupHtml(en, meta) {
   const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (GeoNames or Natural Earth estimate)` : "Not documented";
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const census = c
-    ? `${row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`)}
+    ? `${c.population ? row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`) : ""}
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
@@ -686,7 +686,7 @@ function cityPopupHtml(en, meta) {
     <div class="fiche-title">${en}</div>
     <dl>
       ${row("Country", meta.country || "Not documented")}
-      ${c ? "" : row("Population", pop)}
+      ${c && c.population ? "" : row("Population", pop)}
       ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
       ${census}
     </dl>
