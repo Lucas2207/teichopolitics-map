@@ -2,23 +2,52 @@
 
 // Colour by construction type (see constructionClass)
 const CONSTRUCTION_COLORS = {
-  concrete: "#b3261e", // concrete, stone or brick wall
-  steel: "#d97706",    // steel or mesh fence
-  wire: "#7c3aed",     // barbed or razor wire
+  concrete: "#d62728", // concrete, stone or brick wall
+  steel: "#f58518",    // steel, metal or mesh fence
+  wire: "#8a4fff",     // barbed or razor wire
   earth: "#00a676",    // earthwork, sand berm, trench
-  unknown: "#e6198f",  // not documented, or mixed
+  mixed: "#fff08a",    // sections built differently, e.g. concrete wall with fenced sections
+  unknown: "#89cff0",  // not documented
   historical: "#2f6f8f", // historical walls, no longer used as borders
 };
+// The two pale colours get a thin outline in a darker shade of their own hue, so they stay visible on light maps
+const CASING_COLORS = { mixed: "#a67c00", unknown: "#2b7bb9" };
+const MATERIALS = [
+  ["concrete", /concrete|stone|brick|block|blast/],
+  ["earth", /\bsand\b|berm|dune|rammed|turf|earth|trench|ditch/],
+  ["steel", /steel|mesh|bollard|palisade|electronic|metal/],
+  ["wire", /wire|razor|barbed|concertina|blade/],
+];
+const CASING_EXTRA = 2;
+// Wider gaps on pale dotted lines, so the dark outlines of neighbouring dots do not merge into a solid line
+const dottedDash = (cased) => (cased ? "2 9" : "2 6");
 
 // Sort a barrier into a construction class from its free-text construction field
 function constructionClass(p) {
+  if (p.construction_class) return p.construction_class; // set by hand for mixed construction and a few exceptions
   const c = (p.construction || "").toLowerCase();
-  if (c.includes("mixed")) return "unknown";
-  if (/concrete|stone|brick|block|blast/.test(c)) return "concrete";
-  if (/earth|sand|berm|dune|rammed|turf|trench/.test(c)) return "earth";
-  if (/steel|mesh|bollard|palisade|electronic/.test(c)) return "steel";
-  if (/wire|razor|barbed|concertina|blade/.test(c)) return "wire";
-  return "unknown";
+  // The material named first is the main structure; anything added to it does not change the class
+  let cls = "unknown", at = Infinity;
+  for (const [name, pattern] of MATERIALS) {
+    const i = c.search(pattern);
+    if (i >= 0 && i < at) { at = i; cls = name; }
+  }
+  return cls;
+}
+
+// A darker copy drawn under a pale line or dot; it stays slightly wider through every restyle
+function asCasing(path) {
+  const set = path.setStyle;
+  path.setStyle = function (s) {
+    return set.call(this, s.weight ? { ...s, weight: s.weight + CASING_EXTRA } : s);
+  };
+  return path;
+}
+function casingFor(item, style, weight) {
+  // style.color is already the outline colour
+  if (!item.casing) item.casing = asCasing(L.polyline(item.latlngs, { ...style }));
+  item.casing.setStyle({ weight });
+  return item.casing;
 }
 
 function dotStyle(color, radius) {
@@ -93,13 +122,17 @@ function refreshPieces(group) {
   const zoom = map.getZoom();
   const weight = zoom >= 8 ? 5 : zoom >= 6 ? 4 : 3;
   group.clearLayers();
+  if (group.cased) {
+    for (const p of group.pieces) group.addLayer(casingFor(p, { ...group.style, color: group.casingColor }, weight));
+    for (const c of group.connectors || []) group.addLayer(casingFor(c, { ...group.style, color: group.casingColor, dashArray: dottedDash(true) }, Math.max(2, weight - 1)));
+  }
   for (const p of group.pieces) {
     if (!p.line) p.line = L.polyline(p.latlngs, { ...group.style });
     p.line.setStyle({ weight });
     group.addLayer(p.line);
   }
   for (const c of group.connectors || []) {
-    if (!c.line) c.line = L.polyline(c.latlngs, { ...group.style, dashArray: "2 6" });
+    if (!c.line) c.line = L.polyline(c.latlngs, { ...group.style, dashArray: dottedDash(group.cased) });
     c.line.setStyle({ weight: Math.max(2, weight - 1) });
     group.addLayer(c.line);
   }
@@ -261,10 +294,11 @@ legend.onAdd = () => {
     <div class="legend-body">
     <p class="legend-title">Construction</p>
     <div><span class="swatch concrete"></span>Concrete, stone or brick wall</div>
-    <div><span class="swatch steel"></span>Steel or mesh fence</div>
+    <div><span class="swatch steel"></span>Steel, metal or mesh fence</div>
     <div><span class="swatch wire"></span>Barbed or razor wire</div>
     <div><span class="swatch earth"></span>Earthwork, sand berm or trench</div>
-    <div><span class="swatch unknown"></span>Not documented or mixed</div>
+    <div><span class="swatch mixed"></span>Mixed: sections built differently</div>
+    <div><span class="swatch unknown"></span>Not documented</div>
     <div><span class="swatch historical"></span>Historical, no longer a border</div>
     <p class="legend-title">Shape</p>
     <div><span class="swatch line"></span>Line: traced on the ground</div>
@@ -924,17 +958,26 @@ fetch("data/barriers.geojson")
       const p = feature.properties;
       // Area-only barriers (no surveyed line) are a dot at their centre; surveyed ones are a line
       const areaOnly = /^(approximate|placeholder)/.test(p.geometry_quality || "");
-      const color = p.historical ? CONSTRUCTION_COLORS.historical : CONSTRUCTION_COLORS[constructionClass(p)];
+      const cls = p.historical ? "historical" : constructionClass(p);
+      const color = CONSTRUCTION_COLORS[cls];
+      const casingColor = CASING_COLORS[cls];
+      const cased = Boolean(casingColor);
       let layer;
       if (areaOnly) {
         const dot = p.status ? { radius: 8, color, weight: 2.5, fillColor: "#fff", fillOpacity: 1 } : dotStyle(color, 8);
-        layer = L.featureGroup([L.circleMarker(L.geoJSON(feature).getBounds().getCenter(), dot)]);
+        if (cased && !p.status) dot.color = color;
+        const centre = L.geoJSON(feature).getBounds().getCenter();
+        const parts = [L.circleMarker(centre, dot)];
+        if (cased) parts.unshift(asCasing(L.circleMarker(centre, { radius: dot.radius, color: casingColor, weight: dot.weight + CASING_EXTRA, fill: false })));
+        layer = L.featureGroup(parts);
       } else {
         const coords = feature.geometry.coordinates;
         if (feature.geometry.type === "MultiLineString" && coords.length > 1) {
           // Many pieces: keep each one, and show them by length as you zoom
           layer = L.featureGroup();
-          layer.style = { color, weight: 4, dashArray: p.status ? "2 6" : null };
+          layer.style = { color, weight: 4, dashArray: p.status ? dottedDash(cased) : null };
+          layer.cased = cased;
+          layer.casingColor = casingColor;
           layer.pieces = coords.map((c) => {
             const latlngs = c.map(([lon, lat]) => [lat, lon]);
             let km = 0;
@@ -946,7 +989,11 @@ fetch("data/barriers.geojson")
         } else {
           // A surveyed barrier is drawn as its line only; no extra dot
           // Planned or under-construction sections are dotted
-          layer = L.featureGroup([L.geoJSON(feature, { style: { color, weight: 4, dashArray: p.status ? "2 6" : null } })]);
+          const style = { color, weight: 4, dashArray: p.status ? dottedDash(cased) : null };
+          // Created first so it draws underneath: Leaflet orders a group's layers by creation
+          const parts = cased ? [asCasing(L.geoJSON(feature, { style: { ...style, color: casingColor, weight: style.weight + CASING_EXTRA } }))] : [];
+          parts.push(L.geoJSON(feature, { style }));
+          layer = L.featureGroup(parts);
         }
       }
       layer.on("click", (e) => {

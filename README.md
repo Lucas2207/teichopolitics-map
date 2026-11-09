@@ -33,11 +33,12 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `status`    | Set only for unfinished walls. `Under construction…` stays in the main list; any other value goes to the "Planned walls" section. Both are drawn dotted or as a hollow dot and left out of the counts |
 | `planned_start`, `planned_budget`, `planned_purpose` | Planned walls: expected start, provisional budget and stated purpose, shown in the list and the card |
 | `abandoned` | `true` for proposals that were dropped, listed under "Proposed but never built" |
+| `construction_class` | Sets the colour class by hand when the text alone would misclassify it: `mixed` for sections built differently, or another class (optional) |
 | `note`      | Short description                        |
 
 Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.
 
-Colours show construction type (concrete, steel or mesh, barbed or razor wire, earthwork, not documented). Place names come from Natural Earth; native names are added where known.
+Colours show construction type (concrete, stone or brick; steel, metal or mesh; barbed or razor wire; earthwork; mixed; not documented; historical). The material named first in `construction` is the main structure, and anything added to it does not change the class. Mixed means sections built differently, such as a concrete wall with fenced sections. Seven hues were chosen for perceptual distance (CIEDE2000) under normal vision and simulated colour blindness; the two pale colours carry a thin outline in a darker shade of their own hue. Place names come from Natural Earth; native names are added where known.
 
 Lines marked `official border` follow the border between the two countries (Natural Earth 50m data),
 only along the stretches where the barrier exists. `approximate` barriers are placed from descriptions and are shown as a dot at their centre until surveyed.

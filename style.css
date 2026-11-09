@@ -184,11 +184,12 @@ input:focus-visible {
   letter-spacing: 0.05em;
   color: var(--muted);
 }
-.swatch.concrete { background: #b3261e; }
-.swatch.steel { background: #d97706; }
-.swatch.wire { background: #7c3aed; }
+.swatch.concrete { background: #d62728; }
+.swatch.steel { background: #f58518; }
+.swatch.wire { background: #8a4fff; }
 .swatch.earth { background: #00a676; }
-.swatch.unknown { background: #e6198f; }
+.swatch.mixed { background: #fff08a; box-shadow: 0 0 0 1px #a67c00; }
+.swatch.unknown { background: #89cff0; box-shadow: 0 0 0 1px #2b7bb9; }
 .swatch.historical { background: #2f6f8f; }
 .swatch.line { background: #444; }
 .swatch.dot {
