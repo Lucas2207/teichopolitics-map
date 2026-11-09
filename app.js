@@ -4,14 +4,14 @@
 const CONSTRUCTION_COLORS = {
   concrete: "#d62728", // concrete, stone or brick wall
   steel: "#f58518",    // steel, metal or mesh fence
-  wire: "#8a4fff",     // barbed or razor wire
+  wire: "#9d6bff",     // barbed or razor wire
   earth: "#00a676",    // earthwork, sand berm, trench
   mixed: "#fff08a",    // sections built differently, e.g. concrete wall with fenced sections
-  unknown: "#89cff0",  // not documented
-  historical: "#2f6f8f", // historical walls, no longer used as borders
+  unknown: "#0b63ce",  // not documented
+  historical: "#00838f", // historical walls, no longer used as borders
 };
-// The two pale colours get a thin outline in a darker shade of their own hue, so they stay visible on light maps
-const CASING_COLORS = { mixed: "#a67c00", unknown: "#2b7bb9" };
+// The pale yellow gets a thin outline in a darker shade of its own hue, so it stays visible on light maps
+const CASING_COLORS = { mixed: "#a67c00" };
 const MATERIALS = [
   ["concrete", /concrete|stone|brick|block|blast/],
   ["earth", /\bsand\b|berm|dune|rammed|turf|earth|trench|ditch/],

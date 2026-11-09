@@ -38,7 +38,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 
 Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.
 
-Colours show construction type (concrete, stone or brick; steel, metal or mesh; barbed or razor wire; earthwork; mixed; not documented; historical). The material named first in `construction` is the main structure, and anything added to it does not change the class. Mixed means sections built differently, such as a concrete wall with fenced sections. Seven hues were chosen for perceptual distance (CIEDE2000) under normal vision and simulated colour blindness; the two pale colours carry a thin outline in a darker shade of their own hue. Place names come from Natural Earth; native names are added where known.
+Colours show construction type (concrete, stone or brick; steel, metal or mesh; barbed or razor wire; earthwork; mixed; not documented; historical). The material named first in `construction` is the main structure, and anything added to it does not change the class. Mixed means sections built differently, such as a concrete wall with fenced sections. Seven hues were chosen for perceptual distance (CIEDE2000) under normal vision and simulated colour blindness; the pale yellow carries a thin outline in a darker shade of its own hue. Place names come from Natural Earth; native names are added where known.
 
 Lines marked `official border` follow the border between the two countries (Natural Earth 50m data),
 only along the stretches where the barrier exists. `approximate` barriers are placed from descriptions and are shown as a dot at their centre until surveyed.
