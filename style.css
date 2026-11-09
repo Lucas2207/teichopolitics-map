@@ -187,8 +187,8 @@ input:focus-visible {
 .swatch.concrete { background: #b3261e; }
 .swatch.steel { background: #d97706; }
 .swatch.wire { background: #7c3aed; }
-.swatch.earth { background: #7c5c3b; }
-.swatch.unknown { background: #6b6b6b; }
+.swatch.earth { background: #00a676; }
+.swatch.unknown { background: #e6198f; }
 .swatch.historical { background: #2f6f8f; }
 .swatch.line { background: #444; }
 .swatch.dot {

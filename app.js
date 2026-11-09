@@ -5,8 +5,8 @@ const CONSTRUCTION_COLORS = {
   concrete: "#b3261e", // concrete, stone or brick wall
   steel: "#d97706",    // steel or mesh fence
   wire: "#7c3aed",     // barbed or razor wire
-  earth: "#7c5c3b",    // earthwork, sand berm, trench
-  unknown: "#6b6b6b",  // not documented, or mixed
+  earth: "#00a676",    // earthwork, sand berm, trench
+  unknown: "#e6198f",  // not documented, or mixed
   historical: "#2f6f8f", // historical walls, no longer used as borders
 };
 
@@ -770,11 +770,11 @@ const CATEGORY_LABELS = {
   "mur": "Wall (mur): a heavier structure with high-tech surveillance",
   "clôture et mur": "Fence and wall (clôture et mur): both types along the same border",
   "front": "Fortified military line (front): a frozen, unrecognised line of contact held by armed forces",
-  "urbaine (hors typologie)": "Urban barrier: discussed by Ballif & Rosière as urban teichopolitics (Belfast's peace lines are their example), outside their four border types",
-  "historique": "Historic frontier: outside Ballif & Rosière's typology, which covers contemporary closed borders",
+  "urbaine (hors typologie)": "Urban barrier: a wall or fence within a city or around a neighbourhood",
+  "historique": "Historic frontier: a wall that no longer serves as a modern border",
   "non classé (type not stated)": "Not classified: the sources do not describe the structure",
 };
-const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193.";
+const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193. (Inspiration for the categories: this map keeps their four border types and adds urban, historic and combined categories.)";
 
 // Picker shown in Northern Ireland wall and city cards: map a neighbourhood theme (income, employment, occupations, community, ethnicity)
 // Belfast by ward, 1937–1971: the census before and just after the first peace walls (1969)
@@ -857,7 +857,7 @@ function popupHtml(p) {
     <dl class="summary">
       ${row("Location", `${or(p.countries)}${showSeparates ? ` · separates ${p.separates}` : ""}`)}
       ${row("Type", or(TYPE_LABELS[p.type] || p.type))}
-      ${cat ? row("Ballif & Rosière (2009) category", cat) : ""}
+      ${cat ? row("Category", cat) : ""}
       ${row("Length", `${length}`)}
       ${row(p.status ? "Status" : "Years", period)}
       ${p.planned_start ? row("Planned start", p.planned_start) : ""}
