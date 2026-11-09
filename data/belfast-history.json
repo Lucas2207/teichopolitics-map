@@ -1,0 +1,380 @@
+{
+"wards": {
+"Clifton": {
+"1937": {
+"pop": 46584,
+"rc_pct": 30.0,
+"not_stated_other_pct": 13.5
+},
+"1951": {
+"pop": 51538,
+"rc_pct": 33.9,
+"not_stated_other_pct": 6.5
+},
+"1961": {
+"pop": 47882,
+"rc_pct": 37.0,
+"not_stated_other_pct": 9.3
+},
+"1971": {
+"pop": 42475,
+"rc_pct": 35.3,
+"not_stated_other_pct": 18.5
+},
+"male_unemp_1971": 12.1
+},
+"Court": {
+"1937": {
+"pop": 17698,
+"rc_pct": 24.5,
+"not_stated_other_pct": 6.8
+},
+"1951": {
+"pop": 16970,
+"rc_pct": 29.7,
+"not_stated_other_pct": 2.7
+},
+"1961": {
+"pop": 13625,
+"rc_pct": 31.1,
+"not_stated_other_pct": 4.7
+},
+"1971": {
+"pop": 4764,
+"rc_pct": 32.1,
+"not_stated_other_pct": 13.9
+},
+"male_unemp_1971": 25.5
+},
+"Cromac": {
+"1937": {
+"pop": 23896,
+"rc_pct": 21.5,
+"not_stated_other_pct": 14.0
+},
+"1951": {
+"pop": 22810,
+"rc_pct": 23.9,
+"not_stated_other_pct": 6.8
+},
+"1961": {
+"pop": 21559,
+"rc_pct": 26.5,
+"not_stated_other_pct": 9.8
+},
+"1971": {
+"pop": 18928,
+"rc_pct": 26.7,
+"not_stated_other_pct": 19.4
+},
+"male_unemp_1971": 11.0
+},
+"Dock": {
+"1937": {
+"pop": 17473,
+"rc_pct": 44.9,
+"not_stated_other_pct": 8.7
+},
+"1951": {
+"pop": 14702,
+"rc_pct": 50.2,
+"not_stated_other_pct": 3.0
+},
+"1961": {
+"pop": 12146,
+"rc_pct": 54.0,
+"not_stated_other_pct": 5.3
+},
+"1971": {
+"pop": 9617,
+"rc_pct": 62.1,
+"not_stated_other_pct": 19.1
+},
+"male_unemp_1971": 21.7
+},
+"Duncairn": {
+"1937": {
+"pop": 34882,
+"rc_pct": 10.3,
+"not_stated_other_pct": 14.6
+},
+"1951": {
+"pop": 36259,
+"rc_pct": 13.1,
+"not_stated_other_pct": 6.7
+},
+"1961": {
+"pop": 35840,
+"rc_pct": 17.7,
+"not_stated_other_pct": 8.7
+},
+"1971": {
+"pop": 30418,
+"rc_pct": 17.4,
+"not_stated_other_pct": 14.9
+},
+"male_unemp_1971": 9.1
+},
+"Falls": {
+"1937": {
+"pop": 31746,
+"rc_pct": 91.5,
+"not_stated_other_pct": 1.4
+},
+"1951": {
+"pop": 33213,
+"rc_pct": 92.9,
+"not_stated_other_pct": 0.7
+},
+"1961": {
+"pop": 34860,
+"rc_pct": 90.9,
+"not_stated_other_pct": 3.7
+},
+"1971": {
+"pop": 33038,
+"rc_pct": 79.6,
+"not_stated_other_pct": 18.5
+},
+"male_unemp_1971": 23.8
+},
+"Ormeau": {
+"1937": {
+"pop": 45390,
+"rc_pct": 8.4,
+"not_stated_other_pct": 18.6
+},
+"1951": {
+"pop": 45040,
+"rc_pct": 9.7,
+"not_stated_other_pct": 11.0
+},
+"1961": {
+"pop": 42064,
+"rc_pct": 12.6,
+"not_stated_other_pct": 13.9
+},
+"1971": {
+"pop": 36256,
+"rc_pct": 15.1,
+"not_stated_other_pct": 19.0
+},
+"male_unemp_1971": 7.2
+},
+"Pottinger": {
+"1937": {
+"pop": 45637,
+"rc_pct": 13.8,
+"not_stated_other_pct": 15.7
+},
+"1951": {
+"pop": 46024,
+"rc_pct": 14.7,
+"not_stated_other_pct": 9.0
+},
+"1961": {
+"pop": 43476,
+"rc_pct": 12.9,
+"not_stated_other_pct": 11.6
+},
+"1971": {
+"pop": 38394,
+"rc_pct": 11.6,
+"not_stated_other_pct": 17.1
+},
+"male_unemp_1971": 8.8
+},
+"St. Anne's": {
+"1937": {
+"pop": 30357,
+"rc_pct": 37.3,
+"not_stated_other_pct": 9.6
+},
+"1951": {
+"pop": 30832,
+"rc_pct": 40.7,
+"not_stated_other_pct": 3.5
+},
+"1961": {
+"pop": 25742,
+"rc_pct": 43.1,
+"not_stated_other_pct": 5.3
+},
+"1971": {
+"pop": 19820,
+"rc_pct": 38.8,
+"not_stated_other_pct": 16.2
+},
+"male_unemp_1971": 14.0
+},
+"St. George's": {
+"1937": {
+"pop": 15770,
+"rc_pct": 4.3,
+"not_stated_other_pct": 12.1
+},
+"1951": {
+"pop": 14847,
+"rc_pct": 4.5,
+"not_stated_other_pct": 4.8
+},
+"1961": {
+"pop": 11808,
+"rc_pct": 5.8,
+"not_stated_other_pct": 8.2
+},
+"1971": {
+"pop": 8837,
+"rc_pct": 4.1,
+"not_stated_other_pct": 9.2
+},
+"male_unemp_1971": 13.2
+},
+"Shankill": {
+"1937": {
+"pop": 33298,
+"rc_pct": 5.0,
+"not_stated_other_pct": 15.7
+},
+"1951": {
+"pop": 31566,
+"rc_pct": 6.4,
+"not_stated_other_pct": 6.9
+},
+"1961": {
+"pop": 31932,
+"rc_pct": 9.0,
+"not_stated_other_pct": 8.9
+},
+"1971": {
+"pop": 32766,
+"rc_pct": 7.8,
+"not_stated_other_pct": 13.1
+},
+"male_unemp_1971": 11.3
+},
+"Smithfield": {
+"1937": {
+"pop": 10840,
+"rc_pct": 91.0,
+"not_stated_other_pct": 0.9
+},
+"1951": {
+"pop": 10539,
+"rc_pct": 91.2,
+"not_stated_other_pct": 0.6
+},
+"1961": {
+"pop": 8903,
+"rc_pct": 90.2,
+"not_stated_other_pct": 2.6
+},
+"1971": {
+"pop": 4039,
+"rc_pct": 74.9,
+"not_stated_other_pct": 17.1
+},
+"male_unemp_1971": 18.6
+},
+"Victoria": {
+"1937": {
+"pop": 33724,
+"rc_pct": 4.7,
+"not_stated_other_pct": 14.4
+},
+"1951": {
+"pop": 37042,
+"rc_pct": 5.3,
+"not_stated_other_pct": 7.2
+},
+"1961": {
+"pop": 35051,
+"rc_pct": 5.3,
+"not_stated_other_pct": 10.1
+},
+"1971": {
+"pop": 30806,
+"rc_pct": 4.1,
+"not_stated_other_pct": 14.5
+},
+"male_unemp_1971": 7.4
+},
+"Windsor": {
+"1937": {
+"pop": 27014,
+"rc_pct": 15.1,
+"not_stated_other_pct": 14.4
+},
+"1951": {
+"pop": 26977,
+"rc_pct": 15.5,
+"not_stated_other_pct": 7.2
+},
+"1961": {
+"pop": 24942,
+"rc_pct": 16.9,
+"not_stated_other_pct": 9.6
+},
+"1971": {
+"pop": 20451,
+"rc_pct": 16.6,
+"not_stated_other_pct": 17.9
+},
+"male_unemp_1971": 7.7
+},
+"Woodvale": {
+"1937": {
+"pop": 23777,
+"rc_pct": 4.5,
+"not_stated_other_pct": 13.1
+},
+"1951": {
+"pop": 25312,
+"rc_pct": 7.9,
+"not_stated_other_pct": 4.8
+},
+"1961": {
+"pop": 26026,
+"rc_pct": 10.0,
+"not_stated_other_pct": 6.9
+},
+"1971": {
+"pop": 26221,
+"rc_pct": 15.6,
+"not_stated_other_pct": 12.7
+},
+"male_unemp_1971": 14.8
+}
+},
+"city": {
+"1937": {
+"pop": 438086,
+"rc_pct": 23.8,
+"not_stated_other_pct": 12.7,
+"dissimilarity_rc_nonrc": 0.497,
+"dissimilarity_rc_main_protestant": 0.497
+},
+"1951": {
+"pop": 443671,
+"rc_pct": 25.9,
+"not_stated_other_pct": 6.2,
+"dissimilarity_rc_nonrc": 0.493,
+"dissimilarity_rc_main_protestant": 0.491
+},
+"1961": {
+"pop": 415856,
+"rc_pct": 27.5,
+"not_stated_other_pct": 8.7,
+"dissimilarity_rc_nonrc": 0.481,
+"dissimilarity_rc_main_protestant": 0.484
+},
+"1971": {
+"pop": 356830,
+"rc_pct": 25.6,
+"not_stated_other_pct": 16.4,
+"dissimilarity_rc_nonrc": 0.449,
+"dissimilarity_rc_main_protestant": 0.493
+},
+"male_unemp_1971": 12.1
+}
+}

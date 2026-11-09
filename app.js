@@ -655,6 +655,7 @@ function cityPopupHtml(en, meta) {
       ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
       ${census}
     </dl>
+    ${en === "Belfast" ? belfastHistoryHtml() : ""}
     <details>
       <summary>References (Harvard)</summary>
       <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)${c && c.cite ? "; " + c.cite : ""}</p>
@@ -771,6 +772,28 @@ const CATEGORY_LABELS = {
 const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques ». Analyser la fermeture contemporaine des territoires', L'Espace géographique, 38(3), pp. 193–206. doi:10.3917/eg.383.0193.";
 
 // Picker shown in Northern Ireland wall and city cards: map a neighbourhood theme (income, employment, occupations, community, ethnicity)
+// Belfast by ward, 1937–1971: the census before and just after the first peace walls (1969)
+let belfastHistory = null;
+fetch("data/belfast-history.json").then((r) => r.json()).then((d) => { belfastHistory = d; }).catch(() => {});
+const HIST_YEARS = ["1937", "1951", "1961", "1971"];
+function belfastHistoryHtml() {
+  if (!belfastHistory) return "";
+  const c = belfastHistory.city;
+  const key = (w) => (["Falls", "Shankill"].includes(w) ? ' class="hist-key"' : "");
+  const rows = Object.entries(belfastHistory.wards).map(([w, d]) => `<tr${key(w)}><th>${w}</th>${HIST_YEARS.map((y) => `<td>${d[y].rc_pct}</td>`).join("")}<td>${d["1971"].pop.toLocaleString("en")}</td><td>${d.male_unemp_1971}</td></tr>`).join("");
+  return `<details>
+    <summary>Belfast by ward, 1937–1971 (before the walls)</summary>
+    <p class="fiche-text">The first peace walls went up in 1969, so 1937, 1951 and 1961 are before them; April 1971 is two years after. These are the 15 old wards, whose boundaries were replaced after 1973.</p>
+    <div class="hist-wrap"><table class="hist-table">
+      <thead><tr><th>Ward: % Catholic</th>${HIST_YEARS.map((y) => `<th>${y}</th>`).join("")}<th>People 1971</th><th>Male unemp. % 1971</th></tr></thead>
+      <tbody>${rows}<tr class="hist-total"><th>Whole city</th>${HIST_YEARS.map((y) => `<td>${c[y].rc_pct}</td>`).join("")}<td>${c["1971"].pop.toLocaleString("en")}</td><td>${c.male_unemp_1971}</td></tr></tbody>
+    </table></div>
+    <p class="fiche-text">Segregation index across wards (Catholics against everyone else; 0 = evenly mixed, 1 = fully separate): ${HIST_YEARS.map((y) => `${y}: ${c[y].dissimilarity_rc_nonrc}`).join("; ")}.</p>
+    <p class="cite">In 1971 many people did not state a religion (${c["1971"].not_stated_other_pct}% "other or not stated" citywide, ${belfastHistory.wards.Falls["1971"].not_stated_other_pct}% in Falls), so that year's Catholic shares are minimums. The censuses did not ask about income. Female unemployment is not shown because the scanned table is unreadable for several wards.</p>
+    <p class="cite">In-text: (General Register Office, 1938; 1953; 1965; 1975)</p>
+    <ol class="refs"><li>General Register Office (Northern Ireland) (1938; 1953; 1965; 1975) Census of Population of Northern Ireland: County Borough of Belfast reports, 1937, 1951, 1961 and 1971. Belfast: HMSO. Available at: https://www.nisra.gov.uk/statistics/census/2011-and-earlier-censuses (Accessed: 9 November 2026).</li></ol>
+  </details>`;
+}
 function themePickerHtml(regions) {
   return regions.map((r) => `<label class="dep-toggle">${REGIONS[r].name}: show by area on the map
     <select class="theme-select" data-region="${r}">
@@ -838,6 +861,7 @@ function popupHtml(p) {
     ${single("Construction", construction.length ? construction.join("<br>") : "Not documented")}
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
+    ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>

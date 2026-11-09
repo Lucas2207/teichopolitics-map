@@ -374,6 +374,13 @@ input:focus-visible {
   font-size: 12.5px;
   line-height: 1.4;
 }
+.hist-wrap { overflow-x: auto; margin: 6px 0; }
+.hist-table { border-collapse: collapse; font-size: 11px; width: 100%; }
+.hist-table th, .hist-table td { padding: 2px 5px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+.hist-table th:first-child { text-align: left; font-weight: 500; }
+.hist-table thead th { font-weight: 700; white-space: normal; vertical-align: bottom; }
+.hist-table .hist-key th, .hist-table .hist-key td { font-weight: 700; }
+.hist-table .hist-total th, .hist-table .hist-total td { font-weight: 700; border-top: 1px solid var(--text); }
 .dep-toggle {
   display: flex;
   gap: 6px;
