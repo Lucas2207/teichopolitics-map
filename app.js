@@ -145,7 +145,10 @@ const LAND = {
   light: { sea: "#dbe4ea", fill: "#f2f2ef", stroke: "#bdbdb6" },
   dark: { sea: "#0f141b", fill: "#2a2a31", stroke: "#4a4a55" },
 };
-const landLayer = L.geoJSON(null, { style: { fillColor: LAND.light.fill, fillOpacity: 1, color: LAND.light.stroke, weight: 0.6 } });
+// The "Map" land shapes sit in their own low pane, so overlays such as the deprivation layer draw above them
+map.createPane("land");
+map.getPane("land").style.zIndex = 250;
+const landLayer = L.geoJSON(null, { pane: "land", style: { fillColor: LAND.light.fill, fillOpacity: 1, color: LAND.light.stroke, weight: 0.6 } });
 function applyLandStyle() {
   const t = document.documentElement.dataset.theme === "dark" ? LAND.dark : LAND.light;
   landLayer.setStyle({ fillColor: t.fill, color: t.stroke, fillOpacity: 1, weight: 0.6 });
@@ -275,6 +278,9 @@ function depCardHtml(p) {
 map.on("overlayadd", (e) => {
   if (e.layer !== depLayer) return;
   document.querySelector(".legend-dep").hidden = false;
+  // Open the legend so the colour key is visible
+  const legendBox = legend.getContainer();
+  if (legendBox.classList.contains("collapsed")) legendBox.querySelector(".legend-toggle").click();
   if (depLoaded) return;
   depLoaded = true;
   fetch("data/ni-deprivation.json")
@@ -299,8 +305,26 @@ const layerControl = L.control.layers(baseLayers, {
   "Country borders": bordersLayer,
   "Roads, railways and rivers": networkLayer,
   "Place names": labelLayer,
-  "Deprivation around Northern Ireland's peace walls (2017)": depLayer,
 }, { collapsed: false }).addTo(map);
+
+// The deprivation layer is offered only when the map shows Northern Ireland (zoom 8 or closer);
+// moving away removes the option and switches the layer off
+const NI_BOUNDS = L.latLngBounds([54.0, -8.2], [55.35, -5.4]);
+const DEP_LABEL = "Deprivation by neighbourhood, Northern Ireland (2017)";
+let depOffered = false;
+function updateDepOption() {
+  const show = map.getZoom() >= 8 && NI_BOUNDS.contains(map.getCenter());
+  if (show === depOffered) return;
+  depOffered = show;
+  if (show) {
+    layerControl.addOverlay(depLayer, DEP_LABEL);
+  } else {
+    if (map.hasLayer(depLayer)) map.removeLayer(depLayer);
+    layerControl.removeLayer(depLayer);
+  }
+  fitInfoCard();
+}
+map.on("moveend", updateDepOption);
 
 // The layer box folds into a small "Layers" button, like the legend (folded by default on phones)
 {
