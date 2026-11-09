@@ -270,7 +270,7 @@ legend.onAdd = () => {
     <div><span class="swatch line"></span>Line: traced on the ground</div>
     <div><span class="swatch dotted"></span>Dotted: planned, under construction, or a gap between traced pieces</div>
     <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
-    <div><span class="swatch dot planned"></span>Hollow dot: planned or proposed, not built</div>
+    <div><span class="swatch dot planned"></span>Hollow dot: planned, proposed or under construction</div>
     <div><span class="swatch border"></span>Dashed: official country border</div>
     <div class="legend-dep" hidden></div>
     </div>`;
@@ -740,6 +740,7 @@ const playButton = document.getElementById("play");
 const searchInput = document.getElementById("search");
 const list = document.getElementById("list");
 const plannedList = document.getElementById("list-planned");
+const droppedList = document.getElementById("list-dropped");
 const statCount = document.getElementById("stat-count");
 const statKm = document.getElementById("stat-km");
 
@@ -754,8 +755,8 @@ function formatYear(y) {
 
 // Barriers without a build year are always shown and left out of the counts
 function isStanding(props, year) {
-  // Planned or projected walls belong to the present, not to past years
-  if (props.status) return year === Number(yearInput.max);
+  // Walls with no start year yet (planned, projected) belong to the present, not to past years
+  if (props.status && props.built == null) return year === Number(yearInput.max);
   if (props.built == null) return true;
   return props.built <= year && (props.removed == null || props.removed > year);
 }
@@ -817,9 +818,11 @@ const wallRegion = (p) => (/Northern Ireland/.test(p.countries || "") ? ["ni"] :
 function popupHtml(p) {
   // Summary first; detail sections open with an arrow (native <details>)
   const or = (v, fallback = "Not documented") => (v ? v : fallback);
-  const period = p.built == null
-    ? "Date unknown"
-    : `${formatYear(p.built)} – ${p.removed ? formatYear(p.removed) : "present"}`;
+  const period = p.status
+    ? (p.built == null ? p.status : `Started ${formatYear(p.built)} · ${p.status}`)
+    : p.built == null
+      ? "Date unknown"
+      : `${formatYear(p.built)} – ${p.removed ? formatYear(p.removed) : "present"}`;
   const length = p.length_km ? `About ${p.length_km} km` : "Length not given";
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const section = (title, rows, open = false) => `<details${open ? " open" : ""}>
@@ -856,9 +859,11 @@ function popupHtml(p) {
       ${row("Type", or(TYPE_LABELS[p.type] || p.type))}
       ${cat ? row("Ballif & Rosière (2009) category", cat) : ""}
       ${row("Length", `${length}`)}
-      ${row("Years", period)}
+      ${row(p.status ? "Status" : "Years", period)}
+      ${p.planned_start ? row("Planned start", p.planned_start) : ""}
+      ${p.planned_purpose ? row("Stated purpose", or(p.purpose)) : ""}
       ${row(showOwner ? "Initiator and owner" : "Initiator", `${or(p.initiated_by)}${showOwner ? ` · owner: ${p.owner}` : ""}`)}
-      ${row("Cost", or(p.cost, "Unknown"))}
+      ${row(p.planned_budget ? "Provisional budget" : "Cost", or(p.cost, "Unknown"))}
     </dl>
     ${section("Funding and budget", `${row("Funded by", or(p.funded_by))}${row("Maintenance and annual budget", or(p.maintenance_cost, "Unknown"))}`)}
     ${section("Security equipment and gates", `${row("Additional equipment", or(p.security_technology))}${row("Gates and crossing points", or(p.gates))}`)}
@@ -897,7 +902,8 @@ function update() {
     } else {
       barriersLayer.removeLayer(b.layer);
     }
-    if (standing && p.built != null) {
+    // Unfinished walls are on the map and in the list, but not in the totals
+    if (standing && p.built != null && !p.status) {
       count += 1;
       km += p.length_km || 0;
     }
@@ -949,17 +955,20 @@ fetch("data/barriers.geojson")
       });
 
       const listItem = document.createElement("li");
-      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.status || (p.built == null ? "date unknown" : formatYear(p.built))}</small>`;
+      const when = p.status ? (p.built != null ? `${formatYear(p.built)} · ${p.status}` : p.status) : p.built == null ? "date unknown" : formatYear(p.built);
+      const plannedLines = p.planned_start ? `<small>Start: ${p.planned_start}</small><small>Budget: ${p.planned_budget}</small><small>Purpose: ${p.planned_purpose}</small>` : "";
+      listItem.innerHTML = `${p.name}<small>${p.countries}${p.planned_start ? "" : ` · ${when}`}</small>${plannedLines}`;
       listItem.addEventListener("click", () => {
         if (!isStanding(p, Number(yearInput.value))) {
-          yearInput.value = p.status ? yearInput.max : p.built;
+          yearInput.value = p.built != null ? p.built : yearInput.max;
           update();
         }
         map.fitBounds(layer.getBounds(), { maxZoom: 10, padding: [40, 40] });
         showInfoCard(popupHtml(p));
         document.body.classList.remove("panel-open");
       });
-      (p.status ? plannedList : list).appendChild(listItem);
+      const ongoing = /^Under construction/.test(p.status || "");
+      (p.abandoned ? droppedList : p.status && !ongoing ? plannedList : list).appendChild(listItem);
 
       barriers.push({ feature, layer, listItem });
     }

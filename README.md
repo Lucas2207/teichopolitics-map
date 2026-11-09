@@ -30,7 +30,9 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `security_technology` | Cameras, sensors, lighting and other equipment used with the barrier |
 | `geometry_quality` | How the line was drawn: `official border`, `approximate` or `placeholder` |
 | `typology` | Category in Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques »', *L'Espace géographique*, 38(3), pp. 193–206: `marche` (march), `clôture` (fence), `mur` (wall), `front` (fortified military line) for borders between states. Urban walls (`urbaine (hors typologie)`) and historic walls (`historique`) fall outside their four types. Shown in the pop-up separately from `type` |
-| `status`    | Set only for walls not yet built, for example `Planned (not built)`. These appear in the "Planned and projected walls" section, are drawn dotted or as a hollow dot, are left out of the counts and show only at the present year |
+| `status`    | Set only for unfinished walls. `Under construction…` stays in the main list; any other value goes to the "Planned walls" section. Both are drawn dotted or as a hollow dot and left out of the counts |
+| `planned_start`, `planned_budget`, `planned_purpose` | Planned walls: expected start, provisional budget and stated purpose, shown in the list and the card |
+| `abandoned` | `true` for proposals that were dropped, listed under "Proposed but never built" |
 | `note`      | Short description                        |
 
 Costs are converted to 2024 prices with US CPI (World Bank), euro-area HICP (Eurostat) and annual average exchange rates (World Bank). Where a source gives no year, the year is stated in the record.

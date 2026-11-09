@@ -140,23 +140,23 @@ input:focus-visible {
   outline-offset: 2px;
 }
 
-#list, #list-planned {
+#list, #list-planned, #list-dropped {
   list-style: none;
   margin: 8px 0 0;
   padding: 0;
 }
 
-#list li, #list-planned li {
+#list li, #list-planned li, #list-dropped li {
   padding: 6px 4px;
   border-bottom: 1px solid var(--border);
   cursor: pointer;
 }
 
-#list li:hover, #list-planned li:hover { background: var(--bg); }
+#list li:hover, #list-planned li:hover, #list-dropped li:hover { background: var(--bg); }
 
-#list li.hidden-by-year, #list-planned li.hidden-by-year { color: var(--muted); }
+#list li.hidden-by-year, #list-planned li.hidden-by-year, #list-dropped li.hidden-by-year { color: var(--muted); }
 
-#list small, #list-planned small {
+#list small, #list-planned small, #list-dropped small {
   display: block;
   color: var(--muted);
 }
