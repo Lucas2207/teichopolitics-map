@@ -644,7 +644,7 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}`) : ""}`
+       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}${["us", "mx"].includes(cityRegion(meta)) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`) : ""}`
     : row("Census", "No census data added yet for this city");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
@@ -861,6 +861,7 @@ function popupHtml(p) {
     ${single("Construction", construction.length ? construction.join("<br>") : "Not documented")}
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
+    ${wallRegion(p) && wallRegion(p).includes("us") && window.borderTimelineHtml ? single("Border over time", window.borderTimelineHtml()) : ""}
     ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
@@ -880,10 +881,12 @@ function update() {
   let km = 0;
   for (const b of barriers) {
     const p = b.feature.properties;
+    // The border timeline draws the US–Mexico fence itself, year by year
+    const hidden = window.timelineHidesUSMexico && /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "");
     const standing = isStanding(p, year);
     const matches = !query || `${p.name} ${p.countries}`.toLowerCase().includes(query);
 
-    if (standing && matches) {
+    if (standing && matches && !hidden) {
       barriersLayer.addLayer(b.layer);
       // Highlight barriers built in the selected year
       b.layer.setStyle({ weight: p.built === year ? 8 : 4 });
