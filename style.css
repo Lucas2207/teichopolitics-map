@@ -140,23 +140,23 @@ input:focus-visible {
   outline-offset: 2px;
 }
 
-#list {
+#list, #list-planned {
   list-style: none;
   margin: 8px 0 0;
   padding: 0;
 }
 
-#list li {
+#list li, #list-planned li {
   padding: 6px 4px;
   border-bottom: 1px solid var(--border);
   cursor: pointer;
 }
 
-#list li:hover { background: var(--bg); }
+#list li:hover, #list-planned li:hover { background: var(--bg); }
 
-#list li.hidden-by-year { color: var(--muted); }
+#list li.hidden-by-year, #list-planned li.hidden-by-year { color: var(--muted); }
 
-#list small {
+#list small, #list-planned small {
   display: block;
   color: var(--muted);
 }
@@ -668,3 +668,6 @@ input:focus-visible {
 .tl-key span { display: inline-block; width: 14px; height: 3px; margin: 0 3px 2px 6px; vertical-align: middle; }
 .tl-chart { display: block; width: 100%; margin: 6px 0; color: var(--text); }
 @media (max-width: 700px) { .border-tl { bottom: 8px; max-height: 42%; } }
+
+.list-title { font-size: 14px; margin: 14px 0 2px; }
+.map-legend .swatch.dot.planned { background: #fff; border: 2px solid #555; box-sizing: border-box; box-shadow: none; }

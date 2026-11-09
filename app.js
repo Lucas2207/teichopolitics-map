@@ -270,6 +270,7 @@ legend.onAdd = () => {
     <div><span class="swatch line"></span>Line: traced on the ground</div>
     <div><span class="swatch dotted"></span>Dotted: planned, under construction, or a gap between traced pieces</div>
     <div><span class="swatch dot"></span>Dot: location only, route not traced</div>
+    <div><span class="swatch dot planned"></span>Hollow dot: planned or proposed, not built</div>
     <div><span class="swatch border"></span>Dashed: official country border</div>
     <div class="legend-dep" hidden></div>
     </div>`;
@@ -738,6 +739,7 @@ const yearLabel = document.getElementById("year-label");
 const playButton = document.getElementById("play");
 const searchInput = document.getElementById("search");
 const list = document.getElementById("list");
+const plannedList = document.getElementById("list-planned");
 const statCount = document.getElementById("stat-count");
 const statKm = document.getElementById("stat-km");
 
@@ -752,6 +754,8 @@ function formatYear(y) {
 
 // Barriers without a build year are always shown and left out of the counts
 function isStanding(props, year) {
+  // Planned or projected walls belong to the present, not to past years
+  if (props.status) return year === Number(yearInput.max);
   if (props.built == null) return true;
   return props.built <= year && (props.removed == null || props.removed > year);
 }
@@ -917,7 +921,8 @@ fetch("data/barriers.geojson")
       const color = p.historical ? CONSTRUCTION_COLORS.historical : CONSTRUCTION_COLORS[constructionClass(p)];
       let layer;
       if (areaOnly) {
-        layer = L.featureGroup([L.circleMarker(L.geoJSON(feature).getBounds().getCenter(), dotStyle(color, 8))]);
+        const dot = p.status ? { radius: 8, color, weight: 2.5, fillColor: "#fff", fillOpacity: 1 } : dotStyle(color, 8);
+        layer = L.featureGroup([L.circleMarker(L.geoJSON(feature).getBounds().getCenter(), dot)]);
       } else {
         const coords = feature.geometry.coordinates;
         if (feature.geometry.type === "MultiLineString" && coords.length > 1) {
@@ -944,17 +949,17 @@ fetch("data/barriers.geojson")
       });
 
       const listItem = document.createElement("li");
-      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.built == null ? "date unknown" : formatYear(p.built)}</small>`;
+      listItem.innerHTML = `${p.name}<small>${p.countries} · ${p.status || (p.built == null ? "date unknown" : formatYear(p.built))}</small>`;
       listItem.addEventListener("click", () => {
-        if (p.built != null && !isStanding(p, Number(yearInput.value))) {
-          yearInput.value = p.built;
+        if (!isStanding(p, Number(yearInput.value))) {
+          yearInput.value = p.status ? yearInput.max : p.built;
           update();
         }
         map.fitBounds(layer.getBounds(), { maxZoom: 10, padding: [40, 40] });
         showInfoCard(popupHtml(p));
         document.body.classList.remove("panel-open");
       });
-      list.appendChild(listItem);
+      (p.status ? plannedList : list).appendChild(listItem);
 
       barriers.push({ feature, layer, listItem });
     }
