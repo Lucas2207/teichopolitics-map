@@ -202,6 +202,9 @@ const THEMES = {
   us_unemp: { region: "us", label: "Employment: unemployment rate (2020–24)", src: "us", field: "unemp", breaks: [3, 5, 8, 12],
     colors: ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
     note: "Unemployed as a share of the civilian labour force", source: "U.S. Census Bureau, ACS 2020–2024" },
+  us_employed: { region: "us", label: "Employment rate: residents in work (2020–24)", src: "us", field: "employed", breaks: [50, 55, 60, 65],
+    colors: ["#fee5d9", "#fcae91", "#c7e9c0", "#74c476", "#238b45"],
+    note: "Employed civilians as a share of residents aged 16 and over. Same colour scale as the Mexican side, which counts residents aged 12 and over, in March 2020", source: "U.S. Census Bureau, ACS 2020–2024" },
   us_hisp: { region: "us", label: "Ethnicity: Hispanic or Latino residents (2020–24)", src: "us", field: "hisp", breaks: [20, 40, 60, 80],
     colors: ["#f2f0f7", "#cbc9e2", "#9e9ac8", "#756bb1", "#54278f"],
     note: "Share of residents who are Hispanic or Latino, of any race", source: "U.S. Census Bureau, ACS 2020–2024" },
@@ -217,6 +220,9 @@ const THEMES = {
   mx_unemp: { region: "mx", label: "Employment: unemployment rate (2020)", src: "mxageb", field: "unemp", breaks: [1, 2, 3, 5],
     colors: ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"],
         note: "Unemployed as a share of the economically active. The census measure runs lower than INEGI's labour survey. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
+  mx_employed: { region: "mx", label: "Employment rate: residents in work (2020)", src: "mxageb", field: "employed", breaks: [50, 55, 60, 65],
+    colors: ["#fee5d9", "#fcae91", "#c7e9c0", "#74c476", "#238b45"],
+    note: "Employed residents as a share of those aged 12 and over, March 2020. Same colour scale as the US side, which counts residents aged 16 and over. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
   mx_cath: { region: "mx", label: "Religion: Catholic (2020)", src: "mxageb", field: "cath", breaks: [50, 60, 70, 80],
     colors: ["#f7f4f9", "#d4b9da", "#c994c7", "#dd1c77", "#980043"],
     note: "Share of residents who are Catholic. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
@@ -368,7 +374,7 @@ function areaCardHtml(p, src) {
       <div class="fiche-title">Urban area ${p.id.slice(-4)}, ${p.mun}, ${p.state}</div>
       <dl>
         ${row("Residents (2020)", p.pop.toLocaleString("en"))}
-        ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the economically active; ${pc(p.active)} of residents aged 12+ economically active`)}
+        ${row("Employment", `${pc(p.employed)} of residents aged 12+ in work; unemployment rate ${pc(p.unemp)} of the economically active`)}
         ${row("Religion", `Catholic ${pc(p.cath)}; Protestant or evangelical ${pc(p.prot)}; no religion ${pc(p.none)}`)}
         ${row("Migration and language", `Born in another Mexican state ${pc(p.born)}; speakers of an indigenous language ${pc(p.indig)}`)}
       </dl>
@@ -381,7 +387,7 @@ function areaCardHtml(p, src) {
       <div class="fiche-title">${p.name}, ${p.state}</div>
       <dl>
         ${row("Residents (2020)", p.pop.toLocaleString("en"))}
-        ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the economically active; ${pc(p.active)} of residents aged 12+ economically active`)}
+        ${row("Employment", `${pc(p.employed)} of residents aged 12+ in work; unemployment rate ${pc(p.unemp)} of the economically active`)}
         ${row("Religion", `Catholic ${pc(p.cath)}; Protestant or evangelical ${pc(p.prot)}; no religion ${pc(p.none)}`)}
         ${row("Migration and language", `Born in another Mexican state ${pc(p.born)}; speakers of an indigenous language ${pc(p.indig)}`)}
       </dl>
@@ -396,7 +402,7 @@ function areaCardHtml(p, src) {
         ${row("Residents", p.pop == null ? "not available" : p.pop.toLocaleString("en"))}
         ${row("Median household income", p.income == null ? "not available" : `$${p.income.toLocaleString("en")} (2024 dollars)`)}
         ${row("Poverty", `${pc(p.poverty)} of people below the federal poverty line`)}
-        ${row("Employment", `Unemployment rate ${pc(p.unemp)} of the civilian labour force`)}
+        ${row("Employment", `${pc(p.employed)} of residents aged 16+ in work; unemployment rate ${pc(p.unemp)} of the civilian labour force`)}
         ${row("Ethnicity", `Hispanic or Latino ${pc(p.hisp)}; White, not Hispanic ${pc(p.white)}`)}
         ${row("Migration and language", `Foreign-born ${pc(p.foreign)}; Spanish spoken at home ${pc(p.spanish)}`)}
       </dl>
