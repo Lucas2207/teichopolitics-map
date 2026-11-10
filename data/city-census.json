@@ -18,10 +18,15 @@
   "Calais": {
     "census_year": 2023,
     "population": 67571,
-    "ethnic": "Not documented in the source fetched.",
-    "language": "Not documented in the source fetched.",
-    "religion": "Not documented in the source fetched.",
-    "cite": "(Wikipedia, n.d.)"
+    "ethnic": "The French census does not ask about ethnicity. Immigrant figures for the commune not found yet.",
+    "language": "The French census does not ask about language.",
+    "religion": "The French census does not ask about religion.",
+    "cite": "(INSEE, 2026)",
+    "area_note": "Commune, census 2023",
+    "economy": "Unemployment 22.3% of people aged 15–64 at the census (2023), down from 27.6% in 2017; poverty rate 28.5%; median living standard €20,270 a year (2023).",
+    "sources": [
+      "INSEE (2026) Dossier complet: commune de Calais (62193). Available at: https://www.insee.fr/fr/statistiques/2011101?geo=COM-62193 (Accessed: 10 November 2026)."
+    ]
   },
   "Ceuta": {
     "census_year": 2021,
@@ -2532,16 +2537,17 @@
     ]
   },
   "Lappeenranta": {
-    "census_year": null,
-    "population": null,
-    "ethnic": "Foreign citizens: 5,516 residents.",
-    "language": "Finnish 87.9%, Other 5%, Russian 4.4%, Chinese 0.6%, English 0.6%, Ukrainian 0.5% (2025).",
-    "religion": "Not documented in the source used.",
-    "area_note": "Population by mother tongue (2025)",
+    "census_year": 2025,
+    "population": 73241,
+    "ethnic": "Foreign background 12.1%; born abroad 11.6%; foreign citizens 8.2% (2025).",
+    "language": "Finnish 87.9%, Swedish 0.2%, other languages 11.9% (2025). Russian is the largest foreign language, 4.4%.",
+    "religion": "Evangelical Lutheran 64.0%, other religious communities 2.6%, no religious community 33.4% (2025).",
+    "area_note": "Municipality, end of 2025",
     "lat": 61.059,
     "lon": 28.189,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Statistics Finland, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Statistics Finland (2026) Key figures on population by region, table 11ra. Available at: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/vaerak/11ra.px (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Lappeenranta. Available at: https://en.wikipedia.org/wiki/Lappeenranta (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
       "Wikipedia (n.d.) Lappeenranta. Available at: https://en.wikipedia.org/wiki/Lappeenranta (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
@@ -2682,12 +2688,13 @@
     "population": 102717,
     "ethnic": "Not documented in the source used.",
     "language": "Punjabi 94%, Urdu 5.1%, Others 0.9% (2023).",
-    "religion": "Not documented in the source used.",
+    "religion": "Pasrur tehsil, census 2023: Muslim 96.76%, Christian 2.42%, Ahmadi 0.77%, Hindu 0.03%.",
     "area_note": "Languages of Pasrur MC (2023 Census)",
     "lat": 32.263,
     "lon": 74.663,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PBS, 2024; Wikipedia, n.d.)",
     "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Pasrur. Available at: https://en.wikipedia.org/wiki/Pasrur (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
     ]
   },
@@ -2696,12 +2703,13 @@
     "population": 254291,
     "ethnic": "Not documented in the source used.",
     "language": "Punjabi 93.3%, Urdu 5.7%, Others 1% (2023).",
-    "religion": "Not documented in the source used.",
+    "religion": "Muridke tehsil, census 2023: Muslim 96.43%, Christian 3.46%, Ahmadi 0.08%, Hindu 0.02%.",
     "area_note": "Languages of Muridke city (2023)",
     "lat": 31.803,
     "lon": 74.258,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PBS, 2024; Wikipedia, n.d.)",
     "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Muridke. Available at: https://en.wikipedia.org/wiki/Muridke (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
     ]
   },
@@ -2709,13 +2717,14 @@
     "census_year": 2023,
     "population": 56642,
     "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
+    "language": "Mother tongue, Jamrud tehsil, census 2023: Pashto 99.50%, Other 0.25%, Urdu 0.12%, Balochi 0.10%.",
     "religion": "Islam 99.25%, Christianity 0.74%, Other or not stated 0.01% (2023).",
     "area_note": "Religions in Jamrud (2023)",
     "lat": 34.002,
     "lon": 71.38,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PBS, 2024; Wikipedia, n.d.)",
     "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Jamrud. Available at: https://en.wikipedia.org/wiki/Jamrud (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
     ]
   },
@@ -2724,12 +2733,13 @@
     "population": 146743,
     "ethnic": "Not documented in the source used.",
     "language": "Punjabi 92.2%, Urdu 4.8%, Pashto 2.3%, Others 0.7% (2023).",
-    "religion": "Not documented in the source used.",
+    "religion": "Gujrat tehsil, census 2023: Muslim 98.97%, Christian 0.88%, Ahmadi 0.14%, Hindu 0.00%.",
     "area_note": "Languages of Jalalpur Jattan MC (2023 Census)",
     "lat": 32.641,
     "lon": 74.206,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PBS, 2024; Wikipedia, n.d.)",
     "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Jalalpur Jattan. Available at: https://en.wikipedia.org/wiki/Jalalpur_Jattan (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
     ]
   },
@@ -2738,12 +2748,13 @@
     "population": 83192,
     "ethnic": "Not documented in the source used.",
     "language": "Punjabi 98.4%, Urdu 1%, Others 0.6% (2023).",
-    "religion": "Not documented in the source used.",
+    "religion": "Fort Abbas tehsil, census 2023: Muslim 99.20%, Christian 0.43%, Hindu 0.19%, Ahmadi 0.16%.",
     "area_note": "Languages of Fort Abbas city (2023 Census)",
     "lat": 29.193,
     "lon": 72.855,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PBS, 2024; Wikipedia, n.d.)",
     "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Fort Abbas. Available at: https://en.wikipedia.org/wiki/Fort_Abbas (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
     ]
   },
@@ -3351,13 +3362,14 @@
     "lon": 16.0,
     "census_year": 2021,
     "population": 767131,
-    "ethnic": "Croats 93.53%; Serbs 1.57%; Bosniaks 0.86%; Albanians 0.45%; Romani 0.28%.",
-    "language": "Not documented in the source used.",
-    "religion": "Not documented in the source used.",
-    "cite": "(Wikipedia, n.d.)",
+    "ethnic": "Croats 93.53%, Serbs 1.57%, Bosniaks 0.86%, Albanians 0.45%, Roma 0.28%, Slovenes 0.17%; not declared or unknown 1.45%. Census 2021.",
+    "language": "Mother tongue: Croatian 96.68%, Bosnian 0.57%, Albanian 0.43%, Serbian 0.32%. Census 2021.",
+    "religion": "Catholic 73.37%, other Christian 4.92%, Muslim 2.02%, Orthodox 1.43%; not religious or atheist 7.93%, agnostic or sceptic 3.29%. Census 2021. Most of those listed as other Christian said they belonged to the Catholic Church when asked their religious community.",
+    "cite": "(Grad Zagreb, 2022)",
     "sources": [
-      "Wikipedia (n.d.) Zagreb. Available at: https://en.wikipedia.org/wiki/Zagreb (Accessed: 9 November 2026)."
-    ]
+      "Grad Zagreb (2022) Popis 2021: konačni rezultati, Grad Zagreb, from Državni zavod za statistiku. Available at: https://www.zagreb.hr/userdocsimages/arhiva/statistika/popis%202021%20kona%C4%8Dni%20rezultati/Popis%202021._kona%C4%8Dni%20rezultati_Grad%20Zagreb_web.pdf (Accessed: 10 November 2026)."
+    ],
+    "area_note": "City of Zagreb, final census results"
   },
   "Rijeka": {
     "lat": 45.33,
@@ -3748,7 +3760,8 @@
       "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
     ],
-    "area_note": "Commune of Fnideq; foreign residents: 136"
+    "area_note": "Commune of Fnideq; foreign residents: 136",
+    "economy": "Unemployment at the census, Tanger-Tétouan-Al Hoceima region: 19.6% (2024; national 21.3%)."
   },
   "Mdiq": {
     "lat": 35.683,
@@ -3764,7 +3777,8 @@
       "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
     ],
-    "area_note": "Commune of M'diq; foreign residents: 100"
+    "area_note": "Commune of M'diq; foreign residents: 100",
+    "economy": "Unemployment at the census, Tanger-Tétouan-Al Hoceima region: 19.6% (2024; national 21.3%)."
   },
   "Martil": {
     "lat": 35.617,
@@ -3780,7 +3794,8 @@
       "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
     ],
-    "area_note": "Commune of Martil; foreign residents: 416"
+    "area_note": "Commune of Martil; foreign residents: 416",
+    "economy": "Unemployment at the census, Tanger-Tétouan-Al Hoceima region: 19.6% (2024; national 21.3%)."
   },
   "Beni Enzar": {
     "lat": 35.26,
@@ -3861,30 +3876,34 @@
   "Suwalki": {
     "lat": 54.112,
     "lon": 22.931,
-    "census_year": 2021,
-    "population": 69206,
+    "census_year": 2025,
+    "population": 67879,
     "ethnic": "Poles 98.0%; Lithuanians 0.5%; Romani 0.2%; Russians 0.1% (2002 census, the latest breakdown found).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(GUS, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Główny Urząd Statystyczny (2026) Bank Danych Lokalnych: population, registered unemployment and average gross wage by powiat, 2025. Available at: https://bdl.stat.gov.pl/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Suwałki. Available at: https://en.wikipedia.org/wiki/Suwałki (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "City"
+    "area_note": "City with powiat status, official figure for 2025",
+    "economy": "Registered unemployment 6.4% (2025). Average gross monthly wage 8,089.84 zloty (2025)."
   },
   "Biala Podlaska": {
     "lat": 52.032,
     "lon": 23.117,
-    "census_year": 2021,
-    "population": 56498,
+    "census_year": 2025,
+    "population": 53470,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(GUS, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Główny Urząd Statystyczny (2026) Bank Danych Lokalnych: population, registered unemployment and average gross wage by powiat, 2025. Available at: https://bdl.stat.gov.pl/ (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Biała Podlaska. Available at: https://en.wikipedia.org/wiki/Biała_Podlaska (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "City"
+    "area_note": "City with powiat status, official figure for 2025",
+    "economy": "Registered unemployment 8.2% (2025). Average gross monthly wage 8,102.51 zloty (2025)."
   },
   "Arica": {
     "lat": -18.5,
@@ -4093,14 +4112,235 @@
     "lat": 60.704,
     "lon": 28.755,
     "census_year": 2021,
-    "population": 74100,
-    "area_note": "City, estimate at 1 January 2021. Rosstat, the Russian statistics service, could not be reached from here",
+    "population": 72530,
+    "area_note": "City at the 2021 census; 70,443 estimated for 1 January 2025",
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Great Russian Encyclopedia, n.d.)",
+    "cite": "(Brinkhoff, 2026, citing Rosstat)",
     "sources": [
-      "Большая российская энциклопедия (n.d.) Выборг. Available at: https://bigenc.ru/c/vyborg-695cb1 (read in search extract)."
+      "Brinkhoff, T. (2026) City Population: Russia, citing the Federal State Statistics Service Russia (census 2021 and estimates for 1 January 2025). Available at: https://www.citypopulation.de/en/russia/leningrad/ (Accessed: 10 November 2026)."
     ]
+  },
+  "Pskov": {
+    "lat": 57.83,
+    "lon": 28.33,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2021,
+    "population": 193082,
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Russia, citing the Federal State Statistics Service Russia (census 2021 and estimates for 1 January 2025). Available at: https://www.citypopulation.de/en/russia/pskov/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing Rosstat)",
+    "area_note": "City at the 2021 census; 185,486 estimated for 1 January 2025"
+  },
+  "Kaliningrad": {
+    "lat": 54.7,
+    "lon": 20.497,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2021,
+    "population": 490449,
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Russia, citing the Federal State Statistics Service Russia (census 2021 and estimates for 1 January 2025). Available at: https://www.citypopulation.de/en/russia/kaliningrad/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing Rosstat)",
+    "area_note": "City at the 2021 census; 488,690 estimated for 1 January 2025"
+  },
+  "Lisburn": {
+    "lat": 54.523,
+    "lon": -6.035,
+    "ethnic": "White 95.7%. National identity: British only 43.5%, Northern Irish only 20.0%, Irish only 13.3%.",
+    "language": "Some ability in Irish: 5.2% of residents aged 3+.",
+    "religion": "Catholic 23.7%, Presbyterian 17.5%, Church of Ireland 17.2%, Methodist 3.9%, other Christian 9.2%, other religions 1.7%, no religion 25.5%. Religion or religion brought up in (community background): Catholic 26.8%, Protestant and other Christian 56.4%, other 1.8%, none 14.9%.",
+    "census_year": 2021,
+    "population": 51450,
+    "sources": [
+      "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+    ],
+    "cite": "(NISRA, 2022–2023)",
+    "area_note": "Lisburn City (census settlement)"
+  },
+  "Bangor": {
+    "lat": 54.661,
+    "lon": -5.668,
+    "ethnic": "White 97.1%. National identity: British only 47.4%, Northern Irish only 21.8%, Irish only 5.1%.",
+    "language": "Some ability in Irish: 2.9% of residents aged 3+.",
+    "religion": "Catholic 10.0%, Presbyterian 27.1%, Church of Ireland 13.0%, Methodist 4.0%, other Christian 9.2%, other religions 1.3%, no religion 34.0%. Religion or religion brought up in (community background): Catholic 12.7%, Protestant and other Christian 66.6%, other 1.4%, none 19.3%.",
+    "census_year": 2021,
+    "population": 64598,
+    "sources": [
+      "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+    ],
+    "cite": "(NISRA, 2022–2023)",
+    "area_note": "Bangor (census settlement)"
+  },
+  "Newtownabbey": {
+    "lat": 54.66,
+    "lon": -5.909,
+    "ethnic": "White 96.5%. National identity: British only 41.4%, Northern Irish only 20.6%, Irish only 17.3%.",
+    "language": "Some ability in Irish: 7.8% of residents aged 3+.",
+    "religion": "Catholic 27.5%, Presbyterian 21.3%, Church of Ireland 10.9%, Methodist 5.3%, other Christian 7.8%, other religions 1.6%, no religion 24.2%. Religion or religion brought up in (community background): Catholic 30.8%, Protestant and other Christian 54.4%, other 1.7%, none 13.0%.",
+    "census_year": 2021,
+    "population": 67599,
+    "sources": [
+      "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+    ],
+    "cite": "(NISRA, 2022–2023)",
+    "area_note": "Metropolitan Newtownabbey (census settlement)"
+  },
+  "Castlereagh": {
+    "lat": 54.574,
+    "lon": -5.885,
+    "ethnic": "White 94.9%. National identity: British only 42.5%, Northern Irish only 20.5%, Irish only 13.3%.",
+    "language": "Some ability in Irish: 6.8% of residents aged 3+.",
+    "religion": "Catholic 19.5%, Presbyterian 20.9%, Church of Ireland 13.3%, Methodist 5.2%, other Christian 9.9%, other religions 1.8%, no religion 27.9%. Religion or religion brought up in (community background): Catholic 23.0%, Protestant and other Christian 60.0%, other 1.9%, none 15.1%.",
+    "census_year": 2021,
+    "population": 58763,
+    "sources": [
+      "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+    ],
+    "cite": "(NISRA, 2022–2023)",
+    "area_note": "Metropolitan Castlereagh (census settlement)"
+  },
+  "Londonderry County Borough": {
+    "lat": 54.99,
+    "lon": -7.32,
+    "area_note": "Derry City (census settlement)",
+    "census_year": 2021,
+    "population": 85277,
+    "ethnic": "White 97.0%. National identity: Irish only 60.7%, Northern Irish only 16.1%, British only 13.2%.",
+    "language": "Some ability in Irish: 17.0% of residents aged 3+.",
+    "religion": "Catholic 72.9%, Presbyterian 6.5%, Church of Ireland 6.0%, other Christian 2.5%, other religions 1.1%, no religion 9.3%. Religion or religion brought up in (community background): Catholic 77.9%, Protestant and other Christian 17.0%, other 1.2%, none 3.9%.",
+    "economy": "Unemployed: 6.7% of the economically active population aged 16+; long-term sick or disabled: 12.2% of residents aged 16+ (2021).",
+    "sources": [
+      "NISRA (2022–2023) Census 2021 main statistics tables MS-B01 (ethnic group), MS-B05 (knowledge of Irish), MS-B15 (national identity), MS-B19 (religion), MS-B23 (religion or religion brought up in) and MS-H02 (economic activity), settlement level. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/statistics/census/2021-census (Accessed: 6 November 2026)."
+    ],
+    "cite": "(NISRA, 2022–2023)"
+  },
+  "La Linea de la Concepcion": {
+    "lat": 36.168,
+    "lon": -5.348,
+    "ethnic": "Born abroad 14.0%: rest of Europe including the UK 3.0%, EU 3.8%, Africa 3.2%, Americas 3.2%. Foreign citizens 10.6% (2025).",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2025,
+    "population": 65420,
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: La Línea de la Concepción, citing Instituto Nacional de Estadística, Madrid. Available at: https://citypopulation.de/en/spain/andalucia/cádiz/11022__la_línea_de_la_concepci/ (Accessed: 10 November 2026).",
+      "El Debate (2025) Andalucía vuelve a copar la lista de municipios con más paro de España. Available at: https://www.eldebate.com/espana/andalucia/20251024/andalucia-vuelve-copar-lista-municipios-paro-espana_347831_amp.html (read in search extract)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing INE; El Debate, 2025)",
+    "area_note": "Municipality, population register at 1 January 2025",
+    "economy": "Registered unemployment 28.6%, the highest of any large Spanish town (reported October 2025)."
+  },
+  "Vilnius": {
+    "lat": 54.683,
+    "lon": 25.317,
+    "ethnic": "Poles 16.5%, Russians 11.9% (national: Lithuanians 84.6%, Poles 6.5%, Russians 5.0%).",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2021,
+    "population": 546200,
+    "sources": [
+      "Visuotinė lietuvių enciklopedija (n.d.) Lietuvos gyventojai. Available at: https://www.vle.lt/straipsnis/lietuvos-gyventojai/ (read in search extract).",
+      "Statistikos departamentas (2022) Gyventojai gyvenamosiose vietovėse, press release of 25 January 2022, as hosted at: https://birstonas.lt/wp-content/uploads/2022/01/Inf_pr_Gyventojai-gyvenamosiose_vietovese_2022-01-25.pdf (read in search extract)."
+    ],
+    "cite": "(Visuotinė lietuvių enciklopedija, n.d.; Statistikos departamentas, 2022)",
+    "area_note": "City at the 2021 census"
+  },
+  "Bahawalnagar": {
+    "lat": 29.998,
+    "lon": 73.253,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Bahawalnagar tehsil, census 2023: Punjabi 91.69%, Urdu 7.37%, Other 0.56%, Pashto 0.15%.",
+    "religion": "Bahawalnagar tehsil, census 2023: Muslim 99.53%, Christian 0.33%, Hindu 0.11%, Other 0.02%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
+  },
+  "Sambrial": {
+    "lat": 32.478,
+    "lon": 74.353,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Sambrial tehsil, census 2023: Punjabi 93.11%, Urdu 3.46%, Mewati 1.83%, Pashto 0.84%.",
+    "religion": "Sambrial tehsil, census 2023: Muslim 96.55%, Christian 3.27%, Ahmadi 0.11%, Hindu 0.06%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
+  },
+  "Raja Jang": {
+    "lat": 31.221,
+    "lon": 74.255,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Kasur tehsil, census 2023: Punjabi 85.12%, Mewati 11.23%, Urdu 3.15%, Pashto 0.21%.",
+    "religion": "Kasur tehsil, census 2023: Muslim 95.74%, Christian 4.20%, Ahmadi 0.02%, Hindu 0.02%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
+  },
+  "Model Town": {
+    "lat": 31.481,
+    "lon": 74.326,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Model Town tehsil, census 2023: Punjabi 73.50%, Urdu 20.83%, Mewati 2.84%, Pashto 1.59%.",
+    "religion": "Model Town tehsil, census 2023: Muslim 92.91%, Christian 6.96%, Ahmadi 0.07%, Hindu 0.03%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
+  },
+  "Alahabad": {
+    "lat": 30.877,
+    "lon": 74.055,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Chunian tehsil, census 2023: Punjabi 87.91%, Mewati 8.23%, Urdu 3.34%, Sindhi 0.17%.",
+    "religion": "Chunian tehsil, census 2023: Muslim 98.09%, Christian 1.89%, Other 0.01%, Hindu 0.00%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
+  },
+  "Minchinabad": {
+    "lat": 30.164,
+    "lon": 73.569,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Minchinabad tehsil, census 2023: Punjabi 98.24%, Urdu 1.00%, Mewati 0.41%, Sindhi 0.16%.",
+    "religion": "Minchinabad tehsil, census 2023: Muslim 99.68%, Christian 0.26%, Hindu 0.04%, Other 0.01%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
+  },
+  "Basirpur": {
+    "lat": 30.578,
+    "lon": 73.839,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue, Depalpur tehsil, census 2023: Punjabi 97.05%, Urdu 1.85%, Mewati 0.66%, Pashto 0.25%.",
+    "religion": "Depalpur tehsil, census 2023: Muslim 99.63%, Christian 0.36%, Ahmadi 0.01%, Other 0.00%.",
+    "census_year": null,
+    "population": null,
+    "sources": [
+      "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(PBS, 2024)"
   }
 }
