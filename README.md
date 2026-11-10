@@ -23,10 +23,10 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `initiated_by` | Who initiated it, or `Not documented` (optional) |
 | `initiator_type` | `government`, `other` or `unknown` (optional) |
 | `construction` | Type of construction, e.g. steel bollard fence, concrete wall (optional) |
-| `cost` | Construction cost in September 2026 USD and EUR, with the original figure, year and note, or `Unknown` |
-| `cost_usd_sep2026`, `cost_eur_sep2026` | The same cost as numbers (optional) |
-| `maintenance_cost` | Annual maintenance cost in September 2026 USD and EUR, with the original figure, or `Unknown` |
-| `maintenance_usd_sep2026`, `maintenance_eur_sep2026` | The same maintenance cost as numbers (optional) |
+| `cost` | Construction cost in USD and EUR at the latest published prices, with the original figure, year and note, or `Unknown` |
+| `cost_usd_current`, `cost_eur_current` | The same cost as numbers (optional) |
+| `maintenance_cost` | Annual maintenance cost in USD and EUR at the latest published prices, with the original figure, or `Unknown` |
+| `maintenance_usd_current`, `maintenance_eur_current` | The same maintenance cost as numbers (optional) |
 | `security_technology` | Cameras, sensors, lighting and other equipment used with the barrier |
 | `geometry_quality` | How the line was drawn: `official border`, `approximate` or `placeholder` |
 | `typology` | Category in Ballif, F. and Rosière, S. (2009) 'Le défi des « teichopolitiques »', *L'Espace géographique*, 38(3), pp. 193–206: `marche` (march), `clôture` (fence), `mur` (wall), `front` (fortified military line) for borders between states. Urban walls (`urbaine (hors typologie)`) and historic walls (`historique`) fall outside their four types. Shown in the pop-up separately from `type` |
@@ -36,7 +36,7 @@ Barriers live in [`data/barriers.geojson`](data/barriers.geojson). Each feature 
 | `construction_class` | Sets the colour class by hand when the text alone would misclassify it: `mixed` for sections built differently, or another class (optional) |
 | `note`      | Short description                        |
 
-Costs are shown in September 2026 prices, the latest month published for both US CPI-U (U.S. Bureau of Labor Statistics) and euro-area HICP (Eurostat). They were first converted to 2024 prices with US CPI (World Bank; U.S. Bureau of Labor Statistics CPI-U for 2025 and January to September 2026), euro-area HICP (Eurostat) and annual average exchange rates (World Bank; European Central Bank reference rates for 2026). Spending over several years uses the midpoint year, and where a source gives no year, the assumed year is stated in the record. Planned and projected budgets are converted in the text only, with no numeric fields, because they are not money spent.
+Costs are shown at the latest month published for both US CPI-U (U.S. Bureau of Labor Statistics) and euro-area HICP (Eurostat). `scripts/update_prices.py` runs daily through GitHub Actions and republishes them when a new month appears; `data/price-index.json` holds the current month and `data/price-base.json` the figures it recalculates from. They were first converted to 2024 prices with US CPI (World Bank; U.S. Bureau of Labor Statistics CPI-U for 2025 and January to September 2026), euro-area HICP (Eurostat) and annual average exchange rates (World Bank; European Central Bank reference rates for 2026). Spending over several years uses the midpoint year, and where a source gives no year, the assumed year is stated in the record. Planned and projected budgets are converted in the text only, with no numeric fields, because they are not money spent.
 
 Colours show construction type (concrete, stone or brick; steel, metal or mesh; barbed or razor wire; earthwork; mixed; not documented; historical). The material named first in `construction` is the main structure, and anything added to it does not change the class. Mixed means sections built differently, such as a concrete wall with fenced sections. Seven hues were chosen for perceptual distance (CIEDE2000) under normal vision and simulated colour blindness; the pale yellow carries a thin outline in a darker shade of its own hue. Place names come from Natural Earth; native names are added where known.
 
@@ -76,6 +76,8 @@ Traced walls:
 - Other traced walls: OpenStreetMap contributors (ODbL), including the privately built walls at Sunland Park and Mission (2019–2020).
 
 Context layers and city data:
+
+- National figures on every city card ([`data/country-profiles.json`](data/country-profiles.json)), shown as national context and never as city data: World Bank World Development Indicators (population, GDP per person, unemployment and employment modelled by the ILO, Gini index, international migrant share, net migration, intentional homicide from UNODC), UNHCR refugee statistics 2025, and the CIA World Factbook (ethnic groups, religions, languages; public domain, via the factbook.json archive).
 
 - Neighbourhood themes around the peace walls, offered when the map shows Northern Ireland (zoom 8 or closer), one at a time:
   - Income ([`data/ni-deprivation.json`](data/ni-deprivation.json)): share of residents on low income, from NISRA's [Northern Ireland Multiple Deprivation Measure 2017, Small Area results](https://www.nisra.gov.uk/publications/nimdm17-sa-level-results), on the [Small Area boundaries](https://www.nisra.gov.uk/publications/small-area-boundaries-gis-format) (1,112 areas within 2.5 km of a peace wall).

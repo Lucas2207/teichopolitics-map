@@ -647,7 +647,8 @@ fetch("data/labels-countries.json")
         fetch("data/labels-natural.json")
           .then((r) => r.json())
           .then((natural) => {
-            labelData = { countries, places, natural, census: {} };
+            labelData = { countries, places, natural, census: {}, profiles: {} };
+            fetch("data/country-profiles.json").then((r) => r.json()).then((p) => { labelData.profiles = p; }).catch(() => {});
             fetch("data/city-census.json")
               .then((r) => r.json())
               .then((census) => {
@@ -667,6 +668,38 @@ function labelIcon(en, native, kind) {
   return L.divIcon({ className: `map-label ${kind}`, html: `<span class="label-inner"><span class="label-en">${en}</span>${sub}</span>`, iconSize: null });
 }
 
+const NATIONAL_REFS = `<li>International Labour Organization, UNODC and UN DESA, via World Bank (2026) World Development Indicators. Available at: https://data.worldbank.org/ (Accessed: 10 November 2026).</li>
+        <li>UNHCR (2026) Refugee Data Finder. Available at: https://www.unhcr.org/refugee-statistics/ (Accessed: 10 November 2026).</li>
+        <li>Central Intelligence Agency (2026) The World Factbook, via factbook.json. Available at: https://github.com/factbook/factbook.json (Accessed: 10 November 2026).</li>`;
+
+// National context on a city card: always labelled, never presented as figures for the city
+function nationalHtml(country, open) {
+  const p = labelData.profiles[country];
+  if (!p) return "";
+  const n = (v) => Number(v).toLocaleString("en");
+  const item = (label, key, show) => (p[key] ? `<dt>${label}</dt><dd>${show(p[key][0])} (${p[key][1]})</dd>` : "");
+  const text = (label, key) => (p[key] ? `<dt>${label}</dt><dd>${p[key]}</dd>` : "");
+  return `<details${open ? " open" : ""}>
+      <summary>National figures: ${country} (not specific to this city)</summary>
+      <dl>
+        ${item("Population", "pop", n)}
+        ${item("GDP per person", "gdp", (v) => `US$${n(Math.round(v))}`)}
+        ${item("GDP per person, purchasing power", "ppp", (v) => `$${n(Math.round(v))}`)}
+        ${item("Unemployment", "unemp", (v) => `${v}% of the labour force`)}
+        ${item("Employed", "emp", (v) => `${v}% of people aged 15+`)}
+        ${item("Income inequality (Gini)", "gini", (v) => v)}
+        ${item("Homicide", "hom", (v) => `${v} per 100,000 people`)}
+        ${item("Born abroad", "migr", (v) => `${v}% of residents`)}
+        ${item("Net migration", "net", (v) => `${v > 0 ? "+" : ""}${n(v)} people`)}
+        ${item("Refugees hosted", "refugees", n)}
+        ${item("Asylum seekers", "asylum", n)}
+        ${text("Ethnic groups", "ethnic")}
+        ${text("Religions", "religion")}
+        ${text("Languages", "language")}
+      </dl>
+    </details>`;
+}
+
 // City popup: population and census details, from data/city-census.json where available
 function cityPopupHtml(en, meta) {
   let c = (labelData && labelData.census && labelData.census[en]) || null;
@@ -680,7 +713,7 @@ function cityPopupHtml(en, meta) {
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
        ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}${["us", "mx"].includes(cityRegion(meta)) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`) : ""}`
-    : row("Census", "No census data added yet for this city");
+    : row("Census", "No figures found yet for this city; national figures are below");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
@@ -691,6 +724,7 @@ function cityPopupHtml(en, meta) {
       ${census}
     </dl>
     ${en === "Belfast" ? belfastHistoryHtml() : ""}
+    ${nationalHtml(meta.country, !c)}
     <details>
       <summary>References (Harvard)</summary>
       <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)${c && c.cite ? "; " + c.cite : ""}</p>
@@ -698,6 +732,7 @@ function cityPopupHtml(en, meta) {
         <li>GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026).</li>
         <li>Natural Earth (n.d.) Populated places and urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).</li>
         ${censusRefs}
+        ${labelData.profiles[meta.country] ? NATIONAL_REFS : ""}
       </ol>
     </details>
   </div>`;

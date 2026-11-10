@@ -42,10 +42,13 @@
   "Baghdad": {
     "census_year": 2024,
     "population": 7837463,
-    "ethnic": "Not documented in the source fetched (Kurds mentioned as a minority, without figures).",
+    "ethnic": "Mostly Iraqi Arabs; minorities include Kurds, Feyli Kurds, Turkmen, Assyrians and Circassians (no shares).",
     "language": "Not documented in the source fetched.",
     "religion": "Not documented for the current period (historical Jewish population noted).",
-    "cite": "(Wikipedia, n.d.)"
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Baghdad. Available at: https://en.wikipedia.org/wiki/Baghdad (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
   },
   "Beirut": {
     "census_year": 2017,
@@ -2334,14 +2337,16 @@
     "census_year": 2011,
     "population": 71434,
     "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
+    "language": "Baramulla district (the town's district), 2011: Kashmiri 82.11%, Pahari-Pothwari 9.88%, Gujari 3.72%, Hindi 1.58%, Punjabi 1.26%.",
     "religion": "Islam 85.28%, Sikhism 8.69%, Hinduism 5.57%, Christianity 0.29%, Not Stated 0.14%, Buddhism 0.03% (2011).",
     "area_note": "Religion in Baramulla City (2011)",
     "lat": 34.2,
     "lon": 74.35,
     "cite": "(Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Baramulla. Available at: https://en.wikipedia.org/wiki/Baramulla (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
+      "Wikipedia (n.d.) Baramulla. Available at: https://en.wikipedia.org/wiki/Baramulla (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
+      "Wikipedia (n.d.) Baramulla. Available at: https://en.wikipedia.org/wiki/Baramulla (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Baramulla district. Available at: https://en.wikipedia.org/wiki/Baramulla_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   },
   "Jashore": {
@@ -2471,8 +2476,8 @@
     ]
   },
   "Rangamati": {
-    "census_year": null,
-    "population": null,
+    "census_year": 2022,
+    "population": 648219,
     "ethnic": "Bengalis 67.64%, Chakma 27.66%, Others 1.92%, Marma 1.64%, Tanchangya 1.14% (2022).",
     "language": "Not documented in the source used.",
     "religion": "Islam 52.17%, Buddhism 34.32%, Hinduism 13.07%, Christianity 0.44% (2022).",
@@ -2481,7 +2486,9 @@
     "lon": 92.192,
     "cite": "(Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Rangamati. Available at: https://en.wikipedia.org/wiki/Rangamati (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
+      "Wikipedia (n.d.) Rangamati. Available at: https://en.wikipedia.org/wiki/Rangamati (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
+      "Wikipedia (n.d.) Rangamati. Available at: https://en.wikipedia.org/wiki/Rangamati (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Rangamati Hill District. Available at: https://en.wikipedia.org/wiki/Rangamati_Hill_District (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   },
   "Jessore": {
@@ -2515,7 +2522,7 @@
   "Lappeenranta": {
     "census_year": null,
     "population": null,
-    "ethnic": "Not documented in the source used.",
+    "ethnic": "Foreign citizens: 5,516 residents.",
     "language": "Finnish 87.9%, Other 5%, Russian 4.4%, Chinese 0.6%, English 0.6%, Ukrainian 0.5% (2025).",
     "religion": "Not documented in the source used.",
     "area_note": "Population by mother tongue (2025)",
@@ -2523,7 +2530,8 @@
     "lon": 28.189,
     "cite": "(Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Lappeenranta. Available at: https://en.wikipedia.org/wiki/Lappeenranta (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
+      "Wikipedia (n.d.) Lappeenranta. Available at: https://en.wikipedia.org/wiki/Lappeenranta (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
+      "Wikipedia (n.d.) Lappeenranta. Available at: https://en.wikipedia.org/wiki/Lappeenranta (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   },
   "Shantipur": {
@@ -2544,28 +2552,32 @@
     "census_year": 2011,
     "population": 59866,
     "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
+    "language": "Kathua district (the town's district), 2011: Dogri 81.92%, Western Pahari 6.94%, Gujari 3.5%, Others 2.74%, Kashmiri 2.01%, Punjabi 1.86%.",
     "religion": "Hinduism 91.34%, Sikhism 4.75%, Islam 2.68%, Christianity 1.09%, Not Stated 0.13%, Buddhism 0.02% (2011).",
     "area_note": "Religion in Kathua City (2011)",
     "lat": 32.369,
     "lon": 75.525,
     "cite": "(Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Kathua. Available at: https://en.wikipedia.org/wiki/Kathua (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
+      "Wikipedia (n.d.) Kathua. Available at: https://en.wikipedia.org/wiki/Kathua (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
+      "Wikipedia (n.d.) Kathua. Available at: https://en.wikipedia.org/wiki/Kathua (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Kathua district. Available at: https://en.wikipedia.org/wiki/Kathua_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   },
   "Karimganj": {
     "census_year": 2011,
     "population": 56854,
     "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
+    "language": "Karimganj District (the town's district), 2011: Bengali 86.84%, Hindi 5.7%, Others 3.81%, Bishnupriya Manipuri 2%, Bhojpuri 1.65%.",
     "religion": "Hinduism 86.57%, Islam 12.06%, Christianity 0.63%, Jainism 0.62%, Others 0.12% (2011).",
     "area_note": "Religion in Karimganj Town (2011)",
     "lat": 24.869,
     "lon": 92.355,
     "cite": "(Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Karimganj. Available at: https://en.wikipedia.org/wiki/Karimganj (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
+      "Wikipedia (n.d.) Karimganj. Available at: https://en.wikipedia.org/wiki/Karimganj (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
+      "Wikipedia (n.d.) Karimganj. Available at: https://en.wikipedia.org/wiki/Karimganj (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Karimganj District. Available at: https://en.wikipedia.org/wiki/Karimganj_District (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   },
   "Gurdaspur": {
@@ -2642,14 +2654,15 @@
     "census_year": null,
     "population": null,
     "ethnic": "Bumiputera 95.7%, Chinese 3.7%, Others 0.3%, Indians 0.3% (2020).",
-    "language": "Not documented in the source used.",
-    "religion": "Not documented in the source used.",
+    "language": "Kelantan Malay dialect.",
+    "religion": "93% Muslim, with Buddhists, Hindus and Christians (town).",
     "area_note": "Ethnic shares from the 2020 census",
     "lat": 6.124,
     "lon": 102.243,
     "cite": "(Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Kota Bharu. Available at: https://en.wikipedia.org/wiki/Kota_Bharu (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
+      "Wikipedia (n.d.) Kota Bharu. Available at: https://en.wikipedia.org/wiki/Kota_Bharu (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
+      "Wikipedia (n.d.) Kota Bharu. Available at: https://en.wikipedia.org/wiki/Kota_Bharu (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   },
   "Pasrur": {
@@ -3387,6 +3400,592 @@
     "cite": "(Central Bureau of Statistics, 2025)",
     "sources": [
       "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+    ]
+  },
+  "Dayr al Balah": {
+    "lat": 31.418,
+    "lon": 34.349,
+    "census_year": 2017,
+    "population": 75132,
+    "ethnic": "Palestinian; the city and adjacent camp hold many refugee families from 1948 (no 2017 share found).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Overwhelmingly Muslim; no shares for the 2017 census in the sources found.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Deir al-Balah. Available at: https://en.wikipedia.org/wiki/Deir_al-Balah (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "PCBS census 2017"
+  },
+  "Bayt Lahya": {
+    "lat": 31.546,
+    "lon": 34.495,
+    "census_year": 2017,
+    "population": 89838,
+    "ethnic": "Palestinian; no breakdown published in the sources found.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Beit Lahia. Available at: https://en.wikipedia.org/wiki/Beit_Lahia (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "PCBS census 2017"
+  },
+  "Battir": {
+    "lat": 31.7,
+    "lon": 35.117,
+    "census_year": 2017,
+    "population": 4696,
+    "ethnic": "Palestinian village in the Bethlehem Governorate.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Battir. Available at: https://en.wikipedia.org/wiki/Battir (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "PCBS census 2017"
+  },
+  "Ramallah": {
+    "lat": 31.903,
+    "lon": 35.206,
+    "census_year": null,
+    "population": null,
+    "ethnic": "Palestinian.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Sources vary on the Christian share, around 25%; it was a Christian majority town until the mid-20th century.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Ramallah. Available at: https://en.wikipedia.org/wiki/Ramallah (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
+  },
+  "Irbid": {
+    "lat": 32.55,
+    "lon": 35.85,
+    "census_year": 2025,
+    "population": 569068,
+    "ethnic": "Grew in peaks in 1948, 1967 and 2011 with refugee arrivals. Irbid Governorate had 1.77 million residents at the 2015 census.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.; Ghazal, 2016)",
+    "sources": [
+      "Wikipedia (n.d.) Irbid. Available at: https://en.wikipedia.org/wiki/Irbid (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Ghazal, M. (2016) 'Irbid most densely populated area in Jordan — census', The Jordan Times. Available at: https://www.jordantimes.com/news/local/irbid-most-densely-populated-area-jordan-%E2%80%94-census (read in search extract)."
+    ],
+    "area_note": "City estimate"
+  },
+  "As Salt": {
+    "lat": 32.039,
+    "lon": 35.727,
+    "census_year": 2018,
+    "population": 107874,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) As-Salt. Available at: https://en.wikipedia.org/wiki/As-Salt (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City estimate"
+  },
+  "Madaba": {
+    "lat": 31.716,
+    "lon": 35.794,
+    "census_year": 2011,
+    "population": 84600,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Muslim majority with a long-established Arab Christian community, resettled from Al Karak in 1880 (no shares found).",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Madaba. Available at: https://en.wikipedia.org/wiki/Madaba (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City estimate"
+  },
+  "Aqaba": {
+    "lat": 29.527,
+    "lon": 35.008,
+    "census_year": 2021,
+    "population": 95048,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Muslim majority; about 5,000 Christian families are reported.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Aqaba. Available at: https://en.wikipedia.org/wiki/Aqaba (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City estimate"
+  },
+  "Suwaylih": {
+    "lat": 32.022,
+    "lon": 35.844,
+    "census_year": 2015,
+    "population": 151016,
+    "ethnic": "Founded in 1906 by Circassian and Chechen settlers; no current breakdown found.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Sweileh area. Available at: https://en.wikipedia.org/wiki/Sweileh_area (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Sweileh area, 2015 census"
+  },
+  "Manbij": {
+    "lat": 36.527,
+    "lon": 37.956,
+    "census_year": 2004,
+    "population": 99497,
+    "ethnic": "Largely Arab, with Kurdish, Turkmen, Circassian and Chechen minorities (no shares).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Manbij. Available at: https://en.wikipedia.org/wiki/Manbij (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Last census before the war"
+  },
+  "Idlib": {
+    "lat": 35.93,
+    "lon": 36.632,
+    "census_year": 2010,
+    "population": 165000,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Mostly Sunni Muslim; the former Christian minority had almost entirely left by 2022.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Idlib. Available at: https://en.wikipedia.org/wiki/Idlib (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Pre-war estimate"
+  },
+  "Kabbasin": {
+    "lat": 36.433,
+    "lon": 37.569,
+    "census_year": 2004,
+    "population": 11382,
+    "ethnic": "Turkmen and Arab inhabitants (no shares).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Qabasin. Available at: https://en.wikipedia.org/wiki/Qabasin (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Last census before the war"
+  },
+  "'Ayn al 'Arab": {
+    "lat": 36.891,
+    "lon": 38.353,
+    "census_year": 2004,
+    "population": 44821,
+    "ethnic": "Kurdish majority, with Arab, Turkmen and Armenian minorities (2013 estimates).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Kobani. Available at: https://en.wikipedia.org/wiki/Kobani (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Last census before the war; about 70% of the town was reported destroyed in the war"
+  },
+  "Antakya": {
+    "lat": 36.233,
+    "lon": 36.117,
+    "census_year": 2022,
+    "population": 399045,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Antakya. Available at: https://en.wikipedia.org/wiki/Antakya (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "District, before the 2023 earthquakes"
+  },
+  "Samandag": {
+    "lat": 36.08,
+    "lon": 35.976,
+    "census_year": 2022,
+    "population": 165494,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Historically an Alawite town (no current shares).",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Samandağ. Available at: https://en.wikipedia.org/wiki/Samandağ (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "District"
+  },
+  "Reyhanli": {
+    "lat": 36.268,
+    "lon": 36.567,
+    "census_year": 2022,
+    "population": 108092,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Reyhanlı. Available at: https://en.wikipedia.org/wiki/Reyhanlı (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "District"
+  },
+  "Nizip": {
+    "lat": 37.01,
+    "lon": 37.794,
+    "census_year": 2022,
+    "population": 148386,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Nizip. Available at: https://en.wikipedia.org/wiki/Nizip (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "District"
+  },
+  "Kirikhan": {
+    "lat": 36.499,
+    "lon": 36.358,
+    "census_year": 2022,
+    "population": 121028,
+    "ethnic": "Over 35,000 Syrians were living here in 2014.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Kırıkhan. Available at: https://en.wikipedia.org/wiki/Kırıkhan (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "District"
+  },
+  "Dogubayazit": {
+    "lat": 39.547,
+    "lon": 44.084,
+    "census_year": 2021,
+    "population": 80061,
+    "ethnic": "Kurdish majority (no shares).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Doğubayazıt. Available at: https://en.wikipedia.org/wiki/Doğubayazıt (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "District"
+  },
+  "Yueksekova": {
+    "lat": 37.574,
+    "lon": 44.287,
+    "census_year": 2023,
+    "population": 84800,
+    "ethnic": "Listed among Kurdish settlements of Hakkâri Province (no shares).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Yüksekova. Available at: https://en.wikipedia.org/wiki/Yüksekova (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Town"
+  },
+  "Fnidek": {
+    "lat": 35.849,
+    "lon": -5.357,
+    "census_year": 2024,
+    "population": 77250,
+    "ethnic": "The census does not record ethnicity.",
+    "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+    "religion": "Not collected: Morocco's census does not ask about religion.",
+    "cite": "(HCP, 2024)",
+    "sources": [
+      "Haut-Commissariat au Plan (2024) Population légale du Royaume selon les résultats du RGPH 2024. Rabat: HCP (Accessed: 9 November 2026).",
+      "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+      "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+    ],
+    "area_note": "Commune of Fnideq; foreign residents: 136"
+  },
+  "Mdiq": {
+    "lat": 35.683,
+    "lon": -5.329,
+    "census_year": 2024,
+    "population": 67599,
+    "ethnic": "The census does not record ethnicity.",
+    "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+    "religion": "Not collected: Morocco's census does not ask about religion.",
+    "cite": "(HCP, 2024)",
+    "sources": [
+      "Haut-Commissariat au Plan (2024) Population légale du Royaume selon les résultats du RGPH 2024. Rabat: HCP (Accessed: 9 November 2026).",
+      "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+      "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+    ],
+    "area_note": "Commune of M'diq; foreign residents: 100"
+  },
+  "Martil": {
+    "lat": 35.617,
+    "lon": -5.275,
+    "census_year": 2024,
+    "population": 95896,
+    "ethnic": "The census does not record ethnicity.",
+    "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+    "religion": "Not collected: Morocco's census does not ask about religion.",
+    "cite": "(HCP, 2024)",
+    "sources": [
+      "Haut-Commissariat au Plan (2024) Population légale du Royaume selon les résultats du RGPH 2024. Rabat: HCP (Accessed: 9 November 2026).",
+      "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+      "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+    ],
+    "area_note": "Commune of Martil; foreign residents: 416"
+  },
+  "Beni Enzar": {
+    "lat": 35.26,
+    "lon": -2.93,
+    "census_year": 2024,
+    "population": 50508,
+    "ethnic": "The census does not record ethnicity.",
+    "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+    "religion": "Not collected: Morocco's census does not ask about religion.",
+    "cite": "(HCP, 2024)",
+    "sources": [
+      "Haut-Commissariat au Plan (2024) Population légale du Royaume selon les résultats du RGPH 2024. Rabat: HCP (Accessed: 9 November 2026).",
+      "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+      "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+    ],
+    "area_note": "Commune of Bni Ansar; foreign residents: 50",
+    "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284)."
+  },
+  "Al Aaroui": {
+    "lat": 35.011,
+    "lon": -3.009,
+    "census_year": 2024,
+    "population": 46540,
+    "ethnic": "The census does not record ethnicity.",
+    "language": "Not published by city. Nationally (2024): 91.9% use Moroccan Darija, 24.8% an Amazigh language (Tachelhit, Tamazight, Tarifit), 0.8% Hassania, with higher Hassania use in the southern provinces (HCP, 2024b).",
+    "religion": "Not collected: Morocco's census does not ask about religion.",
+    "cite": "(HCP, 2024)",
+    "sources": [
+      "Haut-Commissariat au Plan (2024) Population légale du Royaume selon les résultats du RGPH 2024. Rabat: HCP (Accessed: 9 November 2026).",
+      "HCP Direction régionale de l'Oriental (2024) Note sur la population légale de la région de l'Oriental, RGPH 2024. Available at: https://www.hcp.ma/region-oriental/docs/AHMesfichiers/Oriental_Note%20sur%20la%20population%20legale_RGPH%202024_Fr.pdf (Accessed: 6 November 2026).",
+      "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
+    ],
+    "area_note": "Commune of Al Aaroui; foreign residents: 8",
+    "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284)."
+  },
+  "Strovolos": {
+    "lat": 35.149,
+    "lon": 33.334,
+    "census_year": 2021,
+    "population": 71123,
+    "ethnic": "Greek Cypriot; grew after 1974 with refugees from the north.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Strovolos. Available at: https://en.wikipedia.org/wiki/Strovolos (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Municipality, Republic of Cyprus"
+  },
+  "Larnaca": {
+    "lat": 34.922,
+    "lon": 33.628,
+    "census_year": 2021,
+    "population": 52038,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Larnaca. Available at: https://en.wikipedia.org/wiki/Larnaca (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Municipality, Republic of Cyprus"
+  },
+  "Osijek": {
+    "lat": 45.551,
+    "lon": 18.694,
+    "census_year": 2021,
+    "population": 96313,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Osijek. Available at: https://en.wikipedia.org/wiki/Osijek (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City"
+  },
+  "Suwalki": {
+    "lat": 54.112,
+    "lon": 22.931,
+    "census_year": 2021,
+    "population": 69206,
+    "ethnic": "Poles 98.0%; Lithuanians 0.5%; Romani 0.2%; Russians 0.1% (2002 census, the latest breakdown found).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Suwałki. Available at: https://en.wikipedia.org/wiki/Suwałki (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City"
+  },
+  "Biala Podlaska": {
+    "lat": 52.032,
+    "lon": 23.117,
+    "census_year": 2021,
+    "population": 56498,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Biała Podlaska. Available at: https://en.wikipedia.org/wiki/Biała_Podlaska (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City"
+  },
+  "Arica": {
+    "lat": -18.5,
+    "lon": -70.29,
+    "census_year": 2024,
+    "population": 241653,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Arica. Available at: https://en.wikipedia.org/wiki/Arica (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Commune"
+  },
+  "Khost": {
+    "lat": 33.34,
+    "lon": 69.92,
+    "census_year": 2025,
+    "population": 170615,
+    "ethnic": "Mostly Pashtuns of several tribes (no shares).",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Khost. Available at: https://en.wikipedia.org/wiki/Khost (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "City estimate"
+  },
+  "Maghnia": {
+    "lat": 34.85,
+    "lon": -1.728,
+    "census_year": 2008,
+    "population": 114634,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Maghnia. Available at: https://en.wikipedia.org/wiki/Maghnia (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Commune"
+  },
+  "Buthidaung Town": {
+    "lat": 20.875,
+    "lon": 92.53,
+    "census_year": 2021,
+    "population": 55545,
+    "ethnic": "Rohingya majority, though many have fled since 2012 and 2017.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Buthidaung. Available at: https://en.wikipedia.org/wiki/Buthidaung (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Town"
+  },
+  "Beitbridge": {
+    "lat": -22.217,
+    "lon": 30.0,
+    "census_year": 2022,
+    "population": 58100,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Beitbridge. Available at: https://en.wikipedia.org/wiki/Beitbridge (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "2022 census"
+  },
+  "Kosong": {
+    "lat": 38.379,
+    "lon": 128.468,
+    "census_year": 2018,
+    "population": 29118,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Not published for this town in the sources found; see the national figures below.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Goseong County, Gangwon. Available at: https://en.wikipedia.org/wiki/Goseong_County,_Gangwon (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ],
+    "area_note": "Goseong County"
+  },
+  "Ranaghat": {
+    "lat": 23.176,
+    "lon": 88.567,
+    "census_year": 2011,
+    "population": 75365,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Not published for this town in the sources found; see the national figures below.",
+    "religion": "Nadia district (the town's district), 2011: Other or not stated 0.44%.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Ranaghat. Available at: https://en.wikipedia.org/wiki/Ranaghat (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Nadia district. Available at: https://en.wikipedia.org/wiki/Nadia_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
+  },
+  "Naksalbari": {
+    "lat": 26.683,
+    "lon": 88.22,
+    "census_year": 2011,
+    "population": 1618,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Darjeeling district (the town's district), 2011: Nepali 39.88%, Bengali 26.51%, Hindi 10.95%, Rangpuri 6.17%, Sadri 5.38%, Others 4.9%.",
+    "religion": "Darjeeling district (the town's district), 2011: Buddhism 9.81%, Others* 0.78%, Other or not stated 0.47%.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Naxalbari. Available at: https://en.wikipedia.org/wiki/Naxalbari (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Darjeeling district. Available at: https://en.wikipedia.org/wiki/Darjeeling_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
+  },
+  "Habra": {
+    "lat": 22.842,
+    "lon": 88.656,
+    "census_year": 2011,
+    "population": 147221,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "North 24 Parganas district (the town's district), 2011: Bengali 88.91%, Hindi 7.69%, Urdu 2.28%, Others 1.12%.",
+    "religion": "North 24 Parganas district (the town's district), 2011: Hinduism 73.46%, Islam 25.82%, Christianity 0.27%, Irreligion 0.23%, Sikhism 0.09%, Buddhism 0.06%.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Habra. Available at: https://en.wikipedia.org/wiki/Habra (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) North 24 Parganas district. Available at: https://en.wikipedia.org/wiki/North_24_Parganas_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
+  },
+  "Gangarampur": {
+    "lat": 25.401,
+    "lon": 88.53,
+    "census_year": 2011,
+    "population": 56175,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Dakshin Dinajpur district (the town's district), 2011: Bengali 84.41%, Santali 9.68%, Others 2.3%, Kurukh 1.31%, Sadri 1.25%, Hindi 1.05%.",
+    "religion": "Dakshin Dinajpur district (the town's district), 2011: Other or not stated 0.34%.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Gangarampur. Available at: https://en.wikipedia.org/wiki/Gangarampur (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Dakshin Dinajpur district. Available at: https://en.wikipedia.org/wiki/Dakshin_Dinajpur_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
+  },
+  "Faqirwali": {
+    "lat": 29.468,
+    "lon": 73.035,
+    "census_year": 2023,
+    "population": 61586,
+    "ethnic": "Not published for this town in the sources found; see the national figures below.",
+    "language": "Bahawalpur District (the town's district), 2023: Saraiki 67.9%, Punjabi 24.2%, Urdu 5.5%, Others 2.4%.",
+    "religion": "Bahawalpur District (the town's district), 2023: Other or not stated 0.07%.",
+    "cite": "(Wikipedia, n.d.)",
+    "sources": [
+      "Wikipedia (n.d.) Faqirwali. Available at: https://en.wikipedia.org/wiki/Faqirwali (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Wikipedia (n.d.) Bahawalpur District. Available at: https://en.wikipedia.org/wiki/Bahawalpur_District (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ]
   }
 }

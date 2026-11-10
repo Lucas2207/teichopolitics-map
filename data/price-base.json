@@ -1,0 +1,934 @@
+{
+"Berlin Wall|cost_usd_current": {
+"month": "2026-09",
+"value": 22539188
+},
+"Berlin Wall|cost_eur_current": {
+"month": "2026-09",
+"value": 20652923
+},
+"Berlin Wall|cost": {
+"month": "2026-09",
+"text": "≈ $22.6 million / ≈ €20.7 million in September 2026 prices. Original: fourth-generation wall, 16,155,000 DDM (about US$3.6 million); no total cost for the whole wall given. [source year not given; 1975, when the fourth generation began, assumed]"
+},
+"India–Bangladesh border fence|cost": {
+"month": "2026-09",
+"text": "≈ $1.74 billion / ≈ €1.27 billion in September 2026 prices. Original: Sanctioned phases: about Rs 1,050–1,060 crore (Phase I), Rs 4,394–4,405 crore (Phase II), Rs 884 crore (Phase III). Sum about Rs 6,330–6,350 crore (own arithmetic; phases partly overlap). [sum of sanctioned phases (Rs 6,340 crore), mostly 2009–2014; year assumed 2012]"
+},
+"India–Bangladesh border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 1741155215
+},
+"India–Bangladesh border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 1264894972
+},
+"Ceuta border fence|cost": {
+"month": "2026-09",
+"text": "≈ $17.0 million (2005); 12.2 million (2019); 32.2 million (2018–2026 spend) / ≈ €12.5 million (2005); 10.7 million (2019); 30.6 million (2018–2026 spend) in September 2026 prices. Original: €7.9 million for the 2005 raise (Público, 2014); €8.3 million for the 2019 concertina upgrade; Interior spent over €26.6 million 2018–2026 (The Objective, 2026) [spend figures are approximate; mid-period years used]"
+},
+"Ceuta border fence|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $1.4 million a year / ≈ €1.2 million a year in September 2026 prices. Original: €9.24 million over 2015–2024, about €0.92 million a year (Spanish government figures reported by The Objective) [annual average, 2020 prices]"
+},
+"Ceuta border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 10074038
+},
+"Ceuta border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 8842088
+},
+"US–Mexico border barrier|cost": {
+"month": "2026-09",
+"text": "≈ $48.72 billion / ≈ €44.64 billion in September 2026 prices. Original: Program appropriation of $46.55 billion (Public Law 119-21, through Sept 2029), covering barriers, cameras, sensors, roads and maintenance. Per-mile figures: CBP's older estimate about $6.5 million per mile; recent contracts reported near $20 million per mile (not official). [2025 appropriation (year of the law)]"
+},
+"US–Mexico border barrier|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $56.4 million / ≈ €51.7 million a year in September 2026 prices. Original: CBP budgets about $50–55 million a year for maintenance and repair (gates, roads, lighting, drainage, vegetation). An older OMB estimate gave at least $864,000 per mile per year. [midpoint of $50–55M a year; source year not given, assumed 2024]"
+},
+"US–Mexico border barrier|cost_usd_current": {
+"month": "2026-09",
+"value": 48718428418
+},
+"US–Mexico border barrier|cost_eur_current": {
+"month": "2026-09",
+"value": 44641268612
+},
+"US–Mexico border barrier|maintenance_usd_current": {
+"month": "2026-09",
+"value": 56391392
+},
+"US–Mexico border barrier|maintenance_eur_current": {
+"month": "2026-09",
+"value": 51672095
+},
+"We Build the Wall private wall, Sunland Park|cost": {
+"month": "2026-09",
+"text": "≈ $11.8 million / ≈ €10.9 million in September 2026 prices. Original: about $9 million of We Build the Wall funds (2019) (Powers, 2020)."
+},
+"We Build the Wall private wall, Sunland Park|cost_usd_current": {
+"month": "2026-09",
+"value": 11858304
+},
+"We Build the Wall private wall, Sunland Park|cost_eur_current": {
+"month": "2026-09",
+"value": 10866180
+},
+"Fisher Industries private fence, Mission (Rio Grande)|cost": {
+"month": "2026-09",
+"text": "≈ $52.1 million / ≈ €47.7 million in September 2026 prices. Original: more than $40 million (2019–2020) (Trevizo and Schwartz, 2022)."
+},
+"Fisher Industries private fence, Mission (Rio Grande)|cost_usd_current": {
+"month": "2026-09",
+"value": 52094905
+},
+"Fisher Industries private fence, Mission (Rio Grande)|cost_eur_current": {
+"month": "2026-09",
+"value": 47725966
+},
+"Melilla border fence|cost": {
+"month": "2026-09",
+"text": "≈ $66.5 million (2005); 14.0 million (2019); 42.1 million (2018–2026 spend) / ≈ €49.1 million (2005); 12.1 million (2019); 39.8 million (2018–2026 spend) in September 2026 prices. Original: About €31 million in 2005 (Público, 2014); €9.5 million for the 2019 concertina upgrade; Interior spent about €34.7 million 2018–2026 (The Objective, 2026) [spend figures approximate; mid-period years used]"
+},
+"Melilla border fence|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $1.4 million a year / ≈ €1.2 million a year in September 2026 prices. Original: €9.19 million over 2015–2024, about €0.92 million a year (Spanish government figures reported by The Objective) [annual average, 2020 prices]"
+},
+"Melilla border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 64393497
+},
+"Melilla border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 47518759
+},
+"Greece–Turkey Evros wall (Kastanies–Nea Vyssa, 2012)|cost": {
+"month": "2026-09",
+"text": "Over $5.7 million / over €4.2 million in September 2026 prices. Original: more than €3 million (AP, 2012)."
+},
+"Greece–Turkey Evros wall (Kastanies–Nea Vyssa, 2012)|cost_usd_current": {
+"month": "2026-09",
+"value": 5656466
+},
+"Greece–Turkey Evros wall (Kastanies–Nea Vyssa, 2012)|cost_eur_current": {
+"month": "2026-09",
+"value": 4109246
+},
+"Saudi–Iraq border barrier|cost": {
+"month": "2026-09",
+"text": "≈ $1.73 billion / ≈ €1.18 billion in September 2026 prices. Original: 2007 tender budget up to 4 billion riyals (about $1.07 billion). 2006 plan put the fence at $500 million. A 2019 opinion piece gives $3.4 billion (unverified). [2007 tender budget]"
+},
+"Saudi–Iraq border barrier|cost_usd_current": {
+"month": "2026-09",
+"value": 1733377437
+},
+"Saudi–Iraq border barrier|cost_eur_current": {
+"month": "2026-09",
+"value": 1181274741
+},
+"Hungary–Serbia border fence|cost": {
+"month": "2026-09",
+"text": "≈ $152.6 million / ≈ €130.0 million in September 2026 prices. Original: About 30 billion forints (about $106 million) in 2015, including two asylum camps [30 billion forints, 2015, including two asylum camps]"
+},
+"Hungary–Serbia border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 152676734
+},
+"Hungary–Serbia border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 130003758
+},
+"Turkey–Syria border wall|cost": {
+"month": "2026-09",
+"text": "≈ $929.7 million / ≈ €801.6 million in September 2026 prices. Original: Press estimate of about 2 billion lira (about $672 million) including a patrol road. No official total found. [press estimate, 2016]"
+},
+"Turkey–Syria border wall|cost_usd_current": {
+"month": "2026-09",
+"value": 929676893
+},
+"Turkey–Syria border wall|cost_eur_current": {
+"month": "2026-09",
+"value": 801650017
+},
+"Poland–Belarus border barrier|cost": {
+"month": "2026-09",
+"text": "≈ $88.6 million / ≈ €84.1 million in September 2026 prices. Original: Overall spending on the Belarus border about PLN 2.6 billion (about $700 million), per the interior minister. Electronic barrier 2022: PLN 343 million (about €73 million). 2025 upgrade of 206 km: over PLN 125 million. [electronic barrier, 2022]"
+},
+"Poland–Belarus border barrier|security_technology": {
+"month": "2026-09",
+"text": "Day-night and thermal cameras, motion sensors and camera poles. A 172 km Lublin section is reported with 1,800 camera poles, 4,500 cameras and sensors, costing PLN 279 million (≈ $72.1 million / ≈ €68.3 million in September 2026 prices; date not confirmed, 2022 assumed)."
+},
+"Poland–Belarus border barrier|cost_usd_current": {
+"month": "2026-09",
+"value": 88587888
+},
+"Poland–Belarus border barrier|cost_eur_current": {
+"month": "2026-09",
+"value": 84004091
+},
+"Finland–Russia border fence|cost": {
+"month": "2026-09",
+"text": "≈ $421.1 million / ≈ €371.4 million in September 2026 prices. Original: €356 million total (reported September 2026). The 2022 estimate was about €380 million. [reported 2026; treated at 2025 prices]"
+},
+"Finland–Russia border fence|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $2.7 million / ≈ €2.3 million a year in September 2026 prices. Original: €1.5 million a year (YLE) to €2–3 million a year (border authorities). [midpoint of €1.5–3M a year]"
+},
+"Finland–Russia border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 421013038
+},
+"Finland–Russia border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 371356671
+},
+"Finland–Russia border fence|maintenance_usd_current": {
+"month": "2026-09",
+"value": 2730914
+},
+"Finland–Russia border fence|maintenance_eur_current": {
+"month": "2026-09",
+"value": 2396951
+},
+"Israel–Gaza perimeter fence|cost": {
+"month": "2026-09",
+"text": "≈ $1.29 billion / ≈ €1.13 billion in September 2026 prices. Original: Estimated NIS 3–4 billion (about $0.8–1.1 billion) for the fence and underground barrier. Completed December 2021. [midpoint of NIS 3–4 billion; years 2017–2021, assumed 2019]"
+},
+"Israel–Gaza perimeter fence|cost_usd_current": {
+"month": "2026-09",
+"value": 1294077448
+},
+"Israel–Gaza perimeter fence|cost_eur_current": {
+"month": "2026-09",
+"value": 1124033026
+},
+"Alliance Avenue interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Alliance Avenue interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Glenbryn Park interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Glenbryn Park interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Brucevale Park interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Brucevale Park interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Alexandra Park interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Alexandra Park interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Rosevale Street interface (north)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Rosevale Street interface (north)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"St Matthews Court interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"St Matthews Court interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Bryson Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Bryson Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"North Howard Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"North Howard Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Lanark Way gate|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Lanark Way gate|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Cupar Way peace wall|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Cupar Way peace wall|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Springfield Road (New Barnsley PSNI station)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Springfield Road (New Barnsley PSNI station)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Duncairn Gardens interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Duncairn Gardens interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Springmartin Road wall|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Springmartin Road wall|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Upper Ballygomartin Road barrier|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Upper Ballygomartin Road barrier|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Moyard Parade barrier (rear)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Moyard Parade barrier (rear)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"New Barnsley Gardens barrier|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"New Barnsley Gardens barrier|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Kashmir Road interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Kashmir Road interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Bombay Street barrier (rear)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Bombay Street barrier (rear)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Beverley Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Beverley Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Townsend Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Townsend Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Workman Avenue gate|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Workman Avenue gate|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Manor Street interface (Rosevale Street west)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Manor Street interface (Rosevale Street west)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Springfield Road interface (lower)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Springfield Road interface (lower)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Kells Avenue interface (Malinmore Park)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Kells Avenue interface (Malinmore Park)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Suffolk Crescent interface (Malinmore Park)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Suffolk Crescent interface (Malinmore Park)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Woodbourne Crescent buffer zone|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Woodbourne Crescent buffer zone|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Horn Drive buffer zone|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Horn Drive buffer zone|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Wolfend Drive barrier (Squires Hill)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Wolfend Drive barrier (Squires Hill)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Crumlin Road interface (Flax Street access)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Crumlin Road interface (Flax Street access)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Flax Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Flax Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Hillview Road interface (Rosehead Drive)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Hillview Road interface (Rosehead Drive)|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Cliftonpark Avenue interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Cliftonpark Avenue interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Alloa Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Alloa Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Kinnaird Close interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Kinnaird Close interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Madrid Street interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Madrid Street interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Belfast City Cemetery interface|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Belfast City Cemetery interface|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Serpentine Gardens peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Serpentine Gardens peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Newington Street peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Newington Street peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Mountainview Parade peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Mountainview Parade peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Longlands Road peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Longlands Road peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Lower Tullyally peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Lower Tullyally peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Dungiven Road peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Dungiven Road peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Corcrain Road peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Corcrain Road peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Bann Boulevard peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Bann Boulevard peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Margretta Park peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Margretta Park peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Torrens peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Torrens peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Roden Street peaceline|cost": {
+"month": "2026-09",
+"text": "≈ $0.96 million / ≈ €0.87 million in September 2026 prices. Original: £220,000 (1984), shared by the Department of the Environment for Northern Ireland and the Northern Ireland Housing Executive (Hansard, 1984)."
+},
+"Roden Street peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Roden Street peaceline|cost_usd_current": {
+"month": "2026-09",
+"value": 953820
+},
+"Roden Street peaceline|cost_eur_current": {
+"month": "2026-09",
+"value": 873556
+},
+"Lower Oldpark / Cliftonville peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Lower Oldpark / Cliftonville peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Ardoyne / Woodvale peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Ardoyne / Woodvale peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Upper West Belfast peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Upper West Belfast peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Short Strand peaceline|cost": {
+"month": "2026-09",
+"text": "Bryson Street wall (on this interface): ≈ $333,000 / ≈ €306,000 in September 2026 prices. Original: £16,000 (Ballif, 2009); year not given, 1970 assumed, when the wall was first built."
+},
+"Short Strand peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Falls and Shankill peaceline|cost": {
+"month": "2026-09",
+"text": "Cupar Street wall (on this interface): ≈ $1.13 million / ≈ €1.03 million in September 2026 prices. Original: about £260,000 (1984), paid by the Department of the Environment for Northern Ireland (Hansard, 1984)."
+},
+"Falls and Shankill peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Falls and Shankill peaceline|cost_usd_current": {
+"month": "2026-09",
+"value": 1126754
+},
+"Falls and Shankill peaceline|cost_eur_current": {
+"month": "2026-09",
+"value": 1032287
+},
+"The Diamond peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"The Diamond peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Henry Street peaceline|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. Context: the 13 peace lines built up to 1994 cost nearly £2 million in total (≈ $7.0 million / ≈ €6.4 million in September 2026 prices, taken at 1994 values, so a minimum) (Department of the Environment data, Murtagh 1994, cited in Ballif, 2009); single walls ranged from £16,000 (≈ $333,000 / ≈ €306,000 in September 2026 prices, built 1970) (Bryson Street) to £750,000 (≈ $3.4 million / ≈ €3.2 million in September 2026 prices, built 1990) (Springmartin Road)."
+},
+"Henry Street peaceline|maintenance_cost": {
+"month": "2026-09",
+"text": "Not published per wall. Context: removal is run by the Department of Justice Interface Programme. The executive office's 2015/16 revenue budget for removing interface barriers was £0.77 million (≈ $1.7 million / ≈ €1.4 million in September 2026 prices), with no capital allocation (Peacewall Archive, n.d.); the International Fund for Ireland Peace Walls Programme had spent over £3.2 million (≈ $7.0 million / ≈ €6.0 million in September 2026 prices) on eight projects by 2015 (Gormley-Heenan, Morrow and Byrne, 2015); the 2015 Fresh Start agreement set aside £60 million (≈ $130.3 million / ≈ €111.0 million in September 2026 prices) for the shared future agenda, including conditions for removing peace walls (Department of Justice, 2015)."
+},
+"Calais port and Coquelles terminal fencing|cost": {
+"month": "2026-09",
+"text": "≈ $15.3 million / ≈ €13.0 million in September 2026 prices. Original: £7 million for fencing at Coquelles, £2 million for a detection upgrade, £1 million for dog searching, £12 million for the juxtaposed border (UK government figures as reported). [£7M fencing at Coquelles, 2015]"
+},
+"Calais port and Coquelles terminal fencing|cost_usd_current": {
+"month": "2026-09",
+"value": 15203070
+},
+"Calais port and Coquelles terminal fencing|cost_eur_current": {
+"month": "2026-09",
+"value": 12945366
+},
+"Latvia–Russia border fence|cost": {
+"month": "2026-09",
+"text": "≈ $196.3 million / ≈ €173.1 million in September 2026 prices. Original: €166 million total (reported Dec 2025), plus €20 million planned for patrol infrastructure [total at completion, Dec 2025]"
+},
+"Latvia–Russia border fence|security_technology": {
+"month": "2026-09",
+"text": "Patrol infrastructure and technology, €20 million planned (≈ $23.6 million / ≈ €20.9 million in September 2026 prices)."
+},
+"Latvia–Russia border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 196315069
+},
+"Latvia–Russia border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 173160695
+},
+"Latvia–Belarus border fence|cost": {
+"month": "2026-09",
+"text": "≈ $145.8 million / ≈ €133.5 million in September 2026 prices. Original: €125.35 million total, including €3.6 million from the EU [total, completed 2024]"
+},
+"Latvia–Belarus border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 145732964
+},
+"Latvia–Belarus border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 133536828
+},
+"Bulgaria–Turkey border fence|cost": {
+"month": "2026-09",
+"text": "≈ $79.4 million / ≈ €68.5 million in September 2026 prices. Original: About 100 million leva (about €51 million) by 2016; later reports approach 170 million leva (about €87 million) [100 million leva by 2016]"
+},
+"Bulgaria–Turkey border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 79402808
+},
+"Bulgaria–Turkey border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 68468156
+},
+"India–Pakistan border fence|cost": {
+"month": "2026-09",
+"text": "≈ $197.3 million / ≈ €157.5 million in September 2026 prices. Original: Rs 2.4 million per km for fencing, about 2,091 km sanctioned (BSF figure, early 2000s)."
+},
+"Slovenia–Croatia border barrier|cost": {
+"month": "2026-09",
+"text": "≈ $36.1 million / ≈ €31.1 million in September 2026 prices. Original: about €23.2 million installation (N1); about €31.5 million total on fences and surveillance, Nov 2015–2020 (Slovenia Times). N1 (2024) gives about €9 million for installation, paid 2015–2018."
+},
+"Slovenia–Croatia border barrier|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $4.2 million / ≈ €3.8 million in September 2026 prices. Original: about €3.6 million (reported, N1; year not given, 2024 assumed). Removal: a four-year €7 million contract for the panel fence (N1, 2024) (≈ $8.2 million / ≈ €7.5 million in September 2026 prices), of which just over €3 million was spent by March 2025 (RTV SLO, 2025) (≈ $3.4 million / ≈ €3.2 million in September 2026 prices). The razor wire is removed by the Slovenian Armed Forces."
+},
+"Pakistan–Afghanistan border barrier|cost": {
+"month": "2026-09",
+"text": "≈ $731.3 million / ≈ €621.4 million in September 2026 prices. Original: $532 million (VOA, 2017); Rs 10 billion for fencing, excluding detection system (The News, 2017)."
+},
+"West Bank barrier (concrete sections)|cost": {
+"month": "2026-09",
+"text": "≈ $4.83 billion / ≈ €4.11 billion in September 2026 prices. Original: About $3.4 billion (2015 estimate); a 2012 estimate gives $2.6 billion for construction. [2015 estimate]"
+},
+"West Bank barrier (concrete sections)|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $403.8 million / ≈ €343.8 million a year in September 2026 prices. Original: About $260–284 million a year (2012 and 2015 estimates). [2015 estimate a year]"
+},
+"West Bank barrier (concrete sections)|cost_usd_current": {
+"month": "2026-09",
+"value": 4833391697
+},
+"West Bank barrier (concrete sections)|cost_eur_current": {
+"month": "2026-09",
+"value": 4115617779
+},
+"West Bank barrier (concrete sections)|maintenance_usd_current": {
+"month": "2026-09",
+"value": 403730365
+},
+"West Bank barrier (concrete sections)|maintenance_eur_current": {
+"month": "2026-09",
+"value": 343775132
+},
+"West Bank barrier (fence sections)|cost": {
+"month": "2026-09",
+"text": "≈ $4.83 billion / ≈ €4.11 billion in September 2026 prices. Original: About $3.4 billion (2015 estimate); a 2012 estimate gives $2.6 billion for construction. [2015 estimate]"
+},
+"West Bank barrier (fence sections)|maintenance_cost": {
+"month": "2026-09",
+"text": "≈ $403.8 million / ≈ €343.8 million a year in September 2026 prices. Original: About $260–284 million a year (2012 and 2015 estimates). [2015 estimate a year]"
+},
+"West Bank barrier (fence sections)|cost_usd_current": {
+"month": "2026-09",
+"value": 4833391697
+},
+"West Bank barrier (fence sections)|cost_eur_current": {
+"month": "2026-09",
+"value": 4115617779
+},
+"West Bank barrier (fence sections)|maintenance_usd_current": {
+"month": "2026-09",
+"value": 403730365
+},
+"West Bank barrier (fence sections)|maintenance_eur_current": {
+"month": "2026-09",
+"value": 343775132
+},
+"Greece–Turkey Evros steel fence extension (Psathades–Kornofolia, 2021–2023)|cost": {
+"month": "2026-09",
+"text": "≈ $118.6 million / ≈ €108.2 million in September 2026 prices. Original: €99.2 million, contract of March 2023 (most sources); one outlet reports €80 million."
+},
+"Greece–Turkey Evros steel fence extension (Psathades–Kornofolia, 2021–2023)|note": {
+"month": "2026-09",
+"text": "Built 2020–2021 walls at Nei Psathades and Kornofolia (Evros report); the 2023 contract extends the fence to 35 km. The DRC note gives 2021 as +27.5 km and eight towers; the figures are not reconciled. A separate 2026 project of 27 km (€62.9 million, ≈ $74.4 million / ≈ €65.6 million in September 2026 prices, treated at 2025 prices) is not this one. The 2026 official notice shows land purchases still under way for the sections listed in the status; it does not say which stretches are complete."
+},
+"Lithuania–Russia (Kaliningrad) border fence|cost": {
+"month": "2026-09",
+"text": "≈ $5.6 million / ≈ €4.8 million in September 2026 prices. Original: €3.6 million (2017) for 45 km (Reuters, 2017)."
+},
+"Lithuania–Russia (Kaliningrad) border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 5585433
+},
+"Lithuania–Russia (Kaliningrad) border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 4751290
+},
+"Beitbridge border fence|cost": {
+"month": "2026-09",
+"text": "≈ $3.2 million / ≈ €2.8 million in September 2026 prices. Original: R40,435,914.98 including VAT, contract about R37 million (Engineering News, 2020) [year 2020]"
+},
+"Beitbridge border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 3198384
+},
+"Beitbridge border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 2749612
+},
+"N2 Edge wall, Cape Town|cost": {
+"month": "2026-09",
+"text": "Planned: ≈ $7.1 million / ≈ €6.5 million in September 2026 prices. A local estimate runs up to ≈ $11.2 million / ≈ €10.2 million. Original: R114 million according to the City (Makwala King, 2026), about $7 million. The budget to 2027/28 shows R7 million for design and R108 million for construction (Luhanga and GroundUp Staff, 2026). The local estimate is up to R180 million (Wanneburg, 2026)."
+},
+"N2 Edge wall, Cape Town|planned_budget": {
+"month": "2026-09",
+"text": "≈ $7.1 million / ≈ €6.5 million in September 2026 prices (R114 million)"
+},
+"India–Myanmar border fence|cost": {
+"month": "2026-09",
+"text": "Planned: ≈ $3.98 billion / ≈ €3.64 billion in September 2026 prices. A parliamentary report gives ≈ $2.60 billion / ≈ €2.39 billion for 1,610 km. Original: Rs 31,000 crore over ten years (in-principle approval, September 2024); Rs 20,264 crore for 1,610 km."
+},
+"India–Myanmar border fence|maintenance_cost": {
+"month": "2026-09",
+"text": "Included for five years in the Rs 20,264 crore figure (≈ $2.60 billion / ≈ €2.39 billion in September 2026 prices)"
+},
+"India–Myanmar border fence|planned_budget": {
+"month": "2026-09",
+"text": "≈ $3.98 billion / ≈ €3.64 billion in September 2026 prices (Rs 31,000 crore)"
+},
+"Thailand–Cambodia border wall (Pong Nam Ron)|cost": {
+"month": "2026-09",
+"text": "Not published for this wall. The military's estimate is 8.66 million baht per km with the patrol road (The Nation, 2025) (≈ $276,000 / ≈ €243,000 in September 2026 prices), which would make about 73 million baht for 8.4 km (own arithmetic) (≈ $2.4 million / ≈ €2.0 million in September 2026 prices)."
+},
+"Israel–Jordan border barrier|cost": {
+"month": "2026-09",
+"text": "Projected: ≈ $1.66 billion / ≈ €1.47 billion in September 2026 prices. Original: NIS 5.5 billion, about $1.71 billion (The New Arab, 2025; Bob, 2026)."
+},
+"US Smart Wall: sections awarded, not started|cost": {
+"month": "2026-09",
+"text": "Provisional: $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme, not these sections alone (Stevenson, 2026)."
+},
+"US Smart Wall: sections awarded, not started|planned_budget": {
+"month": "2026-09",
+"text": "$46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole programme"
+},
+"Kelantan–Thailand border wall (Sungai Golok)|cost": {
+"month": "2026-09",
+"text": "Projected: ≈ $766.8 million / ≈ €702.6 million in September 2026 prices; ≈ $366.4 million / ≈ €323.2 million had been allocated in 2025. Original: RM3.04 billion (Abdullah, 2026); RM1.5 billion allocated in 2025 (The Vibes, 2025)."
+},
+"US Smart Wall: Big Bend sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: Del Rio sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: El Centro sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: El Paso sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: Laredo sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: Rio Grande Valley sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: San Diego sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: Tucson sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"US Smart Wall: Yuma sector|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for this sector alone."
+},
+"Estonia–Russia border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 221318583
+},
+"Estonia–Russia border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 201864743
+},
+"Estonia–Russia border fence|cost": {
+"month": "2026-09",
+"text": "≈ $221.3 million / ≈ €201.9 million in September 2026 prices. Original: €185.1 million for the entire border (Mõttus, 2026). [spending over several years from 2020; 2023 assumed]"
+},
+"Dominican Republic–Haiti border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 80341206
+},
+"Dominican Republic–Haiti border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 73617592
+},
+"Dominican Republic–Haiti border fence|cost": {
+"month": "2026-09",
+"text": "≈ $80.3 million / ≈ €73.6 million spent, of ≈ $131.7 million / ≈ €120.6 million allocated, in September 2026 prices. Original: RD$7,300.7 million allocated for 2022–2026, of which RD$4,455.3 million spent (Delgado, 2026). [2022–2026 spending; midpoint 2024 assumed]"
+},
+"East Shield (Poland)|cost": {
+"month": "2026-09",
+"text": "Projected: ≈ $2.70 billion / ≈ €2.47 billion or ≈ $4.05 billion / ≈ €3.71 billion in September 2026 prices. Original: 10 billion PLN (about $2.7 billion) or 15 billion PLN, as reported in the same source (Romaniuk, 2026). [programme announced 2024]"
+},
+"US Smart Wall: completed sections|cost": {
+"month": "2026-09",
+"text": "Part of $46.5 billion (≈ $48.67 billion / ≈ €44.59 billion in September 2026 prices) for the whole Smart Wall programme; no figure for these sections alone."
+},
+"State of Texas border wall|cost_usd_current": {
+"month": "2026-09",
+"value": 3317409739
+},
+"State of Texas border wall|cost_eur_current": {
+"month": "2026-09",
+"value": 3039781537
+},
+"State of Texas border wall|cost": {
+"month": "2026-09",
+"text": "Over $3.32 billion / over €3.04 billion in September 2026 prices, about $30.9 million per mile. Original: more than $3 billion spent by June 2025, about $28 million per mile (Despart and Serrano, 2025). [spending 2021–2025; 2023 assumed]"
+},
+"Lithuania–Belarus border fence|cost": {
+"month": "2026-09",
+"text": "≈ $184.3 million / ≈ €174.7 million in September 2026 prices. Original: budget of EUR 152 million (EPSO-G, 2022) [year 2022]"
+},
+"Lithuania–Belarus border fence|cost_usd_current": {
+"month": "2026-09",
+"value": 184284482
+},
+"Lithuania–Belarus border fence|cost_eur_current": {
+"month": "2026-09",
+"value": 174749063
+}
+}
