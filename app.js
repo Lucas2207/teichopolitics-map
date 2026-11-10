@@ -712,7 +712,8 @@ function cityPopupHtml(en, meta) {
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
-       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}${["us", "mx"].includes(cityRegion(meta)) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`) : ""}`
+       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}${["us", "mx"].includes(cityRegion(meta)) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`) : ""}
+       ${c.crime ? row("Crime", c.crime) : ""}`
     : row("Census", "No figures found yet for this city; national figures are below");
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
