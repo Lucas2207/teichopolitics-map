@@ -622,6 +622,7 @@ function fitInfoCard() {
 }
 function showInfoCard(html, extraClass) {
   const card = infoCard.getContainer();
+  compareFrom = null;
   infoBody.innerHTML = html;
   card.className = "info-card leaflet-control" + (extraClass ? " " + extraClass : "");
   card.hidden = false;
@@ -630,10 +631,14 @@ function showInfoCard(html, extraClass) {
 }
 function closeInfoCard() {
   infoCard.getContainer().hidden = true;
+  compareFrom = null;
 }
 window.addEventListener("resize", fitInfoCard);
 // Opening or closing a section changes nothing in the card's frame; the content scrolls
-map.on("click", closeInfoCard);
+// While a second city is being chosen, a click on empty map keeps the card open
+map.on("click", () => {
+  if (!compareFrom) closeInfoCard();
+});
 
 // Place names: English, with the native name where known. More appear as you zoom in.
 const nativeNames = document.getElementById("native-names");
@@ -673,78 +678,211 @@ const NATIONAL_REFS = `<li>International Labour Organization, UNODC and UN DESA,
         <li>Central Intelligence Agency (2026) The World Factbook, via factbook.json. Available at: https://github.com/factbook/factbook.json (Accessed: 10 November 2026).</li>`;
 
 // National context on a city card: always labelled, never presented as figures for the city
-function nationalHtml(country, open) {
+function nationalRows(country) {
   const p = labelData.profiles[country];
-  if (!p) return "";
+  if (!p) return [];
   const n = (v) => Number(v).toLocaleString("en");
-  const item = (label, key, show) => (p[key] ? `<dt>${label}</dt><dd>${show(p[key][0])} (${p[key][1]})</dd>` : "");
-  const text = (label, key) => (p[key] ? `<dt>${label}</dt><dd>${p[key]}</dd>` : "");
-  return `<details${open ? " open" : ""}>
+  const item = (label, key, show) => (p[key] ? [[label, `${show(p[key][0])} (${p[key][1]})`]] : []);
+  const text = (label, key) => (p[key] ? [[label, p[key]]] : []);
+  return [
+    ...item("Population", "pop", n),
+    ...item("GDP per person", "gdp", (v) => `US$${n(Math.round(v))}`),
+    ...item("GDP per person, purchasing power", "ppp", (v) => `$${n(Math.round(v))}`),
+    ...item("Unemployment", "unemp", (v) => `${v}% of the labour force`),
+    ...item("Employed", "emp", (v) => `${v}% of people aged 15+`),
+    ...item("Income inequality (Gini)", "gini", (v) => v),
+    ...item("Homicide", "hom", (v) => `${v} per 100,000 people`),
+    ...item("Born abroad", "migr", (v) => `${v}% of residents`),
+    ...item("Net migration", "net", (v) => `${v > 0 ? "+" : ""}${n(v)} people`),
+    ...item("Refugees hosted", "refugees", n),
+    ...item("Asylum seekers", "asylum", n),
+    ...text("Ethnic groups", "ethnic"),
+    ...text("Religions", "religion"),
+    ...text("Languages", "language"),
+  ];
+}
+function nationalHtml(country) {
+  const rows = nationalRows(country);
+  if (!rows.length) return "";
+  return `<details>
       <summary>National figures: ${country} (not specific to this city)</summary>
-      <dl>
-        ${item("Population", "pop", n)}
-        ${item("GDP per person", "gdp", (v) => `US$${n(Math.round(v))}`)}
-        ${item("GDP per person, purchasing power", "ppp", (v) => `$${n(Math.round(v))}`)}
-        ${item("Unemployment", "unemp", (v) => `${v}% of the labour force`)}
-        ${item("Employed", "emp", (v) => `${v}% of people aged 15+`)}
-        ${item("Income inequality (Gini)", "gini", (v) => v)}
-        ${item("Homicide", "hom", (v) => `${v} per 100,000 people`)}
-        ${item("Born abroad", "migr", (v) => `${v}% of residents`)}
-        ${item("Net migration", "net", (v) => `${v > 0 ? "+" : ""}${n(v)} people`)}
-        ${item("Refugees hosted", "refugees", n)}
-        ${item("Asylum seekers", "asylum", n)}
-        ${text("Ethnic groups", "ethnic")}
-        ${text("Religions", "religion")}
-        ${text("Languages", "language")}
-      </dl>
+      <dl>${rows.map(([l, v]) => `<dt>${l}</dt><dd>${v}</dd>`).join("")}</dl>
     </details>`;
 }
 
 // City popup: population and census details, from data/city-census.json where available
-function cityPopupHtml(en, meta) {
+const NOT_FOUND = "Not found yet in the sources checked so far; see the national figures below.";
+const GAZETTEER_REFS = [
+  "GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026).",
+  "Natural Earth (n.d.) Populated places and urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).",
+];
+// What a city card and the comparison both show
+function cityFields(en, meta) {
   let c = (labelData && labelData.census && labelData.census[en]) || null;
   // Records with coordinates only apply to the city of that name within 60 km (several places share a name)
   if (c && c.lat != null && Math.hypot((c.lon - meta.lon) * Math.cos((meta.lat * Math.PI) / 180), c.lat - meta.lat) * 111 > 60) c = null;
   const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (GeoNames or Natural Earth estimate)` : "Not documented";
-  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
-  const NOT_FOUND = "Not found yet in the sources checked so far; see the national figures below.";
   // The census row falls back on the gazetteer estimate; a pre-war warning stays with the figure it qualifies
   const censusValue = c && c.population
     ? `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`
     : `No census figure found yet. Estimate: ${pop}`;
+  return {
+    c,
+    country: meta.country || "Not documented",
+    census: `${censusValue}${c && c.pre_war ? `<br>${c.pre_war}` : ""}`,
+    density: meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)",
+    ethnic: (c && c.ethnic) || NOT_FOUND,
+    language: (c && c.language) || NOT_FOUND,
+    religion: (c && c.religion) || NOT_FOUND,
+    economy: (c && c.economy) || "",
+    crime: (c && c.crime) || NOT_FOUND,
+    cite: (c && c.cite) || "",
+    refs: [...GAZETTEER_REFS, ...((c && c.sources) || [])],
+  };
+}
+
+function cityPopupHtml(en, meta) {
+  const f = cityFields(en, meta);
+  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const fold = (title, content) => `<details>
       <summary>${title}</summary>
       <div class="fiche-text">${content}</div>
     </details>`;
   const region = cityRegion(meta);
-  const income = `${(c && c.economy) || (region ? "" : NOT_FOUND)}${region ? themePickerHtml([region]) : ""}${["us", "mx"].includes(region) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`;
-  const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
+  const income = `${f.economy || (region ? "" : NOT_FOUND)}${region ? themePickerHtml([region]) : ""}${["us", "mx"].includes(region) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`;
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
+    <button type="button" class="compare-btn" data-compare>Compare with another city</button>
     <dl>
-      ${row("Country", meta.country || "Not documented")}
-      ${row("Latest census", `${censusValue}${c && c.pre_war ? `<br>${c.pre_war}` : ""}`)}
-      ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
+      ${row("Country", f.country)}
+      ${row("Latest census", f.census)}
+      ${row("Population density", f.density)}
     </dl>
-    ${fold("Ethnic / national groups", (c && c.ethnic) || NOT_FOUND)}
-    ${fold("Languages", (c && c.language) || NOT_FOUND)}
-    ${fold("Religion", (c && c.religion) || NOT_FOUND)}
+    ${fold("Ethnic / national groups", f.ethnic)}
+    ${fold("Languages", f.language)}
+    ${fold("Religion", f.religion)}
     ${fold("Income and employment", income)}
-    ${fold("Crime", (c && c.crime) || NOT_FOUND)}
+    ${fold("Crime", f.crime)}
     ${en === "Belfast" ? belfastHistoryHtml() : ""}
-    ${nationalHtml(meta.country, !c)}
+    ${nationalHtml(meta.country)}
     <details>
       <summary>References (Harvard)</summary>
-      <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)${c && c.cite ? "; " + c.cite : ""}</p>
+      <p class="cite">In-text: (GeoNames, n.d.; Natural Earth, n.d.)${f.cite ? "; " + f.cite : ""}</p>
       <ol class="refs">
-        <li>GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026).</li>
-        <li>Natural Earth (n.d.) Populated places and urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).</li>
-        ${censusRefs}
+        ${f.refs.map((r) => `<li>${r}</li>`).join("")}
         ${labelData.profiles[meta.country] ? NATIONAL_REFS : ""}
       </ol>
     </details>
   </div>`;
 }
+
+// Comparing two cities: from a city card, type a name or click a city on the map
+let currentCity = null;
+let compareFrom = null; // set while the visitor is choosing the second city
+function showCity(city) {
+  showInfoCard(cityPopupHtml(city.en, city.meta), "city-card");
+  currentCity = city;
+}
+function showComparePicker(from) {
+  showInfoCard(`<div class="fiche">
+    <div class="fiche-title">Compare ${from.en} with…</div>
+    <p class="fiche-text">Type a city's name, or click a city on the map.</p>
+    <input id="compare-input" class="compare-input" type="search" placeholder="City name" aria-label="City to compare with" autocomplete="off">
+    <ul id="compare-list" class="compare-list"></ul>
+    <button type="button" class="compare-btn" data-compare-back>Back to ${from.en}</button>
+  </div>`, "city-card");
+  compareFrom = from;
+  currentCity = from;
+  infoBody.querySelector("#compare-input").focus();
+}
+const plainName = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function listCompareMatches(text) {
+  const q = plainName(text.trim());
+  const list = infoBody.querySelector("#compare-list");
+  if (!list) return;
+  if (!q) { list.innerHTML = ""; return; }
+  const found = [];
+  labelData.places.forEach((p, i) => {
+    const name = plainName(p.en);
+    if (name.includes(q) && !(p.en === compareFrom.en && p.lat === compareFrom.meta.lat)) found.push({ p, i, starts: name.startsWith(q) });
+  });
+  found.sort((a, b) => b.starts - a.starts || (b.p.pop || 0) - (a.p.pop || 0));
+  list.innerHTML = found.length
+    ? found.slice(0, 8).map(({ p, i }) => `<li><button type="button" data-pick="${i}">${p.en}<small>${p.country || ""}</small></button></li>`).join("")
+    : "<li class=\"compare-none\">No city of that name on the map</li>";
+}
+function comparisonHtml(a, b) {
+  const fa = cityFields(a.en, a.meta);
+  const fb = cityFields(b.en, b.meta);
+  const pair = (x, y) => `<div class="cmp-pair"><div>${x}</div><div>${y}</div></div>`;
+  const row = (label, key) => `<dt>${label}</dt><dd>${pair(fa[key], fb[key])}</dd>`;
+  const fold = (title, x, y) => `<details>
+      <summary>${title}</summary>
+      <div class="fiche-text">${pair(x, y)}</div>
+    </details>`;
+  const na = nationalRows(a.meta.country);
+  const nb = nationalRows(b.meta.country);
+  const labels = [...new Set([...na, ...nb].map(([l]) => l))];
+  const val = (rows, l) => (rows.find(([k]) => k === l) || [, "Not available"])[1];
+  const national = labels.length
+    ? `<details>
+      <summary>National figures (not specific to these cities)</summary>
+      <dl>${labels.map((l) => `<dt>${l}</dt><dd>${pair(val(na, l), val(nb, l))}</dd>`).join("")}</dl>
+    </details>`
+    : "";
+  const refs = [...new Set([...fa.refs, ...fb.refs])];
+  const cites = [...new Set(["(GeoNames, n.d.; Natural Earth, n.d.)", fa.cite, fb.cite].filter(Boolean))].join("; ");
+  return `<div class="fiche">
+    <div class="fiche-title">${a.en} and ${b.en}</div>
+    <div class="compare-actions">
+      <button type="button" class="compare-btn" data-compare-change>Change second city</button>
+      <button type="button" class="compare-btn" data-compare-back>Back to ${a.en}</button>
+    </div>
+    <p class="fiche-text">Figures come from different years and national definitions, so compare them with care.</p>
+    <div class="cmp-pair cmp-head"><div>${a.en}</div><div>${b.en}</div></div>
+    <dl>
+      ${row("Country", "country")}
+      ${row("Latest census", "census")}
+      ${row("Population density", "density")}
+    </dl>
+    ${fold("Ethnic / national groups", fa.ethnic, fb.ethnic)}
+    ${fold("Languages", fa.language, fb.language)}
+    ${fold("Religion", fa.religion, fb.religion)}
+    ${fold("Income and employment", fa.economy || NOT_FOUND, fb.economy || NOT_FOUND)}
+    ${fold("Crime", fa.crime, fb.crime)}
+    ${national}
+    <details>
+      <summary>References (Harvard)</summary>
+      <p class="cite">In-text: ${cites}</p>
+      <ol class="refs">${refs.map((r) => `<li>${r}</li>`).join("")}${NATIONAL_REFS}</ol>
+    </details>
+  </div>`;
+}
+function showComparison(a, b) {
+  showInfoCard(comparisonHtml(a, b), "city-card compare-card");
+  currentCity = a;
+}
+infoBody.addEventListener("click", (e) => {
+  const pick = e.target.closest("[data-pick]");
+  // These buttons redraw the card: stop here, or the map sees a click from a removed element and closes it
+  if (e.target.closest("[data-pick], [data-compare], [data-compare-change], [data-compare-back]")) e.stopPropagation();
+  if (pick) {
+    const meta = labelData.places[Number(pick.dataset.pick)];
+    showComparison(compareFrom, { en: meta.en, meta });
+  } else if (e.target.closest("[data-compare]") || e.target.closest("[data-compare-change]")) {
+    showComparePicker(currentCity);
+  } else if (e.target.closest("[data-compare-back]")) {
+    showCity(currentCity);
+  }
+});
+infoBody.addEventListener("input", (e) => {
+  if (e.target.id === "compare-input") listCompareMatches(e.target.value);
+});
+infoBody.addEventListener("keydown", (e) => {
+  if (e.target.id !== "compare-input" || e.key !== "Enter") return;
+  const first = infoBody.querySelector("[data-pick]");
+  if (first) first.click();
+});
 
 function renderLabels() {
   if (!labelData) return;
@@ -769,7 +907,9 @@ function renderLabels() {
       L.marker([lat, lon], { icon: labelIcon(en, native, kind), keyboard: false })
         .on("click", (e) => {
           L.DomEvent.stopPropagation(e);
-          showInfoCard(cityPopupHtml(en, meta), "city-card");
+          const city = { en, meta };
+          if (compareFrom && !(compareFrom.en === en && compareFrom.meta.lat === meta.lat)) showComparison(compareFrom, city);
+          else if (!compareFrom) showCity(city);
         })
         .addTo(labelLayer);
     } else {

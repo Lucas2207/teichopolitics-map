@@ -583,7 +583,7 @@ input:focus-visible {
   scrollbar-width: thin;
   padding: 14px 16px 12px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.7);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -612,11 +612,24 @@ input:focus-visible {
   cursor: pointer;
   z-index: 1;
 }
-:root[data-theme="dark"] .info-card { background: rgba(30, 30, 37, 0.8); color: #ececf1; }
+:root[data-theme="dark"] .info-card { background: rgba(30, 30, 37, 0.7); color: #ececf1; }
 :root[data-theme="dark"] .info-card::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.3); }
 @media (max-width: 700px) {
   .info-card { width: calc(100vw - 40px); }
 }
+/* Comparing two cities */
+.info-card.compare-card { width: min(640px, calc(100vw - 40px)); }
+.compare-btn { margin: 8px 0 2px; padding: 4px 10px; font: inherit; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 4px; cursor: pointer; }
+.compare-btn:hover { border-color: var(--text); }
+.compare-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.compare-input { box-sizing: border-box; width: 100%; padding: 5px 8px; font: inherit; font-size: 16px; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 4px; }
+.compare-list { list-style: none; margin: 4px 0; padding: 0; }
+.compare-list button { display: block; width: 100%; padding: 4px 6px; font: inherit; color: var(--text); text-align: left; background: none; border: 0; border-bottom: 1px solid var(--border); cursor: pointer; }
+.compare-list button:hover { background: var(--bg); }
+.compare-list small { margin-left: 6px; opacity: 0.7; }
+.compare-none { padding: 4px 6px; }
+.cmp-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; overflow-wrap: anywhere; }
+.cmp-head { margin-top: 8px; font-weight: 700; font-size: 13px; }
 
 /* Smaller layer control (top right) */
 .leaflet-control-layers { font-size: 11px; line-height: 1.3; }
