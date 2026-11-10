@@ -661,18 +661,19 @@
   "Siliguri": {
     "lat": 26.71,
     "lon": 88.43,
-    "area_note": "Municipal corporation (urban agglomeration: 701,489)",
+    "area_note": "Siliguri (M Corp.), official census town",
     "census_year": 2011,
     "population": 513264,
     "ethnic": "Scheduled Castes 8.8%, Scheduled Tribes 1.3%. About 32% of residents live in slums (City Development Plan 2041).",
     "language": "First language: Bengali 60.9%, Hindi 25.2%, Nepali 4.7%, Bhojpuri 2.4%, Marwari 1.6%, Urdu 1.2%.",
-    "religion": "Hindu 92.0%, Muslim 5.4%, Christian 0.9%, Buddhist 0.7%.",
+    "religion": "Hindu 92.0%, Muslim 5.4%, Christian 0.9%, Buddhist 0.7%, Not stated 0.6%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Siliguri. Available at: https://en.wikipedia.org/wiki/Siliguri (figures reported there from the 2011 Census of India) (Accessed: 8 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "West Bengal state GDP per person: ₹181,786 (2024–25). Literacy 77.6% (the same page also gives 85.5%)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 85.9% of people aged 7+; workers 36.6% of residents (2011)."
   },
   "Nicosia": {
     "lat": 35.17,
@@ -692,34 +693,37 @@
   "Agartala": {
     "lat": 23.835,
     "lon": 91.28,
-    "area_note": "City, Tripura",
+    "area_note": "Agartala (M Cl), official census town",
     "census_year": 2011,
     "population": 400004,
     "ethnic": "Bengalis, Tripuris and Meiteis; no shares published.",
     "language": "Bengali 90.8%, Kokborok 4.1%, Hindi 2.4%, Meitei 0.8%.",
-    "religion": "Hindu 94.1%, Muslim 4.4%, Christian 1.0%, Buddhist 0.3%.",
+    "religion": "Hindu 94.1%, Muslim 4.4%, Christian 1.0%, Buddhist 0.3%, Not stated 0.2%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11357 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Agartala. Available at: https://en.wikipedia.org/wiki/Agartala (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 86.2% (2011). Unemployment and income not found. Tripura state GDP per person: ₹213,377 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 94.4% of people aged 7+; workers 36.4% of residents (2011)."
   },
   "Raiganj": {
     "lat": 25.613,
     "lon": 88.124,
-    "area_note": "City, Uttar Dinajpur, West Bengal",
+    "area_note": "Raiganj (M), official census town",
     "census_year": 2011,
-    "population": 183682,
+    "population": 183612,
     "ethnic": "Not found in the sources consulted.",
-    "language": "Bengali (shares not published).",
-    "religion": "Hindu 97.4%, Muslim 2.2%, Jain 0.2%.",
+    "language": "Mother tongue in urban Uttar Dinajpur district, 2011: Bengali 79.9%, Hindi 15.1%, Urdu 3.1%, Santali 1.0%.",
+    "religion": "Hindu 97.4%, Muslim 2.2%, Jain 0.2%, Christian 0.1%, Not stated 0.1%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Raiganj. Available at: https://en.wikipedia.org/wiki/Raiganj (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 81.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 81.7% of people aged 7+; workers 32.8% of residents (2011)."
   },
   "Malda": {
     "lat": 25.004,
@@ -740,98 +744,106 @@
   "Balurghat": {
     "lat": 25.221,
     "lon": 88.777,
-    "area_note": "Municipality, Dakshin Dinajpur, West Bengal",
+    "area_note": "Balurghat (M + OG), official census town",
     "census_year": 2011,
     "population": 153279,
     "ethnic": "Not found in the sources consulted.",
     "language": "Bengali 94.4%, Hindi 3.4%, Santali 1.4%.",
-    "religion": "Hindu 98.7%, Muslim 0.5%.",
+    "religion": "Hindu 98.7%, Muslim 0.5%, Christian 0.4%, Not stated 0.3%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Balurghat. Available at: https://en.wikipedia.org/wiki/Balurghat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 91.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 91.1% of people aged 7+; workers 37.9% of residents (2011)."
   },
   "Krishnanagar": {
     "lat": 23.38,
     "lon": 88.53,
-    "area_note": "City (agglomeration 203,429), West Bengal",
+    "area_note": "Krishnanagar (M), official census town",
     "census_year": 2011,
-    "population": 181182,
+    "population": 153062,
     "ethnic": "Not found in the sources consulted.",
     "language": "Bengali 97.5%, Hindi 2.0%, Santali 0.2%.",
-    "religion": "Hindu 90.8%, Christian 6.1%, Muslim 3.0%.",
+    "religion": "Hindu 90.8%, Muslim 6.0%, Christian 3.1%, Not stated 0.1%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Krishnanagar, Nadia. Available at: https://en.wikipedia.org/wiki/Krishnanagar,_Nadia (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 88.1% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 90.4% of people aged 7+; workers 35.9% of residents (2011)."
   },
   "Basirhat City": {
     "lat": 22.661,
     "lon": 88.855,
-    "area_note": "Municipality, North 24 Parganas, West Bengal",
+    "area_note": "Basirhat (M), official census town",
     "census_year": 2011,
     "population": 125254,
     "ethnic": "Scheduled Castes 18.9%, Scheduled Tribes 0.4%.",
     "language": "Bengali 99.8%.",
-    "religion": "Hindu 77.6%, Muslim 22.2%.",
+    "religion": "Hindu 77.6%, Muslim 22.2%, Not stated 0.1%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Basirhat. Available at: https://en.wikipedia.org/wiki/Basirhat (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 87.4% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 87.4% of people aged 7+; workers 34.4% of residents (2011)."
   },
   "Bangaon": {
     "lat": 23.046,
     "lon": 88.831,
-    "area_note": "Town, North 24 Parganas, West Bengal",
+    "area_note": "Bongaon (M), official census town",
     "census_year": 2011,
-    "population": 110668,
+    "population": 108864,
     "ethnic": "Not found in the sources consulted.",
-    "language": "Bengali (shares not published).",
-    "religion": "Not found in the sources consulted.",
+    "language": "Mother tongue in urban North Twenty Four Parganas district, 2011: Bengali 81.3%, Hindi 13.5%, Urdu 4.0%, Odia 0.4%.",
+    "religion": "Hindu 96.7%, Muslim 2.8%, Christian 0.2%, Not stated 0.2%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Bangaon. Available at: https://en.wikipedia.org/wiki/Bangaon (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 90.3% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 89.7% of people aged 7+; workers 36.4% of residents (2011)."
   },
   "Firozpur": {
     "lat": 30.926,
     "lon": 74.613,
-    "area_note": "City, Punjab, on the India–Pakistan border",
+    "area_note": "Firozpur (M Cl), official census town",
     "census_year": 2011,
     "population": 110313,
     "ethnic": "Not found in the sources consulted.",
-    "language": "Punjabi (shares not published).",
-    "religion": "Hindu 70.5%, Sikh 26.3%, Christian 2.4%, Muslim 0.3%.",
+    "language": "Mother tongue in urban Firozpur district, 2011: Punjabi 74.5%, Hindi 23.8%, Marathi 0.4%, Bengali 0.2%.",
+    "religion": "Hindu 70.5%, Sikh 26.3%, Christian 2.3%, Not stated 0.4%, Muslim 0.3%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11353 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10219 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Firozpur. Available at: https://en.wikipedia.org/wiki/Firozpur (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 70.7% (2011). Unemployment and income not found. Punjab state GDP per person: ₹253,317 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 79.1% of people aged 7+; workers 33.8% of residents (2011)."
   },
   "Jalpaiguri": {
     "lat": 26.517,
     "lon": 88.733,
-    "area_note": "City (metro 169,002), West Bengal",
+    "area_note": "Jalpaiguri (M), official census town",
     "census_year": 2011,
     "population": 107341,
     "ethnic": "Not found in the sources consulted.",
     "language": "Bengali 83.3%, Hindi 14.1%, Nepali 2.1%.",
-    "religion": "Hindu 88.2%, Muslim 9.6%, Christian 1.0%, Buddhist 0.5%.",
+    "religion": "Hindu 96.2%, Muslim 2.9%, Christian 0.4%, Buddhist 0.3%, Jain 0.1%. Census 2011.",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Jalpaiguri. Available at: https://en.wikipedia.org/wiki/Jalpaiguri (figures reported there from the 2011 Census of India) (Accessed: 9 November 2026).",
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 86.4% (2011); per capita income ₹193,726 (2024–25). West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
+    "economy": "Literacy 90.6% of people aged 7+; workers 34.7% of residents (2011)."
   },
   "Kishanganj": {
     "lat": 26.102,
@@ -2310,17 +2322,20 @@
   },
   "Jammu": {
     "census_year": 2011,
-    "population": 502197,
-    "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
-    "religion": "Hinduism 81.19%, Sikhism 8.83%, Islam 7.95%, Christianity 1.35%, Others 0.28%.",
-    "area_note": "Religion in Jammu City",
+    "population": 576198,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Jammu district, 2011: Dogri 56.2%, Hindi 15.7%, Kashmiri 11.6%, Punjabi 11.6%.",
+    "religion": "Hindu 81.2%, Sikh 8.8%, Muslim 8.0%, Christian 1.4%, Jain 0.3%. Census 2011.",
+    "area_note": "Jammu (M Corp. + OG), official census town",
     "lat": 32.714,
     "lon": 74.845,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Census of India, 2018; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11340 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10206 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Jammu. Available at: https://en.wikipedia.org/wiki/Jammu (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
-    ]
+    ],
+    "economy": "Literacy 89.0% of people aged 7+; workers 34.6% of residents (2011)."
   },
   "Pretoria": {
     "census_year": 2011,
@@ -2353,18 +2368,21 @@
   "Baramula": {
     "census_year": 2011,
     "population": 71434,
-    "ethnic": "Not documented in the source used.",
-    "language": "Baramulla district (the town's district), 2011: Kashmiri 82.11%, Pahari-Pothwari 9.88%, Gujari 3.72%, Hindi 1.58%, Punjabi 1.26%.",
-    "religion": "Islam 85.28%, Sikhism 8.69%, Hinduism 5.57%, Christianity 0.29%, Not Stated 0.14%, Buddhism 0.03% (2011).",
-    "area_note": "Religion in Baramulla City (2011)",
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Baramula district, 2011: Kashmiri 83.0%, Hindi 8.6%, Punjabi 4.0%, Marathi 0.7%.",
+    "religion": "Muslim 85.3%, Sikh 8.7%, Hindu 5.6%, Christian 0.3%, Not stated 0.1%. Census 2011.",
+    "area_note": "Baramula (M Cl + OG), official census town",
     "lat": 34.2,
     "lon": 74.35,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11340 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10206 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Baramulla. Available at: https://en.wikipedia.org/wiki/Baramulla (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
       "Wikipedia (n.d.) Baramulla. Available at: https://en.wikipedia.org/wiki/Baramulla (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) Baramulla district. Available at: https://en.wikipedia.org/wiki/Baramulla_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "economy": "Literacy 79.6% of people aged 7+; workers 32.7% of residents (2011)."
   },
   "Jashore": {
     "census_year": 2022,
@@ -2554,105 +2572,124 @@
   },
   "Shantipur": {
     "census_year": 2011,
-    "population": 151774,
-    "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
-    "religion": "Hinduism 79.15%, Islam 20.25%, Others 0.42%, No Particular Religion 0.11%, Christian 0.04%, Sikhism 0.02% (2011).",
-    "area_note": "Religions of Shantipur (2011)",
+    "population": 151777,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Nadia district, 2011: Bengali 97.0%, Hindi 2.2%, Santali 0.5%, Odia 0.1%.",
+    "religion": "Hindu 79.2%, Muslim 20.2%, Other 0.4%, Not stated 0.1%. Census 2011.",
+    "area_note": "Santipur (M), official census town",
     "lat": 23.247,
     "lon": 88.433,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Census of India, 2018; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Shantipur. Available at: https://en.wikipedia.org/wiki/Shantipur (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
-    ]
+    ],
+    "economy": "Literacy 80.9% of people aged 7+; workers 47.5% of residents (2011)."
   },
   "Kathua": {
     "census_year": 2011,
     "population": 59866,
-    "ethnic": "Not documented in the source used.",
-    "language": "Kathua district (the town's district), 2011: Dogri 81.92%, Western Pahari 6.94%, Gujari 3.5%, Others 2.74%, Kashmiri 2.01%, Punjabi 1.86%.",
-    "religion": "Hinduism 91.34%, Sikhism 4.75%, Islam 2.68%, Christianity 1.09%, Not Stated 0.13%, Buddhism 0.02% (2011).",
-    "area_note": "Religion in Kathua City (2011)",
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Kathua district, 2011: Dogri 86.2%, Hindi 6.0%, Punjabi 4.8%, Gujarati 1.0%.",
+    "religion": "Hindu 91.3%, Sikh 4.7%, Muslim 2.7%, Christian 1.1%, Not stated 0.1%. Census 2011.",
+    "area_note": "Kathua (M Cl + OG), official census town",
     "lat": 32.369,
     "lon": 75.525,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11340 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10206 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Kathua. Available at: https://en.wikipedia.org/wiki/Kathua (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
       "Wikipedia (n.d.) Kathua. Available at: https://en.wikipedia.org/wiki/Kathua (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) Kathua district. Available at: https://en.wikipedia.org/wiki/Kathua_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "economy": "Literacy 86.5% of people aged 7+; workers 30.0% of residents (2011)."
   },
   "Karimganj": {
     "census_year": 2011,
     "population": 56854,
-    "ethnic": "Not documented in the source used.",
-    "language": "Karimganj District (the town's district), 2011: Bengali 86.84%, Hindi 5.7%, Others 3.81%, Bishnupriya Manipuri 2%, Bhojpuri 1.65%.",
-    "religion": "Hinduism 86.57%, Islam 12.06%, Christianity 0.63%, Jainism 0.62%, Others 0.12% (2011).",
-    "area_note": "Religion in Karimganj Town (2011)",
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Karimganj district, 2011: Bengali 94.1%, Hindi 3.7%, Manipuri 0.6%, Assamese 0.4%.",
+    "religion": "Hindu 86.6%, Muslim 12.1%, Christian 0.6%, Jain 0.6%, Not stated 0.1%. Census 2011.",
+    "area_note": "Karimganj(MB), official census town",
     "lat": 24.869,
     "lon": 92.355,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11329 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10195 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Karimganj. Available at: https://en.wikipedia.org/wiki/Karimganj (Accessed: 9 November 2026). Figures as given there from the national census; read as page text.",
       "Wikipedia (n.d.) Karimganj. Available at: https://en.wikipedia.org/wiki/Karimganj (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) Karimganj District. Available at: https://en.wikipedia.org/wiki/Karimganj_District (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "economy": "Literacy 94.6% of people aged 7+; workers 36.7% of residents (2011)."
   },
   "Gurdaspur": {
-    "census_year": null,
-    "population": null,
-    "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
-    "religion": "Hinduism 68.88%, Sikhism 24.82%, Christianity 5.04%, Others/Unstated 1.26%.",
-    "area_note": "Religion in Gurdaspur city",
+    "census_year": 2011,
+    "population": 77928,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Gurdaspur district, 2011: Punjabi 89.7%, Hindi 6.3%, Dogri 0.8%, Marathi 0.5%.",
+    "religion": "Hindu 68.9%, Sikh 24.8%, Christian 5.0%, Not stated 0.5%, Muslim 0.5%. Census 2011.",
+    "area_note": "Gurdaspur (M Cl + OG), official census town",
     "lat": 32.039,
     "lon": 75.403,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Census of India, 2018; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11353 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10219 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Gurdaspur. Available at: https://en.wikipedia.org/wiki/Gurdaspur (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
-    ]
+    ],
+    "economy": "Literacy 89.6% of people aged 7+; workers 34.1% of residents (2011)."
   },
   "Sri Ganganagar": {
     "census_year": 2011,
     "population": 237780,
-    "ethnic": "Not documented in the source used.",
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Hindi 41.19%, Punjabi 24.75%, Rajasthani 11.48%, Bagri 9.52%, Marwari 6%, Others 5.7% (2011).",
-    "religion": "Hinduism 86.79%, Sikhism 9.49%, Islam 3.05%, Other or not stated 0.67% (2011).",
-    "area_note": "Religion in Sri Ganganagar (2011)",
+    "religion": "Hindu 86.8%, Sikh 9.5%, Muslim 3.1%, Jain 0.3%, Christian 0.2%. Census 2011.",
+    "area_note": "Ganganagar (M Cl + OG), official census town",
     "lat": 29.92,
     "lon": 73.875,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11354 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Sri Ganganagar. Available at: https://en.wikipedia.org/wiki/Sri_Ganganagar (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
-    ]
+    ],
+    "economy": "Literacy 82.3% of people aged 7+; workers 34.8% of residents (2011)."
   },
   "Dhulian": {
-    "census_year": null,
-    "population": null,
-    "ethnic": "Not documented in the source used.",
-    "language": "Not documented in the source used.",
-    "religion": "Islam 78.19%, Hinduism 21.11%, Other or not stated 0.54%, Christianity 0.09%.",
-    "area_note": "Religion in Dhulian",
+    "census_year": 2011,
+    "population": 95706,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Murshidabad district, 2011: Bengali 98.8%, Hindi 0.9%, Urdu 0.1%, Santali 0.1%.",
+    "religion": "Muslim 78.2%, Hindu 21.1%, Jain 0.5%, Christian 0.1%, Not stated 0.1%. Census 2011.",
+    "area_note": "Dhulian (M), official census town",
     "lat": 24.681,
     "lon": 87.954,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Census of India, 2018; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Dhuliyan. Available at: https://en.wikipedia.org/wiki/Dhuliyan (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
-    ]
+    ],
+    "economy": "Literacy 63.0% of people aged 7+; workers 46.4% of residents (2011)."
   },
   "Dhubri": {
-    "census_year": null,
-    "population": null,
-    "ethnic": "Not documented in the source used.",
+    "census_year": 2011,
+    "population": 63388,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Bengali 59%, Assamese 19%, Rabha 11%, Bodo 7%, others 2%, Garo 2% (2011).",
-    "religion": "Islam 73.49%, Hinduism 26.07%, others 0.44% (2011).",
-    "area_note": "Religion in Dhubri Town (2011)",
+    "religion": "Hindu 64.8%, Muslim 33.5%, Jain 1.3%, Christian 0.2%, Not stated 0.1%. Census 2011.",
+    "area_note": "Dhubri(MB), official census town",
     "lat": 26.019,
     "lon": 89.986,
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11329 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Dhubri. Available at: https://en.wikipedia.org/wiki/Dhubri (Accessed: 9 November 2026). Figures as given there from the national census; read as page text."
-    ]
+    ],
+    "economy": "Literacy 86.8% of people aged 7+; workers 34.8% of residents (2011)."
   },
   "Jounieh": {
     "census_year": null,
@@ -3999,13 +4036,17 @@
     "census_year": 2011,
     "population": 75365,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
-    "language": "Not found yet in the sources checked so far; see the national figures below.",
-    "religion": "Nadia district (the town's district), 2011: Other or not stated 0.44%.",
-    "cite": "(Wikipedia, n.d.)",
+    "language": "Mother tongue in urban Nadia district, 2011: Bengali 97.0%, Hindi 2.2%, Santali 0.5%, Odia 0.1%.",
+    "religion": "Hindu 97.2%, Muslim 2.4%, Christian 0.2%, Not stated 0.2%. Census 2011.",
+    "cite": "(Census of India, 2013; Census of India, 2018; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Ranaghat. Available at: https://en.wikipedia.org/wiki/Ranaghat (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) Nadia district. Available at: https://en.wikipedia.org/wiki/Nadia_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "area_note": "Ranaghat (M), official census town",
+    "economy": "Literacy 93.2% of people aged 7+; workers 35.4% of residents (2011)."
   },
   "Naksalbari": {
     "lat": 26.683,
@@ -4027,27 +4068,35 @@
     "census_year": 2011,
     "population": 147221,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
-    "language": "North 24 Parganas district (the town's district), 2011: Bengali 88.91%, Hindi 7.69%, Urdu 2.28%, Others 1.12%.",
-    "religion": "North 24 Parganas district (the town's district), 2011: Hinduism 73.46%, Islam 25.82%, Christianity 0.27%, Irreligion 0.23%, Sikhism 0.09%, Buddhism 0.06%.",
-    "cite": "(Wikipedia, n.d.)",
+    "language": "Mother tongue in urban North Twenty Four Parganas district, 2011: Bengali 81.3%, Hindi 13.5%, Urdu 4.0%, Odia 0.4%.",
+    "religion": "Hindu 98.3%, Muslim 1.4%, Not stated 0.1%, Christian 0.1%. Census 2011.",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Habra. Available at: https://en.wikipedia.org/wiki/Habra (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) North 24 Parganas district. Available at: https://en.wikipedia.org/wiki/North_24_Parganas_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "area_note": "Habra (M), official census town",
+    "economy": "Literacy 90.0% of people aged 7+; workers 36.6% of residents (2011)."
   },
   "Gangarampur": {
     "lat": 25.401,
     "lon": 88.53,
     "census_year": 2011,
-    "population": 56175,
+    "population": 56217,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
-    "language": "Dakshin Dinajpur district (the town's district), 2011: Bengali 84.41%, Santali 9.68%, Others 2.3%, Kurukh 1.31%, Sadri 1.25%, Hindi 1.05%.",
-    "religion": "Dakshin Dinajpur district (the town's district), 2011: Other or not stated 0.34%.",
-    "cite": "(Wikipedia, n.d.)",
+    "language": "Mother tongue in urban Dakshin Dinajpur district, 2011: Bengali 93.4%, Hindi 3.8%, Santali 2.2%, Munda 0.2%.",
+    "religion": "Hindu 94.3%, Christian 3.7%, Muslim 1.8%, Jain 0.1%. Census 2011.",
+    "cite": "(Census of India, 2013; Wikipedia, n.d.)",
     "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Gangarampur. Available at: https://en.wikipedia.org/wiki/Gangarampur (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) Dakshin Dinajpur district. Available at: https://en.wikipedia.org/wiki/Dakshin_Dinajpur_district (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "area_note": "Gangarampur (M), official census town",
+    "economy": "Literacy 84.6% of people aged 7+; workers 37.2% of residents (2011)."
   },
   "Faqirwali": {
     "lat": 29.468,
@@ -4342,5 +4391,153 @@
       "Pakistan Bureau of Statistics (2024) 7th Population and Housing Census 2023: detailed results, tables 9 and 11 by tehsil. Available at: https://pbs.gov.pk/result-excel/ (Accessed: 10 November 2026)."
     ],
     "cite": "(PBS, 2024)"
+  },
+  "Ashoknagar Kalyangarh": {
+    "lat": 22.864,
+    "lon": 88.637,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban North Twenty Four Parganas district, 2011: Bengali 81.3%, Hindi 13.5%, Urdu 4.0%, Odia 0.4%.",
+    "religion": "Hindu 97.2%, Muslim 2.5%, Christian 0.2%, Not stated 0.1%. Census 2011.",
+    "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Census of India, 2013; Census of India, 2018)",
+    "census_year": 2011,
+    "population": 121592,
+    "area_note": "Ashokenagar Kalyangarh (M), official census town",
+    "economy": "Literacy 92.0% of people aged 7+; workers 35.1% of residents (2011)."
+  },
+  "Jangipur": {
+    "lat": 24.47,
+    "lon": 88.077,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Murshidabad district, 2011: Bengali 98.8%, Hindi 0.9%, Urdu 0.1%, Santali 0.1%.",
+    "religion": "Muslim 61.8%, Hindu 37.9%, Jain 0.1%, Christian 0.1%, Not stated 0.1%. Census 2011.",
+    "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Census of India, 2013; Census of India, 2018)",
+    "census_year": 2011,
+    "population": 88165,
+    "area_note": "Jangipur (M), official census town",
+    "economy": "Literacy 79.2% of people aged 7+; workers 43.0% of residents (2011)."
+  },
+  "Koch Bihar": {
+    "lat": 26.325,
+    "lon": 89.445,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Koch Bihar district, 2011: Bengali 90.8%, Hindi 8.4%, Nepali 0.4%, Santali 0.1%.",
+    "religion": "Hindu 90.2%, Muslim 8.1%, Jain 0.6%, Not stated 0.5%, Buddhist 0.3%. Census 2011.",
+    "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Census of India, 2013; Census of India, 2018)",
+    "census_year": 2011,
+    "population": 77935,
+    "area_note": "Koch Bihar (M), official census town",
+    "economy": "Literacy 92.2% of people aged 7+; workers 35.2% of residents (2011)."
+  },
+  "Islampur": {
+    "lat": 26.265,
+    "lon": 88.19,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Uttar Dinajpur district, 2011: Bengali 79.9%, Hindi 15.1%, Urdu 3.1%, Santali 1.0%.",
+    "religion": "Hindu 67.6%, Muslim 31.3%, Jain 0.4%, Christian 0.4%, Not stated 0.2%. Census 2011.",
+    "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Census of India, 2013; Census of India, 2018)",
+    "census_year": 2011,
+    "population": 54340,
+    "area_note": "Islampur (M), official census town",
+    "economy": "Literacy 80.7% of people aged 7+; workers 32.2% of residents (2011)."
+  },
+  "Kaliyaganj": {
+    "lat": 25.634,
+    "lon": 88.327,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Uttar Dinajpur district, 2011: Bengali 79.9%, Hindi 15.1%, Urdu 3.1%, Santali 1.0%.",
+    "religion": "Hindu 95.3%, Muslim 4.4%, Not stated 0.1%, Christian 0.1%. Census 2011.",
+    "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11360 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10226 (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Census of India, 2013; Census of India, 2018)",
+    "census_year": 2011,
+    "population": 53530,
+    "area_note": "Kaliaganj (M), official census town",
+    "economy": "Literacy 86.0% of people aged 7+; workers 36.4% of residents (2011)."
+  },
+  "Fazilka": {
+    "lat": 30.402,
+    "lon": 74.028,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Mother tongue in urban Firozpur district, 2011: Punjabi 74.5%, Hindi 23.8%, Marathi 0.4%, Bengali 0.2%.",
+    "religion": "Hindu 85.0%, Sikh 13.3%, Christian 0.9%, Muslim 0.5%, Jain 0.3%. Census 2011.",
+    "sources": [
+      "Office of the Registrar General and Census Commissioner, India (2013) Census of India 2011: Primary Census Abstract by religion (PCA REL), town level. Available at: https://censusindia.gov.in/nada/index.php/catalog/11353 (Accessed: 10 November 2026).",
+      "Office of the Registrar General and Census Commissioner, India (2018) Census of India 2011: C-16 Population by mother tongue, district level. Available at: https://censusindia.gov.in/nada/index.php/catalog/10219 (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Census of India, 2013; Census of India, 2018)",
+    "census_year": 2011,
+    "population": 76492,
+    "area_note": "Fazilka (M Cl), official census town",
+    "economy": "Literacy 79.5% of people aged 7+; workers 33.1% of residents (2011)."
+  },
+  "Rangpur": {
+    "lat": 25.75,
+    "lon": 89.28,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Rangpur District, census 2022: Muslim 90.6%, Hindu 9.0%, Christian 0.3%, Other Religion 0.1%.",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Rangpur District, citing Bangladesh Bureau of Statistics (census 2022). Available at: https://www.citypopulation.de/en/bangladesh/div/admin/rangpur/85__rangpur/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing BBS)",
+    "census_year": null,
+    "population": null
+  },
+  "Feni": {
+    "lat": 23.014,
+    "lon": 91.397,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Feni District, census 2022: Muslim 94.4%, Hindu 5.5%.",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Feni District, citing Bangladesh Bureau of Statistics (census 2022). Available at: https://www.citypopulation.de/en/bangladesh/div/admin/chittagong/30__feni/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing BBS)",
+    "census_year": null,
+    "population": null
+  },
+  "Maulavi Bazar": {
+    "lat": 24.489,
+    "lon": 91.771,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Maulvi Bazar District, census 2022: Muslim 74.7%, Hindu 24.5%, Christian 0.8%.",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Maulvi Bazar District, citing Bangladesh Bureau of Statistics (census 2022). Available at: https://www.citypopulation.de/en/bangladesh/div/admin/sylhet/58__maulvi_bazar/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing BBS)",
+    "census_year": null,
+    "population": null
+  },
+  "Ashuganj City": {
+    "lat": 24.04,
+    "lon": 91.012,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Brahmanbaria District, census 2022: Muslim 93.3%, Hindu 6.7%.",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Brahmanbaria District, citing Bangladesh Bureau of Statistics (census 2022). Available at: https://www.citypopulation.de/en/bangladesh/div/admin/chittagong/12__brahmanbaria/ (Accessed: 10 November 2026)."
+    ],
+    "cite": "(Brinkhoff, 2026, citing BBS)",
+    "census_year": null,
+    "population": null
   }
 }
