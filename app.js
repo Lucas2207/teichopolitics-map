@@ -707,23 +707,30 @@ function cityPopupHtml(en, meta) {
   if (c && c.lat != null && Math.hypot((c.lon - meta.lon) * Math.cos((meta.lat * Math.PI) / 180), c.lat - meta.lat) * 111 > 60) c = null;
   const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (GeoNames or Natural Earth estimate)` : "Not documented";
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
-  const census = c
-    ? `${c.pre_war ? row("Pre-war data", c.pre_war) : ""}${c.population ? row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`) : ""}
-       ${row("Ethnic / national groups", c.ethnic || "Not documented")}
-       ${row("Languages", c.language || "Not documented")}
-       ${row("Religion", c.religion || "Not documented")}
-       ${c.economy || cityRegion(meta) ? row("Income and employment", `${c.economy || ""}${cityRegion(meta) ? themePickerHtml([cityRegion(meta)]) : ""}${["us", "mx"].includes(cityRegion(meta)) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`) : ""}
-       ${c.crime ? row("Crime", c.crime) : ""}`
-    : row("Census", "No figures found yet for this city; national figures are below");
+  const NOT_FOUND = "Not found yet in the sources checked so far; see the national figures below.";
+  // The census row falls back on the gazetteer estimate; a pre-war warning stays with the figure it qualifies
+  const censusValue = c && c.population
+    ? `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`
+    : `No census figure found yet. Estimate: ${pop}`;
+  const fold = (title, content) => `<details>
+      <summary>${title}</summary>
+      <div class="fiche-text">${content}</div>
+    </details>`;
+  const region = cityRegion(meta);
+  const income = `${(c && c.economy) || (region ? "" : NOT_FOUND)}${region ? themePickerHtml([region]) : ""}${["us", "mx"].includes(region) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`;
   const censusRefs = c && c.sources ? c.sources.map((s) => `<li>${s}</li>`).join("") : "";
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
     <dl>
       ${row("Country", meta.country || "Not documented")}
-      ${c && c.population ? "" : row("Population", pop)}
+      ${row("Latest census", `${censusValue}${c && c.pre_war ? `<br>${c.pre_war}` : ""}`)}
       ${row("Population density", meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)")}
-      ${census}
     </dl>
+    ${fold("Ethnic / national groups", (c && c.ethnic) || NOT_FOUND)}
+    ${fold("Languages", (c && c.language) || NOT_FOUND)}
+    ${fold("Religion", (c && c.religion) || NOT_FOUND)}
+    ${fold("Income and employment", income)}
+    ${fold("Crime", (c && c.crime) || NOT_FOUND)}
     ${en === "Belfast" ? belfastHistoryHtml() : ""}
     ${nationalHtml(meta.country, !c)}
     <details>
