@@ -1214,7 +1214,8 @@
       "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
-    "economy": "Unemployment and income by city not found."
+    "economy": "Unemployment and income by city not found.",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Jabalya": {
     "lat": 31.527,
@@ -1230,7 +1231,8 @@
       "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
-    "economy": "Unemployment and income by city not found."
+    "economy": "Unemployment and income by city not found.",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Khan Yunis": {
     "lat": 31.34,
@@ -1246,7 +1248,8 @@
       "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
-    "economy": "Unemployment and income by city not found."
+    "economy": "Unemployment and income by city not found.",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Rafah": {
     "lat": 31.297,
@@ -1262,7 +1265,8 @@
       "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
-    "economy": "Unemployment and income by city not found."
+    "economy": "Unemployment and income by city not found.",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Hebron": {
     "lat": 31.529,
@@ -2147,7 +2151,8 @@
     "sources": [
       "Wikipedia (n.d.) Qamishli. Available at: https://en.wikipedia.org/wiki/Qamishli (figures reported there from the Syrian Central Bureau of Statistics) (Accessed: 9 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting the Syrian Central Bureau of Statistics)"
+    "cite": "(Wikipedia, n.d., reporting the Syrian Central Bureau of Statistics)",
+    "pre_war": "The census and population figures on this card date from before the war in Syria that began in 2011."
   },
   "'Ajlun": {
     "lat": 32.333,
@@ -2250,7 +2255,8 @@
       "OCHA (2026) Humanitarian situation update #355: Gaza Strip, 28 January. Available at: https://www.ochaopt.org/content/humanitarian-situation-update-355-gaza-strip (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Palestinian Central Bureau of Statistics, 2017 census); (OCHA, 2026)",
-    "economy": "Unemployment and income by city not found."
+    "economy": "Unemployment and income by city not found.",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Newcastle": {
     "lat": 55.002,
@@ -3407,126 +3413,151 @@
     "lon": 34.349,
     "census_year": 2017,
     "population": 75132,
-    "ethnic": "Palestinian; the city and adjacent camp hold many refugee families from 1948 (no 2017 share found).",
+    "ethnic": "Palestinian. Refugees are 86.2% of Deir al-Balah Governorate's Palestinian population (2017 census).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Overwhelmingly Muslim; no shares for the 2017 census in the sources found.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PCBS, 2018; WAFA, n.d.; Wikipedia, n.d.)",
     "sources": [
+      "Palestinian Central Bureau of Statistics (2018) Population, Housing and Establishments Census 2017: Census Final Results, Summary. Ramallah: PCBS. Available at: https://www.pcbs.gov.ps/Downloads/book2383.pdf (Accessed: 10 November 2026). Tables 7 and 29.",
+      "WAFA Palestinian National Information Centre (n.d.) البطالة في فلسطين [Unemployment in Palestine], citing PCBS Labour Force Survey annual report 2024. Available at: https://info.wafa.ps/pages/details/32066 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Deir al-Balah. Available at: https://en.wikipedia.org/wiki/Deir_al-Balah (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "PCBS census 2017"
+    "area_note": "Deir al-Balah city before the war, final census results; the adjacent camp held 6,985",
+    "economy": "Gaza Strip unemployment 68% in 2024 (no governorate figure found yet).",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Bayt Lahya": {
     "lat": 31.546,
     "lon": 34.495,
     "census_year": 2017,
     "population": 89838,
-    "ethnic": "Palestinian; no breakdown published in the sources found.",
+    "ethnic": "Palestinian. Refugees are 71.7% of North Gaza Governorate's Palestinian population (2017 census).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PCBS, 2018; WAFA, n.d.; Wikipedia, n.d.)",
     "sources": [
+      "Palestinian Central Bureau of Statistics (2018) Population, Housing and Establishments Census 2017: Census Final Results, Summary. Ramallah: PCBS. Available at: https://www.pcbs.gov.ps/Downloads/book2383.pdf (Accessed: 10 November 2026). Tables 7 and 29.",
+      "WAFA Palestinian National Information Centre (n.d.) البطالة في فلسطين [Unemployment in Palestine], citing PCBS Labour Force Survey annual report 2024. Available at: https://info.wafa.ps/pages/details/32066 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Beit Lahia. Available at: https://en.wikipedia.org/wiki/Beit_Lahia (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "PCBS census 2017"
+    "area_note": "Beit Lahiya before the war, final census results",
+    "economy": "Gaza Strip unemployment 68% in 2024 (no governorate figure found yet).",
+    "pre_war": "The census and population figures on this card date from before the war in Gaza that began in October 2023."
   },
   "Battir": {
     "lat": 31.7,
     "lon": 35.117,
     "census_year": 2017,
     "population": 4696,
-    "ethnic": "Palestinian village in the Bethlehem Governorate.",
+    "ethnic": "Palestinian village. Refugees are 26.5% of Bethlehem Governorate's Palestinian population (2017 census).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PCBS, 2018; WAFA, n.d.; Wikipedia, n.d.)",
     "sources": [
+      "Palestinian Central Bureau of Statistics (2018) Population, Housing and Establishments Census 2017: Census Final Results, Summary. Ramallah: PCBS. Available at: https://www.pcbs.gov.ps/Downloads/book2383.pdf (Accessed: 10 November 2026). Tables 7 and 29.",
+      "WAFA Palestinian National Information Centre (n.d.) البطالة في فلسطين [Unemployment in Palestine], citing PCBS Labour Force Survey annual report 2024. Available at: https://info.wafa.ps/pages/details/32066 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Battir. Available at: https://en.wikipedia.org/wiki/Battir (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "PCBS census 2017"
+    "area_note": "Battir village, final census results",
+    "economy": "Bethlehem Governorate unemployment 40.2% in 2024 (West Bank 31.4%)."
   },
   "Ramallah": {
     "lat": 31.903,
     "lon": 35.206,
-    "census_year": null,
-    "population": null,
-    "ethnic": "Palestinian.",
+    "census_year": 2017,
+    "population": 38998,
+    "ethnic": "Palestinian. Refugees are 28.0% of Ramallah and Al-Bireh Governorate's Palestinian population (2017 census).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Sources vary on the Christian share, around 25%; it was a Christian majority town until the mid-20th century.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(PCBS, 2018; WAFA, n.d.; Wikipedia, n.d.)",
     "sources": [
+      "Palestinian Central Bureau of Statistics (2018) Population, Housing and Establishments Census 2017: Census Final Results, Summary. Ramallah: PCBS. Available at: https://www.pcbs.gov.ps/Downloads/book2383.pdf (Accessed: 10 November 2026). Tables 7 and 29.",
+      "WAFA Palestinian National Information Centre (n.d.) البطالة في فلسطين [Unemployment in Palestine], citing PCBS Labour Force Survey annual report 2024. Available at: https://info.wafa.ps/pages/details/32066 (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Ramallah. Available at: https://en.wikipedia.org/wiki/Ramallah (Accessed: 10 November 2026). Figures as given there from the national statistics office."
-    ]
+    ],
+    "area_note": "Ramallah city, final census results",
+    "economy": "West Bank unemployment 31.4% in 2024 (no figure for this governorate found yet)."
   },
   "Irbid": {
     "lat": 32.55,
     "lon": 35.85,
     "census_year": 2025,
-    "population": 569068,
+    "population": 627771,
     "ethnic": "Grew in peaks in 1948, 1967 and 2011 with refugee arrivals. Irbid Governorate had 1.77 million residents at the 2015 census.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.; Ghazal, 2016)",
+    "cite": "(DoS, 2016; DoS, 2026; Ghazal, 2016; Wikipedia, n.d.)",
     "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Irbid. Available at: https://en.wikipedia.org/wiki/Irbid (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Ghazal, M. (2016) 'Irbid most densely populated area in Jordan — census', The Jordan Times. Available at: https://www.jordantimes.com/news/local/irbid-most-densely-populated-area-jordan-%E2%80%94-census (read in search extract)."
     ],
-    "area_note": "City estimate"
+    "area_note": "Irbid locality, official estimate for end 2025; 502,714 at the 2015 census"
   },
   "As Salt": {
     "lat": 32.039,
     "lon": 35.727,
-    "census_year": 2018,
-    "population": 107874,
+    "census_year": 2025,
+    "population": 124731,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(DoS, 2016; DoS, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) As-Salt. Available at: https://en.wikipedia.org/wiki/As-Salt (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "City estimate"
+    "area_note": "Salt locality, official estimate for end 2025; 99,890 at the 2015 census"
   },
   "Madaba": {
     "lat": 31.716,
     "lon": 35.794,
-    "census_year": 2011,
-    "population": 84600,
+    "census_year": 2025,
+    "population": 131535,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Muslim majority with a long-established Arab Christian community, resettled from Al Karak in 1880 (no shares found).",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(DoS, 2016; DoS, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Madaba. Available at: https://en.wikipedia.org/wiki/Madaba (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "City estimate"
+    "area_note": "Madaba locality, official estimate for end 2025; 105,353 at the 2015 census"
   },
   "Aqaba": {
     "lat": 29.527,
     "lon": 35.008,
-    "census_year": 2021,
-    "population": 95048,
+    "census_year": 2025,
+    "population": 201739,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Muslim majority; about 5,000 Christian families are reported.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(DoS, 2016; DoS, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Aqaba. Available at: https://en.wikipedia.org/wiki/Aqaba (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "City estimate"
+    "area_note": "Aqaba locality, official estimate for end 2025; 148,398 at the 2015 census"
   },
   "Suwaylih": {
     "lat": 32.022,
     "lon": 35.844,
-    "census_year": 2015,
-    "population": 151016,
+    "census_year": 2025,
+    "population": 188589,
     "ethnic": "Founded in 1906 by Circassian and Chechen settlers; no current breakdown found.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(DoS, 2016; DoS, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Sweileh area. Available at: https://en.wikipedia.org/wiki/Sweileh_area (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "Sweileh area, 2015 census"
+    "area_note": "Sweileh locality, official estimate for end 2025; 151,016 at the 2015 census"
   },
   "Manbij": {
     "lat": 36.527,
@@ -3536,11 +3567,13 @@
     "ethnic": "Largely Arab, with Kurdish, Turkmen, Circassian and Chechen minorities (no shares).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(CBS Syria, 2004; Wikipedia, n.d.)",
     "sources": [
+      "Central Bureau of Statistics (Syria) (2004) General Census of Population and Housing 2004: results by city and village, Aleppo Governorate. Damascus: CBS. Archived at: https://web.archive.org/web/2015/http://www.cbssyr.sy/new%20web%20site/General_census/census_2004/NH/TAB02-28-2004.htm (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Manbij. Available at: https://en.wikipedia.org/wiki/Manbij (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "Last census before the war"
+    "area_note": "Official 2004 census, the last before the war; the population has changed greatly since",
+    "pre_war": "The census and population figures on this card date from before the war in Syria that began in 2011."
   },
   "Idlib": {
     "lat": 35.93,
@@ -3554,7 +3587,8 @@
     "sources": [
       "Wikipedia (n.d.) Idlib. Available at: https://en.wikipedia.org/wiki/Idlib (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "Pre-war estimate"
+    "area_note": "Pre-war estimate",
+    "pre_war": "The census and population figures on this card date from before the war in Syria that began in 2011."
   },
   "Kabbasin": {
     "lat": 36.433,
@@ -3564,11 +3598,13 @@
     "ethnic": "Turkmen and Arab inhabitants (no shares).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(CBS Syria, 2004; Wikipedia, n.d.)",
     "sources": [
+      "Central Bureau of Statistics (Syria) (2004) General Census of Population and Housing 2004: results by city and village, Aleppo Governorate. Damascus: CBS. Archived at: https://web.archive.org/web/2015/http://www.cbssyr.sy/new%20web%20site/General_census/census_2004/NH/TAB02-8-2004.htm (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Qabasin. Available at: https://en.wikipedia.org/wiki/Qabasin (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "Last census before the war"
+    "area_note": "Official 2004 census, the last before the war; the population has changed greatly since",
+    "pre_war": "The census and population figures on this card date from before the war in Syria that began in 2011."
   },
   "'Ayn al 'Arab": {
     "lat": 36.891,
@@ -3578,11 +3614,13 @@
     "ethnic": "Kurdish majority, with Arab, Turkmen and Armenian minorities (2013 estimates).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(CBS Syria, 2004; Wikipedia, n.d.)",
     "sources": [
+      "Central Bureau of Statistics (Syria) (2004) General Census of Population and Housing 2004: results by city and village, Aleppo Governorate. Damascus: CBS. Archived at: https://web.archive.org/web/2015/http://www.cbssyr.sy/new%20web%20site/General_census/census_2004/NH/TAB02-32-2004.htm (Accessed: 10 November 2026).",
       "Wikipedia (n.d.) Kobani. Available at: https://en.wikipedia.org/wiki/Kobani (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "Last census before the war; about 70% of the town was reported destroyed in the war"
+    "area_note": "Official 2004 census, the last before the war; the population has changed greatly since; about 70% of the town was reported destroyed",
+    "pre_war": "The census and population figures on this card date from before the war in Syria that began in 2011."
   },
   "Antakya": {
     "lat": 36.233,
@@ -3990,6 +4028,51 @@
     "sources": [
       "Wikipedia (n.d.) Faqirwali. Available at: https://en.wikipedia.org/wiki/Faqirwali (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
       "Wikipedia (n.d.) Bahawalpur District. Available at: https://en.wikipedia.org/wiki/Bahawalpur_District (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+    ]
+  },
+  "Ar Ramtha": {
+    "lat": 32.559,
+    "lon": 36.008,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2025,
+    "population": 194421,
+    "area_note": "Ramtha locality, official estimate for end 2025; 155,693 at the 2015 census",
+    "cite": "(DoS, 2016; DoS, 2026)",
+    "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026)."
+    ]
+  },
+  "Wadi as Sir": {
+    "lat": 31.954,
+    "lon": 35.818,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2025,
+    "population": 301997,
+    "area_note": "Wadi as-Seer locality, official estimate for end 2025; 241,830 at the 2015 census",
+    "cite": "(DoS, 2016; DoS, 2026)",
+    "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026)."
+    ]
+  },
+  "Hayy Khilda": {
+    "lat": 31.992,
+    "lon": 35.84,
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2025,
+    "population": 313450,
+    "area_note": "Tla'a Al-Ali, Khalda and neighbouring localities combined, official estimate for end 2025",
+    "cite": "(DoS, 2026)",
+    "sources": [
+      "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
+      "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026)."
     ]
   }
 }

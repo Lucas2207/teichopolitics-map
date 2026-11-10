@@ -708,7 +708,7 @@ function cityPopupHtml(en, meta) {
   const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (GeoNames or Natural Earth estimate)` : "Not documented";
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   const census = c
-    ? `${c.population ? row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`) : ""}
+    ? `${c.pre_war ? row("Pre-war data", c.pre_war) : ""}${c.population ? row("Latest census", `${c.census_year}: ${Number(c.population).toLocaleString("en")}${c.area_note ? ` (${c.area_note})` : ""}`) : ""}
        ${row("Ethnic / national groups", c.ethnic || "Not documented")}
        ${row("Languages", c.language || "Not documented")}
        ${row("Religion", c.religion || "Not documented")}
