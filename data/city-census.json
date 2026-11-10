@@ -645,9 +645,13 @@
     "language": "Not documented in the source used.",
     "religion": "Orthodox, Catholic, Jewish and other communities; no shares published in the source used.",
     "sources": [
-      "Wikipedia (n.d.) Брест (Белоруссия). Available at: https://ru.wikipedia.org/wiki/Брест_(Белоруссия) (figures reported there from Belstat, 2019 census) (Accessed: 8 November 2026)."
+      "Wikipedia (n.d.) Брест (Белоруссия). Available at: https://ru.wikipedia.org/wiki/Брест_(Белоруссия) (figures reported there from Belstat, 2019 census) (Accessed: 8 November 2026).",
+      "National Statistical Committee of the Republic of Belarus (2026) Main socio-economic indicators by region. Available at: https://www.belstat.gov.by/upload-belstat/upload-belstat-excel/Oficial_statistika/2026/osep_obl_2609-.xlsx (Accessed: 10 November 2026).",
+      "Nasha Niva (2026) [crime per 100,000 by region, reporting the newspaper Na Strazhe]. Available at: https://nashaniva.com/ru/386991 (Accessed: 10 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting Belstat 2019)"
+    "cite": "(Wikipedia, n.d., reporting Belstat 2019; Belstat, 2026; Nasha Niva, 2026)",
+    "economy": "Average monthly gross wage in Brest Region: 2,633 roubles, January to August 2026 (national 2,982.8).",
+    "crime": "Brest Region: 585 recorded crimes per 100,000 people in 2025, the lowest region (national about 700), as reported in the interior ministry's newspaper Na Strazhe."
   },
   "Siliguri": {
     "lat": 26.71,
@@ -2178,9 +2182,11 @@
     "language": "Not found in the sources consulted.",
     "religion": "Orthodox and Catholic, with one of the largest Catholic concentrations in Belarus (no shares published).",
     "sources": [
-      "Wikipedia (n.d.) Grodno. Available at: https://en.wikipedia.org/wiki/Grodno (figures reported there from Belstat) (Accessed: 9 November 2026)."
+      "Wikipedia (n.d.) Grodno. Available at: https://en.wikipedia.org/wiki/Grodno (figures reported there from Belstat) (Accessed: 9 November 2026).",
+      "National Statistical Committee of the Republic of Belarus (2026) Main socio-economic indicators by region. Available at: https://www.belstat.gov.by/upload-belstat/upload-belstat-excel/Oficial_statistika/2026/osep_obl_2609-.xlsx (Accessed: 10 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d., reporting Belstat)"
+    "cite": "(Wikipedia, n.d., reporting Belstat; Belstat, 2026)",
+    "economy": "Average monthly gross wage in Grodno Region: 2,670.9 roubles, January to August 2026 (national 2,982.8)."
   },
   "Sialkote": {
     "lat": 32.52,
@@ -3625,44 +3631,48 @@
   "Antakya": {
     "lat": 36.233,
     "lon": 36.117,
-    "census_year": 2022,
-    "population": 399045,
+    "census_year": 2025,
+    "population": 301855,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(TÜİK, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Türkiye İstatistik Kurumu (2026) Adrese Dayalı Nüfus Kayıt Sistemi sonuçları, 2025, as tabulated in Vikipedi (n.d.) Hatay (il). Available at: https://tr.wikipedia.org/wiki/Hatay_(il) (Accessed: 10 November 2026). The institute's own table could not be opened.",
       "Wikipedia (n.d.) Antakya. Available at: https://en.wikipedia.org/wiki/Antakya (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "District, before the 2023 earthquakes"
+    "area_note": "District, official register at the end of 2025; 399,045 in 2022, before the 2023 earthquakes"
   },
   "Samandag": {
     "lat": 36.08,
     "lon": 35.976,
-    "census_year": 2022,
-    "population": 165494,
-    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "census_year": 2025,
+    "population": 122952,
+    "ethnic": "Arab majority, with Armenian and Turkmen communities (no shares; Turkish statistics do not publish ethnicity).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
-    "religion": "Historically an Alawite town (no current shares).",
-    "cite": "(Wikipedia, n.d.)",
+    "religion": "Mostly Nusayri (Alawite) Arabs, with Sunni and Christian communities (no shares).",
+    "cite": "(TÜİK, 2026; Wikipedia, n.d.)",
     "sources": [
-      "Wikipedia (n.d.) Samandağ. Available at: https://en.wikipedia.org/wiki/Samandağ (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+      "Türkiye İstatistik Kurumu (2026) Adrese Dayalı Nüfus Kayıt Sistemi sonuçları, 2025, as tabulated in Vikipedi (n.d.) Hatay (il). Available at: https://tr.wikipedia.org/wiki/Hatay_(il) (Accessed: 10 November 2026). The institute's own table could not be opened.",
+      "Wikipedia (n.d.) Samandağ. Available at: https://en.wikipedia.org/wiki/Samandağ (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Vikipedi (n.d.) Samandağ. Available at: https://tr.wikipedia.org/wiki/Samandağ (Accessed: 10 November 2026)."
     ],
-    "area_note": "District"
+    "area_note": "District, official register at the end of 2025"
   },
   "Reyhanli": {
     "lat": 36.268,
     "lon": 36.567,
-    "census_year": 2022,
-    "population": 108092,
+    "census_year": 2025,
+    "population": 117645,
     "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(TÜİK, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Türkiye İstatistik Kurumu (2026) Adrese Dayalı Nüfus Kayıt Sistemi sonuçları, 2025, as tabulated in Vikipedi (n.d.) Hatay (il). Available at: https://tr.wikipedia.org/wiki/Hatay_(il) (Accessed: 10 November 2026). The institute's own table could not be opened.",
       "Wikipedia (n.d.) Reyhanlı. Available at: https://en.wikipedia.org/wiki/Reyhanlı (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "District"
+    "area_note": "District, official register at the end of 2025"
   },
   "Nizip": {
     "lat": 37.01,
@@ -3681,16 +3691,17 @@
   "Kirikhan": {
     "lat": 36.499,
     "lon": 36.358,
-    "census_year": 2022,
-    "population": 121028,
+    "census_year": 2025,
+    "population": 108200,
     "ethnic": "Over 35,000 Syrians were living here in 2014.",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(TÜİK, 2026; Wikipedia, n.d.)",
     "sources": [
+      "Türkiye İstatistik Kurumu (2026) Adrese Dayalı Nüfus Kayıt Sistemi sonuçları, 2025, as tabulated in Vikipedi (n.d.) Hatay (il). Available at: https://tr.wikipedia.org/wiki/Hatay_(il) (Accessed: 10 November 2026). The institute's own table could not be opened.",
       "Wikipedia (n.d.) Kırıkhan. Available at: https://en.wikipedia.org/wiki/Kırıkhan (Accessed: 10 November 2026). Figures as given there from the national statistics office."
     ],
-    "area_note": "District"
+    "area_note": "District, official register at the end of 2025"
   },
   "Dogubayazit": {
     "lat": 39.547,
@@ -3714,11 +3725,14 @@
     "ethnic": "Listed among Kurdish settlements of Hakkâri Province (no shares).",
     "language": "Not found yet in the sources checked so far; see the national figures below.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Wikipedia, n.d.; Rudaw, 2026; Yeni Birlik, 2026)",
     "sources": [
-      "Wikipedia (n.d.) Yüksekova. Available at: https://en.wikipedia.org/wiki/Yüksekova (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+      "Wikipedia (n.d.) Yüksekova. Available at: https://en.wikipedia.org/wiki/Yüksekova (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Rudaw (2026) [Turkish labour statistics 2025, reporting TÜİK]. Available at: https://rudaw.net/turkish/business/250320262 (Accessed: 10 November 2026).",
+      "Yeni Birlik (2026) 'Türkiye'de Suriyeli nüfusu çakıldı', reporting Göç İdaresi Başkanlığı data of 2 April 2026. Available at: https://www.gazetebirlik.com/gundem/turkiyede-suriyeli-nufusu-cakildi-iste-il-il-guncel-rakamlar-ve-geri-donusun-perde-arkasi/973198 (Accessed: 10 November 2026)."
     ],
-    "area_note": "Town"
+    "area_note": "Town",
+    "economy": "Hakkâri Province unemployment 13.8% in 2025, the highest in Turkey (national 8.3%). Syrians under temporary protection in the province: 8 in April 2026."
   },
   "Fnidek": {
     "lat": 35.849,
@@ -4073,6 +4087,20 @@
     "sources": [
       "Department of Statistics (Jordan) (2026) Population estimates by locality, end of 2025. Amman: DoS. Available at: https://dosweb.dos.gov.jo/databank/Population/Population_Estimares/PopulationEstimatesbyLocality.xlsx (Accessed: 10 November 2026).",
       "Department of Statistics (Jordan) (2016) The Population of the Kingdom by Administrative Divisions, General Census of Population and Housing 2015. Available at: http://www.dos.gov.jo/dos_home_a/main/population/census2015/No_of_pop_depand_on_GOV.pdf (Accessed: 10 November 2026)."
+    ]
+  },
+  "Vyborg": {
+    "lat": 60.704,
+    "lon": 28.755,
+    "census_year": 2021,
+    "population": 74100,
+    "area_note": "City, estimate at 1 January 2021. Rosstat, the Russian statistics service, could not be reached from here",
+    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
+    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "cite": "(Great Russian Encyclopedia, n.d.)",
+    "sources": [
+      "Большая российская энциклопедия (n.d.) Выборг. Available at: https://bigenc.ru/c/vyborg-695cb1 (read in search extract)."
     ]
   }
 }
