@@ -1338,16 +1338,18 @@
   "East Jerusalem": {
     "lat": 31.783,
     "lon": 35.234,
-    "area_note": "Israeli-annexed part of the city, 2020",
+    "area_note": "Occupied by Israel in 1967 and later annexed; the annexation is not recognised internationally. Figures for 2020",
     "census_year": 2020,
     "population": 595000,
-    "ethnic": "Palestinian Arabs 361,700 (61%); Israeli settlers, almost all Jewish, 234,000 (39%).",
+    "ethnic": "Palestinian Arabs 361,700 (61%); Israeli settlers, almost all Jewish, 234,000 (39%), living in colonies (settlements) that are illegal under international law (UN Security Council Resolution 2334, 2016; International Court of Justice, 2024).",
     "language": "Arabic and Hebrew.",
     "religion": "Muslim, Christian and Jewish.",
     "sources": [
-      "Wikipedia (n.d.) East Jerusalem. Available at: https://en.wikipedia.org/wiki/East_Jerusalem (figures reported there from UN and UNCTAD sources) (Accessed: 9 November 2026)."
+      "Wikipedia (n.d.) East Jerusalem. Available at: https://en.wikipedia.org/wiki/East_Jerusalem (figures reported there from UN and UNCTAD sources) (Accessed: 9 November 2026).",
+      "United Nations Security Council (2016) Resolution 2334 (S/RES/2334). New York: United Nations. Available at: https://undocs.org/S/RES/2334(2016) (Accessed: 11 November 2026).",
+      "International Court of Justice (2024) Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem: Advisory Opinion of 19 July 2024. The Hague: ICJ. Available at: https://www.icj-cij.org/case/186 (Accessed: 11 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Wikipedia, n.d.; UN Security Council, 2016; International Court of Justice, 2024)",
     "economy": "Poverty in 2010: 77% of non-Jewish households against 24.4% of Jewish families (UNCTAD, 2013)."
   },
   "Tel Aviv": {
