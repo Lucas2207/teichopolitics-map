@@ -31,7 +31,7 @@
   "Ceuta": {
     "census_year": 2021,
     "population": 84071,
-    "ethnic": "2025: 69.4% born in Ceuta; immigrants 13.6%, of whom 86.7% born in Morocco; Arab Muslims about half the population (undated).",
+    "ethnic": "2025: 69.4% born in Ceuta; immigrants 13.6%, of whom 86.7% born in Morocco.",
     "language": "2025: Spanish speakers nearly 60%; Arabic speakers 40–42%; Sindhi about 1% (as reported).",
     "religion": "2006: 51% Christian, 48% Muslim (as reported; the article says this needs updating).",
     "cite": "(Wikipedia, n.d.; INE, 2021)"
@@ -64,12 +64,20 @@
     "cite": "(Wikipedia, n.d.)"
   },
   "Jerusalem": {
-    "census_year": 2020,
-    "population": 951100,
-    "ethnic": "2020: Jews 59.9%, Muslims 37.2%, Christians 1.7%, unclassified 1.1% (Jerusalem Institute, 2022, as cited).",
+    "census_year": 2024,
+    "population": 1050151,
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 38.2%, Jews and others 56.8%, foreign nationals 5.0% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not documented in the source fetched.",
-    "religion": "See ethnic line: the 2020 breakdown is given by religion and community.",
-    "cite": "(Wikipedia, n.d.; Jerusalem Institute, 2022)"
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025)",
+    "area_note": "Whole municipality as defined by Israel, including East Jerusalem, whose annexation is not recognised internationally; population at the end of 2024",
+    "sources": [
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
+    ],
+    "lat": null,
+    "lon": null
   },
   "Berlin": {
     "census_year": 2022,
@@ -1130,7 +1138,7 @@
     "area_note": "City",
     "census_year": 2021,
     "population": 129864,
-    "ethnic": "The Turkish census does not record ethnicity. A 2013 study estimates Kurds about 49% and Arabs about 49%, with a Syriac Christian community. Mardin province: 43,227 registered Syrians, 4.6% of its population (July 2026).",
+    "ethnic": "The Turkish census does not record ethnicity. A 2013 study estimates Kurds about 49% and Arabs about 49%, with a Syriac (Assyrian) community. Mardin province: 43,227 registered Syrians, 4.6% of its population (July 2026).",
     "language": "Historically Arabic and Kurdish.",
     "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
     "sources": [
@@ -1333,7 +1341,7 @@
     "area_note": "Israeli-annexed part of the city, 2020",
     "census_year": 2020,
     "population": 595000,
-    "ethnic": "Palestinian Arabs 361,700 (61%); Jewish settlers 234,000 (39%).",
+    "ethnic": "Palestinian Arabs 361,700 (61%); Israeli settlers, almost all Jewish, 234,000 (39%).",
     "language": "Arabic and Hebrew.",
     "religion": "Muslim, Christian and Jewish.",
     "sources": [
@@ -1348,14 +1356,16 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 494900,
-    "ethnic": "Jews and others 89.0%; Arabs 5.5%; foreign residents 5.6%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 5.5%, Jews and others 89.0%, foreign nationals 5.6% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
       "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
-      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
     "economy": "Average gross wage NIS 22,359 a month (first half of 2025)."
   },
   "Petah Tiqva": {
@@ -1364,13 +1374,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 270403,
-    "ethnic": "Jews and others 95.4%; Arabs 0.3%; foreign residents 4.3%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.3%, Jews and others 95.4%, foreign nationals 4.3% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Rishon LeTsiyyon": {
     "lat": 31.971,
@@ -1378,13 +1390,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 259275,
-    "ethnic": "Jews and others 97.5%; Arabs 0.2%; foreign residents 2.3%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.2%, Jews and others 97.5%, foreign nationals 2.3% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Bnei Brak": {
     "lat": 32.081,
@@ -1392,14 +1406,16 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 229995,
-    "ethnic": "Jews and others 97.4%; Arabs 0.1%; foreign residents 2.5%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 97.4%, foreign nationals 2.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
       "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
-      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
     "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
   },
   "Netanya": {
@@ -1408,13 +1424,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 234812,
-    "ethnic": "Jews and others 96.9%; Arabs 0.4%; foreign residents 2.8%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.4%, Jews and others 96.9%, foreign nationals 2.8% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Beer Sheva": {
     "lat": 31.25,
@@ -1422,13 +1440,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 223587,
-    "ethnic": "Jews and others 93.0%; Arabs 4.5%; foreign residents 2.5%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 4.5%, Jews and others 93.0%, foreign nationals 2.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Holon": {
     "lat": 32.012,
@@ -1436,13 +1456,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 191829,
-    "ethnic": "Jews and others 96.9%; Arabs 0.3%; foreign residents 2.8%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.3%, Jews and others 96.9%, foreign nationals 2.8% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Bet Shemesh": {
     "lat": 31.731,
@@ -1450,14 +1472,16 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 176786,
-    "ethnic": "Jews and others 97.8%; Arabs 0.1%; foreign residents 2.1%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 97.8%, foreign nationals 2.1% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
       "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
-      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
     "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
   },
   "Ramat Gan": {
@@ -1466,13 +1490,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 172242,
-    "ethnic": "Jews and others 96.6%; Arabs 0.7%; foreign residents 2.7%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.7%, Jews and others 96.6%, foreign nationals 2.7% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Rehovot": {
     "lat": 31.894,
@@ -1480,13 +1506,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 155050,
-    "ethnic": "Jews and others 97.2%; Arabs 0.4%; foreign residents 2.4%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.4%, Jews and others 97.2%, foreign nationals 2.4% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Ashkelon": {
     "lat": 31.669,
@@ -1494,13 +1522,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 166865,
-    "ethnic": "Jews and others 96.5%; Arabs 0.4%; foreign residents 3.1%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.4%, Jews and others 96.5%, foreign nationals 3.1% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Nazareth": {
     "lat": 32.704,
@@ -1508,14 +1538,16 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 75704,
-    "ethnic": "Jews and others 0.2%; Arabs 99.4%; foreign residents 0.4%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 99.4%, Jews and others 0.2%, foreign nationals 0.4% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
       "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
-      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
     "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
   },
   "Bat Yam": {
@@ -1524,13 +1556,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 129495,
-    "ethnic": "Jews and others 95.0%; Arabs 1.2%; foreign residents 3.9%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 1.2%, Jews and others 95.0%, foreign nationals 3.9% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Herzliya": {
     "lat": 32.166,
@@ -1538,14 +1572,16 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 110885,
-    "ethnic": "Jews and others 96.8%; Arabs 0.5%; foreign residents 2.7%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.5%, Jews and others 96.8%, foreign nationals 2.7% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
       "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
-      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
     "economy": "Highest average gross wage among large cities: NIS 22,951 a month (first half of 2025)."
   },
   "Hadera": {
@@ -1554,13 +1590,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 107974,
-    "ethnic": "Jews and others 97.2%; Arabs 1.1%; foreign residents 1.7%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 1.1%, Jews and others 97.2%, foreign nationals 1.7% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "West Jerusalem": {
     "lat": 31.782,
@@ -1568,14 +1606,16 @@
     "area_note": "Figures for the whole municipality, including East Jerusalem",
     "census_year": 2024,
     "population": 1050151,
-    "ethnic": "Jews and others 56.8%; Arabs 38.2%; foreign residents 5.0%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 38.2%, Jews and others 56.8%, foreign nationals 5.0% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
       "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
-      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026)."
+      "Eretz, I. (2025) 'Herzliya tops wages ladder', Globes, 21 December, reporting National Insurance Institute data for the first half of 2025. Available at: https://en.globes.co.il/en/article-1001529721 (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025)",
+    "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
     "economy": "Average gross wage for the whole city NIS 11,415 a month (first half of 2025)."
   },
   "Jaffa": {
@@ -1584,13 +1624,15 @@
     "area_note": "Figures for the whole municipality of Tel Aviv-Yafo",
     "census_year": 2024,
     "population": 494900,
-    "ethnic": "Jews and others 89.0%; Arabs 5.5%; foreign residents 5.6%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 5.5%, Jews and others 89.0%, foreign nationals 5.6% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "Not found in the sources consulted.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Newcastle upon Tyne": {
     "lat": 54.973,
@@ -2131,7 +2173,7 @@
     "area_note": "City (estimate, no year); Lebanon has had no census since 1932",
     "census_year": 2014,
     "population": 75000,
-    "ethnic": "Druze predominant.",
+    "ethnic": "No official figures: Lebanon has had no census since 1932. See the religion section for the registered voters by community.",
     "language": "Not found in the sources consulted.",
     "religion": "Registered voters 2014: Druze 67.3%, Greek Orthodox 12.0%, other Christians 16.6%, other 4.1%.",
     "sources": [
@@ -2249,13 +2291,15 @@
     "area_note": "Locality, Israeli population register",
     "census_year": 2024,
     "population": 223587,
-    "ethnic": "Jews and others 93.0%; Arabs 4.5%; foreign residents 2.5%.",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 4.5%, Jews and others 93.0%, foreign nationals 2.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not found in the sources consulted.",
-    "religion": "The official file groups residents as Jews and others, or Arabs; religion is not itemised by locality.",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
     "sources": [
-      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (2025) List of localities 2024: population by group. Jerusalem: CBS Israel. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
-    "cite": "(Central Bureau of Statistics, 2025)"
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)"
   },
   "Al Khalil": {
     "lat": 31.541,
@@ -3198,12 +3242,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 100052,
-    "ethnic": "Jews and others 99.1%, Arabs 0.1%, foreign nationals 0.8% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 99.1%, foreign nationals 0.8% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Yavne": {
@@ -3212,12 +3258,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 58090,
-    "ethnic": "Jews and others 98.1%, Arabs 0.3%, foreign nationals 1.6% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.3%, Jews and others 98.1%, foreign nationals 1.6% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Umm el Fahm": {
@@ -3226,12 +3274,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 60210,
-    "ethnic": "Jews and others 0.1%, Arabs 99.8%, foreign nationals 0.1% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 99.8%, Jews and others 0.1%, foreign nationals 0.1% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Rosh Ha'Ayin": {
@@ -3240,12 +3290,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 79023,
-    "ethnic": "Jews and others 98.6%, Arabs 0.1%, foreign nationals 1.3% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 98.6%, foreign nationals 1.3% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Ramla": {
@@ -3254,12 +3306,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 86052,
-    "ethnic": "Jews and others 72.3%, Arabs 25.1%, foreign nationals 2.5% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 25.1%, Jews and others 72.3%, foreign nationals 2.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Kiryat Gat": {
@@ -3268,12 +3322,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 72139,
-    "ethnic": "Jews and others 96.2%, Arabs 0.3%, foreign nationals 3.5% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.3%, Jews and others 96.2%, foreign nationals 3.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Ness Ziona": {
@@ -3282,12 +3338,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 47268,
-    "ethnic": "Jews and others 98.4%, Arabs 0.1%, foreign nationals 1.5% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 98.4%, foreign nationals 1.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Lod": {
@@ -3296,12 +3354,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 94189,
-    "ethnic": "Jews and others 67.9%, Arabs 28.5%, foreign nationals 3.6% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 28.5%, Jews and others 67.9%, foreign nationals 3.6% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Kfar Saba": {
@@ -3310,12 +3370,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 99410,
-    "ethnic": "Jews and others 97.6%, Arabs 0.2%, foreign nationals 2.2% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.2%, Jews and others 97.6%, foreign nationals 2.2% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Hod HaSharon": {
@@ -3324,12 +3386,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 66398,
-    "ethnic": "Jews and others 98.0%, Arabs 0.1%, foreign nationals 1.9% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 98.0%, foreign nationals 1.9% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Givatayim": {
@@ -3338,12 +3402,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 58600,
-    "ethnic": "Jews and others 98.0%, Arabs 0.1%, foreign nationals 2.0% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 98.0%, foreign nationals 2.0% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Eilat": {
@@ -3352,12 +3418,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 56004,
-    "ethnic": "Jews and others 89.1%, Arabs 5.9%, foreign nationals 5.0% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 5.9%, Jews and others 89.1%, foreign nationals 5.0% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Ashdod": {
@@ -3366,12 +3434,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 228562,
-    "ethnic": "Jews and others 97.5%, Arabs 0.3%, foreign nationals 2.2% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.3%, Jews and others 97.5%, foreign nationals 2.2% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Afula": {
@@ -3380,12 +3450,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 66362,
-    "ethnic": "Jews and others 97.3%, Arabs 1.4%, foreign nationals 1.3% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 1.4%, Jews and others 97.3%, foreign nationals 1.3% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Modiin Ilit": {
@@ -3394,12 +3466,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 89627,
-    "ethnic": "Jews and others 99.5%, Arabs 0.0%, foreign nationals 0.5% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.0%, Jews and others 99.5%, foreign nationals 0.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Zagreb": {
@@ -3449,12 +3523,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 52122,
-    "ethnic": "Jews and others 97.1%, Arabs 1.7%, foreign nationals 1.2% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 1.7%, Jews and others 97.1%, foreign nationals 1.2% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Ra'anana": {
@@ -3463,12 +3539,14 @@
     "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
     "census_year": 2024,
     "population": 82963,
-    "ethnic": "Jews and others 97.7%, Arabs 0.1%, foreign nationals 2.3% (end of 2024).",
+    "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.1%, Jews and others 97.7%, foreign nationals 2.3% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
     "language": "Not published in the locality file.",
-    "religion": "The locality file groups residents as Jews and others, or Arabs, not by religion in detail; see the line above.",
-    "cite": "(Central Bureau of Statistics, 2025)",
+    "religion": "Not published by locality. Nationally, end of 2024: Jews 73.6%, Muslims 18.5%, Christians 1.9%, Druze 1.6%, without a religious classification 4.5%. Christians include Arab and non-Arab Christians.",
+    "cite": "(Central Bureau of Statistics, 2025; Central Bureau of Statistics, 2025)",
     "sources": [
-      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026)."
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ]
   },
   "Dayr al Balah": {
