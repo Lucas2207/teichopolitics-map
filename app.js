@@ -831,7 +831,8 @@ function countryCardHtml(en) {
     ? `Police-recorded offences per 100,000 people, ${p.euCrime[1]}: intentional homicide ${p.euCrime[0].ICCS0101 ?? "n/a"}, robbery ${p.euCrime[0].ICCS0401 ?? "n/a"}, burglary ${p.euCrime[0].ICCS0501 ?? "n/a"}, burglary of homes ${p.euCrime[0].ICCS0502 ?? "n/a"}.`
     : "";
   const sectors = p.agr || p.ind || p.srv ? `Agriculture ${p.agr ? p.agr[0].toFixed(1) : "?"}%, industry ${p.ind ? p.ind[0].toFixed(1) : "?"}%, services ${p.srv ? p.srv[0].toFixed(1) : "?"}% of GDP (${(p.agr || p.ind || p.srv)[1]})` : "";
-  const refs = [COUNTRY_REFS.wb, p.median ? COUNTRY_REFS.pip : "", COUNTRY_REFS.un, COUNTRY_REFS.unhcr, COUNTRY_REFS.fb, p.euImm || p.euForeign || p.euCrime ? COUNTRY_REFS.es : "", p.status ? COUNTRY_REFS.rec : "", p.source === "trnc" ? COUNTRY_REFS.trnc : ""].filter(Boolean);
+  // Profiles with their own sources (regions not covered by the international datasets) list only those
+  const refs = p.refs || [COUNTRY_REFS.wb, p.median ? COUNTRY_REFS.pip : "", COUNTRY_REFS.un, COUNTRY_REFS.unhcr, COUNTRY_REFS.fb, p.euImm || p.euForeign || p.euCrime ? COUNTRY_REFS.es : "", p.status ? COUNTRY_REFS.rec : "", p.source === "trnc" ? COUNTRY_REFS.trnc : ""].filter(Boolean);
   return `<div class="fiche country-fiche">
     <div class="fiche-title">${en}</div>
     <dl>
@@ -840,8 +841,11 @@ function countryCardHtml(en) {
     </dl>
     ${fold("Population", `
       ${row("Inhabitants", yr(p.pop, n))}
+      ${row("Where people live", p.popNote)}
       ${row("Life expectancy at birth", life)}
       ${row("Ethnic groups", p.ethnic)}
+      ${row("Religion", p.religion)}
+      ${row("Languages", p.languages)}
       ${row("Born abroad", yr(p.migr, (v) => `${v}% of residents`))}
       ${row("Foreign citizens", yr(p.euForeign, (v) => `${v}% of residents`))}
       ${row("Immigrants living here", p.immTot ? `${n(p.immTot)} in 2024; mainly from ${list(p.immTop)}` : "")}
@@ -855,11 +859,12 @@ function countryCardHtml(en) {
       ${row("Area", p.area || (p.areaKm ? `${n(p.areaKm[0])} sq km` : ""))}
       ${row("Note", p.areaNote)}`)}
     ${fold("Economy", `
-      ${row("GDP", yr(p.gdpTot, money))}
+      ${row("GDP", yr(p.gdpTot, money) + (p.gdpNote ? `. ${p.gdpNote}` : ""))}
       ${row("GDP per person", yr(p.gdp, (v) => `US$${n(Math.round(v))}`))}
       ${row("GDP per person, purchasing power", yr(p.ppp, (v) => `$${n(Math.round(v))}`))}
       ${row("Median income or consumption", p.median ? `$${p.median[0]} a day per person, ${p.median[2]} survey, in 2021 purchasing-power dollars (${p.median[1]})` : "")}
       ${row("Living below half the median income", yr(p.relpov, (v) => `${v}% of people`))}
+      ${row("Poverty", p.poverty)}
       ${row("Employed", yr(p.emp, (v) => `${v}% of people aged 15+`))}
       ${row("Unemployment", yr(p.unemp, (v) => `${v}% of the labour force`))}
       ${row("Income inequality (Gini)", yr(p.gini, (v) => v))}
@@ -867,7 +872,8 @@ function countryCardHtml(en) {
       ${row("Main industries", p.industries)}`)}
     ${fold("Criminality", `
       ${row("Homicide", yr(p.hom, (v) => `${v} per 100,000 people`))}
-      ${row("Recorded offences", crime)}`)}
+      ${row("Recorded offences", crime)}
+      ${row("Note", p.crimeNote)}`)}
     <details>
       <summary>References (Harvard)</summary>
       <ol class="refs">${refs.map((r) => `<li>${r}</li>`).join("")}</ol>
