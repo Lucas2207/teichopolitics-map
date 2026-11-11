@@ -524,36 +524,61 @@ const layerControl = L.control.layers(baseLayers, {
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
-// Israeli settlements in the occupied West Bank and the occupied Syrian Golan Heights (Israel's statistics bureau, end of 2024).
+// Israeli settlements and outposts in the occupied West Bank and East Jerusalem (OCHA, from Peace Now data),
+// the former settlements of the Gaza Strip (evacuated in 2005) and the settlements of the occupied Syrian Golan Heights.
 // Offered in the layer box when the map shows the area, like the neighbourhood themes; filtered by the year slider.
 const SETTLEMENT_COLOR = "#7a4b1e";
 const settlementLayer = L.layerGroup();
 let settlements = [];
 const SETTLEMENT_AREA = L.latLngBounds([29.4, 34.1], [33.5, 36.1]);
 let settlementsOffered = false;
-const SETTLEMENT_LABEL = `<span class="swatch dot settlement"></span>Israeli settlements, illegal under international law`;
+const SETTLEMENT_LABEL = `<span class="swatch dot settlement"></span>Israeli settlements <span class="swatch dot settlement outpost"></span>and outposts, illegal under international law`;
+const SETTLEMENT_LAW = "illegal under international law (UN Security Council Resolution 2334, 2016; International Court of Justice advisory opinion, 2024)";
 const SETTLEMENT_STATUS = {
-  westbank: "Israeli settlement in the occupied West Bank. Settlements in the occupied Palestinian territory are illegal under international law (UN Security Council Resolution 2334, 2016; International Court of Justice advisory opinion, 2024).",
-  golan: "Israeli settlement in the occupied Syrian Golan Heights. The UN Security Council declared Israel's 1981 annexation null and void (Resolution 497, 1981), and settlements in occupied territory breach the Fourth Geneva Convention.",
+  westbank: `In the occupied West Bank. Israeli settlements in the occupied Palestinian territory are ${SETTLEMENT_LAW}.`,
+  eastjerusalem: `In occupied East Jerusalem. These settlements are illegal colonies under international law: the UN Security Council declared Israel's annexation of the city null and void (Resolution 478, 1980), and Resolution 2334 (2016) and the International Court of Justice (2024) confirmed that settlements there are illegal.`,
+  gaza: `In the occupied Gaza Strip, ${SETTLEMENT_LAW}. Israel evacuated and demolished all its Gaza settlements in August and September 2005.`,
+  golan: "In the occupied Syrian Golan Heights. The UN Security Council declared Israel's 1981 annexation null and void (Resolution 497, 1981), and settlements in occupied territory breach the Fourth Geneva Convention.",
 };
-const SETTLEMENT_REFS = `<li>Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026). Coordinates converted from the Israeli Transverse Mercator grid.</li>
-  <li>United Nations Security Council (2016) Resolution 2334 (S/RES/2334). Available at: https://undocs.org/S/RES/2334(2016) (Accessed: 11 November 2026).</li>
-  <li>International Court of Justice (2024) Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem: Advisory Opinion of 19 July 2024. Available at: https://www.icj-cij.org/case/186 (Accessed: 11 November 2026).</li>
-  <li>United Nations Security Council (1981) Resolution 497 (S/RES/497). Available at: https://undocs.org/S/RES/497(1981) (Accessed: 11 November 2026).</li>`;
+const SETTLEMENT_TYPE = {
+  settlement: "Settlement",
+  outpost: "Outpost: built without the Israeli government's authorisation (OCHA, 2019). Like the settlements, outposts are illegal under international law.",
+  "industrial park": "Settlement industrial zone",
+};
+const SETTLEMENT_REF = {
+  ocha: `<li>OCHA occupied Palestinian territory (2019) West Bank Atlas 2019: Israeli settlements index. Data source: Peace Now. Available at: https://www.ochaopt.org/atlas2019/images/db/israeli-settlements-checkpoints/israeli-settlments.pdf (Accessed: 11 November 2026).</li>
+  <li>OCHA occupied Palestinian territory (2019) West Bank Atlas 2019: West Bank access and closure maps. Available at: https://www.ochaopt.org/atlas2019/wbclosure.html (Accessed: 11 November 2026).</li>
+  <li>Peace Now and OCHA occupied Palestinian territory (2018) State of Palestine settlements [shapefile]. Humanitarian Data Exchange, CC BY-IGO. Available at: https://data.humdata.org/dataset/state-of-palestine-settlements (Accessed: 11 November 2026).</li>`,
+  cbs: `<li>Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026). Coordinates converted from the Israeli Transverse Mercator grid.</li>`,
+  gaza: `<li>Wikipedia (2026) Gush Katif: Demographics. Available at: https://en.wikipedia.org/wiki/Gush_Katif (Accessed: 11 November 2026). Founding dates from the Settlement Division of the World Zionist Organization; populations from the Central Bureau of Statistics (Israel), List of localities, 31 December 2000.</li>
+  <li>Wikidata (2026) Coordinates of the former Gaza settlements. Available at: https://www.wikidata.org (Accessed: 11 November 2026).</li>`,
+  law: `<li>United Nations Security Council (2016) Resolution 2334 (S/RES/2334). Available at: https://undocs.org/S/RES/2334(2016) (Accessed: 11 November 2026).</li>
+  <li>International Court of Justice (2024) Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem: Advisory Opinion of 19 July 2024. Available at: https://www.icj-cij.org/case/186 (Accessed: 11 November 2026).</li>`,
+  jlm: `<li>United Nations Security Council (1980) Resolution 478 (S/RES/478). Available at: https://undocs.org/S/RES/478(1980) (Accessed: 11 November 2026).</li>`,
+  golan: `<li>United Nations Security Council (1981) Resolution 497 (S/RES/497). Available at: https://undocs.org/S/RES/497(1981) (Accessed: 11 November 2026).</li>`,
+};
+const settlementSource = (s) => (s.area === "gaza" ? "gaza" : s.area === "golan" || s.src === "cbs" ? "cbs" : "ocha");
 function settlementCardHtml(s) {
-  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
+  const row = (label, value) => (value ? `<dt>${label}</dt><dd>${value}</dd>` : "");
+  const src = settlementSource(s);
+  const popNote = { ocha: "OCHA atlas, 2019", cbs: "end of 2024", gaza: "end of 2000" }[src];
+  const refs = [SETTLEMENT_REF[src], s.area === "golan" ? SETTLEMENT_REF.golan : SETTLEMENT_REF.law, s.area === "eastjerusalem" ? SETTLEMENT_REF.jlm : ""].join("");
   return `<div class="fiche">
-    <div class="fiche-title">${s.name}</div>
+    <div class="fiche-title">${s.name}${s.removed ? " (former)" : ""}</div>
     <dl>
+      ${row("Type", SETTLEMENT_TYPE[s.type] || "Settlement")}
       ${row("Status", SETTLEMENT_STATUS[s.area])}
       ${row("Name in Hebrew", s.he)}
-      ${row("Founded", s.founded || "Not given by the bureau")}
-      ${row("Population", s.pop ? `${Number(s.pop).toLocaleString("en")} (end of 2024)` : "Not yet published by the bureau")}
+      ${row("Governorate", s.gov)}
+      ${row("Founded", s.founded || "Not given in the source")}
+      ${row("Evacuated", s.removed)}
+      ${row("Population", s.pop ? `${Number(s.pop).toLocaleString("en")} (${popNote})` : s.type === "outpost" ? "Not given for outposts" : "Not given in the source")}
+      ${row("Location", s.approx ? "Approximate: placed from its label on OCHA's atlas maps, usually within about 500 m" : "")}
     </dl>
-    <p class="fiche-text">Settlements built inside East Jerusalem are counted by the bureau as part of the Jerusalem municipality, so they are not listed separately. Outposts not recognised by Israel are not included, and Gaza's settlements were evacuated in 2005.</p>
+    ${src === "ocha" ? `<p class="fiche-text">From OCHA's 2019 atlas, which uses Peace Now's data. Outposts and settlements founded after 2019 are not in it; three later settlements recognised by Israel's statistics bureau are added from its list. Sixteen small outposts and East Jerusalem compounds in OCHA's index could not be placed precisely and are left out.</p>` : ""}
     <details>
       <summary>References (Harvard)</summary>
-      <ol class="refs">${SETTLEMENT_REFS}</ol>
+      <ol class="refs">${refs}</ol>
     </details>
   </div>`;
 }
@@ -561,7 +586,11 @@ fetch("data/israeli-settlements.json")
   .then((r) => r.json())
   .then((d) => {
     settlements = d.settlements.map((s) => {
-      const m = L.circleMarker([s.lat, s.lon], { radius: s.pop ? Math.max(3, Math.min(9, Math.sqrt(s.pop) / 30)) : 3, color: "#fff", weight: 1, fillColor: SETTLEMENT_COLOR, fillOpacity: 0.9 });
+      const outpost = s.type === "outpost";
+      const radius = outpost ? 3 : s.pop ? Math.max(3, Math.min(9, Math.sqrt(s.pop) / 30)) : 3.5;
+      const m = outpost
+        ? L.circleMarker([s.lat, s.lon], { radius, color: SETTLEMENT_COLOR, weight: 2, fillColor: "#fff", fillOpacity: 0.9 })
+        : L.circleMarker([s.lat, s.lon], { radius, color: "#fff", weight: 1, fillColor: SETTLEMENT_COLOR, fillOpacity: 0.9 });
       m.on("click", (e) => {
         L.DomEvent.stopPropagation(e);
         if (!compareFrom) showInfoCard(settlementCardHtml(s), "settlement-card");
@@ -575,7 +604,7 @@ fetch("data/israeli-settlements.json")
 function refreshSettlements() {
   const year = Number(yearInput.value);
   settlements.forEach(({ s, m }) => {
-    const show = s.founded ? s.founded <= year : year === Number(yearInput.max);
+    const show = (s.founded ? s.founded <= year : year === Number(yearInput.max)) && !(s.removed && year >= s.removed);
     if (show && !settlementLayer.hasLayer(m)) settlementLayer.addLayer(m);
     else if (!show && settlementLayer.hasLayer(m)) settlementLayer.removeLayer(m);
   });
