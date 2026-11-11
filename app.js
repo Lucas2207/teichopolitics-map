@@ -762,7 +762,7 @@ function cityPopupHtml(en, meta) {
     ${fold("Languages", f.language)}
     ${fold("Religion", f.religion)}
     ${fold("Income and employment", income)}
-    ${fold("Crime", f.crime)}
+    ${fold("Criminality", f.crime)}
     ${en === "Belfast" ? belfastHistoryHtml() : ""}
     ${nationalHtml(meta.country)}
     <details>
@@ -849,7 +849,7 @@ function comparisonHtml(a, b) {
     ${fold("Languages", fa.language, fb.language)}
     ${fold("Religion", fa.religion, fb.religion)}
     ${fold("Income and employment", fa.economy || NOT_FOUND, fb.economy || NOT_FOUND)}
-    ${fold("Crime", fa.crime, fb.crime)}
+    ${fold("Criminality", fa.crime, fb.crime)}
     ${national}
     <details>
       <summary>References (Harvard)</summary>
