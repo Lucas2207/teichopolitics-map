@@ -3465,7 +3465,7 @@
   "Modiin Ilit": {
     "lat": 31.932,
     "lon": 35.044,
-    "area_note": "Population estimate at the end of 2024 (Israel’s last census was in 2022)",
+    "area_note": "Israeli settlement in the occupied West Bank, founded 1996; population estimate at the end of 2024 (Israel's last census was in 2022)",
     "census_year": 2024,
     "population": 89627,
     "ethnic": "Population group as classified by Israel's statistics bureau: Arabs 0.0%, Jews and others 99.5%, foreign nationals 0.5% (end of 2024). The bureau's 'Jews and others' group is defined by religion in the population register (it also counts non-Arab Christians and people with no religion), so it is not an ethnic origin. Nationally, the bureau's 'Jews and others' by continent of origin (own or father's birthplace), end of 2024: born in Israel to an Israel-born father 49.1%, Europe and America 31.3%, Africa 11.6%, Asia 8.0%.",
@@ -3475,8 +3475,11 @@
     "sources": [
       "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 9 November 2026).",
       "Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026).",
-      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
-    ]
+      "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026).",
+      "United Nations Security Council (2016) Resolution 2334 (S/RES/2334). Available at: https://undocs.org/S/RES/2334(2016) (Accessed: 11 November 2026).",
+      "International Court of Justice (2024) Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem: Advisory Opinion of 19 July 2024. Available at: https://www.icj-cij.org/case/186 (Accessed: 11 November 2026)."
+    ],
+    "country_note": "Occupied West Bank (Palestinian Territory); Israeli settlement, illegal under international law"
   },
   "Zagreb": {
     "lat": 45.8,

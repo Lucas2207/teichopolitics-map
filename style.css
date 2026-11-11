@@ -684,4 +684,5 @@ input:focus-visible {
 @media (max-width: 700px) { .border-tl { bottom: 8px; max-height: 42%; } }
 
 .list-title { font-size: 14px; margin: 14px 0 2px; }
+.swatch.dot.settlement { display: inline-block; width: 9px; height: 9px; margin-right: 5px; border-radius: 50%; background: #7a4b1e; border: 1px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,0.3); vertical-align: -1px; }
 .map-legend .swatch.dot.planned { background: #fff; border: 2px solid #555; box-sizing: border-box; box-shadow: none; }

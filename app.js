@@ -524,6 +524,74 @@ const layerControl = L.control.layers(baseLayers, {
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
+// Israeli settlements in the occupied West Bank and the occupied Syrian Golan Heights (Israel's statistics bureau, end of 2024).
+// Offered in the layer box when the map shows the area, like the neighbourhood themes; filtered by the year slider.
+const SETTLEMENT_COLOR = "#7a4b1e";
+const settlementLayer = L.layerGroup();
+let settlements = [];
+const SETTLEMENT_AREA = L.latLngBounds([29.4, 34.1], [33.5, 36.1]);
+let settlementsOffered = false;
+const SETTLEMENT_LABEL = `<span class="swatch dot settlement"></span>Israeli settlements, illegal under international law`;
+const SETTLEMENT_STATUS = {
+  westbank: "Israeli settlement in the occupied West Bank. Settlements in the occupied Palestinian territory are illegal under international law (UN Security Council Resolution 2334, 2016; International Court of Justice advisory opinion, 2024).",
+  golan: "Israeli settlement in the occupied Syrian Golan Heights. The UN Security Council declared Israel's 1981 annexation null and void (Resolution 497, 1981), and settlements in occupied territory breach the Fourth Geneva Convention.",
+};
+const SETTLEMENT_REFS = `<li>Central Bureau of Statistics (Israel) (2025) List of localities, bycode2024. Available at: https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2024.xlsx (Accessed: 11 November 2026). Coordinates converted from the Israeli Transverse Mercator grid.</li>
+  <li>United Nations Security Council (2016) Resolution 2334 (S/RES/2334). Available at: https://undocs.org/S/RES/2334(2016) (Accessed: 11 November 2026).</li>
+  <li>International Court of Justice (2024) Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory, including East Jerusalem: Advisory Opinion of 19 July 2024. Available at: https://www.icj-cij.org/case/186 (Accessed: 11 November 2026).</li>
+  <li>United Nations Security Council (1981) Resolution 497 (S/RES/497). Available at: https://undocs.org/S/RES/497(1981) (Accessed: 11 November 2026).</li>`;
+function settlementCardHtml(s) {
+  const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
+  return `<div class="fiche">
+    <div class="fiche-title">${s.name}</div>
+    <dl>
+      ${row("Status", SETTLEMENT_STATUS[s.area])}
+      ${row("Name in Hebrew", s.he)}
+      ${row("Founded", s.founded || "Not given by the bureau")}
+      ${row("Population", s.pop ? `${Number(s.pop).toLocaleString("en")} (end of 2024)` : "Not yet published by the bureau")}
+    </dl>
+    <p class="fiche-text">Settlements built inside East Jerusalem are counted by the bureau as part of the Jerusalem municipality, so they are not listed separately. Outposts not recognised by Israel are not included, and Gaza's settlements were evacuated in 2005.</p>
+    <details>
+      <summary>References (Harvard)</summary>
+      <ol class="refs">${SETTLEMENT_REFS}</ol>
+    </details>
+  </div>`;
+}
+fetch("data/israeli-settlements.json")
+  .then((r) => r.json())
+  .then((d) => {
+    settlements = d.settlements.map((s) => {
+      const m = L.circleMarker([s.lat, s.lon], { radius: s.pop ? Math.max(3, Math.min(9, Math.sqrt(s.pop) / 30)) : 3, color: "#fff", weight: 1, fillColor: SETTLEMENT_COLOR, fillOpacity: 0.9 });
+      m.on("click", (e) => {
+        L.DomEvent.stopPropagation(e);
+        if (!compareFrom) showInfoCard(settlementCardHtml(s), "settlement-card");
+      });
+      return { s, m };
+    });
+    refreshSettlements();
+    updateSettlementOption();
+  })
+  .catch(() => {});
+function refreshSettlements() {
+  const year = Number(yearInput.value);
+  settlements.forEach(({ s, m }) => {
+    const show = s.founded ? s.founded <= year : year === Number(yearInput.max);
+    if (show && !settlementLayer.hasLayer(m)) settlementLayer.addLayer(m);
+    else if (!show && settlementLayer.hasLayer(m)) settlementLayer.removeLayer(m);
+  });
+}
+function updateSettlementOption() {
+  const show = map.getZoom() >= 7 && SETTLEMENT_AREA.contains(map.getCenter());
+  if (show === settlementsOffered) return;
+  settlementsOffered = show;
+  if (show) layerControl.addOverlay(settlementLayer, SETTLEMENT_LABEL);
+  else {
+    if (map.hasLayer(settlementLayer)) map.removeLayer(settlementLayer);
+    layerControl.removeLayer(settlementLayer);
+  }
+}
+map.on("moveend", updateSettlementOption);
+
 // Neighbourhood themes are offered only when the map shows their region;
 // moving away removes the options and switches any theme off
 const offered = {};
@@ -796,7 +864,7 @@ function cityFields(en, meta) {
     : `No census figure found yet. Estimate: ${pop}`;
   return {
     c,
-    country: meta.country || "Not documented",
+    country: (c && c.country_note) || meta.country || "Not documented",
     census: `${censusValue}${c && c.pre_war ? `<br>${c.pre_war}` : ""}`,
     density: meta.density ? `${Number(meta.density).toLocaleString("en")} per km² (built-up area of ${Number(meta.area_km2).toLocaleString("en")} km²; Natural Earth urban areas)` : "Not available (no built-up area matched to this city)",
     ethnic: (c && c.ethnic) || NOT_FOUND,
@@ -1176,6 +1244,7 @@ function popupHtml(p) {
 
 function update() {
   const year = Number(yearInput.value);
+  if (typeof refreshSettlements === "function") refreshSettlements();
   const query = searchInput.value.trim().toLowerCase();
   yearLabel.textContent = year;
 
