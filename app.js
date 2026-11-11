@@ -710,6 +710,74 @@ function nationalHtml(country) {
     </details>`;
 }
 
+// Country card: click a country's name on the map
+const COUNTRY_REFS = {
+  wb: "World Bank (2026) World Development Indicators, including ILO employment estimates and UNODC homicide data. Available at: https://data.worldbank.org/ (Accessed: 11 November 2026).",
+  pip: "World Bank (2026) Poverty and Inequality Platform: median daily income or consumption per person, latest national survey. Available at: https://pip.worldbank.org/ (Accessed: 11 November 2026).",
+  un: "United Nations, Department of Economic and Social Affairs, Population Division (2025) International Migrant Stock 2024: destination and origin. Available at: https://www.un.org/development/desa/pd/content/international-migrant-stock (Accessed: 11 November 2026).",
+  unhcr: "UNHCR (2026) Refugee Data Finder. Available at: https://www.unhcr.org/refugee-statistics/ (Accessed: 11 November 2026).",
+  fb: "Central Intelligence Agency (2026) The World Factbook, via factbook.json. Available at: https://github.com/factbook/factbook.json (Accessed: 11 November 2026).",
+  es: "Eurostat (2026) Immigration and emigration by citizenship (migr_imm1ctz, migr_emi1ctz), population by citizenship (migr_pop1ctz) and police-recorded offences (crim_off_cat). Available at: https://ec.europa.eu/eurostat/web/migration-asylum (Accessed: 11 November 2026).",
+  rec: "Wikipedia (n.d.) List of states with limited recognition. Available at: https://en.wikipedia.org/wiki/List_of_states_with_limited_recognition (Accessed: 11 November 2026).",
+  trnc: "Wikipedia (n.d.) Northern Cyprus, citing the TRNC Statistical Institute for population (2021) and GDP (2018). Available at: https://en.wikipedia.org/wiki/Northern_Cyprus (Accessed: 11 November 2026); Devlet Planlama Örgütü (2013) KKTC Nüfus Sayımı 2011: kesin sonuçlar, ikinci aşama (archived).",
+};
+function countryCardHtml(en) {
+  const p = labelData.profiles[en] || {};
+  const n = (v) => Number(v).toLocaleString("en");
+  const money = (v) => (v >= 1e12 ? `US$${(v / 1e12).toFixed(2)} trillion` : v >= 1e9 ? `US$${(v / 1e9).toFixed(1)} billion` : `US$${n(Math.round(v))}`);
+  const row = (label, value) => (value ? `<dt>${label}</dt><dd>${value}</dd>` : "");
+  const yr = (pair, show) => (pair ? `${show(pair[0])} (${pair[1]})` : "");
+  const fold = (title, rows) => (rows.trim() ? `<details><summary>${title}</summary><dl>${rows}</dl></details>` : "");
+  const list = (pairs) => pairs.map(([k, v]) => `${k} ${n(v)}`).join(", ");
+  const life = p.lifeM || p.lifeF ? `Men ${p.lifeM ? p.lifeM[0].toFixed(1) : "?"} years, women ${p.lifeF ? p.lifeF[0].toFixed(1) : "?"} years (${(p.lifeM || p.lifeF)[1]})` : "";
+  const crime = p.euCrime
+    ? `Police-recorded offences per 100,000 people, ${p.euCrime[1]}: intentional homicide ${p.euCrime[0].ICCS0101 ?? "n/a"}, robbery ${p.euCrime[0].ICCS0401 ?? "n/a"}, burglary ${p.euCrime[0].ICCS0501 ?? "n/a"}, burglary of homes ${p.euCrime[0].ICCS0502 ?? "n/a"}.`
+    : "";
+  const sectors = p.agr || p.ind || p.srv ? `Agriculture ${p.agr ? p.agr[0].toFixed(1) : "?"}%, industry ${p.ind ? p.ind[0].toFixed(1) : "?"}%, services ${p.srv ? p.srv[0].toFixed(1) : "?"}% of GDP (${(p.agr || p.ind || p.srv)[1]})` : "";
+  const refs = [COUNTRY_REFS.wb, p.median ? COUNTRY_REFS.pip : "", COUNTRY_REFS.un, COUNTRY_REFS.unhcr, COUNTRY_REFS.fb, p.euImm || p.euForeign || p.euCrime ? COUNTRY_REFS.es : "", p.status ? COUNTRY_REFS.rec : "", p.source === "trnc" ? COUNTRY_REFS.trnc : ""].filter(Boolean);
+  return `<div class="fiche country-fiche">
+    <div class="fiche-title">${en}</div>
+    <dl>
+      ${row("Country", p.official || en)}
+      ${row("Status", p.status)}
+    </dl>
+    ${fold("Population", `
+      ${row("Inhabitants", yr(p.pop, n))}
+      ${row("Life expectancy at birth", life)}
+      ${row("Ethnic groups", p.ethnic)}
+      ${row("Born abroad", yr(p.migr, (v) => `${v}% of residents`))}
+      ${row("Foreign citizens", yr(p.euForeign, (v) => `${v}% of residents`))}
+      ${row("Immigrants living here", p.immTot ? `${n(p.immTot)} in 2024; mainly from ${list(p.immTop)}` : "")}
+      ${row("Emigrants living abroad", p.emiTot ? `${n(p.emiTot)} in 2024; mainly in ${list(p.emiTop)}` : "")}
+      ${row("Immigration in the year", yr(p.euImm, n))}
+      ${row("Emigration in the year", yr(p.euEmi, n))}
+      ${row("Net migration", yr(p.net, (v) => `${v > 0 ? "+" : ""}${n(v)} people`))}
+      ${row("Refugees hosted", yr(p.refugees, n))}
+      ${row("Asylum seekers", yr(p.asylum, n))}`)}
+    ${fold("Surface", `
+      ${row("Area", p.area || (p.areaKm ? `${n(p.areaKm[0])} sq km` : ""))}
+      ${row("Note", p.areaNote)}`)}
+    ${fold("Economy", `
+      ${row("GDP", yr(p.gdpTot, money))}
+      ${row("GDP per person", yr(p.gdp, (v) => `US$${n(Math.round(v))}`))}
+      ${row("GDP per person, purchasing power", yr(p.ppp, (v) => `$${n(Math.round(v))}`))}
+      ${row("Median income or consumption", p.median ? `$${p.median[0]} a day per person, ${p.median[2]} survey, in 2021 purchasing-power dollars (${p.median[1]})` : "")}
+      ${row("Living below half the median income", yr(p.relpov, (v) => `${v}% of people`))}
+      ${row("Employed", yr(p.emp, (v) => `${v}% of people aged 15+`))}
+      ${row("Unemployment", yr(p.unemp, (v) => `${v}% of the labour force`))}
+      ${row("Income inequality (Gini)", yr(p.gini, (v) => v))}
+      ${row("Sectors", sectors)}
+      ${row("Main industries", p.industries)}`)}
+    ${fold("Criminality", `
+      ${row("Homicide", yr(p.hom, (v) => `${v} per 100,000 people`))}
+      ${row("Recorded offences", crime)}`)}
+    <details>
+      <summary>References (Harvard)</summary>
+      <ol class="refs">${refs.map((r) => `<li>${r}</li>`).join("")}</ol>
+    </details>
+  </div>`;
+}
+
 // City popup: population and census details, from data/city-census.json where available
 const NOT_FOUND = "Not found yet in the sources checked so far; see the national figures below.";
 const GAZETTEER_REFS = [
@@ -910,6 +978,14 @@ function renderLabels() {
           const city = { en, meta };
           if (compareFrom && !(compareFrom.en === en && compareFrom.meta.lat === meta.lat)) showComparison(compareFrom, city);
           else if (!compareFrom) showCity(city);
+        })
+        .addTo(labelLayer);
+    } else if (kind === "country" && labelData.profiles[en]) {
+      // Country names open a card with national figures
+      L.marker([lat, lon], { icon: labelIcon(en, native, kind), keyboard: false })
+        .on("click", (e) => {
+          L.DomEvent.stopPropagation(e);
+          if (!compareFrom) showInfoCard(countryCardHtml(en), "country-card");
         })
         .addTo(labelLayer);
     } else {
