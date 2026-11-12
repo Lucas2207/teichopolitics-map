@@ -24132,5 +24132,680 @@
       "STATEC (2026) Population by canton and municipality (DF_X021); Employment and unemployment by canton and municipality (DF_X026). LUSTAT. Available at: https://lustat.statec.lu/ (Accessed: 12 November 2026).",
       "STATEC (2023) Census 2021: population by municipality, citizenship and sex (DF_B1625) and by country of birth (DF_B1626). LUSTAT. Available at: https://lustat.statec.lu/ (Accessed: 12 November 2026)."
     ]
+  },
+  "Belgrade": {
+    "census_year": 2022,
+    "population": 1681405,
+    "ethnic": "Ethnicity (self-declared): Serbs 86.2%, Roma 1.4%, Yugoslavs 0.6%, Goranci 0.3%, Montenegrins 0.3%, other groups and regional affiliation 2.1%, did not declare 1.8%, unknown 7.2% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Belgrade (Grad Beograd, all 17 city municipalities), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Novi Sad": {
+    "census_year": 2022,
+    "population": 368967,
+    "ethnic": "Ethnicity (self-declared): Serbs 78.4%, Hungarians 2.7%, Slovaks 1.5%, Croats 1.1%, Yugoslavs 0.9%, Roma 0.9%, Russians 0.7%, Montenegrins 0.6%, Ruthenians 0.5%, other groups and regional affiliation 3.2%, did not declare 4.0%, unknown 5.6% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Novi Sad (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kragujevac": {
+    "census_year": 2022,
+    "population": 171186,
+    "ethnic": "Ethnicity (self-declared): Serbs 93.1%, Roma 0.8%, other groups and regional affiliation 1.0%, did not declare 1.0%, unknown 4.1% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Kragujevac (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Čačak": {
+    "census_year": 2022,
+    "population": 105612,
+    "ethnic": "Ethnicity (self-declared): Serbs 93.6%, Roma 0.5%, other groups and regional affiliation 0.7%, did not declare 1.0%, unknown 4.2% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Čačak (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cacak": {
+    "census_year": 2022,
+    "population": 105612,
+    "ethnic": "Ethnicity (self-declared): Serbs 93.6%, Roma 0.5%, other groups and regional affiliation 0.7%, did not declare 1.0%, unknown 4.2% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Čačak (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Niš": {
+    "census_year": 2022,
+    "population": 249501,
+    "ethnic": "Ethnicity (self-declared): Serbs 90.2%, Roma 2.3%, other groups and regional affiliation 1.4%, did not declare 1.7%, unknown 4.3% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Niš (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Nis": {
+    "census_year": 2022,
+    "population": 249501,
+    "ethnic": "Ethnicity (self-declared): Serbs 90.2%, Roma 2.3%, other groups and regional affiliation 1.4%, did not declare 1.7%, unknown 4.3% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Niš (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zrenjanin": {
+    "census_year": 2022,
+    "population": 105722,
+    "ethnic": "Ethnicity (self-declared): Serbs 76.7%, Hungarians 7.7%, Roma 2.6%, Romanians 1.6%, Slovaks 1.4%, Yugoslavs 0.8%, Croats 0.3%, other groups and regional affiliation 2.2%, did not declare 3.1%, unknown 3.6% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Zrenjanin (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zemun": {
+    "census_year": 2022,
+    "population": 177908,
+    "ethnic": "Ethnicity (self-declared): Serbs 84.4%, Roma 2.7%, Yugoslavs 0.6%, Croats 0.4%, other groups and regional affiliation 2.4%, did not declare 1.9%, unknown 7.6% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City municipality of Zemun in Belgrade, census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Novi Beograd": {
+    "census_year": 2022,
+    "population": 209763,
+    "ethnic": "Ethnicity (self-declared): Serbs 85.2%, Yugoslavs 1.1%, Roma 0.8%, Russians 0.5%, Montenegrins 0.5%, Croats 0.5%, Macedonians 0.4%, other groups and regional affiliation 1.9%, did not declare 2.4%, unknown 6.8% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City municipality of Novi Beograd in Belgrade, census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vranje": {
+    "census_year": 2022,
+    "population": 74381,
+    "ethnic": "Ethnicity (self-declared): Serbs 89.7%, Roma 4.7%, Bulgarians 0.6%, other groups and regional affiliation 0.7%, did not declare 0.7%, unknown 3.6% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Vranje (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Smederevo": {
+    "census_year": 2022,
+    "population": 97930,
+    "ethnic": "Ethnicity (self-declared): Serbs 90.9%, Roma 2.4%, other groups and regional affiliation 1.0%, did not declare 0.9%, unknown 4.8% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Smederevo (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pancevo": {
+    "census_year": 2022,
+    "population": 115454,
+    "ethnic": "Ethnicity (self-declared): Serbs 79.3%, Macedonians 2.6%, Hungarians 2.1%, Romanians 2.1%, Roma 1.8%, Slovaks 0.9%, Yugoslavs 0.6%, Croats 0.5%, Bulgarians 0.4%, other groups and regional affiliation 1.9%, did not declare 2.8%, unknown 5.1% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Pančevo (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Novi Pazar": {
+    "census_year": 2022,
+    "population": 106720,
+    "ethnic": "Ethnicity (self-declared): Bosniaks 79.8%, Serbs 13.3%, Muslims 1.7%, Roma 0.5%, other groups and regional affiliation 0.8%, did not declare 0.4%, unknown 3.6% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Novi Pazar (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Leskovac": {
+    "census_year": 2022,
+    "population": 123950,
+    "ethnic": "Ethnicity (self-declared): Serbs 90.2%, Roma 5.4%, other groups and regional affiliation 0.6%, did not declare 0.8%, unknown 3.0% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Leskovac (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Krusevac": {
+    "census_year": 2022,
+    "population": 113582,
+    "ethnic": "Ethnicity (self-declared): Serbs 93.5%, Roma 1.8%, other groups and regional affiliation 0.8%, did not declare 0.8%, unknown 3.1% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Kruševac (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kraljevo": {
+    "census_year": 2022,
+    "population": 110196,
+    "ethnic": "Ethnicity (self-declared): Serbs 93.3%, Roma 0.8%, other groups and regional affiliation 1.0%, did not declare 1.0%, unknown 3.9% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Kraljevo (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Valjevo": {
+    "census_year": 2022,
+    "population": 82169,
+    "ethnic": "Ethnicity (self-declared): Serbs 92.9%, Roma 1.6%, other groups and regional affiliation 0.7%, did not declare 0.9%, unknown 4.0% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Valjevo (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Uzice": {
+    "census_year": 2022,
+    "population": 69997,
+    "ethnic": "Ethnicity (self-declared): Serbs 94.4%, other groups and regional affiliation 0.7%, did not declare 0.8%, unknown 4.1% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Užice (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sabac": {
+    "census_year": 2022,
+    "population": 105432,
+    "ethnic": "Ethnicity (self-declared): Serbs 92.9%, Roma 1.2%, other groups and regional affiliation 0.8%, did not declare 0.8%, unknown 4.2% (2022).",
+    "cite": "(Republički zavod za statistiku, 2023)",
+    "area_note": "City of Šabac (grad, including its surrounding villages), census 2022",
+    "sources": [
+      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Banja Luka": {
+    "census_year": 2013,
+    "population": 185042,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 4.2%, Croats 2.8%, Serbs 89.6%, did not declare 1.5%, other 1.9%, no answer 0.2% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 4.1%, Catholic 2.6%, Orthodox 89.1%, agnostic 0.3%, atheist 1.5%, did not declare 1.5%, other 0.7%, no answer 0.2% (2013).",
+    "language": "Mother tongue: Bosnian 4.1%, Croatian 0.9%, Serbian 91.8%, other 2.9%, no answer 0.2% (2013).",
+    "economy": "Unemployment 22.7% of the labour force at the census (18,674 unemployed, of whom 6,374 had never worked); 40.2% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "City of Banja Luka (Grad Banja Luka), Republika Srpska, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sarajevo": {
+    "census_year": 2013,
+    "population": 275524,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 80.7%, Croats 4.9%, Serbs 3.8%, did not declare 2.2%, other 8.2%, no answer 0.2% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 81.7%, Catholic 4.6%, Orthodox 3.8%, agnostic 1.6%, atheist 3.4%, did not declare 3.1%, other 1.6%, no answer 0.1% (2013).",
+    "language": "Mother tongue: Bosnian 90.2%, Croatian 3.1%, Serbian 2.5%, other 4.0%, no answer 0.2% (2013).",
+    "economy": "Unemployment 22.9% of the labour force at the census (22,173 unemployed, of whom 10,253 had never worked); 42.0% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "City of Sarajevo: the municipalities of Centar, Stari Grad, Novi Grad and Novo Sarajevo, Federation of Bosnia and Herzegovina, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zenica": {
+    "census_year": 2013,
+    "population": 110663,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 84.0%, Croats 7.5%, Serbs 2.2%, did not declare 1.2%, other 5.0%, no answer 0.1% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 85.0%, Catholic 7.3%, Orthodox 2.3%, agnostic 0.6%, atheist 1.5%, did not declare 1.7%, other 1.5%, no answer 0.1% (2013).",
+    "language": "Mother tongue: Bosnian 91.0%, Croatian 5.6%, Serbian 1.1%, other 2.1%, no answer 0.1% (2013).",
+    "economy": "Unemployment 26.6% of the labour force at the census (11,047 unemployed, of whom 5,088 had never worked); 32.8% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "City of Zenica, Federation of Bosnia and Herzegovina, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tuzla": {
+    "census_year": 2013,
+    "population": 110979,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 72.8%, Croats 13.9%, Serbs 3.0%, did not declare 1.9%, other 8.2%, no answer 0.1% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 73.0%, Catholic 13.3%, Orthodox 3.2%, agnostic 1.1%, atheist 2.7%, did not declare 3.0%, other 3.5%, no answer 0.1% (2013).",
+    "language": "Mother tongue: Bosnian 85.2%, Croatian 9.1%, Serbian 1.4%, other 4.1%, no answer 0.2% (2013).",
+    "economy": "Unemployment 25.4% of the labour force at the census (11,488 unemployed, of whom 5,251 had never worked); 35.1% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "City of Tuzla, Federation of Bosnia and Herzegovina, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Mostar": {
+    "census_year": 2013,
+    "population": 105797,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 44.2%, Croats 48.4%, Serbs 4.2%, did not declare 1.2%, other 1.8%, no answer 0.2% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 43.5%, Catholic 47.4%, Orthodox 4.0%, agnostic 0.7%, atheist 1.6%, did not declare 1.5%, other 1.1%, no answer 0.2% (2013).",
+    "language": "Mother tongue: Bosnian 45.3%, Croatian 48.8%, Serbian 3.1%, other 2.7%, no answer 0.2% (2013).",
+    "economy": "Unemployment 25.9% of the labour force at the census (11,003 unemployed, of whom 5,069 had never worked); 35.0% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "City of Mostar (Grad Mostar), Federation of Bosnia and Herzegovina, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ilidza": {
+    "census_year": 2013,
+    "population": 66730,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 87.1%, Croats 4.5%, Serbs 2.4%, did not declare 1.0%, other 4.9%, no answer 0.1% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 88.5%, Catholic 4.5%, Orthodox 2.5%, agnostic 0.4%, atheist 0.9%, did not declare 1.3%, other 1.8%, no answer 0.1% (2013).",
+    "language": "Mother tongue: Bosnian 91.0%, Croatian 3.6%, Serbian 1.9%, other 3.4%, no answer 0.1% (2013).",
+    "economy": "Unemployment 24.9% of the labour force at the census (6,862 unemployed, of whom 2,736 had never worked); 37.4% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "Municipality of Ilidža, Sarajevo Canton, Federation of Bosnia and Herzegovina, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Bihac": {
+    "census_year": 2013,
+    "population": 56261,
+    "ethnic": "Ethnic or national affiliation (self-declared): Bosniaks 88.1%, Croats 5.8%, Serbs 1.6%, did not declare 1.1%, other 3.3%, no answer 0.1% (2013). The Republika Srpska statistics institute rejected the Agency's method for deciding who counted as resident and published its own results for the entity.",
+    "religion": "Religion: Islam 89.4%, Catholic 5.3%, Orthodox 1.7%, agnostic 0.6%, atheist 1.2%, did not declare 1.4%, other 0.5%, no answer 0.1% (2013).",
+    "language": "Mother tongue: Bosnian 93.2%, Croatian 4.5%, Serbian 1.1%, other 1.1%, no answer 0.1% (2013).",
+    "economy": "Unemployment 27.8% of the labour force at the census (5,903 unemployed, of whom 2,479 had never worked); 32.4% of the working-age population (15 and over) in work (2013).",
+    "cite": "(Agencija za statistiku Bosne i Hercegovine, 2016)",
+    "area_note": "City of Bihać, Federation of Bosnia and Herzegovina, census 2013",
+    "sources": [
+      "Agencija za statistiku Bosne i Hercegovine (2016) Popis stanovništva, domaćinstava i stanova u Bosni i Hercegovini, 2013: Rezultati popisa (Census of Population, Households and Dwellings in Bosnia and Herzegovina, 2013: Final results), tables 3.3, 4.3, 5.3 and 13.3. Sarajevo: BHAS. Available at: https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Podgorica": {
+    "census_year": 2023,
+    "population": 179505,
+    "ethnic": "National or ethnic affiliation (self-declared): Montenegrins 54.5%, Serbs 30.8%, Bosniaks 2.6%, Roma 1.9%, Russians 1.5%, Albanians 1.0%, Muslims 0.9%, Turks 0.5%, Egyptians 0.3%, Croats 0.3%, other affiliations about 2.6%, did not wish to declare 3.0% (2023).",
+    "religion": "Orthodox 79.8%, Islam 10.5%, Catholic 1.7%, other Christian 0.8%, atheist 3.8%, agnostic 0.8%, other religions 0.2%, did not wish to declare 2.5% (2023).",
+    "language": "Mother tongue: Serbian 44.8%, Montenegrin 41.8%, Serbo-Croatian 2.4%, Russian 1.7%, Romani 1.6%, Albanian 1.4%, Bosnian 1.4%, Turkish 0.5%, other or combined answers about 2.6%, did not wish to declare 1.8% (2023).",
+    "area_note": "Municipality of Podgorica (Glavni grad Podgorica), without Tuzi and Zeta, which became separate municipalities in 2018 and 2022, census 2023",
+    "cite": "(MONSTAT, 2024)",
+    "sources": [
+      "Uprava za statistiku Crne Gore (MONSTAT) (2024) Popis stanovništva, domaćinstava i stanova u 2023. godini: nacionalna odnosno etnička pripadnost, vjera, maternji jezik i jezik kojim se uobičajeno govori, po opštinama (Census 2023: ethnicity, religion and language by municipality), tables 1–3. Podgorica: MONSTAT. Available at: https://monstat.org/uploads/files/popis%202021/saopstenja/SAOPSTENJE_Popis%20stanovnistva%202023%20II_cg.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Niksic": {
+    "census_year": 2023,
+    "population": 65705,
+    "ethnic": "National or ethnic affiliation (self-declared): Montenegrins 59.5%, Serbs 33.9%, Egyptians 0.7%, Roma 0.6%, Serbs-Montenegrins 0.4%, Muslims 0.3%, other affiliations about 1.5%, did not wish to declare 3.1% (2023).",
+    "religion": "Orthodox 93.3%, Islam 2.4%, Catholic 0.3%, other Christian 0.3%, atheist 1.6%, agnostic 0.3%, did not wish to declare 1.7% (2023).",
+    "language": "Mother tongue: Serbian 49.5%, Montenegrin 43.1%, Serbo-Croatian 2.4%, Albanian 0.9%, Romani 0.5%, other or combined answers about 1.7%, did not wish to declare 1.9% (2023).",
+    "area_note": "Municipality of Nikšić (Opština Nikšić), census 2023",
+    "cite": "(MONSTAT, 2024)",
+    "sources": [
+      "Uprava za statistiku Crne Gore (MONSTAT) (2024) Popis stanovništva, domaćinstava i stanova u 2023. godini: nacionalna odnosno etnička pripadnost, vjera, maternji jezik i jezik kojim se uobičajeno govori, po opštinama (Census 2023: ethnicity, religion and language by municipality), tables 1–3. Podgorica: MONSTAT. Available at: https://monstat.org/uploads/files/popis%202021/saopstenja/SAOPSTENJE_Popis%20stanovnistva%202023%20II_cg.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pristina": {
+    "census_year": 2024,
+    "population": 227466,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 98.0%, Turks 0.9%, Serbs 0.3%, others 0.2%, Ashkali 0.2%, Bosniaks 0.2% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 91.5%, preferred not to answer 4.2%, no religious affiliation 1.8%, other religions 1.1%, Catholic 1.0%, Orthodox 0.4% (2024).",
+    "language": "Mother tongue: Albanian 98.4%, Turkish 0.8%, Serbian 0.3%, other 0.3%, Bosnian 0.1% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Prishtinë (Pristina), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ferizaj": {
+    "census_year": 2024,
+    "population": 109255,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 96.1%, Ashkali 3.3%, Roma 0.2%, Egyptians 0.1% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 97.7%, preferred not to answer 1.2%, Catholic 0.4%, no religious affiliation 0.4%, other religions 0.3% (2024).",
+    "language": "Mother tongue: Albanian 99.6%, Romani 0.1%, other 0.1% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Ferizaj (Uroševac), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Suva Reka": {
+    "census_year": 2024,
+    "population": 45749,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 98.8%, Ashkali 0.9%, Roma 0.3% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 95.8%, preferred not to answer 2.1%, other religions 1.1%, Catholic 0.5%, no religious affiliation 0.5% (2024).",
+    "language": "Mother tongue: Albanian 99.9% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Suharekë (Suva Reka), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Prizren": {
+    "census_year": 2024,
+    "population": 147246,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 77.8%, Bosniaks 12.5%, Turks 6.7%, Roma 1.4%, Ashkali 0.9%, Gorani 0.4%, others 0.2%, Serbs 0.1% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 96.7%, Catholic 2.0%, preferred not to answer 0.7%, other religions 0.3%, no religious affiliation 0.3%, Orthodox 0.1% (2024).",
+    "language": "Mother tongue: Albanian 78.9%, Bosnian 13.3%, Turkish 6.7%, Romani 0.6%, other 0.3%, Serbian 0.2% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Prizren, census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Mitrovice": {
+    "census_year": 2024,
+    "population": 64742,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 96.8%, Ashkali 1.6%, Roma 0.6%, Bosniaks 0.4%, Turks 0.4% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 99.1%, preferred not to answer 0.5%, no religious affiliation 0.1%, other religions 0.1% (2024).",
+    "language": "Mother tongue: Albanian 98.9%, Bosnian 0.4%, Turkish 0.3%, Romani 0.3% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Mitrovicë (South Mitrovica), census 2024 (enumerated population). The Ibër/Ibar river and its guarded main bridge separate it from North Mitrovica (Mitrovicë e Veriut), where the census counted only 2,326 people; the statistics agency estimates 7,920 with those not counted, 5,594 of them Serbs.",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Gjilan": {
+    "census_year": 2024,
+    "population": 82980,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 97.2%, Serbs 1.1%, Turks 0.9%, Roma 0.5% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 96.6%, preferred not to answer 1.5%, Orthodox 1.1%, other religions 0.4%, no religious affiliation 0.2% (2024).",
+    "language": "Mother tongue: Albanian 97.3%, Serbian 1.1%, Turkish 0.8%, Romani 0.5%, other 0.2% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Gjilan (Gnjilane), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Glogovac": {
+    "census_year": 2024,
+    "population": 48079,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 99.9% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 98.0%, preferred not to answer 1.3%, other religions 0.3%, Catholic 0.2%, no religious affiliation 0.2% (2024).",
+    "language": "Mother tongue: Albanian 99.9% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Drenas/Gllogoc (Glogovac), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Decan": {
+    "census_year": 2024,
+    "population": 27775,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 98.2%, Egyptians 1.2%, Bosniaks 0.2%, preferred not to answer 0.1%, Roma 0.1%, Ashkali 0.1% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 97.8%, preferred not to answer 0.7%, Catholic 0.7%, no religious affiliation 0.4%, other religions 0.4% (2024).",
+    "language": "Mother tongue: Albanian 99.7%, Bosnian 0.2% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Deçan (Dečani), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Gjakove": {
+    "census_year": 2024,
+    "population": 78699,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 91.6%, Egyptians 6.0%, Ashkali 1.4%, Roma 0.7%, preferred not to answer 0.2% (2024). Kosovo declared independence from Serbia in 2008; Serbia does not recognise it, and many Serbs in Kosovo, mostly in the northern municipalities, did not take part in the 2024 census.",
+    "religion": "Religion: Islam 80.5%, Catholic 14.6%, preferred not to answer 3.1%, other religions 0.9%, no religious affiliation 0.8% (2024).",
+    "language": "Mother tongue: Albanian 99.5%, Romani 0.3% (2024).",
+    "cite": "(Agjencia e Statistikave të Kosovës, 2025)",
+    "area_note": "Municipality of Gjakovë (Đakovica), census 2024 (enumerated population)",
+    "sources": [
+      "Agjencia e Statistikave të Kosovës (2025) Regjistrimi i Popullsisë, Ekonomive Familjare dhe Banesave 2024 (Population, Households and Dwellings Census 2024), tables census2024_05, census2024_10 and census2024_22. ASKdata. Available at: https://askdata.rks-gov.net/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Skopje": {
+    "census_year": 2021,
+    "population": 526502,
+    "ethnic": "Ethnic affiliation (self-declared): Macedonians 58.7%, Albanians 22.8%, Roma 3.5%, Serbs 1.8%, Turks 1.6%, Bosniaks 1.4%, other groups 1.1%, Vlach (Aromanian) 0.5%; no answer recorded because counted from administrative registers 8.4% (2021).",
+    "religion": "Religion: Orthodox 50.3%, Islam 29.5%, Christian, no denomination 9.3%, atheist 1.3%, Catholic 0.4%, did not declare 0.3%; no answer recorded because counted from administrative registers 8.4% (2021).",
+    "language": "Mother tongue: Macedonian 60.9%, Albanian 22.8%, Romani 3.4%, Turkish 1.5%, Bosnian 1.3%, Serbian 0.9%, other languages 0.5%, Vlach (Aromanian) 0.2%; no answer recorded because counted from administrative registers 8.4% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "City of Skopje (Град Скопје, its ten municipalities), census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Veles": {
+    "census_year": 2021,
+    "population": 48463,
+    "ethnic": "Ethnic affiliation (self-declared): Macedonians 76.0%, Albanians 5.6%, Bosniaks 3.8%, Turks 2.1%, Roma 1.0%, other groups 0.6%, Vlach (Aromanian) 0.6%, Serbs 0.6%; no answer recorded because counted from administrative registers 9.7% (2021).",
+    "religion": "Religion: Orthodox 49.7%, Christian, no denomination 26.8%, Islam 13.0%, atheist 0.3%; no answer recorded because counted from administrative registers 9.7% (2021).",
+    "language": "Mother tongue: Macedonian 77.1%, Albanian 5.6%, Bosnian 3.7%, Turkish 2.3%, Romani 0.8%, Vlach (Aromanian) 0.3%, Serbian 0.3%, other languages 0.2%; no answer recorded because counted from administrative registers 9.7% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Veles, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tetovo": {
+    "census_year": 2021,
+    "population": 84770,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 71.3%, Macedonians 18.3%, Roma 2.2%, Turks 2.1%, other groups 0.4%, Serbs 0.3%, Bosniaks 0.2%; no answer recorded because counted from administrative registers 5.2% (2021).",
+    "religion": "Religion: Islam 76.1%, Orthodox 15.6%, Christian, no denomination 2.8%, Catholic 0.2%; no answer recorded because counted from administrative registers 5.2% (2021).",
+    "language": "Mother tongue: Albanian 72.0%, Macedonian 18.9%, Turkish 2.3%, Romani 1.3%, Bosnian 0.2%; no answer recorded because counted from administrative registers 5.2% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Tetovo, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Prilep": {
+    "census_year": 2021,
+    "population": 69025,
+    "ethnic": "Ethnic affiliation (self-declared): Macedonians 84.5%, Roma 5.7%, Turks 1.5%, other groups 0.4%; no answer recorded because counted from administrative registers 7.2% (2021).",
+    "religion": "Religion: Orthodox 73.7%, Christian, no denomination 10.9%, Islam 7.3%, Catholic 0.2%; no answer recorded because counted from administrative registers 7.2% (2021).",
+    "language": "Mother tongue: Macedonian 88.1%, Romani 2.3%, Turkish 1.5%, Albanian 0.3%, other languages 0.2%; no answer recorded because counted from administrative registers 7.2% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Prilep, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kumanovo": {
+    "census_year": 2021,
+    "population": 98104,
+    "ethnic": "Ethnic affiliation (self-declared): Macedonians 55.8%, Albanians 26.0%, Serbs 6.5%, Roma 2.8%, other groups 0.7%; no answer recorded because counted from administrative registers 7.8% (2021).",
+    "religion": "Religion: Orthodox 48.8%, Islam 29.1%, Christian, no denomination 13.4%, Protestants 0.4%, atheist 0.2%; no answer recorded because counted from administrative registers 7.8% (2021).",
+    "language": "Mother tongue: Macedonian 60.7%, Albanian 26.1%, Romani 2.7%, Serbian 2.3%, other languages 0.2%; no answer recorded because counted from administrative registers 7.8% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Kumanovo, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Gostivar": {
+    "census_year": 2021,
+    "population": 59770,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 55.3%, Macedonians 21.4%, Turks 12.7%, Roma 3.8%, other groups 0.8%; no answer recorded because counted from administrative registers 5.7% (2021).",
+    "religion": "Religion: Islam 72.7%, Orthodox 14.8%, Christian, no denomination 6.4%, Catholic 0.3%; no answer recorded because counted from administrative registers 5.7% (2021).",
+    "language": "Mother tongue: Albanian 55.6%, Macedonian 23.9%, Turkish 12.7%, Romani 1.8%; no answer recorded because counted from administrative registers 5.7% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Gostivar, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Bitola": {
+    "census_year": 2021,
+    "population": 85164,
+    "ethnic": "Ethnic affiliation (self-declared): Macedonians 81.2%, Albanians 4.7%, Roma 3.4%, Vlach (Aromanian) 1.4%, Turks 1.4%, other groups 0.9%, Serbs 0.4%; no answer recorded because counted from administrative registers 6.5% (2021).",
+    "religion": "Religion: Orthodox 67.1%, Christian, no denomination 15.8%, Islam 9.7%, atheist 0.4%, Catholic 0.2%; no answer recorded because counted from administrative registers 6.5% (2021).",
+    "language": "Mother tongue: Macedonian 85.8%, Albanian 4.7%, Turkish 1.1%, Romani 0.8%, other languages 0.4%, Vlach (Aromanian) 0.4%, Serbian 0.2%; no answer recorded because counted from administrative registers 6.5% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Bitola, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cair": {
+    "census_year": 2021,
+    "population": 62586,
+    "ethnic": "Ethnic affiliation (self-declared): Albanians 67.4%, Macedonians 8.6%, Turks 6.7%, Bosniaks 4.0%, Roma 2.1%, other groups 0.8%, Serbs 0.3%; no answer recorded because counted from administrative registers 9.9% (2021).",
+    "religion": "Religion: Islam 81.1%, Orthodox 4.9%, Christian, no denomination 3.4%, Catholic 0.2%; no answer recorded because counted from administrative registers 9.9% (2021).",
+    "language": "Mother tongue: Albanian 67.4%, Macedonian 9.5%, Turkish 6.5%, Bosnian 4.0%, Romani 2.1%, Serbian 0.2%; no answer recorded because counted from administrative registers 9.9% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Chair in the City of Skopje, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kisela Voda": {
+    "census_year": 2021,
+    "population": 61965,
+    "ethnic": "Ethnic affiliation (self-declared): Macedonians 84.0%, Serbs 1.5%, Turks 1.2%, other groups 1.1%, Vlach (Aromanian) 1.0%, Bosniaks 0.9%, Roma 0.8%, Albanians 0.7%; no answer recorded because counted from administrative registers 8.8% (2021).",
+    "religion": "Religion: Orthodox 71.7%, Christian, no denomination 13.7%, Islam 3.7%, atheist 1.2%, Catholic 0.4%, did not declare 0.2%; no answer recorded because counted from administrative registers 8.8% (2021).",
+    "language": "Mother tongue: Macedonian 86.4%, Bosnian 0.9%, Serbian 0.8%, Turkish 0.8%, Albanian 0.7%, Romani 0.6%, Vlach (Aromanian) 0.5%, other languages 0.5%; no answer recorded because counted from administrative registers 8.8% (2021).",
+    "cite": "(Државен завод за статистика, 2022)",
+    "area_note": "Municipality of Kisela Voda in the City of Skopje, census 2021 (resident population)",
+    "sources": [
+      "Државен завод за статистика (2022) Попис на населението, домаќинствата и становите во Република Северна Македонија, 2021: вкупно резидентно население според етничка припадност, вероисповед и мајчин јазик, по општини (Census 2021: resident population by ethnic affiliation, religion and mother tongue, by municipalities), tables T1008P21, T1012P21 and T1015P21. MakStat. Available at: https://makstat.stat.gov.mk/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tirana": {
+    "census_year": 2023,
+    "population": 598176,
+    "ethnic": "Born abroad 2.4%, foreign or stateless citizens 0.9% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Tiranë, not the city alone: Albanian 93.9%, Greek 0.2%, Roma 0.4%, Egyptian 0.3%, Bulgarian 0.2%, other 0.2%, preferred not to answer 0.8%, no answer recorded 3.8% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Tiranë, not the city alone: Muslim 48.7%, Bektashi 4.9%, Catholic 4.7%, Orthodox 5.0%, Evangelical (Protestant) 0.6%, other 0.2%, believers without denomination 15.5%, atheist 3.7%, preferred not to answer 12.9%, no answer recorded 3.8% (2023).",
+    "language": "Language usually spoken at home, prefecture of Tiranë: Albanian 93.4%, other language 0.6%, several languages 0.6%, preferred not to answer 1.6%, no answer recorded 3.8% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Tiranë, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Tiranë (Population and Housing Census of Albania 2023: prefecture of Tiranë), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14323/cens-2023-tirana.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Elbasan": {
+    "census_year": 2023,
+    "population": 115101,
+    "ethnic": "Born abroad 1.1%, foreign or stateless citizens 0.2% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Elbasan, not the city alone: Albanian 89.9%, Roma 0.5%, Egyptian 1.4%, Bulgarian 0.2%, preferred not to answer 0.4%, no answer recorded 7.2% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Elbasan, not the city alone: Muslim 52.9%, Bektashi 1.4%, Catholic 0.7%, Orthodox 5.2%, Evangelical (Protestant) 0.3%, believers without denomination 17.5%, atheist 4.4%, preferred not to answer 10.3%, no answer recorded 7.2% (2023).",
+    "language": "Language usually spoken at home, prefecture of Elbasan: Albanian 91.0%, other language 0.4%, several languages 0.3%, preferred not to answer 1.1%, no answer recorded 7.2% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Elbasan, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Elbasan (Population and Housing Census of Albania 2023: prefecture of Elbasan), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14304/cens-2023-elbasani.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vlore": {
+    "census_year": 2023,
+    "population": 83683,
+    "ethnic": "Born abroad 2.2%, foreign or stateless citizens 0.7% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Vlorë, not the city alone: Albanian 87.6%, Greek 8.2%, Aromanian 0.3%, Roma 0.3%, Egyptian 1.0%, other 0.5%, preferred not to answer 0.6%, no answer recorded 1.3% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Vlorë, not the city alone: Muslim 31.9%, Bektashi 6.3%, Catholic 1.1%, Orthodox 17.6%, Evangelical (Protestant) 0.3%, other 0.2%, believers without denomination 21.7%, atheist 8.3%, preferred not to answer 11.2%, no answer recorded 1.3% (2023).",
+    "language": "Language usually spoken at home, prefecture of Vlorë: Albanian 88.5%, other language 7.4%, several languages 1.9%, preferred not to answer 1.0%, no answer recorded 1.3% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Vlorë, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Vlorë (Population and Housing Census of Albania 2023: prefecture of Vlorë), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14325/cens-2023-vlora.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Shkoder": {
+    "census_year": 2023,
+    "population": 102434,
+    "ethnic": "Born abroad 1.3%, foreign or stateless citizens 0.4% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Shkodër, not the city alone: Albanian 95.9%, Roma 0.2%, Egyptian 0.4%, preferred not to answer 0.4%, no answer recorded 2.9% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Shkodër, not the city alone: Muslim 47.1%, Bektashi 0.2%, Catholic 43.5%, Orthodox 0.4%, Evangelical (Protestant) 0.2%, believers without denomination 1.9%, atheist 0.3%, preferred not to answer 3.4%, no answer recorded 2.9% (2023).",
+    "language": "Language usually spoken at home, prefecture of Shkodër: Albanian 95.6%, other language 0.4%, several languages 0.4%, preferred not to answer 0.7%, no answer recorded 2.9% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Shkodër, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Shkodër (Population and Housing Census of Albania 2023: prefecture of Shkodër), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14322/cens-2023-shkodra.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lushnje": {
+    "census_year": 2023,
+    "population": 63135,
+    "ethnic": "Born abroad 0.9%, foreign or stateless citizens 0.2% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Fier, not the city alone: Albanian 96.0%, Aromanian 0.2%, Roma 0.8%, preferred not to answer 0.6%, no answer recorded 1.8% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Fier, not the city alone: Muslim 39.0%, Bektashi 5.9%, Catholic 0.8%, Orthodox 15.9%, Evangelical (Protestant) 0.4%, other 0.2%, believers without denomination 18.1%, atheist 5.0%, preferred not to answer 12.9%, no answer recorded 1.8% (2023).",
+    "language": "Language usually spoken at home, prefecture of Fier: Albanian 96.1%, other language 0.6%, several languages 0.3%, preferred not to answer 1.3%, no answer recorded 1.8% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Lushnje, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Fier (Population and Housing Census of Albania 2023: prefecture of Fier), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14305/cens-2023-fieri.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Fier": {
+    "census_year": 2023,
+    "population": 101963,
+    "ethnic": "Born abroad 1.4%, foreign or stateless citizens 0.3% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Fier, not the city alone: Albanian 96.0%, Aromanian 0.2%, Roma 0.8%, preferred not to answer 0.6%, no answer recorded 1.8% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Fier, not the city alone: Muslim 39.0%, Bektashi 5.9%, Catholic 0.8%, Orthodox 15.9%, Evangelical (Protestant) 0.4%, other 0.2%, believers without denomination 18.1%, atheist 5.0%, preferred not to answer 12.9%, no answer recorded 1.8% (2023).",
+    "language": "Language usually spoken at home, prefecture of Fier: Albanian 96.1%, other language 0.6%, several languages 0.3%, preferred not to answer 1.3%, no answer recorded 1.8% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Fier, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Fier (Population and Housing Census of Albania 2023: prefecture of Fier), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14305/cens-2023-fieri.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Fier-Cifci": {
+    "census_year": 2023,
+    "population": 101963,
+    "ethnic": "Born abroad 1.4%, foreign or stateless citizens 0.3% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Fier, not the city alone: Albanian 96.0%, Aromanian 0.2%, Roma 0.8%, preferred not to answer 0.6%, no answer recorded 1.8% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Fier, not the city alone: Muslim 39.0%, Bektashi 5.9%, Catholic 0.8%, Orthodox 15.9%, Evangelical (Protestant) 0.4%, other 0.2%, believers without denomination 18.1%, atheist 5.0%, preferred not to answer 12.9%, no answer recorded 1.8% (2023).",
+    "language": "Language usually spoken at home, prefecture of Fier: Albanian 96.1%, other language 0.6%, several languages 0.3%, preferred not to answer 1.3%, no answer recorded 1.8% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Fier, census 2023 (Fier-Çifçi is a neighbourhood of Fier; figures are for the whole municipality)",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Fier (Population and Housing Census of Albania 2023: prefecture of Fier), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14305/cens-2023-fieri.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Durres": {
+    "census_year": 2023,
+    "population": 153614,
+    "ethnic": "Born abroad 3.5%, foreign or stateless citizens 2.2% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Durrës, not the city alone: Albanian 91.9%, Roma 0.4%, Egyptian 0.3%, Bosniak 1.1%, Bulgarian 0.2%, other 0.1%, none 0.1%, preferred not to answer 0.6%, no answer recorded 5.2% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Durrës, not the city alone: Muslim 54.6%, Bektashi 5.3%, Catholic 6.0%, Orthodox 3.0%, Evangelical (Protestant) 0.3%, other 0.1%, believers without denomination 13.3%, atheist 1.6%, preferred not to answer 10.5%, no answer recorded 5.2% (2023).",
+    "language": "Language usually spoken at home, prefecture of Durrës: Albanian 91.4%, other language 1.4%, several languages 0.3%, preferred not to answer 1.6%, no answer recorded 5.2% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Durrës, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Durrës (Population and Housing Census of Albania 2023: prefecture of Durrës), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14324/cens-2023-durresi.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kruje": {
+    "census_year": 2023,
+    "population": 51191,
+    "ethnic": "Born abroad 0.8%, foreign or stateless citizens 0.3% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Durrës, not the city alone: Albanian 91.9%, Roma 0.4%, Egyptian 0.3%, Bosniak 1.1%, Bulgarian 0.2%, other 0.1%, none 0.1%, preferred not to answer 0.6%, no answer recorded 5.2% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Durrës, not the city alone: Muslim 54.6%, Bektashi 5.3%, Catholic 6.0%, Orthodox 3.0%, Evangelical (Protestant) 0.3%, other 0.1%, believers without denomination 13.3%, atheist 1.6%, preferred not to answer 10.5%, no answer recorded 5.2% (2023).",
+    "language": "Language usually spoken at home, prefecture of Durrës: Albanian 91.4%, other language 1.4%, several languages 0.3%, preferred not to answer 1.6%, no answer recorded 5.2% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Krujë, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Durrës (Population and Housing Census of Albania 2023: prefecture of Durrës), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14324/cens-2023-durresi.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Berat": {
+    "census_year": 2023,
+    "population": 62232,
+    "ethnic": "Born abroad 1.0%, foreign or stateless citizens 0.2% (municipality, 2023). INSTAT publishes ethnicity only by prefecture; for the prefecture of Berat, not the city alone: Albanian 71.6%, Roma 0.4%, Egyptian 0.7%, preferred not to answer 0.7%, no answer recorded 26.4% (2023). The ethnicity, religion and language questions were voluntary.",
+    "religion": "For the prefecture of Berat, not the city alone: Muslim 29.4%, Bektashi 8.1%, Catholic 0.6%, Orthodox 5.8%, Evangelical (Protestant) 0.2%, other 0.2%, believers without denomination 15.2%, atheist 5.1%, preferred not to answer 9.0%, no answer recorded 26.4% (2023).",
+    "language": "Language usually spoken at home, prefecture of Berat: Albanian 72.0%, other language 0.2%, several languages 0.3%, preferred not to answer 1.1%, no answer recorded 26.4% (2023).",
+    "cite": "(INSTAT, 2024)",
+    "area_note": "Municipality (bashkia) of Berat, census 2023",
+    "sources": [
+      "Instituti i Statistikave (INSTAT) (2024) Censi i Popullsisë dhe Banesave në Shqipëri 2023: Berat (Population and Housing Census of Albania 2023: prefecture of Berat), tables 1.12–1.14, 2.4 and 2.7. Tirana: INSTAT. Available at: https://www.instat.gov.al/media/14327/cens-2023-berati.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Chișinău": {
+    "census_year": 2024,
+    "population": 720128,
+    "ethnic": "Ethnicity (self-declared): Moldovans 72.5%, Romanians 12.9%, Russians 5.9%, Ukrainians 5.4%, Bulgarians 0.9%, Gagauz 0.8%, Roma 0.1%, other 1.2%, did not declare 0.3% (2024). Whether to call oneself Moldovan or Romanian, and the language Moldovan or Romanian, is a political question in Moldova; the census records both answers separately.",
+    "language": "Mother tongue: Romanian 47.7%, Moldovan 28.7% (together 76.3%), Russian 19.7%, Ukrainian 2.4%, Gagauz 0.4%, Bulgarian 0.4%, Romani 0.1%, other 0.6%, did not declare 0.1% (2024).",
+    "religion": "Orthodox 92.4%, Baptist 0.7%, Jehovah's Witnesses 0.5%, Evangelical Christian 0.3%, Pentecostal 0.2%, Adventist 0.1%, Old Believers 0.1%, Islam 0.3%, Catholic 0.2%, other religions 0.4%, atheist 1.6%, no religion 1.7%, agnostic 0.3%, did not declare 1.2% (2024).",
+    "cite": "(Biroul Național de Statistică, 2025)",
+    "area_note": "Municipality of Chișinău (municipiul Chișinău, the city and its suburbs), census of 8 April 2024 (usual residents)",
+    "sources": [
+      "Biroul Național de Statistică al Republicii Moldova (2025) Rezultatele finale ale RPL2024: caracteristici etnoculturale (Final results of the 2024 Population and Housing Census: ethnocultural characteristics), infographics for the municipality of Chișinău (ethnicity, mother tongue, religion). Chișinău: BNS. Available at: https://statistica.gov.md/ro/rezultatele-finale-ale-rpl2024-caracteristici-etnoculturale-10123_62044.html (Accessed: 12 November 2026)."
+    ]
+  },
+  "Chisinau": {
+    "census_year": 2024,
+    "population": 720128,
+    "ethnic": "Ethnicity (self-declared): Moldovans 72.5%, Romanians 12.9%, Russians 5.9%, Ukrainians 5.4%, Bulgarians 0.9%, Gagauz 0.8%, Roma 0.1%, other 1.2%, did not declare 0.3% (2024). Whether to call oneself Moldovan or Romanian, and the language Moldovan or Romanian, is a political question in Moldova; the census records both answers separately.",
+    "language": "Mother tongue: Romanian 47.7%, Moldovan 28.7% (together 76.3%), Russian 19.7%, Ukrainian 2.4%, Gagauz 0.4%, Bulgarian 0.4%, Romani 0.1%, other 0.6%, did not declare 0.1% (2024).",
+    "religion": "Orthodox 92.4%, Baptist 0.7%, Jehovah's Witnesses 0.5%, Evangelical Christian 0.3%, Pentecostal 0.2%, Adventist 0.1%, Old Believers 0.1%, Islam 0.3%, Catholic 0.2%, other religions 0.4%, atheist 1.6%, no religion 1.7%, agnostic 0.3%, did not declare 1.2% (2024).",
+    "cite": "(Biroul Național de Statistică, 2025)",
+    "area_note": "Municipality of Chișinău (municipiul Chișinău, the city and its suburbs), census of 8 April 2024 (usual residents)",
+    "sources": [
+      "Biroul Național de Statistică al Republicii Moldova (2025) Rezultatele finale ale RPL2024: caracteristici etnoculturale (Final results of the 2024 Population and Housing Census: ethnocultural characteristics), infographics for the municipality of Chișinău (ethnicity, mother tongue, religion). Chișinău: BNS. Available at: https://statistica.gov.md/ro/rezultatele-finale-ale-rpl2024-caracteristici-etnoculturale-10123_62044.html (Accessed: 12 November 2026)."
+    ]
   }
 }
