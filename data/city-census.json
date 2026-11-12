@@ -34403,19 +34403,6 @@
     "lon": -3.636,
     "crime": "Linares municipality, 2025: 1,870 criminal offences recorded by the police, 33.6 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 5.5, violent robberies 0.4, home burglaries 0.8, assaults 0.4, sexual offences 0.3, drug trafficking 0.7, online fraud 5.3. Completed homicides and murders: 0. Rates use the resident population, so places with many visitors or commuters show higher figures."
   },
-  "Jaen, Spain": {
-    "census_year": 2025,
-    "population": 112235,
-    "area_note": "Jaén municipality, 1 January 2025",
-    "cite": "(INE, 2026; Ministerio del Interior, 2026)",
-    "sources": [
-      "Instituto Nacional de Estadística (2026) Cifras oficiales de población de los municipios españoles: Revisión del Padrón Municipal, 1 de enero de 2025. Available at: https://www.ine.es/dynt3/inebase/es/index.htm?padre=517 (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "lat": 37.769,
-    "lon": -3.79,
-    "crime": "Jaén municipality, 2025: 4,854 criminal offences recorded by the police, 43.2 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 9.5, violent robberies 0.6, home burglaries 0.8, assaults 0.3, sexual offences 0.4, drug trafficking 0.3, online fraud 10.5. Completed homicides and murders: 1. Rates use the resident population, so places with many visitors or commuters show higher figures."
-  },
   "Martin": {
     "census_year": 2021,
     "population": 52520,
