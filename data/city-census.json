@@ -32634,5 +32634,209 @@
     "sources": [
       "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
     ]
+  },
+  "Woluwe-Saint-Lambert": {
+    "census_year": 2026,
+    "population": 60979,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 39.4% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Woluwe-Saint-Lambert / Sint-Lambrechts-Woluwe, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Uccle": {
+    "census_year": 2026,
+    "population": 87548,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 34.3% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Uccle / Ukkel, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tournai": {
+    "census_year": 2026,
+    "population": 69066,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 13.7% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. French is the official language of Wallonia.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Tournai, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sint-Niklaas": {
+    "census_year": 2026,
+    "population": 83400,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 13.3% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Dutch is the official language of Flanders.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Sint-Niklaas, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Seraing": {
+    "census_year": 2026,
+    "population": 64764,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 15.5% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. French is the official language of Wallonia.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Seraing, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Schaerbeek": {
+    "census_year": 2026,
+    "population": 129278,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 37.9% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Schaerbeek / Schaarbeek, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Saint-Gilles": {
+    "census_year": 2026,
+    "population": 48756,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 49.4% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Saint-Gilles / Sint-Gillis, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Roeselare": {
+    "census_year": 2026,
+    "population": 67697,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 13.6% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Dutch is the official language of Flanders.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Roeselare, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ostend": {
+    "census_year": 2026,
+    "population": 73000,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 12.6% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Dutch is the official language of Flanders.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Oostende, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Molenbeek-Saint-Jean": {
+    "census_year": 2026,
+    "population": 98411,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 29.5% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Molenbeek-Saint-Jean / Sint-Jans-Molenbeek, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Jette": {
+    "census_year": 2026,
+    "population": 54330,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 26.4% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Jette, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ixelles": {
+    "census_year": 2026,
+    "population": 89162,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 50.5% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Ixelles / Elsene, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Hasselt": {
+    "census_year": 2026,
+    "population": 90914,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 9.0% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Dutch is the official language of Flanders.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Hasselt, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Genk": {
+    "census_year": 2026,
+    "population": 68101,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 13.1% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Dutch is the official language of Flanders.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Genk, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Forest": {
+    "census_year": 2026,
+    "population": 58904,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 35.8% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Forest / Vorst, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Anderlecht": {
+    "census_year": 2026,
+    "population": 129600,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 34.3% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Brussels is officially bilingual (French and Dutch).",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Anderlecht, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Aalst": {
+    "census_year": 2026,
+    "population": 93094,
+    "ethnic": "Statbel's register counts nationality here, not ethnicity or origin. Foreign nationals 10.9% of residents (1 January 2026); many residents of foreign origin hold Belgian nationality.",
+    "language": "Not recorded; Belgium has no language census. Dutch is the official language of Flanders.",
+    "religion": "Belgian statistics do not record religion.",
+    "cite": "(Statbel, 2026)",
+    "area_note": "Municipality of Aalst, register 1 January 2026",
+    "sources": [
+      "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
   }
 }
