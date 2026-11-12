@@ -1064,15 +1064,27 @@ function renderLabels() {
   // so the biggest names win and more appear as you zoom in
   const placed = [];
   const showNative = nativeNames.checked;
-  function place(en, native, lat, lon, kind, meta = null) {
+  const hits = (list, x, y, w, h) => list.some((b) => x < b.x + b.w && x + w > b.x && y < b.y + b.h && y + h > b.y);
+  const boxOf = (en, native, lat, lon, kind) => {
     const pt = map.latLngToContainerPoint([lat, lon]);
     const sub = showNative && native && native.toLowerCase() !== en.toLowerCase();
     const w = en.length * (kind === "country" ? 7.5 : 6.5) + 8;
     const h = kind === "country" ? (sub ? 30 : 16) : (sub ? 26 : 14);
-    const x = pt.x - w / 2;
-    const y = pt.y - h / 2;
-    if (placed.some((b) => x < b.x + b.w && x + w > b.x && y < b.y + b.h && y + h > b.y)) return;
+    return { pt, w, h };
+  };
+  // Space kept free for capitals: a country name moves off its capital instead of hiding it
+  let reserved = [];
+  function place(en, native, lat, lon, kind, meta = null, offsets = [[0, 0]]) {
+    const { pt, w, h } = boxOf(en, native, lat, lon, kind);
+    let x, y, dx, dy, ok = false;
+    for ([dx, dy] of offsets) {
+      x = pt.x + dx - w / 2;
+      y = pt.y + dy - h / 2;
+      if (!hits(placed, x, y, w, h) && !(kind === "country" && hits(reserved, x, y, w, h))) { ok = true; break; }
+    }
+    if (!ok) return;
     placed.push({ x, y, w, h });
+    if (dx || dy) ({ lat, lng: lon } = map.containerPointToLatLng([pt.x + dx, pt.y + dy]));
     if (meta) {
       // Cities and capitals are clickable: the card shows population and census details
       L.marker([lat, lon], { icon: labelIcon(en, native, kind), keyboard: false })
@@ -1100,14 +1112,22 @@ function renderLabels() {
   const countries = labelData.countries
     .filter((c) => c.rank <= maxRank && bounds.contains([c.lat, c.lon]))
     .sort((a, b) => a.rank - b.rank);
-  for (const c of countries) place(c.en, c.native, c.lat, c.lon, "country");
   // Cities: from zoom 4, most important first, never repeating a country name.
   // Capitals come straight after the countries and show from zoom 4 whatever their size,
   // so a river, a mountain or a smaller town never takes their place.
   const countryNames = new Set(labelData.countries.map((c) => c.en));
   const visible = (p) => (p.cap ? 4 : Math.max(p.min_zoom, 4)) <= zoom && !countryNames.has(p.en) && bounds.contains([p.lat, p.lon]);
   const byImportance = (a, b) => a.min_zoom - b.min_zoom;
-  for (const p of labelData.places.filter((p) => p.cap && visible(p)).sort(byImportance)) place(p.en, p.native, p.lat, p.lon, "capital", p);
+  const capitals = labelData.places.filter((p) => p.cap && visible(p)).sort(byImportance);
+  reserved = capitals.map((p) => {
+    const { pt, w, h } = boxOf(p.en, p.native, p.lat, p.lon, "capital");
+    return { x: pt.x - w / 2, y: pt.y - h / 2, w, h };
+  });
+  // A country name tries its own spot first, then nudges up or down until it clears its capital
+  const nudges = [[0, 0], [0, 22], [0, -22], [0, 40], [0, -40], [0, 58], [0, -58]];
+  for (const c of countries) place(c.en, c.native, c.lat, c.lon, "country", null, nudges);
+  // Two capitals close together (Kinshasa and Brazzaville, Rome and Vatican City) stack instead of hiding one another
+  for (const p of capitals) place(p.en, p.native, p.lat, p.lon, "capital", p, [[0, 0], [0, 15], [0, -15]]);
   // Rivers and mountains (serif, natural features): after the capitals, before the other cities
   for (const n of labelData.natural || []) {
     if (!bounds.contains([n.lat, n.lon])) continue;
