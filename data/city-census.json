@@ -29017,5 +29017,497 @@
       "Державний комітет статистики України (2003) Всеукраїнський перепис населення 2001 року: розподіл населення за національністю та рідною мовою (All-Ukrainian Population Census 2001: population by nationality and native language), by region. Available at: http://2001.ukrcensus.gov.ua/results/nationality_population/ (Accessed: 12 November 2026).",
       "Державний комітет статистики України (2003) Всеукраїнський перепис населення 2001 року: кількість міст (number of cities and their population). Available at: http://2001.ukrcensus.gov.ua/eng/results/general/city/ (Accessed: 12 November 2026)."
     ]
+  },
+  "Kristiansand": {
+    "census_year": 2026,
+    "population": 119287,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 16.5%, Norwegian-born to immigrant parents 4.3%, others 79.2% (1 January 2026). Most common countries of background: Poland 2,009, Syria 1,624, Ukraine 1,433, Eritrea 1,119, Vietnam 906.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Kristiansand (Kristiansand kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tromsø": {
+    "census_year": 2026,
+    "population": 79943,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 16.6%, Norwegian-born to immigrant parents 2.1%, others 81.3% (1 January 2026). Most common countries of background: Poland 1,313, Ukraine 1,210, Germany 768, Russia 636, Sweden 631.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Tromsø (Tromsø kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tonsberg": {
+    "census_year": 2026,
+    "population": 60246,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 14.6%, Norwegian-born to immigrant parents 3.3%, others 82.1% (1 January 2026). Most common countries of background: Poland 1,249, Lithuania 894, Ukraine 717, Syria 605, Iraq 579.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Tønsberg (Tønsberg kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Skien": {
+    "census_year": 2026,
+    "population": 56906,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 16.2%, Norwegian-born to immigrant parents 4.8%, others 79.0% (1 January 2026). Most common countries of background: Poland 959, Somalia 863, Iraq 823, Syria 725, Kosovo 559.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Skien (Skien kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sarpsborg": {
+    "census_year": 2026,
+    "population": 60614,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 19.1%, Norwegian-born to immigrant parents 6.9%, others 74.1% (1 January 2026). Most common countries of background: Poland 1,916, Iraq 1,729, Syria 1,363, Bosnia-Herzegovina 1,142, Kosovo 1,007.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Sarpsborg (Sarpsborg kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sandnes": {
+    "census_year": 2026,
+    "population": 85785,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 21.3%, Norwegian-born to immigrant parents 5.9%, others 72.8% (1 January 2026). Most common countries of background: Poland 3,483, Lithuania 1,316, India 1,119, Ukraine 1,106, Vietnam 868.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Sandnes (Sandnes kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sandefjord": {
+    "census_year": 2026,
+    "population": 67062,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 17.9%, Norwegian-born to immigrant parents 4.4%, others 77.7% (1 January 2026). Most common countries of background: Poland 1,624, Lithuania 1,526, Syria 1,068, Iraq 866, Vietnam 560.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Sandefjord (Sandefjord kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lillestrom": {
+    "census_year": 2026,
+    "population": 96771,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 25.4%, Norwegian-born to immigrant parents 9.2%, others 65.4% (1 January 2026). Most common countries of background: Poland 3,282, Pakistan 2,995, Vietnam 1,838, Lithuania 1,641, Iraq 1,506.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Lillestrøm (Lillestrøm kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Fredrikstad": {
+    "census_year": 2026,
+    "population": 86243,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 17.3%, Norwegian-born to immigrant parents 5.4%, others 77.3% (1 January 2026). Most common countries of background: Iraq 2,450, Somalia 1,820, Syria 1,699, Poland 1,618, Kosovo 919.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Fredrikstad (Fredrikstad kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Drammen": {
+    "census_year": 2026,
+    "population": 106013,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 24.5%, Norwegian-born to immigrant parents 8.3%, others 67.1% (1 January 2026). Most common countries of background: Poland 4,007, Türkiye 2,797, Afghanistan 1,824, Iraq 1,813, Lithuania 1,392.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Drammen (Drammen kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Asker": {
+    "census_year": 2026,
+    "population": 101509,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 19.8%, Norwegian-born to immigrant parents 4.7%, others 75.6% (1 January 2026). Most common countries of background: Poland 3,623, India 1,481, Sweden 1,317, Lithuania 1,170, Iran 898.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Asker (Asker kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Alesund": {
+    "census_year": 2026,
+    "population": 59663,
+    "ethnic": "Statistics Norway records immigrant background, not ethnicity. Immigrants 15.7%, Norwegian-born to immigrant parents 2.7%, others 81.6% (1 January 2026). Most common countries of background: Poland 1,631, Lithuania 1,057, Ukraine 752, Latvia 459, Thailand 409.",
+    "language": "Norwegian (Bokmål and Nynorsk) and Sámi are official languages; Statistics Norway does not record language.",
+    "religion": "Statistics Norway does not record religion by municipality.",
+    "cite": "(Statistics Norway, 2026)",
+    "area_note": "Municipality of Ålesund (Ålesund kommune), register count 1 January 2026",
+    "sources": [
+      "Statistics Norway (2026) 09817: Immigrants and Norwegian-born to immigrant parents, by region, immigration category and country background; 07459: Population, by region. StatBank. Available at: https://www.ssb.no/en/statbank/table/09817 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Rovaniemi": {
+    "census_year": 2025,
+    "population": 66191,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 6.5% (31 December 2025). Most common background countries: Former Soviet Union 641, Ukraine 288, China 260, Philippines 225, Sweden 156.",
+    "language": "Language registered with the population register: Finnish 93.2%, Swedish 0.2%, Sámi 0.3%, foreign languages 6.2%, most often Ukrainian 558, Russian 502, English 308, Chinese 266 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Rovaniemi, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vaasa": {
+    "census_year": 2025,
+    "population": 71209,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 15.4% (31 December 2025). Most common background countries: Former Soviet Union 1,050, Bangladesh 547, Ukraine 539, Vietnam 509, India 502.",
+    "language": "Language registered with the population register: Finnish 62.2%, Swedish 22.8%, foreign languages 14.9%, most often Ukrainian 1,053, Arabic 780, English 697, Russian 639 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Vaasa, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Seinaejoki": {
+    "census_year": 2025,
+    "population": 67283,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 6.2% (31 December 2025). Most common background countries: Former Soviet Union 478, Ukraine 422, Sri Lanka 291, Bangladesh 244, Nepal 234.",
+    "language": "Language registered with the population register: Finnish 93.6%, Swedish 0.2%, foreign languages 6.1%, most often Ukrainian 686, Russian 346, English 270, Sinhala; Sinhalese 257 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Seinäjoki, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Salo": {
+    "census_year": 2025,
+    "population": 50339,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 9.8% (31 December 2025). Most common background countries: Former Soviet Union 1,400, Estonia 656, Ukraine 533, Iraq 365, Former Yugoslavia 175.",
+    "language": "Language registered with the population register: Finnish 89.3%, Swedish 1.2%, foreign languages 9.5%, most often Ukrainian 983, Russian 900, Estonian 697, Kurdish 350 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Salo, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pori": {
+    "census_year": 2025,
+    "population": 83010,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 6.4% (31 December 2025). Most common background countries: Former Soviet Union 853, Sri Lanka 420, Ukraine 319, Estonia 241, Russia 224.",
+    "language": "Language registered with the population register: Finnish 93.2%, Swedish 0.6%, foreign languages 6.3%, most often Russian 783, Ukrainian 569, Sinhala; Sinhalese 385, English 314 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Pori, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Mikkeli": {
+    "census_year": 2025,
+    "population": 51551,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 7.0% (31 December 2025). Most common background countries: Former Soviet Union 952, Ukraine 351, Russia 201, Philippines 195, Estonia 137.",
+    "language": "Language registered with the population register: Finnish 93.0%, Swedish 0.2%, foreign languages 6.9%, most often Russian 726, Ukrainian 699, Arabic 203, Persian, Farsi 183 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Mikkeli, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kouvola": {
+    "census_year": 2025,
+    "population": 77625,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 6.4% (31 December 2025). Most common background countries: Former Soviet Union 1,687, Estonia 375, Ukraine 273, Turkey 244, Thailand 181.",
+    "language": "Language registered with the population register: Finnish 93.4%, Swedish 0.4%, foreign languages 6.2%, most often Russian 1,539, Ukrainian 469, Estonian 390, Arabic 243 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Kouvola, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kotka": {
+    "census_year": 2025,
+    "population": 50029,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 12.1% (31 December 2025). Most common background countries: Former Soviet Union 2,606, Estonia 359, Ukraine 343, Russia 194, Iraq 162.",
+    "language": "Language registered with the population register: Finnish 87.3%, Swedish 0.9%, foreign languages 11.8%, most often Russian 2,581, Ukrainian 510, Estonian 337, English 230 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Kotka, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Joensuu": {
+    "census_year": 2025,
+    "population": 79129,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 9.5% (31 December 2025). Most common background countries: Former Soviet Union 2,260, Russia 716, Ukraine 385, Bangladesh 287, Nepal 286.",
+    "language": "Language registered with the population register: Finnish 90.5%, Swedish 0.1%, foreign languages 9.4%, most often Russian 2,639, Ukrainian 609, English 342, Arabic 289 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Joensuu, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Haemeenlinna": {
+    "census_year": 2025,
+    "population": 68614,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 8.4% (31 December 2025). Most common background countries: Former Soviet Union 821, Sri Lanka 440, Estonia 438, Iraq 338, Ukraine 304.",
+    "language": "Language registered with the population register: Finnish 91.3%, Swedish 0.4%, foreign languages 8.3%, most often Ukrainian 592, Russian 519, Arabic 474, Estonian 469 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Hämeenlinna, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Porvoo": {
+    "census_year": 2025,
+    "population": 51863,
+    "ethnic": "Statistics Finland records origin, not ethnicity. Foreign background (both parents, or the only known parent, born abroad) 10.0% (31 December 2025). Most common background countries: Former Soviet Union 844, Estonia 548, Vietnam 329, Former Yugoslavia 280, Ukraine 239.",
+    "language": "Language registered with the population register: Finnish 63.1%, Swedish 27.2%, foreign languages 9.7%, most often Russian 699, Estonian 612, Ukrainian 460, Arabic 406 (2025).",
+    "religion": "Statistics Finland publishes membership of religious communities only nationally.",
+    "cite": "(Statistics Finland, 2026)",
+    "area_note": "Municipality of Porvoo, register count 31 December 2025",
+    "sources": [
+      "Statistics Finland (2026) 11rv: Origin and background country by sex, by municipality; 11rm: Language according to sex by municipality, 31 December 2025. StatFin. Available at: https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/StatFin__vaerak/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Luleå": {
+    "census_year": 2025,
+    "population": 80304,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 13.4% (31 December 2025), most often in Finland (1,653), Thailand (570), Afghanistan (494), Iran (Islamic Republic of) (486), Syrian Arab Republic (456).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Luleå (Luleå kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lulea": {
+    "census_year": 2025,
+    "population": 80304,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 13.4% (31 December 2025), most often in Finland (1,653), Thailand (570), Afghanistan (494), Iran (Islamic Republic of) (486), Syrian Arab Republic (456).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Luleå (Luleå kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sundsvall": {
+    "census_year": 2025,
+    "population": 98962,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 12.2% (31 December 2025), most often in Finland (1,054), Syrian Arab Republic (795), Iraq (658), Eritrea (657), Somalia (616).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Sundsvall (Sundsvall kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vaexjoe": {
+    "census_year": 2025,
+    "population": 98940,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 20.6% (31 December 2025), most often in Syrian Arab Republic (2,068), Iraq (1,861), Somalia (1,281), Bosnia and Herzegovina (1,212), Yugoslavia (862).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Växjö (Växjö kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Taby": {
+    "census_year": 2025,
+    "population": 78514,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 20.3% (31 December 2025), most often in Iran (Islamic Republic of) (1,758), China (1,405), Finland (1,102), Poland (704), India (621).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Täby (Täby kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Solna": {
+    "census_year": 2025,
+    "population": 86435,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 34.3% (31 December 2025), most often in India (3,132), Iran (Islamic Republic of) (2,715), China (2,578), Finland (1,346), Poland (938).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Solna (Solna kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sollentuna": {
+    "census_year": 2025,
+    "population": 78033,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 30.1% (31 December 2025), most often in Iran (Islamic Republic of) (2,197), India (1,984), Iraq (1,215), Syrian Arab Republic (1,042), China (1,040).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Sollentuna (Sollentuna kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Soedertaelje": {
+    "census_year": 2025,
+    "population": 102772,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 44.3% (31 December 2025), most often in Syrian Arab Republic (8,379), Iraq (8,037), Finland (2,570), Türkiye (2,298), Poland (2,131).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Södertälje (Södertälje kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Moelndal": {
+    "census_year": 2025,
+    "population": 72128,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 20.2% (31 December 2025), most often in Iran (Islamic Republic of) (1,434), Iraq (1,255), India (679), Poland (673), China (639).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Mölndal (Mölndal kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Karlstad": {
+    "census_year": 2025,
+    "population": 99007,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 15.1% (31 December 2025), most often in Syrian Arab Republic (1,834), Iraq (1,477), Norway (878), Afghanistan (854), Iran (Islamic Republic of) (780).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Karlstad (Karlstad kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Karlskrona": {
+    "census_year": 2025,
+    "population": 66021,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 13.2% (31 December 2025), most often in Syrian Arab Republic (1,087), Iraq (544), Poland (530), India (500), Bosnia and Herzegovina (422).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Karlskrona (Karlskrona kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Huddinge": {
+    "census_year": 2025,
+    "population": 114686,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 31.5% (31 December 2025), most often in Iraq (2,782), Türkiye (2,408), Poland (2,015), Finland (1,820), Ukraine (1,594).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Huddinge (Huddinge kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Haninge": {
+    "census_year": 2025,
+    "population": 101408,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 30.5% (31 December 2025), most often in Poland (3,417), Türkiye (1,913), Finland (1,663), Afghanistan (1,190), Iraq (1,182).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Haninge (Haninge kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Halmstad": {
+    "census_year": 2025,
+    "population": 106315,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 20.6% (31 December 2025), most often in Syrian Arab Republic (4,208), Yugoslavia (2,333), Iraq (1,173), Bosnia and Herzegovina (985), Poland (878).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Halmstad (Halmstad kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Gaevle": {
+    "census_year": 2025,
+    "population": 104108,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 17.3% (31 December 2025), most often in Syrian Arab Republic (2,503), Iraq (1,415), Somalia (1,246), Finland (1,133), Eritrea (851).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Gävle (Gävle kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Eskilstuna": {
+    "census_year": 2025,
+    "population": 106789,
+    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 26.8% (31 December 2025), most often in Iraq (5,422), Syrian Arab Republic (4,422), Finland (3,347), Somalia (1,688), Eritrea (1,107).",
+    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
+    "religion": "Statistics Sweden does not record religion.",
+    "cite": "(Statistics Sweden, 2026)",
+    "area_note": "Municipality of Eskilstuna (Eskilstuna kommun), register count 31 December 2025",
+    "sources": [
+      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Reykjavík": {
+    "census_year": 2026,
+    "population": 139804,
+    "ethnic": "Statistics Iceland records origin and citizenship, not ethnicity. Immigrants (born abroad to foreign-born parents) 37,348, 26.7% of residents; foreign citizens 21.5%, most often of Poland (7,410), Ukraine (2,172), Lithuania (2,099), Romania (1,607) and Latvia (1,056) (1 January 2026).",
+    "language": "Icelandic is the official language; Statistics Iceland does not record language by municipality.",
+    "religion": "Not found yet in the sources checked (Statistics Iceland publishes religious organisation membership nationally).",
+    "cite": "(Statistics Iceland, 2026)",
+    "area_note": "Reykjavík municipality (Reykjavíkurborg), register count 1 January 2026",
+    "sources": [
+      "Statistics Iceland (2026) MAN43005: Immigrants by sex and municipality; MAN04203: Population by sex, municipality and citizenship, 1 January 2026. Available at: https://px.hagstofa.is/pxen/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Reykjavik": {
+    "census_year": 2026,
+    "population": 139804,
+    "ethnic": "Statistics Iceland records origin and citizenship, not ethnicity. Immigrants (born abroad to foreign-born parents) 37,348, 26.7% of residents; foreign citizens 21.5%, most often of Poland (7,410), Ukraine (2,172), Lithuania (2,099), Romania (1,607) and Latvia (1,056) (1 January 2026).",
+    "language": "Icelandic is the official language; Statistics Iceland does not record language by municipality.",
+    "religion": "Not found yet in the sources checked (Statistics Iceland publishes religious organisation membership nationally).",
+    "cite": "(Statistics Iceland, 2026)",
+    "area_note": "Reykjavík municipality (Reykjavíkurborg), register count 1 January 2026",
+    "sources": [
+      "Statistics Iceland (2026) MAN43005: Immigrants by sex and municipality; MAN04203: Population by sex, municipality and citizenship, 1 January 2026. Available at: https://px.hagstofa.is/pxen/ (Accessed: 12 November 2026)."
+    ]
   }
 }
