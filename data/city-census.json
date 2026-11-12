@@ -12665,24 +12665,32 @@
   "Constanța": {
     "census_year": 2018,
     "population": 313021,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Constanța, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 76.5%, Tatars 2.6%, Turks 1.7%, Roma 0.6%, Lipovan Russians 0.3%, no information 17.8% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 73.4%, Muslim 4.5%, Roman Catholic 0.6%, atheist 0.5%, no religion 0.4%, no information 19.4% (2021).",
+    "language": "Mother tongue: Romanian 77.7%, Tatar 2.0%, Turkish 1.2%, Romani 0.4%, no information 18.0% (2021)."
   },
   "Iași": {
     "census_year": 2018,
     "population": 378954,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Iași, greater city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 73.8%, no information 25.5% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 67.1%, Roman Catholic 2.5%, no religion 0.7%, atheist 0.7%, Christian according to the Gospel 0.4%, agnostic 0.4%, no information 26.9% (2021).",
+    "language": "Mother tongue: Romanian 73.9%, no information 25.7% (2021)."
   },
   "Ponta Delgada": {
     "census_year": 2025,
@@ -12997,13 +13005,17 @@
   "Bucharest": {
     "census_year": 2018,
     "population": 2131034,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "București, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 72.9%, Roma 0.6%, other 0.3%, no information 25.6% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 67.0%, atheist 1.1%, Roman Catholic 1.0%, no religion 1.0%, agnostic 0.6%, Muslim 0.5%, no information 27.5% (2021).",
+    "language": "Mother tongue: Romanian 73.3%, other 0.4%, no information 25.8% (2021)."
   },
   "Zürich": {
     "census_year": 2025,
@@ -19428,365 +19440,497 @@
   "Tulcea": {
     "census_year": 2018,
     "population": 86520,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Tulcea, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 74.8%, Lipovan Russians 1.9%, Roma 1.6%, Turks 0.7%, Ukrainians 0.4%, no information 19.9% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 74.6%, Old Rite Christian 1.3%, Muslim 1.1%, Roman Catholic 0.3%, atheist 0.3%, no information 21.4% (2021).",
+    "language": "Mother tongue: Romanian 78.2%, Russian 0.7%, Turkish 0.4%, no information 20.1% (2021)."
   },
   "Targu Mures": {
     "census_year": 2018,
     "population": 147674,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Târgu Mureș, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 45.9%, Hungarians 35.0%, Roma 2.5%, no information 16.3% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 39.9%, Reformed 22.2%, Roman Catholic 10.4%, Unitarian 2.0%, Greek Catholic 2.0%, Jehovah's Witnesses 1.1%, no religion 0.8%, Pentecostal 0.8%, Seventh-day Adventist 0.8%, atheist 0.5%, other religious groups 0.5%, no information 17.9% (2021).",
+    "language": "Mother tongue: Romanian 45.8%, Hungarian 37.0%, Romani 0.5%, no information 16.5% (2021)."
   },
   "Targu Jiu": {
     "census_year": 2018,
     "population": 95351,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Târgu Jiu, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 82.6%, Roma 3.0%, no information 14.2% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 82.9%, Pentecostal 0.6%, no information 15.3% (2021).",
+    "language": "Mother tongue: Romanian 84.8%, Romani 0.8%, no information 14.4% (2021)."
   },
   "Targoviste": {
     "census_year": 2018,
     "population": 91884,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Târgoviște, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.2%, Roma 2.9%, Bulgarians 0.7%, no information 15.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 80.1%, Pentecostal 0.7%, Romanian Evangelical 0.6%, Roman Catholic 0.4%, Christian according to the Gospel 0.4%, Seventh-day Adventist 0.4%, no religion 0.3%, no information 16.2% (2021).",
+    "language": "Mother tongue: Romanian 84.3%, Bulgarian 0.3%, no information 15.1% (2021)."
   },
   "Timisoara": {
     "census_year": 2018,
     "population": 328186,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Timișoara, greater city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 70.4%, Hungarians 3.3%, Serbs 1.1%, Germans 0.9%, no information 23.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 59.9%, Roman Catholic 6.1%, Pentecostal 1.9%, Baptist 1.3%, no religion 1.0%, Reformed 1.0%, atheist 1.0%, Serbian Orthodox 0.8%, Greek Catholic 0.7%, agnostic 0.4%, no information 24.8% (2021).",
+    "language": "Mother tongue: Romanian 71.1%, Hungarian 3.1%, Serbian 0.9%, German 0.7%, no information 23.2% (2021)."
   },
   "Suceava": {
     "census_year": 2018,
     "population": 124589,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Suceava, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 80.7%, Roma 0.6%, no information 18.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 73.0%, Pentecostal 3.7%, Roman Catholic 1.1%, Baptist 0.6%, Christian according to the Gospel 0.5%, no religion 0.4%, no information 19.3% (2021).",
+    "language": "Mother tongue: Romanian 81.2%, no information 18.2% (2021)."
   },
   "Slatina": {
     "census_year": 2018,
     "population": 82931,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Slatina, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 85.1%, Roma 1.0%, no information 13.8% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 83.5%, no information 15.2% (2021).",
+    "language": "Mother tongue: Romanian 85.9%, no information 13.9% (2021)."
   },
   "Sibiu": {
     "census_year": 2018,
     "population": 168697,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Sibiu, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.1%, Hungarians 0.9%, Germans 0.7%, no information 16.9% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 73.9%, Greek Catholic 1.2%, Roman Catholic 1.1%, no religion 0.8%, Baptist 0.6%, Pentecostal 0.6%, atheist 0.6%, Reformed 0.5%, Christian according to the Gospel 0.4%, Evangelical Lutheran 0.4%, no information 18.8% (2021).",
+    "language": "Mother tongue: Romanian 81.1%, Hungarian 0.8%, German 0.7%, no information 17.1% (2021)."
   },
   "Satu Mare": {
     "census_year": 2018,
     "population": 119788,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Satu Mare, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 52.4%, Hungarians 30.8%, Germans 0.9%, Roma 0.4%, no information 15.2% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 41.9%, Roman Catholic 16.0%, Reformed 15.9%, Greek Catholic 5.5%, Pentecostal 1.3%, Jehovah's Witnesses 0.7%, Baptist 0.5%, no religion 0.4%, atheist 0.3%, no information 16.4% (2021).",
+    "language": "Mother tongue: Romanian 51.8%, Hungarian 32.1%, Romani 0.4%, no information 15.4% (2021)."
   },
   "Roman": {
     "census_year": 2018,
     "population": 69229,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Roman, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.1%, Roma 2.2%, no information 16.4% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 69.1%, Roman Catholic 11.5%, no information 17.7% (2021).",
+    "language": "Mother tongue: Romanian 82.2%, Romani 1.1%, no information 16.5% (2021)."
   },
   "Ramnicu Valcea": {
     "census_year": 2018,
     "population": 117776,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Râmnicu Vâlcea, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 85.9%, Roma 1.3%, no information 12.7% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 84.2%, no information 14.0% (2021).",
+    "language": "Mother tongue: Romanian 86.8%, no information 12.8% (2021)."
   },
   "Ploiesti": {
     "census_year": 2018,
     "population": 227445,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Ploiești, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.0%, Roma 2.2%, no information 16.6% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 78.6%, no religion 0.5%, atheist 0.5%, Roman Catholic 0.5%, Pentecostal 0.4%, Christian according to the Gospel 0.4%, no information 18.1% (2021).",
+    "language": "Mother tongue: Romanian 82.3%, Romani 0.7%, no information 16.7% (2021)."
   },
   "Pitesti": {
     "census_year": 2018,
     "population": 173985,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Pitești, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 87.2%, Roma 0.3%, no information 12.3% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 84.2%, atheist 0.3%, no information 13.7% (2021).",
+    "language": "Mother tongue: Romanian 87.3%, no information 12.5% (2021)."
   },
   "Piatra Neamt": {
     "census_year": 2018,
     "population": 112786,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Piatra-Neamț, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 79.9%, Roma 0.7%, no information 19.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 75.1%, Roman Catholic 2.6%, Pentecostal 0.4%, Seventh-day Adventist 0.3%, no religion 0.3%, no information 20.0% (2021).",
+    "language": "Mother tongue: Romanian 80.2%, Romani 0.5%, no information 19.1% (2021)."
   },
   "Oradea": {
     "census_year": 2018,
     "population": 221407,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Oradea, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 67.5%, Hungarians 18.2%, Roma 0.7%, no information 12.9% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 53.2%, Reformed 11.4%, Roman Catholic 7.4%, Pentecostal 4.8%, Baptist 3.2%, Greek Catholic 2.5%, no religion 0.8%, atheist 0.5%, no information 14.4% (2021).",
+    "language": "Mother tongue: Romanian 67.3%, Hungarian 18.8%, Romani 0.3%, no information 13.0% (2021)."
   },
   "Iasi": {
     "census_year": 2018,
     "population": 378954,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Iași, greater city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 73.8%, no information 25.5% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 67.1%, Roman Catholic 2.5%, no religion 0.7%, atheist 0.7%, Christian according to the Gospel 0.4%, agnostic 0.4%, no information 26.9% (2021).",
+    "language": "Mother tongue: Romanian 73.9%, no information 25.7% (2021)."
   },
   "Giurgiu": {
     "census_year": 2018,
     "population": 67121,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Giurgiu, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.5%, Roma 4.1%, no information 14.2% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 82.9%, no information 15.2% (2021).",
+    "language": "Mother tongue: Romanian 83.8%, Romani 1.6%, no information 14.3% (2021)."
   },
   "Galati": {
     "census_year": 2018,
     "population": 304050,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Galați, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 80.7%, Roma 0.4%, no information 18.6% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 77.7%, Roman Catholic 0.4%, atheist 0.4%, no religion 0.3%, no information 20.1% (2021).",
+    "language": "Mother tongue: Romanian 80.9%, no information 18.7% (2021)."
   },
   "Focsani": {
     "census_year": 2018,
     "population": 92205,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Focșani, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.9%, Roma 0.9%, no information 17.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 79.9%, Roman Catholic 0.6%, no information 18.1% (2021).",
+    "language": "Mother tongue: Romanian 82.4%, Romani 0.4%, no information 17.2% (2021)."
   },
   "Drobeta-Turnu Severin": {
     "census_year": 2018,
     "population": 106707,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Drobeta-Turnu Severin, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 82.9%, Roma 0.4%, no information 16.5% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 80.7%, Roman Catholic 0.4%, no information 17.7% (2021).",
+    "language": "Mother tongue: Romanian 83.1%, no information 16.7% (2021)."
   },
   "Craiova": {
     "census_year": 2018,
     "population": 301269,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Craiova, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.4%, Roma 1.1%, no information 17.1% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 79.1%, atheist 0.4%, no religion 0.3%, no information 18.5% (2021).",
+    "language": "Mother tongue: Romanian 82.0%, Romani 0.6%, no information 17.2% (2021)."
   },
   "Constanta": {
     "census_year": 2018,
     "population": 313021,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Constanța, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 76.5%, Tatars 2.6%, Turks 1.7%, Roma 0.6%, Lipovan Russians 0.3%, no information 17.8% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 73.4%, Muslim 4.5%, Roman Catholic 0.6%, atheist 0.5%, no religion 0.4%, no information 19.4% (2021).",
+    "language": "Mother tongue: Romanian 77.7%, Tatar 2.0%, Turkish 1.2%, Romani 0.4%, no information 18.0% (2021)."
   },
   "Cluj-Napoca": {
     "census_year": 2018,
     "population": 324960,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Cluj-Napoca, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 71.3%, Hungarians 11.7%, Roma 0.6%, no information 15.7% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 56.6%, Reformed 7.8%, Roman Catholic 3.9%, Greek Catholic 3.8%, Pentecostal 2.4%, no religion 1.8%, atheist 1.4%, Baptist 1.3%, agnostic 0.8%, Unitarian 0.7%, Jehovah's Witnesses 0.6%, other religious groups 0.3%, no information 17.8% (2021).",
+    "language": "Mother tongue: Romanian 71.4%, Hungarian 11.8%, Romani 0.3%, no information 15.9% (2021)."
   },
   "Buzau": {
     "census_year": 2018,
     "population": 132288,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Buzău, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 81.9%, Roma 3.6%, no information 14.4% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 82.8%, no information 15.7% (2021).",
+    "language": "Mother tongue: Romanian 83.9%, Romani 1.4%, no information 14.5% (2021)."
   },
   "Brasov": {
     "census_year": 2018,
     "population": 289360,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Brașov, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 79.5%, Hungarians 4.6%, Germans 0.3%, no information 15.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 71.2%, Roman Catholic 4.1%, Reformed 1.5%, no religion 1.0%, atheist 0.8%, Evangelical Lutheran 0.8%, Unitarian 0.6%, Pentecostal 0.6%, Jehovah's Witnesses 0.5%, Greek Catholic 0.5%, Baptist 0.4%, agnostic 0.3%, no information 16.7% (2021).",
+    "language": "Mother tongue: Romanian 79.5%, Hungarian 4.7%, German 0.3%, no information 15.1% (2021)."
   },
   "Braila": {
     "census_year": 2018,
     "population": 202740,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Brăila, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 82.7%, Lipovan Russians 1.1%, Roma 0.9%, no information 15.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 81.3%, Old Rite Christian 0.8%, Roman Catholic 0.3%, no information 16.2% (2021).",
+    "language": "Mother tongue: Romanian 83.8%, Russian 0.6%, no information 15.2% (2021)."
   },
   "Botosani": {
     "census_year": 2018,
     "population": 120153,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Botoșani, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 83.9%, Roma 1.4%, Lipovan Russians 0.6%, no information 13.9% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 80.9%, Pentecostal 1.7%, Old Rite Christian 0.7%, Roman Catholic 0.4%, no information 14.8% (2021).",
+    "language": "Mother tongue: Romanian 84.5%, Romani 0.9%, Russian 0.4%, no information 14.0% (2021)."
   },
   "Bistrita": {
     "census_year": 2018,
     "population": 94139,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Bistrița, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 80.0%, Hungarians 3.7%, Roma 1.2%, no information 14.7% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 69.5%, Pentecostal 4.8%, Reformed 2.9%, Greek Catholic 1.9%, Roman Catholic 1.4%, Baptist 0.9%, Jehovah's Witnesses 0.6%, no religion 0.5%, atheist 0.3%, no information 15.9% (2021).",
+    "language": "Mother tongue: Romanian 80.7%, Hungarian 3.5%, Romani 0.6%, no information 14.8% (2021)."
   },
   "Barlad": {
     "census_year": 2018,
     "population": 70680,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Bârlad, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 83.5%, Roma 2.3%, no information 14.1% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 83.7%, Christian according to the Gospel 0.4%, no information 14.8% (2021).",
+    "language": "Mother tongue: Romanian 85.5%, Romani 0.3%, no information 14.1% (2021)."
   },
   "Baia Mare": {
     "census_year": 2018,
     "population": 145444,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Baia Mare, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 71.5%, Hungarians 8.0%, Roma 1.6%, no information 18.4% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 58.2%, Roman Catholic 6.3%, Reformed 4.2%, Pentecostal 3.9%, Greek Catholic 3.9%, Jehovah's Witnesses 1.2%, no religion 0.7%, Baptist 0.6%, atheist 0.4%, no information 19.8% (2021).",
+    "language": "Mother tongue: Romanian 72.6%, Hungarian 7.7%, Romani 0.8%, no information 18.5% (2021)."
   },
   "Bacau": {
     "census_year": 2018,
     "population": 197155,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Bacău, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 76.0%, Roma 0.6%, no information 23.1% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 66.2%, Roman Catholic 7.8%, no information 24.2% (2021).",
+    "language": "Mother tongue: Romanian 76.4%, no information 23.2% (2021)."
   },
   "Arad": {
     "census_year": 2018,
     "population": 176846,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Arad, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 77.4%, Hungarians 6.9%, Roma 1.0%, Germans 0.5%, no information 13.2% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 63.2%, Roman Catholic 7.7%, Pentecostal 5.0%, Baptist 3.6%, Reformed 1.9%, no religion 0.7%, Greek Catholic 0.6%, Seventh-day Adventist 0.6%, other religious groups 0.5%, atheist 0.5%, no information 14.5% (2021).",
+    "language": "Mother tongue: Romanian 78.5%, Hungarian 6.7%, Romani 0.4%, German 0.4%, no information 13.3% (2021)."
   },
   "Alba Iulia": {
     "census_year": 2018,
     "population": 74659,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
     "area_note": "Alba Iulia, city as defined by Eurostat's city statistics, 1 January 2018",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Ethnicity (self-declared): Romanians 83.7%, Hungarians 1.1%, Roma 0.9%, no information 13.9% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 74.7%, Pentecostal 2.1%, Greek Catholic 1.6%, Roman Catholic 1.6%, Baptist 1.4%, Reformed 0.8%, no religion 0.5%, Jehovah's Witnesses 0.5%, atheist 0.3%, no information 15.4% (2021).",
+    "language": "Mother tongue: Romanian 84.3%, Hungarian 1.0%, Romani 0.4%, no information 14.0% (2021)."
   },
   "Umea": {
     "census_year": 2025,
@@ -33245,6 +33389,90 @@
     "area_note": "Settlement of Szeged, census of 1 October 2022",
     "sources": [
       "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zalau": {
+    "census_year": 2021,
+    "population": 52359,
+    "ethnic": "Ethnicity (self-declared): Romanians 73.4%, Hungarians 11.7%, Roma 1.4%, no information 13.4% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 64.3%, Reformed 10.2%, Pentecostal 3.0%, Greek Catholic 2.4%, Baptist 1.7%, Roman Catholic 1.1%, Jehovah's Witnesses 0.8%, no religion 0.5%, Christian according to the Gospel 0.4%, no information 14.6% (2021).",
+    "language": "Mother tongue: Romanian 73.7%, Hungarian 11.9%, Romani 0.8%, no information 13.5% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Zalău, Sălaj county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vaslui": {
+    "census_year": 2021,
+    "population": 63035,
+    "ethnic": "Ethnicity (self-declared): Romanians 69.5%, Roma 0.5%, no information 30.0% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 67.6%, Christian according to the Gospel 0.4%, Roman Catholic 0.3%, no information 30.8% (2021).",
+    "language": "Mother tongue: Romanian 69.8%, no information 30.1% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Vaslui, Vaslui county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sfantu Gheorghe": {
+    "census_year": 2021,
+    "population": 50080,
+    "ethnic": "Ethnicity (self-declared): Hungarians 69.2%, Romanians 18.9%, Roma 0.3%, no information 11.3% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Reformed 34.1%, Roman Catholic 28.3%, Romanian Orthodox 16.2%, Unitarian 5.2%, Evangelical Lutheran 1.2%, no religion 0.6%, Jehovah's Witnesses 0.5%, other religious groups 0.3%, no information 12.3% (2021).",
+    "language": "Mother tongue: Hungarian 69.9%, Romanian 18.5%, no information 11.4% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Sfântu Gheorghe, Covasna county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Resita": {
+    "census_year": 2021,
+    "population": 58393,
+    "ethnic": "Ethnicity (self-declared): Romanians 76.2%, Hungarians 1.4%, Roma 1.1%, Germans 1.1%, Croats 0.4%, Serbs 0.4%, no information 18.9% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 68.9%, Roman Catholic 4.8%, Pentecostal 2.0%, Baptist 1.8%, Reformed 0.6%, Greek Catholic 0.5%, no religion 0.4%, atheist 0.3%, no information 19.8% (2021).",
+    "language": "Mother tongue: Romanian 77.3%, Hungarian 1.3%, German 0.9%, Romani 0.5%, Croatian 0.3%, no information 19.0% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Reșița, Caraș-Severin county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Medias": {
+    "census_year": 2021,
+    "population": 39505,
+    "ethnic": "Ethnicity (self-declared): Romanians 74.1%, Hungarians 6.4%, Roma 2.7%, Germans 1.0%, no information 15.7% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 67.2%, Reformed 3.6%, Greek Catholic 2.7%, Roman Catholic 2.5%, Pentecostal 1.6%, Baptist 0.9%, Christian according to the Gospel 0.8%, Unitarian 0.7%, Jehovah's Witnesses 0.7%, Evangelical Lutheran 0.6%, no religion 0.4%, Evangelical Church of the Augsburg Confession 0.4%, Seventh-day Adventist 0.3%, no information 17.1% (2021).",
+    "language": "Mother tongue: Romanian 77.0%, Hungarian 5.8%, German 0.9%, Romani 0.4%, no information 15.9% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Mediaș, Sibiu county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Hunedoara": {
+    "census_year": 2021,
+    "population": 50457,
+    "ethnic": "Ethnicity (self-declared): Romanians 79.9%, Hungarians 3.5%, Roma 1.1%, no information 15.1% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 70.7%, Pentecostal 3.7%, Roman Catholic 3.0%, Reformed 2.4%, Baptist 1.1%, Jehovah's Witnesses 0.7%, no religion 0.5%, Greek Catholic 0.4%, other religious groups 0.4%, no information 16.2% (2021).",
+    "language": "Mother tongue: Romanian 80.8%, Hungarian 3.3%, Romani 0.3%, no information 15.2% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Hunedoara, Hunedoara county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Deva": {
+    "census_year": 2021,
+    "population": 53113,
+    "ethnic": "Ethnicity (self-declared): Romanians 74.3%, Hungarians 5.3%, Roma 0.5%, no information 19.4% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
+    "religion": "Religion: Romanian Orthodox 65.9%, Roman Catholic 5.5%, Pentecostal 2.3%, Reformed 1.8%, Baptist 1.1%, Greek Catholic 0.6%, no religion 0.5%, atheist 0.5%, no information 20.8% (2021).",
+    "language": "Mother tongue: Romanian 74.8%, Hungarian 5.2%, no information 19.6% (2021).",
+    "cite": "(Institutul Național de Statistică, 2023)",
+    "area_note": "Municipality of Deva, Hunedoara county, census 1 December 2021",
+    "sources": [
+      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
     ]
   }
 }
