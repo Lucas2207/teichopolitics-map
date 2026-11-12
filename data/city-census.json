@@ -34500,5 +34500,62 @@
     "ethnic": "Plovdiv province, census 2021, ethnic group: Bulgarian 87.9%, Turkish 6.8%, Roma 4.5%, other 0.9% (of the 584,134 people who answered; 7.9% did not). Self-declared and optional; figures for the town alone were not found in the sources checked.",
     "language": "Mother tongue, Plovdiv province, census 2021: Bulgarian 87.5%, Turkish 7.0%, Romani 4.6%, other 0.9% (of the 569,155 people who answered; 10.3% did not).",
     "religion": "Religion, Plovdiv province, census 2021: Christian 87.6%, Muslim 7.9%, Jewish 0.0%, other 0.1%, none 4.4% (of the 502,288 people who answered; 20.8% did not)."
+  },
+  "Tallaght": {
+    "census_year": 2022,
+    "population": 79822,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 66.1%, Other White 10.5%, Asian or Asian Irish 6.4%, Black or Black Irish 4.5%, White Irish Traveller 0.9%, Other 2.7%, Not stated 8.8% (2022). Born outside Ireland: 22.8% (United Kingdom 2.8%, Poland 3.1%, India 2.4%, other EU 4.9%, rest of the world 9.5%); citizens of another country 15.0%.",
+    "language": "English and Irish are the official languages. 17,315 residents speak a language other than English or Irish at home (21.7%), most often Polish 2,820, Spanish 580 and French 673 (2022).",
+    "religion": "Catholic 62.7%, no religion 14.0%, other religion 14.3%, not stated 9.0% (2022).",
+    "economy": "Unemployment 12.2% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "Tallaght Central and Tallaght South local electoral areas, South Dublin, census 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by local electoral area (SAP2022T1T1LEA22, SAP2022T2T1LEA22, SAP2022T2T2LEA22, SAP2022T2T4LEA22, SAP2022T2T5LEA22, SAP2022T8T1LEA22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ],
+    "lat": 53.286,
+    "lon": -6.373
+  },
+  "South Dublin": {
+    "census_year": 2022,
+    "population": 301075,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 71.4%, Other White 9.6%, Asian or Asian Irish 6.5%, Black or Black Irish 3.1%, White Irish Traveller 0.7%, Other 2.4%, Not stated 6.3% (2022). Born outside Ireland: 20.9% (United Kingdom 3.2%, Poland 2.2%, India 2.2%, other EU 4.5%, rest of the world 8.8%); citizens of another country 13.0%.",
+    "language": "English and Irish are the official languages. 59,617 residents speak a language other than English or Irish at home (19.8%), most often Polish 7,604, Spanish 2,810 and French 2,659 (2022).",
+    "religion": "Catholic 63.2%, no religion 15.8%, other religion 14.1%, not stated 6.9% (2022).",
+    "economy": "Unemployment 8.7% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "South Dublin County Council area (its seven local electoral areas), census 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by local electoral area (SAP2022T1T1LEA22, SAP2022T2T1LEA22, SAP2022T2T2LEA22, SAP2022T2T4LEA22, SAP2022T2T5LEA22, SAP2022T8T1LEA22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ],
+    "lat": 53.29,
+    "lon": -6.342
+  },
+  "Aspern": {
+    "census_year": 2026,
+    "population": 235361,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 82,673, 35.1% of residents (1 January 2026); largest countries of birth listed separately: Serbia 6,286, Turkey 5,401, Germany 4,366, Ukraine 4,147, Syria 4,015. Foreign citizens: 30.2%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 10.2% of people aged 15 and over in the labour force; employment rate 69.2% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 22 (Donaustadt), which contains Aspern; the figures are for the whole district, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ],
+    "lat": 48.218,
+    "lon": 16.483
+  },
+  "Sesvete": {
+    "census_year": 2021,
+    "population": 70800,
+    "area_note": "Sesvete city district of Zagreb (165.22 km², 429 people per km²), census 2021; ethnicity, language and religion by city district were not found in the sources checked (see Zagreb for city-wide figures)",
+    "cite": "(Grad Zagreb, 2022)",
+    "sources": [
+      "Grad Zagreb (2022) Popis 2021: konačni rezultati, Grad Zagreb, from Državni zavod za statistiku. Available at: https://www.zagreb.hr/userdocsimages/arhiva/statistika/popis%202021%20kona%C4%8Dni%20rezultati/Popis%202021._kona%C4%8Dni%20rezultati_Grad%20Zagreb_web.pdf (Accessed: 10 November 2026)."
+    ],
+    "lat": 45.831,
+    "lon": 16.116
   }
 }
