@@ -4252,17 +4252,18 @@
   "Vilnius": {
     "lat": 54.683,
     "lon": 25.317,
-    "ethnic": "Poles 16.5%, Russians 11.9% (national: Lithuanians 84.6%, Poles 6.5%, Russians 5.0%).",
-    "language": "Not found yet in the sources checked so far; see the national figures below.",
-    "religion": "Not found yet in the sources checked so far; see the national figures below.",
+    "ethnic": "Ethnicity, census 2021, Vilnius city municipality: Lithuanian 67.1%, Polish 15.4%, Russian 9.7%, Belarusian 2.7%, Ukrainian 0.8%, other 1.0%, not stated 3.3% (Lithuania: Lithuanian 84.6%, Polish 6.5%, Russian 5.0%).",
+    "language": "Mother tongue, census 2021: Lithuanian 67.0%, Russian 14.5%, Polish 11.3%, Belarusian 0.5%, Ukrainian 0.2%, Romani 0.2%, two mother tongues 5.2%.",
+    "religion": "Religion, census 2021: Roman Catholic 63.0%, Orthodox 8.1%, Old Believers 0.8%, Lutheran 0.3%, Sunni Muslim 0.1%, none 8.3%, not stated 17.8%.",
     "census_year": 2021,
-    "population": 546200,
+    "population": 556490,
     "sources": [
       "Visuotinė lietuvių enciklopedija (n.d.) Lietuvos gyventojai. Available at: https://www.vle.lt/straipsnis/lietuvos-gyventojai/ (read in search extract).",
-      "Statistikos departamentas (2022) Gyventojai gyvenamosiose vietovėse, press release of 25 January 2022, as hosted at: https://birstonas.lt/wp-content/uploads/2022/01/Inf_pr_Gyventojai-gyvenamosiose_vietovese_2022-01-25.pdf (read in search extract)."
+      "Statistikos departamentas (2022) Gyventojai gyvenamosiose vietovėse, press release of 25 January 2022, as hosted at: https://birstonas.lt/wp-content/uploads/2022/01/Inf_pr_Gyventojai-gyvenamosiose_vietovese_2022-01-25.pdf (read in search extract).",
+      "Statistics Lithuania (2022–2023) 2021 Population and Housing Census: population by ethnicity and municipality; population by mother tongue in municipality; population by religious community and municipality. Database of indicators. Available at: https://osp.stat.gov.lt/en_GB/gyventoju-ir-bustu-surasymai1 (Accessed: 12 November 2026)."
     ],
-    "cite": "(Visuotinė lietuvių enciklopedija, n.d.; Statistikos departamentas, 2022)",
-    "area_note": "City at the 2021 census"
+    "cite": "(Visuotinė lietuvių enciklopedija, n.d.; Statistikos departamentas, 2022; Statistics Lithuania, 2023)",
+    "area_note": "Vilnius city municipality, census 2021"
   },
   "Bahawalnagar": {
     "lat": 29.998,
@@ -13244,28 +13245,34 @@
   "Panevežys": {
     "census_year": 2025,
     "population": 85802,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Lithuania, 2023)",
     "area_note": "Panevėžys, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Lithuania (2022–2023) 2021 Population and Housing Census: population by ethnicity and municipality; population by mother tongue in municipality; population by religious community and municipality. Database of indicators. Available at: https://osp.stat.gov.lt/en_GB/gyventoju-ir-bustu-surasymai1 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 5,352, 6.2% of residents (born in another EU country 510, outside the EU 4,842) (2025). Foreign citizens: 3.0% of residents, EU citizens 38 and non-EU citizens 2,514 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 6.7% of the labour force (2022)."
+    "ethnic": "Ethnicity, census 2021, Panevėžys city municipality: Lithuanian 96.0%, Polish 0.2%, Russian 2.0%, Belarusian 0.1%, Ukrainian 0.3%, other 0.4%, not stated 1.1% (Lithuania: Lithuanian 84.6%, Polish 6.5%, Russian 5.0%). Born abroad: 5,352, 6.2% of residents (born in another EU country 510, outside the EU 4,842) (2025). Foreign citizens: 3.0% of residents, EU citizens 38 and non-EU citizens 2,514 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 6.7% of the labour force (2022).",
+    "language": "Mother tongue, census 2021: Lithuanian 96.6%, Russian 2.1%, Polish 0.2%, Belarusian 0.1%, Ukrainian 0.1%, Romani 0.3%, two mother tongues 0.3%.",
+    "religion": "Religion, census 2021: Roman Catholic 80.5%, Orthodox 1.2%, Old Believers 0.3%, Lutheran 0.2%, Sunni Muslim 0.0%, none 8.6%, not stated 8.2%."
   },
   "Šiauliai": {
     "census_year": 2025,
     "population": 112018,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Lithuania, 2023)",
     "area_note": "Šiauliai, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Lithuania (2022–2023) 2021 Population and Housing Census: population by ethnicity and municipality; population by mother tongue in municipality; population by religious community and municipality. Database of indicators. Available at: https://osp.stat.gov.lt/en_GB/gyventoju-ir-bustu-surasymai1 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 18,511, 16.5% of residents (born in another EU country 803, outside the EU 17,708) (2025). Foreign citizens: 13.2% of residents, EU citizens 161 and non-EU citizens 14,614 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 6.2% of the labour force (2024)."
+    "ethnic": "Ethnicity, census 2021, Šiauliai city municipality: Lithuanian 94.1%, Polish 0.1%, Russian 3.2%, Belarusian 0.2%, Ukrainian 0.4%, other 0.5%, not stated 1.4% (Lithuania: Lithuanian 84.6%, Polish 6.5%, Russian 5.0%). Born abroad: 18,511, 16.5% of residents (born in another EU country 803, outside the EU 17,708) (2025). Foreign citizens: 13.2% of residents, EU citizens 161 and non-EU citizens 14,614 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 6.2% of the labour force (2024).",
+    "language": "Mother tongue, census 2021: Lithuanian 95.0%, Russian 3.7%, Polish 0.1%, Belarusian 0.1%, Ukrainian 0.2%, Romani 0.0%, two mother tongues 0.4%.",
+    "religion": "Religion, census 2021: Roman Catholic 66.1%, Orthodox 2.5%, Old Believers 0.5%, Lutheran 0.4%, Sunni Muslim 0.0%, none 10.5%, not stated 19.0%."
   },
   "Olsztyn": {
     "census_year": 2024,
@@ -13919,28 +13926,34 @@
   "Klaipėda": {
     "census_year": 2025,
     "population": 160979,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Lithuania, 2023)",
     "area_note": "Klaipėda, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Lithuania (2022–2023) 2021 Population and Housing Census: population by ethnicity and municipality; population by mother tongue in municipality; population by religious community and municipality. Database of indicators. Available at: https://osp.stat.gov.lt/en_GB/gyventoju-ir-bustu-surasymai1 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 28,034, 17.4% of residents (born in another EU country 1,726, outside the EU 26,308) (2025). Foreign citizens: 9.8% of residents, EU citizens 233 and non-EU citizens 15,582 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 7.1% of the labour force (2024)."
+    "ethnic": "Ethnicity, census 2021, Klaipėda city municipality: Lithuanian 77.5%, Polish 0.3%, Russian 16.0%, Belarusian 1.2%, Ukrainian 1.7%, other 0.9%, not stated 2.3% (Lithuania: Lithuanian 84.6%, Polish 6.5%, Russian 5.0%). Born abroad: 28,034, 17.4% of residents (born in another EU country 1,726, outside the EU 26,308) (2025). Foreign citizens: 9.8% of residents, EU citizens 233 and non-EU citizens 15,582 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 7.1% of the labour force (2024).",
+    "language": "Mother tongue, census 2021: Lithuanian 73.8%, Russian 19.8%, Polish 0.1%, Belarusian 0.2%, Ukrainian 0.5%, Romani 0.0%, two mother tongues 4.7%.",
+    "religion": "Religion, census 2021: Roman Catholic 52.9%, Orthodox 13.1%, Old Believers 1.0%, Lutheran 0.9%, Sunni Muslim 0.1%, none 11.8%, not stated 19.1%."
   },
   "Kaunas": {
     "census_year": 2025,
     "population": 304114,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Lithuania, 2023)",
     "area_note": "Kaunas, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Lithuania (2022–2023) 2021 Population and Housing Census: population by ethnicity and municipality; population by mother tongue in municipality; population by religious community and municipality. Database of indicators. Available at: https://osp.stat.gov.lt/en_GB/gyventoju-ir-bustu-surasymai1 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 25,821, 8.5% of residents (born in another EU country 1,824, outside the EU 23,997) (2025). Foreign citizens: 5.4% of residents, EU citizens 459 and non-EU citizens 16,018 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.7% of the labour force (2025)."
+    "ethnic": "Ethnicity, census 2021, Kaunas city municipality: Lithuanian 94.4%, Polish 0.4%, Russian 2.9%, Belarusian 0.2%, Ukrainian 0.3%, other 0.4%, not stated 1.4% (Lithuania: Lithuanian 84.6%, Polish 6.5%, Russian 5.0%). Born abroad: 25,821, 8.5% of residents (born in another EU country 1,824, outside the EU 23,997) (2025). Foreign citizens: 5.4% of residents, EU citizens 459 and non-EU citizens 16,018 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.7% of the labour force (2025).",
+    "language": "Mother tongue, census 2021: Lithuanian 95.5%, Russian 2.9%, Polish 0.3%, Belarusian 0.1%, Ukrainian 0.1%, Romani 0.0%, two mother tongues 0.7%.",
+    "religion": "Religion, census 2021: Roman Catholic 79.9%, Orthodox 1.6%, Old Believers 0.6%, Lutheran 0.3%, Sunni Muslim 0.1%, none 6.0%, not stated 10.6%."
   },
   "Gdynia": {
     "census_year": 2024,
@@ -35664,5 +35677,162 @@
     "lat": 52.378,
     "lon": 4.866,
     "economy": "People below the poverty line 6.8% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 43 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Dainava (Kaunas)": {
+    "census_year": 2021,
+    "population": 298753,
+    "area_note": "Kaunas city municipality, census 2021: the census tables found give no breakdown for Dainava elderate, so these figures are for the whole city",
+    "ethnic": "Ethnicity, census 2021, Kaunas city municipality: Lithuanian 94.4%, Polish 0.4%, Russian 2.9%, Belarusian 0.2%, Ukrainian 0.3%, other 0.4%, not stated 1.4% (Lithuania: Lithuanian 84.6%, Polish 6.5%, Russian 5.0%).",
+    "language": "Mother tongue, census 2021: Lithuanian 95.5%, Russian 2.9%, Polish 0.3%, Belarusian 0.1%, Ukrainian 0.1%, Romani 0.0%, two mother tongues 0.7%.",
+    "religion": "Religion, census 2021: Roman Catholic 79.9%, Orthodox 1.6%, Old Believers 0.6%, Lutheran 0.3%, Sunni Muslim 0.1%, none 6.0%, not stated 10.6%.",
+    "cite": "(Statistics Lithuania, 2023)",
+    "sources": [
+      "Statistics Lithuania (2022–2023) 2021 Population and Housing Census: population by ethnicity and municipality; population by mother tongue in municipality; population by religious community and municipality. Database of indicators. Available at: https://osp.stat.gov.lt/en_GB/gyventoju-ir-bustu-surasymai1 (Accessed: 12 November 2026)."
+    ],
+    "lat": 54.915,
+    "lon": 23.968
+  },
+  "Circoscrizione I": {
+    "census_year": 2025,
+    "population": 75057,
+    "area_note": "Turin, Circoscrizione I, city register 2025",
+    "ethnic": "Foreign citizens: 7,829, 10.4% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 1,190, Iran 588, China 461, Philippines 459, Morocco 413. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.066,
+    "lon": 7.687
+  },
+  "Circoscrizione II": {
+    "census_year": 2025,
+    "population": 133206,
+    "area_note": "Turin, Circoscrizione II, city register 2025",
+    "ethnic": "Foreign citizens: 16,626, 12.5% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 6,508, Peru 1,288, Morocco 1,131, Albania 911, Egypt 727. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.05,
+    "lon": 7.641
+  },
+  "Circoscrizione III": {
+    "census_year": 2025,
+    "population": 120589,
+    "area_note": "Turin, Circoscrizione III, city register 2025",
+    "ethnic": "Foreign citizens: 14,634, 12.1% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 4,800, Peru 1,429, Iran 937, Morocco 897, China 692. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.063,
+    "lon": 7.631
+  },
+  "Circoscrizione IV": {
+    "census_year": 2025,
+    "population": 95791,
+    "area_note": "Turin, Circoscrizione IV, city register 2025",
+    "ethnic": "Foreign citizens: 14,300, 14.9% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 4,746, Peru 1,196, Morocco 1,124, Albania 611, China 600. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.081,
+    "lon": 7.632
+  },
+  "Circoscrizione V": {
+    "census_year": 2025,
+    "population": 120444,
+    "area_note": "Turin, Circoscrizione V, city register 2025",
+    "ethnic": "Foreign citizens: 23,763, 19.7% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 9,650, Morocco 2,836, Peru 1,534, Nigeria 1,200, Albania 1,163. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.101,
+    "lon": 7.655
+  },
+  "Circoscrizione VI": {
+    "census_year": 2025,
+    "population": 106584,
+    "area_note": "Turin, Circoscrizione VI, city register 2025",
+    "ethnic": "Foreign citizens: 30,227, 28.4% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 6,644, Morocco 5,486, Nigeria 2,640, Egypt 2,449, China 2,166. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.102,
+    "lon": 7.7
+  },
+  "Circoscrizione VII": {
+    "census_year": 2025,
+    "population": 82588,
+    "area_note": "Turin, Circoscrizione VII, city register 2025",
+    "ethnic": "Foreign citizens: 16,283, 19.7% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 2,997, Morocco 2,161, China 1,796, Bangladesh 1,148, Egypt 928. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.078,
+    "lon": 7.697
+  },
+  "Circoscrizione VIII": {
+    "census_year": 2025,
+    "population": 124615,
+    "area_note": "Turin, Circoscrizione VIII, city register 2025",
+    "ethnic": "Foreign citizens: 17,143, 13.8% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 4,657, Peru 1,124, Philippines 1,046, Morocco 1,004, Iran 920. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.038,
+    "lon": 7.672
+  },
+  "Pozzo Strada": {
+    "census_year": 2025,
+    "population": 120589,
+    "area_note": "Turin, Circoscrizione III (which contains Pozzo Strada), city register 2025; the figures are for the whole district",
+    "ethnic": "Foreign citizens: 14,634, 12.1% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 4,800, Peru 1,429, Iran 937, Morocco 897, China 692. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.068,
+    "lon": 7.625
+  },
+  "Barriera di Milano": {
+    "census_year": 2025,
+    "population": 106584,
+    "area_note": "Turin, Circoscrizione VI (which contains Barriera di Milano), city register 2025; the figures are for the whole district",
+    "ethnic": "Foreign citizens: 30,227, 28.4% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 6,644, Morocco 5,486, Nigeria 2,640, Egypt 2,449, China 2,166. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.092,
+    "lon": 7.694
+  },
+  "Barriera di Lanzo": {
+    "census_year": 2025,
+    "population": 120444,
+    "area_note": "Turin, Circoscrizione V (which contains Barriera di Lanzo), city register 2025; the figures are for the whole district",
+    "ethnic": "Foreign citizens: 23,763, 19.7% of residents (Turin 16.4%, people registered at a virtual address excluded). Largest groups: Romania 9,650, Morocco 2,836, Peru 1,534, Nigeria 1,200, Albania 1,163. The register records citizenship, not ethnicity or country of birth.",
+    "cite": "(Città di Torino, 2026)",
+    "sources": [
+      "Città di Torino (2026) Stranieri residenti per nazionalità e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/stranieri-residenti-per-nazionalita-e-circoscrizione-2025 (Accessed: 12 November 2026).",
+      "Città di Torino (2026) Popolazione residente per sesso e circoscrizione 2025. aperTO open data. Available at: https://aperto.comune.torino.it/dataset/popolazione-residente-per-sesso-e-circoscrizione-2025 (Accessed: 12 November 2026)."
+    ],
+    "lat": 45.11,
+    "lon": 7.651
   }
 }
