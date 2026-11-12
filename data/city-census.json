@@ -22990,5 +22990,574 @@
     "sources": [
       "Office for National Statistics (2023) Census 2021: TS021 Ethnic group, TS030 Religion, TS004 Country of birth, TS024 Main language (detailed) and TS066 Economic activity status, by local authority. Nomis. Available at: https://www.nomisweb.co.uk/sources/census_2021 (Accessed: 12 November 2026)."
     ]
+  },
+  "Dublin": {
+    "census_year": 2022,
+    "population": 1263219,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 67.3%, Other White 11.9%, Asian or Asian Irish 6.1%, Black or Black Irish 2.1%, White Irish Traveller 0.4%, Other 3.2%, Not stated 9.0% (2022). Born outside Ireland: 25.7% (United Kingdom 4.0%, Poland 1.7%, India 2.2%, other EU 6.5%, rest of the world 11.3%); citizens of another country 17.9%.",
+    "language": "English and Irish are the official languages. 261,430 residents speak a language other than English or Irish at home (20.7%), most often Polish 22,607, Spanish 21,732 and French 16,813 (2022).",
+    "religion": "Catholic 56.5%, no religion 20.4%, other religion 13.6%, not stated 9.5% (2022).",
+    "economy": "Unemployment 8.3% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "Dublin city and suburbs, Counties Dublin & Meath, census town 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by town (SAP2022T1T1TOWN22, SAP2022T2T1TOWN22, SAP2022T2T2TOWN22, SAP2022T2T4TOWN22, SAP2022T2T5TOWN22, SAP2022T8T1TOWN22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cork": {
+    "census_year": 2022,
+    "population": 222526,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 74.4%, Other White 9.9%, Asian or Asian Irish 4.2%, Black or Black Irish 1.5%, White Irish Traveller 0.6%, Other 2.3%, Not stated 7.2% (2022). Born outside Ireland: 20.5% (United Kingdom 4.0%, Poland 2.3%, India 1.5%, other EU 5.3%, rest of the world 7.4%); citizens of another country 14.0%.",
+    "language": "English and Irish are the official languages. 34,726 residents speak a language other than English or Irish at home (15.6%), most often Polish 5,610, Spanish 2,952 and French 2,995 (2022).",
+    "religion": "Catholic 65.4%, no religion 18.2%, other religion 8.6%, not stated 7.9% (2022).",
+    "economy": "Unemployment 8.0% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "Cork city and suburbs, Co Cork, census town 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by town (SAP2022T1T1TOWN22, SAP2022T2T1TOWN22, SAP2022T2T2TOWN22, SAP2022T2T4TOWN22, SAP2022T2T5TOWN22, SAP2022T8T1TOWN22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Limerick": {
+    "census_year": 2022,
+    "population": 102287,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 67.5%, Other White 8.5%, Asian or Asian Irish 5.5%, Black or Black Irish 2.1%, White Irish Traveller 0.5%, Other 2.3%, Not stated 13.5% (2022). Born outside Ireland: 22.2% (United Kingdom 3.7%, Poland 3.5%, India 2.1%, other EU 3.7%, rest of the world 9.4%); citizens of another country 15.8%.",
+    "language": "English and Irish are the official languages. 17,171 residents speak a language other than English or Irish at home (16.8%), most often Polish 3,386, Spanish 1,050 and French 971 (2022).",
+    "religion": "Catholic 61.3%, no religion 14.1%, other religion 10.7%, not stated 13.9% (2022).",
+    "economy": "Unemployment 10.9% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "Limerick city and suburbs, Counties Limerick & Clare, census town 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by town (SAP2022T1T1TOWN22, SAP2022T2T1TOWN22, SAP2022T2T2TOWN22, SAP2022T2T4TOWN22, SAP2022T2T5TOWN22, SAP2022T8T1TOWN22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Galway": {
+    "census_year": 2022,
+    "population": 85910,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 64.3%, Other White 13.0%, Asian or Asian Irish 4.7%, Black or Black Irish 2.8%, White Irish Traveller 2.1%, Other 2.7%, Not stated 10.4% (2022). Born outside Ireland: 27.6% (United Kingdom 5.8%, Poland 3.5%, India 1.9%, other EU 6.3%, rest of the world 10.0%); citizens of another country 18.0%.",
+    "language": "English and Irish are the official languages. 16,766 residents speak a language other than English or Irish at home (19.5%), most often Polish 3,368, Spanish 1,193 and French 1,121 (2022).",
+    "religion": "Catholic 56.7%, no religion 20.7%, other religion 11.3%, not stated 11.3% (2022).",
+    "economy": "Unemployment 9.2% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "Galway city and suburbs, Co Galway, census town 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by town (SAP2022T1T1TOWN22, SAP2022T2T1TOWN22, SAP2022T2T2TOWN22, SAP2022T2T4TOWN22, SAP2022T2T5TOWN22, SAP2022T8T1TOWN22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Waterford": {
+    "census_year": 2022,
+    "population": 60079,
+    "ethnic": "Ethnic or cultural background (self-identified): White Irish 68.7%, Other White 11.2%, Asian or Asian Irish 4.2%, Black or Black Irish 3.1%, White Irish Traveller 0.7%, Other 2.4%, Not stated 9.7% (2022). Born outside Ireland: 22.5% (United Kingdom 4.3%, Poland 2.9%, India 1.5%, other EU 5.5%, rest of the world 8.4%); citizens of another country 15.2%.",
+    "language": "English and Irish are the official languages. 11,980 residents speak a language other than English or Irish at home (19.9%), most often Polish 1,908, Spanish 422 and French 527 (2022).",
+    "religion": "Catholic 62.5%, no religion 15.2%, other religion 11.9%, not stated 10.5% (2022).",
+    "economy": "Unemployment 11.7% of the labour force at the census (principal economic status, April 2022).",
+    "cite": "(Central Statistics Office, 2023)",
+    "area_note": "Waterford city and suburbs, Counties Waterford & Kilkenny, census town 2022",
+    "sources": [
+      "Central Statistics Office (2023) Census 2022 Small Area Population Statistics by town (SAP2022T1T1TOWN22, SAP2022T2T1TOWN22, SAP2022T2T2TOWN22, SAP2022T2T4TOWN22, SAP2022T2T5TOWN22, SAP2022T8T1TOWN22). PxStat. Available at: https://data.cso.ie/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "København": {
+    "census_year": 2026,
+    "population": 674381,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 70.9%; immigrants 23.1% (from western countries 11.2%, non-western 11.9%); descendants of immigrants 6.0% (1 October 2026). Most common countries of origin of immigrants and descendants: Germany 8,446, Pakistan 7,998, Turkey 7,235, Italy 7,074, Poland 6,690.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Copenhagen (Københavns Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 3.9% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Copenhagen": {
+    "census_year": 2026,
+    "population": 674381,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 70.9%; immigrants 23.1% (from western countries 11.2%, non-western 11.9%); descendants of immigrants 6.0% (1 October 2026). Most common countries of origin of immigrants and descendants: Germany 8,446, Pakistan 7,998, Turkey 7,235, Italy 7,074, Poland 6,690.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Copenhagen (Københavns Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 3.9% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Vejle": {
+    "census_year": 2026,
+    "population": 124253,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 82.6%; immigrants 13.5% (from western countries 5.4%, non-western 8.2%); descendants of immigrants 3.9% (1 October 2026). Most common countries of origin of immigrants and descendants: Poland 2,319, Syria 1,604, Ukraine 1,459, Romania 1,287, Bosnia and Herzegovina 1,143.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Vejle (Vejle Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.1% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Roskilde": {
+    "census_year": 2026,
+    "population": 93162,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 87.5%; immigrants 9.6% (from western countries 3.4%, non-western 6.2%); descendants of immigrants 2.9% (1 October 2026). Most common countries of origin of immigrants and descendants: Turkey 1,581, Ukraine 857, Syria 687, Afghanistan 598, Iraq 526.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Roskilde (Roskilde Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.7% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Randers": {
+    "census_year": 2026,
+    "population": 101072,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 88.4%; immigrants 8.9% (from western countries 3.1%, non-western 5.8%); descendants of immigrants 2.6% (1 October 2026). Most common countries of origin of immigrants and descendants: Romania 1,235, Ukraine 1,188, Syria 938, Bosnia and Herzegovina 895, Turkey 793.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Randers (Randers Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 3.0% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Odense": {
+    "census_year": 2026,
+    "population": 214064,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 81.6%; immigrants 13.2% (from western countries 4.1%, non-western 9.1%); descendants of immigrants 5.2% (1 October 2026). Most common countries of origin of immigrants and descendants: Lebanon 2,772, Iraq 2,721, Turkey 2,348, Somalia 2,269, Vietnam 2,198.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Odense (Odense Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 4.0% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Kolding": {
+    "census_year": 2026,
+    "population": 96098,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 83.6%; immigrants 12.5% (from western countries 4.2%, non-western 8.3%); descendants of immigrants 3.8% (1 October 2026). Most common countries of origin of immigrants and descendants: Bosnia and Herzegovina 1,260, Syria 1,161, Ukraine 1,059, Afghanistan 956, Poland 926.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Kolding (Kolding Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.4% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Hvidovre": {
+    "census_year": 2026,
+    "population": 54267,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 76.3%; immigrants 16.6% (from western countries 4.3%, non-western 12.3%); descendants of immigrants 7.1% (1 October 2026). Most common countries of origin of immigrants and descendants: Turkey 1,913, Pakistan 1,209, Iraq 854, China 571, Ukraine 468.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Hvidovre (Hvidovre Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.9% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Horsens": {
+    "census_year": 2026,
+    "population": 99159,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 82.2%; immigrants 14.1% (from western countries 6.1%, non-western 8.0%); descendants of immigrants 3.6% (1 October 2026). Most common countries of origin of immigrants and descendants: Poland 1,987, Romania 1,672, Syria 1,458, Ukraine 1,347, Bosnia and Herzegovina 913.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Horsens (Horsens Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.5% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Herning": {
+    "census_year": 2026,
+    "population": 91088,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 85.7%; immigrants 11.1% (from western countries 4.4%, non-western 6.7%); descendants of immigrants 3.1% (1 October 2026). Most common countries of origin of immigrants and descendants: Ukraine 1,376, Poland 1,156, Sri Lanka 1,112, Romania 1,059, Syria 874.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Herning (Herning Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.1% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Frederiksberg": {
+    "census_year": 2026,
+    "population": 106479,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 78.6%; immigrants 17.2% (from western countries 9.0%, non-western 8.3%); descendants of immigrants 4.2% (1 October 2026). Most common countries of origin of immigrants and descendants: Germany 1,178, Sweden 1,069, Ukraine 998, USA 893, Norway 870.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Frederiksberg (Frederiksberg Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 3.7% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Esbjerg": {
+    "census_year": 2026,
+    "population": 114766,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 87.0%; immigrants 10.2% (from western countries 3.9%, non-western 6.3%); descendants of immigrants 2.8% (1 October 2026). Most common countries of origin of immigrants and descendants: Ukraine 1,360, Poland 1,208, Bosnia and Herzegovina 889, Turkey 874, Syria 853.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Esbjerg (Esbjerg Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 2.2% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Arhus": {
+    "census_year": 2026,
+    "population": 381363,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 80.9%; immigrants 13.9% (from western countries 5.0%, non-western 9.0%); descendants of immigrants 5.2% (1 October 2026). Most common countries of origin of immigrants and descendants: Lebanon 5,219, Somalia 5,112, Turkey 4,357, Iraq 4,072, Iran 3,460.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Aarhus (Aarhus Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 3.7% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Aalborg": {
+    "census_year": 2026,
+    "population": 227718,
+    "ethnic": "Statistics Denmark records ancestry, not ethnicity. Danish origin 87.4%; immigrants 9.6% (from western countries 3.2%, non-western 6.4%); descendants of immigrants 2.9% (1 October 2026). Most common countries of origin of immigrants and descendants: Ukraine 2,075, Syria 1,471, Poland 1,437, Iran 1,372, Somalia 1,353.",
+    "language": "Danish is the official language; Statistics Denmark does not record language.",
+    "religion": "Statistics Denmark does not record religion by municipality.",
+    "cite": "(Statistics Denmark, 2026)",
+    "area_note": "Municipality of Aalborg (Aalborg Kommune), register count 1 October 2026",
+    "sources": [
+      "Statistics Denmark (2026) FOLK1E: Population at the first day of the quarter by region, sex, age and ancestry; FOLK1C: by country of origin. StatBank. Available at: https://www.statbank.dk/ (Accessed: 12 November 2026).",
+      "Statistics Denmark (2026) AUP01: Unemployment in per cent of the labour force (provisional). StatBank. Available at: https://www.statbank.dk/AUP01 (Accessed: 12 November 2026)."
+    ],
+    "economy": "Unemployment 3.6% of the labour force (registered, 2026-09, provisional)."
+  },
+  "Vienna": {
+    "census_year": 2026,
+    "population": 2040914,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 841,944, 41.3% of residents (1 January 2026); largest countries of birth listed separately: Serbia 86,863, Turkey 67,707, Germany 66,312, Syria 61,094, Bosnia and Herzegovina 47,033. Foreign citizens: 36.8%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 12.2% of people aged 15 and over in the labour force; employment rate 66.8% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna (Wien), city and federal state, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Doebling": {
+    "census_year": 2026,
+    "population": 76203,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 28,453, 37.3% of residents (1 January 2026); largest countries of birth listed separately: Germany 2,917, Ukraine 2,378, Serbia 1,617, Syria 1,434, Hungary 1,185. Foreign citizens: 31.2%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 9.5% of people aged 15 and over in the labour force; employment rate 65.5% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 19 (Döbling), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Simmering": {
+    "census_year": 2026,
+    "population": 112214,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 46,983, 41.9% of residents (1 January 2026); largest countries of birth listed separately: Turkey 6,093, Serbia 5,985, Syria 3,837, Bosnia and Herzegovina 3,419, Romania 3,336. Foreign citizens: 38.3%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 15.1% of people aged 15 and over in the labour force; employment rate 66.1% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 11 (Simmering), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ottakring": {
+    "census_year": 2026,
+    "population": 101599,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 46,191, 45.5% of residents (1 January 2026); largest countries of birth listed separately: Serbia 6,913, Turkey 4,466, Syria 4,345, Bosnia and Herzegovina 3,293, Germany 3,256. Foreign citizens: 41.7%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 14.0% of people aged 15 and over in the labour force; employment rate 65.6% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 16 (Ottakring), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Meidling": {
+    "census_year": 2026,
+    "population": 102344,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 46,791, 45.7% of residents (1 January 2026); largest countries of birth listed separately: Serbia 6,120, Turkey 4,262, Syria 4,082, Bosnia and Herzegovina 3,282, Germany 2,622. Foreign citizens: 41.6%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 14.9% of people aged 15 and over in the labour force; employment rate 65.4% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 12 (Meidling), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Penzing": {
+    "census_year": 2026,
+    "population": 99469,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 35,200, 35.4% of residents (1 January 2026); largest countries of birth listed separately: Serbia 4,249, Germany 2,857, Syria 2,691, Bosnia and Herzegovina 2,340, Turkey 2,240. Foreign citizens: 31.1%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 10.7% of people aged 15 and over in the labour force; employment rate 69.2% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 14 (Penzing), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Hietzing": {
+    "census_year": 2026,
+    "population": 56496,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 17,195, 30.4% of residents (1 January 2026); largest countries of birth listed separately: Germany 2,159, Ukraine 1,328, Serbia 1,225, Hungary 1,012, Romania 866. Foreign citizens: 25.4%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 8.3% of people aged 15 and over in the labour force; employment rate 70.0% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 13 (Hietzing), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Hernals": {
+    "census_year": 2026,
+    "population": 56652,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 23,598, 41.7% of residents (1 January 2026); largest countries of birth listed separately: Serbia 3,191, Germany 2,268, Syria 1,927, Bosnia and Herzegovina 1,549, Turkey 1,464. Foreign citizens: 37.9%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 11.6% of people aged 15 and over in the labour force; employment rate 67.8% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 17 (Hernals), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Fuenfhaus": {
+    "census_year": 2026,
+    "population": 75384,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 38,233, 50.7% of residents (1 January 2026); largest countries of birth listed separately: Serbia 5,214, Turkey 3,225, Syria 3,117, Germany 2,917, Bosnia and Herzegovina 2,869. Foreign citizens: 46.2%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 14.9% of people aged 15 and over in the labour force; employment rate 65.1% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 15 (Rudolfsheim-Fünfhaus), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Floridsdorf": {
+    "census_year": 2026,
+    "population": 191527,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 70,541, 36.8% of residents (1 January 2026); largest countries of birth listed separately: Serbia 6,940, Syria 6,146, Turkey 5,753, Romania 3,550, Bosnia and Herzegovina 3,482. Foreign citizens: 33.8%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 13.5% of people aged 15 and over in the labour force; employment rate 66.5% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 21 (Floridsdorf), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Favoriten": {
+    "census_year": 2026,
+    "population": 225013,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 111,024, 49.3% of residents (1 January 2026); largest countries of birth listed separately: Turkey 13,922, Serbia 13,614, Syria 12,794, Bosnia and Herzegovina 7,471, Romania 5,430. Foreign citizens: 46.2%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 16.9% of people aged 15 and over in the labour force; employment rate 62.8% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 10 (Favoriten), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Donaustadt": {
+    "census_year": 2026,
+    "population": 235361,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 82,673, 35.1% of residents (1 January 2026); largest countries of birth listed separately: Serbia 6,286, Turkey 5,401, Germany 4,366, Ukraine 4,147, Syria 4,015. Foreign citizens: 30.2%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 10.2% of people aged 15 and over in the labour force; employment rate 69.2% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 22 (Donaustadt), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Waehring": {
+    "census_year": 2026,
+    "population": 51177,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 18,493, 36.1% of residents (1 January 2026); largest countries of birth listed separately: Germany 2,935, Ukraine 1,525, Serbia 1,262, Syria 835, Hungary 734. Foreign citizens: 31.4%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 7.8% of people aged 15 and over in the labour force; employment rate 69.9% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 18 (Währing), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Landstrasse": {
+    "census_year": 2026,
+    "population": 99954,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 44,009, 44.0% of residents (1 January 2026); largest countries of birth listed separately: Germany 5,044, Ukraine 3,506, Serbia 3,324, Turkey 2,167, Romania 1,982. Foreign citizens: 38.6%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 10.0% of people aged 15 and over in the labour force; employment rate 67.9% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 3 (Landstraße), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Margareten": {
+    "census_year": 2026,
+    "population": 54060,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 26,401, 48.8% of residents (1 January 2026); largest countries of birth listed separately: Germany 2,940, Serbia 2,622, Syria 2,342, Turkey 1,749, Ukraine 1,466. Foreign citizens: 43.5%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 12.7% of people aged 15 and over in the labour force; employment rate 66.7% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 5 (Margareten), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Brigittenau": {
+    "census_year": 2026,
+    "population": 86686,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 43,509, 50.2% of residents (1 January 2026); largest countries of birth listed separately: Turkey 5,321, Serbia 4,987, Syria 3,652, Germany 2,488, Bosnia and Herzegovina 2,447. Foreign citizens: 45.3%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 16.3% of people aged 15 and over in the labour force; employment rate 62.2% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Vienna district 20 (Brigittenau), 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Graz": {
+    "census_year": 2026,
+    "population": 306971,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 98,044, 31.9% of residents (1 January 2026); largest countries of birth listed separately: Bosnia and Herzegovina 13,175, Germany 9,248, Romania 7,865, Turkey 6,570, Croatia 6,558. Foreign citizens: 29.6%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 8.2% of people aged 15 and over in the labour force; employment rate 71.4% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Graz, municipality, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Linz": {
+    "census_year": 2026,
+    "population": 214272,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 72,950, 34.0% of residents (1 January 2026); largest countries of birth listed separately: Bosnia and Herzegovina 9,197, Romania 6,053, Turkey 5,056, Germany 4,704, Syria 3,748. Foreign citizens: 30.6%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 7.9% of people aged 15 and over in the labour force; employment rate 72.7% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Linz, municipality, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Salzburg": {
+    "census_year": 2026,
+    "population": 157834,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 57,136, 36.2% of residents (1 January 2026); largest countries of birth listed separately: Germany 9,124, Bosnia and Herzegovina 6,965, Serbia 4,323, Turkey 3,240, Romania 3,088. Foreign citizens: 33.8%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 5.6% of people aged 15 and over in the labour force; employment rate 73.9% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Salzburg, municipality, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Innsbruck": {
+    "census_year": 2026,
+    "population": 132820,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 48,065, 36.2% of residents (1 January 2026); largest countries of birth listed separately: Germany 11,183, Turkey 4,459, Syria 2,993, Bosnia and Herzegovina 2,491, Serbia 2,209. Foreign citizens: 32.6%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 5.2% of people aged 15 and over in the labour force; employment rate 71.8% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Innsbruck, municipality, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Klagenfurt am Woerthersee": {
+    "census_year": 2026,
+    "population": 105734,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 26,317, 24.9% of residents (1 January 2026); largest countries of birth listed separately: Bosnia and Herzegovina 5,247, Germany 3,307, Ukraine 1,367, Romania 1,281, Croatia 1,195. Foreign citizens: 21.9%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 7.3% of people aged 15 and over in the labour force; employment rate 71.6% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Klagenfurt, municipality, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
+  },
+  "Villach": {
+    "census_year": 2026,
+    "population": 66051,
+    "ethnic": "Statistik Austria records country of birth and citizenship, not ethnicity. Born abroad: 17,075, 25.9% of residents (1 January 2026); largest countries of birth listed separately: Bosnia and Herzegovina 3,202, Germany 2,197, Syria 854, Croatia 812, Hungary 590. Foreign citizens: 24.7%.",
+    "language": "German is the official language; the register-based census does not record language.",
+    "religion": "The register-based census does not record religion.",
+    "economy": "Unemployment 8.4% of people aged 15 and over in the labour force; employment rate 71.7% of people aged 15–64 (register-based census 2024).",
+    "cite": "(Statistik Austria, 2026)",
+    "area_note": "Villach, municipality, 1 January 2026",
+    "sources": [
+      "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
+      "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
+    ]
   }
 }
