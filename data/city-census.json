@@ -684,14 +684,16 @@
     "area_note": "Republic of Cyprus municipality, 2021 (urban area 256,119); north Nicosia (Lefkoşa) municipality 61,378 and urban area 82,929 at the 2011 Turkish Cypriot census",
     "census_year": 2021,
     "population": 111797,
-    "ethnic": "Divided city: Greek Cypriots in the south, Turkish Cypriots and settlers from Turkey in the north; the Walled City is now populated mostly by migrants (Foka, 2015). No shares in the sources used.",
+    "ethnic": "Divided city: Greek Cypriots in the south, Turkish Cypriots and settlers from Turkey in the north; the Walled City is now populated mostly by migrants (Foka, 2015). No shares in the sources used. Citizenship, census 2021 (Lefkosia municipality): Cypriot 67.0%, other EU 16.8%, non-EU 15.6%, not stated 0.6%. The census covers only the areas controlled by the Republic of Cyprus and does not ask about ethnicity directly.",
     "language": "Greek in the south, Turkish in the north.",
     "religion": "Orthodox Christian in the south, Muslim in the north; no shares in the sources used.",
     "sources": [
       "Wikipedia (n.d.) Nicosia. Available at: https://en.wikipedia.org/wiki/Nicosia (Accessed: 8 November 2026).",
-      "Foka, Z. (2015) 'Shared space in conflict areas: exploring the case of Nicosia's buffer zone', Athens Journal of Mediterranean Studies, 1(1), pp. 45–60. doi:10.30958/ajms.1-1-3."
+      "Foka, Z. (2015) 'Shared space in conflict areas: exploring the case of Nicosia's buffer zone', Athens Journal of Mediterranean Studies, 1(1), pp. 45–60. doi:10.30958/ajms.1-1-3.",
+      "Statistical Service of Cyprus (2024) Census of Population and Housing 2021: Population enumerated by citizenship group, sex, district and municipality/community (1891213E); Economically active and inactive population by district and municipality/community (1891712E); Population enumerated by language, sex and district (1891616E). CYSTAT-DB. Available at: https://cystatdb.cystat.gov.cy/pxweb/en/8.CYSTAT-DB/ (Accessed: 12 November 2026)."
     ],
-    "cite": "(Wikipedia, n.d.); (Foka, 2015)"
+    "cite": "(Wikipedia, n.d.); (Foka, 2015; CYSTAT, 2024)",
+    "economy": "Unemployment 7.3% of the labour force, census 2021 (Cyprus 7.7%)."
   },
   "Agartala": {
     "lat": 23.835,
@@ -3842,28 +3844,32 @@
     "lon": 33.334,
     "census_year": 2021,
     "population": 71123,
-    "ethnic": "Greek Cypriot; grew after 1974 with refugees from the north.",
-    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "ethnic": "Greek Cypriot; grew after 1974 with refugees from the north. Citizenship, census 2021 (Strovolos municipality): Cypriot 81.8%, other EU 9.3%, non-EU 8.5%, not stated 0.4%. The census covers only the areas controlled by the Republic of Cyprus and does not ask about ethnicity directly.",
+    "language": "Language, Nicosia district, census 2021: Greek 84.6%, English 2.8%, Romanian 2.0%, Arabic 1.5%, Filipino 1.2%, Bulgarian 1.1%, Russian 1.0%.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Wikipedia, n.d.; CYSTAT, 2024)",
     "sources": [
-      "Wikipedia (n.d.) Strovolos. Available at: https://en.wikipedia.org/wiki/Strovolos (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+      "Wikipedia (n.d.) Strovolos. Available at: https://en.wikipedia.org/wiki/Strovolos (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Statistical Service of Cyprus (2024) Census of Population and Housing 2021: Population enumerated by citizenship group, sex, district and municipality/community (1891213E); Economically active and inactive population by district and municipality/community (1891712E); Population enumerated by language, sex and district (1891616E). CYSTAT-DB. Available at: https://cystatdb.cystat.gov.cy/pxweb/en/8.CYSTAT-DB/ (Accessed: 12 November 2026)."
     ],
-    "area_note": "Municipality, Republic of Cyprus"
+    "area_note": "Municipality, Republic of Cyprus",
+    "economy": "Unemployment 6.8% of the labour force, census 2021 (Cyprus 7.7%)."
   },
   "Larnaca": {
     "lat": 34.922,
     "lon": 33.628,
     "census_year": 2021,
     "population": 52038,
-    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
-    "language": "Not found yet in the sources checked so far; see the national figures below.",
+    "ethnic": "Citizenship, census 2021 (Larnaka municipality): Cypriot 72.1%, other EU 14.5%, non-EU 12.9%, not stated 0.4%. The census covers only the areas controlled by the Republic of Cyprus and does not ask about ethnicity directly.",
+    "language": "Language, Larnaka district, census 2021: Greek 80.6%, English 5.1%, Romanian 2.1%, Arabic 1.6%, Russian 1.6%, Bulgarian 1.5%, Indian 1.4%.",
     "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(Wikipedia, n.d.)",
+    "cite": "(Wikipedia, n.d.; CYSTAT, 2024)",
     "sources": [
-      "Wikipedia (n.d.) Larnaca. Available at: https://en.wikipedia.org/wiki/Larnaca (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+      "Wikipedia (n.d.) Larnaca. Available at: https://en.wikipedia.org/wiki/Larnaca (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Statistical Service of Cyprus (2024) Census of Population and Housing 2021: Population enumerated by citizenship group, sex, district and municipality/community (1891213E); Economically active and inactive population by district and municipality/community (1891712E); Population enumerated by language, sex and district (1891616E). CYSTAT-DB. Available at: https://cystatdb.cystat.gov.cy/pxweb/en/8.CYSTAT-DB/ (Accessed: 12 November 2026)."
     ],
-    "area_note": "Municipality, Republic of Cyprus"
+    "area_note": "Municipality, Republic of Cyprus",
+    "economy": "Unemployment 9.9% of the labour force, census 2021 (Cyprus 7.7%)."
   },
   "Osijek": {
     "lat": 45.551,
@@ -12782,14 +12788,17 @@
   "Bratislava": {
     "census_year": 2022,
     "population": 475577,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Bratislava, greater city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 31,858, 6.8% of residents (born in another EU country 21,190, outside the EU 10,668) (2021). Foreign citizens: 3.2% of residents, EU citizens 8,821 and non-EU citizens 6,576 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, whole city (districts Bratislava I–V): Slovak 85.2%, Hungarian 2.4%, Czech 1.0%, not stated 8.9%. Roma as first or second nationality: 720 (0.2%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 31,858, 6.8% of residents (born in another EU country 21,190, outside the EU 10,668) (2021). Foreign citizens: 3.2% of residents, EU citizens 8,821 and non-EU citizens 6,576 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 84.8%, Hungarian 2.5%, Czech 1.2%, Russian 0.3%, not stated 9.0%.",
+    "religion": "Religion, census 2021: no religion 43.5%, Roman Catholic 37.7%, Lutheran (Augsburg Confession) 4.1%, Greek Catholic 1.1%, Orthodox 0.6%, informal religious movements 0.5%, not stated 9.4%."
   },
   "Gdańsk": {
     "census_year": 2024,
@@ -20964,86 +20973,107 @@
   "Presov": {
     "census_year": 2022,
     "population": 83897,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Prešov, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,778, 4.5% of residents (born in another EU country 2,242, outside the EU 1,536) (2021). Foreign citizens: 1.3% of residents, EU citizens 707 and non-EU citizens 368 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, municipality: Slovak 88.7%, Ruthenian 1.2%, Ukrainian 0.7%, Czech 0.6%, Romani 0.5%, not stated 7.1%. Roma as first or second nationality: 918 (1.1%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 3,778, 4.5% of residents (born in another EU country 2,242, outside the EU 1,536) (2021). Foreign citizens: 1.3% of residents, EU citizens 707 and non-EU citizens 368 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 88.4%, Ruthenian 1.5%, Czech 0.6%, Ukrainian 0.5%, Romani 0.4%, not stated 7.1%.",
+    "religion": "Religion, census 2021: Roman Catholic 54.8%, no religion 19.6%, Greek Catholic 8.7%, Lutheran (Augsburg Confession) 4.3%, Orthodox 1.5%, informal religious movements 0.3%, not stated 8.8%."
   },
   "Kosice": {
     "census_year": 2022,
     "population": 227458,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Košice, greater city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 10,887, 4.8% of residents (born in another EU country 6,832, outside the EU 4,055) (2021). Foreign citizens: 1.0% of residents, EU citizens 1,128 and non-EU citizens 1,254 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, whole city (districts Košice I–IV): Slovak 83.9%, Romani 2.9%, Hungarian 2.0%, Czech 0.6%, Ruthenian 0.5%, Ukrainian 0.4%, not stated 8.9%. Roma as first or second nationality: 8,393 (4.1%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 10,887, 4.8% of residents (born in another EU country 6,832, outside the EU 4,055) (2021). Foreign citizens: 1.0% of residents, EU citizens 1,128 and non-EU citizens 1,254 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 80.8%, Romani 3.5%, Hungarian 2.8%, Ruthenian 0.9%, Czech 0.6%, not stated 10.2%.",
+    "religion": "Religion, census 2021: Roman Catholic 46.4%, no religion 27.2%, Greek Catholic 6.8%, Lutheran (Augsburg Confession) 3.3%, Calvinist (Reformed) 1.6%, Orthodox 1.3%, not stated 11.0%."
   },
   "Zilina": {
     "census_year": 2022,
     "population": 81940,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Žilina, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,572, 4.3% of residents (born in another EU country 2,830, outside the EU 742) (2021). Foreign citizens: 1.2% of residents, EU citizens 506 and non-EU citizens 511 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, municipality: Slovak 92.4%, Czech 1.0%, not stated 5.5%. Roma as first or second nationality: 174 (0.2%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 3,572, 4.3% of residents (born in another EU country 2,830, outside the EU 742) (2021). Foreign citizens: 1.2% of residents, EU citizens 506 and non-EU citizens 511 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 91.6%, Czech 1.1%, not stated 6.0%.",
+    "religion": "Religion, census 2021: Roman Catholic 57.9%, no religion 29.1%, Lutheran (Augsburg Confession) 2.8%, Greek Catholic 0.7%, Christian Congregations in Slovakia 0.4%, informal religious movements 0.4%, not stated 6.8%."
   },
   "Trnava": {
     "census_year": 2022,
     "population": 63194,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Trnava, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,730, 4.3% of residents (born in another EU country 1,921, outside the EU 809) (2021). Foreign citizens: 1.4% of residents, EU citizens 481 and non-EU citizens 422 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, municipality: Slovak 90.5%, Czech 0.5%, not stated 7.5%. Roma as first or second nationality: 252 (0.4%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 2,730, 4.3% of residents (born in another EU country 1,921, outside the EU 809) (2021). Foreign citizens: 1.4% of residents, EU citizens 481 and non-EU citizens 422 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 88.9%, Czech 0.6%, Hungarian 0.3%, not stated 9.1%.",
+    "religion": "Religion, census 2021: Roman Catholic 54.7%, no religion 30.3%, Lutheran (Augsburg Confession) 2.3%, Greek Catholic 0.6%, informal religious movements 0.4%, Christian Congregations in Slovakia 0.3%, not stated 9.5%."
   },
   "Trencin": {
     "census_year": 2022,
     "population": 54458,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Trenčín, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,769, 5.1% of residents (born in another EU country 2,315, outside the EU 454) (2021). Foreign citizens: 1.0% of residents, EU citizens 318 and non-EU citizens 211 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, municipality: Slovak 92.4%, Czech 1.3%, not stated 5.4%. Roma as first or second nationality: 45 (0.1%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 2,769, 5.1% of residents (born in another EU country 2,315, outside the EU 454) (2021). Foreign citizens: 1.0% of residents, EU citizens 318 and non-EU citizens 211 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 90.9%, Czech 1.5%, not stated 6.5%.",
+    "religion": "Religion, census 2021: Roman Catholic 49.3%, no religion 35.5%, Lutheran (Augsburg Confession) 4.9%, Greek Catholic 0.7%, informal religious movements 0.5%, not stated 6.8%."
   },
   "Nitra": {
     "census_year": 2022,
     "population": 77610,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Nitra, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,340, 4.3% of residents (born in another EU country 2,404, outside the EU 936) (2021). Foreign citizens: 1.4% of residents, EU citizens 699 and non-EU citizens 425 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, municipality: Slovak 90.7%, Hungarian 1.0%, Czech 0.6%, not stated 6.5%. Roma as first or second nationality: 271 (0.3%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 3,340, 4.3% of residents (born in another EU country 2,404, outside the EU 936) (2021). Foreign citizens: 1.4% of residents, EU citizens 699 and non-EU citizens 425 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 90.0%, Hungarian 1.2%, Czech 0.7%, not stated 6.6%.",
+    "religion": "Religion, census 2021: Roman Catholic 55.4%, no religion 29.7%, Lutheran (Augsburg Confession) 2.6%, Greek Catholic 0.7%, Christian Congregations in Slovakia 0.5%, informal religious movements 0.4%, not stated 8.5%."
   },
   "Banska Bystrica": {
     "census_year": 2022,
     "population": 75317,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; ŠÚ SR, 2022)",
     "area_note": "Banská Bystrica, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,912, 3.8% of residents (born in another EU country 2,242, outside the EU 670) (2021). Foreign citizens: 1.0% of residents, EU citizens 418 and non-EU citizens 339 (2021). This dataset does not record ethnicity or detailed countries of birth."
+    "ethnic": "Nationality, census 2021, municipality: Slovak 92.1%, Czech 0.8%, Hungarian 0.4%, not stated 5.7%. Roma as first or second nationality: 341 (0.4%; Slovakia 2.9%). Nationality is self-declared. Born abroad: 2,912, 3.8% of residents (born in another EU country 2,242, outside the EU 670) (2021). Foreign citizens: 1.0% of residents, EU citizens 418 and non-EU citizens 339 (2021). This dataset does not record ethnicity or detailed countries of birth.",
+    "language": "Mother tongue, census 2021: Slovak 91.9%, Czech 1.0%, Hungarian 0.5%, not stated 5.6%.",
+    "religion": "Religion, census 2021: no religion 42.6%, Roman Catholic 36.3%, Lutheran (Augsburg Confession) 9.5%, Greek Catholic 1.3%, other and not ascertained christian church 0.5%, informal religious movements 0.5%, not stated 6.6%."
   },
   "Manchester": {
     "census_year": 2021,
@@ -34991,5 +35021,60 @@
     "lat": 37.769,
     "lon": -3.79,
     "crime": "Jaén municipality, 2025: 4,854 criminal offences recorded by the police, 43.2 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 9.5, violent robberies 0.6, home burglaries 0.8, assaults 0.3, sexual offences 0.4, drug trafficking 0.3, online fraud 10.5. Completed homicides and murders: 1. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Martin": {
+    "census_year": 2021,
+    "population": 52520,
+    "area_note": "Martin municipality, census of 1 January 2021",
+    "cite": "(ŠÚ SR, 2022)",
+    "sources": [
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
+    ],
+    "lat": 49.067,
+    "lon": 18.924,
+    "ethnic": "Nationality, census 2021, municipality: Slovak 92.4%, Czech 1.0%, not stated 5.6%. Roma as first or second nationality: 279 (0.5%; Slovakia 2.9%). Nationality is self-declared.",
+    "language": "Mother tongue, census 2021: Slovak 89.3%, Czech 1.1%, not stated 8.5%.",
+    "religion": "Religion, census 2021: no religion 43.6%, Roman Catholic 31.3%, Lutheran (Augsburg Confession) 12.5%, Greek Catholic 0.8%, informal religious movements 0.4%, other and not ascertained christian church 0.4%, not stated 8.9%."
+  },
+  "Petrzalka": {
+    "census_year": 2021,
+    "population": 114000,
+    "area_note": "Petržalka borough of Bratislava, census of 1 January 2021",
+    "cite": "(ŠÚ SR, 2022)",
+    "sources": [
+      "Statistical Office of the Slovak Republic (2022) Population and Housing Census 2021: population by ethnicity, other ethnicity, mother tongue and religious belief, municipalities and districts. Available at: https://www.scitanie.sk/en/population/basic-results/structure-of-population-by-ethnicity/SR/SK0/SR (Accessed: 12 November 2026)."
+    ],
+    "lat": 48.123,
+    "lon": 17.129,
+    "ethnic": "Nationality, census 2021, borough of Bratislava: Slovak 86.7%, Hungarian 2.3%, Czech 0.9%, not stated 8.4%. Roma as first or second nationality: 186 (0.2%; Slovakia 2.9%). Nationality is self-declared.",
+    "language": "Mother tongue, census 2021: Slovak 86.4%, Hungarian 2.4%, Czech 1.0%, not stated 8.4%.",
+    "religion": "Religion, census 2021: no religion 44.8%, Roman Catholic 37.6%, Lutheran (Augsburg Confession) 3.8%, Greek Catholic 1.2%, informal religious movements 0.5%, Orthodox 0.5%, not stated 8.8%."
+  },
+  "Limassol": {
+    "census_year": 2021,
+    "population": 107970,
+    "area_note": "Lemesos municipality, census of 1 October 2021",
+    "lat": 34.684,
+    "lon": 33.038,
+    "cite": "(CYSTAT, 2024)",
+    "sources": [
+      "Statistical Service of Cyprus (2024) Census of Population and Housing 2021: Population enumerated by citizenship group, sex, district and municipality/community (1891213E); Economically active and inactive population by district and municipality/community (1891712E); Population enumerated by language, sex and district (1891616E). CYSTAT-DB. Available at: https://cystatdb.cystat.gov.cy/pxweb/en/8.CYSTAT-DB/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "Citizenship, census 2021 (Lemesos municipality): Cypriot 75.7%, other EU 11.1%, non-EU 12.6%, not stated 0.7%. The census covers only the areas controlled by the Republic of Cyprus and does not ask about ethnicity directly.",
+    "language": "Language, Lemesos district, census 2021: Greek 77.2%, Russian 4.3%, English 3.9%, Arabic 2.6%, Romanian 2.0%, Bulgarian 1.2%, Indian 0.9%.",
+    "economy": "Unemployment 7.0% of the labour force, census 2021 (Cyprus 7.7%)."
+  },
+  "Valletta": {
+    "census_year": 2021,
+    "population": 5157,
+    "area_note": "Valletta locality, census of 21 November 2021 (estimate for 31 December 2024: 5,197)",
+    "ethnic": "Citizenship, 31 December 2024: Maltese 4,406 (84.8%), foreign citizens 791 (15.2%). Ethnicity by locality was not found in the sources checked.",
+    "religion": "People aged 15+, census 2021: Roman Catholic 90.5%, Orthodox 1.6%, other Christian 2.1%, Muslim 1.6%, other religion 1.1%, no religion 3.1%.",
+    "cite": "(Brinkhoff, 2026, citing NSO Malta)",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Valletta, citing the National Statistics Office, Malta (censuses 1985–2021, estimate 31 December 2024, citizenship and religion). Available at: https://citypopulation.de/en/malta/admin/southern_harbour/01101__valletta/ (Accessed: 12 November 2026)."
+    ],
+    "lat": 35.9,
+    "lon": 14.515
   }
 }
