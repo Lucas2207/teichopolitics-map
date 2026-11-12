@@ -13029,15 +13029,18 @@
   "Sofia": {
     "census_year": 2025,
     "population": 1295931,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Sofia, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 57,267, 4.7% of residents (born in another EU country 11,871, outside the EU 45,396) (2022). Foreign citizens: 3.4% of residents, EU citizens 9,519 and non-EU citizens 34,125 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Sofia (capital) province, census 2021, ethnic group: Bulgarian 96.9%, Turkish 0.5%, Roma 1.3%, other 1.3% (of the 1,092,160 people who answered; 14.3% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 57,267, 4.7% of residents (born in another EU country 11,871, outside the EU 45,396) (2022). Foreign citizens: 3.4% of residents, EU citizens 9,519 and non-EU citizens 34,125 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "language": "Mother tongue, Sofia (capital) province, census 2021: Bulgarian 96.8%, Turkish 0.5%, Romani 1.0%, other 1.6% (of the 1,046,591 people who answered; 17.9% did not).",
+    "religion": "Religion, Sofia (capital) province, census 2021: Christian 91.4%, Muslim 1.1%, Jewish 0.1%, other 0.4%, none 7.0% (of the 903,113 people who answered; 29.1% did not)."
   },
   "Budapest": {
     "census_year": 2024,
@@ -13729,15 +13732,18 @@
   "Plovdiv": {
     "census_year": 2025,
     "population": 329489,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Plovdiv, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 11,662, 3.4% of residents (born in another EU country 3,745, outside the EU 7,917) (2022). Foreign citizens: 3.0% of residents, EU citizens 1,826 and non-EU citizens 8,051 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Plovdiv province, census 2021, ethnic group: Bulgarian 87.9%, Turkish 6.8%, Roma 4.5%, other 0.9% (of the 584,134 people who answered; 7.9% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 11,662, 3.4% of residents (born in another EU country 3,745, outside the EU 7,917) (2022). Foreign citizens: 3.0% of residents, EU citizens 1,826 and non-EU citizens 8,051 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "language": "Mother tongue, Plovdiv province, census 2021: Bulgarian 87.5%, Turkish 7.0%, Romani 4.6%, other 0.9% (of the 569,155 people who answered; 10.3% did not).",
+    "religion": "Religion, Plovdiv province, census 2021: Christian 87.6%, Muslim 7.9%, Jewish 0.0%, other 0.1%, none 4.4% (of the 502,288 people who answered; 20.8% did not)."
   },
   "Koszalin": {
     "census_year": 2024,
@@ -14695,54 +14701,66 @@
   "Stara Zagora": {
     "census_year": 2025,
     "population": 142296,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Stara Zagora, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 4,054, 3.3% of residents (born in another EU country 1,131, outside the EU 2,923) (2022). Foreign citizens: 1.8% of residents, EU citizens 576 and non-EU citizens 1,920 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Stara Zagora province, census 2021, ethnic group: Bulgarian 88.0%, Turkish 4.5%, Roma 6.7%, other 0.9% (of the 272,563 people who answered; 8.1% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 4,054, 3.3% of residents (born in another EU country 1,131, outside the EU 2,923) (2022). Foreign citizens: 1.8% of residents, EU citizens 576 and non-EU citizens 1,920 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "language": "Mother tongue, Stara Zagora province, census 2021: Bulgarian 87.8%, Turkish 5.3%, Romani 6.2%, other 0.7% (of the 266,059 people who answered; 10.3% did not).",
+    "religion": "Religion, Stara Zagora province, census 2021: Christian 87.8%, Muslim 5.1%, Jewish 0.0%, other 0.1%, none 6.9% (of the 231,274 people who answered; 22.0% did not)."
   },
   "Pleven": {
     "census_year": 2025,
     "population": 109080,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Pleven, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,494, 2.8% of residents (born in another EU country 846, outside the EU 1,648) (2022). Foreign citizens: 1.3% of residents, EU citizens 366 and non-EU citizens 1,028 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Pleven province, census 2021, ethnic group: Bulgarian 93.8%, Turkish 2.5%, Roma 3.3%, other 0.4% (of the 213,500 people who answered; 5.6% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 2,494, 2.8% of residents (born in another EU country 846, outside the EU 1,648) (2022). Foreign citizens: 1.3% of residents, EU citizens 366 and non-EU citizens 1,028 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Pleven province, census 2021: Bulgarian 94.8%, Turkish 2.0%, Romani 2.6%, other 0.6% (of the 210,094 people who answered; 7.1% did not).",
+    "religion": "Religion, Pleven province, census 2021: Christian 87.7%, Muslim 2.8%, Jewish 0.0%, other 0.0%, none 9.4% (of the 188,152 people who answered; 16.8% did not)."
   },
   "Varna": {
     "census_year": 2025,
     "population": 327424,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Varna, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 16,361, 4.9% of residents (born in another EU country 3,510, outside the EU 12,851) (2022). Foreign citizens: 4.8% of residents, EU citizens 3,379 and non-EU citizens 12,230 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Varna province, census 2021, ethnic group: Bulgarian 89.1%, Turkish 6.5%, Roma 2.4%, other 1.9% (of the 395,862 people who answered; 8.4% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 16,361, 4.9% of residents (born in another EU country 3,510, outside the EU 12,851) (2022). Foreign citizens: 4.8% of residents, EU citizens 3,379 and non-EU citizens 12,230 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "language": "Mother tongue, Varna province, census 2021: Bulgarian 88.4%, Turkish 7.2%, Romani 2.1%, other 2.3% (of the 386,751 people who answered; 10.5% did not).",
+    "religion": "Religion, Varna province, census 2021: Christian 85.5%, Muslim 7.6%, Jewish 0.0%, other 0.2%, none 6.7% (of the 339,689 people who answered; 21.4% did not)."
   },
   "Ruse": {
     "census_year": 2025,
     "population": 137159,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Ruse, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,543, 2.6% of residents (born in another EU country 1,456, outside the EU 2,087) (2022). Foreign citizens: 1.3% of residents, EU citizens 531 and non-EU citizens 1,194 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Ruse province, census 2021, ethnic group: Bulgarian 81.8%, Turkish 13.2%, Roma 3.9%, other 1.1% (of the 181,904 people who answered; 6.0% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 3,543, 2.6% of residents (born in another EU country 1,456, outside the EU 2,087) (2022). Foreign citizens: 1.3% of residents, EU citizens 531 and non-EU citizens 1,194 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "language": "Mother tongue, Ruse province, census 2021: Bulgarian 81.9%, Turkish 13.3%, Romani 3.7%, other 1.1% (of the 178,903 people who answered; 7.5% did not).",
+    "religion": "Religion, Ruse province, census 2021: Christian 80.2%, Muslim 15.6%, Jewish 0.0%, other 0.1%, none 4.0% (of the 163,239 people who answered; 15.6% did not)."
   },
   "Cádiz": {
     "census_year": 2024,
@@ -15000,15 +15018,18 @@
   "Burgas": {
     "census_year": 2025,
     "population": 195719,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Burgas, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 8,447, 4.3% of residents (born in another EU country 1,686, outside the EU 6,761) (2022). Foreign citizens: 3.8% of residents, EU citizens 952 and non-EU citizens 6,435 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Burgas province, census 2021, ethnic group: Bulgarian 80.4%, Turkish 13.6%, Roma 4.3%, other 1.7% (of the 348,559 people who answered; 8.3% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 8,447, 4.3% of residents (born in another EU country 1,686, outside the EU 6,761) (2022). Foreign citizens: 3.8% of residents, EU citizens 952 and non-EU citizens 6,435 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "language": "Mother tongue, Burgas province, census 2021: Bulgarian 79.7%, Turkish 14.3%, Romani 4.0%, other 1.9% (of the 340,788 people who answered; 10.4% did not).",
+    "religion": "Religion, Burgas province, census 2021: Christian 76.8%, Muslim 15.3%, Jewish 0.0%, other 0.1%, none 7.8% (of the 303,424 people who answered; 20.2% did not)."
   },
   "Santa Cruz de Tenerife": {
     "census_year": 2024,
@@ -15199,106 +15220,130 @@
   "Yambol": {
     "census_year": 2022,
     "population": 63656,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Yambol, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,334, 2.1% of residents (born in another EU country 523, outside the EU 811) (2022). Foreign citizens: 0.9% of residents, EU citizens 83 and non-EU citizens 512 (2022). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Yambol province, census 2021, ethnic group: Bulgarian 91.0%, Turkish 1.0%, Roma 7.1%, other 0.8% (of the 99,679 people who answered; 9.1% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 1,334, 2.1% of residents (born in another EU country 523, outside the EU 811) (2022). Foreign citizens: 0.9% of residents, EU citizens 83 and non-EU citizens 512 (2022). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Yambol province, census 2021: Bulgarian 90.6%, Turkish 1.0%, Romani 7.4%, other 1.0% (of the 96,988 people who answered; 11.6% did not).",
+    "religion": "Religion, Yambol province, census 2021: Christian 87.8%, Muslim 1.1%, Jewish 0.0%, other 0.0%, none 11.1% (of the 85,126 people who answered; 22.4% did not)."
   },
   "Dobrich": {
     "census_year": 2025,
     "population": 69434,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Dobrich, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,143, 2.7% of residents (born in another EU country 1,144, outside the EU 999) (2022). Foreign citizens: 0.9% of residents, EU citizens 108 and non-EU citizens 529 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Dobrich province, census 2021, ethnic group: Bulgarian 77.9%, Turkish 13.5%, Roma 7.2%, other 1.5% (of the 140,029 people who answered; 6.7% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 2,143, 2.7% of residents (born in another EU country 1,144, outside the EU 999) (2022). Foreign citizens: 0.9% of residents, EU citizens 108 and non-EU citizens 529 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Dobrich province, census 2021: Bulgarian 77.0%, Turkish 15.7%, Romani 5.6%, other 1.7% (of the 137,278 people who answered; 8.6% did not).",
+    "religion": "Religion, Dobrich province, census 2021: Christian 75.8%, Muslim 20.6%, Jewish 0.0%, other 0.1%, none 3.5% (of the 127,137 people who answered; 15.3% did not)."
   },
   "Sliven": {
     "census_year": 2025,
     "population": 110470,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Sliven, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,722, 2.1% of residents (born in another EU country 796, outside the EU 926) (2022). Foreign citizens: 0.7% of residents, EU citizens 153 and non-EU citizens 579 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Sliven province, census 2021, ethnic group: Bulgarian 74.8%, Turkish 8.5%, Roma 15.5%, other 1.2% (of the 154,603 people who answered; 10.5% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 1,722, 2.1% of residents (born in another EU country 796, outside the EU 926) (2022). Foreign citizens: 0.7% of residents, EU citizens 153 and non-EU citizens 579 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Sliven province, census 2021: Bulgarian 74.6%, Turkish 8.9%, Romani 15.5%, other 1.1% (of the 150,667 people who answered; 12.8% did not).",
+    "religion": "Religion, Sliven province, census 2021: Christian 79.5%, Muslim 8.7%, Jewish 0.0%, other 0.1%, none 11.7% (of the 130,092 people who answered; 24.7% did not)."
   },
   "Shumen": {
     "census_year": 2025,
     "population": 77390,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Shumen, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,618, 3.6% of residents (born in another EU country 765, outside the EU 1,853) (2022). Foreign citizens: 1.8% of residents, EU citizens 252 and non-EU citizens 1,165 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Shumen province, census 2021, ethnic group: Bulgarian 58.7%, Turkish 31.7%, Roma 8.1%, other 1.5% (of the 139,556 people who answered; 7.9% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 2,618, 3.6% of residents (born in another EU country 765, outside the EU 1,853) (2022). Foreign citizens: 1.8% of residents, EU citizens 252 and non-EU citizens 1,165 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Shumen province, census 2021: Bulgarian 59.2%, Turkish 33.7%, Romani 6.3%, other 0.8% (of the 137,455 people who answered; 9.2% did not).",
+    "religion": "Religion, Shumen province, census 2021: Christian 58.5%, Muslim 38.4%, Jewish 0.0%, other 0.1%, none 3.1% (of the 124,472 people who answered; 17.8% did not)."
   },
   "Pernik": {
     "census_year": 2025,
     "population": 81170,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Pernik, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,102, 1.6% of residents (born in another EU country 398, outside the EU 704) (2022). Foreign citizens: 0.7% of residents, EU citizens 141 and non-EU citizens 464 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Pernik province, census 2021, ethnic group: Bulgarian 96.4%, Turkish 0.1%, Roma 3.2%, other 0.3% (of the 111,519 people who answered; 2.3% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 1,102, 1.6% of residents (born in another EU country 398, outside the EU 704) (2022). Foreign citizens: 0.7% of residents, EU citizens 141 and non-EU citizens 464 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Pernik province, census 2021: Bulgarian 98.5%, Turkish 0.1%, Romani 0.9%, other 0.5% (of the 111,675 people who answered; 2.2% did not).",
+    "religion": "Religion, Pernik province, census 2021: Christian 95.5%, Muslim 0.2%, Jewish 0.0%, other 0.1%, none 4.3% (of the 101,711 people who answered; 10.9% did not)."
   },
   "Pazardzhik": {
     "census_year": 2025,
     "population": 88700,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Pazardzhik, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,902, 2.9% of residents (born in another EU country 894, outside the EU 1,008) (2022). Foreign citizens: 2.2% of residents, EU citizens 212 and non-EU citizens 1,718 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Pazardzhik province, census 2021, ethnic group: Bulgarian 87.7%, Turkish 3.2%, Roma 6.8%, other 2.2% (of the 210,465 people who answered; 8.4% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 1,902, 2.9% of residents (born in another EU country 894, outside the EU 1,008) (2022). Foreign citizens: 2.2% of residents, EU citizens 212 and non-EU citizens 1,718 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Pazardzhik province, census 2021: Bulgarian 89.6%, Turkish 3.5%, Romani 6.4%, other 0.5% (of the 204,068 people who answered; 11.2% did not).",
+    "religion": "Religion, Pazardzhik province, census 2021: Christian 81.2%, Muslim 15.9%, Jewish 0.0%, other 0.0%, none 2.9% (of the 184,723 people who answered; 19.6% did not)."
   },
   "Haskovo": {
     "census_year": 2025,
     "population": 78812,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Haskovo, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,475, 2.2% of residents (born in another EU country 536, outside the EU 939) (2022). Foreign citizens: 1.1% of residents, EU citizens 91 and non-EU citizens 754 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.1% of the labour force (2022)."
+    "ethnic": "Haskovo province, census 2021, ethnic group: Bulgarian 79.4%, Turkish 13.2%, Roma 6.5%, other 0.9% (of the 193,979 people who answered; 8.3% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 1,475, 2.2% of residents (born in another EU country 536, outside the EU 939) (2022). Foreign citizens: 1.1% of residents, EU citizens 91 and non-EU citizens 754 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.1% of the labour force (2022).",
+    "language": "Mother tongue, Haskovo province, census 2021: Bulgarian 79.2%, Turkish 13.4%, Romani 6.4%, other 1.0% (of the 189,639 people who answered; 10.4% did not).",
+    "religion": "Religion, Haskovo province, census 2021: Christian 79.4%, Muslim 16.5%, Jewish 0.0%, other 0.0%, none 4.1% (of the 169,274 people who answered; 20.0% did not)."
   },
   "Blagoevgrad": {
     "census_year": 2022,
     "population": 67810,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; NSI, 2022)",
     "area_note": "Blagoevgrad, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,024, 4.5% of residents (born in another EU country 729, outside the EU 2,295) (2022). Foreign citizens: 2.8% of residents, EU citizens 307 and non-EU citizens 1,562 (2022). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.4% of the labour force (2022)."
+    "ethnic": "Blagoevgrad province, census 2021, ethnic group: Bulgarian 86.3%, Turkish 5.1%, Roma 4.5%, other 4.1% (of the 274,494 people who answered; 6.1% did not). Self-declared and optional; figures for the town alone were not found in the sources checked. Born abroad: 3,024, 4.5% of residents (born in another EU country 729, outside the EU 2,295) (2022). Foreign citizens: 2.8% of residents, EU citizens 307 and non-EU citizens 1,562 (2022). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.4% of the labour force (2022).",
+    "language": "Mother tongue, Blagoevgrad province, census 2021: Bulgarian 94.1%, Turkish 1.9%, Romani 3.2%, other 0.7% (of the 270,070 people who answered; 7.6% did not).",
+    "religion": "Religion, Blagoevgrad province, census 2021: Christian 77.5%, Muslim 20.9%, Jewish 0.0%, other 0.1%, none 1.5% (of the 253,897 people who answered; 13.1% did not)."
   },
   "Zuerich": {
     "census_year": 2025,
@@ -35076,5 +35121,35 @@
     ],
     "lat": 35.9,
     "lon": 14.515
+  },
+  "Veliko Turnovo": {
+    "census_year": 2021,
+    "population": 58507,
+    "area_note": "town, census of 7 September 2021 (estimate for 31 December 2025: 60,067)",
+    "cite": "(Brinkhoff, 2026, citing NSI; NSI, 2022)",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Bulgaria, cities and towns, citing the National Statistical Institute (census 2021, estimate 31 December 2025). Available at: https://www.citypopulation.de/en/bulgaria/cities/ (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
+    ],
+    "lat": 43.081,
+    "lon": 25.629,
+    "ethnic": "Veliko Tarnovo province, census 2021, ethnic group: Bulgarian 91.5%, Turkish 5.8%, Roma 1.9%, other 0.8% (of the 195,146 people who answered; 5.9% did not). Self-declared and optional; figures for the town alone were not found in the sources checked.",
+    "language": "Mother tongue, Veliko Tarnovo province, census 2021: Bulgarian 91.2%, Turkish 6.0%, Romani 1.9%, other 0.9% (of the 191,388 people who answered; 7.7% did not).",
+    "religion": "Religion, Veliko Tarnovo province, census 2021: Christian 87.1%, Muslim 7.3%, Jewish 0.0%, other 0.1%, none 5.5% (of the 171,858 people who answered; 17.1% did not)."
+  },
+  "Asenovgrad": {
+    "census_year": 2021,
+    "population": 45943,
+    "area_note": "town, census of 7 September 2021 (estimate for 31 December 2025: 45,271)",
+    "cite": "(Brinkhoff, 2026, citing NSI; NSI, 2022)",
+    "sources": [
+      "Brinkhoff, T. (2026) City Population: Bulgaria, cities and towns, citing the National Statistical Institute (census 2021, estimate 31 December 2025). Available at: https://www.citypopulation.de/en/bulgaria/cities/ (Accessed: 12 November 2026).",
+      "National Statistical Institute (2022) Етнокултурна характеристика на населението към 7 септември 2021 година [Ethnocultural characteristics of the population on 7 September 2021], tables 1–3 by province. Sofia: NSI. Available at: https://www.nsi.bg/file/24016/Census2021-ethnos.pdf (Accessed: 12 November 2026)."
+    ],
+    "lat": 42.017,
+    "lon": 24.867,
+    "ethnic": "Plovdiv province, census 2021, ethnic group: Bulgarian 87.9%, Turkish 6.8%, Roma 4.5%, other 0.9% (of the 584,134 people who answered; 7.9% did not). Self-declared and optional; figures for the town alone were not found in the sources checked.",
+    "language": "Mother tongue, Plovdiv province, census 2021: Bulgarian 87.5%, Turkish 7.0%, Romani 4.6%, other 0.9% (of the 569,155 people who answered; 10.3% did not).",
+    "religion": "Religion, Plovdiv province, census 2021: Christian 87.6%, Muslim 7.9%, Jewish 0.0%, other 0.1%, none 4.4% (of the 502,288 people who answered; 20.8% did not)."
   }
 }
