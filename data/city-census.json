@@ -3873,13 +3873,14 @@
     "lon": 22.931,
     "census_year": 2025,
     "population": 67879,
-    "ethnic": "Poles 98.0%; Lithuanians 0.5%; Romani 0.2%; Russians 0.1% (2002 census, the latest breakdown found).",
-    "language": "Not found yet in the sources checked so far; see the national figures below.",
-    "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(GUS, 2026; Wikipedia, n.d.)",
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.2%, Lithuanian 0.6% (census, 31 March 2021). Poles 98.0%; Lithuanians 0.5%; Romani 0.2%; Russians 0.1% (2002 census, the latest breakdown found).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.0%, Lithuanian 0.5%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 75.3%, Orthodox 0.2%, no religion 4.6%, refused to answer 19.3% (2021).",
+    "cite": "(GUS, 2026; Wikipedia, n.d.; Główny Urząd Statystyczny, 2023)",
     "sources": [
       "Główny Urząd Statystyczny (2026) Bank Danych Lokalnych: population, registered unemployment and average gross wage by powiat, 2025. Available at: https://bdl.stat.gov.pl/ (Accessed: 10 November 2026).",
-      "Wikipedia (n.d.) Suwałki. Available at: https://en.wikipedia.org/wiki/Suwałki (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+      "Wikipedia (n.d.) Suwałki. Available at: https://en.wikipedia.org/wiki/Suwałki (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
     ],
     "area_note": "City with powiat status, official figure for 2025",
     "economy": "Registered unemployment 6.4% (2025). Average gross monthly wage 8,089.84 zloty (2025)."
@@ -3889,13 +3890,14 @@
     "lon": 23.117,
     "census_year": 2025,
     "population": 53470,
-    "ethnic": "Not found yet in the sources checked so far; see the national figures below.",
-    "language": "Not found yet in the sources checked so far; see the national figures below.",
-    "religion": "Not found yet in the sources checked so far; see the national figures below.",
-    "cite": "(GUS, 2026; Wikipedia, n.d.)",
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Belarusian 0.5%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 1.8%, Russian 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 74.4%, Orthodox 1.1%, Jehovah's Witnesses 0.2%, no religion 4.5%, refused to answer 19.3% (2021).",
+    "cite": "(GUS, 2026; Wikipedia, n.d.; Główny Urząd Statystyczny, 2023)",
     "sources": [
       "Główny Urząd Statystyczny (2026) Bank Danych Lokalnych: population, registered unemployment and average gross wage by powiat, 2025. Available at: https://bdl.stat.gov.pl/ (Accessed: 10 November 2026).",
-      "Wikipedia (n.d.) Biała Podlaska. Available at: https://en.wikipedia.org/wiki/Biała_Podlaska (Accessed: 10 November 2026). Figures as given there from the national statistics office."
+      "Wikipedia (n.d.) Biała Podlaska. Available at: https://en.wikipedia.org/wiki/Biała_Podlaska (Accessed: 10 November 2026). Figures as given there from the national statistics office.",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
     ],
     "area_note": "City with powiat status, official figure for 2025",
     "economy": "Registered unemployment 8.2% (2025). Average gross monthly wage 8,102.51 zloty (2025)."
@@ -12759,24 +12761,32 @@
   "Gdańsk": {
     "census_year": 2024,
     "population": 488651,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Gdańsk, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Kashubian 1.1%, Ukrainian 0.4%, German 0.3%, Belarusian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 3.5%, German 0.6%, Russian 0.5%, Kashubian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 55.1%, Jehovah's Witnesses 0.3%, Orthodox 0.2%, no religion 15.0%, refused to answer 28.5% (2021)."
   },
   "Kraków": {
     "census_year": 2024,
     "population": 809168,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Kraków, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Ukrainian 0.4%, Silesian 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 4.1%, German 0.5%, Russian 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 58.0%, no religion 13.7%, refused to answer 27.2% (2021)."
   },
   "Bern": {
     "census_year": 2025,
@@ -13058,13 +13068,17 @@
   "Warsaw": {
     "census_year": 2024,
     "population": 1863845,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Warszawa, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.8%, Ukrainian 0.5%, Belarusian 0.3%, Jewish 0.2%, Silesian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.4%, English 4.3%, Russian 0.6%, German 0.4%, French 0.4%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 50.8%, Orthodox 0.4%, Jehovah's Witnesses 0.2%, no religion 18.8%, refused to answer 28.8% (2021)."
   },
   "Naples": {
     "census_year": 2025,
@@ -13373,46 +13387,62 @@
   "Olsztyn": {
     "census_year": 2024,
     "population": 166392,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Olsztyn, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Ukrainian 0.6%, German 0.4%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.5%, German 0.6%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 60.8%, Greek Catholic 0.5%, Jehovah's Witnesses 0.3%, Orthodox 0.2%, no religion 11.4%, refused to answer 26.3% (2021)."
   },
   "Elbląg": {
     "census_year": 2024,
     "population": 112052,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Elbląg, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.4%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.4%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.0%, Greek Catholic 0.4%, Jehovah's Witnesses 0.4%, no religion 9.3%, refused to answer 23.3% (2021)."
   },
   "Bytom": {
     "census_year": 2024,
     "population": 146290,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Bytom, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 94.6%, Silesian 12.4%, German 1.0% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.3%, Silesian 7.9%, English 1.7%, German 0.9% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.6%, Jehovah's Witnesses 0.6%, no religion 9.1%, refused to answer 23.0% (2021)."
   },
   "Opole": {
     "census_year": 2024,
     "population": 125492,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Opole, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 97.8%, Silesian 2.7%, German 2.4%, Ukrainian 0.5% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.3%, Silesian 2.7%, English 2.1%, German 1.8%, Ukrainian 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 62.1%, Jehovah's Witnesses 0.3%, Orthodox 0.2%, no religion 12.0%, refused to answer 24.7% (2021)."
   },
   "Bielefeld": {
     "census_year": 2025,
@@ -13624,13 +13654,17 @@
   "Koszalin": {
     "census_year": 2024,
     "population": 105263,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Koszalin, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.2%, Ukrainian 0.6%, German 0.3%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, German 0.6%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 56.4%, Jehovah's Witnesses 0.5%, Greek Catholic 0.4%, no religion 13.1%, refused to answer 28.9% (2021)."
   },
   "Almería": {
     "census_year": 2024,
@@ -13965,145 +13999,197 @@
   "Gdynia": {
     "census_year": 2024,
     "population": 240084,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Gdynia, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.2%, Kashubian 2.3%, German 0.3%, Ukrainian 0.2%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 3.4%, Kashubian 0.6%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 55.4%, Jehovah's Witnesses 0.3%, no religion 14.3%, refused to answer 29.2% (2021)."
   },
   "Wrocław": {
     "census_year": 2024,
     "population": 672882,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Wrocław, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.7%, Ukrainian 0.8%, Silesian 0.4%, German 0.3%, Belarusian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.3%, English 4.0%, German 0.7%, Russian 0.6%, Ukrainian 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 52.2%, Orthodox 0.3%, Jehovah's Witnesses 0.3%, no religion 18.2%, refused to answer 28.0% (2021)."
   },
   "Szczecin": {
     "census_year": 2024,
     "population": 386706,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Szczecin, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.2%, Ukrainian 0.4%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.6%, German 0.9%, Russian 0.3%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 54.5%, Jehovah's Witnesses 0.5%, Orthodox 0.2%, no religion 15.6%, refused to answer 28.4% (2021)."
   },
   "Zielona Góra": {
     "census_year": 2024,
     "population": 138869,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Zielona Góra, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.4%, German 0.3%, Lemko 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.2%, German 0.9%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 55.5%, Jehovah's Witnesses 0.3%, no religion 13.3%, refused to answer 29.9% (2021)."
   },
   "Poznań": {
     "census_year": 2024,
     "population": 536151,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Poznań, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.3%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 3.5%, German 0.6%, Russian 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 53.1%, Jehovah's Witnesses 0.3%, no religion 15.5%, refused to answer 30.4% (2021)."
   },
   "Grudziądz": {
     "census_year": 2024,
     "population": 87696,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Grudziądz, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.6%, German 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.6%, Jehovah's Witnesses 0.4%, no religion 7.2%, refused to answer 23.4% (2021)."
   },
   "Bydgoszcz": {
     "census_year": 2024,
     "population": 324043,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Bydgoszcz, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, German 0.3%, Ukrainian 0.2%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.5%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 61.3%, Jehovah's Witnesses 0.3%, no religion 10.3%, refused to answer 27.4% (2021)."
   },
   "Katowice": {
     "census_year": 2024,
     "population": 278885,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Katowice, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 93.9%, Silesian 17.8%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.1%, Silesian 9.1%, English 2.6%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 60.5%, Lutheran 0.3%, Jehovah's Witnesses 0.3%, no religion 12.1%, refused to answer 26.1% (2021)."
   },
   "Gliwice": {
     "census_year": 2024,
     "population": 168248,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Gliwice, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 97.0%, Silesian 7.6%, German 1.0%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, Silesian 2.9%, English 2.5%, German 1.0% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 62.5%, Jehovah's Witnesses 0.4%, Lutheran 0.3%, no religion 10.3%, refused to answer 25.9% (2021)."
   },
   "Kielce": {
     "census_year": 2024,
     "population": 180537,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Kielce, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, English 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 71.0%, Jehovah's Witnesses 0.2%, no religion 7.2%, refused to answer 21.1% (2021)."
   },
   "Białystok": {
     "census_year": 2024,
     "population": 290386,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Białystok, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.5%, Belarusian 2.2%, Ukrainian 0.2%, American 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.2%, Belarusian 0.8%, Russian 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 63.7%, Orthodox 10.3%, Jehovah's Witnesses 0.3%, no religion 5.8%, refused to answer 19.3% (2021)."
   },
   "Lublin": {
     "census_year": 2024,
     "population": 328305,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Lublin, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.4%, Ukrainian 0.4%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.6%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 67.6%, Jehovah's Witnesses 0.4%, Orthodox 0.2%, no religion 7.8%, refused to answer 23.5% (2021)."
   },
   "Rzeszów": {
     "census_year": 2024,
     "population": 198317,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Rzeszów, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.4%, American 0.2%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.8% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.3%, no religion 6.8%, refused to answer 24.2% (2021)."
   },
   "Split": {
     "census_year": 2024,
@@ -14664,13 +14750,17 @@
   "Łódź": {
     "census_year": 2024,
     "population": 645693,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Łódź, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.4%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.7%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 54.8%, Jehovah's Witnesses 0.3%, no religion 14.2%, refused to answer 29.8% (2021)."
   },
   "Zaragoza": {
     "census_year": 2024,
@@ -18667,684 +18757,932 @@
   "Zamosc": {
     "census_year": 2024,
     "population": 57516,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Zamość, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, English 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 76.0%, Jehovah's Witnesses 0.4%, no religion 4.8%, refused to answer 18.3% (2021)."
   },
   "Tomaszow Mazowiecki": {
     "census_year": 2022,
     "population": 58089,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Tomaszów Mazowiecki, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 71.1%, Jehovah's Witnesses 0.2%, no religion 5.3%, refused to answer 23.0% (2021)."
   },
   "Tarnow": {
     "census_year": 2024,
     "population": 102123,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Tarnów, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.6%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 72.4%, Jehovah's Witnesses 0.2%, no religion 5.1%, refused to answer 21.8% (2021)."
   },
   "Stalowa Wola": {
     "census_year": 2022,
     "population": 55846,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Stalowa Wola, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, American 0.3%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 75.4%, Jehovah's Witnesses 0.3%, no religion 4.2%, refused to answer 19.8% (2021)."
   },
   "Siedlce": {
     "census_year": 2024,
     "population": 74780,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Siedlce, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, Belarusian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.5%, Russian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 77.4%, Orthodox 0.3%, no religion 4.0%, refused to answer 17.7% (2021)."
   },
   "Rzeszow": {
     "census_year": 2024,
     "population": 198317,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Rzeszów, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.4%, American 0.2%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.8% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.3%, no religion 6.8%, refused to answer 24.2% (2021)."
   },
   "Radom": {
     "census_year": 2024,
     "population": 193777,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Radom, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 2.0% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 74.2%, Jehovah's Witnesses 0.2%, no religion 5.4%, refused to answer 19.9% (2021)."
   },
   "Przemysl": {
     "census_year": 2022,
     "population": 56802,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Przemysl, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.7%, Ukrainian 1.6%, English 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.4%, English 2.4%, Ukrainian 1.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 74.9%, Greek Catholic 1.3%, Orthodox 0.2%, Jehovah's Witnesses 0.2%, no religion 4.1%, refused to answer 18.9% (2021)."
   },
   "Pruszkow": {
     "census_year": 2024,
     "population": 65686,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Pruszków, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.5% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, Ukrainian 0.4%, Russian 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 57.8%, Orthodox 0.3%, Jehovah's Witnesses 0.2%, no religion 10.6%, refused to answer 30.5% (2021)."
   },
   "Ostrowiec Swietokrzyski": {
     "census_year": 2022,
     "population": 62980,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Ostrowiec Swietokrzyski, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, English 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.9%, Italian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 73.7%, Jehovah's Witnesses 0.4%, no religion 5.6%, refused to answer 20.0% (2021)."
   },
   "Nowy Sacz": {
     "census_year": 2024,
     "population": 79821,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Nowy Sącz, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Roma 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 2.5%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 76.2%, no religion 4.1%, refused to answer 19.2% (2021)."
   },
   "Lomza": {
     "census_year": 2024,
     "population": 59263,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Łomża, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, American 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.9%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 80.1%, no religion 3.6%, refused to answer 15.7% (2021)."
   },
   "Legionowo": {
     "census_year": 2024,
     "population": 52247,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Legionowo, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 2.0% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 62.5%, Jehovah's Witnesses 0.3%, Orthodox 0.3%, no religion 9.3%, refused to answer 27.2% (2021)."
   },
   "Elk": {
     "census_year": 2024,
     "population": 59250,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Ełk, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, English 0.2%, American 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 72.0%, Jehovah's Witnesses 0.4%, Orthodox 0.3%, no religion 6.0%, refused to answer 20.8% (2021)."
   },
   "Chelm": {
     "census_year": 2024,
     "population": 56434,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Chełm, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, English 0.3%, Ukrainian 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.2%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 75.1%, Jehovah's Witnesses 1.0%, Orthodox 0.3%, no religion 5.1%, refused to answer 18.0% (2021)."
   },
   "Bialystok": {
     "census_year": 2024,
     "population": 290386,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Białystok, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.5%, Belarusian 2.2%, Ukrainian 0.2%, American 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.2%, Belarusian 0.8%, Russian 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 63.7%, Orthodox 10.3%, Jehovah's Witnesses 0.3%, no religion 5.8%, refused to answer 19.3% (2021)."
   },
   "Zory": {
     "census_year": 2022,
     "population": 61817,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Zory, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 95.1%, Silesian 13.8%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 98.2%, Silesian 10.1%, English 2.0%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.0%, Lutheran 0.9%, Jehovah's Witnesses 0.5%, no religion 5.7%, refused to answer 22.1% (2021)."
   },
   "Zielona Gora": {
     "census_year": 2024,
     "population": 138869,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Zielona Góra, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.4%, German 0.3%, Lemko 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.2%, German 0.9%, Ukrainian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 55.5%, Jehovah's Witnesses 0.3%, no religion 13.3%, refused to answer 29.9% (2021)."
   },
   "Zgierz": {
     "census_year": 2022,
     "population": 54012,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Zgierz, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, Roma 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.9% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 61.0%, Jehovah's Witnesses 0.4%, no religion 8.6%, refused to answer 29.5% (2021)."
   },
   "Zabrze": {
     "census_year": 2024,
     "population": 152461,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Zabrze, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 96.0%, Silesian 10.5%, German 1.0%, Roma 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, Silesian 5.9%, English 1.7%, German 1.1% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 67.3%, Jehovah's Witnesses 0.7%, Lutheran 0.3%, no religion 8.1%, refused to answer 23.2% (2021)."
   },
   "Wroclaw": {
     "census_year": 2024,
     "population": 672882,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Wrocław, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.7%, Ukrainian 0.8%, Silesian 0.4%, German 0.3%, Belarusian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.3%, English 4.0%, German 0.7%, Russian 0.6%, Ukrainian 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 52.2%, Orthodox 0.3%, Jehovah's Witnesses 0.3%, no religion 18.2%, refused to answer 28.0% (2021)."
   },
   "Wloclawek": {
     "census_year": 2024,
     "population": 99474,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Włocławek, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, English 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.8% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 67.2%, no religion 7.2%, refused to answer 25.1% (2021)."
   },
   "Walbrzych": {
     "census_year": 2024,
     "population": 98748,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Wałbrzych, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.8%, German 0.9% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 60.0%, Jehovah's Witnesses 1.1%, no religion 12.8%, refused to answer 25.6% (2021)."
   },
   "Tychy": {
     "census_year": 2024,
     "population": 121063,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Tychy, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 96.2%, Silesian 10.9%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, Silesian 4.6%, English 2.5%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 64.9%, Jehovah's Witnesses 0.3%, Lutheran 0.3%, no religion 8.7%, refused to answer 25.3% (2021)."
   },
   "Torun": {
     "census_year": 2024,
     "population": 193717,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Toruń, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, German 0.2%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.7%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 60.1%, Jehovah's Witnesses 0.3%, no religion 11.5%, refused to answer 27.4% (2021)."
   },
   "Tczew": {
     "census_year": 2024,
     "population": 56410,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Tczew, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.7%, Jehovah's Witnesses 0.3%, Pentecostal 0.3%, no religion 5.9%, refused to answer 22.5% (2021)."
   },
   "Swietochlowice": {
     "census_year": 2024,
     "population": 45021,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Świętochłowice, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 90.2%, Silesian 25.5%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 96.6%, Silesian 20.9%, English 1.3%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.2%, Lutheran 0.4%, Jehovah's Witnesses 0.4%, no religion 7.2%, refused to answer 21.5% (2021)."
   },
   "Swidnica": {
     "census_year": 2022,
     "population": 53423,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Swidnica, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.4%, Ukrainian 0.3%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.0%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.8%, Jehovah's Witnesses 0.5%, Orthodox 0.3%, no religion 8.7%, refused to answer 23.2% (2021)."
   },
   "Stargard": {
     "census_year": 2024,
     "population": 66077,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Stargard, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, German 0.3%, Ukrainian 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 65.4%, Jehovah's Witnesses 0.4%, no religion 9.8%, refused to answer 23.9% (2021)."
   },
   "Sosnowiec": {
     "census_year": 2024,
     "population": 184988,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Sosnowiec, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Silesian 0.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.9% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 60.9%, Jehovah's Witnesses 0.6%, no religion 10.4%, refused to answer 27.6% (2021)."
   },
   "Slupsk": {
     "census_year": 2024,
     "population": 84767,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Słupsk, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.4%, Kashubian 0.4%, German 0.3%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, German 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 61.9%, Jehovah's Witnesses 0.6%, Greek Catholic 0.3%, Pentecostal 0.3%, no religion 10.3%, refused to answer 26.1% (2021)."
   },
   "Siemianowice Slaskie": {
     "census_year": 2024,
     "population": 62817,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Siemianowice Śląskie, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 91.8%, Silesian 21.7%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 98.5%, Silesian 14.5%, English 1.8%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 64.6%, Jehovah's Witnesses 0.4%, Lutheran 0.4%, no religion 8.3%, refused to answer 25.9% (2021)."
   },
   "Rybnik": {
     "census_year": 2024,
     "population": 129817,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Rybnik, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 89.6%, Silesian 24.1%, German 0.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 97.9%, Silesian 19.2%, English 1.5%, German 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 73.7%, Jehovah's Witnesses 0.3%, Lutheran 0.3%, no religion 5.8%, refused to answer 19.3% (2021)."
   },
   "Ruda Slaska": {
     "census_year": 2024,
     "population": 128793,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Ruda Śląska, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 89.9%, Silesian 30.0%, German 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 96.6%, Silesian 25.7%, English 1.4%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.8%, Jehovah's Witnesses 0.5%, no religion 6.1%, refused to answer 22.1% (2021)."
   },
   "Poznan": {
     "census_year": 2024,
     "population": 536151,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Poznań, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.3%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 3.5%, German 0.6%, Russian 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 53.1%, Jehovah's Witnesses 0.3%, no religion 15.5%, refused to answer 30.4% (2021)."
   },
   "Plock": {
     "census_year": 2024,
     "population": 110015,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Płock, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.8% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 69.4%, Jehovah's Witnesses 0.2%, no religion 6.0%, refused to answer 24.0% (2021)."
   },
   "Piotrkow Trybunalski": {
     "census_year": 2024,
     "population": 66022,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Piotrków Trybunalski, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.8%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.6%, Jehovah's Witnesses 0.3%, no religion 6.7%, refused to answer 24.0% (2021)."
   },
   "Pila": {
     "census_year": 2024,
     "population": 69383,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Piła, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.9%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 63.8%, Jehovah's Witnesses 0.4%, no religion 7.9%, refused to answer 27.2% (2021)."
   },
   "Pabianice": {
     "census_year": 2024,
     "population": 59910,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Pabianice, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.9% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 61.4%, Jehovah's Witnesses 0.3%, no religion 9.6%, refused to answer 28.0% (2021)."
   },
   "Ostrow Wielkopolski": {
     "census_year": 2024,
     "population": 68637,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Ostrów Wielkopolski, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, German 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 67.9%, Jehovah's Witnesses 0.2%, no religion 5.0%, refused to answer 26.6% (2021)."
   },
   "Myslowice": {
     "census_year": 2024,
     "population": 70741,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Mysłowice, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 94.8%, Silesian 15.6%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.1%, Silesian 9.3%, English 1.7%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 67.7%, Jehovah's Witnesses 0.5%, no religion 7.0%, refused to answer 24.4% (2021)."
   },
   "Lubin": {
     "census_year": 2024,
     "population": 66864,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Lubin, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Lemko 0.8% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 1.9%, German 0.6%, Lemko 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.8%, Orthodox 0.6%, Jehovah's Witnesses 0.5%, Greek Catholic 0.2%, Pentecostal 0.2%, no religion 7.0%, refused to answer 24.4% (2021)."
   },
   "Lodz": {
     "census_year": 2024,
     "population": 645693,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Łódź, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.4%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.7%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 54.8%, Jehovah's Witnesses 0.3%, no religion 14.2%, refused to answer 29.8% (2021)."
   },
   "Leszno": {
     "census_year": 2022,
     "population": 60642,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Leszno, city as defined by Eurostat's city statistics, 1 January 2022",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 2.0%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 64.4%, Jehovah's Witnesses 0.3%, no religion 6.7%, refused to answer 28.2% (2021)."
   },
   "Legnica": {
     "census_year": 2024,
     "population": 90823,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Legnica, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 98.7%, Lemko 0.8%, Ukrainian 0.7%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.1%, German 0.8%, Ukrainian 0.6%, Lemko 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 62.3%, Orthodox 0.6%, Greek Catholic 0.5%, Jehovah's Witnesses 0.5%, Pentecostal 0.3%, no religion 10.3%, refused to answer 25.1% (2021)."
   },
   "Krakow": {
     "census_year": 2024,
     "population": 809168,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Kraków, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Ukrainian 0.4%, Silesian 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 4.1%, German 0.5%, Russian 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 58.0%, no religion 13.7%, refused to answer 27.2% (2021)."
   },
   "Konin": {
     "census_year": 2024,
     "population": 66103,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Konin, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.7%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 72.0%, Jehovah's Witnesses 0.4%, no religion 5.3%, refused to answer 21.9% (2021)."
   },
   "Kalisz": {
     "census_year": 2024,
     "population": 91963,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Kalisz, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.0%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.3%, Jehovah's Witnesses 0.4%, no religion 7.1%, refused to answer 25.5% (2021)."
   },
   "Jelenia Gora": {
     "census_year": 2024,
     "population": 74194,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Jelenia Góra, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, German 0.4%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.2%, German 1.1% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 59.2%, Jehovah's Witnesses 0.7%, no religion 13.4%, refused to answer 25.8% (2021)."
   },
   "Jastrzebie Zdroj": {
     "census_year": 2024,
     "population": 81338,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Jastrzębie-Zdrój, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 97.6%, Silesian 7.9%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, Silesian 5.5%, English 1.4%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.4%, Lutheran 1.4%, Jehovah's Witnesses 0.6%, no religion 5.8%, refused to answer 21.3% (2021)."
   },
   "Inowroclaw": {
     "census_year": 2024,
     "population": 66543,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Inowrocław, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.8%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.6%, Jehovah's Witnesses 0.3%, no religion 6.4%, refused to answer 24.4% (2021)."
   },
   "Grudziadz": {
     "census_year": 2024,
     "population": 87696,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Grudziądz, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.6%, German 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.6%, Jehovah's Witnesses 0.4%, no religion 7.2%, refused to answer 23.4% (2021)."
   },
   "Gorzow Wielkopolski": {
     "census_year": 2024,
     "population": 114700,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Gorzów Wielkopolski, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.4%, German 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.9%, German 0.8% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 61.6%, Jehovah's Witnesses 0.4%, Orthodox 0.3%, no religion 9.6%, refused to answer 27.6% (2021)."
   },
   "Gniezno": {
     "census_year": 2024,
     "population": 62820,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Gniezno, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.7%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.6%, no religion 6.4%, refused to answer 26.6% (2021)."
   },
   "Glogow": {
     "census_year": 2024,
     "population": 61206,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Głogów, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, German 0.2%, Lemko 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.7%, Jehovah's Witnesses 0.4%, Pentecostal 0.3%, no religion 7.6%, refused to answer 24.4% (2021)."
   },
   "Gdansk": {
     "census_year": 2024,
     "population": 488651,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Gdańsk, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Kashubian 1.1%, Ukrainian 0.4%, German 0.3%, Belarusian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.6%, English 3.5%, German 0.6%, Russian 0.5%, Kashubian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 55.1%, Jehovah's Witnesses 0.3%, Orthodox 0.2%, no religion 15.0%, refused to answer 28.5% (2021)."
   },
   "Elblag": {
     "census_year": 2024,
     "population": 112052,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Elbląg, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.4%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.4%, German 0.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 66.0%, Greek Catholic 0.4%, Jehovah's Witnesses 0.4%, no religion 9.3%, refused to answer 23.3% (2021)."
   },
   "Dabrowa Gornicza": {
     "census_year": 2024,
     "population": 112408,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Dąbrowa Górnicza, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, Silesian 0.4% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 62.6%, Jehovah's Witnesses 0.6%, no religion 9.2%, refused to answer 27.1% (2021)."
   },
   "Czestochowa": {
     "census_year": 2024,
     "population": 203615,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Częstochowa, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 1.9%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 67.4%, Jehovah's Witnesses 0.3%, no religion 7.3%, refused to answer 24.5% (2021)."
   },
   "Chorzow": {
     "census_year": 2024,
     "population": 99420,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Chorzów, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 90.1%, Silesian 25.5%, German 0.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 98.4%, Silesian 18.6%, English 1.7%, German 0.6% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 63.9%, Lutheran 0.4%, Jehovah's Witnesses 0.3%, no religion 10.7%, refused to answer 24.2% (2021)."
   },
   "Bielsko-Biala": {
     "census_year": 2024,
     "population": 164318,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Bielsko-Biała, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Silesian 0.7%, German 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.3%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 65.0%, Lutheran 1.3%, Jehovah's Witnesses 0.3%, Pentecostal 0.3%, no religion 8.1%, refused to answer 24.5% (2021)."
   },
   "Bedzin": {
     "census_year": 2024,
     "population": 53250,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
     "area_note": "Będzin, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ]
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ],
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Silesian 0.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 60.8%, Jehovah's Witnesses 0.6%, no religion 9.2%, refused to answer 28.9% (2021)."
   },
   "Setubal": {
     "census_year": 2025,
@@ -33473,6 +33811,138 @@
     "area_note": "Municipality of Deva, Hunedoara county, census 1 December 2021",
     "sources": [
       "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tarnobrzeg": {
+    "census_year": 2021,
+    "population": 44901,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 2.2%, Italian 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 76.5%, no religion 5.0%, refused to answer 18.1% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Tarnobrzeg, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Starachowice": {
+    "census_year": 2021,
+    "population": 46270,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.8%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.8%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 75.4%, Jehovah's Witnesses 0.6%, no religion 5.3%, refused to answer 18.4% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Starachowice, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ostroleka": {
+    "census_year": 2021,
+    "population": 49805,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, American 0.2%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 2.0% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 79.2%, no religion 3.7%, refused to answer 16.6% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Ostrołęka, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Mielec": {
+    "census_year": 2021,
+    "population": 58213,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Roma 0.3% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.0% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 75.6%, no religion 3.5%, refused to answer 20.5% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Mielec, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zawiercie": {
+    "census_year": 2021,
+    "population": 47689,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, Silesian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.8% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 69.1%, Jehovah's Witnesses 0.4%, no religion 5.9%, refused to answer 24.3% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Zawiercie, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Tarnowskie Gory": {
+    "census_year": 2021,
+    "population": 61288,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 91.6%, Silesian 21.9%, German 1.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 98.7%, Silesian 13.8%, English 2.0%, German 1.1% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.2%, Jehovah's Witnesses 0.2%, no religion 7.0%, refused to answer 21.9% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Tarnowskie Góry, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Raciborz": {
+    "census_year": 2021,
+    "population": 51257,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 95.8%, Silesian 9.2%, German 2.7% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.0%, Silesian 7.3%, German 2.3%, English 1.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 70.8%, Jehovah's Witnesses 0.3%, Pentecostal 0.2%, no religion 5.9%, refused to answer 22.3% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Racibórz, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Piekary Slaskie": {
+    "census_year": 2021,
+    "population": 53017,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 89.7%, Silesian 26.7%, German 0.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 96.6%, Silesian 18.9%, English 1.4%, German 0.7% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 74.1%, Jehovah's Witnesses 0.5%, no religion 5.8%, refused to answer 19.2% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Piekary Śląskie, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kedzierzyn-Kozle": {
+    "census_year": 2021,
+    "population": 56931,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 97.8%, German 3.1%, Silesian 2.9%, Roma 0.3%, Ukrainian 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.4%, Silesian 2.3%, German 2.2%, English 1.5% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 68.4%, Jehovah's Witnesses 0.3%, no religion 8.4%, refused to answer 22.4% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Kędzierzyn-Koźle, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Jaworzno": {
+    "census_year": 2021,
+    "population": 88998,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, Silesian 0.6% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.3% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 64.5%, Jehovah's Witnesses 0.4%, no religion 7.5%, refused to answer 27.0% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Jaworzno, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Belchatow": {
+    "census_year": 2021,
+    "population": 54338,
+    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, English 0.2% (census, 31 March 2021).",
+    "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.8%, German 0.4% (2021).",
+    "religion": "Religion (answering was voluntary): Roman Catholic 72.1%, Jehovah's Witnesses 0.4%, no religion 4.9%, refused to answer 22.2% (2021).",
+    "cite": "(Główny Urząd Statystyczny, 2023)",
+    "area_note": "Urban municipality of Bełchatów, census 31 March 2021",
+    "sources": [
+      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
     ]
   }
 }
