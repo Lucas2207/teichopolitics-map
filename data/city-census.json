@@ -34169,5 +34169,41 @@
     "sources": [
       "Official Statistics Portal of Latvia (2026) IRE031: Population by ethnicity in regions, State cities and municipalities at the beginning of year, 2026. Riga: Central Statistical Bureau. Available at: https://data.stat.gov.lv/pxweb/en/OSP_PUB/START__POP__IR__IRE/IRE031/ (Accessed: 12 November 2026)."
     ]
+  },
+  "Geneva": {
+    "census_year": 2025,
+    "population": 211152,
+    "ethnic": "The Federal Statistical Office records citizenship here, not ethnicity. Foreign citizens 50.6% of the permanent resident population (31 December 2025).",
+    "language": "French is the official language of the commune; language is surveyed by sample, not reported here by commune.",
+    "religion": "Religion is surveyed by sample; not reported here by commune.",
+    "cite": "(Federal Statistical Office, 2026)",
+    "area_note": "Commune of Genève, permanent resident population 31 December 2025",
+    "sources": [
+      "Federal Statistical Office (2026) Permanent and non permanent resident population by canton, district, commune, population type, citizenship (category), sex and age (px-x-0102010000_101), 31 December 2025. STAT-TAB. Available at: https://www.pxweb.bfs.admin.ch/pxweb/en/px-x-0102010000_101/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Luzern": {
+    "census_year": 2025,
+    "population": 86699,
+    "ethnic": "The Federal Statistical Office records citizenship here, not ethnicity. Foreign citizens 28.2% of the permanent resident population (31 December 2025).",
+    "language": "German is the official language of the commune; language is surveyed by sample, not reported here by commune.",
+    "religion": "Religion is surveyed by sample; not reported here by commune.",
+    "cite": "(Federal Statistical Office, 2026)",
+    "area_note": "Commune of Luzern, permanent resident population 31 December 2025",
+    "sources": [
+      "Federal Statistical Office (2026) Permanent and non permanent resident population by canton, district, commune, population type, citizenship (category), sex and age (px-x-0102010000_101), 31 December 2025. STAT-TAB. Available at: https://www.pxweb.bfs.admin.ch/pxweb/en/px-x-0102010000_101/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sankt Gallen": {
+    "census_year": 2025,
+    "population": 79487,
+    "ethnic": "The Federal Statistical Office records citizenship here, not ethnicity. Foreign citizens 34.6% of the permanent resident population (31 December 2025).",
+    "language": "German is the official language of the commune; language is surveyed by sample, not reported here by commune.",
+    "religion": "Religion is surveyed by sample; not reported here by commune.",
+    "cite": "(Federal Statistical Office, 2026)",
+    "area_note": "Commune of St. Gallen, permanent resident population 31 December 2025",
+    "sources": [
+      "Federal Statistical Office (2026) Permanent and non permanent resident population by canton, district, commune, population type, citizenship (category), sex and age (px-x-0102010000_101), 31 December 2025. STAT-TAB. Available at: https://www.pxweb.bfs.admin.ch/pxweb/en/px-x-0102010000_101/ (Accessed: 12 November 2026)."
+    ]
   }
 }
