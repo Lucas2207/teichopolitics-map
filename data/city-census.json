@@ -30660,5 +30660,614 @@
     "sources": [
       "Ayuntamiento de Madrid (2026) Padrón municipal: población por distrito, barrio, edad y nacionalidad (española/extranjera), 1 October 2026 (dataset 200076-0-padron). Portal de datos abiertos. Available at: https://datos.madrid.es/dataset/200076-0-padron (Accessed: 12 November 2026)."
     ]
+  },
+  "Aosta": {
+    "census_year": 2026,
+    "population": 33127,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 9.3% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (670), Morocco (498), Albania (251), China (198), Dominican Republic (142).",
+    "language": "Italian and French are official in the Aosta Valley; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Aosta, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vittoria": {
+    "census_year": 2026,
+    "population": 66329,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 16.3% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (2,690), Tunisia (2,161), Albania (789), Morocco (244), Algeria (226).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Vittoria, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Quartu Sant'Elena": {
+    "census_year": 2026,
+    "population": 67869,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 3.7% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Senegal (499), Romania (229), Ukraine (190), China (168), Nigeria (122).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Quartu Sant'Elena, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Modica": {
+    "census_year": 2026,
+    "population": 53622,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 5.1% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Morocco (512), Romania (399), Albania (261), Tunisia (246), Ukraine (96).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Modica, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Mazara del Vallo": {
+    "census_year": 2026,
+    "population": 50070,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 7.5% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Tunisia (2,237), Romania (194), Morocco (118), China (85), Serbia (82).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Mazara del Vallo, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Marsala": {
+    "census_year": 2026,
+    "population": 79521,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 6.4% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (1,141), Tunisia (1,001), China (242), Gambia (227), Bangladesh (192).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Marsala, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Crotone": {
+    "census_year": 2026,
+    "population": 58136,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 5.5% of residents (1 January 2026, estimate).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Crotone, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Caltanissetta": {
+    "census_year": 2026,
+    "population": 57922,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 6.1% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Morocco (737), Romania (585), Pakistan (527), China (154), Afghanistan (140).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Caltanissetta, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Viareggio": {
+    "census_year": 2026,
+    "population": 60680,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 8.6% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (1,557), Albania (394), Morocco (312), Ukraine (253), Philippines (231).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Viareggio, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Velletri": {
+    "census_year": 2026,
+    "population": 53048,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 10.2% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (2,574), India (343), Albania (332), Morocco (308), Tunisia (186).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Velletri, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Torre del Greco": {
+    "census_year": 2026,
+    "population": 78839,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 1.1% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (318), Bulgaria (90), Romania (68), China (53), Sri Lanka (42).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Torre del Greco, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Teramo": {
+    "census_year": 2026,
+    "population": 51400,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 7.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (836), Albania (354), Morocco (352), China (262), North Macedonia (181).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Teramo, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Siena": {
+    "census_year": 2026,
+    "population": 53180,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 11.0% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (783), Albania (579), Ukraine (328), Peru (215), Moldova (203).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Siena, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Sesto San Giovanni": {
+    "census_year": 2026,
+    "population": 78850,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 16.0% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Egypt (3,239), Romania (1,577), Philippines (1,330), Peru (1,143), China (917).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Sesto San Giovanni, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "San Severo": {
+    "census_year": 2026,
+    "population": 48807,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 4.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (592), Bulgaria (179), Albania (134), Poland (134), Morocco (131).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di San Severo, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Rovigo": {
+    "census_year": 2026,
+    "population": 49994,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 11.9% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (936), China (549), Nigeria (514), Albania (491), Morocco (483).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Rovigo, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pozzuoli": {
+    "census_year": 2026,
+    "population": 74665,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 2.9% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (438), Romania (194), Sri Lanka (118), Philippines (106), Ghana (101).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Pozzuoli, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Portici": {
+    "census_year": 2026,
+    "population": 51213,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 1.7% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (204), Sri Lanka (97), Romania (68), Poland (47), Bulgaria (41).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Portici, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pistoia": {
+    "census_year": 2026,
+    "population": 89094,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 9.2% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Albania (3,063), Romania (1,611), Morocco (736), Nigeria (337), Philippines (267).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Pistoia, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Olbia": {
+    "census_year": 2026,
+    "population": 61739,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 9.7% of residents (1 January 2026, estimate).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Olbia, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Monza": {
+    "census_year": 2026,
+    "population": 123672,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 12.4% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (2,110), Egypt (1,411), Peru (1,072), Bangladesh (1,005), Sri Lanka (1,002).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Monza, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Montesilvano": {
+    "census_year": 2026,
+    "population": 53557,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 7.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (1,282), Senegal (467), Ukraine (414), Albania (375), Nigeria (227).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Montesilvano, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Moncalieri": {
+    "census_year": 2026,
+    "population": 55442,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 10.4% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (2,982), Morocco (477), Albania (318), China (209), Nigeria (162).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Moncalieri, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Manfredonia": {
+    "census_year": 2026,
+    "population": 53015,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 3.5% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (511), Senegal (202), Bulgaria (81), Morocco (78), Albania (76).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Manfredonia, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lucca": {
+    "census_year": 2026,
+    "population": 88464,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 11.6% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (2,043), Sri Lanka (1,336), Albania (1,144), Morocco (814), Philippines (489).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Lucca, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Legnano": {
+    "census_year": 2026,
+    "population": 60980,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 14.2% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Albania (1,144), Romania (574), China (500), Pakistan (483), Peru (457).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Legnano, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Imola": {
+    "census_year": 2026,
+    "population": 69702,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 10.7% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (2,219), Morocco (1,087), Albania (1,053), Ukraine (418), Tunisia (284).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Imola, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Giugliano in Campania": {
+    "census_year": 2026,
+    "population": 125018,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 5.6% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (998), Romania (573), Bosnia and Herzegovina (565), Ghana (550), Nigeria (443).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Giugliano in Campania, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Gallarate": {
+    "census_year": 2026,
+    "population": 53023,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 15.5% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Pakistan (1,132), Albania (1,104), Romania (737), China (733), Morocco (720).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Gallarate, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Foligno": {
+    "census_year": 2026,
+    "population": 55262,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 11.5% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Albania (1,620), Romania (1,476), Morocco (731), Ukraine (503), North Macedonia (329).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Foligno, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Fiumicino": {
+    "census_year": 2026,
+    "population": 83415,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 12.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (4,166), China (589), India (571), Bangladesh (512), Egypt (355).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Fiumicino, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Fano": {
+    "census_year": 2026,
+    "population": 59871,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 6.9% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Albania (851), Romania (795), Moldova (415), Ukraine (249), Morocco (229).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Fano, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ercolano": {
+    "census_year": 2026,
+    "population": 49179,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 1.2% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (148), Nigeria (35), Romania (35), Bangladesh (33), China (26).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Ercolano, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cuneo": {
+    "census_year": 2026,
+    "population": 55747,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 11.7% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (1,511), Albania (1,236), Morocco (575), China (569), Philippines (319).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Cuneo, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cinisello Balsamo": {
+    "census_year": 2026,
+    "population": 75154,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 22.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Egypt (3,116), Romania (3,070), Peru (1,158), Ecuador (1,010), Morocco (569).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Cinisello Balsamo, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cesena": {
+    "census_year": 2026,
+    "population": 95620,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 9.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (1,578), Albania (1,043), Morocco (838), Bulgaria (626), Nigeria (551).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Cesena, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Cava De Tirreni": {
+    "census_year": 2026,
+    "population": 49330,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 2.1% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (329), Romania (255), Bulgaria (62), Morocco (49), India (37).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Cava de' Tirreni, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Castellammare di Stabia": {
+    "census_year": 2026,
+    "population": 61937,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 2.4% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (348), Bulgaria (277), Romania (137), Bangladesh (74), China (41).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Castellammare di Stabia, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Casoria": {
+    "census_year": 2026,
+    "population": 73257,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 2.4% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (368), Romania (124), ID (115), Bulgaria (85), Sri Lanka (82).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Casoria, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Carrara": {
+    "census_year": 2026,
+    "population": 59723,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 9.6% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (1,783), Morocco (651), Senegal (327), Albania (303), Dominican Republic (252).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Carrara, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Busto Arsizio": {
+    "census_year": 2026,
+    "population": 84595,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 11.8% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Albania (1,029), Romania (866), Morocco (702), Ecuador (688), Peru (585).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Busto Arsizio, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Benevento": {
+    "census_year": 2026,
+    "population": 55330,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 4.5% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (440), Romania (388), Nigeria (204), China (112), Morocco (98).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Benevento, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Aversa": {
+    "census_year": 2026,
+    "population": 48860,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 7.1% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (968), Morocco (345), Algeria (278), Romania (198), Poland (173).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Aversa, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Aprilia": {
+    "census_year": 2026,
+    "population": 74697,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 13.3% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Romania (5,247), India (1,320), Ukraine (176), Moldova (148), Albania (143).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Aprilia, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Afragola": {
+    "census_year": 2026,
+    "population": 61581,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 3.4% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (343), Burkina Faso (257), Ghana (216), Morocco (215), Romania (155).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Afragola, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Acerra": {
+    "census_year": 2026,
+    "population": 58585,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 5.0% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Ukraine (413), Nigeria (284), Morocco (184), China (180), Albania (149).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Acerra, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lamezia Terme": {
+    "census_year": 2026,
+    "population": 67005,
+    "ethnic": "ISTAT records citizenship, not ethnicity. Foreign citizens 8.7% of residents (1 January 2026, estimate). Most common citizenships at the 2019 census: Morocco (1,666), Romania (1,055), Ukraine (464), China (339), Bangladesh (224).",
+    "language": "Italian is the official language; ISTAT does not record language by municipality.",
+    "religion": "The Italian census does not ask about religion.",
+    "cite": "(Istituto Nazionale di Statistica, 2026)",
+    "area_note": "Comune di Lamezia Terme, resident population 1 January 2026 (estimate)",
+    "sources": [
+      "Istituto Nazionale di Statistica (2026) Popolazione residente per età e sesso al 1° gennaio 2026 (POSAS) and Popolazione straniera residente al 1° gennaio 2026 (STRASA), comuni (stima). Demo.istat. Available at: https://demo.istat.it/ (Accessed: 12 November 2026).",
+      "Istituto Nazionale di Statistica (2021) Censimento permanente della popolazione: popolazione straniera residente per principali paesi di cittadinanza, comuni con più di 20.000 abitanti (DF_DCSS_POP_DEMCITMIG_TV_4), 2019. Available at: https://esploradati.istat.it/ (Accessed: 12 November 2026)."
+    ]
   }
 }
