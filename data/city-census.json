@@ -24118,5 +24118,19 @@
       "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
       "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
     ]
+  },
+  "Luxembourg": {
+    "census_year": 2026,
+    "population": 137678,
+    "ethnic": "Luxembourg's census records citizenship and country of birth, not ethnicity. Foreign citizens 70.6% (EU citizens 56.4%, non-EU 14.1%); born abroad 72.6% (census 2021).",
+    "language": "Luxembourgish, French and German are the official languages.",
+    "religion": "The census does not ask about religion.",
+    "economy": "Unemployment 6.6% of the active population (end of March 2025, STATEC from ADEM and IGSS registers).",
+    "cite": "(STATEC, 2026)",
+    "area_note": "Commune of Luxembourg (Ville de Luxembourg), 1 January 2026; origins from the 2021 census",
+    "sources": [
+      "STATEC (2026) Population by canton and municipality (DF_X021); Employment and unemployment by canton and municipality (DF_X026). LUSTAT. Available at: https://lustat.statec.lu/ (Accessed: 12 November 2026).",
+      "STATEC (2023) Census 2021: population by municipality, citizenship and sex (DF_B1625) and by country of birth (DF_B1626). LUSTAT. Available at: https://lustat.statec.lu/ (Accessed: 12 November 2026)."
+    ]
   }
 }
