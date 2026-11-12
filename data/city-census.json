@@ -12960,15 +12960,18 @@
   "Tallinn": {
     "census_year": 2025,
     "population": 456518,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Estonia, 2022)",
     "area_note": "Tallinn, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 119,270, 26.1% of residents (born in another EU country 13,242, outside the EU 106,028) (2025). Foreign citizens: 26.9% of residents, EU citizens 12,691 and non-EU citizens 110,230 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 8.1% of the labour force (2025)."
+    "ethnic": "Ethnic nationality: Estonian 53.3%, Russian 34.2%, other 3.8%, Ukrainian 3.5%, Belarusian 1.4%, Finnish 0.8%, Latvian 0.3%, Jewish 0.3%, unknown 1.0% (census, 31 December 2021). Born abroad: 119,270, 26.1% of residents (born in another EU country 13,242, outside the EU 106,028) (2025). Foreign citizens: 26.9% of residents, EU citizens 12,691 and non-EU citizens 110,230 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 8.1% of the labour force (2025).",
+    "language": "Mother tongue: Estonian 49.9%, Russian 42.3%, other 2.3%, Ukrainian 1.6%, English 0.6%, Finnish 0.5%, unknown 1.2% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 50.9%, Orthodox 23.7%, Lutheran 6.0%, religion not specified 1.5%, Roman Catholic 1.2%, Muslim 1.2%, other religion 1.1%, Christian Free Congregations 0.6%, Jehovah's Witness 0.3%, Baptist 0.3%, refused to answer 12.1% (2021)."
   },
   "Sofia": {
     "census_year": 2025,
@@ -14797,15 +14800,18 @@
   "Tartu": {
     "census_year": 2025,
     "population": 100685,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Estonia, 2022)",
     "area_note": "Tartu, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 14,643, 14.5% of residents (born in another EU country 2,483, outside the EU 12,160) (2025). Foreign citizens: 12.7% of residents, EU citizens 2,211 and non-EU citizens 10,528 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.9% of the labour force (2025)."
+    "ethnic": "Ethnic nationality: Estonian 80.5%, Russian 12.8%, other 3.0%, Ukrainian 1.1%, Finnish 0.9%, Belarusian 0.3%, German 0.3%, unknown 0.3% (census, 31 December 2021). Born abroad: 14,643, 14.5% of residents (born in another EU country 2,483, outside the EU 12,160) (2025). Foreign citizens: 12.7% of residents, EU citizens 2,211 and non-EU citizens 10,528 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.9% of the labour force (2025).",
+    "language": "Mother tongue: Estonian 79.5%, Russian 15.3%, other 2.0%, Ukrainian 0.6%, Finnish 0.6%, English 0.4%, unknown 0.4% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 64.1%, Lutheran 10.3%, Orthodox 7.6%, religion not specified 2.3%, Old Believer 0.8%, Roman Catholic 0.8%, other religion 0.7%, Earth Believer 0.7%, Baptist 0.5%, Jehovah's Witness 0.4%, Christian Free Congregations 0.3%, refused to answer 10.7% (2021)."
   },
   "Oulu": {
     "census_year": 2025,
@@ -16673,15 +16679,18 @@
   "Narva": {
     "census_year": 2025,
     "population": 52495,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Statistics Estonia, 2022)",
     "area_note": "Narva, city as defined by Eurostat's city statistics, 1 January 2025",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 20,439, 38.9% of residents (born in another EU country 484, outside the EU 19,955) (2025). Foreign citizens: 49.5% of residents, EU citizens 501 and non-EU citizens 25,503 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 12.7% of the labour force (2025)."
+    "ethnic": "Ethnic nationality: Russian 87.0%, Estonian 5.8%, Ukrainian 2.1%, Belarusian 1.5%, other 1.5%, Finnish 0.6%, Tatar 0.4%, unknown 0.1% (census, 31 December 2021). Born abroad: 20,439, 38.9% of residents (born in another EU country 484, outside the EU 19,955) (2025). Foreign citizens: 49.5% of residents, EU citizens 501 and non-EU citizens 25,503 (2025). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 12.7% of the labour force (2025).",
+    "language": "Mother tongue: Russian 95.6%, Estonian 2.3%, Ukrainian 0.7%, other 0.6%, unknown 0.1% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 26.0%, Orthodox 56.8%, Roman Catholic 1.2%, Pentecostal 0.7%, Muslim 0.7%, religion not specified 0.4%, Lutheran 0.4%, Christian Free Congregations 0.3%, refused to answer 12.8% (2021)."
   },
   "Torrevieja": {
     "census_year": 2024,
@@ -34087,6 +34096,66 @@
     "area_note": "City district of Brno-střed, census 26 March 2021",
     "sources": [
       "Český statistický úřad (2022–2023) Sčítání lidu, domů a bytů 2021, otevřená data: národnost (sldb2021_narodnost), náboženská víra (sldb2021_vira) a mateřský jazyk (sldb2021_jazyk) podle obcí a městských částí. Available at: https://csu.gov.cz/produkty/vysledky-scitani-2021-otevrena-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Haabersti": {
+    "census_year": 2021,
+    "population": 46750,
+    "ethnic": "Ethnic nationality: Estonian 50.9%, Russian 39.3%, Ukrainian 3.6%, other 2.0%, Belarusian 1.6%, Finnish 0.6%, Jewish 0.4%, unknown 0.4% (census, 31 December 2021).",
+    "language": "Mother tongue: Russian 48.4%, Estonian 46.9%, Ukrainian 1.4%, other 1.2%, English 0.4%, unknown 0.7% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 49.4%, Orthodox 26.3%, Lutheran 5.3%, Roman Catholic 1.1%, Christian Free Congregations 0.9%, religion not specified 0.6%, other religion 0.4%, Muslim 0.4%, refused to answer 14.2% (2021).",
+    "cite": "(Statistics Estonia, 2022)",
+    "area_note": "City district of Haabersti, Tallinn, census 31 December 2021",
+    "sources": [
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kesklinn": {
+    "census_year": 2021,
+    "population": 64551,
+    "ethnic": "Ethnic nationality: Estonian 65.1%, Russian 17.0%, other 8.4%, Ukrainian 2.5%, Finnish 1.9%, Belarusian 0.7%, German 0.7%, Jewish 0.5%, Latvian 0.5%, unknown 1.8% (census, 31 December 2021).",
+    "language": "Mother tongue: Estonian 63.0%, Russian 21.8%, other 5.3%, Finnish 1.7%, Ukrainian 1.5%, English 1.5%, French 0.8%, German 0.8%, Spanish 0.8%, Latvian 0.3%, unknown 2.0% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 58.1%, Orthodox 11.4%, Lutheran 8.8%, Muslim 1.5%, Roman Catholic 1.3%, religion not specified 1.0%, other religion 1.0%, Christian Free Congregations 0.6%, Baptist 0.4%, refused to answer 14.6% (2021).",
+    "cite": "(Statistics Estonia, 2022)",
+    "area_note": "City district of Kesklinn, Tallinn, census 31 December 2021",
+    "sources": [
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lasnamaee": {
+    "census_year": 2021,
+    "population": 115038,
+    "ethnic": "Ethnic nationality: Russian 57.5%, Estonian 28.3%, Ukrainian 5.1%, other 2.7%, Belarusian 2.3%, Finnish 0.5%, Latvian 0.4%, Tatar 0.4%, Armenian 0.4%, Lithuanian 0.3%, Jewish 0.3%, unknown 1.4% (census, 31 December 2021).",
+    "language": "Mother tongue: Russian 70.4%, Estonian 22.7%, Ukrainian 2.0%, other 1.4%, Belarusian 0.3%, unknown 1.6% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 40.6%, Orthodox 37.8%, Lutheran 2.1%, religion not specified 1.8%, other religion 1.6%, Roman Catholic 1.3%, Muslim 0.5%, Jehovah's Witness 0.5%, Christian Free Congregations 0.4%, refused to answer 12.1% (2021).",
+    "cite": "(Statistics Estonia, 2022)",
+    "area_note": "City district of Lasnamäe, Tallinn, census 31 December 2021",
+    "sources": [
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Mustamaee": {
+    "census_year": 2021,
+    "population": 66333,
+    "ethnic": "Ethnic nationality: Estonian 57.7%, Russian 30.5%, other 4.4%, Ukrainian 3.2%, Belarusian 1.2%, Finnish 0.7%, Jewish 0.3%, unknown 0.7% (census, 31 December 2021).",
+    "language": "Mother tongue: Estonian 54.7%, Russian 37.6%, other 3.1%, Ukrainian 1.5%, English 0.7%, Finnish 0.3%, unknown 0.8% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 51.1%, Orthodox 23.1%, Lutheran 6.0%, Muslim 3.0%, Roman Catholic 1.7%, other religion 1.5%, religion not specified 0.6%, Christian Free Congregations 0.5%, Baptist 0.3%, Earth Believer 0.3%, refused to answer 10.8% (2021).",
+    "cite": "(Statistics Estonia, 2022)",
+    "area_note": "City district of Mustamäe, Tallinn, census 31 December 2021",
+    "sources": [
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pohja-Tallinn": {
+    "census_year": 2021,
+    "population": 60406,
+    "ethnic": "Ethnic nationality: Estonian 53.0%, Russian 34.3%, Ukrainian 4.1%, other 3.6%, Belarusian 1.5%, Finnish 0.9%, Latvian 0.4%, unknown 0.8% (census, 31 December 2021).",
+    "language": "Mother tongue: Estonian 50.0%, Russian 42.2%, other 2.0%, Ukrainian 1.9%, English 0.7%, Finnish 0.6%, unknown 1.0% (2021).",
+    "religion": "Religion, people aged 15 and over: no religious affiliation 50.7%, Orthodox 25.7%, Lutheran 6.4%, religion not specified 2.0%, Christian Free Congregations 0.8%, other religion 0.7%, Roman Catholic 0.7%, Muslim 0.7%, Buddhist 0.6%, Baptist 0.4%, Jehovah's Witness 0.3%, Pentecostal 0.3%, refused to answer 10.2% (2021).",
+    "cite": "(Statistics Estonia, 2022)",
+    "area_note": "City district of Põhja-Tallinn, Tallinn, census 31 December 2021",
+    "sources": [
+      "Statistics Estonia (2022) Population and Housing Census 2021: RL21429 (population by ethnic nationality), RL21434 (by mother tongue) and RL21452 (persons aged 15 and over by religion), by place of residence, 31 December 2021. Available at: https://andmed.stat.ee/en/stat/rahvaloendus__rel2021 (Accessed: 12 November 2026)."
     ]
   }
 }
