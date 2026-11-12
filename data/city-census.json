@@ -23559,5 +23559,564 @@
       "Statistik Austria (2026) Bevölkerung am 01.01.2026 nach Staatsangehörigkeit, Geburtsland und administrativen Gebietseinheiten. Available at: https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/bevoelkerungsstand/bevoelkerung-nach-staatsangehoerigkeit/-geburtsland (Accessed: 12 November 2026).",
       "Statistik Austria (2026) Abgestimmte Erwerbsstatistik 2024: Gemeindeergebnisse. Available at: https://www.statistik.at/fileadmin/pages/54/AEST_Gemeindeergebnisse_2024.ods (Accessed: 12 November 2026)."
     ]
+  },
+  "Thessaloniki": {
+    "census_year": 2021,
+    "population": 319045,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kentriki Makedonia, not the city alone (2021): foreign citizens 5.9%, most often of Albania (63,069), Georgia (8,161), Bulgaria (4,952), Russian Federation (2,931); born abroad 11.9%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Thessaloniki (Δήμος Θεσσαλονικης), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Athens": {
+    "census_year": 2021,
+    "population": 643452,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Athens (Δήμος Αθηναιων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Piraeus": {
+    "census_year": 2021,
+    "population": 168151,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Piraeus (Δήμος Πειραιως), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Volos": {
+    "census_year": 2021,
+    "population": 139670,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Thessalia, not the city alone (2021): foreign citizens 4.8%, most often of Albania (22,650), Bulgaria (1,152), Romania (993), United Kingdom (845); born abroad 6.8%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Volos (Δήμος Βολου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Larissa": {
+    "census_year": 2021,
+    "population": 164095,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Thessalia, not the city alone (2021): foreign citizens 4.8%, most often of Albania (22,650), Bulgaria (1,152), Romania (993), United Kingdom (845); born abroad 6.8%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Larissa (Δήμος Λαρισαιων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Larisa": {
+    "census_year": 2021,
+    "population": 164095,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Thessalia, not the city alone (2021): foreign citizens 4.8%, most often of Albania (22,650), Bulgaria (1,152), Romania (993), United Kingdom (845); born abroad 6.8%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Larissa (Δήμος Λαρισαιων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Patra": {
+    "census_year": 2021,
+    "population": 215922,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Dytiki Ellada, not the city alone (2021): foreign citizens 4.9%, most often of Albania (18,254), Bangladesh (4,593), Bulgaria (1,398), Romania (1,069); born abroad 6.7%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Patras (Δήμος Πατρεων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Iraklio": {
+    "census_year": 2021,
+    "population": 179302,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kriti, not the city alone (2021): foreign citizens 8.2%, most often of Albania (21,992), Bulgaria (4,696), Pakistan (3,325), United Kingdom (2,534); born abroad 9.7%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Heraklion (Δήμος Ηρακλειου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Irakleion": {
+    "census_year": 2021,
+    "population": 179302,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kriti, not the city alone (2021): foreign citizens 8.2%, most often of Albania (21,992), Bulgaria (4,696), Pakistan (3,325), United Kingdom (2,534); born abroad 9.7%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Iraklio (Δήμος Ηρακλειου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Vyronas": {
+    "census_year": 2021,
+    "population": 59134,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Vyronas (Δήμος Βυρωνος), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Trikala": {
+    "census_year": 2021,
+    "population": 78605,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Thessalia, not the city alone (2021): foreign citizens 4.8%, most often of Albania (22,650), Bulgaria (1,152), Romania (993), United Kingdom (845); born abroad 6.8%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Trikala (Δήμος Τρικκαιων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Petroupolis": {
+    "census_year": 2021,
+    "population": 60146,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Petroupolis (Δήμος Πετρουπολεως), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Peristeri": {
+    "census_year": 2021,
+    "population": 133630,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Peristeri (Δήμος Περιστεριου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Palaio Faliro": {
+    "census_year": 2021,
+    "population": 64863,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Palaio Faliro (Δήμος Παλαιου Φαληρου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Nikaia": {
+    "census_year": 2021,
+    "population": 103488,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Nikaia-Agios Ioannis Rentis (Δήμος Νικαιας - Αγιου Ιωαννη Ρεντη), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Nea Smyrni": {
+    "census_year": 2021,
+    "population": 72853,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Nea Smyrni (Δήμος Νεας Σμυρνης), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ilion": {
+    "census_year": 2021,
+    "population": 84004,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Ilion (Δήμος Ιλιου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Nea Ionia": {
+    "census_year": 2021,
+    "population": 64611,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Nea Ionia (Δήμος Νεας Ιωνιας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Lamia": {
+    "census_year": 2021,
+    "population": 66657,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Sterea Ellada, not the city alone (2021): foreign citizens 7.4%, most often of Albania (20,462), India (3,033), Pakistan (2,434), Romania (1,804); born abroad 8.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Lamia (Δήμος Λαμιεων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Chania": {
+    "census_year": 2021,
+    "population": 111375,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kriti, not the city alone (2021): foreign citizens 8.2%, most often of Albania (21,992), Bulgaria (4,696), Pakistan (3,325), United Kingdom (2,534); born abroad 9.7%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Chania (Δήμος Χανιων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Chalkida": {
+    "census_year": 2021,
+    "population": 109256,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Sterea Ellada, not the city alone (2021): foreign citizens 7.4%, most often of Albania (20,462), India (3,033), Pakistan (2,434), Romania (1,804); born abroad 8.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Chalkida (Δήμος Χαλκιδεων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Khalandrion": {
+    "census_year": 2021,
+    "population": 77102,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Chalandri (Δήμος Χαλανδριου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Keratsini": {
+    "census_year": 2021,
+    "population": 89536,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Keratsini-Drapetsona (Δήμος Κερατσινιου - Δραπετσωνας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kallithea": {
+    "census_year": 2021,
+    "population": 97616,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Kallithea (Δήμος Καλλιθεας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kalamata": {
+    "census_year": 2021,
+    "population": 72906,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Peloponnisos, not the city alone (2021): foreign citizens 8.5%, most often of Albania (23,583), Bulgaria (4,054), Romania (3,766), Pakistan (3,446); born abroad 10.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Kalamata (Δήμος Καλαματας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ioannina": {
+    "census_year": 2021,
+    "population": 113978,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Ipeiros, not the city alone (2021): foreign citizens 4.6%, most often of Albania (9,093), Afghanistan (1,349), Pakistan (800), Iraq (281); born abroad 8.5%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Ioannina (Δήμος Ιωαννιτων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Glyfada": {
+    "census_year": 2021,
+    "population": 89597,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Glyfada (Δήμος Γλυφαδας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Galatsi": {
+    "census_year": 2021,
+    "population": 57909,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Galatsi (Δήμος Γαλατσιου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Agios Dimitrios": {
+    "census_year": 2021,
+    "population": 71664,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Agios Dimitrios (Δήμος Αγιου Δημητριου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Agia Paraskevi": {
+    "census_year": 2021,
+    "population": 62147,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Agia Paraskevi (Δήμος Αγιας Παρασκευης), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Marousi": {
+    "census_year": 2021,
+    "population": 71830,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Marousi (Δήμος Αμαρουσιου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Acharnes": {
+    "census_year": 2021,
+    "population": 108169,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Acharnes (Δήμος Αχαρνων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Aigaleo": {
+    "census_year": 2021,
+    "population": 65831,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Aigaleo (Δήμος Αιγαλεω), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Rhodes": {
+    "census_year": 2021,
+    "population": 125113,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Notio Aigaio, not the city alone (2021): foreign citizens 11.2%, most often of Albania (21,590), Bulgaria (2,211), United Kingdom (1,462), Romania (1,007); born abroad 13.7%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Rhodes (Δήμος Ροδου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Serres": {
+    "census_year": 2021,
+    "population": 74004,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kentriki Makedonia, not the city alone (2021): foreign citizens 5.9%, most often of Albania (63,069), Georgia (8,161), Bulgaria (4,952), Russian Federation (2,931); born abroad 11.9%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Serres (Δήμος Σερρων), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kavala": {
+    "census_year": 2021,
+    "population": 66376,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Anatoliki Makedonia, Thraki, not the city alone (2021): foreign citizens 3.4%, most often of Albania (8,732), Bulgaria (2,474), Georgia (811), Armenia (733); born abroad 9.2%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Kavala (Δήμος Καβαλας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Katerini": {
+    "census_year": 2021,
+    "population": 82892,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kentriki Makedonia, not the city alone (2021): foreign citizens 5.9%, most often of Albania (63,069), Georgia (8,161), Bulgaria (4,952), Russian Federation (2,931); born abroad 11.9%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Katerini (Δήμος Κατερινης), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kalamaria": {
+    "census_year": 2021,
+    "population": 92248,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kentriki Makedonia, not the city alone (2021): foreign citizens 5.9%, most often of Albania (63,069), Georgia (8,161), Bulgaria (4,952), Russian Federation (2,931); born abroad 11.9%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Kalamaria (Δήμος Καλαμαριας), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Evosmos": {
+    "census_year": 2021,
+    "population": 105352,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Kentriki Makedonia, not the city alone (2021): foreign citizens 5.9%, most often of Albania (63,069), Georgia (8,161), Bulgaria (4,952), Russian Federation (2,931); born abroad 11.9%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Kordelio-Evosmos (Δήμος Κορδελιου - Ευοσμου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Alexandroupoli": {
+    "census_year": 2021,
+    "population": 71751,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Anatoliki Makedonia, Thraki, not the city alone (2021): foreign citizens 3.4%, most often of Albania (8,732), Bulgaria (2,474), Georgia (811), Armenia (733); born abroad 9.2%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Alexandroupoli (Δήμος Αλεξανδρουπολης), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ilioupoli": {
+    "census_year": 2021,
+    "population": 76730,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Ilioupoli (Δήμος Ηλιουπολεως), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Korydallos": {
+    "census_year": 2021,
+    "population": 61248,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Korydallos (Δήμος Κορυδαλλου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zografos": {
+    "census_year": 2021,
+    "population": 69874,
+    "ethnic": "The Greek census does not ask about ethnicity. Figures for the region of Attiki, not the city alone (2021): foreign citizens 9.0%, most often of Albania (140,146), Pakistan (21,323), Romania (14,105), Georgia (13,819); born abroad 13.4%.",
+    "language": "Greek is the official language; the 2021 census did not ask about language.",
+    "religion": "The Greek census does not ask about religion.",
+    "cite": "(ELSTAT, 2023)",
+    "area_note": "Municipality of Zografos (Δήμος Ζωγραφου), census 2021",
+    "sources": [
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census: resident population by municipality and community (MON_PLI_DHM_KOIN_2021). Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026).",
+      "Hellenic Statistical Authority (ELSTAT) (2023) 2021 Population Census, tables A02 (resident population by citizenship) and A04 (by place of birth), by region. Available at: https://www.statistics.gr/el/2021-census-res-pop-results (Accessed: 12 November 2026)."
+    ]
   }
 }
