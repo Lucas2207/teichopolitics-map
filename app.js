@@ -1101,18 +1101,20 @@ function renderLabels() {
     .filter((c) => c.rank <= maxRank && bounds.contains([c.lat, c.lon]))
     .sort((a, b) => a.rank - b.rank);
   for (const c of countries) place(c.en, c.native, c.lat, c.lon, "country");
-  // Rivers and mountains (serif, natural features): after the countries, before the cities
+  // Cities: from zoom 4, most important first, never repeating a country name.
+  // Capitals come straight after the countries and show from zoom 4 whatever their size,
+  // so a river, a mountain or a smaller town never takes their place.
+  const countryNames = new Set(labelData.countries.map((c) => c.en));
+  const visible = (p) => (p.cap ? 4 : Math.max(p.min_zoom, 4)) <= zoom && !countryNames.has(p.en) && bounds.contains([p.lat, p.lon]);
+  const byImportance = (a, b) => a.min_zoom - b.min_zoom;
+  for (const p of labelData.places.filter((p) => p.cap && visible(p)).sort(byImportance)) place(p.en, p.native, p.lat, p.lon, "capital", p);
+  // Rivers and mountains (serif, natural features): after the capitals, before the other cities
   for (const n of labelData.natural || []) {
     if (!bounds.contains([n.lat, n.lon])) continue;
     const need = n.kind === "river" ? (n.tier === 1 ? 5 : 7) : (n.tier === 1 ? 4 : 6);
     if (zoom >= need) place(n.en, "", n.lat, n.lon, n.kind);
   }
-  // Cities: from zoom 4, most important first, never repeating a country name
-  const countryNames = new Set(labelData.countries.map((c) => c.en));
-  const cities = labelData.places
-    .filter((p) => Math.max(p.min_zoom, 4) <= zoom && !countryNames.has(p.en) && bounds.contains([p.lat, p.lon]))
-    .sort((a, b) => a.min_zoom - b.min_zoom);
-  for (const p of cities) place(p.en, p.native, p.lat, p.lon, p.cap ? "capital" : "place", p);
+  for (const p of labelData.places.filter((p) => !p.cap && visible(p)).sort(byImportance)) place(p.en, p.native, p.lat, p.lon, "place", p);
 }
 map.on("moveend", renderLabels);
 nativeNames.addEventListener("change", renderLabels);
