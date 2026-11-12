@@ -585,22 +585,6 @@
     ],
     "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
   },
-  "Ciudad Juarez": {
-    "lat": 31.69,
-    "lon": -106.42,
-    "area_note": "Juárez municipality, Chihuahua",
-    "census_year": 2020,
-    "population": 1512450,
-    "ethnic": "Born in another Mexican state: 27.1% of residents (internal migration). The census does not record ethnicity beyond indigenous language and Afro-Mexican self-identification.",
-    "language": "Speakers of an indigenous language: 0.6% of people aged 3+.",
-    "religion": "Catholic 65.5%; Protestant or evangelical 14.3%; no religion 19.5%.",
-    "economy": "Unemployment at the census: 1.4% of the economically active population (March 2020). The census measure runs lower than INEGI's quarterly labour survey (ENOE). Chihuahua state GDP per person: MXN 207,980 (US$22,787 PPP), 2018.",
-    "sources": [
-      "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
-      "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
-    ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
-  },
   "Heroica Matamoros": {
     "lat": 25.87,
     "lon": -97.5,
@@ -4757,23 +4741,6 @@
     "economy": "Income poverty 15.7% of residents (national 17.3%); multidimensional poverty 11.6% (national 17.7%), Casen 2024. Overcrowded households 5.4% (national 7.8%), June 2026. Formally employed workers reported by firms based here: 18,897 in 2024, against 20,180 in 2022.",
     "crime": "Reports of offences against life or physical integrity (homicide, sexual offences, assaults, threats): 687.8 per 100,000 people in 2025 (national 1,003.2). Domestic violence reports: 458.7 per 100,000 (national 585.1). Reports reflect what is reported to the police, not all crime."
   },
-  "Valparaiso": {
-    "lat": -33.036,
-    "lon": -71.63,
-    "census_year": 2024,
-    "population": 284938,
-    "area_note": "Commune of Valparaíso",
-    "ethnic": "Belong to an Indigenous people: 5.2% (Mapuche 4.1%, Diaguita 0.4%, Aymara 0.3%, Atacameño 0.1%). Afro-descendant: 0.4%. Born abroad: 4.6% (Venezuela 2.4%, Colombia 0.5%, Argentina 0.4%, Peru 0.3%). Census 2024.",
-    "language": "People aged 5+ who speak or understand an Indigenous language: Mapuzungun 1.0%, Aymara 0.1%, Rapa Nui 0.1%; none 97.9%. Census 2024. The census does not publish Spanish as a category.",
-    "religion": "People aged 15+: Catholic 51.0%, no religion 33.4%, Evangelical or Protestant 10.3%, other Christian 1.7%, Jehovah's Witnesses 0.8%, Latter-day Saints 0.6%. Census 2024.",
-    "cite": "(INE, 2025; BCN, 2026)",
-    "sources": [
-      "Instituto Nacional de Estadísticas (2025) Censo de Población y Vivienda 2024: tabulados de inmigración internacional, pueblos indígenas, lenguas indígenas, afrodescendencia y religión o credo, por comuna. Santiago: INE. Available at: https://censo2024.ine.gob.cl/estadisticas/ (Accessed: 10 November 2026).",
-      "Biblioteca del Congreso Nacional de Chile (2026) Reporte comunal: Valparaíso, 2026, using Casen 2024, Registro Social de Hogares, Servicio de Impuestos Internos and CEAD (Subsecretaría de Prevención del Delito). Available at: https://www.bcn.cl/siit/reportescomunales/comunas_v.html?anno=2026&idcom=5101 (Accessed: 10 November 2026)."
-    ],
-    "economy": "Income poverty 20.4% of residents (national 17.3%); multidimensional poverty 21.4% (national 17.7%), Casen 2024. Overcrowded households 6.0% (national 7.8%), June 2026. Formally employed workers reported by firms based here: 120,194 in 2024, against 125,463 in 2022.",
-    "crime": "Reports of offences against life or physical integrity (homicide, sexual offences, assaults, threats): 1,322.3 per 100,000 people in 2025 (national 1,003.2). Domestic violence reports: 549.3 per 100,000 (national 585.1). Reports reflect what is reported to the police, not all crime."
-  },
   "Tome": {
     "lat": -36.618,
     "lon": -72.956,
@@ -5317,23 +5284,6 @@
     ],
     "economy": "Income poverty 19.7% of residents (national 17.3%); multidimensional poverty 18.7% (national 17.7%), Casen 2024. Overcrowded households 7.8% (national 7.8%), June 2026. Formally employed workers reported by firms based here: 56,994 in 2024, against 59,045 in 2022.",
     "crime": "Reports of offences against life or physical integrity (homicide, sexual offences, assaults, threats): 1,234.7 per 100,000 people in 2025 (national 1,003.2). Domestic violence reports: 711.0 per 100,000 (national 585.1). Reports reflect what is reported to the police, not all crime."
-  },
-  "Copiapo": {
-    "lat": -27.367,
-    "lon": -70.332,
-    "census_year": 2024,
-    "population": 168831,
-    "area_note": "Commune of Copiapó",
-    "ethnic": "Belong to an Indigenous people: 23.7% (Diaguita 10.9%, Colla 6.4%, Mapuche 3.2%, Aymara 1.6%). Afro-descendant: 0.7%. Born abroad: 11.4% (Bolivia 4.3%, Venezuela 2.8%, Colombia 2.0%, Peru 1.1%). Census 2024.",
-    "language": "People aged 5+ who speak or understand an Indigenous language: Quechua 1.2%, Aymara 0.7%, Mapuzungun 0.5%; none 96.6%. Census 2024. The census does not publish Spanish as a category.",
-    "religion": "People aged 15+: Catholic 58.6%, no religion 25.5%, Evangelical or Protestant 11.4%, other Christian 1.5%, Jehovah's Witnesses 0.7%, Latter-day Saints 0.9%. Census 2024.",
-    "cite": "(INE, 2025; BCN, 2026)",
-    "sources": [
-      "Instituto Nacional de Estadísticas (2025) Censo de Población y Vivienda 2024: tabulados de inmigración internacional, pueblos indígenas, lenguas indígenas, afrodescendencia y religión o credo, por comuna. Santiago: INE. Available at: https://censo2024.ine.gob.cl/estadisticas/ (Accessed: 10 November 2026).",
-      "Biblioteca del Congreso Nacional de Chile (2026) Reporte comunal: Copiapó, 2026, using Casen 2024, Registro Social de Hogares, Servicio de Impuestos Internos and CEAD (Subsecretaría de Prevención del Delito). Available at: https://www.bcn.cl/siit/reportescomunales/comunas_v.html?anno=2026&idcom=3101 (Accessed: 10 November 2026)."
-    ],
-    "economy": "Income poverty 16.6% of residents (national 17.3%); multidimensional poverty 18.1% (national 17.7%), Casen 2024. Overcrowded households 6.5% (national 7.8%), June 2026. Formally employed workers reported by firms based here: 58,619 in 2024, against 64,050 in 2022.",
-    "crime": "Reports of offences against life or physical integrity (homicide, sexual offences, assaults, threats): 917.4 per 100,000 people in 2025 (national 1,003.2). Domestic violence reports: 501.4 per 100,000 (national 585.1). Reports reflect what is reported to the police, not all crime."
   },
   "Concepcion": {
     "lat": -36.827,
@@ -7230,21 +7180,6 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ]
   },
-  "Usak": {
-    "lat": 38.674,
-    "lon": 29.406,
-    "census_year": 2022,
-    "population": 229463,
-    "area_note": "Uşak, population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
   "Urla": {
     "lat": 38.323,
     "lon": 26.764,
@@ -7813,57 +7748,12 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ]
   },
-  "Kahramanmaras": {
-    "lat": 37.585,
-    "lon": 36.926,
-    "census_year": 2022,
-    "population": 571266,
-    "area_note": "Kahramanmaraş (Maraş), population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
   "Kadirli": {
     "lat": 37.374,
     "lon": 36.096,
     "census_year": 2022,
     "population": 98469,
     "area_note": "Kadirli, population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
-  "Izmir": {
-    "lat": 38.413,
-    "lon": 27.138,
-    "census_year": 2022,
-    "population": 2948160,
-    "area_note": "İzmir [Izmir], population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
-  "Iskenderun": {
-    "lat": 36.587,
-    "lon": 36.173,
-    "census_year": 2022,
-    "population": 186706,
-    "area_note": "İskenderun, population register at the end of 2022",
     "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
     "language": "Not recorded: the last official figures on language come from the 1965 census.",
     "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
@@ -7909,21 +7799,6 @@
     "census_year": 2022,
     "population": 111231,
     "area_note": "Fethiye, population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
-  "Eskisehir": {
-    "lat": 39.777,
-    "lon": 30.521,
-    "census_year": 2022,
-    "population": 789023,
-    "area_note": "Eskişehir, population register at the end of 2022",
     "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
     "language": "Not recorded: the last official figures on language come from the 1965 census.",
     "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
@@ -8538,21 +8413,6 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ]
   },
-  "Tekirdag": {
-    "lat": 40.978,
-    "lon": 27.511,
-    "census_year": 2022,
-    "population": 186421,
-    "area_note": "Tekirdağ, population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
   "Sisli": {
     "lat": 41.06,
     "lon": 28.987,
@@ -8737,21 +8597,6 @@
     "census_year": 2022,
     "population": 125403,
     "area_note": "Karabük, population register at the end of 2022",
-    "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
-    "language": "Not recorded: the last official figures on language come from the 1965 census.",
-    "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
-    "cite": "(Brinkhoff, 2026, citing TÜİK; Wikipedia, n.d.)",
-    "sources": [
-      "Brinkhoff, T. (2026) City Population: Turkey, provinces and major cities and the districts of İstanbul, İzmir, Ankara and Bursa, citing the Turkish Statistical Institute (address-based population register, 31 December 2022). Available at: https://www.citypopulation.de/en/turkey/ (Accessed: 11 November 2026).",
-      "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
-    ]
-  },
-  "Izmit": {
-    "lat": 40.765,
-    "lon": 29.929,
-    "census_year": 2022,
-    "population": 342074,
-    "area_note": "İzmit (Kocaeli), population register at the end of 2022",
     "ethnic": "Not recorded: Turkey's census and population register do not identify ethnic groups, which the state says its constitution prevents; the UN Committee on the Elimination of Racial Discrimination has criticised the resulting lack of data.",
     "language": "Not recorded: the last official figures on language come from the 1965 census.",
     "religion": "Not recorded: the census does not ask about religion and there are no official statistics on religious belief.",
@@ -10834,23 +10679,6 @@
     "economy": "Unemployment 11.0% of the labour force aged 15–64 at the census (2023); poverty rate 13.1% (2023); median living standard €27,160 a year (2023).",
     "crime": "Recorded by the police and gendarmerie in 2025, per 1,000 residents: physical violence outside the family 4.8, physical violence within the family 4.9, sexual violence 2.6, violent theft without a weapon 0.4, drug trafficking (people charged) 0.8; burglaries of homes 4.4 per 1,000 dwellings. Figures too small to publish are left out."
   },
-  "Saint-Etienne": {
-    "census_year": 2023,
-    "population": 173136,
-    "ethnic": "The French census does not ask about ethnicity. Immigrants (people born abroad who were not French at birth): 34,892, 20.2% of residents (2023). Among the seven countries INSEE lists separately, the largest are Algeria 9,750, Morocco 5,421, Italy 1,883, Tunisia 1,706; born elsewhere in the EU 2,131, elsewhere in Africa 4,974, rest of the world 3,633.",
-    "language": "The French census does not ask about language.",
-    "religion": "The French census does not ask about religion.",
-    "cite": "(INSEE, 2026)",
-    "area_note": "Commune, census 2023",
-    "sources": [
-      "INSEE (2026) Dossier complet: commune 42218. Available at: https://www.insee.fr/fr/statistiques/2011101?geo=COM-42218 (Accessed: 11 November 2026).",
-      "INSEE (2026) Melodi: population active et chômage (DS_RP_EMPLOI_LR_PRINC) and population immigrée par pays de naissance (DS_RP_TD_IMMI_AGESEX_PAYSNAISS_R_PRINC), recensement 2023. Available at: https://catalogue-donnees.insee.fr/ (Accessed: 11 November 2026).",
-      "Service statistique ministériel de la sécurité intérieure (SSMSI) (2026) Base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales, 2025. Available at: https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/ (Accessed: 11 November 2026)."
-    ],
-    "area_km2": 79.97,
-    "economy": "Unemployment 19.0% of the labour force aged 15–64 at the census (2023); poverty rate 30.4% (2023); median living standard €20,880 a year (2023).",
-    "crime": "Recorded by the police and gendarmerie in 2025, per 1,000 residents: physical violence outside the family 4.3, physical violence within the family 3.9, sexual violence 1.5, violent theft without a weapon 4.4, armed robbery 0.3, drug trafficking (people charged) 0.6; burglaries of homes 9.9 per 1,000 dwellings. Figures too small to publish are left out."
-  },
   "Saint-Denis": {
     "census_year": 2023,
     "population": 149077,
@@ -11154,23 +10982,6 @@
     "area_km2": 68.2,
     "economy": "Unemployment 11.5% of the labour force aged 15–64 at the census (2023); poverty rate 16.4% (2023); median living standard €25,970 a year (2023).",
     "crime": "Recorded by the police and gendarmerie in 2025, per 1,000 residents: physical violence outside the family 4.0, physical violence within the family 3.9, sexual violence 2.1, violent theft without a weapon 0.9, armed robbery 0.2, drug trafficking (people charged) 1.3; burglaries of homes 10.4 per 1,000 dwellings. Figures too small to publish are left out."
-  },
-  "Nimes": {
-    "census_year": 2023,
-    "population": 151839,
-    "ethnic": "The French census does not ask about ethnicity. Immigrants (people born abroad who were not French at birth): 23,985, 15.8% of residents (2023). Among the seven countries INSEE lists separately, the largest are Morocco 9,450, Algeria 3,767, Spain 1,651, Portugal 829; born elsewhere in the EU 1,254, elsewhere in Africa 2,034, rest of the world 2,634.",
-    "language": "The French census does not ask about language.",
-    "religion": "The French census does not ask about religion.",
-    "cite": "(INSEE, 2026)",
-    "area_note": "Commune, census 2023",
-    "sources": [
-      "INSEE (2026) Dossier complet: commune 30189. Available at: https://www.insee.fr/fr/statistiques/2011101?geo=COM-30189 (Accessed: 11 November 2026).",
-      "INSEE (2026) Melodi: population active et chômage (DS_RP_EMPLOI_LR_PRINC) and population immigrée par pays de naissance (DS_RP_TD_IMMI_AGESEX_PAYSNAISS_R_PRINC), recensement 2023. Available at: https://catalogue-donnees.insee.fr/ (Accessed: 11 November 2026).",
-      "Service statistique ministériel de la sécurité intérieure (SSMSI) (2026) Base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales, 2025. Available at: https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/ (Accessed: 11 November 2026)."
-    ],
-    "area_km2": 161.85,
-    "economy": "Unemployment 18.0% of the labour force aged 15–64 at the census (2023); poverty rate 32.4% (2023); median living standard €20,830 a year (2023).",
-    "crime": "Recorded by the police and gendarmerie in 2025, per 1,000 residents: physical violence outside the family 4.9, physical violence within the family 4.0, sexual violence 2.0, violent theft without a weapon 1.2, armed robbery 0.3, drug trafficking (people charged) 2.2; burglaries of homes 8.1 per 1,000 dwellings. Figures too small to publish are left out."
   },
   "Neuilly-sur-Seine": {
     "census_year": 2023,
@@ -11967,23 +11778,6 @@
     "area_km2": 95.48,
     "economy": "Unemployment 22.0% of the labour force aged 15–64 at the census (2023); poverty rate 38.8% (2023); median living standard €18,390 a year (2023).",
     "crime": "Recorded by the police and gendarmerie in 2025, per 1,000 residents: physical violence outside the family 6.5, physical violence within the family 5.1, sexual violence 2.2, violent theft without a weapon 1.2, armed robbery 0.2, drug trafficking (people charged) 1.7; burglaries of homes 6.5 per 1,000 dwellings. Figures too small to publish are left out."
-  },
-  "Besancon": {
-    "census_year": 2023,
-    "population": 118489,
-    "ethnic": "The French census does not ask about ethnicity. Immigrants (people born abroad who were not French at birth): 17,503, 14.8% of residents (2023). Among the seven countries INSEE lists separately, the largest are Algeria 2,724, Morocco 1,945, Tunisia 690, Portugal 649; born elsewhere in the EU 786, elsewhere in Africa 3,561, rest of the world 3,436.",
-    "language": "The French census does not ask about language.",
-    "religion": "The French census does not ask about religion.",
-    "cite": "(INSEE, 2026)",
-    "area_note": "Commune, census 2023",
-    "sources": [
-      "INSEE (2026) Dossier complet: commune 25056. Available at: https://www.insee.fr/fr/statistiques/2011101?geo=COM-25056 (Accessed: 11 November 2026).",
-      "INSEE (2026) Melodi: population active et chômage (DS_RP_EMPLOI_LR_PRINC) and population immigrée par pays de naissance (DS_RP_TD_IMMI_AGESEX_PAYSNAISS_R_PRINC), recensement 2023. Available at: https://catalogue-donnees.insee.fr/ (Accessed: 11 November 2026).",
-      "Service statistique ministériel de la sécurité intérieure (SSMSI) (2026) Base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales, 2025. Available at: https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/ (Accessed: 11 November 2026)."
-    ],
-    "area_km2": 65.05,
-    "economy": "Unemployment 14.4% of the labour force aged 15–64 at the census (2023); poverty rate 24.0% (2023); median living standard €23,240 a year (2023).",
-    "crime": "Recorded by the police and gendarmerie in 2025, per 1,000 residents: physical violence outside the family 5.4, physical violence within the family 4.7, sexual violence 2.5, violent theft without a weapon 0.9, armed robbery 0.2, drug trafficking (people charged) 2.9; burglaries of homes 2.8 per 1,000 dwellings. Figures too small to publish are left out."
   },
   "Belfort": {
     "census_year": 2023,
@@ -17065,23 +16859,6 @@
     "lon": -6.343,
     "crime": "Mérida municipality, 2025: 3,338 criminal offences recorded by the police, 55.4 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 11.0, violent robberies 0.7, home burglaries 0.8, assaults 0.4, sexual offences 0.5, drug trafficking 0.5, online fraud 11.5. Completed homicides and murders: 0. Rates use the resident population, so places with many visitors or commuters show higher figures."
   },
-  "Malaga": {
-    "census_year": 2024,
-    "population": 592346,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "Málaga, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 93,317, 15.8% of residents (born in another EU country 12,510, outside the EU 80,807) (2024). Foreign citizens: 10.9% of residents, EU citizens 12,839 and non-EU citizens 51,748 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 12.3% of the labour force (2024).",
-    "crime": "Málaga municipality, 2025: 38,225 criminal offences recorded by the police, 63.8 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 21.4, violent robberies 1.5, home burglaries 0.8, assaults 0.6, sexual offences 0.5, drug trafficking 0.7, online fraud 10.4. Completed homicides and murders: 7. Rates use the resident population, so places with many visitors or commuters show higher figures.",
-    "lat": 36.72,
-    "lon": -4.42
-  },
   "Lorca": {
     "census_year": 2024,
     "population": 97769,
@@ -17218,23 +16995,6 @@
     "lat": 37.283,
     "lon": -5.921
   },
-  "Cordoba": {
-    "census_year": 2024,
-    "population": 324902,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "Córdoba, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 19,432, 6.0% of residents (born in another EU country 3,042, outside the EU 16,390) (2024). Foreign citizens: 3.9% of residents, EU citizens 1,838 and non-EU citizens 10,787 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 19.6% of the labour force (2024).",
-    "lat": 37.892,
-    "lon": -4.773,
-    "crime": "Córdoba municipality, 2025: 18,589 criminal offences recorded by the police, 57.5 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 13.6, violent robberies 0.8, home burglaries 1.1, assaults 0.6, sexual offences 0.4, drug trafficking 0.2, online fraud 9.8. Completed homicides and murders: 2. Rates use the resident population, so places with many visitors or commuters show higher figures."
-  },
   "Ciudad Real": {
     "census_year": 2024,
     "population": 75674,
@@ -17370,23 +17130,6 @@
     "crime": "Arrecife municipality, 2025: 2,664 criminal offences recorded by the police, 37.6 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 8.2, violent robberies 0.7, home burglaries 0.2, assaults 1.2, sexual offences 0.7, drug trafficking 0.4, online fraud 1.2. Completed homicides and murders: 1. Rates use the resident population, so places with many visitors or commuters show higher figures.",
     "lat": 28.963,
     "lon": -13.548
-  },
-  "Almeria": {
-    "census_year": 2024,
-    "population": 226978,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "Almería, greater city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 31,224, 13.9% of residents (born in another EU country 4,896, outside the EU 26,328) (2024). Foreign citizens: 10.7% of residents, EU citizens 4,319 and non-EU citizens 20,034 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 19.8% of the labour force (2024).",
-    "crime": "Almería municipality, 2025: 9,758 criminal offences recorded by the police, 47.5 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 11.7, violent robberies 1.2, home burglaries 1.0, assaults 0.6, sexual offences 0.4, drug trafficking 0.8, online fraud 8.8. Completed homicides and murders: 3. Rates use the resident population, so places with many visitors or commuters show higher figures.",
-    "lat": 36.838,
-    "lon": -2.46
   },
   "Alcoy": {
     "census_year": 2024,
@@ -17575,23 +17318,6 @@
     "lat": 42.881,
     "lon": -8.546
   },
-  "San Sebastian": {
-    "census_year": 2024,
-    "population": 250056,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "San Sebastián/Donostia, greater city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 35,425, 14.3% of residents (born in another EU country 4,308, outside the EU 31,117) (2024). Foreign citizens: 9.9% of residents, EU citizens 4,205 and non-EU citizens 20,447 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 6.0% of the labour force (2024).",
-    "crime": "Donostia/San Sebastián municipality, 2025: 11,030 criminal offences recorded by the police, 58.1 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 17.7, violent robberies 1.3, home burglaries 1.8, assaults 1.4, sexual offences 0.7, drug trafficking 0.7, online fraud 10.1. Completed homicides and murders: 1. Rates use the resident population, so places with many visitors or commuters show higher figures.",
-    "lat": 43.313,
-    "lon": -1.975
-  },
   "Sant Cugat del Valles": {
     "census_year": 2024,
     "population": 180172,
@@ -17745,23 +17471,6 @@
     "lat": 41.54,
     "lon": 2.213
   },
-  "Mataro": {
-    "census_year": 2024,
-    "population": 130887,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "Mataró, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 27,735, 21.6% of residents (born in another EU country 1,635, outside the EU 26,100) (2024). Foreign citizens: 16.9% of residents, EU citizens 2,058 and non-EU citizens 20,112 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 10.6% of the labour force (2024).",
-    "crime": "Mataró municipality, 2025: 9,164 criminal offences recorded by the police, 69.6 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 18.3, violent robberies 3.5, home burglaries 1.6, assaults 0.7, sexual offences 0.6, drug trafficking 0.4, online fraud 9.6. Completed homicides and murders: 0. Rates use the resident population, so places with many visitors or commuters show higher figures.",
-    "lat": 41.542,
-    "lon": 2.445
-  },
   "Manresa": {
     "census_year": 2024,
     "population": 90709,
@@ -17795,23 +17504,6 @@
     "crime": "Lugo municipality, 2025: 3,883 criminal offences recorded by the police, 38.8 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 8.4, violent robberies 0.5, home burglaries 1.0, assaults 0.5, sexual offences 0.4, drug trafficking 0.2, online fraud 9.7. Completed homicides and murders: 0. Rates use the resident population, so places with many visitors or commuters show higher figures.",
     "lat": 43.01,
     "lon": -7.556
-  },
-  "Logrono": {
-    "census_year": 2024,
-    "population": 150845,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "Logroño, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 25,390, 17.1% of residents (born in another EU country 5,258, outside the EU 20,132) (2024). Foreign citizens: 12.5% of residents, EU citizens 5,929 and non-EU citizens 12,869 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 10.6% of the labour force (2024).",
-    "crime": "Logroño municipality, 2025: 6,002 criminal offences recorded by the police, 39.4 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 10.3, violent robberies 0.4, home burglaries 1.3, assaults 0.5, sexual offences 0.4, drug trafficking 0.4, online fraud 8.9. Completed homicides and murders: 0. Rates use the resident population, so places with many visitors or commuters show higher figures.",
-    "lat": 42.466,
-    "lon": -2.451
   },
   "Lleida": {
     "census_year": 2024,
@@ -17948,23 +17640,6 @@
     "crime": "Granollers municipality, 2025: 3,691 criminal offences recorded by the police, 56.5 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 16.1, violent robberies 2.2, home burglaries 1.1, assaults 0.8, sexual offences 0.5, drug trafficking 0.3, online fraud 8.1. Completed homicides and murders: 0. Rates use the resident population, so places with many visitors or commuters show higher figures.",
     "lat": 41.608,
     "lon": 2.288
-  },
-  "Gijon": {
-    "census_year": 2024,
-    "population": 270219,
-    "cite": "(Eurostat, 2026; Ministerio del Interior, 2026)",
-    "area_note": "Gijón, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Ministerio del Interior (2026) Balance de Criminalidad. Cuarto trimestre 2025: municipios mayores de 20.000 habitantes e islas (tabla 1509012). Portal Estadístico de Criminalidad. Available at: https://estadisticasdecriminalidad.ses.mir.es/publico/portalestadistico/balances.html (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 33,783, 12.6% of residents (born in another EU country 6,241, outside the EU 27,542) (2024). Foreign citizens: 7.1% of residents, EU citizens 4,309 and non-EU citizens 14,910 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 10.8% of the labour force (2024).",
-    "crime": "Gijón municipality, 2025: 10,612 criminal offences recorded by the police, 39.3 per 1,000 residents (Spain 50.4). Per 1,000 residents: thefts 11.2, violent robberies 0.7, home burglaries 0.9, assaults 0.5, sexual offences 0.4, drug trafficking 0.2, online fraud 9.0. Completed homicides and murders: 1. Rates use the resident population, so places with many visitors or commuters show higher figures.",
-    "lat": 43.536,
-    "lon": -5.662
   },
   "Girona": {
     "census_year": 2024,
@@ -18244,22 +17919,6 @@
     "ethnic": "Born abroad: 11,788, 21.1% of residents (born in another EU country 1,487, outside the EU 10,300) (2021). Foreign citizens: 1.6% of residents, EU citizens 242 and non-EU citizens 635 (2021). This dataset does not record ethnicity or detailed countries of birth.",
     "economy": "Unemployment 3.6% of the labour force (2023)."
   },
-  "Nyiregyhaza": {
-    "census_year": 2024,
-    "population": 115359,
-    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
-    "area_note": "Nyíregyháza, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.4%, Roma 0.9%, Ukrainian 0.5%, other groups 0.4%, no answer 12.8% (2022). Foreign citizens 1.1%. Born abroad: 7,650, 6.6% of residents (born in another EU country 2,347, outside the EU 5,303) (2024). Foreign citizens: 1.3% of residents, EU citizens 377 and non-EU citizens 1,087 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.3% of the labour force (2022).",
-    "religion": "Religion: Roman Catholic 16.0%, Greek Catholic 9.6%, Calvinist (Reformed) 16.2%, Lutheran 5.5%, other Christian 1.5%, no religion 9.4%, no answer 41.0% (2022). Answering was voluntary.",
-    "language": "Mother tongue: Hungarian 87.3%, other languages 0.4%, no answer 12.1% (2022)."
-  },
   "Eger": {
     "census_year": 2023,
     "population": 50018,
@@ -18340,22 +17999,6 @@
     "religion": "Religion: Roman Catholic 17.7%, Greek Catholic 0.6%, Calvinist (Reformed) 5.7%, Lutheran 0.8%, other Christian 1.1%, other religions 0.3%, no religion 27.0%, no answer 46.1% (2022). Answering was voluntary.",
     "language": "Mother tongue: Hungarian 83.1%, no answer 16.3% (2022)."
   },
-  "Szekesfehervar": {
-    "census_year": 2024,
-    "population": 96024,
-    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
-    "area_note": "Székesfehérvár, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.6%, German 0.6%, other groups 0.4%, Roma 0.3%, no answer 13.6% (2022). Foreign citizens 1.6%. Born abroad: 5,561, 5.8% of residents (born in another EU country 2,337, outside the EU 3,224) (2024). Foreign citizens: 2.4% of residents, EU citizens 347 and non-EU citizens 1,946 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022).",
-    "religion": "Religion: Roman Catholic 26.9%, Greek Catholic 0.4%, Calvinist (Reformed) 7.5%, Lutheran 1.2%, other Christian 1.3%, other religions 0.2%, no religion 18.1%, no answer 43.4% (2022). Answering was voluntary.",
-    "language": "Mother tongue: Hungarian 86.9%, other languages 0.4%, no answer 12.5% (2022)."
-  },
   "Sopron": {
     "census_year": 2024,
     "population": 61589,
@@ -18371,70 +18014,6 @@
     "economy": "Unemployment 1.3% of the labour force (2022).",
     "religion": "Religion: Roman Catholic 36.1%, Greek Catholic 0.4%, Calvinist (Reformed) 3.5%, Lutheran 5.0%, other Christian 1.0%, other religions 0.2%, no religion 10.4%, no answer 42.3% (2022). Answering was voluntary.",
     "language": "Mother tongue: Hungarian 83.3%, German 0.9%, Croatian 0.2%, other languages 0.5%, no answer 15.5% (2022)."
-  },
-  "Pecs": {
-    "census_year": 2024,
-    "population": 140330,
-    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
-    "area_note": "Pécs, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 79.4%, German 3.0%, Roma 1.4%, other groups 1.2%, Croatian 0.9%, no answer 17.9% (2022). Foreign citizens 3.7%. Born abroad: 11,893, 8.5% of residents (born in another EU country 5,363, outside the EU 6,530) (2024). Foreign citizens: 5.0% of residents, EU citizens 2,630 and non-EU citizens 4,403 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.0% of the labour force (2022).",
-    "religion": "Religion: Roman Catholic 29.4%, Greek Catholic 0.3%, Calvinist (Reformed) 4.4%, Lutheran 1.2%, other Christian 1.9%, other religions 0.6%, no religion 17.3%, no answer 43.9% (2022). Answering was voluntary.",
-    "language": "Mother tongue: Hungarian 81.7%, Romani or Boyash 0.3%, German 0.9%, Croatian 0.4%, other languages 1.3%, no answer 16.2% (2022)."
-  },
-  "Kecskemet": {
-    "census_year": 2024,
-    "population": 109450,
-    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
-    "area_note": "Kecskemét, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.6%, Roma 0.6%, German 0.4%, other groups 0.4%, no answer 15.7% (2022). Foreign citizens 1.5%. Born abroad: 6,178, 5.6% of residents (born in another EU country 2,744, outside the EU 3,434) (2024). Foreign citizens: 1.5% of residents, EU citizens 528 and non-EU citizens 1,152 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.5% of the labour force (2022).",
-    "religion": "Religion: Roman Catholic 29.8%, Greek Catholic 0.5%, Calvinist (Reformed) 8.4%, Lutheran 1.1%, other Christian 1.5%, other religions 0.3%, no religion 13.7%, no answer 43.5% (2022). Answering was voluntary.",
-    "language": "Mother tongue: Hungarian 84.8%, German 0.2%, other languages 0.3%, no answer 14.6% (2022)."
-  },
-  "Kaposvar": {
-    "census_year": 2023,
-    "population": 59270,
-    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
-    "area_note": "Kaposvár, city as defined by Eurostat's city statistics, 1 January 2023",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.7%, Roma 1.8%, German 0.6%, other groups 0.4%, no answer 12.5% (2022). Foreign citizens 0.7%. Born abroad: 1,868, 3.2% of residents (born in another EU country 1,029, outside the EU 839) (2023). Foreign citizens: 0.7% of residents, EU citizens 166 and non-EU citizens 233 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.0% of the labour force (2022).",
-    "religion": "Religion: Roman Catholic 35.2%, Greek Catholic 0.2%, Calvinist (Reformed) 5.2%, Lutheran 1.5%, other Christian 1.4%, other religions 0.3%, no religion 15.2%, no answer 40.0% (2022). Answering was voluntary.",
-    "language": "Mother tongue: Hungarian 87.8%, Romani or Boyash 0.2%, other languages 0.3%, no answer 11.7% (2022)."
-  },
-  "Gyor": {
-    "census_year": 2024,
-    "population": 130191,
-    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
-    "area_note": "Gyõr, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.1%, German 0.5%, Roma 0.5%, other groups 0.5%, Ukrainian 0.4%, no answer 14.0% (2022). Foreign citizens 2.6%. Born abroad: 9,203, 7.1% of residents (born in another EU country 4,521, outside the EU 4,682) (2024). Foreign citizens: 3.1% of residents, EU citizens 1,475 and non-EU citizens 2,558 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 1.4% of the labour force (2022).",
-    "religion": "Religion: Roman Catholic 34.3%, Greek Catholic 0.5%, Calvinist (Reformed) 4.3%, Lutheran 3.8%, other Christian 1.1%, other religions 0.3%, no religion 12.1%, no answer 42.8% (2022). Answering was voluntary.",
-    "language": "Mother tongue: Hungarian 86.2%, German 0.2%, other languages 0.4%, no answer 12.8% (2022)."
   },
   "Dunaujvaros": {
     "census_year": 2023,
@@ -19262,45 +18841,6 @@
     "ethnic": "Born abroad: 17,347, 14.3% of residents (born in another EU country 8,280, outside the EU 9,067) (2025). Foreign citizens: 13.9% of residents, EU citizens 9,857 and non-EU citizens 7,061 (2025). This dataset does not record ethnicity or detailed countries of birth.",
     "economy": "Unemployment 9.4% of the labour force (2023)."
   },
-  "Siauliai": {
-    "census_year": 2025,
-    "population": 112018,
-    "cite": "(Eurostat, 2026)",
-    "area_note": "Šiauliai, city as defined by Eurostat's city statistics, 1 January 2025",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 18,511, 16.5% of residents (born in another EU country 803, outside the EU 17,708) (2025). Foreign citizens: 13.2% of residents, EU citizens 161 and non-EU citizens 14,614 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 6.2% of the labour force (2024)."
-  },
-  "Panevezys": {
-    "census_year": 2025,
-    "population": 85802,
-    "cite": "(Eurostat, 2026)",
-    "area_note": "Panevėžys, city as defined by Eurostat's city statistics, 1 January 2025",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 5,352, 6.2% of residents (born in another EU country 510, outside the EU 4,842) (2025). Foreign citizens: 3.0% of residents, EU citizens 38 and non-EU citizens 2,514 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 6.7% of the labour force (2022)."
-  },
-  "Klaipeda": {
-    "census_year": 2025,
-    "population": 160979,
-    "cite": "(Eurostat, 2026)",
-    "area_note": "Klaipėda, city as defined by Eurostat's city statistics, 1 January 2025",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Born abroad: 28,034, 17.4% of residents (born in another EU country 1,726, outside the EU 26,308) (2025). Foreign citizens: 9.8% of residents, EU citizens 233 and non-EU citizens 15,582 (2025). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 7.1% of the labour force (2024)."
-  },
   "Liepaja": {
     "census_year": 2025,
     "population": 67421,
@@ -19415,21 +18955,6 @@
     "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.6%, Belarusian 0.2% (census, 31 March 2021).",
     "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.5%, Russian 0.3% (2021).",
     "religion": "Religion (answering was voluntary): Roman Catholic 77.4%, Orthodox 0.3%, no religion 4.0%, refused to answer 17.7% (2021)."
-  },
-  "Rzeszow": {
-    "census_year": 2024,
-    "population": 198317,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Rzeszów, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.4%, American 0.2%, English 0.2% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.8% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 68.3%, no religion 6.8%, refused to answer 24.2% (2021)."
   },
   "Radom": {
     "census_year": 2024,
@@ -19595,21 +19120,6 @@
     "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 95.1%, Silesian 13.8%, German 0.4% (census, 31 March 2021).",
     "language": "Language used at home (more than one could be named): Polish 98.2%, Silesian 10.1%, English 2.0%, German 0.6% (2021).",
     "religion": "Religion (answering was voluntary): Roman Catholic 70.0%, Lutheran 0.9%, Jehovah's Witnesses 0.5%, no religion 5.7%, refused to answer 22.1% (2021)."
-  },
-  "Zielona Gora": {
-    "census_year": 2024,
-    "population": 138869,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Zielona Góra, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.4%, German 0.3%, Lemko 0.2% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.6%, English 2.2%, German 0.9%, Ukrainian 0.3% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 55.5%, Jehovah's Witnesses 0.3%, no religion 13.3%, refused to answer 29.9% (2021)."
   },
   "Zgierz": {
     "census_year": 2022,
@@ -19851,21 +19361,6 @@
     "language": "Language used at home (more than one could be named): Polish 96.6%, Silesian 25.7%, English 1.4%, German 0.6% (2021).",
     "religion": "Religion (answering was voluntary): Roman Catholic 70.8%, Jehovah's Witnesses 0.5%, no religion 6.1%, refused to answer 22.1% (2021)."
   },
-  "Poznan": {
-    "census_year": 2024,
-    "population": 536151,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Poznań, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.3%, Ukrainian 0.3%, German 0.3% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.6%, English 3.5%, German 0.6%, Russian 0.4% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 53.1%, Jehovah's Witnesses 0.3%, no religion 15.5%, refused to answer 30.4% (2021)."
-  },
   "Plock": {
     "census_year": 2024,
     "population": 110015,
@@ -20016,21 +19511,6 @@
     "language": "Language used at home (more than one could be named): Polish 99.5%, English 2.1%, German 0.8%, Ukrainian 0.6%, Lemko 0.5% (2021).",
     "religion": "Religion (answering was voluntary): Roman Catholic 62.3%, Orthodox 0.6%, Greek Catholic 0.5%, Jehovah's Witnesses 0.5%, Pentecostal 0.3%, no religion 10.3%, refused to answer 25.1% (2021)."
   },
-  "Krakow": {
-    "census_year": 2024,
-    "population": 809168,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Kraków, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Ukrainian 0.4%, Silesian 0.4% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.5%, English 4.1%, German 0.5%, Russian 0.4% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 58.0%, no religion 13.7%, refused to answer 27.2% (2021)."
-  },
   "Konin": {
     "census_year": 2024,
     "population": 66103,
@@ -20106,21 +19586,6 @@
     "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.8%, German 0.3% (2021).",
     "religion": "Religion (answering was voluntary): Roman Catholic 68.6%, Jehovah's Witnesses 0.3%, no religion 6.4%, refused to answer 24.4% (2021)."
   },
-  "Grudziadz": {
-    "census_year": 2024,
-    "population": 87696,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Grudziądz, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.7%, German 0.3% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.9%, English 1.6%, German 0.7% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 68.6%, Jehovah's Witnesses 0.4%, no religion 7.2%, refused to answer 23.4% (2021)."
-  },
   "Gorzow Wielkopolski": {
     "census_year": 2024,
     "population": 114700,
@@ -20165,36 +19630,6 @@
     "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, German 0.2%, Lemko 0.2% (census, 31 March 2021).",
     "language": "Language used at home (more than one could be named): Polish 99.8%, English 1.7%, German 0.6% (2021).",
     "religion": "Religion (answering was voluntary): Roman Catholic 66.7%, Jehovah's Witnesses 0.4%, Pentecostal 0.3%, no religion 7.6%, refused to answer 24.4% (2021)."
-  },
-  "Gdansk": {
-    "census_year": 2024,
-    "population": 488651,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Gdańsk, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.1%, Kashubian 1.1%, Ukrainian 0.4%, German 0.3%, Belarusian 0.2% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.6%, English 3.5%, German 0.6%, Russian 0.5%, Kashubian 0.3% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 55.1%, Jehovah's Witnesses 0.3%, Orthodox 0.2%, no religion 15.0%, refused to answer 28.5% (2021)."
-  },
-  "Elblag": {
-    "census_year": 2024,
-    "population": 112052,
-    "cite": "(Eurostat, 2026; Główny Urząd Statystyczny, 2023)",
-    "area_note": "Elbląg, city as defined by Eurostat's city statistics, 1 January 2024",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "National-ethnic identity (first or second declaration, so shares can add up to more than 100%): Polish 99.5%, Ukrainian 0.4%, English 0.2% (census, 31 March 2021).",
-    "language": "Language used at home (more than one could be named): Polish 99.7%, English 2.4%, German 0.5% (2021).",
-    "religion": "Religion (answering was voluntary): Roman Catholic 66.0%, Greek Catholic 0.4%, Jehovah's Witnesses 0.4%, no religion 9.3%, refused to answer 23.3% (2021)."
   },
   "Dabrowa Gornicza": {
     "census_year": 2024,
@@ -20589,21 +20024,6 @@
     "religion": "Religion: Romanian Orthodox 53.2%, Reformed 11.4%, Roman Catholic 7.4%, Pentecostal 4.8%, Baptist 3.2%, Greek Catholic 2.5%, no religion 0.8%, atheist 0.5%, no information 14.4% (2021).",
     "language": "Mother tongue: Romanian 67.3%, Hungarian 18.8%, Romani 0.3%, no information 13.0% (2021)."
   },
-  "Iasi": {
-    "census_year": 2018,
-    "population": 378954,
-    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
-    "area_note": "Iași, greater city as defined by Eurostat's city statistics, 1 January 2018",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnicity (self-declared): Romanians 73.8%, no information 25.5% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
-    "religion": "Religion: Romanian Orthodox 67.1%, Roman Catholic 2.5%, no religion 0.7%, atheist 0.7%, Christian according to the Gospel 0.4%, agnostic 0.4%, no information 26.9% (2021).",
-    "language": "Mother tongue: Romanian 73.9%, no information 25.7% (2021)."
-  },
   "Giurgiu": {
     "census_year": 2018,
     "population": 67121,
@@ -20678,21 +20098,6 @@
     "ethnic": "Ethnicity (self-declared): Romanians 81.4%, Roma 1.1%, no information 17.1% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
     "religion": "Religion: Romanian Orthodox 79.1%, atheist 0.4%, no religion 0.3%, no information 18.5% (2021).",
     "language": "Mother tongue: Romanian 82.0%, Romani 0.6%, no information 17.2% (2021)."
-  },
-  "Constanta": {
-    "census_year": 2018,
-    "population": 313021,
-    "cite": "(Eurostat, 2026; Institutul Național de Statistică, 2023)",
-    "area_note": "Constanța, city as defined by Eurostat's city statistics, 1 January 2018",
-    "sources": [
-      "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
-      "Institutul Național de Statistică (2023) Recensământul Populației și Locuințelor 2021, rezultate definitive: tabelele 2.2.2, 2.3.2 și 2.4.2 (populația rezidentă după etnie, limba maternă și religie, pe județe, municipii, orașe, comune, la 1 decembrie 2021). Available at: https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive-caracteristici-etno-culturale-demografice/ (Accessed: 12 November 2026)."
-    ],
-    "ethnic": "Ethnicity (self-declared): Romanians 76.5%, Tatars 2.6%, Turks 1.7%, Roma 0.6%, Lipovan Russians 0.3%, no information 17.8% (census, 1 December 2021). Many people were counted from administrative registers, which record no ethnicity, religion or mother tongue; they appear as no information.",
-    "religion": "Religion: Romanian Orthodox 73.4%, Muslim 4.5%, Roman Catholic 0.6%, atheist 0.5%, no religion 0.4%, no information 19.4% (2021).",
-    "language": "Mother tongue: Romanian 77.7%, Tatar 2.0%, Turkish 1.2%, Romani 0.4%, no information 18.0% (2021)."
   },
   "Cluj-Napoca": {
     "census_year": 2018,
@@ -25529,27 +24934,7 @@
       "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
     ]
   },
-  "Cacak": {
-    "census_year": 2022,
-    "population": 105612,
-    "ethnic": "Ethnicity (self-declared): Serbs 93.6%, Roma 0.5%, other groups and regional affiliation 0.7%, did not declare 1.0%, unknown 4.2% (2022).",
-    "cite": "(Republički zavod za statistiku, 2023)",
-    "area_note": "City of Čačak (grad, including its surrounding villages), census 2022",
-    "sources": [
-      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
-    ]
-  },
   "Niš": {
-    "census_year": 2022,
-    "population": 249501,
-    "ethnic": "Ethnicity (self-declared): Serbs 90.2%, Roma 2.3%, other groups and regional affiliation 1.4%, did not declare 1.7%, unknown 4.3% (2022).",
-    "cite": "(Republički zavod za statistiku, 2023)",
-    "area_note": "City of Niš (grad, including its surrounding villages), census 2022",
-    "sources": [
-      "Republički zavod za statistiku (2023) Popis stanovništva, domaćinstava i stanova 2022: Nacionalna pripadnost, podaci po opštinama i gradovima (Census of Population, Households and Dwellings 2022: Ethnicity, data by municipalities and cities). Belgrade: RZS. Available at: https://publikacije.stat.gov.rs/G2023/Pdf/G20234001.pdf (Accessed: 12 November 2026)."
-    ]
-  },
-  "Nis": {
     "census_year": 2022,
     "population": 249501,
     "ethnic": "Ethnicity (self-declared): Serbs 90.2%, Roma 2.3%, other groups and regional affiliation 1.4%, did not declare 1.7%, unknown 4.3% (2022).",
@@ -26141,18 +25526,6 @@
     ]
   },
   "Chișinău": {
-    "census_year": 2024,
-    "population": 720128,
-    "ethnic": "Ethnicity (self-declared): Moldovans 72.5%, Romanians 12.9%, Russians 5.9%, Ukrainians 5.4%, Bulgarians 0.9%, Gagauz 0.8%, Roma 0.1%, other 1.2%, did not declare 0.3% (2024). Whether to call oneself Moldovan or Romanian, and the language Moldovan or Romanian, is a political question in Moldova; the census records both answers separately.",
-    "language": "Mother tongue: Romanian 47.7%, Moldovan 28.7% (together 76.3%), Russian 19.7%, Ukrainian 2.4%, Gagauz 0.4%, Bulgarian 0.4%, Romani 0.1%, other 0.6%, did not declare 0.1% (2024).",
-    "religion": "Orthodox 92.4%, Baptist 0.7%, Jehovah's Witnesses 0.5%, Evangelical Christian 0.3%, Pentecostal 0.2%, Adventist 0.1%, Old Believers 0.1%, Islam 0.3%, Catholic 0.2%, other religions 0.4%, atheist 1.6%, no religion 1.7%, agnostic 0.3%, did not declare 1.2% (2024).",
-    "cite": "(Biroul Național de Statistică, 2025)",
-    "area_note": "Municipality of Chișinău (municipiul Chișinău, the city and its suburbs), census of 8 April 2024 (usual residents)",
-    "sources": [
-      "Biroul Național de Statistică al Republicii Moldova (2025) Rezultatele finale ale RPL2024: caracteristici etnoculturale (Final results of the 2024 Population and Housing Census: ethnocultural characteristics), infographics for the municipality of Chișinău (ethnicity, mother tongue, religion). Chișinău: BNS. Available at: https://statistica.gov.md/ro/rezultatele-finale-ale-rpl2024-caracteristici-etnoculturale-10123_62044.html (Accessed: 12 November 2026)."
-    ]
-  },
-  "Chisinau": {
     "census_year": 2024,
     "population": 720128,
     "ethnic": "Ethnicity (self-declared): Moldovans 72.5%, Romanians 12.9%, Russians 5.9%, Ukrainians 5.4%, Bulgarians 0.9%, Gagauz 0.8%, Roma 0.1%, other 1.2%, did not declare 0.3% (2024). Whether to call oneself Moldovan or Romanian, and the language Moldovan or Romanian, is a political question in Moldova; the census records both answers separately.",
@@ -30670,18 +30043,6 @@
       "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
     ]
   },
-  "Lulea": {
-    "census_year": 2025,
-    "population": 80304,
-    "ethnic": "Statistics Sweden records country of birth, not ethnicity. Born abroad 13.4% (31 December 2025), most often in Finland (1,653), Thailand (570), Afghanistan (494), Iran (Islamic Republic of) (486), Syrian Arab Republic (456).",
-    "language": "Swedish is the main language; Finnish, Meänkieli, Sámi, Romani and Yiddish are recognised minority languages. Statistics Sweden does not record language.",
-    "religion": "Statistics Sweden does not record religion.",
-    "cite": "(Statistics Sweden, 2026)",
-    "area_note": "Municipality of Luleå (Luleå kommun), register count 31 December 2025",
-    "sources": [
-      "Statistics Sweden (2026) Population by region, country of birth and sex, year 2025 (BE0101E, FolkmRegFlandKCKM). Statistical Database. Available at: https://www.statistikdatabasen.scb.se/ (Accessed: 12 November 2026)."
-    ]
-  },
   "Sundsvall": {
     "census_year": 2025,
     "population": 98962,
@@ -30851,18 +30212,6 @@
     ]
   },
   "Reykjavík": {
-    "census_year": 2026,
-    "population": 139804,
-    "ethnic": "Statistics Iceland records origin and citizenship, not ethnicity. Immigrants (born abroad to foreign-born parents) 37,348, 26.7% of residents; foreign citizens 21.5%, most often of Poland (7,410), Ukraine (2,172), Lithuania (2,099), Romania (1,607) and Latvia (1,056) (1 January 2026).",
-    "language": "Icelandic is the official language; Statistics Iceland does not record language by municipality.",
-    "religion": "Not found yet in the sources checked (Statistics Iceland publishes religious organisation membership nationally).",
-    "cite": "(Statistics Iceland, 2026)",
-    "area_note": "Reykjavík municipality (Reykjavíkurborg), register count 1 January 2026",
-    "sources": [
-      "Statistics Iceland (2026) MAN43005: Immigrants by sex and municipality; MAN04203: Population by sex, municipality and citizenship, 1 January 2026. Available at: https://px.hagstofa.is/pxen/ (Accessed: 12 November 2026)."
-    ]
-  },
-  "Reykjavik": {
     "census_year": 2026,
     "population": 139804,
     "ethnic": "Statistics Iceland records origin and citizenship, not ethnicity. Immigrants (born abroad to foreign-born parents) 37,348, 26.7% of residents; foreign citizens 21.5%, most often of Poland (7,410), Ukraine (2,172), Lithuania (2,099), Romania (1,607) and Latvia (1,056) (1 January 2026).",
