@@ -889,9 +889,11 @@ const GAZETTEER_REFS = [
 ];
 // What a city card and the comparison both show
 function cityFields(en, meta) {
-  let c = (labelData && labelData.census && labelData.census[en]) || null;
-  // Records with coordinates only apply to the city of that name within 60 km (several places share a name)
-  if (c && c.lat != null && Math.hypot((c.lon - meta.lon) * Math.cos((meta.lat * Math.PI) / 180), c.lat - meta.lat) * 111 > 60) c = null;
+  const census = (labelData && labelData.census) || {};
+  // Records with coordinates only apply to the city of that name within 60 km (several places share a name);
+  // a namesake in another country keeps its own record under "Name, Country"
+  const near = (r) => r && (r.lat == null || Math.hypot((r.lon - meta.lon) * Math.cos((meta.lat * Math.PI) / 180), r.lat - meta.lat) * 111 <= 60);
+  let c = [census[en], census[`${en}, ${meta.country}`]].find(near) || null;
   const pop = meta.pop ? `${Number(meta.pop).toLocaleString("en")} (GeoNames or Natural Earth estimate)` : "Not documented";
   // The census row falls back on the gazetteer estimate; a pre-war warning stays with the figure it qualifies
   const censusValue = c && c.population
