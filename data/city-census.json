@@ -34557,5 +34557,1125 @@
     ],
     "lat": 45.831,
     "lon": 16.116
+  },
+  "The Hague": {
+    "census_year": 2025,
+    "population": 568945,
+    "area_note": "'s-Gravenhage municipality, which contains The Hague, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 39.4%, European 18.0% (born abroad 13.8%, born in the Netherlands 4.1%), non-European 42.6% (born abroad 25.0%, born in the Netherlands 17.7%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.08,
+    "lon": 4.27,
+    "economy": "People below the poverty line 6.4% in 2024 (Netherlands 3.1%); average personal income €35,200 per resident (Netherlands €34,900); net labour participation 67% (Netherlands 72%); social assistance (bijstand) 39 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "'s-Gravenhage municipality, 2025: 39,900 crimes recorded by the police, 70.1 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 31.5, violent and sexual offences 7.7, vandalism 6.3, drug offences 1.2. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Amsterdam": {
+    "census_year": 2025,
+    "population": 934526,
+    "area_note": "Amsterdam municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 39.8%, European 17.1% (born abroad 13.0%, born in the Netherlands 4.1%), non-European 43.0% (born abroad 25.4%, born in the Netherlands 17.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.352,
+    "lon": 4.915,
+    "economy": "People below the poverty line 6.7% in 2024 (Netherlands 3.1%); average personal income €41,000 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 39 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Amsterdam municipality, 2025: 81,685 crimes recorded by the police, 87.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 48.2, violent and sexual offences 8.6, vandalism 5.9, drug offences 1.6. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Zwolle": {
+    "census_year": 2025,
+    "population": 133810,
+    "area_note": "Zwolle municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 79.1%, European 5.1% (born abroad 2.9%, born in the Netherlands 2.3%), non-European 15.8% (born abroad 8.5%, born in the Netherlands 7.3%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.513,
+    "lon": 6.094,
+    "economy": "People below the poverty line 2.8% in 2024 (Netherlands 3.1%); average personal income €34,400 per resident (Netherlands €34,900); net labour participation 75% (Netherlands 72%); social assistance (bijstand) 29 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Zwolle municipality, 2025: 7,570 crimes recorded by the police, 56.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 25.1, violent and sexual offences 5.5, vandalism 5.1, drug offences 0.9. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Zoetermeer": {
+    "census_year": 2025,
+    "population": 129862,
+    "area_note": "Zoetermeer municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 62.5%, European 6.9% (born abroad 3.7%, born in the Netherlands 3.1%), non-European 30.6% (born abroad 15.7%, born in the Netherlands 14.9%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.057,
+    "lon": 4.493,
+    "economy": "People below the poverty line 2.8% in 2024 (Netherlands 3.1%); average personal income €34,700 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 23 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Zoetermeer municipality, 2025: 5,685 crimes recorded by the police, 43.8 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 14.9, violent and sexual offences 4.9, vandalism 3.9, drug offences 1.0. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Zeist": {
+    "census_year": 2025,
+    "population": 66671,
+    "area_note": "Zeist municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 72.9%, European 7.3% (born abroad 4.1%, born in the Netherlands 3.2%), non-European 19.9% (born abroad 10.1%, born in the Netherlands 9.7%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.09,
+    "lon": 5.233,
+    "economy": "People below the poverty line 3.0% in 2024 (Netherlands 3.1%); average personal income €41,200 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 19 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Zeist municipality, 2025: 2,105 crimes recorded by the police, 31.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 11.3, violent and sexual offences 3.5, vandalism 3.6, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Zaanstad": {
+    "census_year": 2025,
+    "population": 162828,
+    "area_note": "Zaanstad municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 60.7%, European 10.6% (born abroad 7.0%, born in the Netherlands 3.5%), non-European 28.7% (born abroad 14.5%, born in the Netherlands 14.3%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.453,
+    "lon": 4.814,
+    "economy": "People below the poverty line 3.8% in 2024 (Netherlands 3.1%); average personal income €33,100 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 23 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Zaanstad municipality, 2025: 7,680 crimes recorded by the police, 47.2 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 20.4, violent and sexual offences 5.2, vandalism 4.3, drug offences 0.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Zaandam": {
+    "census_year": 2025,
+    "population": 162828,
+    "area_note": "Zaanstad municipality, which contains Zaandam, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 60.7%, European 10.6% (born abroad 7.0%, born in the Netherlands 3.5%), non-European 28.7% (born abroad 14.5%, born in the Netherlands 14.3%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.439,
+    "lon": 4.826,
+    "economy": "People below the poverty line 3.8% in 2024 (Netherlands 3.1%); average personal income €33,100 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 23 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Zaanstad municipality, 2025: 7,680 crimes recorded by the police, 47.2 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 20.4, violent and sexual offences 5.2, vandalism 4.3, drug offences 0.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Vlaardingen": {
+    "census_year": 2025,
+    "population": 77260,
+    "area_note": "Vlaardingen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 61.1%, European 12.0% (born abroad 8.6%, born in the Netherlands 3.5%), non-European 26.8% (born abroad 12.9%, born in the Netherlands 13.9%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.913,
+    "lon": 4.342,
+    "economy": "People below the poverty line 4.3% in 2024 (Netherlands 3.1%); average personal income €31,900 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 33 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Vlaardingen municipality, 2025: 3,645 crimes recorded by the police, 47.2 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 18.7, violent and sexual offences 6.5, vandalism 4.8, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Venlo": {
+    "census_year": 2025,
+    "population": 103984,
+    "area_note": "Venlo municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 66.7%, European 17.1% (born abroad 10.6%, born in the Netherlands 6.4%), non-European 16.2% (born abroad 9.1%, born in the Netherlands 7.1%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.37,
+    "lon": 6.168,
+    "economy": "People below the poverty line 3.6% in 2024 (Netherlands 3.1%); average personal income €31,100 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 27 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Venlo municipality, 2025: 6,265 crimes recorded by the police, 60.3 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 24.6, violent and sexual offences 5.7, vandalism 5.5, drug offences 2.4. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Veenendaal": {
+    "census_year": 2025,
+    "population": 70352,
+    "area_note": "Veenendaal municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 78.0%, European 5.3% (born abroad 3.0%, born in the Netherlands 2.2%), non-European 16.8% (born abroad 8.5%, born in the Netherlands 8.2%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.029,
+    "lon": 5.559,
+    "economy": "People below the poverty line 2.3% in 2024 (Netherlands 3.1%); average personal income €32,400 per resident (Netherlands €34,900); net labour participation 74% (Netherlands 72%); social assistance (bijstand) 18 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Veenendaal municipality, 2025: 2,245 crimes recorded by the police, 31.9 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 13.6, violent and sexual offences 2.5, vandalism 3.0, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Utrecht": {
+    "census_year": 2025,
+    "population": 376757,
+    "area_note": "Utrecht municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 59.1%, European 10.9% (born abroad 7.3%, born in the Netherlands 3.6%), non-European 29.9% (born abroad 16.3%, born in the Netherlands 13.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.091,
+    "lon": 5.122,
+    "economy": "People below the poverty line 4.0% in 2024 (Netherlands 3.1%); average personal income €38,500 per resident (Netherlands €34,900); net labour participation 75% (Netherlands 72%); social assistance (bijstand) 29 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Utrecht municipality, 2025: 28,015 crimes recorded by the police, 74.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 44.2, violent and sexual offences 5.3, vandalism 4.7, drug offences 1.1. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Tilburg": {
+    "census_year": 2025,
+    "population": 230357,
+    "area_note": "Tilburg municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 66.4%, European 12.4% (born abroad 8.8%, born in the Netherlands 3.5%), non-European 21.2% (born abroad 11.6%, born in the Netherlands 9.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.556,
+    "lon": 5.091,
+    "economy": "People below the poverty line 3.9% in 2024 (Netherlands 3.1%); average personal income €32,400 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 31 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Tilburg municipality, 2025: 13,495 crimes recorded by the police, 58.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 27.8, violent and sexual offences 6.5, vandalism 5.8, drug offences 1.0. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Spijkenisse": {
+    "census_year": 2025,
+    "population": 88341,
+    "area_note": "Nissewaard municipality, which contains Spijkenisse, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 69.1%, European 8.6% (born abroad 4.9%, born in the Netherlands 3.7%), non-European 22.3% (born abroad 11.3%, born in the Netherlands 11.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.845,
+    "lon": 4.329,
+    "economy": "People below the poverty line 2.7% in 2024 (Netherlands 3.1%); average personal income €34,000 per resident (Netherlands €34,900); net labour participation 69% (Netherlands 72%); social assistance (bijstand) 26 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Nissewaard municipality, 2025: 3,830 crimes recorded by the police, 43.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 11.7, violent and sexual offences 6.4, vandalism 4.0, drug offences 1.6. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "'s-Hertogenbosch": {
+    "census_year": 2025,
+    "population": 161530,
+    "area_note": "'s-Hertogenbosch municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 75.0%, European 7.6% (born abroad 4.5%, born in the Netherlands 3.0%), non-European 17.5% (born abroad 9.5%, born in the Netherlands 8.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.699,
+    "lon": 5.304,
+    "economy": "People below the poverty line 2.9% in 2024 (Netherlands 3.1%); average personal income €37,600 per resident (Netherlands €34,900); net labour participation 74% (Netherlands 72%); social assistance (bijstand) 21 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "'s-Hertogenbosch municipality, 2025: 9,200 crimes recorded by the police, 57.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 24.6, violent and sexual offences 6.4, vandalism 4.4, drug offences 1.2. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Schiedam": {
+    "census_year": 2025,
+    "population": 82232,
+    "area_note": "Schiedam municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 51.0%, European 14.4% (born abroad 10.3%, born in the Netherlands 4.0%), non-European 34.7% (born abroad 17.5%, born in the Netherlands 17.2%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.919,
+    "lon": 4.389,
+    "economy": "People below the poverty line 5.0% in 2024 (Netherlands 3.1%); average personal income €32,300 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 28 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Schiedam municipality, 2025: 4,745 crimes recorded by the police, 57.7 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 24.9, violent and sexual offences 6.5, vandalism 5.5, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Rotterdam": {
+    "census_year": 2025,
+    "population": 672960,
+    "area_note": "Rotterdam municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 42.8%, European 12.9% (born abroad 9.2%, born in the Netherlands 3.7%), non-European 44.3% (born abroad 24.7%, born in the Netherlands 19.7%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.922,
+    "lon": 4.479,
+    "economy": "People below the poverty line 6.3% in 2024 (Netherlands 3.1%); average personal income €33,100 per resident (Netherlands €34,900); net labour participation 67% (Netherlands 72%); social assistance (bijstand) 50 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Rotterdam municipality, 2025: 53,875 crimes recorded by the police, 80.1 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 34.9, violent and sexual offences 9.7, vandalism 5.7, drug offences 1.5. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Roosendaal": {
+    "census_year": 2025,
+    "population": 77721,
+    "area_note": "Roosendaal municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 69.7%, European 12.1% (born abroad 8.1%, born in the Netherlands 4.1%), non-European 18.2% (born abroad 9.4%, born in the Netherlands 8.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.531,
+    "lon": 4.465,
+    "economy": "People below the poverty line 3.4% in 2024 (Netherlands 3.1%); average personal income €33,100 per resident (Netherlands €34,900); net labour participation 69% (Netherlands 72%); social assistance (bijstand) 26 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Roosendaal municipality, 2025: 4,225 crimes recorded by the police, 54.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 25.7, violent and sexual offences 5.1, vandalism 4.7, drug offences 1.4. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Purmerend": {
+    "census_year": 2025,
+    "population": 95912,
+    "area_note": "Purmerend municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 69.0%, European 7.8% (born abroad 4.3%, born in the Netherlands 3.5%), non-European 23.2% (born abroad 12.5%, born in the Netherlands 10.7%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.505,
+    "lon": 4.96,
+    "economy": "People below the poverty line 2.4% in 2024 (Netherlands 3.1%); average personal income €34,600 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 18 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Purmerend municipality, 2025: 3,395 crimes recorded by the police, 35.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 11.3, violent and sexual offences 4.2, vandalism 3.6, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Oss": {
+    "census_year": 2025,
+    "population": 95239,
+    "area_note": "Oss municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 76.4%, European 9.8% (born abroad 6.6%, born in the Netherlands 3.2%), non-European 13.8% (born abroad 7.5%, born in the Netherlands 6.4%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.765,
+    "lon": 5.518,
+    "economy": "People below the poverty line 2.5% in 2024 (Netherlands 3.1%); average personal income €33,900 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 20 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Oss municipality, 2025: 4,290 crimes recorded by the police, 45.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 19.8, violent and sexual offences 4.4, vandalism 3.3, drug offences 1.2. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Oosterhout": {
+    "census_year": 2025,
+    "population": 58380,
+    "area_note": "Oosterhout municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 75.9%, European 8.0% (born abroad 4.5%, born in the Netherlands 3.5%), non-European 16.1% (born abroad 7.7%, born in the Netherlands 8.4%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.645,
+    "lon": 4.86,
+    "economy": "People below the poverty line 2.3% in 2024 (Netherlands 3.1%); average personal income €34,400 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 17 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Oosterhout municipality, 2025: 1,960 crimes recorded by the police, 33.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 12.5, violent and sexual offences 4.2, vandalism 3.9, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Nijmegen": {
+    "census_year": 2025,
+    "population": 189007,
+    "area_note": "Nijmegen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 70.5%, European 9.8% (born abroad 5.7%, born in the Netherlands 4.2%), non-European 19.6% (born abroad 11.0%, born in the Netherlands 8.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.843,
+    "lon": 5.853,
+    "economy": "People below the poverty line 4.2% in 2024 (Netherlands 3.1%); average personal income €33,500 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 38 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Nijmegen municipality, 2025: 12,105 crimes recorded by the police, 64.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 34.2, violent and sexual offences 5.5, vandalism 4.7, drug offences 1.3. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Nieuwegein": {
+    "census_year": 2025,
+    "population": 66788,
+    "area_note": "Nieuwegein municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 66.0%, European 7.7% (born abroad 4.5%, born in the Netherlands 3.2%), non-European 26.3% (born abroad 14.3%, born in the Netherlands 12.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.029,
+    "lon": 5.081,
+    "economy": "People below the poverty line 2.5% in 2024 (Netherlands 3.1%); average personal income €34,700 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 21 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Nieuwegein municipality, 2025: 3,775 crimes recorded by the police, 56.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 27.5, violent and sexual offences 4.9, vandalism 4.5, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Maastricht": {
+    "census_year": 2025,
+    "population": 125563,
+    "area_note": "Maastricht municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 61.1%, European 20.9% (born abroad 15.5%, born in the Netherlands 5.4%), non-European 18.0% (born abroad 12.7%, born in the Netherlands 5.4%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 50.848,
+    "lon": 5.689,
+    "economy": "People below the poverty line 4.7% in 2024 (Netherlands 3.1%); average personal income €32,900 per resident (Netherlands €34,900); net labour participation 60% (Netherlands 72%); social assistance (bijstand) 29 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Maastricht municipality, 2025: 7,570 crimes recorded by the police, 60.3 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 27.3, violent and sexual offences 5.9, vandalism 5.4, drug offences 1.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Lelystad": {
+    "census_year": 2025,
+    "population": 84713,
+    "area_note": "Lelystad municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 59.9%, European 10.6% (born abroad 7.0%, born in the Netherlands 3.6%), non-European 29.5% (born abroad 15.7%, born in the Netherlands 13.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.508,
+    "lon": 5.475,
+    "economy": "People below the poverty line 3.7% in 2024 (Netherlands 3.1%); average personal income €31,800 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 24 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Lelystad municipality, 2025: 3,680 crimes recorded by the police, 43.5 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 17.6, violent and sexual offences 5.6, vandalism 3.8, drug offences 1.5. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Leiden": {
+    "census_year": 2025,
+    "population": 130638,
+    "area_note": "Leiden municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 62.5%, European 13.4% (born abroad 9.4%, born in the Netherlands 4.0%), non-European 24.2% (born abroad 14.4%, born in the Netherlands 9.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.158,
+    "lon": 4.493,
+    "economy": "People below the poverty line 4.2% in 2024 (Netherlands 3.1%); average personal income €36,400 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 25 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Leiden municipality, 2025: 7,485 crimes recorded by the police, 57.3 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 28.4, violent and sexual offences 5.2, vandalism 4.3, drug offences 0.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Leeuwarden": {
+    "census_year": 2025,
+    "population": 129973,
+    "area_note": "Leeuwarden municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 78.0%, European 7.0% (born abroad 4.5%, born in the Netherlands 2.5%), non-European 15.0% (born abroad 8.7%, born in the Netherlands 6.3%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 53.203,
+    "lon": 5.81,
+    "economy": "People below the poverty line 4.0% in 2024 (Netherlands 3.1%); average personal income €30,800 per resident (Netherlands €34,900); net labour participation 69% (Netherlands 72%); social assistance (bijstand) 42 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Leeuwarden municipality, 2025: 7,135 crimes recorded by the police, 54.9 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 25.0, violent and sexual offences 5.6, vandalism 5.7, drug offences 1.1. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Hoorn": {
+    "census_year": 2025,
+    "population": 76036,
+    "area_note": "Hoorn municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 71.7%, European 8.6% (born abroad 5.3%, born in the Netherlands 3.3%), non-European 19.6% (born abroad 10.4%, born in the Netherlands 9.2%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.642,
+    "lon": 5.06,
+    "economy": "People below the poverty line 2.6% in 2024 (Netherlands 3.1%); average personal income €33,300 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 20 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Hoorn municipality, 2025: 3,870 crimes recorded by the police, 50.9 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 20.6, violent and sexual offences 6.4, vandalism 5.2, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Hoofddorp": {
+    "census_year": 2025,
+    "population": 165255,
+    "area_note": "Haarlemmermeer municipality, which contains Hoofddorp, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 64.3%, European 9.7% (born abroad 6.1%, born in the Netherlands 3.6%), non-European 26.0% (born abroad 14.3%, born in the Netherlands 11.7%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.303,
+    "lon": 4.689,
+    "economy": "People below the poverty line 2.5% in 2024 (Netherlands 3.1%); average personal income €38,200 per resident (Netherlands €34,900); net labour participation 76% (Netherlands 72%); social assistance (bijstand) 14 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Haarlemmermeer municipality, 2025: 9,830 crimes recorded by the police, 59.5 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 26.1, violent and sexual offences 4.3, vandalism 4.5, drug offences 2.6. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Hilversum": {
+    "census_year": 2025,
+    "population": 94393,
+    "area_note": "Hilversum municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 64.7%, European 12.2% (born abroad 8.2%, born in the Netherlands 4.0%), non-European 23.1% (born abroad 13.6%, born in the Netherlands 9.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.223,
+    "lon": 5.176,
+    "economy": "People below the poverty line 3.9% in 2024 (Netherlands 3.1%); average personal income €39,700 per resident (Netherlands €34,900); net labour participation 73% (Netherlands 72%); social assistance (bijstand) 23 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Hilversum municipality, 2025: 4,150 crimes recorded by the police, 44.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 18.6, violent and sexual offences 4.4, vandalism 4.4, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Hengelo": {
+    "census_year": 2025,
+    "population": 83655,
+    "area_note": "Hengelo municipality (Hengelo (O.)), 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 73.0%, European 7.3% (born abroad 3.6%, born in the Netherlands 3.7%), non-European 19.6% (born abroad 10.7%, born in the Netherlands 9.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.266,
+    "lon": 6.793,
+    "economy": "People below the poverty line 3.0% in 2024 (Netherlands 3.1%); average personal income €32,600 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 29 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Hengelo municipality, 2025: 3,665 crimes recorded by the police, 43.8 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 18.8, violent and sexual offences 4.6, vandalism 4.0, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Helmond": {
+    "census_year": 2025,
+    "population": 96551,
+    "area_note": "Helmond municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 66.9%, European 13.9% (born abroad 9.3%, born in the Netherlands 4.6%), non-European 19.2% (born abroad 10.3%, born in the Netherlands 8.9%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.482,
+    "lon": 5.661,
+    "economy": "People below the poverty line 3.1% in 2024 (Netherlands 3.1%); average personal income €32,600 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 26 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Helmond municipality, 2025: 4,475 crimes recorded by the police, 46.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 16.3, violent and sexual offences 5.7, vandalism 4.4, drug offences 1.0. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Heerlen": {
+    "census_year": 2025,
+    "population": 87522,
+    "area_note": "Heerlen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 67.1%, European 16.0% (born abroad 7.3%, born in the Netherlands 8.7%), non-European 16.9% (born abroad 10.0%, born in the Netherlands 6.9%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 50.884,
+    "lon": 5.982,
+    "economy": "People below the poverty line 5.4% in 2024 (Netherlands 3.1%); average personal income €30,000 per resident (Netherlands €34,900); net labour participation 61% (Netherlands 72%); social assistance (bijstand) 44 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Heerlen municipality, 2025: 5,850 crimes recorded by the police, 66.9 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 23.2, violent and sexual offences 8.3, vandalism 5.8, drug offences 3.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Hardenberg": {
+    "census_year": 2025,
+    "population": 63415,
+    "area_note": "Hardenberg municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 90.6%, European 3.6% (born abroad 1.7%, born in the Netherlands 1.9%), non-European 5.8% (born abroad 4.0%, born in the Netherlands 1.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.576,
+    "lon": 6.619,
+    "economy": "People below the poverty line 1.5% in 2024 (Netherlands 3.1%); average personal income €31,000 per resident (Netherlands €34,900); net labour participation 77% (Netherlands 72%); social assistance (bijstand) 15 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Hardenberg municipality, 2025: 1,625 crimes recorded by the police, 25.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 8.6, violent and sexual offences 2.9, vandalism 2.5, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Haarlem": {
+    "census_year": 2025,
+    "population": 168743,
+    "area_note": "Haarlem municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 62.6%, European 13.0% (born abroad 8.7%, born in the Netherlands 4.3%), non-European 24.4% (born abroad 13.5%, born in the Netherlands 10.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.381,
+    "lon": 4.637,
+    "economy": "People below the poverty line 3.5% in 2024 (Netherlands 3.1%); average personal income €39,300 per resident (Netherlands €34,900); net labour participation 74% (Netherlands 72%); social assistance (bijstand) 21 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Haarlem municipality, 2025: 9,435 crimes recorded by the police, 55.9 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 27.7, violent and sexual offences 4.9, vandalism 5.4, drug offences 0.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Groningen": {
+    "census_year": 2025,
+    "population": 244441,
+    "area_note": "Groningen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 70.5%, European 11.3% (born abroad 8.4%, born in the Netherlands 2.9%), non-European 18.2% (born abroad 11.1%, born in the Netherlands 7.1%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 53.219,
+    "lon": 6.567,
+    "economy": "People below the poverty line 5.8% in 2024 (Netherlands 3.1%); average personal income €32,100 per resident (Netherlands €34,900); net labour participation 68% (Netherlands 72%); social assistance (bijstand) 39 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Groningen municipality, 2025: 14,970 crimes recorded by the police, 61.2 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 34.1, violent and sexual offences 5.6, vandalism 5.1, drug offences 0.9. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Gouda": {
+    "census_year": 2025,
+    "population": 76514,
+    "area_note": "Gouda municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 69.2%, European 8.2% (born abroad 5.3%, born in the Netherlands 2.9%), non-European 22.6% (born abroad 11.9%, born in the Netherlands 10.7%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.017,
+    "lon": 4.708,
+    "economy": "People below the poverty line 2.7% in 2024 (Netherlands 3.1%); average personal income €34,500 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 26 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Gouda municipality, 2025: 3,810 crimes recorded by the police, 49.8 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 21.3, violent and sexual offences 5.5, vandalism 4.3, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Enschede": {
+    "census_year": 2025,
+    "population": 162317,
+    "area_note": "Enschede municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 65.4%, European 11.4% (born abroad 6.6%, born in the Netherlands 4.8%), non-European 23.2% (born abroad 13.6%, born in the Netherlands 9.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.218,
+    "lon": 6.896,
+    "economy": "People below the poverty line 4.9% in 2024 (Netherlands 3.1%); average personal income €29,800 per resident (Netherlands €34,900); net labour participation 66% (Netherlands 72%); social assistance (bijstand) 39 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Enschede municipality, 2025: 10,545 crimes recorded by the police, 65.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 36.6, violent and sexual offences 4.9, vandalism 5.1, drug offences 0.7. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Emmen": {
+    "census_year": 2025,
+    "population": 109678,
+    "area_note": "Emmen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 84.4%, European 7.1% (born abroad 3.8%, born in the Netherlands 3.3%), non-European 8.5% (born abroad 5.0%, born in the Netherlands 3.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.779,
+    "lon": 6.907,
+    "economy": "People below the poverty line 2.9% in 2024 (Netherlands 3.1%); average personal income €30,700 per resident (Netherlands €34,900); net labour participation 67% (Netherlands 72%); social assistance (bijstand) 27 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Emmen municipality, 2025: 4,130 crimes recorded by the police, 37.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 15.1, violent and sexual offences 5.7, vandalism 4.4, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Eindhoven": {
+    "census_year": 2025,
+    "population": 249035,
+    "area_note": "Eindhoven municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 54.2%, European 14.8% (born abroad 10.8%, born in the Netherlands 4.1%), non-European 31.0% (born abroad 20.4%, born in the Netherlands 10.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.441,
+    "lon": 5.478,
+    "economy": "People below the poverty line 4.1% in 2024 (Netherlands 3.1%); average personal income €36,400 per resident (Netherlands €34,900); net labour participation 71% (Netherlands 72%); social assistance (bijstand) 27 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Eindhoven municipality, 2025: 19,315 crimes recorded by the police, 77.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 39.9, violent and sexual offences 6.9, vandalism 5.4, drug offences 1.7. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Ede": {
+    "census_year": 2025,
+    "population": 124214,
+    "area_note": "Ede municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 81.1%, European 5.2% (born abroad 3.0%, born in the Netherlands 2.2%), non-European 13.7% (born abroad 7.2%, born in the Netherlands 6.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.033,
+    "lon": 5.658,
+    "economy": "People below the poverty line 2.0% in 2024 (Netherlands 3.1%); average personal income €33,600 per resident (Netherlands €34,900); net labour participation 75% (Netherlands 72%); social assistance (bijstand) 15 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Ede municipality, 2025: 4,540 crimes recorded by the police, 36.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 15.7, violent and sexual offences 3.3, vandalism 3.4, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Dordrecht": {
+    "census_year": 2025,
+    "population": 122796,
+    "area_note": "Dordrecht municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 65.3%, European 10.1% (born abroad 6.5%, born in the Netherlands 3.7%), non-European 24.6% (born abroad 12.8%, born in the Netherlands 11.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.81,
+    "lon": 4.674,
+    "economy": "People below the poverty line 3.6% in 2024 (Netherlands 3.1%); average personal income €33,900 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 30 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Dordrecht municipality, 2025: 6,655 crimes recorded by the police, 54.2 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 20.7, violent and sexual offences 6.1, vandalism 3.7, drug offences 1.7. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Deventer": {
+    "census_year": 2025,
+    "population": 104301,
+    "area_note": "Deventer municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 74.9%, European 7.1% (born abroad 4.1%, born in the Netherlands 3.0%), non-European 17.9% (born abroad 9.4%, born in the Netherlands 8.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.255,
+    "lon": 6.164,
+    "economy": "People below the poverty line 3.2% in 2024 (Netherlands 3.1%); average personal income €33,300 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 27 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Deventer municipality, 2025: 4,670 crimes recorded by the police, 44.8 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 20.1, violent and sexual offences 3.8, vandalism 4.3, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Den Helder": {
+    "census_year": 2025,
+    "population": 56662,
+    "area_note": "Den Helder municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 76.6%, European 6.5% (born abroad 3.6%, born in the Netherlands 2.9%), non-European 16.9% (born abroad 9.0%, born in the Netherlands 8.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.96,
+    "lon": 4.759,
+    "economy": "People below the poverty line 2.8% in 2024 (Netherlands 3.1%); average personal income €32,600 per resident (Netherlands €34,900); net labour participation 68% (Netherlands 72%); social assistance (bijstand) 24 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Den Helder municipality, 2025: 3,260 crimes recorded by the police, 57.5 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 24.8, violent and sexual offences 5.8, vandalism 6.0, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Delft": {
+    "census_year": 2025,
+    "population": 110173,
+    "area_note": "Delft municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 57.3%, European 14.0% (born abroad 10.2%, born in the Netherlands 3.8%), non-European 28.7% (born abroad 18.4%, born in the Netherlands 10.3%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.007,
+    "lon": 4.356,
+    "economy": "People below the poverty line 4.0% in 2024 (Netherlands 3.1%); average personal income €33,200 per resident (Netherlands €34,900); net labour participation 66% (Netherlands 72%); social assistance (bijstand) 27 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Delft municipality, 2025: 5,975 crimes recorded by the police, 54.2 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 30.5, violent and sexual offences 4.2, vandalism 4.0, drug offences 1.0. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Capelle aan den IJssel": {
+    "census_year": 2025,
+    "population": 68624,
+    "area_note": "Capelle aan den IJssel municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 57.3%, European 9.0% (born abroad 5.4%, born in the Netherlands 3.6%), non-European 33.7% (born abroad 18.2%, born in the Netherlands 15.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.929,
+    "lon": 4.578,
+    "economy": "People below the poverty line 3.6% in 2024 (Netherlands 3.1%); average personal income €34,500 per resident (Netherlands €34,900); net labour participation 69% (Netherlands 72%); social assistance (bijstand) 27 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Capelle aan den IJssel municipality, 2025: 2,970 crimes recorded by the police, 43.3 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 15.1, violent and sexual offences 5.7, vandalism 4.1, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Breda": {
+    "census_year": 2025,
+    "population": 188779,
+    "area_note": "Breda municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 71.7%, European 10.0% (born abroad 6.1%, born in the Netherlands 3.8%), non-European 18.4% (born abroad 9.8%, born in the Netherlands 8.6%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.587,
+    "lon": 4.776,
+    "economy": "People below the poverty line 3.2% in 2024 (Netherlands 3.1%); average personal income €37,300 per resident (Netherlands €34,900); net labour participation 73% (Netherlands 72%); social assistance (bijstand) 25 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Breda municipality, 2025: 11,640 crimes recorded by the police, 61.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 27.6, violent and sexual offences 6.4, vandalism 5.9, drug offences 1.4. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Bergen op Zoom": {
+    "census_year": 2025,
+    "population": 70194,
+    "area_note": "Bergen op Zoom municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 70.1%, European 9.7% (born abroad 6.1%, born in the Netherlands 3.6%), non-European 20.2% (born abroad 10.2%, born in the Netherlands 10.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.495,
+    "lon": 4.292,
+    "economy": "People below the poverty line 3.4% in 2024 (Netherlands 3.1%); average personal income €33,700 per resident (Netherlands €34,900); net labour participation 69% (Netherlands 72%); social assistance (bijstand) 28 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Bergen op Zoom municipality, 2025: 3,840 crimes recorded by the police, 54.7 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 23.0, violent and sexual offences 6.0, vandalism 5.7, drug offences 2.0. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Assen": {
+    "census_year": 2025,
+    "population": 70392,
+    "area_note": "Assen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 79.7%, European 5.4% (born abroad 3.2%, born in the Netherlands 2.2%), non-European 14.9% (born abroad 8.3%, born in the Netherlands 6.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.997,
+    "lon": 6.562,
+    "economy": "People below the poverty line 2.7% in 2024 (Netherlands 3.1%); average personal income €32,400 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 29 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Assen municipality, 2025: 3,080 crimes recorded by the police, 43.7 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 16.8, violent and sexual offences 4.9, vandalism 5.9, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Arnhem": {
+    "census_year": 2025,
+    "population": 169364,
+    "area_note": "Arnhem municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 62.3%, European 9.1% (born abroad 5.5%, born in the Netherlands 3.6%), non-European 28.6% (born abroad 16.2%, born in the Netherlands 12.4%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 51.98,
+    "lon": 5.911,
+    "economy": "People below the poverty line 4.9% in 2024 (Netherlands 3.1%); average personal income €33,300 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 43 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Arnhem municipality, 2025: 11,455 crimes recorded by the police, 67.6 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 28.8, violent and sexual offences 6.7, vandalism 6.0, drug offences 1.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Apeldoorn": {
+    "census_year": 2025,
+    "population": 168551,
+    "area_note": "Apeldoorn municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 78.3%, European 6.3% (born abroad 3.5%, born in the Netherlands 2.8%), non-European 15.4% (born abroad 8.4%, born in the Netherlands 7.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.21,
+    "lon": 5.969,
+    "economy": "People below the poverty line 2.7% in 2024 (Netherlands 3.1%); average personal income €34,500 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 22 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Apeldoorn municipality, 2025: 7,655 crimes recorded by the police, 45.4 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 20.0, violent and sexual offences 3.6, vandalism 4.0, drug offences 1.0. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Amstelveen": {
+    "census_year": 2025,
+    "population": 95822,
+    "area_note": "Amstelveen municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 46.2%, European 14.7% (born abroad 10.3%, born in the Netherlands 4.5%), non-European 39.1% (born abroad 26.5%, born in the Netherlands 12.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.301,
+    "lon": 4.864,
+    "economy": "People below the poverty line 3.9% in 2024 (Netherlands 3.1%); average personal income €44,400 per resident (Netherlands €34,900); net labour participation 70% (Netherlands 72%); social assistance (bijstand) 13 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Amstelveen municipality, 2025: 3,735 crimes recorded by the police, 39.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 19.5, violent and sexual offences 3.7, vandalism 2.8, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Amersfoort": {
+    "census_year": 2025,
+    "population": 163298,
+    "area_note": "Amersfoort municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 71.1%, European 6.3% (born abroad 3.4%, born in the Netherlands 2.9%), non-European 22.6% (born abroad 11.5%, born in the Netherlands 11.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.155,
+    "lon": 5.388,
+    "economy": "People below the poverty line 2.4% in 2024 (Netherlands 3.1%); average personal income €37,700 per resident (Netherlands €34,900); net labour participation 75% (Netherlands 72%); social assistance (bijstand) 22 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Amersfoort municipality, 2025: 7,365 crimes recorded by the police, 45.1 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 21.9, violent and sexual offences 3.9, vandalism 4.1, drug offences 0.7. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Alphen aan den Rijn": {
+    "census_year": 2025,
+    "population": 115773,
+    "area_note": "Alphen aan den Rijn municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 75.5%, European 7.8% (born abroad 4.9%, born in the Netherlands 2.9%), non-European 16.7% (born abroad 8.6%, born in the Netherlands 8.1%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.129,
+    "lon": 4.655,
+    "economy": "People below the poverty line 1.9% in 2024 (Netherlands 3.1%); average personal income €36,000 per resident (Netherlands €34,900); net labour participation 76% (Netherlands 72%); social assistance (bijstand) 16 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Alphen aan den Rijn municipality, 2025: 3,970 crimes recorded by the police, 34.3 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 13.6, violent and sexual offences 4.1, vandalism 3.2, drug offences 1.2. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Almere Stad": {
+    "census_year": 2025,
+    "population": 229574,
+    "area_note": "Almere municipality, which contains Almere Stad, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 49.6%, European 9.0% (born abroad 5.7%, born in the Netherlands 3.3%), non-European 41.4% (born abroad 22.3%, born in the Netherlands 19.1%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.37,
+    "lon": 5.214,
+    "economy": "People below the poverty line 3.5% in 2024 (Netherlands 3.1%); average personal income €34,400 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 24 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Almere municipality, 2025: 9,405 crimes recorded by the police, 41.0 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 17.2, violent and sexual offences 4.3, vandalism 3.5, drug offences 0.8. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Almelo": {
+    "census_year": 2025,
+    "population": 74776,
+    "area_note": "Almelo municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 70.3%, European 8.6% (born abroad 5.1%, born in the Netherlands 3.4%), non-European 21.1% (born abroad 11.3%, born in the Netherlands 9.9%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.357,
+    "lon": 6.662,
+    "economy": "People below the poverty line 4.2% in 2024 (Netherlands 3.1%); average personal income €29,900 per resident (Netherlands €34,900); net labour participation 69% (Netherlands 72%); social assistance (bijstand) 33 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Almelo municipality, 2025: 3,525 crimes recorded by the police, 47.1 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 17.7, violent and sexual offences 4.8, vandalism 5.4, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Alkmaar": {
+    "census_year": 2025,
+    "population": 112896,
+    "area_note": "Alkmaar municipality, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 74.0%, European 8.1% (born abroad 4.7%, born in the Netherlands 3.4%), non-European 17.9% (born abroad 9.7%, born in the Netherlands 8.2%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Geregistreerde criminaliteit; soort misdrijf, regio (83648NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83648NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.632,
+    "lon": 4.749,
+    "economy": "People below the poverty line 2.7% in 2024 (Netherlands 3.1%); average personal income €34,700 per resident (Netherlands €34,900); net labour participation 72% (Netherlands 72%); social assistance (bijstand) 23 recipients per 1,000 residents at the end of 2025 (Netherlands 23).",
+    "crime": "Alkmaar municipality, 2025: 5,900 crimes recorded by the police, 52.3 per 1,000 residents (Netherlands 45.2). Per 1,000 residents: theft and burglary 23.6, violent and sexual offences 5.3, vandalism 5.7, drug offences None. Rates use the resident population, so places with many visitors or commuters show higher figures."
+  },
+  "Amsterdam-Zuidoost": {
+    "census_year": 2025,
+    "population": 93200,
+    "area_note": "Amsterdam borough (stadsdeel) Zuidoost, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 20.6%, European 11.6% (born abroad 9.4%, born in the Netherlands 2.2%), non-European 67.8% (born abroad 42.7%, born in the Netherlands 25.1%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.307,
+    "lon": 4.972,
+    "economy": "People below the poverty line 8.5% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 50 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Amsterdam-Noord": {
+    "census_year": 2025,
+    "population": 110550,
+    "area_note": "Amsterdam borough (stadsdeel) Noord, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 43.7%, European 13.1% (born abroad 9.2%, born in the Netherlands 3.9%), non-European 43.2% (born abroad 23.2%, born in the Netherlands 20.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.391,
+    "lon": 4.91,
+    "economy": "People below the poverty line 6.2% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 51 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Amsterdam Nieuw-West": {
+    "census_year": 2025,
+    "population": 166425,
+    "area_note": "Amsterdam borough (stadsdeel) Nieuw-West, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 27.4%, European 14.9% (born abroad 11.8%, born in the Netherlands 3.1%), non-European 57.8% (born abroad 30.6%, born in the Netherlands 27.2%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.356,
+    "lon": 4.806,
+    "economy": "People below the poverty line 7.9% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 44 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Amsterdam-Oost": {
+    "census_year": 2025,
+    "population": 147945,
+    "area_note": "Amsterdam borough (stadsdeel) Oost, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 43.7%, European 17.3% (born abroad 12.7%, born in the Netherlands 4.6%), non-European 39.0% (born abroad 22.7%, born in the Netherlands 16.3%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.352,
+    "lon": 4.934,
+    "economy": "People below the poverty line 5.4% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 37 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Amsterdam-Centrum": {
+    "census_year": 2025,
+    "population": 90990,
+    "area_note": "Amsterdam borough (stadsdeel) Centrum, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 49.2%, European 22.5% (born abroad 17.6%, born in the Netherlands 4.9%), non-European 28.3% (born abroad 18.8%, born in the Netherlands 9.5%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.374,
+    "lon": 4.899,
+    "economy": "People below the poverty line 7.2% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 24 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Amsterdam-Zuid": {
+    "census_year": 2025,
+    "population": 146985,
+    "area_note": "Amsterdam borough (stadsdeel) Zuid, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 47.0%, European 21.5% (born abroad 16.2%, born in the Netherlands 5.2%), non-European 31.5% (born abroad 20.7%, born in the Netherlands 10.8%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.347,
+    "lon": 4.877,
+    "economy": "People below the poverty line 5.9% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 26 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
+  },
+  "Amsterdam-West": {
+    "census_year": 2025,
+    "population": 149995,
+    "area_note": "Amsterdam borough (stadsdeel) West, sum of its CBS districts, 1 January 2025",
+    "ethnic": "Origin, 1 January 2025 (CBS classifies residents by their own country of birth or, if born in the Netherlands, their parents'): Dutch 42.0%, European 19.5% (born abroad 14.9%, born in the Netherlands 4.6%), non-European 38.6% (born abroad 23.6%, born in the Netherlands 15.0%). Netherlands: non-European 19.0%. Turkey counts as outside Europe. CBS does not record ethnicity.",
+    "language": "Dutch is the official language (Frisian also in Friesland); the population register does not record language.",
+    "religion": "The population register does not record religion.",
+    "cite": "(CBS, 2026)",
+    "sources": [
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2025 (86165NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/86165NED (Accessed: 12 November 2026).",
+      "Centraal Bureau voor de Statistiek (2026) Kerncijfers wijken en buurten 2024 (85984NED). StatLine. Available at: https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85984NED (Accessed: 12 November 2026)."
+    ],
+    "lat": 52.378,
+    "lon": 4.866,
+    "economy": "People below the poverty line 6.8% in 2024 (population-weighted average of districts) (Netherlands 3.1%); social assistance (bijstand) 43 recipients per 1,000 residents at the end of 2025 (Netherlands 23)."
   }
 }
