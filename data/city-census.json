@@ -619,21 +619,6 @@
     ],
     "cite": "(Wikipedia, n.d., reporting the 2022 Serbian census)"
   },
-  "Szeged": {
-    "lat": 46.25,
-    "lon": 20.15,
-    "area_note": "City",
-    "census_year": 2022,
-    "population": 158797,
-    "ethnic": "Hungarians 83.9%, Roma 0.9%, Germans 0.9%, Serbs 0.8%, Romanians 0.3%, Slovaks 0.2% (infobox figures; the official agency is not named on the page).",
-    "language": "Not documented in the source used.",
-    "religion": "Roman Catholic 36.4%, Calvinist 4.8%, Lutheran 1.2%, Greek Catholic 0.4%, non-religious 23.4%, unknown 31.4% (agency not named on the page).",
-    "economy": "Unemployment 4.1% in 2016, after a peak of 6.9% in 2013.",
-    "sources": [
-      "Wikipedia (n.d.) Szeged. Available at: https://en.wikipedia.org/wiki/Szeged (Accessed: 8 November 2026)."
-    ],
-    "cite": "(Wikipedia, n.d.)"
-  },
   "Daugavpils": {
     "lat": 55.88,
     "lon": 26.53,
@@ -12983,15 +12968,18 @@
   "Budapest": {
     "census_year": 2024,
     "population": 1686222,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Budapest, greater city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 220,366, 13.1% of residents (born in another EU country 86,449, outside the EU 133,917) (2024). Foreign citizens: 6.8% of residents, EU citizens 23,540 and non-EU citizens 90,424 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 1.9% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 79.2%, other groups 2.2%, German 0.9%, Roma 0.7%, Ukrainian 0.4%, no answer 18.3% (2022). Foreign citizens 5.8%. Born abroad: 220,366, 13.1% of residents (born in another EU country 86,449, outside the EU 133,917) (2024). Foreign citizens: 6.8% of residents, EU citizens 23,540 and non-EU citizens 90,424 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 1.9% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 22.6%, Greek Catholic 1.0%, Calvinist (Reformed) 7.5%, Lutheran 1.6%, Orthodox 0.3%, other Christian 1.7%, Jewish 0.3%, other religions 0.7%, no religion 19.2%, no answer 44.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 81.2%, German 0.2%, other languages 2.5%, no answer 15.8% (2022)."
   },
   "Barcelona": {
     "census_year": 2024,
@@ -13283,54 +13271,66 @@
   "Szombathely": {
     "census_year": 2024,
     "population": 77757,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Szombathely, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,399, 4.4% of residents (born in another EU country 1,675, outside the EU 1,724) (2024). Foreign citizens: 1.5% of residents, EU citizens 269 and non-EU citizens 903 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.6% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.4%, German 0.6%, Croatian 0.5%, other groups 0.5%, Roma 0.5%, no answer 12.4% (2022). Foreign citizens 2.1%. Born abroad: 3,399, 4.4% of residents (born in another EU country 1,675, outside the EU 1,724) (2024). Foreign citizens: 1.5% of residents, EU citizens 269 and non-EU citizens 903 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.6% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 42.8%, Greek Catholic 0.2%, Calvinist (Reformed) 2.1%, Lutheran 2.5%, Orthodox 0.2%, other Christian 1.3%, other religions 0.2%, no religion 9.1%, no answer 40.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 87.7%, German 0.2%, Croatian 0.2%, other languages 0.4%, no answer 11.2% (2022)."
   },
   "Kecskemét": {
     "census_year": 2024,
     "population": 109450,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Kecskemét, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 6,178, 5.6% of residents (born in another EU country 2,744, outside the EU 3,434) (2024). Foreign citizens: 1.5% of residents, EU citizens 528 and non-EU citizens 1,152 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.5% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.6%, Roma 0.6%, German 0.4%, other groups 0.4%, no answer 15.7% (2022). Foreign citizens 1.5%. Born abroad: 6,178, 5.6% of residents (born in another EU country 2,744, outside the EU 3,434) (2024). Foreign citizens: 1.5% of residents, EU citizens 528 and non-EU citizens 1,152 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.5% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 29.8%, Greek Catholic 0.5%, Calvinist (Reformed) 8.4%, Lutheran 1.1%, other Christian 1.5%, other religions 0.3%, no religion 13.7%, no answer 43.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 84.8%, German 0.2%, other languages 0.3%, no answer 14.6% (2022)."
   },
   "Székesfehérvár": {
     "census_year": 2024,
     "population": 96024,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Székesfehérvár, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 5,561, 5.8% of residents (born in another EU country 2,337, outside the EU 3,224) (2024). Foreign citizens: 2.4% of residents, EU citizens 347 and non-EU citizens 1,946 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.6%, German 0.6%, other groups 0.4%, Roma 0.3%, no answer 13.6% (2022). Foreign citizens 1.6%. Born abroad: 5,561, 5.8% of residents (born in another EU country 2,337, outside the EU 3,224) (2024). Foreign citizens: 2.4% of residents, EU citizens 347 and non-EU citizens 1,946 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 26.9%, Greek Catholic 0.4%, Calvinist (Reformed) 7.5%, Lutheran 1.2%, other Christian 1.3%, other religions 0.2%, no religion 18.1%, no answer 43.4% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.9%, other languages 0.4%, no answer 12.5% (2022)."
   },
   "Nyíregyháza": {
     "census_year": 2024,
     "population": 115359,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Nyíregyháza, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 7,650, 6.6% of residents (born in another EU country 2,347, outside the EU 5,303) (2024). Foreign citizens: 1.3% of residents, EU citizens 377 and non-EU citizens 1,087 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.3% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.4%, Roma 0.9%, Ukrainian 0.5%, other groups 0.4%, no answer 12.8% (2022). Foreign citizens 1.1%. Born abroad: 7,650, 6.6% of residents (born in another EU country 2,347, outside the EU 5,303) (2024). Foreign citizens: 1.3% of residents, EU citizens 377 and non-EU citizens 1,087 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.3% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 16.0%, Greek Catholic 9.6%, Calvinist (Reformed) 16.2%, Lutheran 5.5%, other Christian 1.5%, no religion 9.4%, no answer 41.0% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 87.3%, other languages 0.4%, no answer 12.1% (2022)."
   },
   "Panevežys": {
     "census_year": 2025,
@@ -13805,80 +13805,98 @@
   "Pécs": {
     "census_year": 2024,
     "population": 140330,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Pécs, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 11,893, 8.5% of residents (born in another EU country 5,363, outside the EU 6,530) (2024). Foreign citizens: 5.0% of residents, EU citizens 2,630 and non-EU citizens 4,403 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.0% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 79.4%, German 3.0%, Roma 1.4%, other groups 1.2%, Croatian 0.9%, no answer 17.9% (2022). Foreign citizens 3.7%. Born abroad: 11,893, 8.5% of residents (born in another EU country 5,363, outside the EU 6,530) (2024). Foreign citizens: 5.0% of residents, EU citizens 2,630 and non-EU citizens 4,403 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.0% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 29.4%, Greek Catholic 0.3%, Calvinist (Reformed) 4.4%, Lutheran 1.2%, other Christian 1.9%, other religions 0.6%, no religion 17.3%, no answer 43.9% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 81.7%, Romani or Boyash 0.3%, German 0.9%, Croatian 0.4%, other languages 1.3%, no answer 16.2% (2022)."
   },
   "Győr": {
     "census_year": 2024,
     "population": 130191,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Gyõr, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 9,203, 7.1% of residents (born in another EU country 4,521, outside the EU 4,682) (2024). Foreign citizens: 3.1% of residents, EU citizens 1,475 and non-EU citizens 2,558 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 1.4% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.1%, German 0.5%, Roma 0.5%, other groups 0.5%, Ukrainian 0.4%, no answer 14.0% (2022). Foreign citizens 2.6%. Born abroad: 9,203, 7.1% of residents (born in another EU country 4,521, outside the EU 4,682) (2024). Foreign citizens: 3.1% of residents, EU citizens 1,475 and non-EU citizens 2,558 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 1.4% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 34.3%, Greek Catholic 0.5%, Calvinist (Reformed) 4.3%, Lutheran 3.8%, other Christian 1.1%, other religions 0.3%, no religion 12.1%, no answer 42.8% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.2%, German 0.2%, other languages 0.4%, no answer 12.8% (2022)."
   },
   "Kaposvár": {
     "census_year": 2023,
     "population": 59270,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Kaposvár, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,868, 3.2% of residents (born in another EU country 1,029, outside the EU 839) (2023). Foreign citizens: 0.7% of residents, EU citizens 166 and non-EU citizens 233 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.0% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.7%, Roma 1.8%, German 0.6%, other groups 0.4%, no answer 12.5% (2022). Foreign citizens 0.7%. Born abroad: 1,868, 3.2% of residents (born in another EU country 1,029, outside the EU 839) (2023). Foreign citizens: 0.7% of residents, EU citizens 166 and non-EU citizens 233 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.0% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 35.2%, Greek Catholic 0.2%, Calvinist (Reformed) 5.2%, Lutheran 1.5%, other Christian 1.4%, other religions 0.3%, no religion 15.2%, no answer 40.0% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 87.8%, Romani or Boyash 0.2%, other languages 0.3%, no answer 11.7% (2022)."
   },
   "Miskolc": {
     "census_year": 2024,
     "population": 143502,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Miskolc, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 5,727, 4.0% of residents (born in another EU country 2,536, outside the EU 3,191) (2024). Foreign citizens: 1.2% of residents, EU citizens 488 and non-EU citizens 1,298 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.5% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 82.6%, Roma 1.6%, other groups 0.4%, no answer 16.3% (2022). Foreign citizens 1.0%. Born abroad: 5,727, 4.0% of residents (born in another EU country 2,536, outside the EU 3,191) (2024). Foreign citizens: 1.2% of residents, EU citizens 488 and non-EU citizens 1,298 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.5% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 23.2%, Greek Catholic 4.0%, Calvinist (Reformed) 14.2%, Lutheran 0.8%, other Christian 1.2%, other religions 0.3%, no religion 12.2%, no answer 43.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 84.2%, other languages 0.4%, no answer 15.2% (2022)."
   },
   "Debrecen": {
     "census_year": 2024,
     "population": 201704,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Debrecen, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 19,311, 9.6% of residents (born in another EU country 7,798, outside the EU 11,513) (2024). Foreign citizens: 4.3% of residents, EU citizens 869 and non-EU citizens 7,897 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.4% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.2%, other groups 1.5%, Roma 0.4%, no answer 13.1% (2022). Foreign citizens 3.3%. Born abroad: 19,311, 9.6% of residents (born in another EU country 7,798, outside the EU 11,513) (2024). Foreign citizens: 4.3% of residents, EU citizens 869 and non-EU citizens 7,897 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.4% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 9.0%, Greek Catholic 5.4%, Calvinist (Reformed) 22.4%, Lutheran 0.4%, other Christian 1.9%, other religions 0.7%, no religion 21.0%, no answer 38.9% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.0%, other languages 1.7%, no answer 12.2% (2022)."
   },
   "Szolnok": {
     "census_year": 2023,
     "population": 67126,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Szolnok, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,584, 3.8% of residents (born in another EU country 1,175, outside the EU 1,409) (2023). Foreign citizens: 1.2% of residents, EU citizens 153 and non-EU citizens 658 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.7% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.5%, Roma 1.0%, no answer 13.9% (2022). Foreign citizens 1.1%. Born abroad: 2,584, 3.8% of residents (born in another EU country 1,175, outside the EU 1,409) (2023). Foreign citizens: 1.2% of residents, EU citizens 153 and non-EU citizens 658 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.7% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 19.9%, Greek Catholic 0.7%, Calvinist (Reformed) 5.7%, Lutheran 0.6%, other Christian 1.2%, other religions 0.3%, no religion 28.0%, no answer 43.0% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.7%, other languages 0.3%, no answer 12.9% (2022)."
   },
   "Alicante": {
     "census_year": 2024,
@@ -17546,171 +17564,210 @@
   "Nyiregyhaza": {
     "census_year": 2024,
     "population": 115359,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Nyíregyháza, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 7,650, 6.6% of residents (born in another EU country 2,347, outside the EU 5,303) (2024). Foreign citizens: 1.3% of residents, EU citizens 377 and non-EU citizens 1,087 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.3% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.4%, Roma 0.9%, Ukrainian 0.5%, other groups 0.4%, no answer 12.8% (2022). Foreign citizens 1.1%. Born abroad: 7,650, 6.6% of residents (born in another EU country 2,347, outside the EU 5,303) (2024). Foreign citizens: 1.3% of residents, EU citizens 377 and non-EU citizens 1,087 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.3% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 16.0%, Greek Catholic 9.6%, Calvinist (Reformed) 16.2%, Lutheran 5.5%, other Christian 1.5%, no religion 9.4%, no answer 41.0% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 87.3%, other languages 0.4%, no answer 12.1% (2022)."
   },
   "Eger": {
     "census_year": 2023,
     "population": 50018,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Eger, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,908, 3.8% of residents (born in another EU country 1,125, outside the EU 783) (2023). Foreign citizens: 0.9% of residents, EU citizens 172 and non-EU citizens 268 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.4% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 87.3%, Roma 1.6%, other groups 0.4%, no answer 11.5% (2022). Foreign citizens 1.1%. Born abroad: 1,908, 3.8% of residents (born in another EU country 1,125, outside the EU 783) (2023). Foreign citizens: 0.9% of residents, EU citizens 172 and non-EU citizens 268 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.4% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 36.1%, Greek Catholic 0.7%, Calvinist (Reformed) 5.7%, Lutheran 0.4%, other Christian 1.4%, other religions 0.4%, no religion 14.4%, no answer 39.9% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 88.8%, other languages 0.4%, no answer 10.5% (2022)."
   },
   "Bekescsaba": {
     "census_year": 2023,
     "population": 55091,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Békéscsaba, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,483, 4.5% of residents (born in another EU country 1,565, outside the EU 918) (2023). Foreign citizens: 0.4% of residents, EU citizens 79 and non-EU citizens 152 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 5.0% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.8%, Slovak 2.1%, Roma 0.6%, no answer 12.1% (2022). Foreign citizens 0.6%. Born abroad: 2,483, 4.5% of residents (born in another EU country 1,565, outside the EU 918) (2023). Foreign citizens: 0.4% of residents, EU citizens 79 and non-EU citizens 152 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 5.0% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 13.4%, Greek Catholic 0.3%, Calvinist (Reformed) 6.5%, Lutheran 10.3%, Orthodox 0.2%, other Christian 1.4%, other religions 0.2%, no religion 27.7%, no answer 39.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 88.5%, Slovak 0.4%, other languages 0.2%, no answer 10.9% (2022)."
   },
   "Zalaegerszeg": {
     "census_year": 2023,
     "population": 55433,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Zalaegerszeg, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,904, 5.2% of residents (born in another EU country 1,092, outside the EU 1,812) (2023). Foreign citizens: 2.8% of residents, EU citizens 194 and non-EU citizens 1,344 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.2% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 87.7%, Roma 0.7%, Ukrainian 0.4%, no answer 11.5% (2022). Foreign citizens 1.9%. Born abroad: 2,904, 5.2% of residents (born in another EU country 1,092, outside the EU 1,812) (2023). Foreign citizens: 2.8% of residents, EU citizens 194 and non-EU citizens 1,344 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.2% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 43.0%, Greek Catholic 0.2%, Calvinist (Reformed) 2.7%, Lutheran 1.1%, other Christian 1.4%, no religion 10.6%, no answer 39.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 88.7%, Romani or Boyash 0.4%, other languages 0.3%, no answer 10.5% (2022)."
   },
   "Veszprem": {
     "census_year": 2023,
     "population": 56777,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Veszprém, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 3,244, 5.7% of residents (born in another EU country 1,290, outside the EU 1,954) (2023). Foreign citizens: 2.7% of residents, EU citizens 317 and non-EU citizens 1,229 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.2%, German 1.2%, other groups 0.7%, Roma 0.4%, Ukrainian 0.4%, no answer 13.5% (2022). Foreign citizens 2.4%. Born abroad: 3,244, 5.7% of residents (born in another EU country 1,290, outside the EU 1,954) (2023). Foreign citizens: 2.7% of residents, EU citizens 317 and non-EU citizens 1,229 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 29.5%, Greek Catholic 0.4%, Calvinist (Reformed) 6.8%, Lutheran 1.9%, Orthodox 0.2%, other Christian 1.3%, other religions 0.4%, no religion 17.2%, no answer 41.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.7%, other languages 0.7%, no answer 12.1% (2022)."
   },
   "Tatabanya": {
     "census_year": 2024,
     "population": 65861,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Tatabánya, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 4,875, 7.4% of residents (born in another EU country 1,840, outside the EU 3,035) (2024). Foreign citizens: 2.9% of residents, EU citizens 224 and non-EU citizens 1,669 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.5% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 80.7%, German 1.4%, Roma 1.3%, Ukrainian 0.5%, no answer 18.1% (2022). Foreign citizens 1.9%. Born abroad: 4,875, 7.4% of residents (born in another EU country 1,840, outside the EU 3,035) (2024). Foreign citizens: 2.9% of residents, EU citizens 224 and non-EU citizens 1,669 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.5% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 17.7%, Greek Catholic 0.6%, Calvinist (Reformed) 5.7%, Lutheran 0.8%, other Christian 1.1%, other religions 0.3%, no religion 27.0%, no answer 46.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 83.1%, no answer 16.3% (2022)."
   },
   "Szekesfehervar": {
     "census_year": 2024,
     "population": 96024,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Székesfehérvár, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 5,561, 5.8% of residents (born in another EU country 2,337, outside the EU 3,224) (2024). Foreign citizens: 2.4% of residents, EU citizens 347 and non-EU citizens 1,946 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 2.1% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.6%, German 0.6%, other groups 0.4%, Roma 0.3%, no answer 13.6% (2022). Foreign citizens 1.6%. Born abroad: 5,561, 5.8% of residents (born in another EU country 2,337, outside the EU 3,224) (2024). Foreign citizens: 2.4% of residents, EU citizens 347 and non-EU citizens 1,946 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 2.1% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 26.9%, Greek Catholic 0.4%, Calvinist (Reformed) 7.5%, Lutheran 1.2%, other Christian 1.3%, other religions 0.2%, no religion 18.1%, no answer 43.4% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.9%, other languages 0.4%, no answer 12.5% (2022)."
   },
   "Sopron": {
     "census_year": 2024,
     "population": 61589,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Sopron, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 4,510, 7.3% of residents (born in another EU country 2,874, outside the EU 1,636) (2024). Foreign citizens: 2.0% of residents, EU citizens 521 and non-EU citizens 704 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 1.3% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 81.8%, German 1.9%, other groups 0.6%, Croatian 0.3%, Roma 0.3%, no answer 17.0% (2022). Foreign citizens 2.3%. Born abroad: 4,510, 7.3% of residents (born in another EU country 2,874, outside the EU 1,636) (2024). Foreign citizens: 2.0% of residents, EU citizens 521 and non-EU citizens 704 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 1.3% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 36.1%, Greek Catholic 0.4%, Calvinist (Reformed) 3.5%, Lutheran 5.0%, other Christian 1.0%, other religions 0.2%, no religion 10.4%, no answer 42.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 83.3%, German 0.9%, Croatian 0.2%, other languages 0.5%, no answer 15.5% (2022)."
   },
   "Pecs": {
     "census_year": 2024,
     "population": 140330,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Pécs, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 11,893, 8.5% of residents (born in another EU country 5,363, outside the EU 6,530) (2024). Foreign citizens: 5.0% of residents, EU citizens 2,630 and non-EU citizens 4,403 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.0% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 79.4%, German 3.0%, Roma 1.4%, other groups 1.2%, Croatian 0.9%, no answer 17.9% (2022). Foreign citizens 3.7%. Born abroad: 11,893, 8.5% of residents (born in another EU country 5,363, outside the EU 6,530) (2024). Foreign citizens: 5.0% of residents, EU citizens 2,630 and non-EU citizens 4,403 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.0% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 29.4%, Greek Catholic 0.3%, Calvinist (Reformed) 4.4%, Lutheran 1.2%, other Christian 1.9%, other religions 0.6%, no religion 17.3%, no answer 43.9% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 81.7%, Romani or Boyash 0.3%, German 0.9%, Croatian 0.4%, other languages 1.3%, no answer 16.2% (2022)."
   },
   "Kecskemet": {
     "census_year": 2024,
     "population": 109450,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Kecskemét, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 6,178, 5.6% of residents (born in another EU country 2,744, outside the EU 3,434) (2024). Foreign citizens: 1.5% of residents, EU citizens 528 and non-EU citizens 1,152 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 3.5% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.6%, Roma 0.6%, German 0.4%, other groups 0.4%, no answer 15.7% (2022). Foreign citizens 1.5%. Born abroad: 6,178, 5.6% of residents (born in another EU country 2,744, outside the EU 3,434) (2024). Foreign citizens: 1.5% of residents, EU citizens 528 and non-EU citizens 1,152 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 3.5% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 29.8%, Greek Catholic 0.5%, Calvinist (Reformed) 8.4%, Lutheran 1.1%, other Christian 1.5%, other religions 0.3%, no religion 13.7%, no answer 43.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 84.8%, German 0.2%, other languages 0.3%, no answer 14.6% (2022)."
   },
   "Kaposvar": {
     "census_year": 2023,
     "population": 59270,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Kaposvár, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 1,868, 3.2% of residents (born in another EU country 1,029, outside the EU 839) (2023). Foreign citizens: 0.7% of residents, EU citizens 166 and non-EU citizens 233 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.0% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 86.7%, Roma 1.8%, German 0.6%, other groups 0.4%, no answer 12.5% (2022). Foreign citizens 0.7%. Born abroad: 1,868, 3.2% of residents (born in another EU country 1,029, outside the EU 839) (2023). Foreign citizens: 0.7% of residents, EU citizens 166 and non-EU citizens 233 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.0% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 35.2%, Greek Catholic 0.2%, Calvinist (Reformed) 5.2%, Lutheran 1.5%, other Christian 1.4%, other religions 0.3%, no religion 15.2%, no answer 40.0% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 87.8%, Romani or Boyash 0.2%, other languages 0.3%, no answer 11.7% (2022)."
   },
   "Gyor": {
     "census_year": 2024,
     "population": 130191,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Gyõr, city as defined by Eurostat's city statistics, 1 January 2024",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 9,203, 7.1% of residents (born in another EU country 4,521, outside the EU 4,682) (2024). Foreign citizens: 3.1% of residents, EU citizens 1,475 and non-EU citizens 2,558 (2024). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 1.4% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 85.1%, German 0.5%, Roma 0.5%, other groups 0.5%, Ukrainian 0.4%, no answer 14.0% (2022). Foreign citizens 2.6%. Born abroad: 9,203, 7.1% of residents (born in another EU country 4,521, outside the EU 4,682) (2024). Foreign citizens: 3.1% of residents, EU citizens 1,475 and non-EU citizens 2,558 (2024). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 1.4% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 34.3%, Greek Catholic 0.5%, Calvinist (Reformed) 4.3%, Lutheran 3.8%, other Christian 1.1%, other religions 0.3%, no religion 12.1%, no answer 42.8% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.2%, German 0.2%, other languages 0.4%, no answer 12.8% (2022)."
   },
   "Dunaujvaros": {
     "census_year": 2023,
     "population": 41873,
-    "cite": "(Eurostat, 2026)",
+    "cite": "(Eurostat, 2026; Központi Statisztikai Hivatal, 2023)",
     "area_note": "Dunaújváros, city as defined by Eurostat's city statistics, 1 January 2023",
     "sources": [
       "Eurostat (2026) Population on 1 January by age groups and sex - cities and greater cities (urb_cpop1). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpop1/default/table (Accessed: 12 November 2026).",
       "Eurostat (2026) Population by citizenship and country of birth - cities and greater cities (urb_cpopcb). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_cpopcb/default/table (Accessed: 12 November 2026).",
-      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026)."
+      "Eurostat (2026) Labour market - cities and greater cities (urb_clma). Available at: https://ec.europa.eu/eurostat/databrowser/view/urb_clma/default/table (Accessed: 12 November 2026).",
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ],
-    "ethnic": "Born abroad: 2,300, 5.5% of residents (born in another EU country 982, outside the EU 1,318) (2023). Foreign citizens: 2.1% of residents, EU citizens 126 and non-EU citizens 753 (2023). This dataset does not record ethnicity or detailed countries of birth.",
-    "economy": "Unemployment 4.9% of the labour force (2022)."
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.2%, Roma 0.6%, other groups 0.6%, Ukrainian 0.6%, German 0.4%, no answer 15.3% (2022). Foreign citizens 2.6%. Born abroad: 2,300, 5.5% of residents (born in another EU country 982, outside the EU 1,318) (2023). Foreign citizens: 2.1% of residents, EU citizens 126 and non-EU citizens 753 (2023). This dataset does not record ethnicity or detailed countries of birth.",
+    "economy": "Unemployment 4.9% of the labour force (2022).",
+    "religion": "Religion: Roman Catholic 17.2%, Greek Catholic 0.8%, Calvinist (Reformed) 4.7%, Lutheran 1.2%, other Christian 1.2%, other religions 0.4%, no religion 30.3%, no answer 43.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.0%, other languages 0.7%, no answer 13.6% (2022)."
   },
   "Trapani": {
     "census_year": 2025,
@@ -32837,6 +32894,357 @@
     "area_note": "Municipality of Aalst, register 1 January 2026",
     "sources": [
       "Statbel (2026) Bevolking naar woonplaats, nationaliteit, burgerlijke staat, leeftijd en geslacht / Population par lieu de résidence, nationalité, état civil, âge et sexe, 1 January 2026 (TF_SOC_POP_STRUCT_2026). Open data. Available at: https://statbel.fgov.be/en/open-data (Accessed: 12 November 2026)."
+    ]
+  },
+  "Zuglo": {
+    "census_year": 2022,
+    "population": 118705,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 80.9%, other groups 1.4%, German 0.7%, Roma 0.6%, no answer 17.5% (2022). Foreign citizens 3.8%.",
+    "religion": "Religion: Roman Catholic 22.5%, Greek Catholic 1.1%, Calvinist (Reformed) 7.6%, Lutheran 1.7%, Orthodox 0.3%, other Christian 1.4%, Jewish 0.3%, other religions 0.6%, no religion 19.8%, no answer 44.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 83.0%, other languages 1.6%, no answer 15.1% (2022).",
+    "economy": "Unemployment 3.7% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 14 of Budapest (Budapest 14. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ujpest": {
+    "census_year": 2022,
+    "population": 94391,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 84.2%, other groups 0.8%, Roma 0.7%, German 0.5%, no answer 14.8% (2022). Foreign citizens 1.9%.",
+    "religion": "Religion: Roman Catholic 21.2%, Greek Catholic 1.1%, Calvinist (Reformed) 7.8%, Lutheran 1.2%, other Christian 1.3%, other religions 0.5%, no religion 21.1%, no answer 44.8% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.4%, other languages 0.8%, no answer 12.6% (2022).",
+    "economy": "Unemployment 3.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 4 of Budapest (Budapest 04. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Pestlorinc": {
+    "census_year": 2022,
+    "population": 99400,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.4%, German 0.9%, other groups 0.9%, Roma 0.6%, no answer 15.5% (2022). Foreign citizens 2.2%.",
+    "religion": "Religion: Roman Catholic 22.0%, Greek Catholic 1.1%, Calvinist (Reformed) 8.1%, Lutheran 1.3%, other Christian 2.1%, other religions 0.4%, no religion 19.0%, no answer 45.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.3%, other languages 1.0%, no answer 13.5% (2022).",
+    "economy": "Unemployment 4.0% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 18 of Budapest (Budapest 18. kerület), which contains Pestszentlőrinc, census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kobanya": {
+    "census_year": 2022,
+    "population": 75628,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 76.7%, other groups 3.3%, Roma 1.1%, German 0.5%, Ukrainian 0.4%, Romanian 0.3%, no answer 19.6% (2022). Foreign citizens 8.5%.",
+    "religion": "Religion: Roman Catholic 19.5%, Greek Catholic 1.0%, Calvinist (Reformed) 7.2%, Lutheran 1.1%, Orthodox 0.2%, other Christian 2.2%, other religions 0.9%, no religion 21.1%, no answer 46.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 78.3%, Romanian 0.2%, other languages 4.0%, no answer 17.4% (2022).",
+    "economy": "Unemployment 4.3% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 10 of Budapest (Budapest 10. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kispest": {
+    "census_year": 2022,
+    "population": 56507,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 82.4%, other groups 1.4%, Roma 0.8%, German 0.6%, Ukrainian 0.3%, no answer 16.0% (2022). Foreign citizens 3.5%.",
+    "religion": "Religion: Roman Catholic 22.4%, Greek Catholic 0.9%, Calvinist (Reformed) 7.7%, Lutheran 1.3%, other Christian 1.7%, other religions 0.5%, no religion 19.8%, no answer 44.6% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 84.3%, other languages 1.5%, no answer 13.9% (2022).",
+    "economy": "Unemployment 4.0% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 19 of Budapest (Budapest 19. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Kelenfoeld": {
+    "census_year": 2022,
+    "population": 141090,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 81.4%, other groups 1.7%, German 1.0%, Ukrainian 0.6%, no answer 16.6% (2022). Foreign citizens 4.5%.",
+    "religion": "Religion: Roman Catholic 26.6%, Greek Catholic 1.0%, Calvinist (Reformed) 7.8%, Lutheran 1.8%, Orthodox 0.4%, other Christian 1.4%, Jewish 0.2%, other religions 0.7%, no religion 19.0%, no answer 40.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 83.4%, German 0.3%, other languages 1.9%, no answer 14.2% (2022).",
+    "economy": "Unemployment 3.4% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 11 of Budapest (Budapest 11. kerület), which contains Kelenföld, census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Ferencvaros": {
+    "census_year": 2022,
+    "population": 59588,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 73.3%, other groups 4.2%, Roma 1.3%, German 0.8%, Ukrainian 0.8%, no answer 21.4% (2022). Foreign citizens 11.9%.",
+    "religion": "Religion: Roman Catholic 20.1%, Greek Catholic 1.0%, Calvinist (Reformed) 7.1%, Lutheran 1.3%, Orthodox 0.5%, other Christian 1.8%, Jewish 0.2%, other religions 1.5%, no religion 20.7%, no answer 45.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 75.6%, German 0.3%, other languages 4.9%, no answer 18.5% (2022).",
+    "economy": "Unemployment 3.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 9 of Budapest (Budapest 09. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Erzsebetvaros": {
+    "census_year": 2022,
+    "population": 48943,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 64.7%, other groups 5.4%, Roma 1.3%, Ukrainian 0.9%, German 0.8%, Romanian 0.4%, Serbian 0.3%, no answer 28.9% (2022). Foreign citizens 17.9%.",
+    "religion": "Religion: Roman Catholic 17.2%, Greek Catholic 0.9%, Calvinist (Reformed) 5.9%, Lutheran 1.2%, Orthodox 0.6%, other Christian 2.2%, Jewish 0.7%, other religions 1.5%, no religion 18.5%, no answer 50.7% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 66.7%, German 0.4%, Romanian 0.2%, Serbian 0.3%, other languages 6.4%, no answer 25.6% (2022).",
+    "economy": "Unemployment 4.5% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 7 of Budapest (Budapest 07. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Erd": {
+    "census_year": 2022,
+    "population": 71253,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 84.4%, German 0.9%, other groups 0.6%, Roma 0.5%, no answer 14.8% (2022). Foreign citizens 1.4%.",
+    "religion": "Religion: Roman Catholic 23.0%, Greek Catholic 1.1%, Calvinist (Reformed) 8.2%, Lutheran 1.2%, other Christian 2.0%, other religions 0.3%, no religion 18.4%, no answer 44.8% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.1%, other languages 0.5%, no answer 13.1% (2022).",
+    "economy": "Unemployment 3.6% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "Settlement of Érd, census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Angyalfoeld": {
+    "census_year": 2022,
+    "population": 122973,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 75.8%, other groups 2.8%, Ukrainian 1.2%, German 0.7%, Roma 0.7%, no answer 20.4% (2022). Foreign citizens 8.0%.",
+    "religion": "Religion: Roman Catholic 19.0%, Greek Catholic 1.0%, Calvinist (Reformed) 6.6%, Lutheran 1.2%, Orthodox 0.4%, other Christian 1.4%, Jewish 0.7%, other religions 0.8%, no religion 21.0%, no answer 47.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 78.1%, other languages 3.3%, no answer 17.4% (2022).",
+    "economy": "Unemployment 3.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 13 of Budapest (Budapest 13. kerület), which contains Angyalföld, census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XII. keruelet": {
+    "census_year": 2022,
+    "population": 57295,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 80.6%, other groups 2.3%, German 1.4%, Ukrainian 0.3%, no answer 17.1% (2022). Foreign citizens 5.3%.",
+    "religion": "Religion: Roman Catholic 30.2%, Greek Catholic 0.8%, Calvinist (Reformed) 8.2%, Lutheran 2.6%, Orthodox 0.3%, other Christian 1.3%, Jewish 0.5%, other religions 0.6%, no religion 16.6%, no answer 38.2% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 82.8%, German 0.6%, other languages 2.6%, no answer 14.3% (2022).",
+    "economy": "Unemployment 3.2% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 12 of Budapest (Budapest 12. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XI. keruelet": {
+    "census_year": 2022,
+    "population": 141090,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 81.4%, other groups 1.7%, German 1.0%, Ukrainian 0.6%, no answer 16.6% (2022). Foreign citizens 4.5%.",
+    "religion": "Religion: Roman Catholic 26.6%, Greek Catholic 1.0%, Calvinist (Reformed) 7.8%, Lutheran 1.8%, Orthodox 0.4%, other Christian 1.4%, Jewish 0.2%, other religions 0.7%, no religion 19.0%, no answer 40.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 83.4%, German 0.3%, other languages 1.9%, no answer 14.2% (2022).",
+    "economy": "Unemployment 3.4% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 11 of Budapest (Budapest 11. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest VIII. keruelet": {
+    "census_year": 2022,
+    "population": 70048,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 67.7%, other groups 4.9%, Roma 2.3%, Ukrainian 0.7%, German 0.7%, Romanian 0.4%, no answer 26.4% (2022). Foreign citizens 14.2%.",
+    "religion": "Religion: Roman Catholic 18.6%, Greek Catholic 1.0%, Calvinist (Reformed) 6.7%, Lutheran 1.0%, Orthodox 0.4%, other Christian 2.5%, Jewish 0.3%, other religions 1.5%, no religion 18.9%, no answer 48.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 70.3%, German 0.3%, Romanian 0.2%, other languages 5.9%, no answer 23.0% (2022).",
+    "economy": "Unemployment 4.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 8 of Budapest (Budapest 08. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XIII. keruelet": {
+    "census_year": 2022,
+    "population": 122973,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 75.8%, other groups 2.8%, Ukrainian 1.2%, German 0.7%, Roma 0.7%, no answer 20.4% (2022). Foreign citizens 8.0%.",
+    "religion": "Religion: Roman Catholic 19.0%, Greek Catholic 1.0%, Calvinist (Reformed) 6.6%, Lutheran 1.2%, Orthodox 0.4%, other Christian 1.4%, Jewish 0.7%, other religions 0.8%, no religion 21.0%, no answer 47.3% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 78.1%, other languages 3.3%, no answer 17.4% (2022).",
+    "economy": "Unemployment 3.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 13 of Budapest (Budapest 13. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest IV. keruelet": {
+    "census_year": 2022,
+    "population": 94391,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 84.2%, other groups 0.8%, Roma 0.7%, German 0.5%, no answer 14.8% (2022). Foreign citizens 1.9%.",
+    "religion": "Religion: Roman Catholic 21.2%, Greek Catholic 1.1%, Calvinist (Reformed) 7.8%, Lutheran 1.2%, other Christian 1.3%, other religions 0.5%, no religion 21.1%, no answer 44.8% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.4%, other languages 0.8%, no answer 12.6% (2022).",
+    "economy": "Unemployment 3.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 4 of Budapest (Budapest 04. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XV. keruelet": {
+    "census_year": 2022,
+    "population": 77091,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.4%, other groups 1.3%, Roma 0.9%, German 0.4%, no answer 15.2% (2022). Foreign citizens 3.0%.",
+    "religion": "Religion: Roman Catholic 21.5%, Greek Catholic 1.0%, Calvinist (Reformed) 8.4%, Lutheran 1.5%, other Christian 1.6%, other religions 0.5%, no religion 19.6%, no answer 44.9% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.1%, other languages 1.5%, no answer 13.2% (2022).",
+    "economy": "Unemployment 4.2% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 15 of Budapest (Budapest 15. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XVI. keruelet": {
+    "census_year": 2022,
+    "population": 73270,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 84.4%, other groups 2.0%, German 0.7%, no answer 14.0% (2022). Foreign citizens 3.6%.",
+    "religion": "Religion: Roman Catholic 25.0%, Greek Catholic 1.1%, Calvinist (Reformed) 8.1%, Lutheran 2.2%, other Christian 2.0%, Jewish 0.2%, other religions 0.5%, no religion 18.0%, no answer 42.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.7%, other languages 2.2%, no answer 12.1% (2022).",
+    "economy": "Unemployment 3.5% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 16 of Budapest (Budapest 16. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XIX. keruelet": {
+    "census_year": 2022,
+    "population": 56507,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 82.4%, other groups 1.4%, Roma 0.8%, German 0.6%, Ukrainian 0.3%, no answer 16.0% (2022). Foreign citizens 3.5%.",
+    "religion": "Religion: Roman Catholic 22.4%, Greek Catholic 0.9%, Calvinist (Reformed) 7.7%, Lutheran 1.3%, other Christian 1.7%, other religions 0.5%, no religion 19.8%, no answer 44.6% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 84.3%, other languages 1.5%, no answer 13.9% (2022).",
+    "economy": "Unemployment 4.0% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 19 of Budapest (Budapest 19. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XVIII. keruelet": {
+    "census_year": 2022,
+    "population": 99400,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.4%, German 0.9%, other groups 0.9%, Roma 0.6%, no answer 15.5% (2022). Foreign citizens 2.2%.",
+    "religion": "Religion: Roman Catholic 22.0%, Greek Catholic 1.1%, Calvinist (Reformed) 8.1%, Lutheran 1.3%, other Christian 2.1%, other religions 0.4%, no religion 19.0%, no answer 45.1% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.3%, other languages 1.0%, no answer 13.5% (2022).",
+    "economy": "Unemployment 4.0% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 18 of Budapest (Budapest 18. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XXII. keruelet": {
+    "census_year": 2022,
+    "population": 56534,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.9%, German 1.4%, other groups 0.8%, Roma 0.5%, no answer 15.0% (2022). Foreign citizens 1.8%.",
+    "religion": "Religion: Roman Catholic 26.9%, Greek Catholic 0.8%, Calvinist (Reformed) 8.0%, Lutheran 1.5%, other Christian 2.0%, other religions 0.4%, no religion 17.9%, no answer 41.6% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.1%, other languages 0.8%, no answer 13.0% (2022).",
+    "economy": "Unemployment 3.6% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 22 of Budapest (Budapest 22. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XXI. keruelet": {
+    "census_year": 2022,
+    "population": 70442,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 81.4%, Roma 0.8%, German 0.7%, other groups 0.6%, no answer 17.6% (2022). Foreign citizens 1.7%.",
+    "religion": "Religion: Roman Catholic 19.4%, Greek Catholic 1.2%, Calvinist (Reformed) 7.5%, Lutheran 1.0%, other Christian 1.5%, other religions 0.4%, no religion 21.3%, no answer 47.0% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 83.2%, other languages 0.6%, no answer 16.0% (2022).",
+    "economy": "Unemployment 4.4% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 21 of Budapest (Budapest 21. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XX. keruelet": {
+    "census_year": 2022,
+    "population": 63512,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 79.8%, Roma 1.1%, other groups 0.9%, German 0.8%, no answer 19.0% (2022). Foreign citizens 2.6%.",
+    "religion": "Religion: Roman Catholic 20.6%, Greek Catholic 1.0%, Calvinist (Reformed) 8.1%, Lutheran 1.1%, other Christian 2.0%, other religions 0.5%, no religion 19.0%, no answer 46.7% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 81.7%, Romani or Boyash 0.2%, other languages 1.0%, no answer 17.1% (2022).",
+    "economy": "Unemployment 4.3% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 20 of Budapest (Budapest 20. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest XVII. keruelet": {
+    "census_year": 2022,
+    "population": 84922,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 84.8%, other groups 0.9%, German 0.6%, Roma 0.4%, no answer 14.1% (2022). Foreign citizens 1.9%.",
+    "religion": "Religion: Roman Catholic 23.5%, Greek Catholic 1.0%, Calvinist (Reformed) 8.4%, Lutheran 2.6%, other Christian 2.1%, other religions 0.4%, no religion 17.7%, no answer 43.6% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 86.7%, other languages 1.1%, no answer 12.1% (2022).",
+    "economy": "Unemployment 3.9% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 17 of Budapest (Budapest 17. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest III. keruelet": {
+    "census_year": 2022,
+    "population": 124746,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 83.3%, other groups 1.4%, German 1.0%, Roma 0.4%, Ukrainian 0.3%, no answer 15.1% (2022). Foreign citizens 3.1%.",
+    "religion": "Religion: Roman Catholic 24.2%, Greek Catholic 1.0%, Calvinist (Reformed) 7.5%, Lutheran 1.5%, Orthodox 0.2%, other Christian 1.4%, Jewish 0.3%, other religions 0.7%, no religion 20.0%, no answer 42.7% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.4%, other languages 1.6%, no answer 12.7% (2022).",
+    "economy": "Unemployment 3.7% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 3 of Budapest (Budapest 03. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Budapest II. keruelet": {
+    "census_year": 2022,
+    "population": 86567,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 77.1%, other groups 3.2%, German 1.3%, no answer 20.0% (2022). Foreign citizens 7.2%.",
+    "religion": "Religion: Roman Catholic 27.8%, Greek Catholic 0.9%, Calvinist (Reformed) 7.5%, Lutheran 2.2%, Orthodox 0.3%, other Christian 1.1%, Jewish 0.7%, other religions 0.7%, no religion 16.8%, no answer 41.4% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 79.1%, German 0.4%, other languages 3.7%, no answer 17.2% (2022).",
+    "economy": "Unemployment 3.1% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 2 of Budapest (Budapest 02. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Jozsefvaros": {
+    "census_year": 2022,
+    "population": 70048,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 67.7%, other groups 4.9%, Roma 2.3%, Ukrainian 0.7%, German 0.7%, Romanian 0.4%, no answer 26.4% (2022). Foreign citizens 14.2%.",
+    "religion": "Religion: Roman Catholic 18.6%, Greek Catholic 1.0%, Calvinist (Reformed) 6.7%, Lutheran 1.0%, Orthodox 0.4%, other Christian 2.5%, Jewish 0.3%, other religions 1.5%, no religion 18.9%, no answer 48.5% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 70.3%, German 0.3%, Romanian 0.2%, other languages 5.9%, no answer 23.0% (2022).",
+    "economy": "Unemployment 4.8% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "District 8 of Budapest (Budapest 08. kerület), census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
+    ]
+  },
+  "Szeged": {
+    "census_year": 2022,
+    "population": 158797,
+    "ethnic": "Ethnic affiliation (self-declared; people could name two, so shares can add up to more than 100%): Hungarian 84.2%, other groups 1.0%, Serbian 0.6%, Roma 0.6%, German 0.5%, no answer 14.4% (2022). Foreign citizens 2.8%.",
+    "religion": "Religion: Roman Catholic 27.3%, Greek Catholic 0.5%, Calvinist (Reformed) 4.3%, Lutheran 1.1%, other Christian 1.7%, other religions 0.5%, no religion 20.0%, no answer 43.6% (2022). Answering was voluntary.",
+    "language": "Mother tongue: Hungarian 85.7%, Romani or Boyash 0.2%, Serbian 0.2%, other languages 1.0%, no answer 12.9% (2022).",
+    "economy": "Unemployment 4.2% of the economically active population at the census (October 2022).",
+    "cite": "(Központi Statisztikai Hivatal, 2023)",
+    "area_note": "Settlement of Szeged, census of 1 October 2022",
+    "sources": [
+      "Központi Statisztikai Hivatal (2023) Népszámlálás 2022: a népesség adatai településenként (Census 2022: population data by settlement, WBS003, version V67). Népszámlálási adatbázis. Available at: https://nepszamlalas2022.ksh.hu/adatbazis/ (Accessed: 12 November 2026)."
     ]
   }
 }
