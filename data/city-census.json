@@ -32513,5 +32513,126 @@
     "sources": [
       "Amt für Statistik Berlin-Brandenburg (2026) Statistischer Bericht A I 5 – hj 2/25: Einwohnerregisterstatistik Berlin, 31. Dezember 2025, tables 11–13 (residents, residents with a migration background and foreign residents by Ortsteil). Potsdam: AfS. Available at: https://www.statistik-berlin-brandenburg.de/a-i-5-hj (Accessed: 12 November 2026)."
     ]
+  },
+  "Wilhelmsburg": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 63.7% (34,254), and 77.9% of under-18s (31 December 2025). Of residents with a migration background, 31.9% have ties to Türkiye, 5.3% to Poland and 4.2% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Quarter (Stadtteil) Wilhelmsburg, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Hamburg-Mitte": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 56.2% (174,658), and 75.0% of under-18s (31 December 2025). Of residents with a migration background, 18.1% have ties to Türkiye, 8.4% to Poland and 8.0% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Hamburg-Mitte, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Eimsbuettel": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 34.2% (95,322), and 48.5% of under-18s (31 December 2025). Of residents with a migration background, 10.4% have ties to Türkiye, 6.5% to Poland and 5.0% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Eimsbüttel, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Altona": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 37.6% (106,599), and 51.1% of under-18s (31 December 2025). Of residents with a migration background, 15.6% have ties to Türkiye, 5.9% to Poland and 4.3% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Altona, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Billstedt": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 65.5% (47,979), and 82.0% of under-18s (31 December 2025). Of residents with a migration background, 16.8% have ties to Türkiye, 11.8% to Poland and 14.0% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Quarter (Stadtteil) Billstedt, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Winterhude": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 30.8% (18,841), and 46.9% of under-18s (31 December 2025). Of residents with a migration background, 6.1% have ties to Türkiye, 5.9% to Poland and 3.2% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Quarter (Stadtteil) Winterhude, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Rahlstedt": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 41.8% (40,022), and 57.7% of under-18s (31 December 2025). Of residents with a migration background, 6.0% have ties to Türkiye, 12.2% to Poland and 13.7% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Quarter (Stadtteil) Rahlstedt, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Harburg": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 55.1% (99,094), and 72.1% of under-18s (31 December 2025). Of residents with a migration background, 14.8% have ties to Türkiye, 9.2% to Poland and 5.5% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Harburg, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Wandsbek": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 39.4% (180,085), and 55.8% of under-18s (31 December 2025). Of residents with a migration background, 8.0% have ties to Türkiye, 9.6% to Poland and 12.2% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Wandsbek, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Bergedorf": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 43.6% (58,673), and 59.4% of under-18s (31 December 2025). Of residents with a migration background, 7.7% have ties to Türkiye, 16.0% to Poland and 10.7% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Bergedorf, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
+  },
+  "Hamburg-Nord": {
+    "census_year": 2025,
+    "ethnic": "The register-based estimate records migration background, not ethnicity. Residents with a migration background 34.2% (113,691), and 50.8% of under-18s (31 December 2025). Of residents with a migration background, 8.2% have ties to Türkiye, 6.8% to Poland and 5.7% to Afghanistan.",
+    "language": "German is the official language; the register does not record language.",
+    "religion": "Not recorded in this source.",
+    "cite": "(Statistisches Amt für Hamburg und Schleswig-Holstein, 2026)",
+    "area_note": "Borough (Bezirk) Hamburg-Nord, Hamburg, register 31 December 2025",
+    "sources": [
+      "Statistisches Amt für Hamburg und Schleswig-Holstein (2026) Statistischer Bericht A I 10 - j 25 HH: Bevölkerung mit Migrationshintergrund in den Hamburger Stadtteilen, 31.12.2025 (population register, MigraPro method). Hamburg: Statistikamt Nord. Available at: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_10_j25_HH.pdf (Accessed: 12 November 2026)."
+    ]
   }
 }
