@@ -376,5 +376,2610 @@
 "dissimilarity_rc_main_protestant": 0.493
 },
 "male_unemp_1971": 12.1
+},
+"wards_2001": {
+"Andersonstown": {
+"1971": {
+"pop": 7736,
+"cath_share": 98.3,
+"not_stated": 21.7,
+"owner": 39.6,
+"public_rent": 47.0,
+"no_car": 48.5,
+"per_room": 0.96,
+"male_unemp": 12.8,
+"moved_1yr": 4.0,
+"rel_coverage": 95.7
+},
+"1981": {
+"pop": 5859,
+"cath_share": 99.0,
+"not_stated": 26.7,
+"owner": 42.3,
+"public_rent": 37.2,
+"no_car": 48.5,
+"per_room": 0.77,
+"male_unemp": 26.4,
+"moved_1yr": 2.1,
+"rel_coverage": 94.2
+},
+"1991": {
+"pop": 5339,
+"cath_share": 99.5,
+"not_stated": 6.0,
+"owner": 64.5,
+"public_rent": 17.3,
+"no_car": 45.5,
+"per_room": 0.59,
+"male_unemp": 29.1,
+"moved_1yr": 3.8,
+"rel_coverage": 93.4
+},
+"2001": {
+"pop": 5764,
+"cath_share": 99.7,
+"not_stated": 5.9,
+"owner": 68.0,
+"public_rent": 12.5,
+"no_car": 37.3,
+"per_room": 0.53,
+"male_unemp": 14.6,
+"moved_1yr": 5.1,
+"rel_coverage": 99.9
+}
+},
+"Ardoyne": {
+"1971": {
+"pop": 10426,
+"cath_share": 85.0,
+"not_stated": 19.6,
+"owner": 29.4,
+"public_rent": 20.8,
+"no_car": 83.2,
+"per_room": 0.93,
+"male_unemp": 28.8,
+"moved_1yr": 6.6,
+"rel_coverage": 94.4
+},
+"1981": {
+"pop": 5188,
+"cath_share": 95.8,
+"not_stated": 30.0,
+"owner": 32.2,
+"public_rent": 48.4,
+"no_car": 84.5,
+"per_room": 0.78,
+"male_unemp": 46.7,
+"moved_1yr": 5.1,
+"rel_coverage": 98.4
+},
+"1991": {
+"pop": 5845,
+"cath_share": 99.2,
+"not_stated": 9.7,
+"owner": 33.0,
+"public_rent": 57.8,
+"no_car": 81.1,
+"per_room": 0.63,
+"male_unemp": 52.0,
+"moved_1yr": 4.0,
+"rel_coverage": 98.6
+},
+"2001": {
+"pop": 6602,
+"cath_share": 99.1,
+"not_stated": 12.6,
+"owner": 36.1,
+"public_rent": 47.1,
+"no_car": 66.4,
+"per_room": 0.6,
+"male_unemp": 30.0,
+"moved_1yr": 7.7,
+"rel_coverage": 100.0
+}
+},
+"Ballyhackamore": {
+"1971": {
+"pop": 6622,
+"cath_share": 12.6,
+"not_stated": 8.9,
+"owner": 66.8,
+"public_rent": 8.8,
+"no_car": 47.0,
+"per_room": 0.47,
+"male_unemp": 4.6,
+"moved_1yr": 7.2,
+"rel_coverage": 96.8
+},
+"1981": {
+"pop": 5830,
+"cath_share": 9.2,
+"not_stated": 16.7,
+"owner": 75.1,
+"public_rent": 8.3,
+"no_car": 40.7,
+"per_room": 0.44,
+"male_unemp": 9.5,
+"moved_1yr": 8.1,
+"rel_coverage": 93.1
+},
+"1991": {
+"pop": 5648,
+"cath_share": 9.9,
+"not_stated": 20.4,
+"owner": 81.4,
+"public_rent": 7.5,
+"no_car": 32.2,
+"per_room": 0.41,
+"male_unemp": 12.1,
+"moved_1yr": 8.3,
+"rel_coverage": 93.6
+},
+"2001": {
+"pop": 5693,
+"cath_share": 11.8,
+"not_stated": 26.4,
+"owner": 80.4,
+"public_rent": 5.4,
+"no_car": 24.3,
+"per_room": 0.38,
+"male_unemp": 4.8,
+"moved_1yr": 9.9,
+"rel_coverage": 100.0
+}
+},
+"Ballymacarrett": {
+"1971": {
+"pop": 11826,
+"cath_share": 29.2,
+"not_stated": 9.0,
+"owner": 24.9,
+"public_rent": 15.0,
+"no_car": 83.0,
+"per_room": 0.73,
+"male_unemp": 16.8,
+"moved_1yr": 9.2,
+"rel_coverage": 99.3
+},
+"1981": {
+"pop": 4862,
+"cath_share": 34.6,
+"not_stated": 21.8,
+"owner": 22.5,
+"public_rent": 50.9,
+"no_car": 84.8,
+"per_room": 0.63,
+"male_unemp": 32.8,
+"moved_1yr": 6.2,
+"rel_coverage": 96.6
+},
+"1991": {
+"pop": 4354,
+"cath_share": 53.5,
+"not_stated": 11.3,
+"owner": 9.6,
+"public_rent": 76.3,
+"no_car": 81.9,
+"per_room": 0.54,
+"male_unemp": 46.3,
+"moved_1yr": 7.6,
+"rel_coverage": 96.3
+},
+"2001": {
+"pop": 4942,
+"cath_share": 54.1,
+"not_stated": 17.5,
+"owner": 27.5,
+"public_rent": 57.7,
+"no_car": 65.1,
+"per_room": 0.5,
+"male_unemp": 27.4,
+"moved_1yr": 8.7,
+"rel_coverage": 100.0
+}
+},
+"Ballynafeigh": {
+"1971": {
+"pop": 7388,
+"cath_share": 32.1,
+"not_stated": 10.6,
+"owner": 47.4,
+"public_rent": 19.8,
+"no_car": 63.7,
+"per_room": 0.57,
+"male_unemp": 7.3,
+"moved_1yr": 6.8,
+"rel_coverage": 98.9
+},
+"1981": {
+"pop": 5748,
+"cath_share": 34.1,
+"not_stated": 24.1,
+"owner": 54.8,
+"public_rent": 17.5,
+"no_car": 59.8,
+"per_room": 0.5,
+"male_unemp": 16.6,
+"moved_1yr": 7.1,
+"rel_coverage": 98.5
+},
+"1991": {
+"pop": 5091,
+"cath_share": 54.1,
+"not_stated": 22.9,
+"owner": 63.5,
+"public_rent": 17.1,
+"no_car": 48.8,
+"per_room": 0.41,
+"male_unemp": 20.3,
+"moved_1yr": 10.3,
+"rel_coverage": 98.8
+},
+"2001": {
+"pop": 5251,
+"cath_share": 67.7,
+"not_stated": 24.9,
+"owner": 55.9,
+"public_rent": 13.9,
+"no_car": 41.7,
+"per_room": 0.39,
+"male_unemp": 9.6,
+"moved_1yr": 22.9,
+"rel_coverage": 100.0
+}
+},
+"Ballysillan": {
+"1971": {
+"pop": 9347,
+"cath_share": 10.9,
+"not_stated": 8.7,
+"owner": 38.5,
+"public_rent": 51.2,
+"no_car": 58.7,
+"per_room": 0.74,
+"male_unemp": 9.3,
+"moved_1yr": 13.5,
+"rel_coverage": 98.9
+},
+"1981": {
+"pop": 6647,
+"cath_share": 1.8,
+"not_stated": 17.3,
+"owner": 45.4,
+"public_rent": 46.1,
+"no_car": 55.6,
+"per_room": 0.59,
+"male_unemp": 16.7,
+"moved_1yr": 4.9,
+"rel_coverage": 97.8
+},
+"1991": {
+"pop": 5420,
+"cath_share": 1.8,
+"not_stated": 13.6,
+"owner": 57.3,
+"public_rent": 37.4,
+"no_car": 54.3,
+"per_room": 0.5,
+"male_unemp": 18.4,
+"moved_1yr": 6.3,
+"rel_coverage": 98.3
+},
+"2001": {
+"pop": 6020,
+"cath_share": 2.4,
+"not_stated": 21.4,
+"owner": 63.9,
+"public_rent": 28.1,
+"no_car": 43.7,
+"per_room": 0.47,
+"male_unemp": 11.1,
+"moved_1yr": 8.1,
+"rel_coverage": 100.0
+}
+},
+"Beechmount": {
+"1971": {
+"pop": 6565,
+"cath_share": 95.2,
+"not_stated": 20.3,
+"owner": 34.8,
+"public_rent": 22.0,
+"no_car": 70.6,
+"per_room": 0.83,
+"male_unemp": 16.1,
+"moved_1yr": 5.4,
+"rel_coverage": 98.1
+},
+"1981": {
+"pop": 4544,
+"cath_share": 98.4,
+"not_stated": 31.6,
+"owner": 54.7,
+"public_rent": 22.6,
+"no_car": 71.5,
+"per_room": 0.73,
+"male_unemp": 34.3,
+"moved_1yr": 2.6,
+"rel_coverage": 97.1
+},
+"1991": {
+"pop": 4939,
+"cath_share": 99.0,
+"not_stated": 6.6,
+"owner": 70.5,
+"public_rent": 15.7,
+"no_car": 64.0,
+"per_room": 0.59,
+"male_unemp": 33.0,
+"moved_1yr": 4.3,
+"rel_coverage": 98.0
+},
+"2001": {
+"pop": 5504,
+"cath_share": 97.8,
+"not_stated": 8.1,
+"owner": 58.3,
+"public_rent": 19.6,
+"no_car": 56.6,
+"per_room": 0.54,
+"male_unemp": 18.2,
+"moved_1yr": 11.1,
+"rel_coverage": 100.0
+}
+},
+"Bellevue": {
+"1971": {
+"pop": 6807,
+"cath_share": 32.7,
+"not_stated": 12.2,
+"owner": 42.9,
+"public_rent": 44.7,
+"no_car": 52.6,
+"per_room": 0.7,
+"male_unemp": 8.6,
+"moved_1yr": 5.4,
+"rel_coverage": 88.9
+},
+"1981": {
+"pop": 5226,
+"cath_share": 34.6,
+"not_stated": 25.6,
+"owner": 51.9,
+"public_rent": 40.7,
+"no_car": 50.6,
+"per_room": 0.59,
+"male_unemp": 17.3,
+"moved_1yr": 4.0,
+"rel_coverage": 92.3
+},
+"1991": {
+"pop": 4871,
+"cath_share": 59.0,
+"not_stated": 16.4,
+"owner": 66.9,
+"public_rent": 28.5,
+"no_car": 45.1,
+"per_room": 0.52,
+"male_unemp": 17.7,
+"moved_1yr": 8.5,
+"rel_coverage": 92.1
+},
+"2001": {
+"pop": 4942,
+"cath_share": 67.4,
+"not_stated": 17.3,
+"owner": 67.9,
+"public_rent": 22.6,
+"no_car": 36.1,
+"per_room": 0.46,
+"male_unemp": 10.6,
+"moved_1yr": 10.6,
+"rel_coverage": 100.0
+}
+},
+"Belmont": {
+"1971": {
+"pop": 6398,
+"cath_share": 4.6,
+"not_stated": 6.5,
+"owner": 58.5,
+"public_rent": 32.5,
+"no_car": 34.2,
+"per_room": 0.66,
+"male_unemp": 5.4,
+"moved_1yr": 6.2,
+"rel_coverage": 88.5
+},
+"1981": {
+"pop": 4950,
+"cath_share": 1.3,
+"not_stated": 15.0,
+"owner": 67.3,
+"public_rent": 24.2,
+"no_car": 27.5,
+"per_room": 0.55,
+"male_unemp": 10.1,
+"moved_1yr": 5.5,
+"rel_coverage": 91.2
+},
+"1991": {
+"pop": 4983,
+"cath_share": 1.3,
+"not_stated": 16.3,
+"owner": 65.7,
+"public_rent": 26.2,
+"no_car": 30.5,
+"per_room": 0.48,
+"male_unemp": 11.0,
+"moved_1yr": 6.8,
+"rel_coverage": 91.1
+},
+"2001": {
+"pop": 6025,
+"cath_share": 3.5,
+"not_stated": 20.1,
+"owner": 69.5,
+"public_rent": 19.5,
+"no_car": 23.2,
+"per_room": 0.43,
+"male_unemp": 6.8,
+"moved_1yr": 7.8,
+"rel_coverage": 100.0
+}
+},
+"Blackstaff": {
+"1971": {
+"pop": 7837,
+"cath_share": 3.6,
+"not_stated": 4.8,
+"owner": 36.6,
+"public_rent": 22.5,
+"no_car": 73.2,
+"per_room": 0.62,
+"male_unemp": 9.5,
+"moved_1yr": 6.5,
+"rel_coverage": 98.8
+},
+"1981": {
+"pop": 6113,
+"cath_share": 0.9,
+"not_stated": 13.8,
+"owner": 44.8,
+"public_rent": 18.3,
+"no_car": 72.9,
+"per_room": 0.58,
+"male_unemp": 22.0,
+"moved_1yr": 5.7,
+"rel_coverage": 97.8
+},
+"1991": {
+"pop": 4929,
+"cath_share": 1.5,
+"not_stated": 13.0,
+"owner": 47.3,
+"public_rent": 34.9,
+"no_car": 68.7,
+"per_room": 0.5,
+"male_unemp": 27.8,
+"moved_1yr": 8.9,
+"rel_coverage": 97.4
+},
+"2001": {
+"pop": 3964,
+"cath_share": 2.1,
+"not_stated": 19.9,
+"owner": 44.7,
+"public_rent": 29.9,
+"no_car": 56.8,
+"per_room": 0.44,
+"male_unemp": 12.6,
+"moved_1yr": 15.8,
+"rel_coverage": 100.0
+}
+},
+"Bloomfield": {
+"1971": {
+"pop": 7233,
+"cath_share": 4.8,
+"not_stated": 5.9,
+"owner": 54.2,
+"public_rent": 8.7,
+"no_car": 59.3,
+"per_room": 0.53,
+"male_unemp": 6.9,
+"moved_1yr": 7.4,
+"rel_coverage": 99.0
+},
+"1981": {
+"pop": 6198,
+"cath_share": 1.3,
+"not_stated": 17.4,
+"owner": 67.3,
+"public_rent": 4.5,
+"no_car": 55.0,
+"per_room": 0.51,
+"male_unemp": 12.8,
+"moved_1yr": 6.2,
+"rel_coverage": 98.4
+},
+"1991": {
+"pop": 5113,
+"cath_share": 2.2,
+"not_stated": 19.1,
+"owner": 76.8,
+"public_rent": 6.8,
+"no_car": 45.6,
+"per_room": 0.46,
+"male_unemp": 14.4,
+"moved_1yr": 9.0,
+"rel_coverage": 97.3
+},
+"2001": {
+"pop": 5537,
+"cath_share": 4.5,
+"not_stated": 25.0,
+"owner": 62.5,
+"public_rent": 8.2,
+"no_car": 40.8,
+"per_room": 0.41,
+"male_unemp": 8.6,
+"moved_1yr": 14.2,
+"rel_coverage": 100.0
+}
+},
+"Botanic": {
+"1971": {
+"pop": 10398,
+"cath_share": 33.0,
+"not_stated": 14.0,
+"owner": 39.9,
+"public_rent": 6.1,
+"no_car": 66.6,
+"per_room": 0.51,
+"male_unemp": 11.4,
+"moved_1yr": 12.1,
+"rel_coverage": 96.4
+},
+"1981": {
+"pop": 7027,
+"cath_share": 45.4,
+"not_stated": 29.6,
+"owner": 36.9,
+"public_rent": 10.5,
+"no_car": 63.2,
+"per_room": 0.46,
+"male_unemp": 23.0,
+"moved_1yr": 19.3,
+"rel_coverage": 93.4
+},
+"1991": {
+"pop": 7872,
+"cath_share": 68.6,
+"not_stated": 21.5,
+"owner": 29.2,
+"public_rent": 14.2,
+"no_car": 59.1,
+"per_room": 0.38,
+"male_unemp": 28.4,
+"moved_1yr": 17.0,
+"rel_coverage": 92.5
+},
+"2001": {
+"pop": 9572,
+"cath_share": 77.7,
+"not_stated": 26.0,
+"owner": 22.0,
+"public_rent": 12.7,
+"no_car": 56.3,
+"per_room": 0.5,
+"male_unemp": 11.0,
+"moved_1yr": 48.4,
+"rel_coverage": 100.0
+}
+},
+"Castleview": {
+"1971": {
+"pop": 6632,
+"cath_share": 16.8,
+"not_stated": 8.1,
+"owner": 34.9,
+"public_rent": 58.4,
+"no_car": 52.3,
+"per_room": 0.68,
+"male_unemp": 9.4,
+"moved_1yr": 11.6,
+"rel_coverage": 93.2
+},
+"1981": {
+"pop": 5699,
+"cath_share": 15.7,
+"not_stated": 16.8,
+"owner": 36.3,
+"public_rent": 59.4,
+"no_car": 53.0,
+"per_room": 0.56,
+"male_unemp": 17.1,
+"moved_1yr": 5.4,
+"rel_coverage": 92.9
+},
+"1991": {
+"pop": 5121,
+"cath_share": 25.2,
+"not_stated": 15.5,
+"owner": 51.0,
+"public_rent": 44.1,
+"no_car": 49.6,
+"per_room": 0.48,
+"male_unemp": 18.6,
+"moved_1yr": 7.4,
+"rel_coverage": 93.0
+},
+"2001": {
+"pop": 4878,
+"cath_share": 33.4,
+"not_stated": 14.9,
+"owner": 58.3,
+"public_rent": 34.2,
+"no_car": 40.1,
+"per_room": 0.43,
+"male_unemp": 9.4,
+"moved_1yr": 9.3,
+"rel_coverage": 100.0
+}
+},
+"Cavehill": {
+"1971": {
+"pop": 5415,
+"cath_share": 15.9,
+"not_stated": 9.5,
+"owner": 88.9,
+"public_rent": 4.2,
+"no_car": 19.3,
+"per_room": 0.54,
+"male_unemp": 2.7,
+"moved_1yr": 5.9,
+"rel_coverage": 92.2
+},
+"1981": {
+"pop": 5186,
+"cath_share": 24.1,
+"not_stated": 20.1,
+"owner": 91.8,
+"public_rent": 3.7,
+"no_car": 17.2,
+"per_room": 0.51,
+"male_unemp": 6.0,
+"moved_1yr": 4.3,
+"rel_coverage": 94.0
+},
+"1991": {
+"pop": 5042,
+"cath_share": 41.4,
+"not_stated": 15.6,
+"owner": 93.2,
+"public_rent": 3.4,
+"no_car": 15.4,
+"per_room": 0.48,
+"male_unemp": 7.7,
+"moved_1yr": 4.7,
+"rel_coverage": 93.2
+},
+"2001": {
+"pop": 5282,
+"cath_share": 55.1,
+"not_stated": 11.8,
+"owner": 94.3,
+"public_rent": 2.1,
+"no_car": 11.8,
+"per_room": 0.44,
+"male_unemp": 4.2,
+"moved_1yr": 4.6,
+"rel_coverage": 100.0
+}
+},
+"Cherryvalley": {
+"1971": {
+"pop": 6594,
+"cath_share": 5.0,
+"not_stated": 7.0,
+"owner": 57.8,
+"public_rent": 35.3,
+"no_car": 33.7,
+"per_room": 0.53,
+"male_unemp": 3.7,
+"moved_1yr": 6.9,
+"rel_coverage": 89.6
+},
+"1981": {
+"pop": 5587,
+"cath_share": 4.4,
+"not_stated": 15.9,
+"owner": 64.4,
+"public_rent": 27.9,
+"no_car": 29.7,
+"per_room": 0.48,
+"male_unemp": 8.6,
+"moved_1yr": 4.7,
+"rel_coverage": 88.1
+},
+"1991": {
+"pop": 5649,
+"cath_share": 5.2,
+"not_stated": 16.4,
+"owner": 77.4,
+"public_rent": 18.5,
+"no_car": 24.1,
+"per_room": 0.42,
+"male_unemp": 8.0,
+"moved_1yr": 7.5,
+"rel_coverage": 86.2
+},
+"2001": {
+"pop": 5933,
+"cath_share": 8.2,
+"not_stated": 22.3,
+"owner": 81.1,
+"public_rent": 12.6,
+"no_car": 18.5,
+"per_room": 0.38,
+"male_unemp": 4.1,
+"moved_1yr": 8.1,
+"rel_coverage": 100.0
+}
+},
+"Chichester Park": {
+"1971": {
+"pop": 5363,
+"cath_share": 42.0,
+"not_stated": 16.3,
+"owner": 65.8,
+"public_rent": 8.0,
+"no_car": 44.4,
+"per_room": 0.51,
+"male_unemp": 5.3,
+"moved_1yr": 8.4,
+"rel_coverage": 94.6
+},
+"1981": {
+"pop": 4938,
+"cath_share": 60.6,
+"not_stated": 28.8,
+"owner": 64.5,
+"public_rent": 15.6,
+"no_car": 43.7,
+"per_room": 0.5,
+"male_unemp": 16.4,
+"moved_1yr": 9.3,
+"rel_coverage": 95.0
+},
+"1991": {
+"pop": 5139,
+"cath_share": 78.5,
+"not_stated": 19.4,
+"owner": 68.2,
+"public_rent": 14.2,
+"no_car": 40.5,
+"per_room": 0.47,
+"male_unemp": 21.2,
+"moved_1yr": 7.4,
+"rel_coverage": 96.2
+},
+"2001": {
+"pop": 5109,
+"cath_share": 82.5,
+"not_stated": 17.2,
+"owner": 66.6,
+"public_rent": 14.1,
+"no_car": 36.5,
+"per_room": 0.43,
+"male_unemp": 10.5,
+"moved_1yr": 9.5,
+"rel_coverage": 100.0
+}
+},
+"Cliftonville": {
+"1971": {
+"pop": 8524,
+"cath_share": 27.0,
+"not_stated": 10.2,
+"owner": 49.9,
+"public_rent": 18.1,
+"no_car": 56.4,
+"per_room": 0.59,
+"male_unemp": 8.0,
+"moved_1yr": 5.7,
+"rel_coverage": 99.0
+},
+"1981": {
+"pop": 6209,
+"cath_share": 33.7,
+"not_stated": 23.6,
+"owner": 53.0,
+"public_rent": 27.2,
+"no_car": 55.5,
+"per_room": 0.54,
+"male_unemp": 17.9,
+"moved_1yr": 6.0,
+"rel_coverage": 99.0
+},
+"1991": {
+"pop": 5705,
+"cath_share": 56.4,
+"not_stated": 14.3,
+"owner": 66.1,
+"public_rent": 24.2,
+"no_car": 51.8,
+"per_room": 0.5,
+"male_unemp": 24.8,
+"moved_1yr": 6.9,
+"rel_coverage": 99.0
+},
+"2001": {
+"pop": 5421,
+"cath_share": 71.6,
+"not_stated": 10.7,
+"owner": 69.9,
+"public_rent": 17.6,
+"no_car": 39.9,
+"per_room": 0.48,
+"male_unemp": 13.8,
+"moved_1yr": 8.2,
+"rel_coverage": 100.0
+}
+},
+"Clonard": {
+"1971": {
+"pop": 8860,
+"cath_share": 90.3,
+"not_stated": 17.7,
+"owner": 31.8,
+"public_rent": 15.7,
+"no_car": 80.8,
+"per_room": 0.77,
+"male_unemp": 18.1,
+"moved_1yr": 6.1,
+"rel_coverage": 99.4
+},
+"1981": {
+"pop": 5469,
+"cath_share": 96.7,
+"not_stated": 28.5,
+"owner": 56.5,
+"public_rent": 26.3,
+"no_car": 80.6,
+"per_room": 0.66,
+"male_unemp": 34.4,
+"moved_1yr": 2.8,
+"rel_coverage": 97.9
+},
+"1991": {
+"pop": 5199,
+"cath_share": 99.1,
+"not_stated": 6.4,
+"owner": 62.9,
+"public_rent": 28.2,
+"no_car": 77.5,
+"per_room": 0.57,
+"male_unemp": 42.4,
+"moved_1yr": 5.4,
+"rel_coverage": 98.2
+},
+"2001": {
+"pop": 4421,
+"cath_share": 99.0,
+"not_stated": 11.1,
+"owner": 45.5,
+"public_rent": 39.4,
+"no_car": 67.0,
+"per_room": 0.54,
+"male_unemp": 23.1,
+"moved_1yr": 10.1,
+"rel_coverage": 100.0
+}
+},
+"Crumlin": {
+"1971": {
+"pop": 14821,
+"cath_share": 2.9,
+"not_stated": 3.8,
+"owner": 35.4,
+"public_rent": 10.9,
+"no_car": 79.9,
+"per_room": 0.66,
+"male_unemp": 14.0,
+"moved_1yr": 9.3,
+"rel_coverage": 99.6
+},
+"1981": {
+"pop": 6586,
+"cath_share": 0.5,
+"not_stated": 11.7,
+"owner": 43.5,
+"public_rent": 14.2,
+"no_car": 83.9,
+"per_room": 0.59,
+"male_unemp": 28.0,
+"moved_1yr": 9.1,
+"rel_coverage": 98.4
+},
+"1991": {
+"pop": 4944,
+"cath_share": 1.4,
+"not_stated": 11.4,
+"owner": 23.2,
+"public_rent": 65.0,
+"no_car": 81.8,
+"per_room": 0.48,
+"male_unemp": 40.3,
+"moved_1yr": 10.8,
+"rel_coverage": 98.1
+},
+"2001": {
+"pop": 4376,
+"cath_share": 1.9,
+"not_stated": 16.0,
+"owner": 18.1,
+"public_rent": 65.8,
+"no_car": 72.0,
+"per_room": 0.45,
+"male_unemp": 26.8,
+"moved_1yr": 8.6,
+"rel_coverage": 100.0
+}
+},
+"Duncairn": {
+"1971": {
+"pop": 12267,
+"cath_share": 9.5,
+"not_stated": 6.0,
+"owner": 33.7,
+"public_rent": 19.5,
+"no_car": 77.3,
+"per_room": 0.63,
+"male_unemp": 13.1,
+"moved_1yr": 8.6,
+"rel_coverage": 95.1
+},
+"1981": {
+"pop": 5823,
+"cath_share": 2.0,
+"not_stated": 13.5,
+"owner": 42.1,
+"public_rent": 29.3,
+"no_car": 76.4,
+"per_room": 0.56,
+"male_unemp": 23.8,
+"moved_1yr": 6.4,
+"rel_coverage": 96.6
+},
+"1991": {
+"pop": 4868,
+"cath_share": 3.3,
+"not_stated": 14.7,
+"owner": 31.2,
+"public_rent": 55.5,
+"no_car": 75.1,
+"per_room": 0.47,
+"male_unemp": 32.3,
+"moved_1yr": 8.2,
+"rel_coverage": 95.1
+},
+"2001": {
+"pop": 4007,
+"cath_share": 2.8,
+"not_stated": 19.9,
+"owner": 27.8,
+"public_rent": 55.0,
+"no_car": 67.3,
+"per_room": 0.43,
+"male_unemp": 19.2,
+"moved_1yr": 11.7,
+"rel_coverage": 100.0
+}
+},
+"Falls": {
+"1971": {
+"pop": 15853,
+"cath_share": 87.4,
+"not_stated": 16.4,
+"owner": 12.8,
+"public_rent": 68.7,
+"no_car": 90.7,
+"per_room": 0.84,
+"male_unemp": 26.0,
+"moved_1yr": 12.2,
+"rel_coverage": 88.4
+},
+"1981": {
+"pop": 5362,
+"cath_share": 99.3,
+"not_stated": 23.7,
+"owner": 7.8,
+"public_rent": 87.7,
+"no_car": 90.7,
+"per_room": 0.76,
+"male_unemp": 49.5,
+"moved_1yr": 2.8,
+"rel_coverage": 96.4
+},
+"1991": {
+"pop": 4971,
+"cath_share": 98.9,
+"not_stated": 5.9,
+"owner": 6.6,
+"public_rent": 91.8,
+"no_car": 88.3,
+"per_room": 0.62,
+"male_unemp": 57.2,
+"moved_1yr": 6.2,
+"rel_coverage": 94.4
+},
+"2001": {
+"pop": 5046,
+"cath_share": 99.4,
+"not_stated": 13.4,
+"owner": 23.1,
+"public_rent": 72.0,
+"no_car": 74.8,
+"per_room": 0.58,
+"male_unemp": 34.3,
+"moved_1yr": 7.5,
+"rel_coverage": 99.9
+}
+},
+"Falls Park": {
+"1971": {
+"pop": 6828,
+"cath_share": 98.3,
+"not_stated": 21.5,
+"owner": 64.9,
+"public_rent": 17.8,
+"no_car": 50.6,
+"per_room": 0.76,
+"male_unemp": 10.1,
+"moved_1yr": 5.3,
+"rel_coverage": 90.8
+},
+"1981": {
+"pop": 5420,
+"cath_share": 99.3,
+"not_stated": 26.2,
+"owner": 69.8,
+"public_rent": 19.0,
+"no_car": 50.7,
+"per_room": 0.65,
+"male_unemp": 22.7,
+"moved_1yr": 3.1,
+"rel_coverage": 93.0
+},
+"1991": {
+"pop": 5836,
+"cath_share": 99.7,
+"not_stated": 6.2,
+"owner": 80.1,
+"public_rent": 12.3,
+"no_car": 45.8,
+"per_room": 0.55,
+"male_unemp": 25.7,
+"moved_1yr": 3.8,
+"rel_coverage": 94.9
+},
+"2001": {
+"pop": 5888,
+"cath_share": 99.7,
+"not_stated": 8.7,
+"owner": 80.3,
+"public_rent": 10.4,
+"no_car": 37.7,
+"per_room": 0.5,
+"male_unemp": 11.4,
+"moved_1yr": 5.3,
+"rel_coverage": 100.0
+}
+},
+"Finaghy": {
+"1971": {
+"pop": 4377,
+"cath_share": 10.9,
+"not_stated": 6.6,
+"owner": 80.5,
+"public_rent": 13.9,
+"no_car": 29.1,
+"per_room": 0.58,
+"male_unemp": 2.3,
+"moved_1yr": 5.6,
+"rel_coverage": 85.9
+},
+"1981": {
+"pop": 3925,
+"cath_share": 14.7,
+"not_stated": 18.1,
+"owner": 84.3,
+"public_rent": 12.1,
+"no_car": 25.6,
+"per_room": 0.54,
+"male_unemp": 5.7,
+"moved_1yr": 5.0,
+"rel_coverage": 91.3
+},
+"1991": {
+"pop": 3965,
+"cath_share": 34.4,
+"not_stated": 15.4,
+"owner": 90.2,
+"public_rent": 6.7,
+"no_car": 20.5,
+"per_room": 0.49,
+"male_unemp": 6.8,
+"moved_1yr": 5.0,
+"rel_coverage": 92.9
+},
+"2001": {
+"pop": 4994,
+"cath_share": 48.3,
+"not_stated": 12.9,
+"owner": 90.8,
+"public_rent": 4.4,
+"no_car": 14.8,
+"per_room": 0.44,
+"male_unemp": 3.5,
+"moved_1yr": 6.5,
+"rel_coverage": 100.0
+}
+},
+"Fortwilliam": {
+"1971": {
+"pop": 5623,
+"cath_share": 14.8,
+"not_stated": 8.5,
+"owner": 73.7,
+"public_rent": 7.2,
+"no_car": 47.8,
+"per_room": 0.57,
+"male_unemp": 5.1,
+"moved_1yr": 8.2,
+"rel_coverage": 91.3
+},
+"1981": {
+"pop": 4766,
+"cath_share": 17.3,
+"not_stated": 16.4,
+"owner": 77.6,
+"public_rent": 6.6,
+"no_car": 45.4,
+"per_room": 0.52,
+"male_unemp": 10.7,
+"moved_1yr": 5.9,
+"rel_coverage": 89.5
+},
+"1991": {
+"pop": 4790,
+"cath_share": 29.3,
+"not_stated": 14.6,
+"owner": 84.5,
+"public_rent": 5.2,
+"no_car": 37.2,
+"per_room": 0.48,
+"male_unemp": 9.5,
+"moved_1yr": 5.7,
+"rel_coverage": 89.8
+},
+"2001": {
+"pop": 4798,
+"cath_share": 35.4,
+"not_stated": 14.3,
+"owner": 79.6,
+"public_rent": 5.6,
+"no_car": 32.7,
+"per_room": 0.43,
+"male_unemp": 6.7,
+"moved_1yr": 9.3,
+"rel_coverage": 100.0
+}
+},
+"Glen Road": {
+"1971": {
+"pop": 7674,
+"cath_share": 99.2,
+"not_stated": 22.2,
+"owner": 11.8,
+"public_rent": 87.3,
+"no_car": 62.4,
+"per_room": 1.05,
+"male_unemp": 14.7,
+"moved_1yr": 3.8,
+"rel_coverage": 93.8
+},
+"1981": {
+"pop": 5726,
+"cath_share": 99.0,
+"not_stated": 25.5,
+"owner": 19.3,
+"public_rent": 78.7,
+"no_car": 61.2,
+"per_room": 0.79,
+"male_unemp": 29.9,
+"moved_1yr": 2.4,
+"rel_coverage": 95.0
+},
+"1991": {
+"pop": 5616,
+"cath_share": 99.6,
+"not_stated": 5.5,
+"owner": 49.9,
+"public_rent": 47.4,
+"no_car": 58.2,
+"per_room": 0.59,
+"male_unemp": 36.0,
+"moved_1yr": 4.9,
+"rel_coverage": 98.6
+},
+"2001": {
+"pop": 5872,
+"cath_share": 99.7,
+"not_stated": 11.8,
+"owner": 61.3,
+"public_rent": 32.8,
+"no_car": 47.6,
+"per_room": 0.55,
+"male_unemp": 19.6,
+"moved_1yr": 5.6,
+"rel_coverage": 99.9
+}
+},
+"Glencairn": {
+"1971": {
+"pop": 5103,
+"cath_share": 4.8,
+"not_stated": 5.4,
+"owner": 27.7,
+"public_rent": 62.9,
+"no_car": 60.3,
+"per_room": 0.72,
+"male_unemp": 8.7,
+"moved_1yr": 14.8,
+"rel_coverage": 96.4
+},
+"1981": {
+"pop": 4933,
+"cath_share": 7.4,
+"not_stated": 13.6,
+"owner": 30.2,
+"public_rent": 62.4,
+"no_car": 63.7,
+"per_room": 0.64,
+"male_unemp": 22.6,
+"moved_1yr": 5.4,
+"rel_coverage": 97.1
+},
+"1991": {
+"pop": 3336,
+"cath_share": 15.9,
+"not_stated": 9.3,
+"owner": 50.4,
+"public_rent": 42.2,
+"no_car": 60.2,
+"per_room": 0.51,
+"male_unemp": 24.0,
+"moved_1yr": 7.0,
+"rel_coverage": 93.6
+},
+"2001": {
+"pop": 4026,
+"cath_share": 12.9,
+"not_stated": 14.2,
+"owner": 47.7,
+"public_rent": 39.7,
+"no_car": 54.1,
+"per_room": 0.47,
+"male_unemp": 17.3,
+"moved_1yr": 8.3,
+"rel_coverage": 100.0
+}
+},
+"Glencolin": {
+"1971": {
+"pop": 5780,
+"cath_share": 82.5,
+"not_stated": 20.7,
+"owner": 11.0,
+"public_rent": 87.3,
+"no_car": 60.8,
+"per_room": 0.94,
+"male_unemp": 16.5,
+"moved_1yr": 29.2,
+"rel_coverage": 95.3
+},
+"1981": {
+"pop": 4578,
+"cath_share": 99.3,
+"not_stated": 28.3,
+"owner": 12.8,
+"public_rent": 85.7,
+"no_car": 67.3,
+"per_room": 0.9,
+"male_unemp": 37.8,
+"moved_1yr": 3.0,
+"rel_coverage": 95.7
+},
+"1991": {
+"pop": 4546,
+"cath_share": 99.7,
+"not_stated": 9.2,
+"owner": 31.9,
+"public_rent": 66.0,
+"no_car": 67.2,
+"per_room": 0.67,
+"male_unemp": 43.4,
+"moved_1yr": 4.7,
+"rel_coverage": 97.6
+},
+"2001": {
+"pop": 7129,
+"cath_share": 99.4,
+"not_stated": 8.8,
+"owner": 56.1,
+"public_rent": 39.0,
+"no_car": 41.8,
+"per_room": 0.59,
+"male_unemp": 20.5,
+"moved_1yr": 6.1,
+"rel_coverage": 100.0
+}
+},
+"Highfield": {
+"1971": {
+"pop": 8049,
+"cath_share": 4.7,
+"not_stated": 5.6,
+"owner": 35.6,
+"public_rent": 60.5,
+"no_car": 55.0,
+"per_room": 0.78,
+"male_unemp": 9.5,
+"moved_1yr": 11.5,
+"rel_coverage": 98.5
+},
+"1981": {
+"pop": 5252,
+"cath_share": 2.1,
+"not_stated": 15.5,
+"owner": 32.9,
+"public_rent": 64.7,
+"no_car": 58.5,
+"per_room": 0.67,
+"male_unemp": 21.2,
+"moved_1yr": 3.9,
+"rel_coverage": 97.0
+},
+"1991": {
+"pop": 4431,
+"cath_share": 2.2,
+"not_stated": 9.8,
+"owner": 43.0,
+"public_rent": 54.9,
+"no_car": 58.6,
+"per_room": 0.54,
+"male_unemp": 24.1,
+"moved_1yr": 5.7,
+"rel_coverage": 95.4
+},
+"2001": {
+"pop": 5310,
+"cath_share": 3.3,
+"not_stated": 12.5,
+"owner": 59.7,
+"public_rent": 37.9,
+"no_car": 41.2,
+"per_room": 0.49,
+"male_unemp": 11.6,
+"moved_1yr": 6.8,
+"rel_coverage": 100.0
+}
+},
+"Island": {
+"1971": {
+"pop": 9057,
+"cath_share": 2.1,
+"not_stated": 5.0,
+"owner": 35.1,
+"public_rent": 13.4,
+"no_car": 75.6,
+"per_room": 0.62,
+"male_unemp": 10.2,
+"moved_1yr": 7.6,
+"rel_coverage": 98.3
+},
+"1981": {
+"pop": 5841,
+"cath_share": 0.6,
+"not_stated": 13.6,
+"owner": 46.4,
+"public_rent": 11.6,
+"no_car": 71.2,
+"per_room": 0.54,
+"male_unemp": 19.9,
+"moved_1yr": 6.1,
+"rel_coverage": 99.1
+},
+"1991": {
+"pop": 5228,
+"cath_share": 0.9,
+"not_stated": 14.8,
+"owner": 43.3,
+"public_rent": 28.2,
+"no_car": 68.0,
+"per_room": 0.47,
+"male_unemp": 29.6,
+"moved_1yr": 9.3,
+"rel_coverage": 98.3
+},
+"2001": {
+"pop": 4280,
+"cath_share": 1.7,
+"not_stated": 25.5,
+"owner": 41.1,
+"public_rent": 34.2,
+"no_car": 55.2,
+"per_room": 0.43,
+"male_unemp": 13.6,
+"moved_1yr": 10.2,
+"rel_coverage": 100.0
+}
+},
+"Knock": {
+"1971": {
+"pop": 6241,
+"cath_share": 5.3,
+"not_stated": 7.5,
+"owner": 66.0,
+"public_rent": 30.0,
+"no_car": 34.3,
+"per_room": 0.63,
+"male_unemp": 3.6,
+"moved_1yr": 6.8,
+"rel_coverage": 92.9
+},
+"1981": {
+"pop": 5500,
+"cath_share": 3.0,
+"not_stated": 17.4,
+"owner": 69.2,
+"public_rent": 27.7,
+"no_car": 29.6,
+"per_room": 0.55,
+"male_unemp": 7.9,
+"moved_1yr": 4.7,
+"rel_coverage": 92.5
+},
+"1991": {
+"pop": 4881,
+"cath_share": 3.2,
+"not_stated": 14.6,
+"owner": 74.7,
+"public_rent": 21.2,
+"no_car": 26.9,
+"per_room": 0.47,
+"male_unemp": 9.7,
+"moved_1yr": 4.4,
+"rel_coverage": 93.1
+},
+"2001": {
+"pop": 4995,
+"cath_share": 4.5,
+"not_stated": 19.0,
+"owner": 78.0,
+"public_rent": 17.0,
+"no_car": 23.7,
+"per_room": 0.42,
+"male_unemp": 5.6,
+"moved_1yr": 5.5,
+"rel_coverage": 100.0
+}
+},
+"Ladybrook": {
+"1971": {
+"pop": 7596,
+"cath_share": 51.1,
+"not_stated": 18.8,
+"owner": 51.2,
+"public_rent": 46.8,
+"no_car": 39.6,
+"per_room": 0.79,
+"male_unemp": 6.0,
+"moved_1yr": 9.3,
+"rel_coverage": 96.4
+},
+"1981": {
+"pop": 6979,
+"cath_share": 74.8,
+"not_stated": 28.1,
+"owner": 51.2,
+"public_rent": 45.4,
+"no_car": 45.9,
+"per_room": 0.76,
+"male_unemp": 22.1,
+"moved_1yr": 4.4,
+"rel_coverage": 98.7
+},
+"1991": {
+"pop": 6671,
+"cath_share": 86.8,
+"not_stated": 7.1,
+"owner": 60.7,
+"public_rent": 37.7,
+"no_car": 41.8,
+"per_room": 0.65,
+"male_unemp": 24.8,
+"moved_1yr": 6.0,
+"rel_coverage": 97.7
+},
+"2001": {
+"pop": 6384,
+"cath_share": 89.5,
+"not_stated": 9.9,
+"owner": 68.5,
+"public_rent": 27.7,
+"no_car": 32.4,
+"per_room": 0.56,
+"male_unemp": 15.8,
+"moved_1yr": 4.3,
+"rel_coverage": 100.0
+}
+},
+"Legoniel": {
+"1971": {
+"pop": 6518,
+"cath_share": 30.2,
+"not_stated": 9.3,
+"owner": 53.1,
+"public_rent": 16.9,
+"no_car": 59.7,
+"per_room": 0.66,
+"male_unemp": 11.0,
+"moved_1yr": 8.0,
+"rel_coverage": 93.4
+},
+"1981": {
+"pop": 4186,
+"cath_share": 12.0,
+"not_stated": 17.7,
+"owner": 61.6,
+"public_rent": 23.2,
+"no_car": 54.8,
+"per_room": 0.54,
+"male_unemp": 17.0,
+"moved_1yr": 5.9,
+"rel_coverage": 93.3
+},
+"1991": {
+"pop": 3907,
+"cath_share": 19.3,
+"not_stated": 13.1,
+"owner": 57.8,
+"public_rent": 35.1,
+"no_car": 53.9,
+"per_room": 0.47,
+"male_unemp": 20.9,
+"moved_1yr": 6.6,
+"rel_coverage": 91.8
+},
+"2001": {
+"pop": 5528,
+"cath_share": 38.6,
+"not_stated": 15.4,
+"owner": 58.9,
+"public_rent": 31.2,
+"no_car": 44.3,
+"per_room": 0.48,
+"male_unemp": 11.5,
+"moved_1yr": 8.4,
+"rel_coverage": 100.0
+}
+},
+"Malone": {
+"1971": {
+"pop": 5382,
+"cath_share": 12.9,
+"not_stated": 11.0,
+"owner": 77.5,
+"public_rent": 3.2,
+"no_car": 27.9,
+"per_room": 0.44,
+"male_unemp": 2.5,
+"moved_1yr": 8.6,
+"rel_coverage": 78.2
+},
+"1981": {
+"pop": 5396,
+"cath_share": 22.5,
+"not_stated": 19.0,
+"owner": 79.9,
+"public_rent": 3.1,
+"no_car": 24.3,
+"per_room": 0.43,
+"male_unemp": 6.0,
+"moved_1yr": 7.9,
+"rel_coverage": 79.9
+},
+"1991": {
+"pop": 5292,
+"cath_share": 43.9,
+"not_stated": 17.5,
+"owner": 86.0,
+"public_rent": 0.8,
+"no_car": 19.9,
+"per_room": 0.4,
+"male_unemp": 5.4,
+"moved_1yr": 6.4,
+"rel_coverage": 78.9
+},
+"2001": {
+"pop": 5694,
+"cath_share": 63.0,
+"not_stated": 18.5,
+"owner": 82.4,
+"public_rent": 0.9,
+"no_car": 14.4,
+"per_room": 0.37,
+"male_unemp": 3.9,
+"moved_1yr": 11.9,
+"rel_coverage": 100.0
+}
+},
+"Musgrave": {
+"1971": {
+"pop": 5904,
+"cath_share": 13.6,
+"not_stated": 9.4,
+"owner": 58.4,
+"public_rent": 33.0,
+"no_car": 35.3,
+"per_room": 0.55,
+"male_unemp": 4.0,
+"moved_1yr": 8.5,
+"rel_coverage": 79.7
+},
+"1981": {
+"pop": 4973,
+"cath_share": 36.1,
+"not_stated": 21.1,
+"owner": 63.1,
+"public_rent": 31.6,
+"no_car": 36.9,
+"per_room": 0.54,
+"male_unemp": 10.1,
+"moved_1yr": 5.9,
+"rel_coverage": 93.3
+},
+"1991": {
+"pop": 5297,
+"cath_share": 55.2,
+"not_stated": 12.0,
+"owner": 72.7,
+"public_rent": 22.2,
+"no_car": 31.4,
+"per_room": 0.5,
+"male_unemp": 11.7,
+"moved_1yr": 5.4,
+"rel_coverage": 92.4
+},
+"2001": {
+"pop": 5277,
+"cath_share": 63.9,
+"not_stated": 12.4,
+"owner": 77.8,
+"public_rent": 13.1,
+"no_car": 25.3,
+"per_room": 0.46,
+"male_unemp": 7.8,
+"moved_1yr": 7.7,
+"rel_coverage": 100.0
+}
+},
+"New Lodge": {
+"1971": {
+"pop": 10496,
+"cath_share": 82.2,
+"not_stated": 18.3,
+"owner": 19.2,
+"public_rent": 47.6,
+"no_car": 87.1,
+"per_room": 0.83,
+"male_unemp": 24.5,
+"moved_1yr": 15.4,
+"rel_coverage": 97.1
+},
+"1981": {
+"pop": 5823,
+"cath_share": 96.9,
+"not_stated": 31.1,
+"owner": 16.6,
+"public_rent": 75.0,
+"no_car": 88.0,
+"per_room": 0.83,
+"male_unemp": 46.5,
+"moved_1yr": 5.3,
+"rel_coverage": 96.5
+},
+"1991": {
+"pop": 6174,
+"cath_share": 98.6,
+"not_stated": 7.7,
+"owner": 14.8,
+"public_rent": 81.7,
+"no_car": 86.3,
+"per_room": 0.61,
+"male_unemp": 57.6,
+"moved_1yr": 4.7,
+"rel_coverage": 95.4
+},
+"2001": {
+"pop": 5224,
+"cath_share": 98.9,
+"not_stated": 6.4,
+"owner": 24.7,
+"public_rent": 67.5,
+"no_car": 74.5,
+"per_room": 0.54,
+"male_unemp": 32.2,
+"moved_1yr": 6.0,
+"rel_coverage": 100.0
+}
+},
+"Orangefield": {
+"1971": {
+"pop": 6378,
+"cath_share": 3.6,
+"not_stated": 5.6,
+"owner": 72.0,
+"public_rent": 8.3,
+"no_car": 38.5,
+"per_room": 0.51,
+"male_unemp": 3.2,
+"moved_1yr": 5.2,
+"rel_coverage": 94.8
+},
+"1981": {
+"pop": 5501,
+"cath_share": 1.0,
+"not_stated": 16.5,
+"owner": 80.3,
+"public_rent": 5.7,
+"no_car": 36.1,
+"per_room": 0.48,
+"male_unemp": 7.4,
+"moved_1yr": 4.9,
+"rel_coverage": 93.7
+},
+"1991": {
+"pop": 5289,
+"cath_share": 1.0,
+"not_stated": 15.8,
+"owner": 88.0,
+"public_rent": 4.0,
+"no_car": 30.2,
+"per_room": 0.44,
+"male_unemp": 8.1,
+"moved_1yr": 5.0,
+"rel_coverage": 92.4
+},
+"2001": {
+"pop": 5496,
+"cath_share": 2.2,
+"not_stated": 20.1,
+"owner": 87.7,
+"public_rent": 2.8,
+"no_car": 22.2,
+"per_room": 0.41,
+"male_unemp": 4.7,
+"moved_1yr": 8.2,
+"rel_coverage": 100.0
+}
+},
+"Ravenhill": {
+"1971": {
+"pop": 6209,
+"cath_share": 10.0,
+"not_stated": 8.7,
+"owner": 66.0,
+"public_rent": 9.3,
+"no_car": 48.9,
+"per_room": 0.48,
+"male_unemp": 3.8,
+"moved_1yr": 6.6,
+"rel_coverage": 92.2
+},
+"1981": {
+"pop": 5449,
+"cath_share": 8.4,
+"not_stated": 18.7,
+"owner": 74.7,
+"public_rent": 5.8,
+"no_car": 41.6,
+"per_room": 0.46,
+"male_unemp": 8.3,
+"moved_1yr": 6.9,
+"rel_coverage": 94.9
+},
+"1991": {
+"pop": 5310,
+"cath_share": 16.0,
+"not_stated": 20.9,
+"owner": 83.2,
+"public_rent": 4.9,
+"no_car": 31.8,
+"per_room": 0.43,
+"male_unemp": 8.8,
+"moved_1yr": 7.4,
+"rel_coverage": 95.6
+},
+"2001": {
+"pop": 5500,
+"cath_share": 26.9,
+"not_stated": 25.4,
+"owner": 79.0,
+"public_rent": 2.7,
+"no_car": 25.1,
+"per_room": 0.39,
+"male_unemp": 5.0,
+"moved_1yr": 12.8,
+"rel_coverage": 100.0
+}
+},
+"Rosetta": {
+"1971": {
+"pop": 6015,
+"cath_share": 23.2,
+"not_stated": 8.7,
+"owner": 63.1,
+"public_rent": 25.9,
+"no_car": 37.0,
+"per_room": 0.54,
+"male_unemp": 4.8,
+"moved_1yr": 7.2,
+"rel_coverage": 85.0
+},
+"1981": {
+"pop": 5146,
+"cath_share": 28.6,
+"not_stated": 19.3,
+"owner": 63.9,
+"public_rent": 27.0,
+"no_car": 39.1,
+"per_room": 0.48,
+"male_unemp": 10.3,
+"moved_1yr": 5.8,
+"rel_coverage": 84.6
+},
+"1991": {
+"pop": 4964,
+"cath_share": 45.4,
+"not_stated": 18.4,
+"owner": 73.3,
+"public_rent": 16.5,
+"no_car": 33.8,
+"per_room": 0.42,
+"male_unemp": 9.9,
+"moved_1yr": 7.8,
+"rel_coverage": 87.9
+},
+"2001": {
+"pop": 5115,
+"cath_share": 63.7,
+"not_stated": 19.4,
+"owner": 74.2,
+"public_rent": 9.7,
+"no_car": 26.5,
+"per_room": 0.39,
+"male_unemp": 3.9,
+"moved_1yr": 11.7,
+"rel_coverage": 100.0
+}
+},
+"Shaftesbury": {
+"1971": {
+"pop": 16519,
+"cath_share": 23.3,
+"not_stated": 8.0,
+"owner": 26.3,
+"public_rent": 14.3,
+"no_car": 82.5,
+"per_room": 0.67,
+"male_unemp": 15.9,
+"moved_1yr": 7.5,
+"rel_coverage": 89.5
+},
+"1981": {
+"pop": 6054,
+"cath_share": 24.3,
+"not_stated": 17.7,
+"owner": 17.1,
+"public_rent": 60.9,
+"no_car": 83.2,
+"per_room": 0.58,
+"male_unemp": 29.8,
+"moved_1yr": 9.6,
+"rel_coverage": 78.8
+},
+"1991": {
+"pop": 6375,
+"cath_share": 35.9,
+"not_stated": 12.0,
+"owner": 12.5,
+"public_rent": 75.7,
+"no_car": 78.4,
+"per_room": 0.49,
+"male_unemp": 46.1,
+"moved_1yr": 9.6,
+"rel_coverage": 81.3
+},
+"2001": {
+"pop": 5785,
+"cath_share": 39.1,
+"not_stated": 20.2,
+"owner": 23.1,
+"public_rent": 56.7,
+"no_car": 66.1,
+"per_room": 0.46,
+"male_unemp": 18.7,
+"moved_1yr": 15.4,
+"rel_coverage": 100.0
+}
+},
+"Shankill": {
+"1971": {
+"pop": 13894,
+"cath_share": 4.4,
+"not_stated": 4.2,
+"owner": 26.4,
+"public_rent": 18.7,
+"no_car": 84.0,
+"per_room": 0.72,
+"male_unemp": 17.5,
+"moved_1yr": 9.5,
+"rel_coverage": 99.3
+},
+"1981": {
+"pop": 4894,
+"cath_share": 1.5,
+"not_stated": 14.6,
+"owner": 22.3,
+"public_rent": 63.1,
+"no_car": 84.9,
+"per_room": 0.64,
+"male_unemp": 28.5,
+"moved_1yr": 10.5,
+"rel_coverage": 95.6
+},
+"1991": {
+"pop": 4617,
+"cath_share": 1.9,
+"not_stated": 9.4,
+"owner": 15.0,
+"public_rent": 78.3,
+"no_car": 85.1,
+"per_room": 0.51,
+"male_unemp": 40.2,
+"moved_1yr": 7.0,
+"rel_coverage": 93.8
+},
+"2001": {
+"pop": 3784,
+"cath_share": 0.8,
+"not_stated": 15.9,
+"owner": 18.3,
+"public_rent": 66.9,
+"no_car": 72.8,
+"per_room": 0.45,
+"male_unemp": 28.3,
+"moved_1yr": 16.5,
+"rel_coverage": 100.0
+}
+},
+"Stormont": {
+"1971": {
+"pop": 5610,
+"cath_share": 3.5,
+"not_stated": 7.6,
+"owner": 67.2,
+"public_rent": 21.8,
+"no_car": 28.1,
+"per_room": 0.48,
+"male_unemp": 2.2,
+"moved_1yr": 8.3,
+"rel_coverage": 66.2
+},
+"1981": {
+"pop": 4440,
+"cath_share": 5.0,
+"not_stated": 16.5,
+"owner": 72.7,
+"public_rent": 17.0,
+"no_car": 22.3,
+"per_room": 0.45,
+"male_unemp": 6.0,
+"moved_1yr": 6.8,
+"rel_coverage": 77.0
+},
+"1991": {
+"pop": 4969,
+"cath_share": 6.0,
+"not_stated": 18.5,
+"owner": 83.8,
+"public_rent": 8.9,
+"no_car": 15.1,
+"per_room": 0.42,
+"male_unemp": 5.5,
+"moved_1yr": 6.1,
+"rel_coverage": 72.1
+},
+"2001": {
+"pop": 5530,
+"cath_share": 8.4,
+"not_stated": 21.7,
+"owner": 87.3,
+"public_rent": 3.8,
+"no_car": 10.8,
+"per_room": 0.36,
+"male_unemp": 2.5,
+"moved_1yr": 6.7,
+"rel_coverage": 100.0
+}
+},
+"Stranmillis": {
+"1971": {
+"pop": 6741,
+"cath_share": 10.7,
+"not_stated": 11.2,
+"owner": 76.4,
+"public_rent": 3.3,
+"no_car": 34.0,
+"per_room": 0.49,
+"male_unemp": 2.9,
+"moved_1yr": 5.0,
+"rel_coverage": 87.3
+},
+"1981": {
+"pop": 4902,
+"cath_share": 14.0,
+"not_stated": 21.6,
+"owner": 81.8,
+"public_rent": 0.8,
+"no_car": 28.1,
+"per_room": 0.44,
+"male_unemp": 5.3,
+"moved_1yr": 7.7,
+"rel_coverage": 82.3
+},
+"1991": {
+"pop": 5082,
+"cath_share": 33.6,
+"not_stated": 19.7,
+"owner": 80.8,
+"public_rent": 0.7,
+"no_car": 22.8,
+"per_room": 0.38,
+"male_unemp": 6.0,
+"moved_1yr": 8.8,
+"rel_coverage": 75.8
+},
+"2001": {
+"pop": 7635,
+"cath_share": 54.6,
+"not_stated": 20.8,
+"owner": 74.8,
+"public_rent": 0.6,
+"no_car": 20.0,
+"per_room": 0.39,
+"male_unemp": 2.8,
+"moved_1yr": 34.8,
+"rel_coverage": 100.0
+}
+},
+"Sydenham": {
+"1971": {
+"pop": 6002,
+"cath_share": 3.6,
+"not_stated": 6.7,
+"owner": 48.1,
+"public_rent": 22.3,
+"no_car": 54.3,
+"per_room": 0.6,
+"male_unemp": 6.2,
+"moved_1yr": 8.3,
+"rel_coverage": 97.0
+},
+"1981": {
+"pop": 5169,
+"cath_share": 0.9,
+"not_stated": 14.7,
+"owner": 59.7,
+"public_rent": 14.2,
+"no_car": 51.8,
+"per_room": 0.54,
+"male_unemp": 11.9,
+"moved_1yr": 6.5,
+"rel_coverage": 96.1
+},
+"1991": {
+"pop": 5116,
+"cath_share": 0.9,
+"not_stated": 16.3,
+"owner": 65.7,
+"public_rent": 19.6,
+"no_car": 44.4,
+"per_room": 0.5,
+"male_unemp": 13.5,
+"moved_1yr": 6.2,
+"rel_coverage": 97.9
+},
+"2001": {
+"pop": 5235,
+"cath_share": 1.7,
+"not_stated": 23.6,
+"owner": 64.9,
+"public_rent": 16.7,
+"no_car": 39.9,
+"per_room": 0.44,
+"male_unemp": 10.4,
+"moved_1yr": 10.8,
+"rel_coverage": 100.0
+}
+},
+"The Mount": {
+"1971": {
+"pop": 10576,
+"cath_share": 5.0,
+"not_stated": 5.6,
+"owner": 34.4,
+"public_rent": 10.8,
+"no_car": 76.4,
+"per_room": 0.62,
+"male_unemp": 11.5,
+"moved_1yr": 9.0,
+"rel_coverage": 99.6
+},
+"1981": {
+"pop": 6434,
+"cath_share": 1.2,
+"not_stated": 18.1,
+"owner": 44.1,
+"public_rent": 20.2,
+"no_car": 76.6,
+"per_room": 0.57,
+"male_unemp": 21.4,
+"moved_1yr": 8.1,
+"rel_coverage": 98.6
+},
+"1991": {
+"pop": 5422,
+"cath_share": 1.2,
+"not_stated": 16.4,
+"owner": 37.5,
+"public_rent": 45.2,
+"no_car": 72.3,
+"per_room": 0.49,
+"male_unemp": 31.6,
+"moved_1yr": 12.6,
+"rel_coverage": 98.2
+},
+"2001": {
+"pop": 4259,
+"cath_share": 2.2,
+"not_stated": 25.6,
+"owner": 30.6,
+"public_rent": 39.5,
+"no_car": 63.4,
+"per_room": 0.43,
+"male_unemp": 21.4,
+"moved_1yr": 17.0,
+"rel_coverage": 100.0
+}
+},
+"Upper Malone": {
+"1971": {
+"pop": 5391,
+"cath_share": 7.4,
+"not_stated": 6.8,
+"owner": 37.9,
+"public_rent": 59.1,
+"no_car": 45.1,
+"per_room": 0.72,
+"male_unemp": 8.1,
+"moved_1yr": 6.2,
+"rel_coverage": 86.7
+},
+"1981": {
+"pop": 3921,
+"cath_share": 5.4,
+"not_stated": 17.9,
+"owner": 45.6,
+"public_rent": 52.1,
+"no_car": 43.4,
+"per_room": 0.54,
+"male_unemp": 13.1,
+"moved_1yr": 6.3,
+"rel_coverage": 84.7
+},
+"1991": {
+"pop": 4191,
+"cath_share": 11.1,
+"not_stated": 13.1,
+"owner": 46.5,
+"public_rent": 49.9,
+"no_car": 45.8,
+"per_room": 0.47,
+"male_unemp": 18.8,
+"moved_1yr": 7.1,
+"rel_coverage": 81.5
+},
+"2001": {
+"pop": 4926,
+"cath_share": 26.6,
+"not_stated": 16.8,
+"owner": 62.7,
+"public_rent": 31.8,
+"no_car": 31.9,
+"per_room": 0.4,
+"male_unemp": 5.5,
+"moved_1yr": 8.6,
+"rel_coverage": 100.0
+}
+},
+"Upper Springfield": {
+"1971": {
+"pop": 9190,
+"cath_share": 96.7,
+"not_stated": 19.9,
+"owner": 16.4,
+"public_rent": 81.6,
+"no_car": 79.9,
+"per_room": 1.16,
+"male_unemp": 28.4,
+"moved_1yr": 19.6,
+"rel_coverage": 96.9
+},
+"1981": {
+"pop": 6195,
+"cath_share": 98.3,
+"not_stated": 26.0,
+"owner": 13.4,
+"public_rent": 83.3,
+"no_car": 81.0,
+"per_room": 0.96,
+"male_unemp": 48.0,
+"moved_1yr": 2.5,
+"rel_coverage": 97.0
+},
+"1991": {
+"pop": 5839,
+"cath_share": 99.3,
+"not_stated": 8.1,
+"owner": 26.9,
+"public_rent": 71.3,
+"no_car": 75.1,
+"per_room": 0.7,
+"male_unemp": 50.8,
+"moved_1yr": 4.0,
+"rel_coverage": 97.1
+},
+"2001": {
+"pop": 5895,
+"cath_share": 99.5,
+"not_stated": 11.9,
+"owner": 43.6,
+"public_rent": 51.8,
+"no_car": 56.4,
+"per_room": 0.64,
+"male_unemp": 29.7,
+"moved_1yr": 4.6,
+"rel_coverage": 100.0
+}
+},
+"Water Works": {
+"1971": {
+"pop": 11127,
+"cath_share": 53.2,
+"not_stated": 16.5,
+"owner": 50.8,
+"public_rent": 10.5,
+"no_car": 64.2,
+"per_room": 0.57,
+"male_unemp": 10.2,
+"moved_1yr": 9.1,
+"rel_coverage": 80.7
+},
+"1981": {
+"pop": 5740,
+"cath_share": 76.0,
+"not_stated": 30.2,
+"owner": 56.7,
+"public_rent": 23.0,
+"no_car": 64.1,
+"per_room": 0.56,
+"male_unemp": 31.7,
+"moved_1yr": 7.8,
+"rel_coverage": 88.6
+},
+"1991": {
+"pop": 6636,
+"cath_share": 89.9,
+"not_stated": 13.8,
+"owner": 45.2,
+"public_rent": 34.5,
+"no_car": 68.0,
+"per_room": 0.52,
+"male_unemp": 39.5,
+"moved_1yr": 8.3,
+"rel_coverage": 87.9
+},
+"2001": {
+"pop": 6305,
+"cath_share": 94.7,
+"not_stated": 12.4,
+"owner": 41.3,
+"public_rent": 25.0,
+"no_car": 59.7,
+"per_room": 0.47,
+"male_unemp": 21.3,
+"moved_1yr": 13.9,
+"rel_coverage": 100.0
+}
+},
+"Whiterock": {
+"1971": {
+"pop": 8739,
+"cath_share": 98.6,
+"not_stated": 16.1,
+"owner": 7.8,
+"public_rent": 85.6,
+"no_car": 89.7,
+"per_room": 1.18,
+"male_unemp": 33.8,
+"moved_1yr": 9.7,
+"rel_coverage": 97.4
+},
+"1981": {
+"pop": 4918,
+"cath_share": 99.1,
+"not_stated": 25.7,
+"owner": 13.9,
+"public_rent": 81.3,
+"no_car": 87.8,
+"per_room": 0.88,
+"male_unemp": 55.4,
+"moved_1yr": 1.9,
+"rel_coverage": 98.4
+},
+"1991": {
+"pop": 5329,
+"cath_share": 99.8,
+"not_stated": 6.2,
+"owner": 20.7,
+"public_rent": 76.8,
+"no_car": 83.9,
+"per_room": 0.69,
+"male_unemp": 57.7,
+"moved_1yr": 2.3,
+"rel_coverage": 99.1
+},
+"2001": {
+"pop": 5424,
+"cath_share": 99.7,
+"not_stated": 5.0,
+"owner": 36.1,
+"public_rent": 59.6,
+"no_car": 67.8,
+"per_room": 0.63,
+"male_unemp": 33.7,
+"moved_1yr": 4.7,
+"rel_coverage": 100.1
+}
+},
+"Windsor": {
+"1971": {
+"pop": 7606,
+"cath_share": 13.6,
+"not_stated": 9.4,
+"owner": 46.4,
+"public_rent": 10.5,
+"no_car": 57.7,
+"per_room": 0.5,
+"male_unemp": 5.4,
+"moved_1yr": 9.2,
+"rel_coverage": 90.5
+},
+"1981": {
+"pop": 5988,
+"cath_share": 12.9,
+"not_stated": 23.7,
+"owner": 48.9,
+"public_rent": 8.2,
+"no_car": 55.5,
+"per_room": 0.44,
+"male_unemp": 13.4,
+"moved_1yr": 14.6,
+"rel_coverage": 92.8
+},
+"1991": {
+"pop": 5678,
+"cath_share": 28.0,
+"not_stated": 21.6,
+"owner": 49.4,
+"public_rent": 9.0,
+"no_car": 48.3,
+"per_room": 0.36,
+"male_unemp": 17.1,
+"moved_1yr": 14.4,
+"rel_coverage": 91.4
+},
+"2001": {
+"pop": 7087,
+"cath_share": 47.9,
+"not_stated": 26.7,
+"owner": 37.3,
+"public_rent": 6.9,
+"no_car": 41.3,
+"per_room": 0.43,
+"male_unemp": 6.8,
+"moved_1yr": 42.6,
+"rel_coverage": 100.0
+}
+},
+"Woodstock": {
+"1971": {
+"pop": 8552,
+"cath_share": 7.4,
+"not_stated": 6.7,
+"owner": 41.5,
+"public_rent": 11.0,
+"no_car": 69.7,
+"per_room": 0.57,
+"male_unemp": 9.7,
+"moved_1yr": 6.9,
+"rel_coverage": 99.3
+},
+"1981": {
+"pop": 5920,
+"cath_share": 2.3,
+"not_stated": 16.6,
+"owner": 46.3,
+"public_rent": 20.7,
+"no_car": 69.9,
+"per_room": 0.54,
+"male_unemp": 19.5,
+"moved_1yr": 6.7,
+"rel_coverage": 99.0
+},
+"1991": {
+"pop": 5249,
+"cath_share": 2.0,
+"not_stated": 16.1,
+"owner": 42.7,
+"public_rent": 35.4,
+"no_car": 65.3,
+"per_room": 0.45,
+"male_unemp": 27.7,
+"moved_1yr": 8.7,
+"rel_coverage": 99.1
+},
+"2001": {
+"pop": 5133,
+"cath_share": 3.8,
+"not_stated": 26.1,
+"owner": 40.0,
+"public_rent": 28.3,
+"no_car": 56.2,
+"per_room": 0.43,
+"male_unemp": 16.4,
+"moved_1yr": 14.1,
+"rel_coverage": 100.0
+}
+},
+"Woodvale": {
+"1971": {
+"pop": 8393,
+"cath_share": 5.0,
+"not_stated": 5.4,
+"owner": 40.6,
+"public_rent": 17.9,
+"no_car": 70.6,
+"per_room": 0.61,
+"male_unemp": 10.3,
+"moved_1yr": 7.5,
+"rel_coverage": 99.5
+},
+"1981": {
+"pop": 6515,
+"cath_share": 1.3,
+"not_stated": 14.3,
+"owner": 47.2,
+"public_rent": 18.4,
+"no_car": 74.1,
+"per_room": 0.56,
+"male_unemp": 20.6,
+"moved_1yr": 4.8,
+"rel_coverage": 98.4
+},
+"1991": {
+"pop": 4675,
+"cath_share": 0.4,
+"not_stated": 9.3,
+"owner": 51.4,
+"public_rent": 27.3,
+"no_car": 68.5,
+"per_room": 0.48,
+"male_unemp": 25.5,
+"moved_1yr": 6.2,
+"rel_coverage": 97.7
+},
+"2001": {
+"pop": 4594,
+"cath_share": 0.7,
+"not_stated": 15.3,
+"owner": 40.3,
+"public_rent": 29.4,
+"no_car": 61.5,
+"per_room": 0.44,
+"male_unemp": 20.6,
+"moved_1yr": 12.4,
+"rel_coverage": 100.0
+}
+}
+},
+"city_2001": {
+"1971": {
+"pop": 414482,
+"cath_share": 31.4,
+"not_stated": 10.8,
+"owner": 42.0,
+"public_rent": 25.8,
+"no_car": 63.6,
+"per_room": 0.66,
+"male_unemp": 12.0,
+"moved_1yr": 8.9,
+"dissimilarity_wards": 0.65,
+"dissimilarity_100m": 0.76
+},
+"1981": {
+"pop": 279535,
+"cath_share": 32.4,
+"not_stated": 20.8,
+"owner": 50.0,
+"public_rent": 30.5,
+"no_car": 58.4,
+"per_room": 0.57,
+"male_unemp": 21.6,
+"moved_1yr": 6.1,
+"dissimilarity_wards": 0.72,
+"dissimilarity_100m": 0.84
+},
+"1991": {
+"pop": 265753,
+"cath_share": 45.1,
+"not_stated": 13.5,
+"owner": 54.0,
+"public_rent": 33.2,
+"no_car": 53.8,
+"per_room": 0.49,
+"male_unemp": 25.5,
+"moved_1yr": 7.2,
+"dissimilarity_wards": 0.73,
+"dissimilarity_100m": 0.86
+},
+"2001": {
+"pop": 277391,
+"cath_share": 51.1,
+"not_stated": 16.9,
+"owner": 56.1,
+"public_rent": 26.4,
+"no_car": 43.8,
+"per_room": 0.46,
+"male_unemp": 12.6,
+"moved_1yr": 12.3,
+"dissimilarity_wards": 0.69
+}
 }
 }

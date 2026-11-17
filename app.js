@@ -691,6 +691,11 @@ infoCard.onAdd = () => {
 infoCard.addTo(map);
 // Theme picker inside a wall or city card: show a neighbourhood theme, going to Belfast first if needed
 infoBody.addEventListener("change", (e) => {
+  if (e.target.classList.contains("b7101-select")) {
+    const box = e.target.closest("details");
+    box.querySelector(".b7101-table").innerHTML = belfast7101Table(e.target.value);
+    return;
+  }
   if (!e.target.classList.contains("theme-select")) return;
   const key = e.target.value;
   if (!key) {
@@ -936,7 +941,7 @@ function cityPopupHtml(en, meta) {
     ${fold("Religion", f.religion)}
     ${fold("Income and employment", income)}
     ${fold("Criminality", f.crime)}
-    ${en === "Belfast" ? belfastHistoryHtml() : ""}
+    ${en === "Belfast" ? belfastHistoryHtml() + belfast7101Html() : ""}
     ${nationalHtml(meta.country)}
     <details>
       <summary>References (Harvard)</summary>
@@ -1219,6 +1224,47 @@ function belfastHistoryHtml() {
     <ol class="refs"><li>General Register Office (Northern Ireland) (1938; 1953; 1965; 1975) Census of Population of Northern Ireland: County Borough of Belfast reports, 1937, 1951, 1961 and 1971. Belfast: HMSO. Available at: https://www.nisra.gov.uk/statistics/census/2011-and-earlier-censuses (Accessed: 9 November 2026).</li></ol>
   </details>`;
 }
+// Belfast by 2001 ward, 1971–2001: 1971–1991 summed from the 100 m census grid squares (Shuttleworth and Lloyd, UK Data Service SN 5672)
+// into 2001 wards; 2001 from NISRA's ward key statistics. Only ward shares and totals are published, never grid-square counts (End User Licence).
+const B7101_YEARS = ["1971", "1981", "1991", "2001"];
+const B7101_THEMES = {
+  cath_share: { label: "Religion: % Catholic (of people stating Catholic or Protestant)", unit: "%" },
+  not_stated: { label: "Religion: % not stating a religion (or no religion)", unit: "%" },
+  pop: { label: "Population: people counted", unit: "" },
+  owner: { label: "Housing: % of households owner-occupied", unit: "%" },
+  public_rent: { label: "Housing: % of households renting from a public body", unit: "%" },
+  per_room: { label: "Housing: people per room (crowding)", unit: "" },
+  no_car: { label: "Housing: % of households without a car", unit: "%" },
+  male_unemp: { label: "Jobs: % of economically active men unemployed", unit: "%" },
+  moved_1yr: { label: "Migration: % who moved home in the past year", unit: "%" },
+};
+function belfast7101Table(theme) {
+  const fmt = (v) => (v == null ? "–" : theme === "pop" ? v.toLocaleString("en") : v);
+  const key = (w) => (["Falls", "Clonard", "Shankill", "Woodvale", "Ardoyne", "Crumlin", "New Lodge"].includes(w) ? ' class="hist-key"' : "");
+  const rows = Object.entries(belfastHistory.wards_2001).map(([w, d]) => `<tr${key(w)}><th>${w}</th>${B7101_YEARS.map((y) => `<td>${fmt(d[y] && d[y][theme])}</td>`).join("")}</tr>`).join("");
+  const c = belfastHistory.city_2001;
+  return `<thead><tr><th>Ward (2001)</th>${B7101_YEARS.map((y) => `<th>${y}</th>`).join("")}</tr></thead>
+    <tbody>${rows}<tr class="hist-total"><th>Belfast</th>${B7101_YEARS.map((y) => `<td>${fmt(c[y][theme])}</td>`).join("")}</tr></tbody>`;
+}
+function belfast7101Html() {
+  if (!belfastHistory || !belfastHistory.wards_2001) return "";
+  const c = belfastHistory.city_2001;
+  return `<details>
+    <summary>Belfast by ward, 1971–2001 (after the walls)</summary>
+    <p class="fiche-text">The same 51 wards (2001 boundaries) at each census, so areas can be compared through time. 1971, 1981 and 1991 are added up from 100 m census grid squares; 2001 comes from the census ward tables. The peace walls multiplied from 1969 onwards. In bold: wards along the Falls–Shankill and North Belfast walls.</p>
+    <label class="dep-toggle">Theme
+      <select class="theme-select b7101-select">${Object.entries(B7101_THEMES).map(([k, t]) => `<option value="${k}">${t.label}</option>`).join("")}</select>
+    </label>
+    <div class="hist-wrap"><table class="hist-table b7101-table">${belfast7101Table("cath_share")}</table></div>
+    <p class="fiche-text">Segregation index, Catholics against Protestants (0 = evenly mixed, 1 = fully separate). Across wards: ${B7101_YEARS.map((y) => `${y}: ${c[y].dissimilarity_wards}`).join("; ")}. Across 100 m squares: ${["1971", "1981", "1991"].map((y) => `${y}: ${c[y].dissimilarity_100m}`).join("; ")} (no 2001 squares in the dataset).</p>
+    <p class="cite">How to read it: squares withheld for confidentiality are left out, so 1971–1991 figures cover about 94% of residents and population counts are slightly low. 1981 is the least reliable year: many people refused the census or the religion question (a boycott linked to the hunger strikes), especially in Catholic West Belfast, so 1981 population counts are understated there and more people left religion blank. Catholic shares leave out people who stated no religion, another religion or none, so they compare the two main communities. Moving home in 1971–1991 counts moves within and into the district (from age 1); 2001 also counts moves from outside the UK, so 2001 is higher partly by definition. 2001 public renting is the Housing Executive only; 2001 rooms include kitchens, so crowding is slightly lower by definition. The censuses did not ask about income.</p>
+    <p class="cite">In-text: (Shuttleworth and Lloyd, 2007; NISRA, 2004)</p>
+    <ol class="refs">
+      <li>Shuttleworth, I. and Lloyd, C.D. (2007) Linking Northern Ireland Census of Population Data, 1971-2001 [data collection]. UK Data Service. SN: 5672. doi:10.5255/UKDA-SN-5672-1. Used under the UK Data Service End User Licence; only ward totals and shares derived from it are shown here.</li>
+      <li>Northern Ireland Statistics and Research Agency (2004) Census 2001 Key Statistics (KS01, KS07a, KS09b, KS17, KS18, KS19) and Migration table KS25, ward level. Available at: https://www.nisra.gov.uk/publications/2001-census-bulk-download-files (Accessed: 17 November 2026).</li>
+    </ol>
+  </details>`;
+}
 function themePickerHtml(regions) {
   return regions.map((r) => `<label class="dep-toggle">${REGIONS[r].name}: show by area on the map
     <select class="theme-select" data-region="${r}">
@@ -1291,7 +1337,7 @@ function popupHtml(p) {
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
     ${wallRegion(p) && wallRegion(p).includes("us") && window.borderTimelineHtml ? single("Border over time", window.borderTimelineHtml()) : ""}
-    ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() : ""}
+    ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>
