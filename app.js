@@ -721,6 +721,8 @@ function fitInfoCard() {
   const cardTop = card.getBoundingClientRect().top;
   // From the card's top to the bottom of the map frame, less a margin
   card.style.maxHeight = Math.max(160, mapBox.bottom - cardTop - 12) + "px";
+  // Never wider than the map frame (a comparison of four cities is wide)
+  card.style.maxWidth = Math.max(240, mapBox.width - 24) + "px";
 }
 function showInfoCard(html, extraClass) {
   const card = infoCard.getContainer();
@@ -996,23 +998,30 @@ function cityPopupHtml(en, meta) {
   </div>`;
 }
 
-// Comparing two cities: from a city card, type a name or click a city on the map
+// Comparing cities (2 to 4): from a city card, type a name or click a city on the map
+const MAX_COMPARE = 4;
 let currentCity = null;
-let compareFrom = null; // set while the visitor is choosing the second city
+let currentComparison = null; // the cities shown side by side
+let compareFrom = null; // the cities already chosen, while the visitor is choosing the next one
+const sameCity = (a, b) => a.en === b.en && a.meta.lat === b.meta.lat;
 function showCity(city) {
   showInfoCard(cityPopupHtml(city.en, city.meta), "city-card");
   currentCity = city;
+  currentComparison = null;
 }
-function showComparePicker(from) {
+function showComparePicker(chosen) {
+  const names = chosen.map((c) => c.en);
+  const title = names.length === 1 ? `Compare ${names[0]} with…` : `Add a city to ${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
   showInfoCard(`<div class="fiche">
-    <div class="fiche-title">Compare ${from.en} with…</div>
-    <p class="fiche-text">Type a city's name, or click a city on the map.</p>
+    <div class="fiche-title">${title}</div>
+    <p class="fiche-text">Type a city's name, or click a city on the map. Up to ${MAX_COMPARE} cities can be compared.</p>
     <input id="compare-input" class="compare-input" type="search" placeholder="City name" aria-label="City to compare with" autocomplete="off">
     <ul id="compare-list" class="compare-list"></ul>
-    <button type="button" class="compare-btn" data-compare-back>Back to ${from.en}</button>
+    <button type="button" class="compare-btn" data-compare-back>${chosen.length > 1 ? "Back to the comparison" : `Back to ${names[0]}`}</button>
   </div>`, "city-card");
-  compareFrom = from;
-  currentCity = from;
+  compareFrom = chosen;
+  currentCity = chosen[0];
+  currentComparison = chosen.length > 1 ? chosen : null;
   infoBody.querySelector("#compare-input").focus();
 }
 const plainName = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -1024,52 +1033,52 @@ function listCompareMatches(text) {
   const found = [];
   labelData.places.forEach((p, i) => {
     const name = plainName(p.en);
-    if (name.includes(q) && !(p.en === compareFrom.en && p.lat === compareFrom.meta.lat)) found.push({ p, i, starts: name.startsWith(q) });
+    if (name.includes(q) && !compareFrom.some((c) => sameCity(c, { en: p.en, meta: p }))) found.push({ p, i, starts: name.startsWith(q) });
   });
   found.sort((a, b) => b.starts - a.starts || (b.p.pop || 0) - (a.p.pop || 0));
   list.innerHTML = found.length
     ? found.slice(0, 8).map(({ p, i }) => `<li><button type="button" data-pick="${i}">${p.en}<small>${p.country || ""}</small></button></li>`).join("")
     : "<li class=\"compare-none\">No city of that name on the map</li>";
 }
-function comparisonHtml(a, b) {
-  const fa = cityFields(a.en, a.meta);
-  const fb = cityFields(b.en, b.meta);
-  const pair = (x, y) => `<div class="cmp-pair"><div>${x}</div><div>${y}</div></div>`;
-  const row = (label, key) => `<dt>${label}</dt><dd>${pair(fa[key], fb[key])}</dd>`;
-  const fold = (title, x, y) => `<details>
+function comparisonHtml(cities) {
+  const fs = cities.map((c) => cityFields(c.en, c.meta));
+  const cols = (xs) => `<div class="cmp-pair" style="grid-template-columns: repeat(${xs.length}, minmax(0, 1fr))">${xs.map((x) => `<div>${x}</div>`).join("")}</div>`;
+  const row = (label, key) => `<dt>${label}</dt><dd>${cols(fs.map((f) => f[key]))}</dd>`;
+  const fold = (title, xs) => `<details>
       <summary>${title}</summary>
-      <div class="fiche-text">${pair(x, y)}</div>
+      <div class="fiche-text">${cols(xs)}</div>
     </details>`;
-  const na = nationalRows(a.meta.country);
-  const nb = nationalRows(b.meta.country);
-  const labels = [...new Set([...na, ...nb].map(([l]) => l))];
+  const nat = cities.map((c) => nationalRows(c.meta.country));
+  const labels = [...new Set(nat.flat().map(([l]) => l))];
   const val = (rows, l) => (rows.find(([k]) => k === l) || [, "Not available"])[1];
   const national = labels.length
     ? `<details>
       <summary>National figures (not specific to these cities)</summary>
-      <dl>${labels.map((l) => `<dt>${l}</dt><dd>${pair(val(na, l), val(nb, l))}</dd>`).join("")}</dl>
+      <dl>${labels.map((l) => `<dt>${l}</dt><dd>${cols(nat.map((rows) => val(rows, l)))}</dd>`).join("")}</dl>
     </details>`
     : "";
-  const refs = [...new Set([...fa.refs, ...fb.refs])];
-  const cites = [...new Set(["(GeoNames, n.d.; Natural Earth, n.d.)", fa.cite, fb.cite].filter(Boolean))].join("; ");
+  const refs = [...new Set(fs.flatMap((f) => f.refs))];
+  const cites = [...new Set(["(GeoNames, n.d.; Natural Earth, n.d.)", ...fs.map((f) => f.cite)].filter(Boolean))].join("; ");
+  const names = cities.map((c) => c.en);
+  const head = cities.map((c, i) => `${c.en} <button type="button" class="cmp-remove" data-compare-remove="${i}" aria-label="Remove ${c.en} from the comparison" title="Remove">×</button>`);
   return `<div class="fiche">
-    <div class="fiche-title">${a.en} and ${b.en}</div>
+    <div class="fiche-title">${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}</div>
     <div class="compare-actions">
-      <button type="button" class="compare-btn" data-compare-change>Change second city</button>
-      <button type="button" class="compare-btn" data-compare-back>Back to ${a.en}</button>
+      ${cities.length < MAX_COMPARE ? `<button type="button" class="compare-btn" data-compare-add>Add a city (up to ${MAX_COMPARE})</button>` : ""}
+      <button type="button" class="compare-btn" data-compare-back>Back to ${cities[0].en}</button>
     </div>
     <p class="fiche-text">Figures come from different years and national definitions, so compare them with care.</p>
-    <div class="cmp-pair cmp-head"><div>${a.en}</div><div>${b.en}</div></div>
+    ${cols(head).replace('class="cmp-pair"', 'class="cmp-pair cmp-head"')}
     <dl>
       ${row("Country", "country")}
       ${row("Latest census", "census")}
       ${row("Population density", "density")}
     </dl>
-    ${fold("Ethnic / national groups", fa.ethnic, fb.ethnic)}
-    ${fold("Languages", fa.language, fb.language)}
-    ${fold("Religion", fa.religion, fb.religion)}
-    ${fold("Income and employment", fa.economy || NOT_FOUND, fb.economy || NOT_FOUND)}
-    ${fold("Criminality", fa.crime, fb.crime)}
+    ${fold("Ethnic / national groups", fs.map((f) => f.ethnic))}
+    ${fold("Languages", fs.map((f) => f.language))}
+    ${fold("Religion", fs.map((f) => f.religion))}
+    ${fold("Income and employment", fs.map((f) => f.economy || NOT_FOUND))}
+    ${fold("Criminality", fs.map((f) => f.crime))}
     ${national}
     <details>
       <summary>References (Harvard)</summary>
@@ -1078,21 +1087,42 @@ function comparisonHtml(a, b) {
     </details>
   </div>`;
 }
-function showComparison(a, b) {
-  showInfoCard(comparisonHtml(a, b), "city-card compare-card");
-  currentCity = a;
+function showComparison(cities) {
+  showInfoCard(comparisonHtml(cities), `city-card compare-card compare-${cities.length}`);
+  currentCity = cities[0];
+  currentComparison = cities;
+}
+// Adds a city to the comparison being built, or shows it on its own
+function chooseCity(city) {
+  if (compareFrom) {
+    if (!compareFrom.some((c) => sameCity(c, city))) showComparison([...compareFrom, city]);
+  } else showCity(city);
 }
 infoBody.addEventListener("click", (e) => {
+  const lcBtn = e.target.closest("[data-layer-compare]");
+  if (lcBtn) {
+    e.stopPropagation();
+    openLayerCompare(lcBtn.dataset.layerCompare);
+    return;
+  }
   const pick = e.target.closest("[data-pick]");
+  const remove = e.target.closest("[data-compare-remove]");
   // These buttons redraw the card: stop here, or the map sees a click from a removed element and closes it
-  if (e.target.closest("[data-pick], [data-compare], [data-compare-change], [data-compare-back]")) e.stopPropagation();
+  if (e.target.closest("[data-pick], [data-compare], [data-compare-add], [data-compare-remove], [data-compare-back]")) e.stopPropagation();
   if (pick) {
     const meta = labelData.places[Number(pick.dataset.pick)];
-    showComparison(compareFrom, { en: meta.en, meta });
-  } else if (e.target.closest("[data-compare]") || e.target.closest("[data-compare-change]")) {
-    showComparePicker(currentCity);
+    chooseCity({ en: meta.en, meta });
+  } else if (remove) {
+    const rest = currentComparison.filter((_, i) => i !== Number(remove.dataset.compareRemove));
+    if (rest.length > 1) showComparison(rest);
+    else showCity(rest[0]);
+  } else if (e.target.closest("[data-compare]")) {
+    showComparePicker([currentCity]);
+  } else if (e.target.closest("[data-compare-add]")) {
+    showComparePicker(currentComparison);
   } else if (e.target.closest("[data-compare-back]")) {
-    showCity(currentCity);
+    if (compareFrom && compareFrom.length > 1) showComparison(compareFrom);
+    else showCity(currentCity);
   }
 });
 infoBody.addEventListener("input", (e) => {
@@ -1139,9 +1169,7 @@ function renderLabels() {
       L.marker([lat, lon], { icon: labelIcon(en, native, kind), keyboard: false })
         .on("click", (e) => {
           L.DomEvent.stopPropagation(e);
-          const city = { en, meta };
-          if (compareFrom && !(compareFrom.en === en && compareFrom.meta.lat === meta.lat)) showComparison(compareFrom, city);
-          else if (!compareFrom) showCity(city);
+          chooseCity({ en, meta });
         })
         .addTo(labelLayer);
     } else if (kind === "country" && labelData.profiles[en]) {
@@ -1312,7 +1340,129 @@ function themePickerHtml(regions) {
     <select class="theme-select" data-region="${r}">
       <option value="">None</option>
       ${Object.entries(THEMES).filter(([, th]) => th.region === r).map(([k, th]) => `<option value="${k}"${activeThemes[r] === k ? " selected" : ""}>${th.label}</option>`).join("")}
-    </select></label>`).join("");
+    </select></label>`).join("") + `<button type="button" class="compare-btn" data-layer-compare="${regions[0]}">Compare themes side by side (2 to 4 maps)</button>`;
+}
+
+// Side-by-side maps: the same area shown two to four times, each with its own neighbourhood theme.
+// The maps move together; hovering an area shows its value. Opened from the theme picker in a card.
+const COMPARE_GROUPS = { ni: ["ni"], us: ["us", "mx"], mx: ["us", "mx"] };
+const COMPARE_DEFAULTS = { ni: ["community", "unemp", "income", "prof"], us: ["us_income", "mx_employed", "us_hisp", "mx_cath"] };
+const THEME_REFS = { sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
+let layerCompare = null;
+function themeValueText(th, v) {
+  if (v == null) return "not available";
+  return th.field === "income" ? `$${Math.round(v).toLocaleString("en")}` : `${v}%`;
+}
+function compareLegendHtml(th) {
+  return `<div class="lc-legend">${themeLabels(th).map((l, i) => `<span><i style="background:${th.colors[i]}"></i>${l}</span>`).join("")}</div>`;
+}
+function openLayerCompare(region) {
+  closeLayerCompare();
+  const group = COMPARE_GROUPS[region];
+  const keys = Object.keys(THEMES).filter((k) => group.includes(THEMES[k].region));
+  const defaults = COMPARE_DEFAULTS[group[0]].filter((k) => keys.includes(k));
+  const box = document.createElement("div");
+  box.className = "layer-compare";
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-label", "Compare themes side by side");
+  box.innerHTML = `<div class="lc-bar">
+      <strong>Compare themes side by side</strong>
+      <label>Maps <select class="lc-count">${[2, 3, 4].map((n) => `<option${n === 2 ? " selected" : ""}>${n}</option>`).join("")}</select></label>
+      <span class="lc-hint">The maps move together. Hover or tap an area to read its value; the black lines are the walls.</span>
+      <button type="button" class="lc-close" aria-label="Close the side-by-side maps">×</button>
+    </div>
+    <div class="lc-grid"></div>
+    <details class="lc-refs"><summary>References (Harvard)</summary><ol class="refs"></ol></details>`;
+  document.body.appendChild(box);
+  const centre = regionShown(group[0]) || (group[1] && regionShown(group[1])) ? { c: map.getCenter(), z: map.getZoom() } : null;
+  // Walls in the area, drawn on every map for reference
+  const area = REGIONS[group[0]].bounds;
+  const walls = barriers.map((b) => b.feature).filter((f) => { try { return area.intersects(L.geoJSON(f).getBounds()); } catch { return false; } });
+  layerCompare = { box, panels: [], region: group[0], keys, defaults, centre, walls, syncing: false };
+  box.querySelector(".lc-close").addEventListener("click", closeLayerCompare);
+  box.querySelector(".lc-count").addEventListener("change", (e) => setComparePanels(Number(e.target.value)));
+  document.addEventListener("keydown", layerCompareKey);
+  setComparePanels(2);
+}
+function layerCompareKey(e) {
+  if (e.key === "Escape") closeLayerCompare();
+}
+function closeLayerCompare() {
+  if (!layerCompare) return;
+  layerCompare.panels.forEach((p) => p.map.remove());
+  layerCompare.box.remove();
+  document.removeEventListener("keydown", layerCompareKey);
+  layerCompare = null;
+}
+function setComparePanels(n) {
+  const lc = layerCompare;
+  const grid = lc.box.querySelector(".lc-grid");
+  const view = lc.panels.length ? { c: lc.panels[0].map.getCenter(), z: lc.panels[0].map.getZoom() } : lc.centre;
+  const kept = lc.panels.map((p) => p.key);
+  lc.panels.forEach((p) => p.map.remove());
+  lc.panels = [];
+  grid.innerHTML = "";
+  grid.className = `lc-grid lc-${n}`;
+  const used = [...kept];
+  for (let i = 0; i < n; i++) {
+    const key = kept[i] || lc.defaults.find((k) => !used.includes(k)) || lc.keys.find((k) => !used.includes(k)) || lc.keys[0];
+    used.push(key);
+    const cell = document.createElement("div");
+    cell.className = "lc-panel";
+    cell.innerHTML = `<div class="lc-head">
+        <select class="lc-theme" aria-label="Theme for map ${i + 1}">${lc.keys.map((k) => `<option value="${k}"${k === key ? " selected" : ""}>${COMPARE_GROUPS[lc.region].length > 1 ? `${REGIONS[THEMES[k].region].name} · ` : ""}${THEMES[k].label}</option>`).join("")}</select>
+        <div class="lc-key"></div>
+      </div>
+      <div class="lc-map"></div>`;
+    grid.appendChild(cell);
+    const m = L.map(cell.querySelector(".lc-map"), { zoomControl: i === 0, attributionControl: i === n - 1, minZoom: 6 });
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16, attribution: "Tiles &copy; Esri" }).addTo(m);
+    m.createPane("lcLabels");
+    m.getPane("lcLabels").style.zIndex = 450;
+    m.getPane("lcLabels").style.pointerEvents = "none";
+    L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16, pane: "lcLabels" }).addTo(m);
+    const panel = { map: m, key, cell, theme: L.layerGroup().addTo(m) };
+    m.createPane("lcWalls");
+    m.getPane("lcWalls").style.zIndex = 440;
+    m.getPane("lcWalls").style.pointerEvents = "none";
+    L.geoJSON(lc.walls, { pane: "lcWalls", style: { color: "#111", weight: 3, opacity: 0.95 }, pointToLayer: (f, ll) => L.circleMarker(ll, { pane: "lcWalls", radius: 3, color: "#111", fillOpacity: 1 }), interactive: false }).addTo(m);
+    if (view) m.setView(view.c, view.z);
+    else m.fitBounds(REGIONS[lc.region].home);
+    // Moving one map moves the others
+    m.on("move", () => {
+      if (lc.syncing) return;
+      lc.syncing = true;
+      lc.panels.forEach((p) => { if (p.map !== m) p.map.setView(m.getCenter(), m.getZoom(), { animate: false }); });
+      lc.syncing = false;
+    });
+    cell.querySelector(".lc-theme").addEventListener("change", (e) => drawComparePanel(panel, e.target.value));
+    lc.panels.push(panel);
+    drawComparePanel(panel, key);
+  }
+  setTimeout(() => lc.panels.forEach((p) => p.map.invalidateSize()), 0);
+}
+function drawComparePanel(panel, key) {
+  const th = THEMES[key];
+  panel.key = key;
+  panel.theme.clearLayers();
+  panel.cell.querySelector(".lc-key").innerHTML = `${compareLegendHtml(th)}<p class="lc-note">${th.note}${th.source ? ` (${th.source})` : ""}</p>`;
+  const draw = (src, opacity) => loadThemeData(src).then((fc) => {
+    if (panel.key !== key) return;
+    L.geoJSON(fc, {
+      style: (f) => ({ fillColor: themeColor(th, f.properties[th.field]), fillOpacity: opacity, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
+      onEachFeature: (f, lyr) => {
+        const p = f.properties;
+        const name = p.name || (p.area ? String(p.area).replace(/_/g, " ") : "") || p.mun || "";
+        lyr.bindTooltip(`${name ? `<strong>${name}</strong><br>` : ""}${th.label}: ${themeValueText(th, p[th.field])}`, { sticky: true });
+      },
+    }).addTo(panel.theme);
+  });
+  if (th.src === "mxageb") draw("mx", 0.4).then(() => draw("mxageb", 0.75));
+  else draw(th.src, 0.65);
+  // References for the themes on screen
+  const lc = layerCompare;
+  const refs = [...new Set(lc.panels.concat(lc.panels.includes(panel) ? [] : [panel]).flatMap((p) => THEME_REFS[THEMES[p.key].src]()))];
+  lc.box.querySelector(".lc-refs ol").innerHTML = refs.map((r) => `<li>${r}</li>`).join("");
 }
 // Which themed region a city belongs to (US themes only cover the US side of the border)
 function cityRegion(meta) {

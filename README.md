@@ -5,6 +5,8 @@ An interactive map showing the construction of physical border barriers (walls, 
 - **Timeline:** drag the year slider or press Play to watch barriers appear and disappear.
 - **Layers:** switch between street, terrain and satellite base maps, and toggle country borders.
 - **Search:** filter barriers by name or country, and click one to zoom to it.
+- **Compare cities:** from a city card, compare it with up to three other cities side by side (population, ethnicity, languages, religion, income and employment, crime, national figures).
+- **Compare themes side by side:** around the Northern Ireland peace walls and along the US–Mexico border, the theme picker in a card opens 2 to 4 maps of the same area, each with its own neighbourhood theme (for example community background next to unemployment). The maps move together, hovering an area shows its value, and the walls are drawn on each map. Base map: Esri Light Gray Canvas.
 
 ## Data
 
