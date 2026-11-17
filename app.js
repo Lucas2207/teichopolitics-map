@@ -865,7 +865,7 @@ function countryCardHtml(en) {
       ${row("Note", p.areaNote)}`)}
     ${fold("Economy", `
       ${row("GDP", yr(p.gdpTot, money) + (p.gdpNote ? `. ${p.gdpNote}` : ""))}
-      ${row("GDP per person", yr(p.gdp, (v) => `US$${n(Math.round(v))}`))}
+      ${row("GDP per person", yr(p.gdp, (v) => `US$${n(Math.round(v))}`) + (p.gdp && euroNow(p.gdp[0], "USD", p.gdp[1]) ? `; ${euroNow(p.gdp[0], "USD", p.gdp[1])}` : ""))}
       ${row("GDP per person, purchasing power", yr(p.ppp, (v) => `$${n(Math.round(v))}`))}
       ${row("Median income or consumption", p.median ? `$${p.median[0]} a day per person, ${p.median[2]} survey, in 2021 purchasing-power dollars (${p.median[1]})` : "")}
       ${row("Living below half the median income", yr(p.relpov, (v) => `${v}% of people`))}
@@ -892,6 +892,48 @@ const GAZETTEER_REFS = [
   "GeoNames (n.d.) GeoNames gazetteer, cities with population above 15,000. Available at: https://download.geonames.org/export/dump/ (Accessed: 6 November 2026).",
   "Natural Earth (n.d.) Populated places and urban areas, 10m. Available at: https://www.naturalearthdata.com/ (Accessed: 6 November 2026).",
 ];
+// Euro equivalents of non-euro incomes: converted at the average exchange rate of the figure's own year,
+// then brought to the latest month of euro-area HICP (the same month as the wall costs)
+let fxData = null;
+let priceNow = null;
+fetch("data/fx-eur.json").then((r) => r.json()).then((d) => { fxData = d; }).catch(() => {});
+fetch("data/price-index.json").then((r) => r.json()).then((d) => { priceNow = { month: d.month, eur: d.history[d.month].eur }; }).catch(() => {});
+const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+function euroNow(amount, cur, year) {
+  if (!fxData || !priceNow) return "";
+  const rates = fxData.per_eur[cur];
+  const y = String(year);
+  if (!rates || !rates[y] || !fxData.hicp[y]) return "";
+  const v = (amount / rates[y]) * (priceNow.eur / fxData.hicp[y]);
+  const step = v < 1000 ? 1 : v < 10000 ? 10 : v < 100000 ? 100 : 1000;
+  const [py, pm] = priceNow.month.split("-");
+  return `≈ €${(Math.round(v / step) * step).toLocaleString("en")} in ${MONTH_NAMES[Number(pm) - 1]} ${py} prices`;
+}
+// Insert the euro equivalent after each listed amount: inside its bracket when one follows (unless the bracket holds a national comparison)
+function withEuro(text, fx) {
+  if (!text || !fx) return text;
+  let out = text;
+  let from = 0;
+  for (const [s, cur, year] of fx) {
+    const i = out.indexOf(s, from);
+    if (i < 0) continue;
+    const amount = Number(s.replace(/[^\d.]/g, ""));
+    const note = euroNow(amount, cur, year);
+    let end = i + s.length;
+    if (!note) { from = end; continue; }
+    const br = out.slice(end).match(/^ \(([^()]*)\)/);
+    if (br && !/national/i.test(br[1])) {
+      const close = end + br[0].length - 1;
+      out = `${out.slice(0, close)}; ${note}${out.slice(close)}`;
+      from = close + note.length + 2;
+    } else {
+      out = `${out.slice(0, end)} (${note})${out.slice(end)}`;
+      from = end + note.length + 3;
+    }
+  }
+  return out;
+}
+
 // What a city card and the comparison both show
 function cityFields(en, meta) {
   const census = (labelData && labelData.census) || {};
@@ -912,7 +954,7 @@ function cityFields(en, meta) {
     ethnic: (c && c.ethnic) || NOT_FOUND,
     language: (c && c.language) || NOT_FOUND,
     religion: (c && c.religion) || NOT_FOUND,
-    economy: (c && c.economy) || "",
+    economy: (c && withEuro(c.economy, c.fx)) || "",
     crime: (c && c.crime) || NOT_FOUND,
     cite: (c && c.cite) || "",
     refs: [...GAZETTEER_REFS, ...((c && c.sources) || [])],

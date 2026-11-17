@@ -124,7 +124,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$108,077",
+        "USD",
+        2024
+      ],
+      [
+        "$57,083",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Yuma": {
     "lat": 32.69,
@@ -141,7 +153,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$65,482",
+        "USD",
+        2024
+      ],
+      [
+        "$33,951",
+        "USD",
+        2024
+      ]
+    ]
   },
   "El Paso": {
     "lat": 31.76,
@@ -158,7 +182,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$59,745",
+        "USD",
+        2024
+      ],
+      [
+        "$29,956",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Laredo": {
     "lat": 27.53,
@@ -175,7 +211,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$63,915",
+        "USD",
+        2024
+      ],
+      [
+        "$25,161",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Brownsville": {
     "lat": 25.9,
@@ -192,7 +240,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$52,130",
+        "USD",
+        2024
+      ],
+      [
+        "$22,512",
+        "USD",
+        2024
+      ]
+    ]
   },
   "McAllen": {
     "lat": 26.2,
@@ -209,7 +269,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$61,579",
+        "USD",
+        2024
+      ],
+      [
+        "$30,885",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Tijuana": {
     "lat": 32.53,
@@ -225,7 +297,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 216,675",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Mexicali": {
     "lat": 32.62,
@@ -241,7 +320,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 216,675",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Nogales": {
     "lat": 31.31,
@@ -257,7 +343,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 260,071",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Ciudad Juárez": {
     "lat": 31.69,
@@ -273,7 +366,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 207,980",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Nuevo Laredo": {
     "lat": 27.48,
@@ -289,7 +389,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 188,482",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Reynosa": {
     "lat": 26.08,
@@ -305,7 +412,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 188,482",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Matamoros": {
     "lat": 25.87,
@@ -321,7 +435,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 188,482",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Derry": {
     "lat": 54.99,
@@ -369,7 +490,14 @@
       "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
       "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
     ],
-    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
+    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)",
+    "fx": [
+      [
+        "71,246 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Dakhla": {
     "lat": 23.68,
@@ -387,7 +515,14 @@
       "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
       "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
     ],
-    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
+    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)",
+    "fx": [
+      [
+        "80,996 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Smara": {
     "lat": 26.74,
@@ -405,7 +540,14 @@
       "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
       "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
     ],
-    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
+    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)",
+    "fx": [
+      [
+        "71,246 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Boujdour": {
     "lat": 26.13,
@@ -423,7 +565,14 @@
       "United Nations (n.d.) Non-Self-Governing Territories: Western Sahara. Available at: https://www.un.org/dppa/decolonization/en/nsgt/western-sahara (Accessed: 6 November 2026).",
       "TelQuel (2024) '5 régions du Maroc présentent un PIB/habitant supérieur à la moyenne nationale', 3 September, reporting HCP data. Available at: https://telquel.ma/instant-t/2024/09/03/5-regions-du-maroc-presentent-un-pib-habitant-superieur-a-la-moyenne-nationale_1891526/ (Accessed: 9 November 2026)."
     ],
-    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)"
+    "cite": "(HCP, 2024a; HCP, 2024b; United Nations, n.d.); (TelQuel, 2024)",
+    "fx": [
+      [
+        "71,246 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Oujda": {
     "lat": 34.68,
@@ -440,7 +589,14 @@
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
       "HCP Direction régionale de l'Oriental (2024) Note sur les comptes régionaux de l'Oriental 2022. Available at: https://hcp.ma/region-oriental/docs/comptesregionaux/Note%20Compte%20Reg.%20Oriental%202022_Fr.pdf (Accessed: 9 November 2026)."
     ],
-    "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b); (HCP Direction régionale de l'Oriental, 2024)"
+    "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b); (HCP Direction régionale de l'Oriental, 2024)",
+    "fx": [
+      [
+        "27,304 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Nador": {
     "lat": 35.17,
@@ -457,7 +613,14 @@
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026).",
       "HCP Direction régionale de l'Oriental (2024) Note sur les comptes régionaux de l'Oriental 2022. Available at: https://hcp.ma/region-oriental/docs/comptesregionaux/Note%20Compte%20Reg.%20Oriental%202022_Fr.pdf (Accessed: 9 November 2026)."
     ],
-    "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b); (HCP Direction régionale de l'Oriental, 2024)"
+    "cite": "(HCP Direction régionale de l'Oriental, 2024; HCP, 2024b); (HCP Direction régionale de l'Oriental, 2024)",
+    "fx": [
+      [
+        "27,304 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Chula Vista": {
     "lat": 32.64,
@@ -474,7 +637,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$108,032",
+        "USD",
+        2024
+      ],
+      [
+        "$41,343",
+        "USD",
+        2024
+      ]
+    ]
   },
   "National City": {
     "lat": 32.68,
@@ -491,7 +666,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$66,841",
+        "USD",
+        2024
+      ],
+      [
+        "$30,909",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Edinburg": {
     "lat": 26.3,
@@ -508,7 +695,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$59,466",
+        "USD",
+        2024
+      ],
+      [
+        "$28,336",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Harlingen": {
     "lat": 26.19,
@@ -525,7 +724,19 @@
       "U.S. Census Bureau (2025) American Community Survey 5-year estimates 2020–2024, Data Profile DP03 (selected economic characteristics). Census Data API. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026)."
     ],
-    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)"
+    "cite": "(U.S. Census Bureau, 2025); (Grammich et al., 2022)",
+    "fx": [
+      [
+        "$53,645",
+        "USD",
+        2024
+      ],
+      [
+        "$26,512",
+        "USD",
+        2024
+      ]
+    ]
   },
   "Ciudad Acuna": {
     "lat": 29.32,
@@ -541,7 +752,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 289,002",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Piedras Negras": {
     "lat": 28.7,
@@ -557,7 +775,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 289,002",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "San Luis Rio Colorado": {
     "lat": 32.46,
@@ -573,7 +798,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 260,071",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Rosarito": {
     "lat": 32.36,
@@ -589,7 +821,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 8 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 216,675",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Heroica Matamoros": {
     "lat": 25.87,
@@ -605,7 +844,14 @@
       "INEGI (2021) Censo de Población y Vivienda 2020: Principales resultados por localidad (ITER). Aguascalientes: Instituto Nacional de Estadística y Geografía. Available at: https://www.inegi.org.mx/programas/ccpv/2020/#datos_abiertos (Accessed: 6 November 2026).",
       "Wikipedia (n.d.) List of Mexican states by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Mexican_states_by_GDP_per_capita (figures reported there from OECD Statistics, 2018, purchasing power parity) (Accessed: 9 November 2026)."
     ],
-    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)"
+    "cite": "(INEGI, 2021); (Wikipedia, n.d., reporting OECD)",
+    "fx": [
+      [
+        "MXN 188,482",
+        "MXN",
+        2018
+      ]
+    ]
   },
   "Subotica": {
     "lat": 46.1,
@@ -650,7 +896,14 @@
     ],
     "cite": "(Belstat, 2025, archived; Wikipedia, n.d., reporting Belstat 2019; Belstat, 2026; Nasha Niva, 2026)",
     "economy": "Average monthly gross wage in Brest Region: 2,633 roubles, January to August 2026 (national 2,982.8).",
-    "crime": "Brest Region: 585 recorded crimes per 100,000 people in 2025, the lowest region (national about 700), as reported in the interior ministry's newspaper Na Strazhe."
+    "crime": "Brest Region: 585 recorded crimes per 100,000 people in 2025, the lowest region (national about 700), as reported in the interior ministry's newspaper Na Strazhe.",
+    "fx": [
+      [
+        "2,633 roubles",
+        "BYN",
+        2026
+      ]
+    ]
   },
   "Siliguri": {
     "lat": 26.71,
@@ -735,7 +988,14 @@
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 84.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25)."
+    "economy": "Literacy 84.7% (2011). Unemployment and income not found. West Bengal state GDP per person: ₹181,786 (2024–25).",
+    "fx": [
+      [
+        "₹181,786",
+        "INR",
+        2024
+      ]
+    ]
   },
   "Balurghat": {
     "lat": 25.221,
@@ -855,7 +1115,14 @@
       "Wikipedia (n.d.) List of Indian states and union territories by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Indian_states_and_union_territories_by_GDP_per_capita (figures reported there from PRS India, Analysis of State Budgets) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2011 Census of India); (Wikipedia, n.d., reporting PRS India)",
-    "economy": "Literacy 73.5% (2011). Unemployment and income not found. Bihar state GDP per person: ₹76,490 (2024–25)."
+    "economy": "Literacy 73.5% (2011). Unemployment and income not found. Bihar state GDP per person: ₹76,490 (2024–25).",
+    "fx": [
+      [
+        "₹76,490",
+        "INR",
+        2024
+      ]
+    ]
   },
   "Sialkot": {
     "lat": 32.493,
@@ -1100,7 +1367,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024)."
+    "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024).",
+    "fx": [
+      [
+        "₺247,416",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Kiziltepe": {
     "lat": 37.188,
@@ -1118,7 +1392,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024)."
+    "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024).",
+    "fx": [
+      [
+        "₺247,416",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Mardin": {
     "lat": 37.313,
@@ -1136,7 +1417,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024)."
+    "economy": "Unemployment and income by town not found. Mardin province GDP per person: ₺247,416 (2024).",
+    "fx": [
+      [
+        "₺247,416",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Cizre": {
     "lat": 37.33,
@@ -1153,7 +1441,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Şırnak province GDP per person: ₺306,150 (2024)."
+    "economy": "Unemployment and income by town not found. Şırnak province GDP per person: ₺306,150 (2024).",
+    "fx": [
+      [
+        "₺306,150",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Silopi": {
     "lat": 37.244,
@@ -1170,7 +1465,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Şırnak province GDP per person: ₺306,150 (2024)."
+    "economy": "Unemployment and income by town not found. Şırnak province GDP per person: ₺306,150 (2024).",
+    "fx": [
+      [
+        "₺306,150",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Suruc": {
     "lat": 36.976,
@@ -1188,7 +1490,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Şanlıurfa province GDP per person: ₺188,144 (2024)."
+    "economy": "Unemployment and income by town not found. Şanlıurfa province GDP per person: ₺188,144 (2024).",
+    "fx": [
+      [
+        "₺188,144",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Kilis": {
     "lat": 36.716,
@@ -1206,7 +1515,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (AIDA, 2026); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Kilis province GDP per person: ₺253,567 (2024)."
+    "economy": "Unemployment and income by town not found. Kilis province GDP per person: ₺253,567 (2024).",
+    "fx": [
+      [
+        "₺253,567",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Edirne": {
     "lat": 41.67,
@@ -1223,7 +1539,14 @@
       "Wikipedia (n.d.) Demographics of Turkey. Available at: https://en.wikipedia.org/wiki/Demographics_of_Turkey (Accessed: 11 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Turkish Statistical Institute (TÜİK)); (Wikipedia, n.d., reporting TÜİK)",
-    "economy": "Unemployment and income by town not found. Edirne province GDP per person: ₺417,266 (2024)."
+    "economy": "Unemployment and income by town not found. Edirne province GDP per person: ₺417,266 (2024).",
+    "fx": [
+      [
+        "₺417,266",
+        "TRY",
+        2024
+      ]
+    ]
   },
   "Gaza City": {
     "lat": 31.53,
@@ -1356,7 +1679,14 @@
       "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
     "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
-    "economy": "Average gross wage NIS 22,359 a month (first half of 2025)."
+    "economy": "Average gross wage NIS 22,359 a month (first half of 2025).",
+    "fx": [
+      [
+        "NIS 22,359",
+        "ILS",
+        2025
+      ]
+    ]
   },
   "Petah Tiqva": {
     "lat": 32.089,
@@ -1406,7 +1736,14 @@
       "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
     "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
-    "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
+    "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025).",
+    "fx": [
+      [
+        "NIS 11,415",
+        "ILS",
+        2025
+      ]
+    ]
   },
   "Netanya": {
     "lat": 32.333,
@@ -1472,7 +1809,14 @@
       "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
     "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
-    "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
+    "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025).",
+    "fx": [
+      [
+        "NIS 11,415",
+        "ILS",
+        2025
+      ]
+    ]
   },
   "Ramat Gan": {
     "lat": 32.082,
@@ -1538,7 +1882,14 @@
       "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
     "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
-    "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025)."
+    "economy": "Among the lowest average wages in Israel, below Jerusalem's NIS 11,415 (first half of 2025).",
+    "fx": [
+      [
+        "NIS 11,415",
+        "ILS",
+        2025
+      ]
+    ]
   },
   "Bat Yam": {
     "lat": 32.018,
@@ -1572,7 +1923,14 @@
       "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
     "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
-    "economy": "Highest average gross wage among large cities: NIS 22,951 a month (first half of 2025)."
+    "economy": "Highest average gross wage among large cities: NIS 22,951 a month (first half of 2025).",
+    "fx": [
+      [
+        "NIS 22,951",
+        "ILS",
+        2025
+      ]
+    ]
   },
   "Hadera": {
     "lat": 32.442,
@@ -1606,7 +1964,14 @@
       "Central Bureau of Statistics (Israel) (2025) Statistical Abstract of Israel 2025, tables 2.2 (population by religion) and 2.7 (Jews and others by continent of origin). Available at: https://www.cbs.gov.il/he/publications/DocLib/2025/2.ShnatonPopulation/st02_07.xlsx (Accessed: 11 November 2026)."
     ],
     "cite": "(Central Bureau of Statistics, 2025); (Eretz, 2025; Central Bureau of Statistics, 2025)",
-    "economy": "Average gross wage for the whole city NIS 11,415 a month (first half of 2025)."
+    "economy": "Average gross wage for the whole city NIS 11,415 a month (first half of 2025).",
+    "fx": [
+      [
+        "NIS 11,415",
+        "ILS",
+        2025
+      ]
+    ]
   },
   "Jaffa": {
     "lat": 32.05,
@@ -1669,7 +2034,19 @@
       "Wikipedia (n.d.) List of Chinese prefecture-level cities by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_prefecture-level_cities_by_GDP_per_capita (figures from city statistical communiqués, 2024) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (Wikipedia, n.d., reporting city communiqués)",
-    "economy": "Inner Mongolia province GDP per person: CN¥112,181 (US$15,705), 2025 preliminary. City GDP per person: CN¥113,400 (US$15,923), 2024."
+    "economy": "Inner Mongolia province GDP per person: CN¥112,181 (US$15,705), 2025 preliminary. City GDP per person: CN¥113,400 (US$15,923), 2024.",
+    "fx": [
+      [
+        "CN¥112,181",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥113,400",
+        "CNY",
+        2024
+      ]
+    ]
   },
   "Datong": {
     "lat": 40.094,
@@ -1685,7 +2062,14 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥44,110 (year not stated). Shanxi province GDP per person: CN¥74,224 (US$10,391), 2025 preliminary."
+    "economy": "GDP per person CN¥44,110 (year not stated). Shanxi province GDP per person: CN¥74,224 (US$10,391), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥74,224",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Yinchuan": {
     "lat": 38.47,
@@ -1701,7 +2085,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥104,100 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
+    "economy": "GDP per person CN¥104,100 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥104,100",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥77,981",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Jinzhou": {
     "lat": 41.108,
@@ -1717,7 +2113,14 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥43,207 (year not stated). Liaoning province GDP per person: CN¥80,094 (US$11,213), 2025 preliminary."
+    "economy": "GDP per person CN¥43,207 (year not stated). Liaoning province GDP per person: CN¥80,094 (US$11,213), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥80,094",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Zhongwei": {
     "lat": 37.511,
@@ -1733,7 +2136,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting local statistics); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥58,700 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
+    "economy": "GDP per person CN¥58,700 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥58,700",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥77,981",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Qinhuangdao": {
     "lat": 39.941,
@@ -1749,7 +2164,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥48,230 (2024). Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary."
+    "economy": "GDP per person CN¥48,230 (2024). Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥48,230",
+        "CNY",
+        2024
+      ],
+      [
+        "CN¥66,936",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Shizuishan": {
     "lat": 38.981,
@@ -1765,7 +2192,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥78,400 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
+    "economy": "GDP per person CN¥78,400 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥78,400",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥77,981",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Zhangjiakou": {
     "lat": 40.783,
@@ -1782,7 +2221,19 @@
       "CEIC (n.d.) China GDP per capita: Hebei: Zhangjiakou. Available at: https://www.ceicdata.com/en/china/gross-domestic-product-prefecture-level-city-per-capita (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (CEIC, n.d.)",
-    "economy": "Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary. City GDP per person: CN¥42,049 (2021, CEIC)."
+    "economy": "Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary. City GDP per person: CN¥42,049 (2021, CEIC).",
+    "fx": [
+      [
+        "CN¥66,936",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥42,049",
+        "CNY",
+        2021
+      ]
+    ]
   },
   "Fuxin": {
     "lat": 42.016,
@@ -1798,7 +2249,14 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥29,491 (year not stated). Liaoning province GDP per person: CN¥80,094 (US$11,213), 2025 preliminary."
+    "economy": "GDP per person CN¥29,491 (year not stated). Liaoning province GDP per person: CN¥80,094 (US$11,213), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥80,094",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Shuozhou": {
     "lat": 39.316,
@@ -1814,7 +2272,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2010 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥69,152 (Shanxi Statistical Yearbook 2021). Shanxi province GDP per person: CN¥74,224 (US$10,391), 2025 preliminary."
+    "economy": "GDP per person CN¥69,152 (Shanxi Statistical Yearbook 2021). Shanxi province GDP per person: CN¥74,224 (US$10,391), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥69,152",
+        "CNY",
+        2020
+      ],
+      [
+        "CN¥74,224",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Jiuquan": {
     "lat": 39.743,
@@ -1830,7 +2300,14 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the Gansu Development Yearbook 2023); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥79,840 (year not stated). Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary."
+    "economy": "GDP per person CN¥79,840 (year not stated). Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥55,897",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Guyuan": {
     "lat": 36.007,
@@ -1846,7 +2323,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥42,800 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
+    "economy": "GDP per person CN¥42,800 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥42,800",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥77,981",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Jiayuguan": {
     "lat": 39.82,
@@ -1863,7 +2352,19 @@
       "Wikipedia (n.d.) List of Chinese prefecture-level cities by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_prefecture-level_cities_by_GDP_per_capita (figures from city statistical communiqués, 2024) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (Wikipedia, n.d., reporting city communiqués)",
-    "economy": "Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary. City GDP per person: CN¥98,365 (US$13,812), 2024."
+    "economy": "Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary. City GDP per person: CN¥98,365 (US$13,812), 2024.",
+    "fx": [
+      [
+        "CN¥55,897",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥98,365",
+        "CNY",
+        2024
+      ]
+    ]
   },
   "Jinchang": {
     "lat": 38.501,
@@ -1880,7 +2381,24 @@
       "Wikipedia (n.d.) List of Chinese prefecture-level cities by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_prefecture-level_cities_by_GDP_per_capita (figures from city statistical communiqués, 2024) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (Wikipedia, n.d., reporting city communiqués)",
-    "economy": "average urban income 131,056 yuan (2022). Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary. City GDP per person: CN¥116,448 (US$16,351), 2024."
+    "economy": "average urban income 131,056 yuan (2022). Gansu province GDP per person: CN¥55,897 (US$7,825), 2025 preliminary. City GDP per person: CN¥116,448 (US$16,351), 2024.",
+    "fx": [
+      [
+        "CN¥55,897",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥116,448",
+        "CNY",
+        2024
+      ],
+      [
+        "131,056 yuan",
+        "CNY",
+        2022
+      ]
+    ]
   },
   "Xuanhua": {
     "lat": 40.612,
@@ -1897,7 +2415,19 @@
       "CEIC (n.d.) China GDP per capita: Hebei: Zhangjiakou. Available at: https://www.ceicdata.com/en/china/gross-domestic-product-prefecture-level-city-per-capita (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués); (CEIC, n.d.)",
-    "economy": "Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary. City GDP per person: CN¥42,049 (2021, CEIC)."
+    "economy": "Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary. City GDP per person: CN¥42,049 (2021, CEIC).",
+    "fx": [
+      [
+        "CN¥66,936",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥42,049",
+        "CNY",
+        2021
+      ]
+    ]
   },
   "Huinong": {
     "lat": 39.233,
@@ -1913,7 +2443,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the city's 2024 statistical bulletin); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥78,400 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary."
+    "economy": "GDP per person CN¥78,400 (2025). Ningxia province GDP per person: CN¥77,981 (US$10,917), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥78,400",
+        "CNY",
+        2025
+      ],
+      [
+        "CN¥77,981",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Shanhaiguan": {
     "lat": 40.001,
@@ -1929,7 +2471,19 @@
       "Wikipedia (n.d.) List of Chinese administrative divisions by GDP per capita. Available at: https://en.wikipedia.org/wiki/List_of_Chinese_administrative_divisions_by_GDP_per_capita (figures reported there from provincial statistical communiqués, 2025) (Accessed: 9 November 2026)."
     ],
     "cite": "(Wikipedia, n.d., reporting the 2020 census of China); (Wikipedia, n.d., reporting provincial communiqués)",
-    "economy": "GDP per person CN¥48,230 (2024). Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary."
+    "economy": "GDP per person CN¥48,230 (2024). Hebei province GDP per person: CN¥66,936 (US$9,371), 2025 preliminary.",
+    "fx": [
+      [
+        "CN¥48,230",
+        "CNY",
+        2024
+      ],
+      [
+        "CN¥66,936",
+        "CNY",
+        2025
+      ]
+    ]
   },
   "Potsdam": {
     "lat": 52.4,
@@ -2120,7 +2674,14 @@
       "National Statistical Committee of the Republic of Belarus (Belstat) (2025) Численность населения на 1 января 2025 г. и среднегодовая численность населения за 2024 год по Республике Беларусь в разрезе областей, районов, городов, поселков городского типа. Statistical bulletin. Archived copy available at: https://web.archive.org/web/20250330075701/https://www.belstat.gov.by/upload/iblock/1fd/m8rjdl8603e7eza52sufglw21em8gdks.pdf (Accessed: 13 November 2026)."
     ],
     "cite": "(Belstat, 2025, archived; Wikipedia, n.d., reporting Belstat; Belstat, 2026)",
-    "economy": "Average monthly gross wage in Grodno Region: 2,670.9 roubles, January to August 2026 (national 2,982.8)."
+    "economy": "Average monthly gross wage in Grodno Region: 2,670.9 roubles, January to August 2026 (national 2,982.8).",
+    "fx": [
+      [
+        "2,670.9 roubles",
+        "BYN",
+        2026
+      ]
+    ]
   },
   "Sialkote": {
     "lat": 32.52,
@@ -3008,6 +3569,13 @@
     "sources": [
       "U.S. Census Bureau (2025) American Community Survey 5-year data profiles, 2020–2024. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "U.S. Religion Census (2020) Religious Congregations and Membership Study, county file. Available at: https://www.usreligioncensus.org/ (Accessed: 9 November 2026)."
+    ],
+    "fx": [
+      [
+        "$60,767",
+        "USD",
+        2024
+      ]
     ]
   },
   "Pharr": {
@@ -3024,6 +3592,13 @@
     "sources": [
       "U.S. Census Bureau (2025) American Community Survey 5-year data profiles, 2020–2024. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "U.S. Religion Census (2020) Religious Congregations and Membership Study, county file. Available at: https://www.usreligioncensus.org/ (Accessed: 9 November 2026)."
+    ],
+    "fx": [
+      [
+        "$52,814",
+        "USD",
+        2024
+      ]
     ]
   },
   "El Cajon": {
@@ -3040,6 +3615,13 @@
     "sources": [
       "U.S. Census Bureau (2025) American Community Survey 5-year data profiles, 2020–2024. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "U.S. Religion Census (2020) Religious Congregations and Membership Study, county file. Available at: https://www.usreligioncensus.org/ (Accessed: 9 November 2026)."
+    ],
+    "fx": [
+      [
+        "$67,511",
+        "USD",
+        2024
+      ]
     ]
   },
   "La Mesa": {
@@ -3056,6 +3638,13 @@
     "sources": [
       "U.S. Census Bureau (2025) American Community Survey 5-year data profiles, 2020–2024. Available at: https://api.census.gov/data/2024/acs/acs5/profile (Accessed: 9 November 2026).",
       "U.S. Religion Census (2020) Religious Congregations and Membership Study, county file. Available at: https://www.usreligioncensus.org/ (Accessed: 9 November 2026)."
+    ],
+    "fx": [
+      [
+        "$95,028",
+        "USD",
+        2024
+      ]
     ]
   },
   "Tecate": {
@@ -3812,7 +4401,14 @@
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
     ],
     "area_note": "Commune of Bni Ansar; foreign residents: 50",
-    "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284)."
+    "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284).",
+    "fx": [
+      [
+        "27,304 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Al Aaroui": {
     "lat": 35.011,
@@ -3829,7 +4425,14 @@
       "HCP (2024) Recensement Général de la Population et de l'Habitat 2024: principaux résultats. Rabat: Haut-Commissariat au Plan. Available at: https://www.hcp.ma/file/242665/ (Accessed: 6 November 2026)."
     ],
     "area_note": "Commune of Al Aaroui; foreign residents: 8",
-    "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284)."
+    "economy": "Unemployment at the census, Oriental region: 30.4% (2024; national 21.3%). Oriental region GDP per person: 27,304 dirhams (2022; national 36,284).",
+    "fx": [
+      [
+        "27,304 dirhams",
+        "MAD",
+        2022
+      ]
+    ]
   },
   "Strovolos": {
     "lat": 35.149,
@@ -3892,7 +4495,14 @@
       "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
     ],
     "area_note": "City with powiat status, official figure for 2025",
-    "economy": "Registered unemployment 6.4% (2025). Average gross monthly wage 8,089.84 zloty (2025)."
+    "economy": "Registered unemployment 6.4% (2025). Average gross monthly wage 8,089.84 zloty (2025).",
+    "fx": [
+      [
+        "8,089.84 zloty",
+        "PLN",
+        2025
+      ]
+    ]
   },
   "Biala Podlaska": {
     "lat": 52.032,
@@ -3909,7 +4519,14 @@
       "Główny Urząd Statystyczny (2023–2024) Narodowy Spis Powszechny Ludności i Mieszkań 2021: przynależność narodowo-etniczna, język używany w domu i przynależność wyznaniowa – dane dla kraju i jednostek podziału terytorialnego (table 5 and table 7, gminy). Available at: https://stat.gov.pl/spisy-powszechne/nsp-2021/nsp-2021-wyniki-ostateczne/ (Accessed: 12 November 2026)."
     ],
     "area_note": "City with powiat status, official figure for 2025",
-    "economy": "Registered unemployment 8.2% (2025). Average gross monthly wage 8,102.51 zloty (2025)."
+    "economy": "Registered unemployment 8.2% (2025). Average gross monthly wage 8,102.51 zloty (2025).",
+    "fx": [
+      [
+        "8,102.51 zloty",
+        "PLN",
+        2025
+      ]
+    ]
   },
   "Arica": {
     "lat": -18.5,
@@ -4725,7 +5342,14 @@
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
     "economy": "Unemployment 4.8% in Cusco Department in 2025 (national 4.9%). Average monthly income from work: 1,612 soles in Cusco Department in 2025 (national 1,887). Literacy 91.6% of people aged 3+, Cusco Province (2017).",
-    "crime": "Cusco Department: 116.5 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Cusco Department: 116.5 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,612 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Vina del Mar": {
     "lat": -33.025,
@@ -5491,7 +6115,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,850 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Arequipa": {
     "lat": -16.418,
@@ -5509,7 +6140,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Arequipa Department: 173.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Arequipa Department: 173.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,325 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Chimbote": {
     "lat": -9.07,
@@ -5527,7 +6165,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Áncash Department: 113.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Áncash Department: 113.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,903 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Pucallpa": {
     "lat": -8.369,
@@ -5545,7 +6190,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Ucayali Department: 112.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Ucayali Department: 112.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,709 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Iquitos": {
     "lat": -3.75,
@@ -5563,7 +6215,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Loreto Department: 66.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Loreto Department: 66.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,884 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Huancayo": {
     "lat": -12.08,
@@ -5581,7 +6240,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Junín Department: 149.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Junín Department: 149.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,946 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Cusco": {
     "lat": -13.525,
@@ -5599,7 +6265,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Cusco Department: 116.5 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Cusco Department: 116.5 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,087 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Tacna": {
     "lat": -18.0,
@@ -5617,7 +6290,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Tacna Department: 112.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Tacna Department: 112.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,753 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Trujillo": {
     "lat": -8.12,
@@ -5635,7 +6315,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "La Libertad Department: 146.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "La Libertad Department: 146.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,096 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Ica": {
     "lat": -14.068,
@@ -5653,7 +6340,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Ica Department: 131.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Ica Department: 131.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,170 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Lima": {
     "lat": -12.046,
@@ -5671,7 +6365,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Tumbes": {
     "lat": -3.556,
@@ -5689,7 +6390,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Tumbes Department: 138.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Tumbes Department: 138.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,821 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Tingo Maria": {
     "lat": -9.295,
@@ -5707,7 +6415,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Huánuco Department: 140.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Huánuco Department: 140.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,361 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Talara": {
     "lat": -4.577,
@@ -5725,7 +6440,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,388 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Sullana": {
     "lat": -4.904,
@@ -5743,7 +6465,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,388 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "San Juan": {
     "lat": -3.776,
@@ -5760,7 +6489,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Loreto Department: 66.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Loreto Department: 66.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,544 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Paita": {
     "lat": -5.089,
@@ -5778,7 +6514,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,388 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Moyobamba": {
     "lat": -6.034,
@@ -5796,7 +6539,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "San Martín Department: 100.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "San Martín Department: 100.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,815 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Jaen": {
     "lat": -5.707,
@@ -5814,7 +6564,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Cajamarca Department: 83.0 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Cajamarca Department: 83.0 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,232 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Huaraz": {
     "lat": -9.526,
@@ -5832,7 +6589,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Áncash Department: 113.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Áncash Department: 113.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,952 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Huanuco": {
     "lat": -9.929,
@@ -5850,7 +6614,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Huánuco Department: 140.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Huánuco Department: 140.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,013 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Chulucanas": {
     "lat": -5.093,
@@ -5868,7 +6639,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,388 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Chiclayo": {
     "lat": -6.77,
@@ -5886,7 +6664,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Lambayeque Department: 257.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Lambayeque Department: 257.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,672 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Catacaos": {
     "lat": -5.267,
@@ -5904,7 +6689,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,388 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Cajamarca": {
     "lat": -7.164,
@@ -5922,7 +6714,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Cajamarca Department: 83.0 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Cajamarca Department: 83.0 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,067 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Belen": {
     "lat": -3.76,
@@ -5939,7 +6738,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Loreto Department: 66.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Loreto Department: 66.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,544 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Tarma": {
     "lat": -11.419,
@@ -5957,7 +6763,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Junín Department: 149.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Junín Department: 149.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,564 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Santiago de Surco": {
     "lat": -12.136,
@@ -5974,7 +6787,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "San Isidro": {
     "lat": -12.097,
@@ -5991,7 +6811,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Puno": {
     "lat": -15.84,
@@ -6009,7 +6836,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Puno Department: 62.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Puno Department: 62.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,903 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Puerto Maldonado": {
     "lat": -12.589,
@@ -6027,7 +6861,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Madre De Dios Department: 187.4 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Madre De Dios Department: 187.4 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,250 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Pisco": {
     "lat": -13.71,
@@ -6045,7 +6886,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Ica Department: 131.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Ica Department: 131.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,011 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Moquegua": {
     "lat": -17.197,
@@ -6063,7 +6911,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Moquegua Department: 144.1 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Moquegua Department: 144.1 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,426 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Miraflores": {
     "lat": -12.113,
@@ -6080,7 +6935,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Juliaca": {
     "lat": -15.5,
@@ -6098,7 +6960,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Puno Department: 62.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Puno Department: 62.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,324 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Villa Poeta Jose Galvez Barrenechea": {
     "lat": -12.213,
@@ -6115,7 +6984,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Ilo": {
     "lat": -17.632,
@@ -6133,7 +7009,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Moquegua Department: 144.1 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Moquegua Department: 144.1 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,525 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Huaral": {
     "lat": -11.495,
@@ -6151,7 +7034,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Lima Region: 124.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Lima Region: 124.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,639 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Huacho": {
     "lat": -11.117,
@@ -6169,7 +7059,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Lima Region: 124.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Lima Region: 124.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,639 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Chincha Alta": {
     "lat": -13.41,
@@ -6187,7 +7084,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Ica Department: 131.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Ica Department: 131.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,011 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Cerro de Pasco": {
     "lat": -10.666,
@@ -6205,7 +7109,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Pasco Department: 85.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Pasco Department: 85.2 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,873 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Callao": {
     "lat": -12.052,
@@ -6223,7 +7134,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Callao: 124.9 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Callao: 124.9 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Ayacucho": {
     "lat": -13.164,
@@ -6241,7 +7159,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Ayacucho Department: 113.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Ayacucho Department: 113.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,750 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Abancay": {
     "lat": -13.634,
@@ -6259,7 +7184,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Apurímac Department: 93.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Apurímac Department: 93.8 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,054 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Santa Anita - Los Ficus": {
     "lat": -12.05,
@@ -6276,7 +7208,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "San Martin": {
     "lat": -5.186,
@@ -6293,7 +7232,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Piura Department: 124.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,388 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "San Francisco De Borja": {
     "lat": -12.089,
@@ -6310,7 +7256,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Ciudad Satelite": {
     "lat": -16.431,
@@ -6327,7 +7280,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Arequipa Department: 173.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Arequipa Department: 173.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,150 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Chilca": {
     "lat": -12.086,
@@ -6344,7 +7304,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Junín Department: 149.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Junín Department: 149.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,564 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "San Fernando": {
     "lat": -8.398,
@@ -6361,7 +7328,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Ucayali Department: 112.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Ucayali Department: 112.6 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,598 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Jesus Maria": {
     "lat": -12.07,
@@ -6378,7 +7352,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Wanchaq": {
     "lat": -13.525,
@@ -6395,7 +7376,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Cusco Department: 116.5 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Cusco Department: 116.5 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,612 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Selva Alegre": {
     "lat": -16.371,
@@ -6412,7 +7400,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Arequipa Department: 173.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Arequipa Department: 173.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,150 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Brena": {
     "lat": -12.056,
@@ -6429,7 +7424,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "San Miguel": {
     "lat": -15.478,
@@ -6446,7 +7448,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Puno Department: 62.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Puno Department: 62.3 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "1,053 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "Chosica": {
     "lat": -11.943,
@@ -6463,7 +7472,14 @@
       "Instituto Nacional de Estadística e Informática (2018) Perú: Perfil Sociodemográfico. Informe Nacional. Censos Nacionales 2017, cuadro 2.64. Lima: INEI. Available at: https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1539/libro.pdf (Accessed: 10 November 2026).",
       "Instituto Nacional de Estadística e Informática (2026) Índice temático: tasa de desempleo, ingreso promedio mensual proveniente del trabajo, y tasa de denuncias por comisión de delitos, por departamento y ciudad. Available at: https://m.inei.gob.pe/estadisticas/indice-tematico/ (Accessed: 10 November 2026)."
     ],
-    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime."
+    "crime": "Metropolitan Lima: 161.7 police reports of crime per 10,000 people in 2024 (national 137.6). Reports reflect what is reported to the police, not all crime.",
+    "fx": [
+      [
+        "2,486 soles",
+        "PEN",
+        2025
+      ]
+    ]
   },
   "İzmir": {
     "lat": 38.438,
