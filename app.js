@@ -313,10 +313,46 @@ Object.entries(WARD_INDICATORS).forEach(([k, ind]) => WARD_YEARS.forEach((y) => 
   THEMES[`bw_${k}_${y}`] = { region: "ni", compareOnly: true, group: `Belfast by ward · ${ind.label}`, label: `Belfast wards, ${y} · ${ind.label}`,
     src: "bw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, labels: ind.labels, unit: ind.unit, note: `${ind.note}. ${y}, 2001 ward boundaries` };
 }));
+// Hadrian's Wall: small areas (LSOAs, 2021 boundaries) within 10 km north or south of the wall line, at each census since 2001,
+// with income from 2014 and crime for the latest year. Latest figures are in the layer box; earlier years only in the side-by-side maps
+const HW_INDICATORS = {
+  not_white: { label: "Ethnicity: residents not White", breaks: [2, 5, 10, 20], colors: THEMES.minority.colors, note: "Share of residents not of White ethnic group" },
+  white_british: { label: "Ethnicity: White British", breaks: [70, 80, 90, 95], colors: ["#f2f0f7", "#cbc9e2", "#9e9ac8", "#756bb1", "#54278f"], note: "Share of residents who are White British (English, Welsh, Scottish, Northern Irish or British)" },
+  born_abroad: { label: "Migration: born outside the UK", breaks: [3, 6, 10, 20], colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"], note: "Share of residents born outside the United Kingdom" },
+  christian: { label: "Religion: Christian", breaks: [40, 50, 60, 70], colors: ["#f7f4f9", "#d4b9da", "#c994c7", "#dd1c77", "#980043"], note: "Share of residents stating Christian" },
+  no_religion: { label: "Religion: no religion", breaks: [15, 25, 35, 45], colors: THEMES.no_background.colors, note: "Share of residents stating no religion" },
+  muslim: { label: "Religion: Muslim", breaks: [1, 3, 6, 10], colors: ["#fff5eb", "#fdd0a2", "#fd8d3c", "#d94801", "#8c2d04"], note: "Share of residents stating Muslim" },
+  unemp: { label: "Jobs: unemployment rate", breaks: [3, 5, 8, 12], colors: THEMES.unemp.colors, note: "Unemployed as a share of the economically active (2001 and 2011: aged 16–74)" },
+  prof: { label: "Occupations: managerial and professional", breaks: [15, 25, 35, 45], colors: THEMES.prof.colors, note: "Share of residents aged 16+ (excluding full-time students) in managerial, administrative and professional occupations (NS-SeC 1–2)" },
+  owned: { label: "Housing: owner-occupied", breaks: [40, 55, 70, 85], colors: THEMES.prof.colors, note: "Share of households owning their home" },
+  social_rent: { label: "Housing: social renting", breaks: [10, 20, 35, 50], colors: ["#f7fbff", "#c6dbef", "#6baed6", "#2171b5", "#08306b"], note: "Share of households renting from a council or housing association" },
+  no_car: { label: "Housing: households without a car", breaks: [15, 30, 45, 60], colors: THEMES.income.colors, note: "Share of households with no car or van" },
+};
+const HW_YEARS = ["2001", "2011", "2021"];
+const HW_INCOME_YEARS = ["2014", "2016", "2018", "2020", "2023"];
+THEMES.hw_side = { region: "hw", label: "Side of the wall", src: "hw", field: "side_n", breaks: [0.5], colors: ["#d8b365", "#5ab4ac"],
+  labels: ["South of the wall", "North of the wall"], note: "Small areas within 10 km of the wall line, directly north or south of it (areas beyond the wall's two ends are left out)" };
+Object.entries(HW_INDICATORS).forEach(([k, ind]) => HW_YEARS.forEach((y) => {
+  THEMES[`hw_${k}_${y}`] = { region: "hw", compareOnly: y !== "2021", group: y === "2021" ? null : `Hadrian's Wall · ${ind.label}`, label: `${ind.label} (${y})`,
+    src: "hw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, note: `${ind.note}. Census ${y}${y === "2021" ? "" : ", carried onto 2021 small areas"}` };
+}));
+HW_INCOME_YEARS.forEach((y) => {
+  THEMES[`hw_income_${y}`] = { region: "hw", compareOnly: y !== "2023", group: y === "2023" ? null : "Hadrian's Wall · Income", label: `Income: household income after tax (${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`})`,
+    src: "hw", field: `income_${y}`, unit: "£", breaks: [25000, 30000, 35000, 40000], colors: ["#b30000", "#e34a33", "#fc8d59", "#fdcc8a", "#fef0d9"],
+    labels: ["Under £25,000", "£25,000–30,000", "£30,000–35,000", "£35,000–40,000", "£40,000 and over"],
+    note: "Mean net household income before housing costs, equivalised (adjusted for household size), a year, in pounds of that year (not adjusted for inflation). ONS model-based estimate for the wider area (MSOA) each small area lies in" };
+});
+THEMES.hw_crime = { region: "hw", label: "Crime: recorded crime per 1,000 residents (2025–26)", src: "hw", field: "crime_rate", unit: "per 1,000", breaks: [25, 50, 100, 200],
+  colors: THEMES.crime.colors, labels: THEMES.crime.labels, note: "Crimes recorded by Northumbria, Durham and Cumbria police from October 2025 to September 2026, excluding anti-social behaviour, per 1,000 residents (Census 2021). Locations are snapped to anonymous points, and areas with shops, pubs or few residents have high rates", source: "police.uk" };
+THEMES.hw_violent = { region: "hw", label: "Crime: violence and sexual offences per 1,000 residents (2025–26)", src: "hw", field: "violent_rate", unit: "per 1,000", breaks: [10, 25, 50, 100],
+  colors: THEMES.violent.colors, labels: THEMES.violent.labels, note: "Violence and sexual offences recorded by the police, October 2025 to September 2026, per 1,000 residents. Same caveats", source: "police.uk" };
+THEMES.hw_asb = { region: "hw", label: "Anti-social behaviour incidents per 1,000 residents (2025–26)", src: "hw", field: "asb_rate", unit: "per 1,000", breaks: [10, 25, 50, 100],
+  colors: THEMES.asb.colors, labels: THEMES.asb.labels, note: "Anti-social behaviour incidents reported to the police, October 2025 to September 2026, per 1,000 residents. Same caveats", source: "police.uk" };
 // Places where neighbourhood themes exist. A theme is offered only when the map shows its region
 const REGIONS = {
   ni: { name: "Northern Ireland", bounds: L.latLngBounds([54.0, -8.2], [55.35, -5.4]), minZoom: 8, home: [[54.55, -6.02], [54.65, -5.86]] },
   us: { name: "US border", bounds: L.latLngBounds([25.4, -117.8], [33.4, -96.6]), minZoom: 7, home: [[31.6, -106.75], [31.95, -106.15]] },
+  hw: { name: "Hadrian's Wall", bounds: L.latLngBounds([54.72, -3.5], [55.25, -1.3]), minZoom: 8, home: [[54.94, -1.78], [55.02, -1.55]] },
   mx: { name: "Mexican border", bounds: L.latLngBounds([25.4, -117.8], [33.4, -96.6]), minZoom: 7, home: [[31.6, -106.75], [31.95, -106.15]] },
 };
 function themeColor(th, v) {
@@ -416,7 +452,7 @@ function loadThemeData(src) {
       return fc;
     });
   }
-  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json", mx: "data/mx-border-municipalities.json", mxageb: "data/mx-border-ageb.json" }[src]).then((r) => r.json());
+  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", hw: "data/hadrian-lsoa.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json", mx: "data/mx-border-municipalities.json", mxageb: "data/mx-border-ageb.json" }[src]).then((r) => r.json());
   return themeData[src];
 }
 const NISRA_DZ_REFS = [
@@ -443,6 +479,14 @@ const BELFAST_WARD_REFS = [
   "Northern Ireland Statistics and Research Agency (2004) Census 2001 Key Statistics and Migration tables, ward level. Available at: https://www.nisra.gov.uk/publications/2001-census-bulk-download-files (Accessed: 17 November 2026).",
   "Ordnance Survey of Northern Ireland (2025) OSNI Open Data – Largescale Boundaries – Wards (1993). Open Government Licence. Available at: https://www.data.gov.uk/dataset/aa140654-cbd8-45b9-82ed-4aeb05725929/osni-open-data-largescale-boundaries-wards-1993 (Accessed: 18 November 2026). Simplified to about 6 m.",
 ];
+const HADRIAN_REFS = [
+  "Office for National Statistics (2023) Census 2021: TS001, TS004, TS021, TS030, TS045, TS054, TS062 and TS066 by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 18 November 2026).",
+  "Office for National Statistics (2013) 2011 Census: KS101EW, KS201EW, KS204EW, KS209EW, KS402EW, KS404EW, KS601EW and KS611EW by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 18 November 2026).",
+  "Office for National Statistics (2003) 2001 Census: KS001, KS005, KS006, KS007, KS009a, KS014a, KS017 and KS018 by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 18 November 2026).",
+  "Office for National Statistics (2025) LSOA (2001) to LSOA (2011) and LSOA (2011) to LSOA (2021) lookups; LSOA (December 2021) boundaries EW BFE. Open Geography Portal, Open Government Licence. Available at: https://geoportal.statistics.gov.uk/ (Accessed: 18 November 2026).",
+  "Office for National Statistics (2016–2025) Income estimates for small areas, England and Wales: net equivalised household income before housing costs by MSOA, financial years ending 2014, 2016, 2018, 2020 and 2023. Available at: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/smallareaincomeestimatesformiddlelayersuperoutputareasenglandandwales (Accessed: 18 November 2026).",
+  "Northumbria Police, Durham Constabulary and Cumbria Constabulary (2026) Street-level crime and anti-social behaviour, October 2025 to September 2026. data.police.uk, Open Government Licence. Available at: https://data.police.uk/ (Accessed: 18 November 2026).",
+];
 const POLICE_REFS = [
   "Police Service of Northern Ireland (2026) Street-level crime and anti-social behaviour, October 2025 to September 2026. data.police.uk, Open Government Licence. Available at: https://data.police.uk/docs/method/crime-street/ (Accessed: 18 November 2026). Counted by Data Zone; rates per 1,000 residents of the 2021 census.",
 ];
@@ -453,6 +497,22 @@ const NISRA_SA_REFS = [
 ];
 function areaCardHtml(p, src) {
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
+  if (src === "hw") {
+    const v = (x) => (x == null ? "–" : x);
+    const rows = Object.entries(HW_INDICATORS).map(([k, ind]) => `<tr><th>${ind.label}</th>${HW_YEARS.map((y) => `<td>${v(p[`${k}_${y}`])}</td>`).join("")}</tr>`).join("");
+    return `<div class="fiche">
+      <div class="fiche-title">${p.name}</div>
+      <dl>
+        ${row("Position", `${p.side === "north" ? "North" : "South"} of Hadrian's Wall, about ${p.dist_km} km from the wall line`)}
+        ${row("Residents", HW_YEARS.map((y) => `${y}: ${p[`pop_${y}`] != null ? p[`pop_${y}`].toLocaleString("en") : "–"}`).join("; "))}
+        ${row("Household income after tax (equivalised, a year)", HW_INCOME_YEARS.map((y) => (p[`income_${y}`] ? `${y}: £${p[`income_${y}`].toLocaleString("en")}` : "")).filter(Boolean).join("; "))}
+        ${p.crime_rate != null ? row("Crime, October 2025 to September 2026", `${p.crimes} crimes recorded (excluding anti-social behaviour): ${p.crime_rate} per 1,000 residents; violence and sexual offences ${p.violent_rate}; anti-social behaviour ${p.asb_rate} per 1,000`) : ""}
+      </dl>
+      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>% of residents or households</th>${HW_YEARS.map((y) => `<th>${y}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
+      <p class="cite">2001 and 2011 figures are carried onto this 2021 area through the official lookups (areas that were later split share their parent's counts). Income is the estimate for the wider area (MSOA), in pounds of each year.</p>
+      <details><summary>References (Harvard)</summary><ol class="refs">${HADRIAN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol></details>
+    </div>`;
+  }
   const pc = (v) => (v == null ? "not available" : `${v}%`);
   const refs = (list, cite) => `<details><summary>References (Harvard)</summary><p class="cite">In-text: ${cite}</p><ol class="refs">${list.map((r) => `<li>${r}</li>`).join("")}</ol></details>`;
   if (src === "county") {
@@ -1383,6 +1443,30 @@ function belfast7101Table(theme) {
   return `<thead><tr><th>Ward (2001)</th>${B7101_YEARS.map((y) => `<th>${y}</th>`).join("")}</tr></thead>
     <tbody>${rows}<tr class="hist-total"><th>Belfast</th>${B7101_YEARS.map((y) => `<td>${fmt(c[y][theme])}</td>`).join("")}</tr></tbody>`;
 }
+// Hadrian's Wall: residents within 10 km north and south of the wall, census by census
+let hadrianSummary = null;
+fetch("data/hadrian-summary.json").then((r) => r.json()).then((d) => { hadrianSummary = d; }).catch(() => {});
+function hadrianSidesHtml() {
+  if (!hadrianSummary) return "";
+  const s = hadrianSummary;
+  const cell = (side, y, k) => { const v = s[side][y] && s[side][y][k]; return v == null ? "–" : k === "pop" ? v.toLocaleString("en") : k === "income" ? `£${v.toLocaleString("en")}` : `${v}%`; };
+  const head = HW_YEARS.map((y) => `<th>${y} N</th><th>${y} S</th>`).join("");
+  const line = (label, k) => `<tr><th>${label}</th>${HW_YEARS.map((y) => `<td>${cell("north", y, k)}</td><td>${cell("south", y, k)}</td>`).join("")}</tr>`;
+  const rows = [line("Residents", "pop"), ...Object.entries(HW_INDICATORS).map(([k, ind]) => line(ind.label, k))].join("");
+  const inc = HW_INCOME_YEARS.map((y) => `<tr><th>${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`}</th><td>${cell("north", y, "income")}</td><td>${cell("south", y, "income")}</td></tr>`).join("");
+  const c = s.crime;
+  const cr = c ? `<p class="fiche-text">Crime, October 2025 to September 2026, per 1,000 residents (excluding anti-social behaviour): north ${c.north.crime_rate}, south ${c.south.crime_rate}. Violence and sexual offences: north ${c.north.violent_rate}, south ${c.south.violent_rate}. Anti-social behaviour: north ${c.north.asb_rate}, south ${c.south.asb_rate}.</p>` : "";
+  return `<details>
+    <summary>Either side of the wall today, 2001–2026</summary>
+    <p class="fiche-text">Residents of the small areas within 10 km of the wall line, north (N) or south (S) of it, not counting areas beyond the wall's two ends. ${s.note || ""}</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Census</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Household income after tax (equivalised, a year)</th><th>North</th><th>South</th></tr></thead><tbody>${inc}</tbody></table></div>
+    ${cr}
+    <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="hw">Compare neighbourhood maps side by side</button>
+    <p class="cite">Shares are of all residents (households for housing). 2001 and 2011 are carried onto the 2021 small areas. Income is averaged over areas weighted by their 2021 residents, in pounds of each year. The wall has not been a border since Roman times: these figures describe the places on either side of it today. Censuses before 2001 are not added yet.</p>
+    <ol class="refs">${HADRIAN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
+  </details>`;
+}
 function belfast7101Html() {
   if (!belfastHistory || !belfastHistory.wards_2001) return "";
   const c = belfastHistory.city_2001;
@@ -1412,19 +1496,21 @@ function themePickerHtml(regions) {
 
 // Side-by-side maps: the same area shown two to four times, each with its own neighbourhood theme.
 // The maps move together; hovering an area shows its value. Opened from the theme picker in a card.
-const COMPARE_GROUPS = { ni: ["ni"], us: ["us", "mx"], mx: ["us", "mx"] };
-const COMPARE_DEFAULTS = { ni: ["community", "unemp", "income", "prof"], us: ["us_income", "mx_employed", "us_hisp", "mx_cath"] };
-const THEME_REFS = { bw: () => BELFAST_WARD_REFS, sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
+const COMPARE_GROUPS = { ni: ["ni"], hw: ["hw"], us: ["us", "mx"], mx: ["us", "mx"] };
+const COMPARE_DEFAULTS = { hw: ["hw_side", "hw_income_2023", "hw_not_white_2021", "hw_unemp_2021"], ni: ["community", "unemp", "income", "prof"], us: ["us_income", "mx_employed", "us_hisp", "mx_cath"] };
+const THEME_REFS = { hw: () => HADRIAN_REFS, bw: () => BELFAST_WARD_REFS, sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
 let layerCompare = null;
 function themeValueText(th, v) {
   if (v == null) return "not available";
+  if (th.field === "side_n") return v ? "north of the wall" : "south of the wall";
+  if (th.unit === "£") return `£${Math.round(v).toLocaleString("en")}`;
   return th.field === "income" ? `$${Math.round(v).toLocaleString("en")}` : th.unit ? `${v} ${th.unit}` : `${v}%`;
 }
 function compareOptionsHtml(lc, key) {
   const opt = (k) => `<option value="${k}"${k === key ? " selected" : ""}>${COMPARE_GROUPS[lc.region].length > 1 ? `${REGIONS[THEMES[k].region].name} · ` : ""}${THEMES[k].label}</option>`;
   const plain = lc.keys.filter((k) => !THEMES[k].group);
   const groups = [...new Set(lc.keys.map((k) => THEMES[k].group).filter(Boolean))];
-  return `<optgroup label="Today (by Data Zone or small area)">${plain.map(opt).join("")}</optgroup>` +
+  return `<optgroup label="Latest figures (by small area)">${plain.map(opt).join("")}</optgroup>` +
     groups.map((g) => `<optgroup label="${g}, 1971–2001">${lc.keys.filter((k) => THEMES[k].group === g).map(opt).join("")}</optgroup>`).join("");
 }
 function compareLegendHtml(th) {
@@ -1535,17 +1621,18 @@ function drawComparePanel(panel, key) {
   else draw(th.src, 0.65);
   // References for the themes on screen
   const lc = layerCompare;
-  const refs = [...new Set(lc.panels.concat(lc.panels.includes(panel) ? [] : [panel]).flatMap((p) => [...THEME_REFS[THEMES[p.key].src](), ...(THEMES[p.key].unit === "per 1,000" ? POLICE_REFS : [])]))];
+  const refs = [...new Set(lc.panels.concat(lc.panels.includes(panel) ? [] : [panel]).flatMap((p) => [...THEME_REFS[THEMES[p.key].src](), ...(THEMES[p.key].unit === "per 1,000" && THEMES[p.key].src === "dz" ? POLICE_REFS : [])]))];
   lc.box.querySelector(".lc-refs ol").innerHTML = refs.map((r) => `<li>${r}</li>`).join("");
 }
 // Which themed region a city belongs to (US themes only cover the US side of the border)
 function cityRegion(meta) {
+  if (REGIONS.hw.bounds.contains([meta.lat, meta.lon]) && /United Kingdom/.test(meta.country || "")) return "hw";
   if (REGIONS.ni.bounds.contains([meta.lat, meta.lon]) && /United Kingdom|Ireland/.test(meta.country || "")) return "ni";
   if (REGIONS.us.bounds.contains([meta.lat, meta.lon]) && /United States/.test(meta.country || "")) return "us";
   if (REGIONS.mx.bounds.contains([meta.lat, meta.lon]) && /Mexico/.test(meta.country || "")) return "mx";
   return null;
 }
-const wallRegion = (p) => (/Northern Ireland/.test(p.countries || "") ? ["ni"] : /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "") ? ["us", "mx"] : null);
+const wallRegion = (p) => (/^Hadrian's Wall$/.test(p.name || "") ? ["hw"] : /Northern Ireland/.test(p.countries || "") ? ["ni"] : /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "") ? ["us", "mx"] : null);
 
 function popupHtml(p) {
   // Summary first; detail sections open with an arrow (native <details>)
@@ -1605,6 +1692,7 @@ function popupHtml(p) {
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
     ${wallRegion(p) && wallRegion(p).includes("us") && window.borderTimelineHtml ? single("Border over time", window.borderTimelineHtml()) : ""}
     ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() : ""}
+    ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>

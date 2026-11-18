@@ -719,3 +719,5 @@ input:focus-visible {
   .lc-map { min-height: 46vh; }
   .lc-bar { padding: 8px 16px; }
 }
+/* Many neighbourhood themes: the overlay list scrolls instead of pushing the card down */
+.leaflet-control-layers-overlays { max-height: 32vh; overflow-y: auto; }
