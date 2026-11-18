@@ -721,3 +721,27 @@ input:focus-visible {
 }
 /* Many neighbourhood themes: the overlay list scrolls instead of pushing the card down */
 .leaflet-control-layers-overlays { max-height: 32vh; overflow-y: auto; }
+
+/* Northern Ireland jobs chart: Protestant / Catholic unemployment, 1992–2017 */
+:root { --nij-p: #5e3c99; --nij-c: #018571; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --nij-p: #8a6fc9; --nij-c: #21a08e; } }
+:root[data-theme="dark"] { --nij-p: #8a6fc9; --nij-c: #21a08e; }
+.nij-wrap { position: relative; max-width: 420px; }
+.nij-chart { display: block; width: 100%; height: auto; }
+.nij-grid { stroke: var(--border); stroke-width: 1; }
+.nij-axis { fill: var(--muted); font-size: 9px; }
+.nij-label { fill: var(--text); font-size: 9px; }
+.nij-line { fill: none; stroke-width: 2; stroke-linejoin: round; }
+.nij-line.nij-p { stroke: var(--nij-p); }
+.nij-line.nij-c { stroke: var(--nij-c); }
+.nij-gap { fill: var(--muted); opacity: 0.18; }
+.nij-cross { stroke: var(--muted); stroke-width: 1; }
+.nij-dot { stroke: var(--panel); stroke-width: 2; }
+.nij-c-dot { fill: var(--nij-c); }
+.nij-p-dot { fill: var(--nij-p); }
+.nij-hit { fill: transparent; cursor: crosshair; }
+.nij-tip { position: absolute; top: 8px; padding: 4px 6px; font-size: 11px; line-height: 1.4; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 4px; pointer-events: none; }
+.nij-key { display: inline-block; width: 10px; height: 3px; margin: 0 4px 2px 6px; vertical-align: middle; border-radius: 2px; }
+.nij-key.nij-p { background: var(--nij-p); }
+.nij-key.nij-c { background: var(--nij-c); }
+.nij-key.nij-gapkey { height: 9px; background: var(--muted); opacity: 0.35; }

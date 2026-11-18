@@ -1143,6 +1143,7 @@ function cityPopupHtml(en, meta) {
     ${fold("Income and employment", income)}
     ${fold("Criminality", f.crime)}
     ${en === "Belfast" ? belfastHistoryHtml() + belfast7101Html() : ""}
+    ${region === "ni" ? niJobsHtml(en === "Belfast") : ""}
     ${nationalHtml(meta.country)}
     <details>
       <summary>References (Harvard)</summary>
@@ -1433,6 +1434,99 @@ const BALLIF_ROSIERE = "Ballif, F. and Rosière, S. (2009) 'Le défi des « teic
 let belfastHistory = null;
 fetch("data/belfast-history.json").then((r) => r.json()).then((d) => { belfastHistory = d; }).catch(() => {});
 const HIST_YEARS = ["1937", "1951", "1961", "1971"];
+// Northern Ireland: jobs by community background over time (Labour Force Survey Religion Report 2017),
+// and unemployment by community background, ethnic group and country of birth at the 2011 and 2021 censuses
+const NI_JOBS = {
+  years: [1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017],
+  unempP: [9,10,9,8,8,5,5,5,5,5,4,5,4,3,4,3,3,5,6,6,6,6,6,6,5,4],
+  unempC: [18,18,16,16,13,12,10,9,9,8,8,7,7,6,6,5,5,8,9,8,8,9,8,6,7,4],
+  empP: [69,66,67,69,70,72,71,71,71,71,72,73,73,74,72,73,73,71,69,69,70,68,67,68,71,70],
+  empC: [54,55,54,55,57,60,62,62,60,61,62,63,63,62,64,67,66,63,62,64,65,65,65,67,68,67],
+  belEmpP: { 1995: 63, 1996: 62, 1997: 66, 1998: 65, 1999: 64, 2000: 65, 2001: 66, 2002: 67, 2003: 66, 2004: 62, 2005: 69, 2006: 67, 2007: 66, 2008: 70, 2009: 63, 2010: 65, 2011: 61, 2012: 60, 2013: 66, 2014: 61, 2015: 60, 2016: 72, 2017: 67 },
+  belEmpC: { 1995: 44, 1996: 53, 1997: 56, 1998: 58, 1999: 58, 2000: 57, 2001: 62, 2002: 55, 2003: 55, 2004: 58, 2005: 56, 2006: 62, 2007: 66, 2008: 68, 2009: 59, 2010: 63, 2011: 62, 2012: 59, 2013: 67, 2014: 61, 2015: 65, 2016: 69, 2017: 62 },
+  census: [
+    ["Community background: Protestant and other Christian", 5.9, 3.9, 8.1, 5.4],
+    ["Community background: Catholic", 8.9, 4.8, 9.4, 6.1],
+    ["Community background: none", 10.0, 7.6, 9.9, 8.5],
+    ["Ethnic group: White", 7.5, 4.6, null, 6.0],
+    ["Ethnic group: Asian", 5.3, 7.3, null, 10.4],
+    ["Ethnic group: Black", 16.9, 9.6, null, 15.2],
+    ["Ethnic group: Mixed", 9.8, 9.0, null, 9.8],
+    ["Ethnic group: Other", 10.2, 8.9, null, 11.2],
+    ["Born in Northern Ireland", 7.5, 4.5, null, 5.9],
+    ["Born in England, Scotland or Wales", 8.4, 5.3, null, 6.8],
+    ["Born in the Republic of Ireland", 6.6, 4.3, null, 5.0],
+    ["Born outside the UK and Ireland", 7.5, 6.3, null, 9.3],
+  ],
+};
+function niJobsChartSvg() {
+  const d = NI_JOBS, W = 320, H = 170, L = 30, R = 64, T = 10, B = 22;
+  const x = (i) => L + (i * (W - L - R)) / (d.years.length - 1);
+  const y = (v) => T + ((20 - v) * (H - T - B)) / 20;
+  const path = (vals) => vals.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("");
+  const gap = `${path(d.unempC)}${d.unempP.map((v, i) => `L${x(d.years.length - 1 - i).toFixed(1)},${y(d.unempP[d.years.length - 1 - i]).toFixed(1)}`).join("")}Z`;
+  const grid = [0, 5, 10, 15, 20].map((v) => `<line class="nij-grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="nij-axis" x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${v}%</text>`).join("");
+  const ticks = [1992, 2000, 2008, 2017].map((yr) => `<text class="nij-axis" x="${x(d.years.indexOf(yr))}" y="${H - 6}" text-anchor="middle">${yr}</text>`).join("");
+  const n = d.years.length - 1;
+  return `<svg class="nij-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Unemployment rate of Protestants and Catholics in Northern Ireland, 1992 to 2017: Catholics 18% and Protestants 9% in 1992, both 4% in 2017">
+    ${grid}${ticks}
+    <path class="nij-gap" d="${gap}"/>
+    <path class="nij-line nij-c" d="${path(d.unempC)}"/><path class="nij-line nij-p" d="${path(d.unempP)}"/>
+    <text class="nij-label" x="${x(n) + 6}" y="${y(d.unempC[n]) - 4}">Catholic</text>
+    <text class="nij-label" x="${x(n) + 6}" y="${y(d.unempP[n]) + 9}">Protestant</text>
+    <line class="nij-cross" x1="0" x2="0" y1="${T}" y2="${H - B}" visibility="hidden"/>
+    <circle class="nij-dot nij-c-dot" r="4" visibility="hidden"/><circle class="nij-dot nij-p-dot" r="4" visibility="hidden"/>
+    <rect class="nij-hit" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" data-l="${L}" data-w="${W - L - R}"/>
+  </svg>`;
+}
+function niJobsHtml(isBelfast) {
+  const d = NI_JOBS;
+  const v = (x) => (x == null ? "–" : `${x}%`);
+  const rows = d.years.map((yr, i) => `<tr><th>${yr}</th><td>${d.unempP[i]}%</td><td>${d.unempC[i]}%</td><td>${d.unempC[i] - d.unempP[i]}</td><td>${d.empP[i]}%</td><td>${d.empC[i]}%</td>${isBelfast ? `<td>${v(d.belEmpP[yr])}</td><td>${v(d.belEmpC[yr])}</td>` : ""}</tr>`).join("");
+  const census = d.census.map(([g, a, b, c, e]) => `<tr><th>${g}</th><td>${v(a)}</td><td>${v(b)}</td>${isBelfast ? `<td>${v(c)}</td><td>${v(e)}</td>` : ""}</tr>`).join("");
+  return `<details>
+    <summary>Jobs by community, ethnicity and birthplace over time</summary>
+    <p class="fiche-text"><strong>Unemployment, Protestants and Catholics, Northern Ireland, 1992–2017.</strong> The gap fell from 9 points (Catholics 18%, Protestants 9%) in 1992 to none in 2017 (4% each); most of the narrowing came in the 1990s, the decade of the 1994 ceasefires and the 1998 Good Friday Agreement, and the gap widened a little again in the recession after 2008 (3 points in 2009–2013). Hover over the chart for each year.</p>
+    <div class="nij-wrap">${niJobsChartSvg()}<div class="nij-tip" hidden></div></div>
+    <p class="fiche-text"><span class="nij-key nij-p"></span>Protestant <span class="nij-key nij-c"></span>Catholic <span class="nij-key nij-gapkey"></span>gap</p>
+    <details><summary>Table: unemployment and employment by year${isBelfast ? " (with Belfast)" : ""}</summary>
+      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Unemployed P</th><th>Unemployed C</th><th>Gap (points)</th><th>In work P</th><th>In work C</th>${isBelfast ? "<th>In work, Belfast P</th><th>In work, Belfast C</th>" : ""}</tr></thead><tbody>${rows}</tbody></table></div>
+      <p class="cite">Unemployment: share of the economically active (16+) who are unemployed. In work: share of the working-age population in employment (working age redefined in 2010; the later definition is shown). Belfast figures start in 1995 and rest on smaller samples, so they move more from year to year. The survey report was last published for 2017.</p>
+    </details>
+    <p class="fiche-text"><strong>Unemployment at the 2011 and 2021 censuses</strong>, by community background, ethnic group and country of birth${isBelfast ? ", Northern Ireland and Belfast" : ", Northern Ireland"}. The Labour Force Survey report does not cover ethnicity or birthplace; the census does.</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Group</th><th>NI 2011</th><th>NI 2021</th>${isBelfast ? "<th>Belfast 2011</th><th>Belfast 2021</th>" : ""}</tr></thead><tbody>${census}</tbody></table></div>
+    <p class="cite">Census unemployment: unemployed as a share of the economically active. 2011 counts people aged 16–74 and leaves unemployed full-time students out of the unemployed; 2021 counts everyone aged 16+ and includes them; 2021 was taken in March 2021, during the pandemic and furlough. 2011 ethnic group and birthplace are published for Northern Ireland only; Belfast 2011 community background is the Belfast Education and Library Board area (the city).</p>
+    <p class="cite">In-text: (NISRA, 2019; 2013; 2023)</p>
+    <ol class="refs">
+      <li>Northern Ireland Statistics and Research Agency (2019) Labour Force Survey Religion Report 2017, Tables A5.1, A6.1 and A8.10. Belfast: The Executive Office. Available at: https://www.executiveoffice-ni.gov.uk/publications/labour-force-survey-religion-report-2017 (Accessed: 18 November 2026).</li>
+      <li>Northern Ireland Statistics and Research Agency (2013) Census 2011 Detailed Characteristics: DC2601NI Economic activity by ethnic group, DC2606NI Economic activity by country of birth, DC2626NI Economic activity by religion or religion brought up in. Available at: https://www.nisra.gov.uk/statistics/2011-census-results/detailed-characteristics (Accessed: 18 November 2026).</li>
+      <li>Northern Ireland Statistics and Research Agency (2023) Census 2021 Flexible Table Builder: economic activity by ethnic group, country of birth and community background, by Local Government District. Available at: https://build.nisra.gov.uk/ (Accessed: 18 November 2026).</li>
+    </ol>
+  </details>`;
+}
+// Hover on the jobs chart: a crosshair and a readout for the nearest year
+document.addEventListener("pointermove", (e) => {
+  const hit = e.target.closest && e.target.closest(".nij-hit");
+  document.querySelectorAll(".nij-wrap").forEach((wrap) => {
+    if (hit && wrap.contains(hit)) return;
+    wrap.querySelectorAll(".nij-cross,.nij-dot").forEach((el) => el.setAttribute("visibility", "hidden"));
+    wrap.querySelector(".nij-tip").hidden = true;
+  });
+  if (!hit) return;
+  const svg = hit.ownerSVGElement, wrap = svg.parentNode, d = NI_JOBS;
+  const pt = svg.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY;
+  const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+  const l = Number(hit.dataset.l), w = Number(hit.dataset.w), n = d.years.length - 1;
+  const i = Math.max(0, Math.min(n, Math.round(((p.x - l) / w) * n)));
+  const x = l + (i * w) / n, y = (v) => 10 + ((20 - v) * 138) / 20;
+  const cross = svg.querySelector(".nij-cross");
+  cross.setAttribute("x1", x); cross.setAttribute("x2", x); cross.setAttribute("visibility", "visible");
+  [[".nij-c-dot", d.unempC[i]], [".nij-p-dot", d.unempP[i]]].forEach(([s, v]) => { const c = svg.querySelector(s); c.setAttribute("cx", x); c.setAttribute("cy", y(v)); c.setAttribute("visibility", "visible"); });
+  const tip = wrap.querySelector(".nij-tip");
+  tip.innerHTML = `<strong>${d.years[i]}</strong><br><span class="nij-key nij-c"></span>Catholic ${d.unempC[i]}%<br><span class="nij-key nij-p"></span>Protestant ${d.unempP[i]}%<br>Gap ${d.unempC[i] - d.unempP[i]} points`;
+  tip.hidden = false;
+  tip.style.left = `${Math.min(wrap.clientWidth - 130, Math.max(0, (x / 320) * wrap.clientWidth + 10))}px`;
+});
 function belfastHistoryHtml() {
   if (!belfastHistory) return "";
   const c = belfastHistory.city;
@@ -1740,6 +1834,7 @@ function popupHtml(p) {
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
     ${wallRegion(p) && wallRegion(p).includes("us") && window.borderTimelineHtml ? single("Border over time", window.borderTimelineHtml()) : ""}
     ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() : ""}
+    ${wallRegion(p) && wallRegion(p)[0] === "ni" ? niJobsHtml(/Belfast/.test(p.countries || "")) : ""}
     ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
