@@ -224,7 +224,31 @@ const THEMES = {
     note: "Religion or religion brought up in, among residents of Catholic or Protestant background" },
   minority: { region: "ni", label: "Ethnic minorities: residents not White (2021)", src: "dz", field: "minority", breaks: [1, 3, 6, 10],
     colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
-    note: "Share of residents who are not of White ethnic group" },
+    note: "Share of residents who are not of White ethnic group; the White share is the rest (100% minus this figure)" },
+  british: { region: "ni", label: "National identity: British only (2021)", src: "dz", field: "british", breaks: [10, 25, 40, 55],
+    colors: ["#f2f0f7", "#cbc9e2", "#9e9ac8", "#756bb1", "#54278f"],
+    note: "Share of residents whose only national identity is British" },
+  irish: { region: "ni", label: "National identity: Irish only (2021)", src: "dz", field: "irish", breaks: [10, 25, 40, 55],
+    colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
+    note: "Share of residents whose only national identity is Irish" },
+  ni_only: { region: "ni", label: "National identity: Northern Irish only (2021)", src: "dz", field: "ni", breaks: [10, 15, 20, 25],
+    colors: ["#fff5eb", "#fdd0a2", "#fd8d3c", "#d94801", "#8c2d04"],
+    note: "Share of residents whose only national identity is Northern Irish" },
+  no_background: { region: "ni", label: "Community background: none (2021)", src: "dz", field: "none", breaks: [5, 10, 20, 30],
+    colors: ["#f7f7f7", "#cccccc", "#969696", "#636363", "#252525"],
+    note: "Share of residents with no religion who were not brought up in one" },
+  crime: { region: "ni", label: "Crime: recorded crime per 1,000 residents (2025–26)", src: "dz", field: "crime_rate", unit: "per 1,000", breaks: [25, 50, 100, 200],
+    colors: ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"], labels: ["Under 25", "25–50", "50–100", "100–200", "200 and over (per 1,000 residents)"],
+    note: "Crimes recorded by the PSNI from October 2025 to September 2026, excluding anti-social behaviour, per 1,000 residents (Census 2021). Locations are snapped to anonymous points near where the crime happened, and areas with shops, pubs or few residents (such as the city centre) have high rates because crimes there involve visitors", source: "PSNI via police.uk" },
+  violent: { region: "ni", label: "Crime: violence and sexual offences per 1,000 residents (2025–26)", src: "dz", field: "violent_rate", unit: "per 1,000", breaks: [10, 25, 50, 100],
+    colors: ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"], labels: ["Under 10", "10–25", "25–50", "50–100", "100 and over (per 1,000 residents)"],
+    note: "Violence and sexual offences recorded by the PSNI, October 2025 to September 2026, per 1,000 residents. Same caveats on locations and on areas with few residents", source: "PSNI via police.uk" },
+  asb: { region: "ni", label: "Anti-social behaviour incidents per 1,000 residents (2025–26)", src: "dz", field: "asb_rate", unit: "per 1,000", breaks: [10, 25, 50, 100],
+    colors: ["#f2f0f7", "#cbc9e2", "#9e9ac8", "#756bb1", "#54278f"], labels: ["Under 10", "10–25", "25–50", "50–100", "100 and over (per 1,000 residents)"],
+    note: "Anti-social behaviour incidents reported to the PSNI, October 2025 to September 2026, per 1,000 residents. Same caveats on locations and on areas with few residents", source: "PSNI via police.uk" },
+  routine: { region: "ni", label: "Occupations: semi-routine and routine (2021)", src: "dz", field: "routine", breaks: [20, 30, 40, 50],
+    colors: ["#fef0d9", "#fdcc8a", "#fc8d59", "#e34a33", "#b30000"],
+    note: "Share of residents aged 16+ (excluding students) in semi-routine and routine occupations" },
   us_income: { region: "us", label: "Income: median household income (2020–24)", src: "us", field: "income", breaks: [40000, 60000, 80000, 110000],
     colors: ["#b30000", "#e34a33", "#fc8d59", "#fdcc8a", "#fef0d9"],
     labels: ["Under $40,000", "$40,000–60,000", "$60,000–80,000", "$80,000–110,000", "$110,000 and over"],
@@ -269,6 +293,26 @@ const THEMES = {
     colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
     note: "Share of residents born in another Mexican state. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
 };
+// Belfast by 2001 ward, 1971–2001, for the side-by-side maps only: one theme per indicator and census year,
+// with the same colour scale in every year so that years can be compared
+const WARD_YEARS = ["1971", "1981", "1991", "2001"];
+const WARD_INDICATORS = {
+  cath_share: { label: "Religion: Catholic share", breaks: [20, 40, 60, 80], colors: THEMES.community.colors,
+    labels: ["Over 80% Protestant", "60–80% Protestant", "Mixed (40–60%)", "60–80% Catholic", "Over 80% Catholic"],
+    note: "Catholics as a share of people stating Catholic or Protestant. 1981 is understated in West Belfast (census boycott)" },
+  not_stated: { label: "Religion: not stated or none", breaks: [5, 10, 15, 20], colors: THEMES.no_background.colors, note: "Share of residents not stating a religion (or, in 1991 and 2001, stating none)" },
+  male_unemp: { label: "Jobs: male unemployment", breaks: [10, 20, 30, 40], colors: THEMES.unemp.colors, note: "Unemployed men as a share of economically active men" },
+  public_rent: { label: "Housing: renting from a public body", breaks: [10, 25, 50, 75], colors: ["#f7fbff", "#c6dbef", "#6baed6", "#2171b5", "#08306b"], note: "Share of households renting from a public body (2001: Housing Executive only)" },
+  owner: { label: "Housing: owner-occupied", breaks: [25, 40, 55, 70], colors: THEMES.prof.colors, note: "Share of households owning their home" },
+  no_car: { label: "Housing: households without a car", breaks: [30, 45, 60, 75], colors: THEMES.income.colors, note: "Share of households with no car" },
+  per_room: { label: "Housing: people per room", breaks: [0.5, 0.6, 0.7, 0.8], colors: THEMES.routine.colors, unit: "people per room",
+    labels: ["Under 0.5", "0.5–0.6", "0.6–0.7", "0.7–0.8", "0.8 and over people per room"], note: "Residents in households divided by rooms (2001 counts kitchens, so slightly lower by definition)" },
+  moved_1yr: { label: "Migration: moved home in the past year", breaks: [5, 8, 11, 15], colors: THEMES.minority.colors, note: "Share of residents who changed address in the past year (2001 also counts moves from outside the UK)" },
+};
+Object.entries(WARD_INDICATORS).forEach(([k, ind]) => WARD_YEARS.forEach((y) => {
+  THEMES[`bw_${k}_${y}`] = { region: "ni", compareOnly: true, group: `Belfast by ward · ${ind.label}`, label: `Belfast wards, ${y} · ${ind.label}`,
+    src: "bw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, labels: ind.labels, unit: ind.unit, note: `${ind.note}. ${y}, 2001 ward boundaries` };
+}));
 // Places where neighbourhood themes exist. A theme is offered only when the map shows its region
 const REGIONS = {
   ni: { name: "Northern Ireland", bounds: L.latLngBounds([54.0, -8.2], [55.35, -5.4]), minZoom: 8, home: [[54.55, -6.02], [54.65, -5.86]] },
@@ -361,6 +405,17 @@ const themeLayers = Object.fromEntries(Object.keys(THEMES).map((k) => [k, L.laye
 const activeThemes = {}; // one theme per region, so both sides of a border can be compared
 const themeData = {};
 function loadThemeData(src) {
+  // Belfast wards: 2001 ward boundaries joined to the 1971–2001 ward figures, as fields such as cath_share_1971
+  if (src === "bw" && !themeData.bw) {
+    themeData.bw = Promise.all([fetch("data/belfast-wards-1993.json").then((r) => r.json()), fetch("data/belfast-history.json").then((r) => r.json())]).then(([fc, h]) => {
+      fc.features.forEach((f) => {
+        const w = h.wards_2001[f.properties.ward] || {};
+        f.properties.name = `${f.properties.ward} (ward)`;
+        WARD_YEARS.forEach((y) => Object.keys(WARD_INDICATORS).forEach((k) => { f.properties[`${k}_${y}`] = w[y] ? w[y][k] : null; }));
+      });
+      return fc;
+    });
+  }
   if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json", mx: "data/mx-border-municipalities.json", mxageb: "data/mx-border-ageb.json" }[src]).then((r) => r.json());
   return themeData[src];
 }
@@ -382,6 +437,14 @@ const MX_REFS = [
 ];
 const US_RELIGION_REFS = [
   "Grammich, C., Dollhopf, E., Gautier, M., Houseal, R., Jones, D.E., Krindatch, A., Stanley, R. and Thumma, S. (2022) 2020 U.S. Religion Census: Religious Congregations & Adherents Study. Association of Statisticians of American Religious Bodies. Available at: https://www.usreligioncensus.org/index.php/node/1639 (Accessed: 9 November 2026).",
+];
+const BELFAST_WARD_REFS = [
+  "Shuttleworth, I. and Lloyd, C.D. (2007) Linking Northern Ireland Census of Population Data, 1971-2001 [data collection]. UK Data Service. SN: 5672. doi:10.5255/UKDA-SN-5672-1. Used under the End User Licence; only ward totals and shares derived from it are shown.",
+  "Northern Ireland Statistics and Research Agency (2004) Census 2001 Key Statistics and Migration tables, ward level. Available at: https://www.nisra.gov.uk/publications/2001-census-bulk-download-files (Accessed: 17 November 2026).",
+  "Ordnance Survey of Northern Ireland (2025) OSNI Open Data – Largescale Boundaries – Wards (1993). Open Government Licence. Available at: https://www.data.gov.uk/dataset/aa140654-cbd8-45b9-82ed-4aeb05725929/osni-open-data-largescale-boundaries-wards-1993 (Accessed: 18 November 2026). Simplified to about 6 m.",
+];
+const POLICE_REFS = [
+  "Police Service of Northern Ireland (2026) Street-level crime and anti-social behaviour, October 2025 to September 2026. data.police.uk, Open Government Licence. Available at: https://data.police.uk/docs/method/crime-street/ (Accessed: 18 November 2026). Counted by Data Zone; rates per 1,000 residents of the 2021 census.",
 ];
 const NISRA_SA_REFS = [
   "NISRA (2017) Northern Ireland Multiple Deprivation Measure 2017: technical report. Belfast: Northern Ireland Statistics and Research Agency. Available at: https://www.nisra.gov.uk/files/nisra/publications/NIMDM%202017_Technical%20Report.pdf (Accessed: 9 November 2026).",
@@ -468,8 +531,9 @@ function areaCardHtml(p, src) {
       ${row("Community background", `Catholic ${pc(p.cath)}; Protestant and other Christian ${pc(p.prot)}; other religions ${pc(p.other_rel)}; none ${pc(p.none)} (religion or religion brought up in)`)}
       ${row("National identity", `British only ${pc(p.british)}; Irish only ${pc(p.irish)}; Northern Irish only ${pc(p.ni)}`)}
       ${row("Ethnic group", `Not White: ${pc(p.minority)}`)}
+      ${p.crime_rate != null ? row("Crime, October 2025 to September 2026", `${p.crimes.toLocaleString("en")} crimes recorded (excluding anti-social behaviour): ${p.crime_rate} per 1,000 residents, of which violence and sexual offences ${p.violent_rate} per 1,000; anti-social behaviour ${p.asb_rate} per 1,000. Locations are approximate, and areas with shops, pubs or few residents have high rates`) : ""}
     </dl>
-    ${refs(NISRA_DZ_REFS, "(NISRA, 2023)")}
+    ${refs([...NISRA_DZ_REFS, ...(p.crime_rate != null ? POLICE_REFS : [])], p.crime_rate != null ? "(NISRA, 2023; Police Service of Northern Ireland, 2026)" : "(NISRA, 2023)")}
   </div>`;
 }
 function renderThemeLegend() {
@@ -630,7 +694,7 @@ function updateThemeOptions() {
     const show = regionShown(r);
     if (show === !!offered[r]) return;
     offered[r] = show;
-    Object.entries(THEMES).filter(([, th]) => th.region === r).forEach(([k, th]) => {
+    Object.entries(THEMES).filter(([, th]) => th.region === r && !th.compareOnly).forEach(([k, th]) => {
       if (show) layerControl.addOverlay(themeLayers[k], `${REGIONS[r].name} · ${th.label}`);
       else {
         if (map.hasLayer(themeLayers[k])) map.removeLayer(themeLayers[k]);
@@ -974,7 +1038,10 @@ function cityPopupHtml(en, meta) {
   const income = `${f.economy || (region ? "" : NOT_FOUND)}${region ? themePickerHtml([region]) : ""}${["us", "mx"].includes(region) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`;
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
-    <button type="button" class="compare-btn" data-compare>Compare with another city</button>
+    <div class="compare-actions">
+      <button type="button" class="compare-btn" data-compare>Compare with another city</button>
+      ${region ? `<button type="button" class="compare-btn compare-maps-btn" data-layer-compare="${region}">Compare neighbourhood maps side by side</button>` : ""}
+    </div>
     <dl>
       ${row("Country", f.country)}
       ${row("Latest census", f.census)}
@@ -1339,19 +1406,26 @@ function themePickerHtml(regions) {
   return regions.map((r) => `<label class="dep-toggle">${REGIONS[r].name}: show by area on the map
     <select class="theme-select" data-region="${r}">
       <option value="">None</option>
-      ${Object.entries(THEMES).filter(([, th]) => th.region === r).map(([k, th]) => `<option value="${k}"${activeThemes[r] === k ? " selected" : ""}>${th.label}</option>`).join("")}
-    </select></label>`).join("") + `<button type="button" class="compare-btn" data-layer-compare="${regions[0]}">Compare themes side by side (2 to 4 maps)</button>`;
+      ${Object.entries(THEMES).filter(([, th]) => th.region === r && !th.compareOnly).map(([k, th]) => `<option value="${k}"${activeThemes[r] === k ? " selected" : ""}>${th.label}</option>`).join("")}
+    </select></label>`).join("") + `<button type="button" class="compare-btn" data-layer-compare="${regions[0]}">Compare neighbourhood maps side by side (2 to 4 maps)</button>`;
 }
 
 // Side-by-side maps: the same area shown two to four times, each with its own neighbourhood theme.
 // The maps move together; hovering an area shows its value. Opened from the theme picker in a card.
 const COMPARE_GROUPS = { ni: ["ni"], us: ["us", "mx"], mx: ["us", "mx"] };
 const COMPARE_DEFAULTS = { ni: ["community", "unemp", "income", "prof"], us: ["us_income", "mx_employed", "us_hisp", "mx_cath"] };
-const THEME_REFS = { sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
+const THEME_REFS = { bw: () => BELFAST_WARD_REFS, sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
 let layerCompare = null;
 function themeValueText(th, v) {
   if (v == null) return "not available";
-  return th.field === "income" ? `$${Math.round(v).toLocaleString("en")}` : `${v}%`;
+  return th.field === "income" ? `$${Math.round(v).toLocaleString("en")}` : th.unit ? `${v} ${th.unit}` : `${v}%`;
+}
+function compareOptionsHtml(lc, key) {
+  const opt = (k) => `<option value="${k}"${k === key ? " selected" : ""}>${COMPARE_GROUPS[lc.region].length > 1 ? `${REGIONS[THEMES[k].region].name} · ` : ""}${THEMES[k].label}</option>`;
+  const plain = lc.keys.filter((k) => !THEMES[k].group);
+  const groups = [...new Set(lc.keys.map((k) => THEMES[k].group).filter(Boolean))];
+  return `<optgroup label="Today (by Data Zone or small area)">${plain.map(opt).join("")}</optgroup>` +
+    groups.map((g) => `<optgroup label="${g}, 1971–2001">${lc.keys.filter((k) => THEMES[k].group === g).map(opt).join("")}</optgroup>`).join("");
 }
 function compareLegendHtml(th) {
   return `<div class="lc-legend">${themeLabels(th).map((l, i) => `<span><i style="background:${th.colors[i]}"></i>${l}</span>`).join("")}</div>`;
@@ -1410,7 +1484,7 @@ function setComparePanels(n) {
     const cell = document.createElement("div");
     cell.className = "lc-panel";
     cell.innerHTML = `<div class="lc-head">
-        <select class="lc-theme" aria-label="Theme for map ${i + 1}">${lc.keys.map((k) => `<option value="${k}"${k === key ? " selected" : ""}>${COMPARE_GROUPS[lc.region].length > 1 ? `${REGIONS[THEMES[k].region].name} · ` : ""}${THEMES[k].label}</option>`).join("")}</select>
+        <select class="lc-theme" aria-label="Theme for map ${i + 1}">${compareOptionsHtml(lc, key)}</select>
         <div class="lc-key"></div>
       </div>
       <div class="lc-map"></div>`;
@@ -1461,7 +1535,7 @@ function drawComparePanel(panel, key) {
   else draw(th.src, 0.65);
   // References for the themes on screen
   const lc = layerCompare;
-  const refs = [...new Set(lc.panels.concat(lc.panels.includes(panel) ? [] : [panel]).flatMap((p) => THEME_REFS[THEMES[p.key].src]()))];
+  const refs = [...new Set(lc.panels.concat(lc.panels.includes(panel) ? [] : [panel]).flatMap((p) => [...THEME_REFS[THEMES[p.key].src](), ...(THEMES[p.key].unit === "per 1,000" ? POLICE_REFS : [])]))];
   lc.box.querySelector(".lc-refs ol").innerHTML = refs.map((r) => `<li>${r}</li>`).join("");
 }
 // Which themed region a city belongs to (US themes only cover the US side of the border)
@@ -1512,6 +1586,7 @@ function popupHtml(p) {
     .filter(Boolean);
   return `<div class="fiche">
     <div class="fiche-title">${p.name}</div>
+    ${wallRegion(p) ? `<button type="button" class="compare-btn compare-maps-btn" data-layer-compare="${wallRegion(p)[0]}">Compare neighbourhood maps side by side</button>` : ""}
     <dl class="summary">
       ${row("Location", `${or(p.countries)}${showSeparates ? ` · separates ${p.separates}` : ""}`)}
       ${row("Type", or(TYPE_LABELS[p.type] || p.type))}

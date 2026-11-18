@@ -627,6 +627,7 @@ input:focus-visible {
 .cmp-remove:hover { border-color: var(--text); }
 .compare-btn { margin: 8px 0 2px; padding: 4px 10px; font: inherit; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 4px; cursor: pointer; }
 .compare-btn:hover { border-color: var(--text); }
+.compare-maps-btn { font-weight: 600; border-color: var(--text); }
 .compare-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 .compare-input { box-sizing: border-box; width: 100%; padding: 5px 8px; font: inherit; font-size: 16px; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 4px; }
 .compare-list { list-style: none; margin: 4px 0; padding: 0; }
