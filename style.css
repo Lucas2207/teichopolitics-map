@@ -744,4 +744,10 @@ input:focus-visible {
 .nij-key { display: inline-block; width: 10px; height: 3px; margin: 0 4px 2px 6px; vertical-align: middle; border-radius: 2px; }
 .nij-key.nij-p { background: var(--nij-p); }
 .nij-key.nij-c { background: var(--nij-c); }
+.chx-bar.chx-boat, .nij-key.chx-boat { fill: var(--nij-p); background: var(--nij-p); }
+.chx-bar.chx-lorry, .nij-key.chx-lorry { fill: var(--nij-c); background: var(--nij-c); }
+.chx-bar.chx-part { opacity: 0.55; }
+.nij-key.chx-boat, .nij-key.chx-lorry { height: 9px; }
+.chx-hit { fill: transparent; cursor: crosshair; }
+.chx-hit:hover { fill: var(--muted); opacity: 0.12; }
 .nij-key.nij-gapkey { height: 9px; background: var(--muted); opacity: 0.35; }

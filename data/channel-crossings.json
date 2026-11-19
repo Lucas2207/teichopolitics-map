@@ -1,0 +1,503 @@
+{
+"last_day": "2026-11-12",
+"last_week": "2026-11-08",
+"years": [
+{
+"year": "2018",
+"arrivals": 299,
+"final": true,
+"boats": 43,
+"per_boat": 7,
+"prevented": null,
+"prevented_events": null,
+"women_pct": 9,
+"children_pct": 8,
+"asylum_pct": 98,
+"granted_pct": 53,
+"awaiting": 0,
+"lorry_ports": 8309,
+"air": 4769,
+"top": [
+[
+"Iran",
+238,
+80
+],
+[
+"Iraq",
+33,
+11
+],
+[
+"Albania",
+16,
+5
+],
+[
+"Ukraine",
+4,
+1
+],
+[
+"Vietnam",
+4,
+1
+],
+[
+"Afghanistan",
+3,
+1
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2019",
+"arrivals": 1843,
+"final": true,
+"boats": 164,
+"per_boat": 11,
+"prevented": null,
+"prevented_events": null,
+"women_pct": 16,
+"children_pct": 17,
+"asylum_pct": 99,
+"granted_pct": 46,
+"awaiting": 5,
+"lorry_ports": 9451,
+"air": 5237,
+"top": [
+[
+"Iran",
+1213,
+66
+],
+[
+"Iraq",
+471,
+26
+],
+[
+"Afghanistan",
+69,
+4
+],
+[
+"Pakistan",
+25,
+1
+],
+[
+"Syria",
+14,
+1
+],
+[
+"Albania",
+13,
+1
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2020",
+"arrivals": 8466,
+"final": true,
+"boats": 641,
+"per_boat": 13,
+"prevented": null,
+"prevented_events": null,
+"women_pct": 13,
+"children_pct": 17,
+"asylum_pct": 98,
+"granted_pct": 55,
+"awaiting": 71,
+"lorry_ports": 6236,
+"air": 2328,
+"top": [
+[
+"Iran",
+2373,
+28
+],
+[
+"Iraq",
+1648,
+19
+],
+[
+"Sudan",
+969,
+11
+],
+[
+"Syria",
+776,
+9
+],
+[
+"Eritrea",
+511,
+6
+],
+[
+"Afghanistan",
+494,
+6
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2021",
+"arrivals": 28526,
+"final": true,
+"boats": 1034,
+"per_boat": 28,
+"prevented": null,
+"prevented_events": null,
+"women_pct": 10,
+"children_pct": 15,
+"asylum_pct": 90,
+"granted_pct": 76,
+"awaiting": 288,
+"lorry_ports": 5698,
+"air": 2561,
+"top": [
+[
+"Iran",
+8319,
+29
+],
+[
+"Iraq",
+6117,
+21
+],
+[
+"Eritrea",
+2875,
+10
+],
+[
+"Syria",
+2451,
+9
+],
+[
+"Afghanistan",
+1437,
+5
+],
+[
+"Vietnam",
+1403,
+5
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2022",
+"arrivals": 45774,
+"final": true,
+"boats": 1110,
+"per_boat": 41,
+"prevented": null,
+"prevented_events": null,
+"women_pct": 12,
+"children_pct": 18,
+"asylum_pct": 91,
+"granted_pct": 71,
+"awaiting": 789,
+"lorry_ports": 3670,
+"air": 5130,
+"top": [
+[
+"Albania",
+12658,
+28
+],
+[
+"Afghanistan",
+9088,
+20
+],
+[
+"Iran",
+5841,
+13
+],
+[
+"Iraq",
+4574,
+10
+],
+[
+"Syria",
+3006,
+7
+],
+[
+"Eritrea",
+2020,
+4
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2023",
+"arrivals": 29437,
+"final": true,
+"boats": 602,
+"per_boat": 49,
+"prevented": null,
+"prevented_events": null,
+"women_pct": 12,
+"children_pct": 18,
+"asylum_pct": 98,
+"granted_pct": 50,
+"awaiting": 613,
+"lorry_ports": 3072,
+"air": 3854,
+"top": [
+[
+"Afghanistan",
+5511,
+19
+],
+[
+"Iran",
+3582,
+12
+],
+[
+"Türkiye",
+3058,
+10
+],
+[
+"Eritrea",
+2666,
+9
+],
+[
+"Iraq",
+2536,
+9
+],
+[
+"Syria",
+2275,
+8
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2024",
+"arrivals": 36816,
+"final": true,
+"boats": 695,
+"per_boat": 53,
+"prevented": 21317,
+"prevented_events": 694,
+"women_pct": 13,
+"children_pct": 15,
+"asylum_pct": 98,
+"granted_pct": 48,
+"awaiting": 1807,
+"lorry_ports": 3125,
+"air": 3349,
+"top": [
+[
+"Afghanistan",
+6065,
+16
+],
+[
+"Syria",
+4693,
+13
+],
+[
+"Iran",
+4214,
+11
+],
+[
+"Vietnam",
+3658,
+10
+],
+[
+"Eritrea",
+3480,
+9
+],
+[
+"Sudan",
+2748,
+7
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2025",
+"arrivals": 41472,
+"final": true,
+"boats": 672,
+"per_boat": 62,
+"prevented": 22476,
+"prevented_events": 845,
+"women_pct": 15,
+"children_pct": 14,
+"asylum_pct": 98,
+"granted_pct": 57,
+"awaiting": 4508,
+"lorry_ports": 2020,
+"air": 3016,
+"top": [
+[
+"Eritrea",
+7583,
+18
+],
+[
+"Afghanistan",
+4801,
+12
+],
+[
+"Iran",
+4505,
+11
+],
+[
+"Sudan",
+4447,
+11
+],
+[
+"Somalia",
+3806,
+9
+],
+[
+"Ethiopia",
+1745,
+4
+]
+],
+"nat_basis": "year"
+},
+{
+"year": "2026",
+"arrivals": 23529,
+"final": false,
+"boats": 343,
+"per_boat": 69,
+"prevented": 12910,
+"prevented_events": 531,
+"women_pct": 16,
+"children_pct": 15,
+"asylum_pct": null,
+"granted_pct": null,
+"awaiting": null,
+"lorry_ports": null,
+"air": null,
+"top": [
+[
+"Eritrea",
+1842,
+15
+],
+[
+"Sudan",
+1833,
+15
+],
+[
+"Somalia",
+1798,
+15
+],
+[
+"Afghanistan",
+1589,
+13
+],
+[
+"Iran",
+837,
+7
+],
+[
+"Ethiopia",
+423,
+4
+]
+],
+"nat_basis": "Jan–Jun"
+}
+],
+"since2018": {
+"total": 204517,
+"to": "2026-06-30",
+"top": [
+[
+"Iran",
+31122,
+15
+],
+[
+"Afghanistan",
+29057,
+14
+],
+[
+"Eritrea",
+20977,
+10
+],
+[
+"Iraq",
+19640,
+10
+],
+[
+"Albania",
+15422,
+8
+],
+[
+"Syria",
+14916,
+7
+],
+[
+"Sudan",
+14481,
+7
+],
+[
+"Vietnam",
+8750,
+4
+],
+[
+"Türkiye",
+7542,
+4
+],
+[
+"Somalia",
+6967,
+3
+]
+]
+}
+}

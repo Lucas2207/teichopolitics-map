@@ -1567,6 +1567,75 @@ function belfast7101Table(theme) {
   return `<thead><tr><th>Ward (2001)</th>${B7101_YEARS.map((y) => `<th>${y}</th>`).join("")}</tr></thead>
     <tbody>${rows}<tr class="hist-total"><th>Belfast</th>${B7101_YEARS.map((y) => `<td>${fmt(c[y][theme])}</td>`).join("")}</tr></tbody>`;
 }
+// Channel crossings to the UK, shown on the Calais fencing card: Home Office small boat and illegal entry statistics,
+// French preventions (operational estimates passed to the UK), arrests reported by both governments.
+let channelData = null;
+fetch("data/channel-crossings.json").then((r) => r.json()).then((d) => { channelData = d; }).catch(() => {});
+const CHANNEL_REFS = [
+  "Home Office (2026a) Immigration system statistics, year ending June 2026: Illegal entry routes to the UK detailed dataset (tables IER_D01 to IER_D03). London: Home Office. Available at: https://www.gov.uk/government/statistical-data-sets/immigration-system-statistics-data-tables (Accessed: 19 November 2026).",
+  "Home Office (2026b) Migrants detected crossing the English Channel in small boats: time series, 13 November 2026 (tables SB_01 and SB_02). London: Home Office. Available at: https://www.gov.uk/government/publications/migrants-detected-crossing-the-english-channel-in-small-boats (Accessed: 19 November 2026).",
+  "Home Office (2026c) How many people come to the UK via illegal entry routes? Immigration system statistics, year ending June 2026. Available at: https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/how-many-people-come-to-the-uk-via-illegal-entry-routes (Accessed: 19 November 2026).",
+  "Assemblée nationale (2026) Commission d'enquête relative aux conséquences des accords du Touquet sur l'action publique et le respect des libertés et droits fondamentaux des personnes migrantes : audition de M. Laurent Nuñez, ministre de l'Intérieur, compte rendu n° 54, 15 juin 2026. Paris : Assemblée nationale. Available at: https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO877518N054.html (Accessed: 19 November 2026).",
+  "Tomlinson, M. (2024) Update on tackling illegal migration. Written statement to the House of Commons, 21 May 2024. Available at: https://questions-statements.parliament.uk/written-statements/1719511 (Accessed: 19 November 2026).",
+];
+function channelChartSvg(d) {
+  const ys = d.years, W = 320, H = 180, L = 34, R = 6, T = 10, B = 22;
+  const max = 50000, bw = (W - L - R) / ys.length;
+  const y = (v) => T + ((max - v) * (H - T - B)) / max;
+  const grid = [0, 10000, 20000, 30000, 40000, 50000].map((v) => `<line class="nij-grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="nij-axis" x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${v / 1000}k</text>`).join("");
+  const bars = ys.map((r, i) => {
+    const x = L + i * bw + 3, w = bw - 6, lp = r.lorry_ports || 0;
+    const base = H - B, top1 = y(lp), top2 = y(lp + r.arrivals) ;
+    const lorry = lp ? `<rect class="chx-bar chx-lorry" x="${x}" y="${top1}" width="${w}" height="${base - top1}" rx="2"/>` : "";
+    const boat = `<rect class="chx-bar chx-boat${r.final ? "" : " chx-part"}" x="${x}" y="${top2}" width="${w}" height="${Math.max(0, top1 - top2 - (lp ? 2 : 0))}" rx="2"/>`;
+    return `${lorry}${boat}<text class="nij-axis" x="${x + w / 2}" y="${H - 8}" text-anchor="middle">${r.year.slice(2)}${r.final ? "" : "*"}</text>
+      <rect class="chx-hit" x="${L + i * bw}" y="${T}" width="${bw}" height="${H - T - B}" data-i="${i}"/>`;
+  }).join("");
+  return `<svg class="nij-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="People detected arriving in the UK by small boat each year, 2018 to 2026: 299 in 2018, 45,774 in 2022, 41,472 in 2025; detections in lorries and at ports fell from 8,309 in 2018 to 2,020 in 2025">${grid}${bars}</svg>`;
+}
+function channelHtml() {
+  const d = channelData;
+  if (!d) return "";
+  const f = (v) => (v == null ? "–" : v.toLocaleString("en"));
+  const pc = (v) => (v == null ? "–" : `${v}%`);
+  const dm = (s) => new Date(s).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  const rows = d.years.map((r) => `<tr><th>${r.year}${r.final ? "" : "*"}</th><td>${f(r.arrivals)}</td><td>${f(r.boats)}</td><td>${f(r.per_boat)}</td><td>${f(r.prevented)}${r.year === "2024" ? "†" : ""}</td><td>${f(r.lorry_ports)}</td><td>${pc(r.women_pct)}</td><td>${pc(r.children_pct)}</td><td>${pc(r.asylum_pct)}</td><td>${pc(r.granted_pct)}</td></tr>`).join("");
+  const nat = d.years.map((r) => `<tr><th>${r.year}${r.final ? "" : " (Jan–Jun)"}</th><td>${r.top.map(([n, c, s]) => `${n} ${f(c)} (${s}%)`).join(", ")}</td></tr>`).join("");
+  const all = d.since2018.top.map(([n, c, s]) => `<tr><th>${n}</th><td>${f(c)}</td><td>${s}%</td></tr>`).join("");
+  return `<details>
+    <summary>Channel crossings to the UK, 2018–2026</summary>
+    <p class="fiche-text">After the port and the Eurotunnel terminal were fenced in 2015, the routes changed: fewer people are detected arriving hidden in lorries and trains, and far more come by small boat from the beaches of northern France. In 2018, 8,309 people were detected arriving hidden in vehicles or at UK ports and 299 by small boat. In 2025 it was 2,020 and 41,472. Hover over a bar for each year.</p>
+    <div class="nij-wrap chx-wrap">${channelChartSvg(d)}<div class="nij-tip" hidden></div></div>
+    <p class="fiche-text"><span class="nij-key chx-boat"></span>small boat <span class="nij-key chx-lorry"></span>lorries, trains and ports (detected in the UK or at UK ports)</p>
+    <p class="fiche-text"><strong>How many cross?</strong> The UK counts the people it detects: those landing or picked up in the Channel and brought ashore. It says some people evade border controls, but makes no estimate of how many (Home Office, 2026c). On the French side, the interior minister told the National Assembly that more than 60,000 people tried to cross in 2025: about 41,000 crossed and more than 20,000 were stopped, with more than 6,000 rescued at sea. 31 people died at sea in 2025, against 78 in 2024 (Assemblée nationale, 2026).</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Arrived by small boat</th><th>Boats</th><th>People per boat</th><th>Stopped by France</th><th>Lorries and ports</th><th>Women</th><th>Children (under 18)</th><th>Claimed asylum</th><th>Granted (of decisions)</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="cite">* 2026 to ${dm(d.last_day)} (provisional daily figures; stopped by France to the week ending ${dm(d.last_week)}); women and children for January–June. † From 29 April 2024 only. Stopped by France: people prevented from leaving or returned to France, as estimated by the French authorities and passed to the UK; general dispersal of camps is not counted. Lorries and ports: people detected at UK ports, or in the UK shortly after arriving hidden, for example in a vehicle; not available yet for 2026. Granted: protection or other leave as a share of initial decisions on claims made by people who arrived that year; many claims from 2024 and 2025 were still awaiting a decision.</p>
+    <p class="fiche-text"><strong>Arrests.</strong> France: 450 smugglers arrested, 19 smuggling networks broken up and 157 boats found in 2025 (Assemblée nationale, 2026). United Kingdom: from June 2022, when steering a small boat became an offence, to May 2024, more than 190 people identified as small boat pilots were arrested, more than 160 charged and more than 110 convicted (Tomlinson, 2024). Almost all people who arrive by small boat claim asylum (see the table). No official yearly series of UK arrests was found in the sources checked.</p>
+    <p class="fiche-text"><strong>Where they come from</strong>: the largest nationalities among people arriving by small boat each year.</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Nationality, number and share of arrivals</th></tr></thead><tbody>${nat}</tbody></table></div>
+    <details><summary>All arrivals, January 2018 to June 2026: ${f(d.since2018.total)} people</summary>
+      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Nationality</th><th>People</th><th>Share</th></tr></thead><tbody>${all}</tbody></table></div>
+    </details>
+    <p class="cite">Nationality is as recorded by the Home Office on arrival. The French figure of about 41,000 crossings in 2025 matches the UK count of 41,472. In-text: (Home Office, 2026a; 2026b; 2026c; Assemblée nationale, 2026; Tomlinson, 2024)</p>
+    <ol class="refs">${CHANNEL_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
+  </details>`;
+}
+document.addEventListener("pointermove", (e) => {
+  const hit = e.target.closest && e.target.closest(".chx-hit");
+  document.querySelectorAll(".chx-wrap").forEach((wrap) => {
+    if (hit && wrap.contains(hit)) return;
+    wrap.querySelector(".nij-tip").hidden = true;
+    wrap.querySelectorAll(".chx-on").forEach((el) => el.classList.remove("chx-on"));
+  });
+  if (!hit || !channelData) return;
+  const wrap = hit.ownerSVGElement.parentNode, r = channelData.years[Number(hit.dataset.i)];
+  const f = (v) => (v == null ? "–" : v.toLocaleString("en"));
+  const tip = wrap.querySelector(".nij-tip");
+  tip.innerHTML = `<strong>${r.year}${r.final ? "" : " (to date)"}</strong><br><span class="nij-key chx-boat"></span>Small boat ${f(r.arrivals)}<br>${f(r.boats)} boats, ${f(r.per_boat)} per boat${r.lorry_ports != null ? `<br><span class="nij-key chx-lorry"></span>Lorries and ports ${f(r.lorry_ports)}` : ""}${r.prevented != null ? `<br>Stopped by France ${f(r.prevented)}${r.year === "2024" ? " (from 29 April)" : ""}` : ""}`;
+  tip.hidden = false;
+  const box = hit.getBBox();
+  tip.style.left = `${Math.min(wrap.clientWidth - 160, Math.max(0, ((box.x + box.width) / 320) * wrap.clientWidth + 4))}px`;
+});
 // Hadrian's Wall: residents within 50 km north and south (England) of the wall, census by census
 let hadrianSummary = null;
 fetch("data/hadrian-summary.json").then((r) => r.json()).then((d) => { hadrianSummary = d; }).catch(() => {});
@@ -1836,6 +1905,7 @@ function popupHtml(p) {
     ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() : ""}
     ${wallRegion(p) && wallRegion(p)[0] === "ni" ? niJobsHtml(/Belfast/.test(p.countries || "")) : ""}
     ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() : ""}
+    ${/^Calais port/.test(p.name || "") ? channelHtml() : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>
