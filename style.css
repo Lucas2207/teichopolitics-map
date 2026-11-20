@@ -781,3 +781,11 @@ input:focus-visible {
 .cx-dot { display: inline-block; width: 10px; height: 10px; margin-right: 6px; border: 2px solid #111; border-radius: 50%; vertical-align: -1px; }
 
 .hist-table tr.hist-nat th, .hist-table tr.hist-nat td { font-style: italic; border-top: 1px solid currentColor; }
+
+.cc-add { margin: 6px 0 8px; }
+.cc-input { width: min(320px, 100%); padding: 6px 8px; font: inherit; border: 1px solid var(--border); border-radius: 6px; background: var(--panel, transparent); color: inherit; }
+.cc-table tr.cc-group th { padding-top: 10px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.75; text-align: left; }
+.cc-table td.cc-text { white-space: normal; min-width: 160px; font-size: 11px; vertical-align: top; }
+.cc-table thead th { white-space: nowrap; }
+.cc-remove { margin-left: 4px; border: 0; background: none; color: inherit; cursor: pointer; font-size: 14px; line-height: 1; opacity: 0.6; }
+.cc-remove:hover { opacity: 1; }

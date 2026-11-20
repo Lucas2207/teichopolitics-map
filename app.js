@@ -1104,11 +1104,85 @@ function countryCardHtml(en) {
       ${row("Homicide", yr(p.hom, (v) => `${v} per 100,000 people`))}
       ${row("Recorded offences", crime)}
       ${row("Note", p.crimeNote)}`)}
+    <button type="button" class="compare-btn compare-maps-btn" data-country-compare="${en.replace(/"/g, "&quot;")}">Compare with up to 3 other countries</button>
     <details>
       <summary>References (Harvard)</summary>
       <ol class="refs">${refs.map((r) => `<li>${r}</li>`).join("")}</ol>
     </details>
   </div>`;
+}
+
+// Country comparison: up to 4 countries side by side on a wide page, from the same profiles as the country cards
+let comparedCountries = [];
+const CC_ROWS = [
+  ["Population", [
+    ["Inhabitants", (p) => p.pop, (v) => Number(v).toLocaleString("en")],
+    ["Area", (p) => p.areaKm, (v) => `${Number(v).toLocaleString("en")} sq km`],
+    ["People per sq km", (p) => (p.pop && p.areaKm ? [Math.round(p.pop[0] / p.areaKm[0]), p.pop[1]] : null), (v) => v.toLocaleString("en")],
+    ["Life expectancy, men", (p) => p.lifeM, (v) => `${v.toFixed(1)} years`],
+    ["Life expectancy, women", (p) => p.lifeF, (v) => `${v.toFixed(1)} years`],
+    ["Born abroad", (p) => p.migr, (v) => `${v}% of residents`],
+    ["Immigrants living here", (p) => (p.immTot ? [p.immTot, 2024] : null), (v) => v.toLocaleString("en")],
+    ["Emigrants living abroad", (p) => (p.emiTot ? [p.emiTot, 2024] : null), (v) => v.toLocaleString("en")],
+    ["Net migration", (p) => p.net, (v) => `${v > 0 ? "+" : ""}${v.toLocaleString("en")}`, "signed"],
+    ["Refugees hosted", (p) => p.refugees, (v) => v.toLocaleString("en")],
+    ["Asylum seekers", (p) => p.asylum, (v) => v.toLocaleString("en")],
+  ]],
+  ["Economy", [
+    ["GDP", (p) => p.gdpTot, (v) => (v >= 1e12 ? `US$${(v / 1e12).toFixed(2)} trillion` : v >= 1e9 ? `US$${(v / 1e9).toFixed(1)} billion` : `US$${Math.round(v).toLocaleString("en")}`)],
+    ["GDP per person", (p) => p.gdp, (v) => `US$${Math.round(v).toLocaleString("en")}`],
+    ["GDP per person, purchasing power", (p) => p.ppp, (v) => `$${Math.round(v).toLocaleString("en")}`],
+    ["Median income or consumption a day", (p) => (p.median ? [p.median[0], p.median[1]] : null), (v) => `$${v}`],
+    ["Living below half the median income", (p) => p.relpov, (v) => `${v}%`],
+    ["Employed (people aged 15+)", (p) => p.emp, (v) => `${v}%`],
+    ["Unemployment", (p) => p.unemp, (v) => `${v}%`],
+    ["Income inequality (Gini)", (p) => p.gini, (v) => v],
+    ["Agriculture, share of GDP", (p) => p.agr, (v) => `${v.toFixed(1)}%`],
+    ["Industry, share of GDP", (p) => p.ind, (v) => `${v.toFixed(1)}%`],
+    ["Services, share of GDP", (p) => p.srv, (v) => `${v.toFixed(1)}%`],
+  ]],
+  ["Criminality", [["Homicides per 100,000 people", (p) => p.hom, (v) => v]]],
+];
+function countryCompareHtml() {
+  const P = labelData.profiles, C = comparedCountries;
+  const head = C.map((c) => `<th>${c}${C.length > 1 ? ` <button type="button" class="cc-remove" data-cc-remove="${c.replace(/"/g, "&quot;")}" aria-label="Remove ${c}">×</button>` : ""}</th>`).join("");
+  const body = CC_ROWS.map(([group, rows]) => {
+    const lines = rows.map(([label, get, fmt, kind]) => {
+      const vals = C.map((c) => get(P[c] || {}));
+      if (vals.every((x) => !x)) return "";
+      const max = Math.max(...vals.map((x) => (x ? Math.abs(x[0]) : 0)));
+      return `<tr><th>${label}</th>${vals.map((x) => {
+        if (!x) return `<td class="oc-na">–</td>`;
+        const w = max ? Math.round((100 * Math.abs(x[0])) / max) : 0;
+        return `<td class="oc-v" style="--w:${w}%">${fmt(x[0])}<small>${x[1]}</small></td>`;
+      }).join("")}</tr>`;
+    }).join("");
+    return lines ? `<tr class="cc-group"><th colspan="${C.length + 1}">${group}</th></tr>${lines}` : "";
+  }).join("");
+  const text = (label, key) => `<tr><th>${label}</th>${C.map((c) => `<td class="cc-text">${(P[c] || {})[key] || "–"}</td>`).join("")}</tr>`;
+  const options = Object.keys(P).filter((c) => !C.includes(c)).sort().map((c) => `<option value="${c.replace(/"/g, "&quot;")}"></option>`).join("");
+  return `<div class="fiche">
+    <div class="fiche-title">Countries compared</div>
+    <p class="fiche-text">Each figure is the latest the source publishes, with its year; years can differ between countries. The bar shows each value against the largest in its row.</p>
+    ${C.length < 4 ? `<div class="cc-add"><input type="text" list="cc-list" class="cc-input" placeholder="Add a country (${4 - C.length} more)" aria-label="Add a country to the comparison"><datalist id="cc-list">${options}</datalist></div>` : `<p class="cite">Four countries is the maximum; remove one with × to add another.</p>`}
+    <div class="hist-wrap"><table class="hist-table oc-table cc-table"><thead><tr><th></th>${head}</tr></thead><tbody>${body}
+      <tr class="cc-group"><th colspan="${C.length + 1}">People</th></tr>${text("Ethnic groups", "ethnic")}${text("Religion", "religion")}${text("Languages", "language")}</tbody></table></div>
+    <p class="cite">Sources as on the country cards: World Bank World Development Indicators (with ILO and UNODC data), the World Bank Poverty and Inequality Platform, UN DESA International Migrant Stock 2024, UNHCR and the CIA World Factbook. Recorded crime other than homicide is left out because laws and police recording differ too much between countries to compare.</p>
+    <details><summary>References (Harvard)</summary><ol class="refs">${[COUNTRY_REFS.wb, COUNTRY_REFS.pip, COUNTRY_REFS.un, COUNTRY_REFS.unhcr, COUNTRY_REFS.fb].map((r) => `<li>${r}</li>`).join("")}</ol></details>
+  </div>`;
+}
+function showCountryCompare() {
+  showInfoCard(countryCompareHtml(), "wide-page");
+  const input = document.querySelector(".cc-input");
+  if (!input) return;
+  const add = () => {
+    const v = input.value.trim();
+    const hit = Object.keys(labelData.profiles).find((c) => c.toLowerCase() === v.toLowerCase());
+    if (hit && !comparedCountries.includes(hit) && comparedCountries.length < 4) { comparedCountries.push(hit); showCountryCompare(); }
+  };
+  input.addEventListener("change", add);
+  input.addEventListener("keydown", (e) => { if (e.key === "Enter") add(); });
+  L.DomEvent.disableClickPropagation(input);
 }
 
 // City popup: population and census details, from data/city-census.json where available
@@ -1327,6 +1401,8 @@ function chooseCity(city) {
 }
 infoBody.addEventListener("click", (e) => {
   if (e.target.closest("[data-show-crossings]")) { e.stopPropagation(); crossingsLayer.addTo(map); map.fitBounds([[31.21, 34.2], [31.6, 34.58]]); return; }
+  if (e.target.closest("[data-country-compare]")) { e.stopPropagation(); comparedCountries = [e.target.closest("[data-country-compare]").dataset.countryCompare]; showCountryCompare(); return; }
+  if (e.target.closest("[data-cc-remove]")) { e.stopPropagation(); comparedCountries = comparedCountries.filter((c) => c !== e.target.closest("[data-cc-remove]").dataset.ccRemove); showCountryCompare(); return; }
   if (e.target.closest("[data-channel-page]")) { e.stopPropagation(); showInfoCard(channelPageHtml(), "wide-page"); return; }
   if (e.target.closest("[data-back-calais]")) {
     e.stopPropagation();
