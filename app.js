@@ -717,8 +717,22 @@ fetch("data/gaza-crossings.json").then((r) => r.json()).then((d) => {
       .on("click", (e) => { L.DomEvent.stopPropagation(e); showInfoCard(crossingCardHtml(c)); })
       .addTo(crossingsLayer);
   });
-  layerControl.addOverlay(crossingsLayer, "Gaza crossing points");
+  updateCrossingsOption();
 }).catch(() => {});
+// Offered in the layer box only when the map is zoomed in on the Gaza Strip, like the settlements and neighbourhood themes
+const CROSSINGS_AREA = L.latLngBounds([30.7, 33.7], [32.1, 35.1]);
+let crossingsOffered = false;
+function updateCrossingsOption() {
+  const show = !!crossingsData && map.getZoom() >= 7 && CROSSINGS_AREA.contains(map.getCenter());
+  if (show === crossingsOffered) return;
+  crossingsOffered = show;
+  if (show) layerControl.addOverlay(crossingsLayer, "Gaza crossing points");
+  else {
+    if (map.hasLayer(crossingsLayer)) map.removeLayer(crossingsLayer);
+    layerControl.removeLayer(crossingsLayer);
+  }
+}
+map.on("moveend", updateCrossingsOption);
 function crossingCardHtml(c) {
   const [col, label] = CROSSING_STATUS[c.status];
   return `<div class="fiche"><h2 class="fiche-title">${c.name}</h2>
@@ -1865,6 +1879,8 @@ function hadrianBandsHtml() {
 let hadrianBirth = null;
 fetch("data/hadrian-birthplace.json").then((r) => r.json()).then((d) => { hadrianBirth = d; }).catch(() => {});
 const HADRIAN_BIRTH_REFS = [
+  "Schürer, K. and Higgs, E. (2014) Integrated Census Microdata (I-CeM), 1851-1911 [data collection]. UK Data Service. SN: 7481, release of 22 July 2026. Extract for eight border counties (Accessed: 20 November 2026).",
+  "UK Data Service (2025) Integrated Census Microdata (I-CeM), England and Wales, 1921 [data collection]. SN: 9280. Extract for four English border counties (Accessed: 20 November 2026).",
   "Office for National Statistics (2014) 2011 Census: MM01CUK_ALL Origin and destination of migrants by age by sex, merged local authority districts (UK). Nomis. Available at: https://www.nomisweb.co.uk/census/2011/mm01cuk_all (Accessed: 20 November 2026).",
   "Office for National Statistics (2023) Census 2021: country of birth (60 categories) by middle layer super output area. Create a custom dataset API. Available at: https://api.beta.ons.gov.uk/v1/population-types/UR/census-observations (Accessed: 20 November 2026).",
   "Office for National Statistics (2013) 2011 Census: KS204EW Country of birth by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 20 November 2026).",
@@ -1874,6 +1890,20 @@ const HADRIAN_BIRTH_REFS = [
   "General Register Office for Scotland (2003) Scotland's Census 2001: UV08 Country of birth, output areas. Available at: https://www.scotlandscensus.gov.uk/documents/2001-census-table-data-output-area (Accessed: 20 November 2026).",
   "National Records of Scotland (2025) Output area population-weighted centroids, censuses 2001, 2011 and 2022. Spatial Data Scotland map service, Open Government Licence. Available at: https://maps.gov.scot/server/rest/services/NRS/ (Accessed: 20 November 2026).",
 ];
+function hadrianLongHtml(b) {
+  const h = b.historic;
+  if (!h) return "";
+  const n = (o) => o.toLocaleString("en");
+  const north = [...Object.entries(h.eng_in_scotland).map(([y, v]) => [Number(y), v.pct, v]), ...["2001", "2011", "2022"].map((y) => { const v = b.eng_in_scotland.all[y]; return [Number(y), v.eng_pct, { all: v.all, n: v.england }]; })];
+  const south = [...Object.entries(h.scot_in_england_south).map(([y, v]) => [Number(y), v.pct, v]), ...["2001", "2011", "2021"].map((y) => { const v = b.scot_in_england.south.all[y]; return [Number(y), v.scot_pct, { all: v.all, n: v.scotland }]; })];
+  const opt = (aria, who) => ({ x0: 1845, x1: 2026, yMax: 20, yTicks: [0, 5, 10, 15, 20], yFmt: (v) => `${v}%`, xTicks: [1851, 1901, 1951, 2001], gap: 25, aria, tip: (v, y, r) => `${v.toFixed(1)}% ${who}<br>${n(r.n)} of ${n(r.all)} residents` });
+  return `<p class="fiche-text"><strong>Since 1851.</strong> In the Victorian censuses the two sides looked alike: about 4–5% of people north of the wall in Scotland were born in England, and about 3% of people south of it were born in Scotland, rising to 5–6% within 5 km of the line, around Newcastle and Carlisle. From 1881 to 1921 the share of Scots south of the wall fell at every census, and in 2021 it was half its 1881 level. North of the line the share born in England has risen from 4% to 19%. Hover over the charts for each census.</p>
+    <p class="fiche-text"><strong>Born in England, living in Scotland within 50 km north of the wall</strong></p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("hw_eng_n", north, opt("Share of residents born in England, Scottish side of the wall within 50 km: 3.9% in 1851, 5.6% in 1901, 15.2% in 2001, 18.8% in 2022", "born in England"))}<div class="nij-tip" hidden></div></div>
+    <p class="fiche-text"><strong>Born in Scotland, living in England within 50 km south of the wall</strong></p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("hw_sco_s", south, opt("Share of residents born in Scotland, English side south of the wall within 50 km: 2.6% in 1851, 3.2% in 1881, 1.4% in 1921, 1.8% in 2001, 1.6% in 2021", "born in Scotland"))}<div class="nij-tip" hidden></div></div>
+    <p class="cite">Dashed lines join censuses with no figures between them: Scotland 1911–1991 and England 1931–1991 are not covered yet, and England 1871 is missing from I-CeM. ${h.note} In-text: (Schürer and Higgs, 2014; UK Data Service, 2025)</p>`;
+}
 function hadrianMovesHtml(b) {
   const m = b.moves_2011;
   if (!m) return "";
@@ -1902,6 +1932,7 @@ function hadrianBirthHtml() {
   return `<details>
     <summary>Crossing the line: where people were born, 2001–2022</summary>
     <p class="fiche-text">The wall was built to control movement from the north. The census can only show where people were born, not when or why they moved. In numbers, the two groups are of similar size: about 29,000 people born in Scotland live within 50 km south of the wall, and about 23,500 born in England live within 50 km north of it in Scotland. But the south has fifteen times the people, so the north is far more shaped by arrivals from the other side. <strong>North of the wall in Scotland, about one resident in five was born in England</strong>: 15.2% in 2001, 18.8% in 2022, twice the rate for Scotland as a whole, and close to 30% between 5 and 20 km from the line. <strong>South of the wall, fewer than one in fifty was born in Scotland</strong> (1.8% in 2001, 1.6% in 2021). That is above the rate for England as a whole, and falling at both scales.</p>
+    ${hadrianLongHtml(b)}
     <p class="fiche-text"><strong>Born in Scotland, living in England south of the wall</strong></p>
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Distance from the wall</th>${engYears.map((y) => `<th>${y}</th>`).join("")}<th>People, 2021</th></tr></thead><tbody>${rowsS}${natS}</tbody></table></div>
     <p class="fiche-text"><strong>Born in England, living in Scotland north of the wall</strong></p>
