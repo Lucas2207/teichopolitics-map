@@ -353,30 +353,37 @@ const HW_INDICATORS = {
 };
 const HW_YEARS = ["2001", "2011", "2021"];
 const HW_INCOME_YEARS = ["2014", "2016", "2018", "2020", "2023"];
-// US census tracts over time: ACS five-year periods 2007–11, 2011–15 and 2016–20 beside 2020–24. The 2010-tract periods are
-// carried onto the 2020 tracts by land-area share (Census Bureau relationship file); incomes in 2024 dollars (CPI-U)
-const US_PERIODS = { 2011: "2007–11", 2015: "2011–15", 2020: "2016–20", 2024: "2020–24" };
+// US census tracts over time: the 1990 and 2000 censuses (sample long form: STF3A, SF3) and the ACS five-year periods
+// 2007–11, 2011–15 and 2016–20 beside 2020–24. Older tracts are carried onto the 2020 tracts with the Census Bureau's
+// relationship files (1990→2000 and 2000→2010 by population, 2010→2020 by land area); incomes in 2024 dollars (CPI-U)
+const US_PERIODS = { 1990: "1990", 2000: "2000", 2011: "2007–11", 2015: "2011–15", 2020: "2016–20", 2024: "2020–24" };
+const US_CENSUS_SRC = {
+  1990: "U.S. Census Bureau, 1990 Census, Summary Tape File 3A",
+  2000: "U.S. Census Bureau, Census 2000, Summary File 3 (Hispanic origin: Summary File 1)",
+};
 ["income", "poverty", "unemp", "employed", "hisp", "foreign", "spanish"].forEach((k) => {
   const base = THEMES[`us_${k}`];
   const short = base.label.replace(/ \(2020–24\)$/, "");
-  Object.assign(base, { series: `us_${k}`, year: "2020–24", yearN: 2024 });
-  [2011, 2015, 2020].forEach((y) => {
-    THEMES[`us_${k}_${y}`] = { ...base, compareOnly: true, group: `US border tracts, 2007–2024 · ${short}`, label: `${short} (${US_PERIODS[y]})`, year: US_PERIODS[y], yearN: y,
-      field: `${k}_${y}`, source: `U.S. Census Bureau, ACS ${US_PERIODS[y].replace("–", "–20")}`,
-      note: `${base.note}${y < 2020 ? ". Survey on 2010 census tracts, carried onto 2020 tracts by land-area share" : ""}${k === "income" ? ". Converted to 2024 dollars with the consumer price index (CPI-U)" : ""}` };
+  Object.assign(base, { series: `us_${k}`, year: "2020–24", yearN: 2024, kind: "survey" });
+  [1990, 2000, 2011, 2015, 2020].forEach((y) => {
+    const census = y <= 2000;
+    THEMES[`us_${k}_${y}`] = { ...base, compareOnly: true, group: `US border tracts, 1990–2024 · ${short}`, label: `${short} (${census ? `${y} census` : US_PERIODS[y]})`, year: US_PERIODS[y], yearN: y,
+      kind: census ? "census" : "survey", field: `${k}_${y}`, source: census ? US_CENSUS_SRC[y] : `U.S. Census Bureau, ACS ${US_PERIODS[y].replace("–", "–20")}`,
+      note: `${base.note}${census ? `. Census ${y} on its own tracts, carried onto 2020 tracts through the Census Bureau's tract relationship files${k === "income" ? ` (income in ${y - 1})` : ""}${k === "poverty" ? ` (poverty in ${y - 1})` : ""}` : y < 2020 ? ". Survey on 2010 census tracts, carried onto 2020 tracts by land-area share" : ""}${k === "income" ? ". Converted to 2024 dollars with the consumer price index (CPI-U)" : ""}` };
   });
 });
 THEMES.hw_side = { region: "hw", label: "Side of the wall", src: "hw", field: "side_n", breaks: [0.5], colors: ["#d8b365", "#5ab4ac"],
   labels: ["South of the wall", "North of the wall"], note: "Small areas in England within 50 km of the wall line (measured from its nearest point). Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (Annan and Dumfries north, the Cumbrian coast south). Scottish areas are in the 1 km squares, 1971–2011" };
 Object.entries(HW_INDICATORS).forEach(([k, ind]) => HW_YEARS.forEach((y) => {
   THEMES[`hw_${k}_${y}`] = { region: "hw", compareOnly: y !== "2021", group: y === "2021" ? null : `Hadrian's Wall, small areas 2001–2021 · ${ind.label}`, label: `${ind.label} (${y})`, series: `hw_${k}`, year: y,
-    src: "hw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, note: `${ind.note}. Census ${y}${y === "2021" ? "" : ", carried onto 2021 small areas"}` };
+    src: "hw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors,
+    note: `${ind.note}. England: census ${y}${y === "2021" ? "" : ", carried onto 2021 small areas"} (LSOAs). Scotland: census ${y === "2021" ? "2022" : y}, output areas added up into 2011 data zones` };
 }));
 HW_INCOME_YEARS.forEach((y) => {
-  THEMES[`hw_income_${y}`] = { region: "hw", compareOnly: y !== "2023", group: y === "2023" ? null : "Hadrian's Wall, small areas · Income", series: "hw_income", year: y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`, label: `Income: household income after tax (${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`})`,
+  THEMES[`hw_income_${y}`] = { region: "hw", kind: "estimate", compareOnly: y !== "2023", group: y === "2023" ? null : "Hadrian's Wall, small areas · Income", series: "hw_income", year: y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`, label: `Income: household income after tax (${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`})`,
     src: "hw", field: `income_${y}`, unit: "£", breaks: [25000, 30000, 35000, 40000], colors: ["#b30000", "#e34a33", "#fc8d59", "#fdcc8a", "#fef0d9"],
     labels: ["Under £25,000", "£25,000–30,000", "£30,000–35,000", "£35,000–40,000", "£40,000 and over"],
-    note: "Mean net household income before housing costs, equivalised (adjusted for household size), a year, in pounds of that year (not adjusted for inflation). ONS model-based estimate for the wider area (MSOA) each small area lies in" };
+    note: "Mean net household income before housing costs, equivalised (adjusted for household size), a year, in pounds of that year (not adjusted for inflation). ONS model-based estimate for the wider area (MSOA) each small area lies in. England only: no Scottish estimate on the same basis has been found yet, so Scottish areas are grey" };
 });
 // Hadrian's Wall, 1971–2011: 1 km grid squares within 50 km north or south of the wall (England and Scotland), from PopChange
 const HWG_YEARS = ["1971", "1981", "1991", "2001", "2011"];
@@ -396,12 +403,44 @@ Object.entries(HWG_INDICATORS).forEach(([k, ind]) => HWG_YEARS.filter((y) => !in
 }));
 THEMES.hwg_side = { region: "hw", compareOnly: true, group: "Hadrian's Wall within 50 km, 1 km squares, 1971–2011 · Side of the wall", label: "1 km squares · Side of the wall (50 km)", src: "hwg", field: "side_n",
   breaks: [0.5], colors: THEMES.hw_side.colors, labels: THEMES.hw_side.labels, note: "1 km squares within 50 km of the wall line (measured from its nearest point); the north side reaches into southern Scotland. Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (Annan and Dumfries north, the Cumbrian coast south). Only squares with at least 10 residents at one of the censuses are drawn (7,869 squares, holding over 99% of residents); the empty areas are moors, hills and forest. Residents within 50 km, counting every square: in 2011, 764,379 north of the wall and 1,823,705 south of it; in 1971, 718,260 north and 1,927,272 south" };
+// Hadrian's Wall, 1851–1921: the full census returns (I-CeM) by historic parish, drawn on open boundaries. England: each
+// civil parish of 2023 (or, in towns with no parish, each 2021 small area) takes the 1851 parish or township it mostly lies in
+// (UKDS SN 4828, used only for this lookup); Scotland: civil parishes as fixed in 1930 (NRS)
+const HWP_YEARS = ["1851", "1861", "1871", "1881", "1891", "1901", "1911", "1921"];
+const HWP_INDICATORS = {
+  dens: { label: "Population: residents per km²", breaks: [25, 100, 500, 2000], colors: HWG_INDICATORS.pop.colors, unit: "people",
+    labels: ["Under 25", "25–100", "100–500", "500–2,000", "2,000 and over per km²"], note: "Residents of the historic parish divided by its area in 1851 (Scotland: its 1930 area)" },
+  cross: { label: "Born on the other side of the border", breaks: [1, 2.5, 5, 10], colors: ["#f7fcf5", "#c7e9c0", "#74c476", "#31a354", "#006d2c"],
+    note: "In English parishes, the share of residents born in Scotland; in Scottish parishes, the share born in England" },
+  irish: { label: "Migration: born in Ireland", breaks: [1, 2.5, 5, 10], colors: HW_INDICATORS.born_abroad.colors, note: "Share of residents born in Ireland" },
+};
+Object.entries(HWP_INDICATORS).forEach(([k, ind]) => HWP_YEARS.forEach((y) => {
+  const gap = y === "1871" ? " England is missing from I-CeM for 1871, so English parishes are grey." : y >= "1911" ? " Scotland is not in I-CeM after 1901, so Scottish parishes are grey." : "";
+  THEMES[`hwp_${k}_${y}`] = { region: "hw", compareOnly: true, group: `Hadrian's Wall within 50 km, parishes, 1851–1921 · ${ind.label}`, label: `Parishes, ${y} · ${ind.label}`, series: `hwp_${k}`, year: y,
+    src: "hwp", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, labels: ind.labels, unit: ind.unit,
+    note: `${ind.note}. Census ${y}, every resident (I-CeM). An area shows the figure for the whole historic parish it lies in, so neighbouring areas in one parish share a value.${gap}` };
+}));
 THEMES.hw_crime = { region: "hw", label: "Crime: recorded crime per 1,000 residents (2025–26)", src: "hw", field: "crime_rate", unit: "per 1,000", breaks: [25, 50, 100, 200],
-  colors: THEMES.crime.colors, labels: THEMES.crime.labels, note: "Crimes recorded by Northumbria, Durham and Cumbria police from October 2025 to September 2026, excluding anti-social behaviour, per 1,000 residents (Census 2021). Locations are snapped to anonymous points, and areas with shops, pubs or few residents have high rates", source: "police.uk" };
+  colors: THEMES.crime.colors, labels: THEMES.crime.labels, note: "Crimes recorded by the Northumbria, Durham, Cumbria and Cleveland police from October 2025 to September 2026, excluding anti-social behaviour, per 1,000 residents (Census 2021), counted by the small area police.uk gives each crime (Cumbria's September 2026 file is missing from the archive, so Cumbria's areas are scaled up from eleven months). England only: Police Scotland does not publish crime by small area, so Scottish areas are grey. Locations are snapped to anonymous points, and areas with shops, pubs or few residents have high rates", source: "police.uk archive" };
 THEMES.hw_violent = { region: "hw", label: "Crime: violence and sexual offences per 1,000 residents (2025–26)", src: "hw", field: "violent_rate", unit: "per 1,000", breaks: [10, 25, 50, 100],
   colors: THEMES.violent.colors, labels: THEMES.violent.labels, note: "Violence and sexual offences recorded by the police, October 2025 to September 2026, per 1,000 residents. Same caveats", source: "police.uk" };
 THEMES.hw_asb = { region: "hw", label: "Anti-social behaviour incidents per 1,000 residents (2025–26)", src: "hw", field: "asb_rate", unit: "per 1,000", breaks: [10, 25, 50, 100],
   colors: THEMES.asb.colors, labels: THEMES.asb.labels, note: "Anti-social behaviour incidents reported to the police, October 2025 to September 2026, per 1,000 residents. Same caveats", source: "police.uk" };
+// Crime over time. England: police.uk street-level crime for financial years (archive files), by small area. Scotland: Police
+// Scotland does not publish crime by small area; the deprivation index (SIMD) publishes counts of a set of crimes by data zone
+// for 2014/15 and 2017/18, so a matching set of English categories is shown beside it for those years
+const HW_CRIME_YEARS = { 2015: "2014/15", 2018: "2017/18", 2021: "2020/21", 2024: "2023/24" };
+Object.assign(THEMES.hw_crime, { series: "hw_crime", year: "2025/26", yearN: 2026, kind: "police figures" });
+Object.entries(HW_CRIME_YEARS).forEach(([y, fy]) => {
+  THEMES[`hw_crime_${y}`] = { ...THEMES.hw_crime, compareOnly: true, group: "Hadrian's Wall, small areas · Crime 2014–2026 (England)", label: `Crime: recorded crime per 1,000 residents (${fy})`, year: fy, yearN: Number(y),
+    field: `crime_${y}`, note: `Crimes recorded by the Northumbria, Durham, Cumbria and Cleveland police, April ${Number(y) - 1} to March ${y}, excluding anti-social behaviour, per 1,000 residents (population between the 2011 and 2021 censuses estimated in a straight line). Recorded crime roughly doubled between 2014/15 and 2017/18; the Office for National Statistics attributes much of the national rise in those years to fuller recording by the police after the 2014 inspection of crime recording, not to more crime, so compare places within a year rather than across years. England only: Police Scotland does not publish crime by small area, so Scottish areas are grey. Locations are snapped to anonymous points`, source: "police.uk archive" };
+});
+THEMES.hw_simd_2018 = { region: "hw", label: "Crime on both sides: violence, sexual offences, housebreaking, vandalism and drugs per 1,000 residents (2017/18)", series: "hw_simd", year: "2017/18", yearN: 2018,
+  src: "hw", field: "simd_2018", unit: "per 1,000", kind: "police figures", breaks: [10, 20, 40, 80], colors: THEMES.crime.colors,
+  labels: ["Under 10", "10–20", "20–40", "40–80", "80 and over per 1,000"],
+  note: "The one crime measure found for both sides. Scotland: crimes of violence, sexual offences, domestic housebreaking, vandalism, drugs offences and common assault recorded by Police Scotland in each data zone, from the Scottish Index of Multiple Deprivation, per resident. England: the closest police.uk categories (violence and sexual offences, burglary, criminal damage and arson, drugs) per resident. English burglary also counts break-ins at shops and businesses, and the two forces record crime under different laws, so treat differences of a few crimes per 1,000 with care",
+  source: "Scottish Government; police.uk" };
+THEMES.hw_simd_2015 = { ...THEMES.hw_simd_2018, compareOnly: true, group: "Hadrian's Wall, small areas · Crime on both sides 2014/15 and 2017/18", label: THEMES.hw_simd_2018.label.replace("2017/18", "2014/15"), year: "2014/15", yearN: 2015, field: "simd_2015" };
 // Places where neighbourhood themes exist. A theme is offered only when the map shows its region
 const REGIONS = {
   ni: { name: "Northern Ireland", bounds: L.latLngBounds([54.0, -8.2], [55.35, -5.4]), minZoom: 8, home: [[54.55, -6.02], [54.65, -5.86]] },
@@ -514,7 +553,7 @@ function loadThemeData(src) {
       return fc;
     });
   }
-  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", hw: "data/hadrian-lsoa.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json", mx: "data/mx-border-municipalities.json", mxageb: "data/mx-border-ageb.json" }[src]).then((r) => r.json());
+  if (!themeData[src]) themeData[src] = fetch({ sa: "data/ni-deprivation.json", dz: "data/ni-census-dz.json", hw: "data/hadrian-lsoa.json", hwp: "data/hadrian-parishes.json", us: "data/us-border-tracts.json", county: "data/us-border-counties.json", mx: "data/mx-border-municipalities.json", mxageb: "data/mx-border-ageb.json" }[src]).then((r) => r.json());
   return themeData[src];
 }
 const NISRA_DZ_REFS = [
@@ -543,6 +582,13 @@ const BELFAST_WARD_REFS = [
   "Northern Ireland Statistics and Research Agency (2023) Census 2021 Flexible Table Builder, by Data Zone (each zone given to the 1993 ward covering most of it). Available at: https://build.nisra.gov.uk/ (Accessed: 19 November 2026).",
   "Ordnance Survey of Northern Ireland (2025) OSNI Open Data – Largescale Boundaries – Wards (1993). Open Government Licence. Available at: https://www.data.gov.uk/dataset/aa140654-cbd8-45b9-82ed-4aeb05725929/osni-open-data-largescale-boundaries-wards-1993 (Accessed: 18 November 2026). Simplified to about 6 m.",
 ];
+const HADRIAN_PARISH_REFS = [
+  "Schürer, K. and Higgs, E. (2014) Integrated Census Microdata (I-CeM), 1851-1911 [data collection]. UK Data Service. SN: 7481. Extract for the border counties; only parish totals and shares are shown (Accessed: 20 November 2026).",
+  "UK Data Service (2025) Integrated Census Microdata (I-CeM), England and Wales, 1921 [data collection]. SN: 9280 (Accessed: 20 November 2026).",
+  "Burton, N., Westwood, J. and Carter, P. (2004) GIS of the Ancient Parishes of England and Wales, 1500-1850 [computer file]. Colchester, Essex: UK Data Archive. SN: 4828. Used only to find the 1851 parish or township each area lies in, and the parish areas; the boundaries themselves are not shown. The original data creators, depositors or copyright holders, the funders of the data collections and the UK Data Archive bear no responsibility for this further analysis or interpretation.",
+  "Office for National Statistics (2024) Parishes and Non Civil Parished Areas (December 2023) Boundaries EW BGC. Open Geography Portal, Open Government Licence. Available at: https://geoportal.statistics.gov.uk/ (Accessed: 20 November 2026).",
+  "National Records of Scotland (2026) Civil Parishes (1930 boundaries). Open Government Licence. Available at: https://spatialdata.gov.scot/geonetwork/srv/api/records/d93dbde9-6936-4245-9938-0ef41a5cc0e4 (Accessed: 20 November 2026).",
+];
 const POPCHANGE_REFS = [
   "Lloyd, C.D., Catney, G., Singleton, A., Williamson, P. and Bearman, N. (2018) PopChange population grids for Britain, 1971-2011 [data collection]. UK Data Service ReShare. doi:10.5255/UKDA-SN-852498. Open access.",
   "Lloyd, C.D., Catney, G., Williamson, P. and Bearman, N. (2017) 'Exploring the utility of grids for analysing long term population change', Computers, Environment and Urban Systems, 66, pp. 1–12. doi:10.1016/j.compenvurbsys.2017.07.003.",
@@ -554,7 +600,12 @@ const HADRIAN_REFS = [
   "Office for National Statistics (2003) 2001 Census: KS001, KS005, KS006, KS007, KS009a, KS014a, KS017 and KS018 by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 18 November 2026).",
   "Office for National Statistics (2025) LSOA (2001) to LSOA (2011) and LSOA (2011) to LSOA (2021) lookups; LSOA (December 2021) boundaries EW BFE. Open Geography Portal, Open Government Licence. Available at: https://geoportal.statistics.gov.uk/ (Accessed: 18 November 2026).",
   "Office for National Statistics (2016–2025) Income estimates for small areas, England and Wales: net equivalised household income before housing costs by MSOA, financial years ending 2014, 2016, 2018, 2020 and 2023. Available at: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/smallareaincomeestimatesformiddlelayersuperoutputareasenglandandwales (Accessed: 18 November 2026).",
-  "Northumbria Police, Durham Constabulary and Cumbria Constabulary (2026) Street-level crime and anti-social behaviour, October 2025 to September 2026. data.police.uk, Open Government Licence. Available at: https://data.police.uk/ (Accessed: 18 November 2026).",
+  "Northumbria Police, Durham Constabulary, Cumbria Constabulary and Cleveland Police (2026) Street-level crime and anti-social behaviour, October 2025 to September 2026. data.police.uk archive, Open Government Licence. Available at: https://data.police.uk/data/archive/ (Accessed: 20 November 2026).",
+  "Home Office and police forces (2015–2024) Street-level crime archives, April 2014 to March 2024 (Northumbria, Durham, Cumbria and Cleveland). data.police.uk, Open Government Licence. Available at: https://data.police.uk/data/archive/ (Accessed: 20 November 2026).",
+  "National Records of Scotland (2013; 2024) Scotland's Census 2011 tables KS101SC, KS201SC, KS204SC, KS209SCa, KS402SC, KS404SC, KS601SC, KS611SC and Census 2022 tables UV201, UV204b, UV205, UV404, UV405, UV601, UV607 by output area. Available at: https://www.scotlandscensus.gov.uk/ (Accessed: 20 November 2026).",
+  "General Register Office for Scotland (2003) Census 2001 key statistics KS01, KS05, KS06, KS07, KS09A, KS14A, KS17 and KS18 by output area. Available at: https://www.scotlandscensus.gov.uk/documents/2001-census-table-data-output-area (Accessed: 20 November 2026).",
+  "National Records of Scotland (2024) Output area centroids 2001, 2011 and 2022. maps.gov.scot; Scottish Government (2014) Data Zone boundaries 2011. Available at: https://spatialdata.gov.scot/ (Accessed: 20 November 2026).",
+  "Scottish Government (2020) Scottish Index of Multiple Deprivation – crime indicators, 2014/15 and 2017/18, by 2011 data zone. Available at: https://data.gov.scot/dataset/scottish_index_of_multiple_deprivation___crime_indicators (Accessed: 20 November 2026).",
 ];
 const POLICE_REFS = [
   "Police Service of Northern Ireland (2026) Street-level crime and anti-social behaviour, October 2025 to September 2026. data.police.uk, Open Government Licence. Available at: https://data.police.uk/docs/method/crime-street/ (Accessed: 18 November 2026). Counted by Data Zone; rates per 1,000 residents of the 2021 census.",
@@ -568,17 +619,20 @@ function areaCardHtml(p, src) {
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
   if (src === "hw") {
     const v = (x) => (x == null ? "–" : x);
+    const scot = p.country === "Scotland";
     const rows = Object.entries(HW_INDICATORS).map(([k, ind]) => `<tr><th>${ind.label}</th>${HW_YEARS.map((y) => `<td>${v(p[`${k}_${y}`])}</td>`).join("")}</tr>`).join("");
     return `<div class="fiche">
-      <div class="fiche-title">${p.name}</div>
+      <div class="fiche-title">${p.name}${scot ? " (data zone)" : ""}</div>
       <dl>
-        ${row("Position", `${p.side === "north" ? "North" : "South"} of Hadrian's Wall, about ${p.dist_km} km from the wall line`)}
-        ${row("Residents", HW_YEARS.map((y) => `${y}: ${p[`pop_${y}`] != null ? p[`pop_${y}`].toLocaleString("en") : "–"}`).join("; "))}
-        ${row("Household income after tax (equivalised, a year)", HW_INCOME_YEARS.map((y) => (p[`income_${y}`] ? `${y}: £${p[`income_${y}`].toLocaleString("en")}` : "")).filter(Boolean).join("; "))}
+        ${row("Position", `${p.side === "north" ? "North" : "South"} of Hadrian's Wall, about ${p.dist_km} km from the wall line${scot ? ", in Scotland" : ""}`)}
+        ${row("Residents", HW_YEARS.map((y) => `${scot && y === "2021" ? "2022" : y}: ${p[`pop_${y}`] != null ? p[`pop_${y}`].toLocaleString("en") : "–"}`).join("; "))}
+        ${scot ? "" : row("Household income after tax (equivalised, a year)", HW_INCOME_YEARS.map((y) => (p[`income_${y}`] ? `${y}: £${p[`income_${y}`].toLocaleString("en")}` : "")).filter(Boolean).join("; "))}
         ${p.crime_rate != null ? row("Crime, October 2025 to September 2026", `${p.crimes} crimes recorded (excluding anti-social behaviour): ${p.crime_rate} per 1,000 residents; violence and sexual offences ${p.violent_rate}; anti-social behaviour ${p.asb_rate} per 1,000`) : ""}
+        ${Object.keys(HW_CRIME_YEARS).some((y) => p[`crime_${y}`] != null) ? row("Recorded crime per 1,000 residents, earlier years", Object.entries(HW_CRIME_YEARS).filter(([y]) => p[`crime_${y}`] != null).map(([y, fy]) => `${fy}: ${p[`crime_${y}`]}`).join("; ")) : ""}
+        ${p.simd_2015 != null || p.simd_2018 != null ? row("Violence, sexual offences, housebreaking, vandalism and drugs per 1,000", [["2015", "2014/15"], ["2018", "2017/18"]].filter(([y]) => p[`simd_${y}`] != null).map(([y, fy]) => `${fy}: ${p[`simd_${y}`]}`).join("; ") + (scot ? " (Scottish Index of Multiple Deprivation)" : " (closest police.uk categories)")) : ""}
       </dl>
-      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>% of residents or households</th>${HW_YEARS.map((y) => `<th>${y}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
-      <p class="cite">2001 and 2011 figures are carried onto this 2021 area through the official lookups (areas that were later split share their parent's counts). Income is the estimate for the wider area (MSOA), in pounds of each year.</p>
+      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>% of residents or households</th>${HW_YEARS.map((y) => `<th>${scot && y === "2021" ? "2022" : y}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
+      <p class="cite">${scot ? "Scotland's census output areas added up into this 2011 data zone (by where each output area's centre lies). There is no small-area income estimate for Scotland on the same basis as England's, and police.uk does not cover Scotland." : "2001 and 2011 figures are carried onto this 2021 area through the official lookups (areas that were later split share their parent's counts). Income is the estimate for the wider area (MSOA), in pounds of each year."}</p>
       <details><summary>References (Harvard)</summary><ol class="refs">${HADRIAN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol></details>
     </div>`;
   }
@@ -2056,6 +2110,7 @@ function hadrianGridHtml() {
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Census</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>
     ${hadrianBandsHtml()}
     <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="hw" data-play="hwg_pop">▶ Play the 1 km square maps over time, 1971–2011</button>
+    <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="hw" data-play="hwp_cross">▶ Play the parish maps over time, 1851–1921 (born across the border, Irish-born, density)</button>
     <p class="cite">The 1971 population counts people present on census night, later censuses usual residents. Each census's small areas were reallocated to 1 km squares by the PopChange project, so all years share the same squares. In-text: (Lloyd et al., 2017; 2018)</p>
     <ol class="refs">${POPCHANGE_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
   </details>`;
@@ -2064,20 +2119,27 @@ function hadrianSidesHtml() {
   if (!hadrianSummary) return "";
   const s = hadrianSummary;
   const cell = (side, y, k) => { const v = s[side][y] && s[side][y][k]; return v == null ? "–" : k === "pop" ? v.toLocaleString("en") : k === "income" ? `£${v.toLocaleString("en")}` : `${v}%`; };
-  const head = HW_YEARS.map((y) => `<th>${y} N</th><th>${y} S</th>`).join("");
-  const line = (label, k) => `<tr><th>${label}</th>${HW_YEARS.map((y) => `<td>${cell("north", y, k)}</td><td>${cell("south", y, k)}</td>`).join("")}</tr>`;
+  const sc = s.scotland || {};
+  const scCell = (y, k) => { const v = sc[y] && sc[y][k]; return v == null ? "–" : k === "pop" ? v.toLocaleString("en") : `${v}%`; };
+  const head = HW_YEARS.map((y) => `<th>${y} N England</th><th>${y === "2021" ? "2022" : y} N Scotland</th><th>${y} S</th>`).join("");
+  const line = (label, k) => `<tr><th>${label}</th>${HW_YEARS.map((y) => `<td>${cell("north", y, k)}</td><td>${scCell(y, k)}</td><td>${cell("south", y, k)}</td>`).join("")}</tr>`;
   const rows = [line("Residents", "pop"), ...Object.entries(HW_INDICATORS).map(([k, ind]) => line(ind.label, k))].join("");
   const inc = HW_INCOME_YEARS.map((y) => `<tr><th>${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`}</th><td>${cell("north", y, "income")}</td><td>${cell("south", y, "income")}</td></tr>`).join("");
   const c = s.crime;
-  const cr = c ? `<p class="fiche-text">Crime, October 2025 to September 2026, per 1,000 residents (excluding anti-social behaviour): north ${c.north.crime_rate}, south ${c.south.crime_rate}. Violence and sexual offences: north ${c.north.violent_rate}, south ${c.south.violent_rate}. Anti-social behaviour: north ${c.north.asb_rate}, south ${c.south.asb_rate}.</p>` : "";
+  const cy = s.crime_years || {};
+  const v = (x) => (x == null ? "–" : x);
+  const crRows = Object.entries(HW_CRIME_YEARS).filter(([y]) => cy[y]).map(([y, fy]) => `<tr><th>${fy}</th><td>${v(cy[y].north && cy[y].north.crime_rate)}</td><td>${v(cy[y].south && cy[y].south.crime_rate)}</td><td>${v(cy[y].north && cy[y].north.simd_rate)}</td><td>${v(sc.crime && sc.crime[y] && sc.crime[y].simd_rate)}</td><td>${v(cy[y].south && cy[y].south.simd_rate)}</td></tr>`).join("")
+    + (c ? `<tr><th>2025/26</th><td>${c.north.crime_rate}</td><td>${c.south.crime_rate}</td><td>–</td><td>–</td><td>–</td></tr>` : "");
+  const cr = `<div class="hist-wrap"><table class="hist-table"><thead><tr><th rowspan="2">Crime per 1,000 residents</th><th colspan="2">All recorded crime (England)</th><th colspan="3">Violence, sexual offences, housebreaking, vandalism, drugs</th></tr><tr><th>N England</th><th>S</th><th>N England</th><th>N Scotland</th><th>S</th></tr></thead><tbody>${crRows}</tbody></table></div>
+    ${c ? `<p class="fiche-text">October 2025 to September 2026 (England): violence and sexual offences north ${c.north.violent_rate}, south ${c.south.violent_rate}; anti-social behaviour north ${c.north.asb_rate}, south ${c.south.asb_rate} per 1,000.</p>` : ""}`;
   return `<details>
-    <summary>Either side of the wall today, 2001–2026 (England, within 50 km)</summary>
-    <p class="fiche-text">Residents of the small areas in England within 50 km of the wall line, north (N) or south (S) of it. Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (the Cumbrian coast south; Scotland is not in these small areas). The Scottish side is not included here: Scotland publishes its census on different small areas, and police.uk and the ONS income estimates do not cover it (see the 1 km squares below for 1971–2011). ${s.note || ""}</p>
+    <summary>Either side of the wall today, 2001–2026 (within 50 km)</summary>
+    <p class="fiche-text">Residents of the small areas within 50 km of the wall line, north (N) or south (S) of it. North of the wall, England (Northumberland, North Tyneside, Newcastle's northern suburbs, Carlisle north of the Eden) and Scotland (southern Dumfries and Galloway and the Scottish Borders) are shown apart, so the wall line and the national border can be compared. Beyond the wall's two ends, the side follows the Tyne to the sea in the east and the middle of the Solway Firth in the west. ${s.note || ""}</p>
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Census</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>
-    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Household income after tax (equivalised, a year)</th><th>North</th><th>South</th></tr></thead><tbody>${inc}</tbody></table></div>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Household income after tax (equivalised, a year; England only)</th><th>North</th><th>South</th></tr></thead><tbody>${inc}</tbody></table></div>
     ${cr}
     <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="hw">Compare neighbourhood maps side by side</button>
-    <p class="cite">Shares are of all residents (households for housing). 2001 and 2011 are carried onto the 2021 small areas. Income is averaged over areas weighted by their 2021 residents, in pounds of each year. The wall has not been a border since Roman times: these figures describe the places on either side of it today. Censuses before 2001 are not added yet.</p>
+    <p class="cite">Shares are of all residents (households for housing). England: 2001 and 2011 are carried onto the 2021 small areas (LSOAs). Scotland: census output areas added up into 2011 data zones; its latest census was in 2022, not 2021. Income is averaged over areas weighted by their 2021 residents, in pounds of each year; no Scottish estimate on the same basis has been found yet. Crime: police.uk has no Scottish data, and Police Scotland publishes crime by small area only through the deprivation index (SIMD) for 2014/15 and 2017/18, for a set of crimes; the English figures beside it use the closest police.uk categories, which also count burglaries of shops and businesses. The wall has not been a border since Roman times: these figures describe the places on either side of it today. See the parish maps for 1851–1921 and the 1 km squares for 1971–2011.</p>
     <ol class="refs">${HADRIAN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
   </details>`;
 }
@@ -2137,7 +2199,7 @@ function themePickerHtml(regions) {
 // The maps move together; hovering an area shows its value. Opened from the theme picker in a card.
 const COMPARE_GROUPS = { ni: ["ni"], hw: ["hw"], us: ["us", "mx"], mx: ["us", "mx"] };
 const COMPARE_DEFAULTS = { hw: ["hwg_unemp_1971", "hwg_unemp_1981", "hwg_born_abroad_1971", "hwg_born_abroad_2011"], ni: ["community", "unemp", "income", "prof"], us: ["us_income", "mx_employed", "us_hisp", "mx_cath"] };
-const THEME_REFS = { hwg: () => POPCHANGE_REFS, hw: () => HADRIAN_REFS, bw: () => BELFAST_WARD_REFS, sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
+const THEME_REFS = { hwp: () => HADRIAN_PARISH_REFS, hwg: () => POPCHANGE_REFS, hw: () => HADRIAN_REFS, bw: () => BELFAST_WARD_REFS, sa: () => NISRA_SA_REFS, dz: () => NISRA_DZ_REFS, us: () => US_ACS_REFS, county: () => US_RELIGION_REFS, mxageb: () => [...MX_AGEB_REFS, ...MX_REFS] };
 let layerCompare = null;
 function themeValueText(th, v) {
   if (v == null) return "not available";
@@ -2227,7 +2289,8 @@ function setComparePanels(n) {
     m.getPane("lcLabels").style.zIndex = 450;
     m.getPane("lcLabels").style.pointerEvents = "none";
     L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16, pane: "lcLabels" }).addTo(m);
-    const panel = { map: m, key, cell, theme: L.layerGroup().addTo(m) };
+    // Canvas: the fading playback recolours every area many times a second, which SVG cannot keep up with
+    const panel = { map: m, key, cell, theme: L.layerGroup().addTo(m), renderer: L.canvas({ padding: 0.3 }) };
     m.createPane("lcWalls");
     m.getPane("lcWalls").style.zIndex = 440;
     m.getPane("lcWalls").style.pointerEvents = "none";
@@ -2268,7 +2331,7 @@ function setPanelWalls(panel, year) {
   });
 }
 function stopPlay(panel) {
-  clearInterval(panel.timer);
+  cancelAnimationFrame(panel.timer);
   panel.timer = null;
   const b = panel.cell.querySelector(".lc-play-btn");
   if (b) { b.textContent = "▶"; b.setAttribute("aria-label", "Play over time"); }
@@ -2282,13 +2345,31 @@ function setPanelTime(panel, series, t) {
   const thA = THEMES[kA], thB = THEMES[kB];
   const yA = themeYear(thA), yB = themeYear(thB);
   const year = Math.round(yA + (yB - yA) * f);
-  if (panel.geo) panel.geo.setStyle((ft) => ({ fillColor: f > 0 && kB !== kA ? mixHex(themeColor(thA, ft.properties[thA.field]), themeColor(thB, ft.properties[thB.field]), f) : themeColor(thA, ft.properties[thA.field]) }));
+  recolourPanel(panel, kA, kB, f);
   const badge = panel.badge && panel.badge.getContainer();
-  const kind = thA.src === "us" ? ["survey", "surveys"] : ["census", "censuses"];
-  if (badge) badge.innerHTML = f > 0 && f < 1 ? `${year}<small>between the ${thA.year} and ${thB.year} ${kind[1]}</small>` : `${f >= 1 ? thB.year : thA.year}<small>${kind[0]}</small>`;
-  setPanelWalls(panel, year);
+  const kA_ = thA.kind || "census", kB_ = thB.kind || "census";
+  const plural = { census: "censuses", survey: "surveys", estimate: "estimates", "police figures": "police figures" };
+  const between = kA_ === kB_ ? `between the ${thA.year} and ${thB.year} ${plural[kA_]}` : `between the ${thA.year} ${kA_} and the ${thB.year} ${kB_}`;
+  if (badge) badge.innerHTML = f > 0 && f < 1 ? `${year}<small>${between}</small>` : f >= 1 ? `${thB.year}<small>${kB_}</small>` : `${thA.year}<small>${kA_}</small>`;
+  if (panel.wallYear !== year) { panel.wallYear = year; setPanelWalls(panel, year); }
   const slider = panel.cell.querySelector(".lc-slider");
   if (slider) slider.value = t;
+}
+// Fade between two censuses: each area's two colours are worked out once per gap, then only blended, and the canvas is
+// redrawn once (restyling every area through Leaflet is too slow for thousands of areas)
+function recolourPanel(panel, kA, kB, f) {
+  if (!panel.geo) return;
+  const thA = THEMES[kA], thB = THEMES[kB];
+  if (!panel.mix || panel.mix.geo !== panel.geo || panel.mix.key !== `${kA}|${kB}`) {
+    const rows = [];
+    panel.geo.eachLayer((l) => { const p = l.feature.properties; rows.push([l, themeColor(thA, p[thA.field]), themeColor(thB, p[thB.field])]); });
+    panel.mix = { geo: panel.geo, key: `${kA}|${kB}`, rows, step: null };
+  }
+  const step = kA === kB ? 0 : Math.round(f * 24) / 24;
+  if (panel.mix.step === step) return;
+  panel.mix.step = step;
+  panel.mix.rows.forEach(([l, a, b]) => { l.options.fillColor = step > 0 ? mixHex(a, b, step) : a; });
+  if (panel.renderer && panel.renderer._map) panel.renderer._redraw();
 }
 function togglePlay(panel) {
   if (panel.timer) { stopPlay(panel); return; }
@@ -2299,13 +2380,22 @@ function togglePlay(panel) {
   if (t >= keys.length - 1) t = 0;
   let hold = PLAY_HOLD_MS;
   setPanelTime(panel, series, t);
-  panel.timer = setInterval(() => {
-    if (hold > 0) { hold -= PLAY_TICK; return; }
-    const next = Math.min(keys.length - 1, t + PLAY_TICK / PLAY_MS_PER_GAP);
-    if (Math.floor(next) > Math.floor(t) || next === keys.length - 1) { t = Math.round(next); hold = PLAY_HOLD_MS; } else t = next;
-    setPanelTime(panel, series, t);
-    if (t >= keys.length - 1) stopPlay(panel);
-  }, PLAY_TICK);
+  // Driven by the screen refresh and the clock: on a slow machine frames are dropped, not queued up
+  let last = performance.now();
+  const step = (now) => {
+    if (!panel.timer) return;
+    const dt = Math.min(now - last, 400);
+    last = now;
+    if (hold > 0) hold -= dt;
+    else {
+      const next = Math.min(keys.length - 1, t + dt / PLAY_MS_PER_GAP);
+      if (Math.floor(next) > Math.floor(t) || next === keys.length - 1) { t = Math.floor(next); hold = PLAY_HOLD_MS; } else t = next;
+      setPanelTime(panel, series, t);
+      if (t >= keys.length - 1) { stopPlay(panel); return; }
+    }
+    panel.timer = requestAnimationFrame(step);
+  };
+  panel.timer = requestAnimationFrame(step);
   const b = panel.cell.querySelector(".lc-play-btn");
   if (b) { b.textContent = "❚❚"; b.setAttribute("aria-label", "Pause"); }
 }
@@ -2337,13 +2427,12 @@ function drawComparePanel(panel, key, fromPlay) {
     panel.badge.onAdd = () => L.DomUtil.create("div", "lc-yearbadge");
     panel.badge.addTo(panel.map);
   }
-  if (!fromPlay) panel.badge.getContainer().innerHTML = th.series ? `${th.year}<small>${th.src === "us" ? "survey" : "census"}</small>` : "";
+  if (!fromPlay) panel.badge.getContainer().innerHTML = th.series ? `${th.year}<small>${th.kind || "census"}</small>` : "";
   panel.badge.getContainer().hidden = !th.series;
   if (!fromPlay) setPanelWalls(panel, th.series ? themeYear(th) : null);
   // Same areas as before (another year of the same data): recolour in place instead of redrawing
   if (prev && prev.src === th.src && th.src !== "mxageb" && panel.geo) {
-    panel.geo.setStyle((f) => ({ fillColor: themeColor(th, f.properties[th.field]) }));
-    panel.geo.eachLayer((lyr) => lyr.setTooltipContent(compareTip(th, lyr.feature.properties)));
+    recolourPanel(panel, key, key, 0);
     compareRefs(panel);
     return;
   }
@@ -2352,8 +2441,9 @@ function drawComparePanel(panel, key, fromPlay) {
   const draw = (src, opacity) => loadThemeData(src).then((fc) => {
     if (panel.key !== key) return;
     const geo = L.geoJSON(fc, {
+      renderer: panel.renderer,
       style: (f) => ({ fillColor: themeColor(th, f.properties[th.field]), fillOpacity: opacity, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
-      onEachFeature: (f, lyr) => lyr.bindTooltip(compareTip(THEMES[panel.key], f.properties), { sticky: true }),
+      onEachFeature: (f, lyr) => lyr.bindTooltip(() => compareTip(THEMES[panel.key], f.properties), { sticky: true }),
     }).addTo(panel.theme);
     if (src === th.src) panel.geo = geo;
   });
@@ -2384,8 +2474,9 @@ const wallRegion = (p) => (/^Hadrian's Wall$/.test(p.name || "") ? ["hw"] : /Nor
 // A prominent "play over time" button near the top of the cards whose census maps cover several years
 const PLAY_BUTTONS = {
   hw: ["hw", "hwg_pop", "Play the census maps over time, 1971–2011"],
+  hwp: ["hw", "hwp_cross", "Play the parish maps over time, 1851–1921"],
   belfast: ["ni", "bw_cath_share", "Play Belfast's census maps over time, 1971–2021"],
-  us: ["us", "us_hisp", "Play the census tract maps over time, 2007–2024"],
+  us: ["us", "us_hisp", "Play the census tract maps over time, 1990–2024"],
 };
 function playButtonHtml(key) {
   const b = PLAY_BUTTONS[key];
@@ -2432,6 +2523,7 @@ function popupHtml(p) {
   return `<div class="fiche">
     <div class="fiche-title">${p.name}</div>
     ${wallRegion(p) ? `<button type="button" class="compare-btn compare-maps-btn" data-layer-compare="${wallRegion(p)[0]}">Compare neighbourhood maps side by side</button>` : ""}
+    ${p.name === "Hadrian's Wall" ? playButtonHtml("hwp") : ""}
     ${playButtonHtml(p.name === "Hadrian's Wall" ? "hw" : /Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? "belfast" : wallRegion(p) && wallRegion(p)[0] === "us" ? "us" : "")}
     <dl class="summary">
       ${row("Location", `${or(p.countries)}${showSeparates ? ` · separates ${p.separates}` : ""}`)}
