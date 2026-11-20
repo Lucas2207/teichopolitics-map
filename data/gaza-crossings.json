@@ -9,7 +9,8 @@
    "use": "People (and, during the 2023–25 war, aid trucks)",
    "status": "restricted",
    "status_text": "Reopened on 2 February 2026; used for medical evacuations (2,746 patients and 4,065 companions by 29 October 2026, WHO via OCHA)",
-   "src": "OCHA oPt (2026); OCHA oPt (2019)"
+   "src": "OCHA oPt (2026); OCHA oPt (2019)",
+   "ar": "معبر رفح"
   },
   {
    "name": "Kerem Shalom (Karm Abu Salem)",
@@ -19,7 +20,9 @@
    "use": "Goods: the main crossing for cargo",
    "status": "open",
    "status_text": "The crossing for UN and partner aid cargo: 586 trucks offloaded on 19–25 October 2026 (OCHA); also used for medical evacuations",
-   "src": "OCHA oPt (2026); OCHA oPt (2021)"
+   "src": "OCHA oPt (2026); OCHA oPt (2021)",
+   "ar": "معبر كرم أبو سالم",
+   "he": "מעבר כרם שלום"
   },
   {
    "name": "Erez (Beit Hanoun)",
@@ -29,7 +32,9 @@
    "use": "People with Israeli permits (workers, patients, aid staff)",
    "status": "closed",
    "status_text": "Destroyed in the attack of 7 October 2023; reopened for aid trucks on 1 May 2024 (Times of Israel, via Wikipedia); not listed as operating by OCHA in October 2026",
-   "src": "Wikipedia contributors (2026a); OCHA oPt (2021)"
+   "src": "Wikipedia contributors (2026a); OCHA oPt (2021)",
+   "ar": "معبر بيت حانون (إيرز)",
+   "he": "מעבר ארז"
   },
   {
    "name": "Karni (Al Montar)",
@@ -39,7 +44,9 @@
    "use": "Goods",
    "status": "closed",
    "status_text": "Closed since June 2007 (OCHA); dismantled 2011",
-   "src": "OCHA oPt (2021); Wikipedia contributors (2026a)"
+   "src": "OCHA oPt (2021); Wikipedia contributors (2026a)",
+   "ar": "معبر المنطار (كارني)",
+   "he": "מעבר קרני"
   },
   {
    "name": "Sufa",
@@ -49,7 +56,9 @@
    "use": "Goods (construction materials)",
    "status": "closed",
    "status_text": "Closed since September 2008 (OCHA)",
-   "src": "OCHA oPt (2021)"
+   "src": "OCHA oPt (2021)",
+   "ar": "معبر صوفا",
+   "he": "מעבר סופה"
   },
   {
    "name": "Nahal Oz (Ash Shuja'iyyeh)",
@@ -59,7 +68,9 @@
    "use": "Fuel pipeline",
    "status": "closed",
    "status_text": "Closed since January 2010 (OCHA)",
-   "src": "OCHA oPt (2021)"
+   "src": "OCHA oPt (2021)",
+   "ar": "معبر ناحل عوز (الشجاعية)",
+   "he": "מעבר נחל עוז"
   },
   {
    "name": "Salah al-Din gate",
@@ -70,7 +81,8 @@
    "status": "unknown",
    "status_text": "Carried about 36% of Gaza's imports in 2023 (UNSCO, via Wikipedia); current status not reported by OCHA. Position approximate: about 4 km north-west of the Rafah crossing along the border",
    "src": "Wikipedia contributors (2026b)",
-   "approx": true
+   "approx": true,
+   "ar": "بوابة صلاح الدين"
   }
  ]
 }

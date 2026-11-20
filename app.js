@@ -736,6 +736,7 @@ map.on("moveend", updateCrossingsOption);
 function crossingCardHtml(c) {
   const [col, label] = CROSSING_STATUS[c.status];
   return `<div class="fiche"><h2 class="fiche-title">${c.name}</h2>
+    ${placeNamesHtml(c)}
     <p class="fiche-text"><span class="cx-dot" style="background:${col}"></span>${label}${c.approx ? " · position approximate" : ""}</p>
     <dl><dt>Between</dt><dd>${c.between}</dd><dt>Used for</dt><dd>${c.use}</dd><dt>Status</dt><dd>${c.status_text}</dd></dl>
     <p class="cite">${crossingsData.note}</p>
@@ -791,7 +792,8 @@ function settlementCardHtml(s) {
     <dl>
       ${row("Type", SETTLEMENT_TYPE[s.type] || "Settlement")}
       ${row("Status", SETTLEMENT_STATUS[s.area])}
-      ${row("Name in Hebrew", s.he)}
+      ${row("Name in Hebrew", s.he ? `<span lang="he" dir="rtl">${s.he}</span>` : "")}
+      ${row("Name in Arabic", s.ar ? `<span lang="ar" dir="rtl">${s.ar}</span>` : "")}
       ${row("Governorate", s.gov)}
       ${row("Founded", s.founded || "Not given in the source")}
       ${row("Evacuated", s.removed)}
@@ -801,7 +803,7 @@ function settlementCardHtml(s) {
     ${src === "ocha" ? `<p class="fiche-text">From OCHA's 2019 atlas, which uses Peace Now's data. Outposts and settlements founded after 2019 are not in it; three later settlements recognised by Israel's statistics bureau are added from its list. Sixteen small outposts and East Jerusalem compounds in OCHA's index could not be placed precisely and are left out.</p>` : ""}
     <details>
       <summary>References (Harvard)</summary>
-      <ol class="refs">${refs}</ol>
+      <ol class="refs">${refs}${s.ar ? `<li>${WD_NAMES_REF}</li>` : ""}</ol>
     </details>
   </div>`;
 }
@@ -1260,6 +1262,12 @@ function cityFields(en, meta) {
   };
 }
 
+// Arabic (and Hebrew) names under the title of places in Israel, Palestine and Syria, from Wikidata
+const WD_NAMES_REF = "Wikidata (2026) Arabic and Hebrew labels of places in Israel, Palestine and Syria, matched by name and position. Available at: https://www.wikidata.org (Accessed: 20 November 2026).";
+function placeNamesHtml(o) {
+  const parts = [o.ar ? `<span lang="ar" dir="rtl">${o.ar}</span> <small>Arabic</small>` : "", o.he ? `<span lang="he" dir="rtl">${o.he}</span> <small>Hebrew</small>` : ""].filter(Boolean);
+  return parts.length ? `<div class="fiche-names">${parts.join(" · ")}</div>` : "";
+}
 function cityPopupHtml(en, meta) {
   const f = cityFields(en, meta);
   const row = (label, value) => `<dt>${label}</dt><dd>${value}</dd>`;
@@ -1271,6 +1279,7 @@ function cityPopupHtml(en, meta) {
   const income = `${f.economy || (region ? "" : NOT_FOUND)}${region ? themePickerHtml([region]) : ""}${["us", "mx"].includes(region) && window.borderTimelineHtml ? window.borderTimelineHtml() : ""}`;
   return `<div class="fiche city-fiche">
     <div class="fiche-title">${en}</div>
+    ${placeNamesHtml(meta)}
     <div class="compare-actions">
       <button type="button" class="compare-btn" data-compare>Compare with another city</button>
       ${region ? `<button type="button" class="compare-btn compare-maps-btn" data-layer-compare="${region}">Compare neighbourhood maps side by side</button>` : ""}
@@ -1294,6 +1303,7 @@ function cityPopupHtml(en, meta) {
       <ol class="refs">
         ${f.refs.map((r) => `<li>${r}</li>`).join("")}
         ${labelData.profiles[meta.country] ? NATIONAL_REFS : ""}
+        ${meta.ar ? `<li>${WD_NAMES_REF}</li>` : ""}
       </ol>
     </details>
   </div>`;

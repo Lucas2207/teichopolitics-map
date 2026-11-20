@@ -22,7 +22,8 @@
 "type": "settlement",
 "gov": "Hebron",
 "area": "westbank",
-"pop": 421
+"pop": 421,
+"ar": "أدورا"
 },
 {
 "name": "Afiq",
@@ -32,7 +33,8 @@
 "founded": 1967,
 "pop": 402,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "أفيق"
 },
 {
 "name": "Ahavat Hayim",
@@ -62,7 +64,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "עלי זהב",
-"pop": 1643
+"pop": 1643,
+"ar": "إيلي زهاف"
 },
 {
 "name": "Alfei Menashe",
@@ -73,7 +76,8 @@
 "gov": "Qalqiliya",
 "area": "westbank",
 "he": "אלפי מנשה",
-"pop": 7780
+"pop": 7780,
+"ar": "ألفي منشيه"
 },
 {
 "name": "Alfei Menashe I.P.",
@@ -112,7 +116,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "אלמוג",
-"pop": 239
+"pop": 239,
+"ar": "ألموغ"
 },
 {
 "name": "Almon",
@@ -123,7 +128,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "עלמון",
-"pop": 1329
+"pop": 1329,
+"ar": "علمون"
 },
 {
 "name": "Alon",
@@ -143,7 +149,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "אלון שבות",
-"pop": 3180
+"pop": 3180,
+"ar": "ألون شفوت"
 },
 {
 "name": "Alonei Shilo",
@@ -173,7 +180,8 @@
 "pop": 409,
 "area": "westbank",
 "type": "settlement",
-"src": "cbs"
+"src": "cbs",
+"ar": "عميحي"
 },
 {
 "name": "Amona",
@@ -183,7 +191,8 @@
 "type": "outpost",
 "gov": "Ramallah",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "عامونا"
 },
 {
 "name": "Ani'am",
@@ -204,7 +213,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "ארגמן",
-"pop": 131
+"pop": 131,
+"ar": "أرجمان"
 },
 {
 "name": "Ariel",
@@ -215,7 +225,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "אריאל",
-"pop": 19220
+"pop": 19220,
+"ar": "أريئيل"
 },
 {
 "name": "Asael",
@@ -224,7 +235,8 @@
 "founded": 2002,
 "type": "outpost",
 "gov": "Hebron",
-"area": "westbank"
+"area": "westbank",
+"ar": "أسائيل"
 },
 {
 "name": "Atarot Industrial Area",
@@ -234,7 +246,8 @@
 "type": "industrial park",
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
-"approx": true
+"approx": true,
+"ar": "المنطقة الصناعية عطروت"
 },
 {
 "name": "Ateret",
@@ -245,7 +258,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "עטרת",
-"pop": 875
+"pop": 875,
+"ar": "عطيرت"
 },
 {
 "name": "Avigayil",
@@ -275,7 +289,8 @@
 "gov": "Tulkarm",
 "area": "westbank",
 "he": "אבני חפץ",
-"pop": 1759
+"pop": 1759,
+"ar": "أفني حيفتس"
 },
 {
 "name": "Barkan",
@@ -286,7 +301,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "ברקן",
-"pop": 1798
+"pop": 1798,
+"ar": "بركان"
 },
 {
 "name": "Baron I.P.",
@@ -315,7 +331,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "בת עין",
-"pop": 1307
+"pop": 1307,
+"ar": "بات عاين"
 },
 {
 "name": "Bedolah",
@@ -326,7 +343,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 184
+"pop": 184,
+"ar": "بدولاح"
 },
 {
 "name": "Beit Arie",
@@ -336,7 +354,8 @@
 "type": "settlement",
 "gov": "Ramallah",
 "area": "westbank",
-"pop": 4842
+"pop": 4842,
+"ar": "بيت أرييه"
 },
 {
 "name": "Beit El",
@@ -347,7 +366,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "בית אל",
-"pop": 6115
+"pop": 6115,
+"ar": "بيت إيل"
 },
 {
 "name": "Beit El East",
@@ -368,7 +388,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "בית הערבה",
-"pop": 183
+"pop": 183,
+"ar": "بيت هعرافا"
 },
 {
 "name": "Beit Horon",
@@ -379,7 +400,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "בית חורון",
-"pop": 1240
+"pop": 1240,
+"ar": "بيت حورون"
 },
 {
 "name": "Beitar Illit",
@@ -390,7 +412,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "ביתר עילית",
-"pop": 51636
+"pop": 51636,
+"ar": "بيتار عيليت"
 },
 {
 "name": "Bene Yehuda",
@@ -400,7 +423,8 @@
 "founded": 1972,
 "pop": 1244,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "بني يهودا"
 },
 {
 "name": "Bitronot",
@@ -430,7 +454,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 497
+"pop": 497,
+"ar": "بني عصمون"
 },
 {
 "name": "Bqa'ot",
@@ -441,7 +466,8 @@
 "gov": "Tubas",
 "area": "westbank",
 "he": "בקעות",
-"pop": 187
+"pop": 187,
+"ar": "بقعوت"
 },
 {
 "name": "Bracha",
@@ -453,7 +479,8 @@
 "area": "westbank",
 "he": "ברכה",
 "pop": 2339,
-"approx": true
+"approx": true,
+"ar": "هار براخا"
 },
 {
 "name": "Bracha A",
@@ -471,7 +498,8 @@
 "founded": 1999,
 "type": "outpost",
 "gov": "Salfit",
-"area": "westbank"
+"area": "westbank",
+"ar": "بروخين"
 },
 {
 "name": "Carmel",
@@ -502,7 +530,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "דולב",
-"pop": 1331
+"pop": 1331,
+"ar": "دولف"
 },
 {
 "name": "Dugit",
@@ -513,7 +542,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 61
+"pop": 61,
+"ar": "دوجيث"
 },
 {
 "name": "East Talpiyyot",
@@ -536,7 +566,8 @@
 "area": "westbank",
 "he": "אפרת",
 "pop": 8658,
-"approx": true
+"approx": true,
+"ar": "أفرات"
 },
 {
 "name": "El-Rom",
@@ -557,7 +588,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "אלעזר",
-"pop": 2568
+"pop": 2568,
+"ar": "إليعازر (مستوطنة)"
 },
 {
 "name": "Elei Sinai",
@@ -568,7 +600,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 334
+"pop": 334,
+"ar": "ألي سيناي"
 },
 {
 "name": "Eli",
@@ -589,7 +622,8 @@
 "founded": 1968,
 "pop": 593,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "ألي عاد"
 },
 {
 "name": "Elisha Preparatory",
@@ -631,7 +665,8 @@
 "gov": "Nablus",
 "area": "westbank",
 "he": "אלון מורה",
-"pop": 1861
+"pop": 1861,
+"ar": "آلون موريه"
 },
 {
 "name": "En Ziwan",
@@ -641,7 +676,8 @@
 "founded": 1968,
 "pop": 534,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "عين زيوان"
 },
 {
 "name": "Enav",
@@ -652,7 +688,8 @@
 "gov": "Tulkarm",
 "area": "westbank",
 "he": "ענב",
-"pop": 749
+"pop": 749,
+"ar": "عيناف"
 },
 {
 "name": "Esfar",
@@ -682,7 +719,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "אשכולות",
-"pop": 515
+"pop": 515,
+"ar": "أشكيلوت"
 },
 {
 "name": "Etz Efraim",
@@ -692,7 +730,8 @@
 "type": "settlement",
 "gov": "Salfit",
 "area": "westbank",
-"pop": 2022
+"pop": 2022,
+"ar": "عيتص إفرايم"
 },
 {
 "name": "Gadid",
@@ -703,7 +742,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 289
+"pop": 289,
+"ar": "جديد"
 },
 {
 "name": "Gal Outpost",
@@ -724,7 +764,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 267
+"pop": 267,
+"ar": "جان أور"
 },
 {
 "name": "Ganei Tal",
@@ -747,7 +788,8 @@
 "area": "westbank",
 "he": "גני מודיעין",
 "pop": 2411,
-"approx": true
+"approx": true,
+"ar": "جاني موديعين"
 },
 {
 "name": "Geshur",
@@ -768,7 +810,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "גבע בנימין",
-"pop": 5278
+"pop": 5278,
+"ar": "مستوطنة آدم"
 },
 {
 "name": "Gilad Farm",
@@ -788,7 +831,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "גלגל",
-"pop": 178
+"pop": 178,
+"ar": "جلجال (مستوطنة)"
 },
 {
 "name": "Gillo",
@@ -799,7 +843,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 30820,
-"approx": true
+"approx": true,
+"ar": "جيلو"
 },
 {
 "name": "Gitit",
@@ -810,7 +855,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "גיתית",
-"pop": 430
+"pop": 430,
+"ar": "جيتيت"
 },
 {
 "name": "Giv'at Ha-Matos",
@@ -820,7 +866,8 @@
 "type": "settlement",
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
-"approx": true
+"approx": true,
+"ar": "غفعات همتوس"
 },
 {
 "name": "Giv'at Ha-Mivtar",
@@ -860,7 +907,8 @@
 "type": "settlement",
 "gov": "Jerusalem",
 "area": "westbank",
-"he": "גבעת זאב"
+"he": "גבעת זאב",
+"ar": "جفعات زئيف"
 },
 {
 "name": "Giv'on Ha'hadasha",
@@ -870,7 +918,8 @@
 "type": "settlement",
 "gov": "Jerusalem",
 "area": "westbank",
-"he": "גבעון החדשה"
+"he": "גבעון החדשה",
+"ar": "غيفون هاهاداشا"
 },
 {
 "name": "Givat Assaf",
@@ -879,7 +928,8 @@
 "founded": 2002,
 "type": "outpost",
 "gov": "Ramallah",
-"area": "westbank"
+"area": "westbank",
+"ar": "جفعات آساف"
 },
 {
 "name": "Givat Ha'avot",
@@ -988,7 +1038,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "חגי",
-"pop": 573
+"pop": 573,
+"ar": "بيت حجاي"
 },
 {
 "name": "Hahar",
@@ -1018,7 +1069,8 @@
 "type": "settlement",
 "gov": "Ramallah",
 "area": "westbank",
-"pop": 1328
+"pop": 1328,
+"ar": "حلميش"
 },
 {
 "name": "Hamra",
@@ -1029,7 +1081,8 @@
 "gov": "Nablus",
 "area": "westbank",
 "he": "חמרה",
-"pop": 124
+"pop": 124,
+"ar": "حمرا"
 },
 {
 "name": "Hanekuda",
@@ -1050,7 +1103,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "הר אדר",
-"pop": 3980
+"pop": 3980,
+"ar": "هار أدار"
 },
 {
 "name": "Har Gilo",
@@ -1061,7 +1115,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "הר גילה",
-"pop": 1570
+"pop": 1570,
+"ar": "هار جيلو"
 },
 {
 "name": "Har Hemed",
@@ -1081,7 +1136,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 19950,
-"approx": true
+"approx": true,
+"ar": "هارحوما"
 },
 {
 "name": "Har Shmuel",
@@ -1100,7 +1156,8 @@
 "type": "outpost",
 "gov": "Ramallah",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "حاراشاه"
 },
 {
 "name": "Haroeh",
@@ -1120,7 +1177,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "חשמונאים",
-"pop": 2826
+"pop": 2826,
+"ar": "حشمونائيم"
 },
 {
 "name": "Haspin",
@@ -1151,7 +1209,8 @@
 "gov": "Tubas",
 "area": "westbank",
 "he": "חמדת",
-"pop": 230
+"pop": 230,
+"ar": "حمدات"
 },
 {
 "name": "Hermesh",
@@ -1162,7 +1221,8 @@
 "gov": "Jenin",
 "area": "westbank",
 "he": "חרמש",
-"pop": 223
+"pop": 223,
+"ar": "حرميش"
 },
 {
 "name": "Heruti",
@@ -1191,7 +1251,8 @@
 "type": "outpost",
 "gov": "Nablus",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "جفعات أرنون"
 },
 {
 "name": "Hill 782",
@@ -1232,7 +1293,8 @@
 "gov": "Jenin",
 "area": "westbank",
 "he": "חיננית",
-"pop": 1164
+"pop": 1164,
+"ar": "حينانيت"
 },
 {
 "name": "Horesh Yaron",
@@ -1263,7 +1325,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "עמנואל",
-"pop": 3309
+"pop": 3309,
+"ar": "عمانوئيل"
 },
 {
 "name": "Itamar",
@@ -1295,7 +1358,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 2960,
-"approx": true
+"approx": true,
+"ar": "الحي اليهودي في القدس"
 },
 {
 "name": "Kalia",
@@ -1306,7 +1370,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "קליה",
-"pop": 386
+"pop": 386,
+"ar": "كاليا"
 },
 {
 "name": "Kanaf",
@@ -1316,7 +1381,8 @@
 "founded": 1991,
 "pop": 543,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "كنف"
 },
 {
 "name": "Karmei Doron",
@@ -1337,7 +1403,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "כרמי צור",
-"pop": 1047
+"pop": 1047,
+"ar": "كرمي تسور"
 },
 {
 "name": "Karnei Shomron",
@@ -1348,7 +1415,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "קרני שומרון",
-"pop": 7102
+"pop": 7102,
+"ar": "قرنيه شمرون"
 },
 {
 "name": "Katif",
@@ -1359,7 +1427,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 317
+"pop": 317,
+"ar": "قطيف"
 },
 {
 "name": "Kedumim",
@@ -1370,7 +1439,8 @@
 "gov": "Qalqiliya",
 "area": "westbank",
 "he": "קדומים",
-"pop": 4323
+"pop": 4323,
+"ar": "كدوميم"
 },
 {
 "name": "Kefar Haoranim (Menora)",
@@ -1380,7 +1450,8 @@
 "type": "settlement",
 "gov": "Ramallah",
 "area": "westbank",
-"pop": 2678
+"pop": 2678,
+"ar": "كفار أورانيم"
 },
 {
 "name": "Kefar Haruv",
@@ -1390,7 +1461,8 @@
 "founded": 1974,
 "pop": 544,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "كفر حارب"
 },
 {
 "name": "Keidar",
@@ -1401,7 +1473,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "קדר",
-"pop": 1555
+"pop": 1555,
+"ar": "كيدار"
 },
 {
 "name": "Kerem Atzmona",
@@ -1422,7 +1495,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "כפר אדומים",
-"pop": 4271
+"pop": 4271,
+"ar": "كفار أدوميم"
 },
 {
 "name": "Kfar Darom",
@@ -1433,7 +1507,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 244
+"pop": 244,
+"ar": "كفار داروم"
 },
 {
 "name": "Kfar Etzion",
@@ -1444,7 +1519,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "כפר עציון",
-"pop": 1099
+"pop": 1099,
+"ar": "كفار عصيون"
 },
 {
 "name": "Kfar Ruth",
@@ -1464,7 +1540,8 @@
 "type": "outpost",
 "gov": "Salfit",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "كفار تبواح الغربية"
 },
 {
 "name": "Kfar Tapuah",
@@ -1475,7 +1552,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "כפר תפוח",
-"pop": 1071
+"pop": 1071,
+"ar": "كفار تبواح"
 },
 {
 "name": "Kfar Yam",
@@ -1485,7 +1563,8 @@
 "founded": 1983,
 "removed": 2005,
 "type": "settlement",
-"area": "gaza"
+"area": "gaza",
+"ar": "كفار يام"
 },
 {
 "name": "Kida",
@@ -1516,7 +1595,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "קריית ארבע",
-"pop": 7272
+"pop": 7272,
+"ar": "كريات أربع"
 },
 {
 "name": "Kiryat Arba I.P.",
@@ -1537,7 +1617,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "קריית נטפים",
-"pop": 910
+"pop": 910,
+"ar": "كريات نتافيم"
 },
 {
 "name": "Kochav Ha'shachar",
@@ -1548,7 +1629,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "כוכב השחר",
-"pop": 1985
+"pop": 1985,
+"ar": "كوخاف هشاحر"
 },
 {
 "name": "Kochav Ya'akov",
@@ -1559,7 +1641,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "כוכב יעקב",
-"pop": 7394
+"pop": 7394,
+"ar": "كوخاف يعقوب"
 },
 {
 "name": "Lehavat Yitzhar",
@@ -1580,7 +1663,8 @@
 "gov": "Jerusalem",
 "area": "westbank",
 "he": "מעלה אדומים",
-"pop": 37670
+"pop": 37670,
+"ar": "معاليه أدوميم"
 },
 {
 "name": "Ma'ale Amos",
@@ -1591,7 +1675,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "מעלה עמוס",
-"pop": 390
+"pop": 390,
+"ar": "معاليه عاموس"
 },
 {
 "name": "Ma'ale Efraim",
@@ -1602,7 +1687,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "מעלה אפרים",
-"pop": 1209
+"pop": 1209,
+"ar": "معاليه إفرايم"
 },
 {
 "name": "Ma'ale Efrayim Preparatory",
@@ -1642,7 +1728,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "מעלה לבונה",
-"pop": 826
+"pop": 826,
+"ar": "معاليه ليفونا"
 },
 {
 "name": "Ma'ale Michmash",
@@ -1653,7 +1740,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "מעלה מכמש",
-"pop": 1323
+"pop": 1323,
+"ar": "معاليه مخماس"
 },
 {
 "name": "Ma'ale Rehav'am",
@@ -1663,7 +1751,8 @@
 "type": "outpost",
 "gov": "Bethlehem",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "معاليه رحافيم"
 },
 {
 "name": "Ma'ale Shlomo",
@@ -1683,7 +1772,8 @@
 "type": "settlement",
 "gov": "Qalqiliya",
 "area": "westbank",
-"pop": 1037
+"pop": 1037,
+"ar": "معاليه شمرون"
 },
 {
 "name": "Ma'on",
@@ -1693,7 +1783,8 @@
 "type": "settlement",
 "gov": "Hebron",
 "area": "westbank",
-"he": "מעון"
+"he": "מעון",
+"ar": "ماعون"
 },
 {
 "name": "Maale Yisrael",
@@ -1721,7 +1812,8 @@
 "founded": 1999,
 "type": "outpost",
 "gov": "Salfit",
-"area": "westbank"
+"area": "westbank",
+"ar": "ماجن دان"
 },
 {
 "name": "Maoz Zvi",
@@ -1741,7 +1833,8 @@
 "gov": "Tubas",
 "area": "westbank",
 "he": "משכיות",
-"pop": 253
+"pop": 253,
+"ar": "مسكيوت"
 },
 {
 "name": "Masu'a",
@@ -1752,7 +1845,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "משואה",
-"pop": 162
+"pop": 162,
+"ar": "مسواه"
 },
 {
 "name": "Mattityahu",
@@ -1762,7 +1856,8 @@
 "type": "settlement",
 "gov": "Ramallah",
 "area": "westbank",
-"he": "מתתיהו"
+"he": "מתתיהו",
+"ar": "ماتي بنيامي (ماتيتاهو)"
 },
 {
 "name": "Mechola",
@@ -1773,7 +1868,8 @@
 "gov": "Tubas",
 "area": "westbank",
 "he": "מחולה",
-"pop": 517
+"pop": 517,
+"ar": "ميخولا"
 },
 {
 "name": "Mechora",
@@ -1784,7 +1880,8 @@
 "gov": "Nablus",
 "area": "westbank",
 "he": "מכורה",
-"pop": 142
+"pop": 142,
+"ar": "ميخورا"
 },
 {
 "name": "Meitarim I.P.",
@@ -1813,7 +1910,8 @@
 "founded": 1967,
 "pop": 817,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "ماروم ها جولان"
 },
 {
 "name": "Metzadot Yehuda",
@@ -1834,7 +1932,8 @@
 "gov": "Jenin",
 "area": "westbank",
 "he": "מבוא דותן",
-"pop": 386
+"pop": 386,
+"ar": "ميفو دوتان"
 },
 {
 "name": "Mevo Hamma",
@@ -1856,7 +1955,8 @@
 "area": "westbank",
 "he": "מבוא חורון",
 "pop": 2566,
-"approx": true
+"approx": true,
+"ar": "ميفو هورون"
 },
 {
 "name": "Mevo'ot Jericho",
@@ -1865,7 +1965,8 @@
 "founded": 1999,
 "type": "outpost",
 "gov": "Jericho",
-"area": "westbank"
+"area": "westbank",
+"ar": "ميفوت يريحو"
 },
 {
 "name": "Mezar",
@@ -1886,7 +1987,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "מגדל עוז",
-"pop": 605
+"pop": 605,
+"ar": "مجدال عوز"
 },
 {
 "name": "Migdalim",
@@ -1897,7 +1999,8 @@
 "gov": "Nablus",
 "area": "westbank",
 "he": "מגדלים",
-"pop": 305
+"pop": 305,
+"ar": "مجداليم"
 },
 {
 "name": "Mishmar Yehuda",
@@ -1918,7 +2021,8 @@
 "type": "settlement",
 "gov": "Jerusalem",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "ميشور أدوميم"
 },
 {
 "name": "Mishor Adumim I.P.",
@@ -2027,7 +2131,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "מצפה שלם",
-"pop": 174
+"pop": 174,
+"ar": "متسبيه شاليم"
 },
 {
 "name": "Mizpe Yericho",
@@ -2038,7 +2143,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "מצפה יריחו",
-"pop": 2319
+"pop": 2319,
+"ar": "متسبيه يريحو"
 },
 {
 "name": "Mizpe Yitzhar",
@@ -2059,7 +2165,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "מודיעין עילית",
-"pop": 66847
+"pop": 66847,
+"ar": "موديعين عيليت"
 },
 {
 "name": "Mor Farm",
@@ -2079,7 +2186,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 146
+"pop": 146,
+"ar": "موراج"
 },
 {
 "name": "Mul Nevo",
@@ -2100,7 +2208,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "נעלה",
-"pop": 1661
+"pop": 1661,
+"ar": "نعاليه"
 },
 {
 "name": "Na'ama",
@@ -2111,7 +2220,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "נעמ\"ה",
-"pop": 116
+"pop": 116,
+"ar": "نعما"
 },
 {
 "name": "Nahaliel",
@@ -2122,7 +2232,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "נחליאל",
-"pop": 639
+"pop": 639,
+"ar": "نحليئيل"
 },
 {
 "name": "Natur",
@@ -2132,7 +2243,8 @@
 "founded": 1980,
 "pop": 770,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "نطور"
 },
 {
 "name": "Ne'ot Golan",
@@ -2153,7 +2265,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "נגוהות",
-"pop": 289
+"pop": 289,
+"ar": "نيجوهوت"
 },
 {
 "name": "Nerya",
@@ -2163,7 +2276,8 @@
 "type": "outpost",
 "gov": "Ramallah",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "نيريا"
 },
 {
 "name": "Netiv Ha'gdud",
@@ -2174,7 +2288,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "נתיב הגדוד",
-"pop": 190
+"pop": 190,
+"ar": "نتيف هجدود"
 },
 {
 "name": "Netzarim",
@@ -2185,7 +2300,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 347
+"pop": 347,
+"ar": "نتساريم"
 },
 {
 "name": "Netzer Hazani",
@@ -2227,7 +2343,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 2280
+"pop": 2280,
+"ar": "نوة دكليم"
 },
 {
 "name": "Neve Erez",
@@ -2247,7 +2364,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 21780,
-"approx": true
+"approx": true,
+"ar": "مستوطنة النبي يعقوب"
 },
 {
 "name": "Newe Ativ",
@@ -2268,7 +2386,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "ניל\"י",
-"pop": 1552
+"pop": 1552,
+"ar": "نيلي (مستوطنة)"
 },
 {
 "name": "Niran",
@@ -2289,7 +2408,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 874
+"pop": 874,
+"ar": "نيسانيت"
 },
 {
 "name": "Nof Harim",
@@ -2319,7 +2439,8 @@
 "type": "settlement",
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
-"approx": true
+"approx": true,
+"ar": "نوف صيون"
 },
 {
 "name": "Nofei Nehemia",
@@ -2350,7 +2471,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "נופים",
-"pop": 690
+"pop": 690,
+"ar": "نوفيم"
 },
 {
 "name": "Nokdim",
@@ -2361,7 +2483,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "נוקדים",
-"pop": 2052
+"pop": 2052,
+"ar": "نوكديم"
 },
 {
 "name": "Nov",
@@ -2401,7 +2524,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "עפרה",
-"pop": 3605
+"pop": 3605,
+"ar": "عوفرا"
 },
 {
 "name": "Old Massu'ot Itzhak",
@@ -2431,7 +2555,8 @@
 "gov": "Qalqiliya",
 "area": "westbank",
 "he": "אורנית",
-"pop": 8652
+"pop": 8652,
+"ar": "أورانيت"
 },
 {
 "name": "Orna's Tent",
@@ -2450,7 +2575,8 @@
 "founded": 1978,
 "pop": 374,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "أورتال"
 },
 {
 "name": "Otniel",
@@ -2461,7 +2587,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "עתניאל",
-"pop": 976
+"pop": 976,
+"ar": "عتنائيل"
 },
 {
 "name": "Ovnat",
@@ -2471,7 +2598,8 @@
 "type": "settlement",
 "gov": "Bethlehem",
 "area": "westbank",
-"pop": 193
+"pop": 193,
+"ar": "أفينات"
 },
 {
 "name": "Palgei Mayim",
@@ -2492,7 +2620,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "פדואל",
-"pop": 1682
+"pop": 1682,
+"ar": "بدوئيل"
 },
 {
 "name": "Pe'at Sadeh",
@@ -2503,7 +2632,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 110
+"pop": 110,
+"ar": "بيأث سادي"
 },
 {
 "name": "Petzael",
@@ -2514,7 +2644,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "פצאל",
-"pop": 257
+"pop": 257,
+"ar": "بتسائيل"
 },
 {
 "name": "Pisgat Ze'ev",
@@ -2525,7 +2656,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 41210,
-"approx": true
+"approx": true,
+"ar": "بسغات زئيف"
 },
 {
 "name": "Pnei Hever",
@@ -2536,7 +2668,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "פני חבר",
-"pop": 548
+"pop": 548,
+"ar": "معاليه هيفير"
 },
 {
 "name": "Pnei Kedem",
@@ -2556,7 +2689,8 @@
 "founded": 2022,
 "pop": 111,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "مرتفعات ترمب"
 },
 {
 "name": "Psagot",
@@ -2567,7 +2701,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "פסגות",
-"pop": 1847
+"pop": 1847,
+"ar": "بسجوت"
 },
 {
 "name": "Qazrin",
@@ -2577,7 +2712,8 @@
 "founded": 1977,
 "pop": 8012,
 "area": "golan",
-"type": "settlement"
+"type": "settlement",
+"ar": "قصرين"
 },
 {
 "name": "Qela",
@@ -2618,7 +2754,8 @@
 "removed": 2005,
 "type": "settlement",
 "area": "gaza",
-"pop": 129
+"pop": 129,
+"ar": "رفياح يام"
 },
 {
 "name": "Ramat Eshkol West",
@@ -2629,7 +2766,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 1985,
-"approx": true
+"approx": true,
+"ar": "رامات إشكول"
 },
 {
 "name": "Ramat Gil'ad",
@@ -2639,7 +2777,8 @@
 "type": "outpost",
 "gov": "Qalqiliya",
 "area": "westbank",
-"approx": true
+"approx": true,
+"ar": "رمات جلعاد"
 },
 {
 "name": "Ramat Magshimim",
@@ -2671,7 +2810,8 @@
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
 "pop": 15070,
-"approx": true
+"approx": true,
+"ar": "رامات شلومو"
 },
 {
 "name": "Ramot",
@@ -2691,7 +2831,8 @@
 "type": "settlement",
 "gov": "East Jerusalem",
 "area": "eastjerusalem",
-"pop": 44980
+"pop": 44980,
+"ar": "راموت"
 },
 {
 "name": "Rechelim",
@@ -2701,7 +2842,8 @@
 "type": "settlement",
 "gov": "Nablus",
 "area": "westbank",
-"he": "רחלים"
+"he": "רחלים",
+"ar": "ريحاليم"
 },
 {
 "name": "Reihan",
@@ -2712,7 +2854,8 @@
 "gov": "Jenin",
 "area": "westbank",
 "he": "ריחן",
-"pop": 224
+"pop": 224,
+"ar": "ريحان"
 },
 {
 "name": "Revava",
@@ -2723,7 +2866,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "רבבה",
-"pop": 2181
+"pop": 2181,
+"ar": "رفافا"
 },
 {
 "name": "Rimonim",
@@ -2734,7 +2878,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "רימונים",
-"pop": 625
+"pop": 625,
+"ar": "ريمونيم"
 },
 {
 "name": "Ro'i",
@@ -2744,7 +2889,8 @@
 "type": "settlement",
 "gov": "Tubas",
 "area": "westbank",
-"he": "רועי"
+"he": "רועי",
+"ar": "روعي"
 },
 {
 "name": "Rosh Tzurim",
@@ -2755,7 +2901,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "ראש צורים",
-"pop": 934
+"pop": 934,
+"ar": "روش صوريم"
 },
 {
 "name": "Rotem",
@@ -2766,7 +2913,8 @@
 "gov": "Tubas",
 "area": "westbank",
 "he": "רותם",
-"pop": 196
+"pop": 196,
+"ar": "روتم"
 },
 {
 "name": "Sal'it",
@@ -2777,7 +2925,8 @@
 "gov": "Tulkarm",
 "area": "westbank",
 "he": "סלעית",
-"pop": 818
+"pop": 818,
+"ar": "سلعيت"
 },
 {
 "name": "Sansana",
@@ -2786,7 +2935,8 @@
 "founded": 1999,
 "type": "outpost",
 "gov": "Hebron",
-"area": "westbank"
+"area": "westbank",
+"ar": "سنسانة"
 },
 {
 "name": "Sde Bar",
@@ -2815,7 +2965,8 @@
 "founded": 1983,
 "type": "settlement",
 "gov": "Qalqiliya",
-"area": "westbank"
+"area": "westbank",
+"ar": "شعاري تكفاه"
 },
 {
 "name": "Shaar Binyamin I.P.",
@@ -2824,7 +2975,8 @@
 "founded": null,
 "type": "industrial park",
 "gov": "Jerusalem",
-"area": "westbank"
+"area": "westbank",
+"ar": "منطقة شعاري بنيامين الصناعية"
 },
 {
 "name": "Shadmot Mehola",
@@ -2835,7 +2987,8 @@
 "gov": "Tubas",
 "area": "westbank",
 "he": "שדמות מחולה",
-"pop": 608
+"pop": 608,
+"ar": "شدموت ميخولا"
 },
 {
 "name": "Shahak I.P.",
@@ -2866,7 +3019,8 @@
 "gov": "Jenin",
 "area": "westbank",
 "he": "שקד",
-"pop": 864
+"pop": 864,
+"ar": "شاكيد"
 },
 {
 "name": "Shalhevet Farm",
@@ -2897,7 +3051,8 @@
 "gov": "Nablus",
 "area": "westbank",
 "he": "שבי שומרון",
-"pop": 897
+"pop": 897,
+"ar": "شافي شمرون"
 },
 {
 "name": "Shilat",
@@ -2918,7 +3073,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "שילה",
-"pop": 3727
+"pop": 3727,
+"ar": "شيلو (مستوطنة)"
 },
 {
 "name": "Shim'a",
@@ -2929,7 +3085,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "שמעה",
-"pop": 592
+"pop": 592,
+"ar": "شمعة"
 },
 {
 "name": "Shirat HaYam",
@@ -2989,7 +3146,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "סוסיה",
-"pop": 1115
+"pop": 1115,
+"ar": "سوسيا"
 },
 {
 "name": "Tal Menashe",
@@ -2998,7 +3156,8 @@
 "founded": 1992,
 "type": "outpost",
 "gov": "Jenin",
-"area": "westbank"
+"area": "westbank",
+"ar": "تل منشيه"
 },
 {
 "name": "Talmon",
@@ -3009,7 +3168,8 @@
 "gov": "Ramallah",
 "area": "westbank",
 "he": "טלמון",
-"pop": 3879
+"pop": 3879,
+"ar": "تلمون"
 },
 {
 "name": "Tel Katifa",
@@ -3030,7 +3190,8 @@
 "gov": "Hebron",
 "area": "westbank",
 "he": "תלם",
-"pop": 362
+"pop": 362,
+"ar": "تيليم"
 },
 {
 "name": "Tene",
@@ -3052,7 +3213,8 @@
 "gov": "Bethlehem",
 "area": "westbank",
 "he": "תקוע",
-"pop": 3633
+"pop": 3633,
+"ar": "تكواع"
 },
 {
 "name": "Tko'a B and C",
@@ -3083,7 +3245,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "תומר",
-"pop": 262
+"pop": 262,
+"ar": "تومر"
 },
 {
 "name": "Tzofim",
@@ -3093,7 +3256,8 @@
 "type": "settlement",
 "gov": "Qalqiliya",
 "area": "westbank",
-"pop": 2087
+"pop": 2087,
+"ar": "تسوفيم"
 },
 {
 "name": "Tzur Shalem",
@@ -3114,7 +3278,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "ורד יריחו",
-"pop": 252
+"pop": 252,
+"ar": "فيريد يريحو"
 },
 {
 "name": "Yafit",
@@ -3125,7 +3290,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "יפית",
-"pop": 139
+"pop": 139,
+"ar": "يافيت"
 },
 {
 "name": "Yair Farm",
@@ -3134,7 +3300,8 @@
 "founded": 2001,
 "type": "outpost",
 "gov": "Salfit",
-"area": "westbank"
+"area": "westbank",
+"ar": "مزرعة يائير"
 },
 {
 "name": "Yakir",
@@ -3145,7 +3312,8 @@
 "gov": "Salfit",
 "area": "westbank",
 "he": "יקיר",
-"pop": 1901
+"pop": 1901,
+"ar": "ياكير"
 },
 {
 "name": "Yitav",
@@ -3156,7 +3324,8 @@
 "gov": "Jericho",
 "area": "westbank",
 "he": "ייט\"ב",
-"pop": 321
+"pop": 321,
+"ar": "ياتيف"
 },
 {
 "name": "Yitzhar",
@@ -3167,7 +3336,8 @@
 "gov": "Nablus",
 "area": "westbank",
 "he": "יצהר",
-"pop": 1468
+"pop": 1468,
+"ar": "يتسهار"
 },
 {
 "name": "Yonatan",

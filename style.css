@@ -789,3 +789,7 @@ input:focus-visible {
 .cc-table thead th { white-space: nowrap; }
 .cc-remove { margin-left: 4px; border: 0; background: none; color: inherit; cursor: pointer; font-size: 14px; line-height: 1; opacity: 0.6; }
 .cc-remove:hover { opacity: 1; }
+
+.fiche-names { margin: -2px 0 8px; font-size: 15px; line-height: 1.5; }
+.fiche-names small { font-size: 10px; opacity: 0.6; }
+.fiche-names [lang="ar"], .fiche-names [lang="he"], dd [lang="ar"], dd [lang="he"] { unicode-bidi: isolate; }
