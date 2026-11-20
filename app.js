@@ -1865,6 +1865,7 @@ function hadrianBandsHtml() {
 let hadrianBirth = null;
 fetch("data/hadrian-birthplace.json").then((r) => r.json()).then((d) => { hadrianBirth = d; }).catch(() => {});
 const HADRIAN_BIRTH_REFS = [
+  "Office for National Statistics (2014) 2011 Census: MM01CUK_ALL Origin and destination of migrants by age by sex, merged local authority districts (UK). Nomis. Available at: https://www.nomisweb.co.uk/census/2011/mm01cuk_all (Accessed: 20 November 2026).",
   "Office for National Statistics (2023) Census 2021: country of birth (60 categories) by middle layer super output area. Create a custom dataset API. Available at: https://api.beta.ons.gov.uk/v1/population-types/UR/census-observations (Accessed: 20 November 2026).",
   "Office for National Statistics (2013) 2011 Census: KS204EW Country of birth by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 20 November 2026).",
   "Office for National Statistics (2003) 2001 Census: KS005 Country of birth by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 20 November 2026).",
@@ -1873,6 +1874,20 @@ const HADRIAN_BIRTH_REFS = [
   "General Register Office for Scotland (2003) Scotland's Census 2001: UV08 Country of birth, output areas. Available at: https://www.scotlandscensus.gov.uk/documents/2001-census-table-data-output-area (Accessed: 20 November 2026).",
   "National Records of Scotland (2025) Output area population-weighted centroids, censuses 2001, 2011 and 2022. Spatial Data Scotland map service, Open Government Licence. Available at: https://maps.gov.scot/server/rest/services/NRS/ (Accessed: 20 November 2026).",
 ];
+function hadrianMovesHtml(b) {
+  const m = b.moves_2011;
+  if (!m) return "";
+  const r = (x, n) => ((1000 * x) / n).toFixed(1);
+  const row = (label, o, inLab, outLab) => `<tr><th>${label}</th><td>${o.in.toLocaleString("en")}</td><td>${o.out.toLocaleString("en")}</td><td>${r(o.in, o.pop)}</td><td>${r(o.out, o.pop)}</td></tr>`;
+  return `<p class="fiche-text"><strong>Moves across the border in one year (2010–11)</strong>: people whose address a year before the 2011 census was on the other side. Near the line, people cross more often than in the two countries as a whole: the two Scottish border councils exchange people with England at 1.3 to 1.5 times Scotland's rate, and the English councils along the wall exchange people with Scotland at more than twice England's rate. In both places as many left as arrived, so the larger share of English-born people north of the wall built up over decades rather than from a one-way flow in that year. A quarter of the people who moved from England to the Scottish border councils came from the councils along the wall.</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Area</th><th>Arrived from the other country</th><th>Left for the other country</th><th>Arrived per 1,000 residents</th><th>Left per 1,000</th></tr></thead><tbody>
+    ${row("Scottish border councils (Dumfries and Galloway, Scottish Borders)", m.north)}
+    ${row("English councils along the wall", m.south)}
+    <tr class="hist-nat"><th>All of Scotland</th><td>${m.scotland.in.toLocaleString("en")}</td><td>${m.scotland.out.toLocaleString("en")}</td><td>${r(m.scotland.in, m.scotland.pop)}</td><td>${r(m.scotland.out, m.scotland.pop)}</td></tr>
+    <tr class="hist-nat"><th>All of England</th><td>${m.england.in.toLocaleString("en")}</td><td>${m.england.out.toLocaleString("en")}</td><td>${r(m.england.in, m.england.pop)}</td><td>${r(m.england.out, m.england.pop)}</td></tr>
+    </tbody></table></div>
+    <p class="cite">Whole council areas, so wider than the 50 km band. English councils: Carlisle, Allerdale, Copeland, Eden, Northumberland, Newcastle upon Tyne, North and South Tyneside, Gateshead, Sunderland and County Durham. Residents aged 1 and over. In-text: (Office for National Statistics, 2014)</p>`;
+}
 function hadrianBirthHtml() {
   const b = hadrianBirth;
   if (!b) return "";
@@ -1891,6 +1906,7 @@ function hadrianBirthHtml() {
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Distance from the wall</th>${engYears.map((y) => `<th>${y}</th>`).join("")}<th>People, 2021</th></tr></thead><tbody>${rowsS}${natS}</tbody></table></div>
     <p class="fiche-text"><strong>Born in England, living in Scotland north of the wall</strong></p>
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Distance from the wall</th>${scoYears.map((y) => `<th>${y}</th>`).join("")}<th>People, 2022</th></tr></thead><tbody>${rowsN}${natN}</tbody></table></div>
+    ${hadrianMovesHtml(b)}
     <p class="fiche-text">In the part of England north of the wall (Northumberland and North Tyneside), ${pct(nn["2001"].scot_pct)} of residents were born in Scotland in 2001 and ${pct(nn["2021"].scot_pct)} in 2021, reaching ${pct(b.scot_in_england.north["35–50 km"]["2001"].scot_pct)} in the band 35–50 km out, nearest the Scottish border.</p>
     <p class="cite">${b.note} Census birthplace counts everyone living there on census day, whatever their age or how long ago they moved; it is not a count of moves. Moves between censuses (origin–destination tables) and the 1851–1911 censuses would show movement directly; they are being requested from the UK Data Service. In-text: (Office for National Statistics, 2003; 2013; 2023; General Register Office for Scotland, 2003; National Records of Scotland, 2014; 2024; 2025)</p>
     <ol class="refs">${HADRIAN_BIRTH_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
