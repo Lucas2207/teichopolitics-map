@@ -793,3 +793,7 @@ input:focus-visible {
 .fiche-names { margin: -2px 0 8px; font-size: 15px; line-height: 1.5; }
 .fiche-names small { font-size: 10px; opacity: 0.6; }
 .fiche-names [lang="ar"], .fiche-names [lang="he"], dd [lang="ar"], dd [lang="he"] { unicode-bidi: isolate; }
+
+.compare-btn.play-time-btn { display: block; width: 100%; margin: 6px 0 10px; padding: 8px 10px; font-weight: 700; text-align: left; background: #5e3c99; color: #fff; border-color: #5e3c99; }
+.compare-btn.play-time-btn:hover { background: #4b2f7d; }
+.lc-yearbadge small { display: block; font-size: 10px; font-weight: 400; line-height: 1.2; opacity: 0.75; }

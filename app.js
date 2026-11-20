@@ -353,6 +353,19 @@ const HW_INDICATORS = {
 };
 const HW_YEARS = ["2001", "2011", "2021"];
 const HW_INCOME_YEARS = ["2014", "2016", "2018", "2020", "2023"];
+// US census tracts over time: ACS five-year periods 2007–11, 2011–15 and 2016–20 beside 2020–24. The 2010-tract periods are
+// carried onto the 2020 tracts by land-area share (Census Bureau relationship file); incomes in 2024 dollars (CPI-U)
+const US_PERIODS = { 2011: "2007–11", 2015: "2011–15", 2020: "2016–20", 2024: "2020–24" };
+["income", "poverty", "unemp", "employed", "hisp", "foreign", "spanish"].forEach((k) => {
+  const base = THEMES[`us_${k}`];
+  const short = base.label.replace(/ \(2020–24\)$/, "");
+  Object.assign(base, { series: `us_${k}`, year: "2020–24", yearN: 2024 });
+  [2011, 2015, 2020].forEach((y) => {
+    THEMES[`us_${k}_${y}`] = { ...base, compareOnly: true, group: `US border tracts, 2007–2024 · ${short}`, label: `${short} (${US_PERIODS[y]})`, year: US_PERIODS[y], yearN: y,
+      field: `${k}_${y}`, source: `U.S. Census Bureau, ACS ${US_PERIODS[y].replace("–", "–20")}`,
+      note: `${base.note}${y < 2020 ? ". Survey on 2010 census tracts, carried onto 2020 tracts by land-area share" : ""}${k === "income" ? ". Converted to 2024 dollars with the consumer price index (CPI-U)" : ""}` };
+  });
+});
 THEMES.hw_side = { region: "hw", label: "Side of the wall", src: "hw", field: "side_n", breaks: [0.5], colors: ["#d8b365", "#5ab4ac"],
   labels: ["South of the wall", "North of the wall"], note: "Small areas in England within 50 km of the wall line (measured from its nearest point). Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (Annan and Dumfries north, the Cumbrian coast south). Scottish areas are in the 1 km squares, 1971–2011" };
 Object.entries(HW_INDICATORS).forEach(([k, ind]) => HW_YEARS.forEach((y) => {
@@ -1284,6 +1297,7 @@ function cityPopupHtml(en, meta) {
       <button type="button" class="compare-btn" data-compare>Compare with another city</button>
       ${region ? `<button type="button" class="compare-btn compare-maps-btn" data-layer-compare="${region}">Compare neighbourhood maps side by side</button>` : ""}
     </div>
+    ${playButtonHtml(en === "Belfast" ? "belfast" : region === "us" ? "us" : "")}
     <dl>
       ${row("Country", f.country)}
       ${row("Latest census", f.census)}
@@ -2145,7 +2159,7 @@ function compareLegendHtml(th) {
 }
 // Themes that form a time series (same indicator, several years), in year order: animated by the play button
 function seriesKeys(series) {
-  return Object.keys(THEMES).filter((k) => THEMES[k].series === series);
+  return Object.keys(THEMES).filter((k) => THEMES[k].series === series).sort((a, b) => themeYear(THEMES[a]) - themeYear(THEMES[b]));
 }
 function openLayerCompare(region, playSeries) {
   closeLayerCompare();
@@ -2159,7 +2173,7 @@ function openLayerCompare(region, playSeries) {
   box.innerHTML = `<div class="lc-bar">
       <strong>Compare themes side by side</strong>
       <label>Maps <select class="lc-count">${[1, 2, 3, 4].map((n) => `<option${n === (playSeries ? 1 : 2) ? " selected" : ""}>${n}</option>`).join("")}</select></label>
-      <span class="lc-hint">The maps move together. Hover or tap an area to read its value; the black lines are the walls. Layers with several years have a ▶ button to play them over time.</span>
+      <span class="lc-hint">The maps move together. Hover or tap an area to read its value; the black lines are the walls. Layers with several years have a ▶ button: the colours fade from one census to the next, the year counts up, and walls appear in the year they were built (walls with no known date are always shown).</span>
       <button type="button" class="lc-close" aria-label="Close the side-by-side maps">×</button>
     </div>
     <div class="lc-grid"></div>
@@ -2217,7 +2231,7 @@ function setComparePanels(n) {
     m.createPane("lcWalls");
     m.getPane("lcWalls").style.zIndex = 440;
     m.getPane("lcWalls").style.pointerEvents = "none";
-    L.geoJSON(lc.walls, { pane: "lcWalls", style: { color: "#111", weight: 3, opacity: 0.95 }, pointToLayer: (f, ll) => L.circleMarker(ll, { pane: "lcWalls", radius: 3, color: "#111", fillOpacity: 1 }), interactive: false }).addTo(m);
+    panel.walls = L.geoJSON(lc.walls, { pane: "lcWalls", style: { color: "#111", weight: 3, opacity: 0.95 }, pointToLayer: (f, ll) => L.circleMarker(ll, { pane: "lcWalls", radius: 3, color: "#111", fillOpacity: 1 }), interactive: false }).addTo(m);
     if (view) m.setView(view.c, view.z);
     else m.fitBounds(REGIONS[lc.region].home);
     // Moving one map moves the others
@@ -2233,23 +2247,65 @@ function setComparePanels(n) {
   }
   setTimeout(() => lc.panels.forEach((p) => p.map.invalidateSize()), 0);
 }
-// Play over time: step a panel through the years of its indicator, one census every 1.6 seconds, on a fixed colour scale
+// Play over time: a continuous clock runs from the first census to the last. Between two censuses each area's colour
+// fades from one census's class to the next (a visual blend, not an estimate), the year counter runs year by year,
+// and walls appear in the year they were built (walls with no known date are always shown).
+const yearNum = (y) => { const m = String(y).match(/\d{4}/g); return m ? Number(m[m.length - 1]) : null; };
+const themeYear = (th) => (th.yearN != null ? th.yearN : yearNum(th.year));
+const PLAY_MS_PER_GAP = 2600, PLAY_HOLD_MS = 700, PLAY_TICK = 50;
+function mixHex(a, b, f) {
+  const ok = (c) => /^#[0-9a-f]{6}$/i.test(c || "");
+  if (!ok(a) || !ok(b)) return f < 0.5 ? a : b;
+  const c = (h, i) => parseInt(h.slice(1 + 2 * i, 3 + 2 * i), 16);
+  return `#${[0, 1, 2].map((i) => Math.round(c(a, i) + (c(b, i) - c(a, i)) * f).toString(16).padStart(2, "0")).join("")}`;
+}
+function setPanelWalls(panel, year) {
+  if (!panel.walls) return;
+  panel.walls.eachLayer((l) => {
+    const p = l.feature.properties;
+    const on = year == null || ((p.built == null || p.built <= year) && !(p.removed && p.removed <= year));
+    l.setStyle({ opacity: on ? 0.95 : 0, fillOpacity: on ? 1 : 0 });
+  });
+}
 function stopPlay(panel) {
   clearInterval(panel.timer);
   panel.timer = null;
   const b = panel.cell.querySelector(".lc-play-btn");
   if (b) { b.textContent = "▶"; b.setAttribute("aria-label", "Play over time"); }
 }
+// Show a panel at a point in time t, counted in census gaps (0 = first census, 1 = second, 1.5 = halfway between them)
+function setPanelTime(panel, series, t) {
+  const keys = seriesKeys(series);
+  const i = Math.min(Math.floor(t), keys.length - 1), f = Math.min(1, Math.max(0, t - i));
+  const kA = keys[i], kB = keys[Math.min(i + 1, keys.length - 1)];
+  if (panel.key !== kA) drawComparePanel(panel, kA, true);
+  const thA = THEMES[kA], thB = THEMES[kB];
+  const yA = themeYear(thA), yB = themeYear(thB);
+  const year = Math.round(yA + (yB - yA) * f);
+  if (panel.geo) panel.geo.setStyle((ft) => ({ fillColor: f > 0 && kB !== kA ? mixHex(themeColor(thA, ft.properties[thA.field]), themeColor(thB, ft.properties[thB.field]), f) : themeColor(thA, ft.properties[thA.field]) }));
+  const badge = panel.badge && panel.badge.getContainer();
+  const kind = thA.src === "us" ? ["survey", "surveys"] : ["census", "censuses"];
+  if (badge) badge.innerHTML = f > 0 && f < 1 ? `${year}<small>between the ${thA.year} and ${thB.year} ${kind[1]}</small>` : `${f >= 1 ? thB.year : thA.year}<small>${kind[0]}</small>`;
+  setPanelWalls(panel, year);
+  const slider = panel.cell.querySelector(".lc-slider");
+  if (slider) slider.value = t;
+}
 function togglePlay(panel) {
   if (panel.timer) { stopPlay(panel); return; }
-  const keys = seriesKeys(THEMES[panel.key].series);
+  const series = THEMES[panel.key].series;
+  const keys = seriesKeys(series);
   if (keys.length < 2) return;
-  if (keys.indexOf(panel.key) === keys.length - 1) drawComparePanel(panel, keys[0]);
+  let t = keys.indexOf(panel.key);
+  if (t >= keys.length - 1) t = 0;
+  let hold = PLAY_HOLD_MS;
+  setPanelTime(panel, series, t);
   panel.timer = setInterval(() => {
-    const i = keys.indexOf(panel.key);
-    if (i >= keys.length - 1) { stopPlay(panel); return; }
-    drawComparePanel(panel, keys[i + 1]);
-  }, 1600);
+    if (hold > 0) { hold -= PLAY_TICK; return; }
+    const next = Math.min(keys.length - 1, t + PLAY_TICK / PLAY_MS_PER_GAP);
+    if (Math.floor(next) > Math.floor(t) || next === keys.length - 1) { t = Math.round(next); hold = PLAY_HOLD_MS; } else t = next;
+    setPanelTime(panel, series, t);
+    if (t >= keys.length - 1) stopPlay(panel);
+  }, PLAY_TICK);
   const b = panel.cell.querySelector(".lc-play-btn");
   if (b) { b.textContent = "❚❚"; b.setAttribute("aria-label", "Pause"); }
 }
@@ -2258,10 +2314,10 @@ function playControlsHtml(th) {
   if (keys.length < 2) return "";
   const i = keys.indexOf(Object.keys(THEMES).find((k) => THEMES[k] === th));
   return `<div class="lc-play"><button type="button" class="lc-play-btn" aria-label="Play over time">▶</button>
-    <input type="range" class="lc-slider" min="0" max="${keys.length - 1}" step="1" value="${i}" aria-label="Year">
+    <input type="range" class="lc-slider" min="0" max="${keys.length - 1}" step="0.01" value="${i}" aria-label="Year">
     <span class="lc-years">${keys.map((k, j) => `<span${j === i ? ' class="on"' : ""}>${THEMES[k].year}</span>`).join("")}</span></div>`;
 }
-function drawComparePanel(panel, key) {
+function drawComparePanel(panel, key, fromPlay) {
   const th = THEMES[key];
   const prev = panel.key && THEMES[panel.key];
   panel.key = key;
@@ -2273,7 +2329,7 @@ function drawComparePanel(panel, key) {
   if (playBtn) {
     if (panel.timer) { playBtn.textContent = "❚❚"; playBtn.setAttribute("aria-label", "Pause"); }
     playBtn.addEventListener("click", () => togglePlay(panel));
-    keyBox.querySelector(".lc-slider").addEventListener("input", (e) => { stopPlay(panel); drawComparePanel(panel, seriesKeys(th.series)[Number(e.target.value)]); });
+    keyBox.querySelector(".lc-slider").addEventListener("input", (e) => { stopPlay(panel); setPanelTime(panel, th.series, Number(e.target.value)); });
   }
   // Year shown large on the map while a series is on screen
   if (!panel.badge) {
@@ -2281,8 +2337,9 @@ function drawComparePanel(panel, key) {
     panel.badge.onAdd = () => L.DomUtil.create("div", "lc-yearbadge");
     panel.badge.addTo(panel.map);
   }
-  panel.badge.getContainer().textContent = th.series ? th.year : "";
+  if (!fromPlay) panel.badge.getContainer().innerHTML = th.series ? `${th.year}<small>${th.src === "us" ? "survey" : "census"}</small>` : "";
   panel.badge.getContainer().hidden = !th.series;
+  if (!fromPlay) setPanelWalls(panel, th.series ? themeYear(th) : null);
   // Same areas as before (another year of the same data): recolour in place instead of redrawing
   if (prev && prev.src === th.src && th.src !== "mxageb" && panel.geo) {
     panel.geo.setStyle((f) => ({ fillColor: themeColor(th, f.properties[th.field]) }));
@@ -2324,6 +2381,17 @@ function cityRegion(meta) {
 }
 const wallRegion = (p) => (/^Hadrian's Wall$/.test(p.name || "") ? ["hw"] : /Northern Ireland/.test(p.countries || "") ? ["ni"] : /United States/.test(p.countries || "") && /Mexico/.test(p.countries || "") ? ["us", "mx"] : null);
 
+// A prominent "play over time" button near the top of the cards whose census maps cover several years
+const PLAY_BUTTONS = {
+  hw: ["hw", "hwg_pop", "Play the census maps over time, 1971–2011"],
+  belfast: ["ni", "bw_cath_share", "Play Belfast's census maps over time, 1971–2021"],
+  us: ["us", "us_hisp", "Play the census tract maps over time, 2007–2024"],
+};
+function playButtonHtml(key) {
+  const b = PLAY_BUTTONS[key];
+  if (!b || !Object.values(THEMES).some((t) => t.series === b[1])) return "";
+  return `<button type="button" class="compare-btn play-time-btn" data-layer-compare="${b[0]}" data-play="${b[1]}">▶ ${b[2]}</button>`;
+}
 function popupHtml(p) {
   // Summary first; detail sections open with an arrow (native <details>)
   const or = (v, fallback = "Not documented") => (v ? v : fallback);
@@ -2364,6 +2432,7 @@ function popupHtml(p) {
   return `<div class="fiche">
     <div class="fiche-title">${p.name}</div>
     ${wallRegion(p) ? `<button type="button" class="compare-btn compare-maps-btn" data-layer-compare="${wallRegion(p)[0]}">Compare neighbourhood maps side by side</button>` : ""}
+    ${playButtonHtml(p.name === "Hadrian's Wall" ? "hw" : /Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? "belfast" : wallRegion(p) && wallRegion(p)[0] === "us" ? "us" : "")}
     <dl class="summary">
       ${row("Location", `${or(p.countries)}${showSeparates ? ` · separates ${p.separates}` : ""}`)}
       ${row("Type", or(TYPE_LABELS[p.type] || p.type))}
