@@ -702,6 +702,7 @@ input:focus-visible {
 .lc-hint { flex: 1 1 260px; opacity: 0.75; font-size: 12px; }
 .lc-close { margin-left: auto; width: 30px; height: 30px; font-size: 18px; line-height: 1; color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 50%; cursor: pointer; }
 .lc-grid { flex: 1 1 auto; min-height: 0; display: grid; gap: 4px; padding: 4px; }
+.lc-grid.lc-1 { grid-template-columns: 1fr; }
 .lc-grid.lc-2 { grid-template-columns: 1fr 1fr; }
 .lc-grid.lc-3 { grid-template-columns: 1fr 1fr 1fr; }
 .lc-grid.lc-4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
@@ -751,3 +752,32 @@ input:focus-visible {
 .chx-hit { fill: transparent; cursor: crosshair; }
 .chx-hit:hover { fill: var(--muted); opacity: 0.12; }
 .nij-key.nij-gapkey { height: 9px; background: var(--muted); opacity: 0.35; }
+
+/* Play over time (side-by-side maps) */
+.lc-play { display: flex; align-items: center; gap: 8px; margin: 2px 0 6px; flex-wrap: wrap; }
+.lc-play-btn { min-width: 34px; height: 28px; border: 1px solid var(--border); border-radius: 4px; background: var(--panel); color: var(--text); font-size: 13px; cursor: pointer; }
+.lc-play-btn:hover { border-color: var(--text); }
+.lc-slider { flex: 1 1 140px; min-width: 120px; }
+.lc-years { display: flex; gap: 6px; font-size: 10px; color: var(--muted); }
+.lc-years .on { color: var(--text); font-weight: 700; }
+.lc-yearbadge { padding: 2px 10px; font-size: 26px; font-weight: 700; line-height: 1.3; color: #111; background: rgba(255, 255, 255, 0.85); border-radius: 4px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); pointer-events: none; }
+.mlc-mark { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
+.mlc-marklabel { fill: var(--muted); font-size: 8px; }
+.mlc-dash { fill: none; stroke: var(--nij-p); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.7; }
+.mlc-pt { fill: var(--nij-p); }
+.mlc-hit { fill: transparent; cursor: crosshair; }
+
+/* Wide information page (same translucent card, wider) */
+.info-card.wide-page { width: min(1100px, calc(100vw - 40px)); }
+.leaflet-top.leaflet-right:has(.wide-page) { z-index: 1001; }
+.wp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 8px 20px; }
+.wp-h { margin: 14px 0 4px; font-size: 13px; }
+.oc-table td.oc-v { position: relative; white-space: nowrap; background: linear-gradient(90deg, rgba(94, 60, 153, 0.18) var(--w), transparent var(--w)); }
+.oc-table td small { margin-left: 3px; font-size: 9px; opacity: 0.6; }
+.oc-table td.oc-na { opacity: 0.5; }
+.oc-table tr.oc-uk th, .oc-table tr.oc-uk td { font-weight: 700; border-top: 2px solid var(--text); }
+.oc-table tr.oc-fr th, .oc-table tr.oc-fr td { border-bottom: 2px solid var(--border); }
+:root[data-theme="dark"] .oc-table td.oc-v { background: linear-gradient(90deg, rgba(138, 111, 201, 0.3) var(--w), transparent var(--w)); }
+.cx-dot { display: inline-block; width: 10px; height: 10px; margin-right: 6px; border: 2px solid #111; border-radius: 50%; vertical-align: -1px; }
+
+.hist-table tr.hist-nat th, .hist-table tr.hist-nat td { font-style: italic; border-top: 1px solid currentColor; }

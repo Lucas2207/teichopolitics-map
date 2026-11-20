@@ -1,0 +1,286 @@
+{
+ "bands": [
+  "Under 5 km",
+  "5–10 km",
+  "10–20 km",
+  "20–35 km",
+  "35–50 km"
+ ],
+ "note": "Residents of 1 km squares (with at least 10 residents at one census) by distance from the wall line and side, PopChange 1971-2011",
+ "sides": {
+  "north": {
+   "1971": [
+    {
+     "pop": 293894,
+     "born_abroad": 2.8,
+     "unemp": 5.5
+    },
+    {
+     "pop": 147404,
+     "born_abroad": 1.7,
+     "unemp": 4.6
+    },
+    {
+     "pop": 103729,
+     "born_abroad": 1.4,
+     "unemp": 5.6
+    },
+    {
+     "pop": 113719,
+     "born_abroad": 1.7,
+     "unemp": 4.8
+    },
+    {
+     "pop": 52520,
+     "born_abroad": 1.7,
+     "unemp": 4.0
+    }
+   ],
+   "1981": [
+    {
+     "pop": 281553,
+     "born_abroad": 3.1,
+     "unemp": 13.4
+    },
+    {
+     "pop": 145715,
+     "born_abroad": 1.9,
+     "unemp": 10.5
+    },
+    {
+     "pop": 114889,
+     "born_abroad": 1.5,
+     "unemp": 10.5
+    },
+    {
+     "pop": 115284,
+     "born_abroad": 1.8,
+     "unemp": 10.0
+    },
+    {
+     "pop": 49799,
+     "born_abroad": 2.0,
+     "unemp": 9.3
+    }
+   ],
+   "1991": [
+    {
+     "pop": 273058,
+     "born_abroad": 3.5,
+     "unemp": 11.7
+    },
+    {
+     "pop": 145271,
+     "born_abroad": 2.2,
+     "unemp": 8.1
+    },
+    {
+     "pop": 117466,
+     "born_abroad": 1.7,
+     "unemp": 9.5
+    },
+    {
+     "pop": 116120,
+     "born_abroad": 1.8,
+     "unemp": 9.5
+    },
+    {
+     "pop": 52535,
+     "born_abroad": 2.2,
+     "unemp": 7.1
+    }
+   ],
+   "2001": [
+    {
+     "pop": 281164,
+     "born_abroad": 5.7,
+     "unemp": 7.3
+    },
+    {
+     "pop": 149891,
+     "born_abroad": 2.8,
+     "unemp": 5.5
+    },
+    {
+     "pop": 120126,
+     "born_abroad": 2.0,
+     "unemp": 7.0
+    },
+    {
+     "pop": 116990,
+     "born_abroad": 2.4,
+     "unemp": 7.3
+    },
+    {
+     "pop": 52785,
+     "born_abroad": 2.4,
+     "unemp": 6.3
+    }
+   ],
+   "2011": [
+    {
+     "pop": 303525,
+     "born_abroad": 10.0,
+     "unemp": 7.6
+    },
+    {
+     "pop": 155221,
+     "born_abroad": 3.8,
+     "unemp": 5.7
+    },
+    {
+     "pop": 122762,
+     "born_abroad": 2.5,
+     "unemp": 7.5
+    },
+    {
+     "pop": 120890,
+     "born_abroad": 3.1,
+     "unemp": 8.1
+    },
+    {
+     "pop": 55442,
+     "born_abroad": 3.2,
+     "unemp": 6.5
+    }
+   ]
+  },
+  "south": {
+   "1971": [
+    {
+     "pop": 446901,
+     "born_abroad": 1.6,
+     "unemp": 6.6
+    },
+    {
+     "pop": 268627,
+     "born_abroad": 1.7,
+     "unemp": 6.4
+    },
+    {
+     "pop": 409338,
+     "born_abroad": 1.1,
+     "unemp": 6.2
+    },
+    {
+     "pop": 328092,
+     "born_abroad": 1.2,
+     "unemp": 5.2
+    },
+    {
+     "pop": 470655,
+     "born_abroad": 2.0,
+     "unemp": 5.9
+    }
+   ],
+   "1981": [
+    {
+     "pop": 411147,
+     "born_abroad": 1.8,
+     "unemp": 17.1
+    },
+    {
+     "pop": 262457,
+     "born_abroad": 1.4,
+     "unemp": 16.4
+    },
+    {
+     "pop": 399798,
+     "born_abroad": 1.3,
+     "unemp": 17.9
+    },
+    {
+     "pop": 313862,
+     "born_abroad": 1.2,
+     "unemp": 12.6
+    },
+    {
+     "pop": 451917,
+     "born_abroad": 2.0,
+     "unemp": 16.0
+    }
+   ],
+   "1991": [
+    {
+     "pop": 390994,
+     "born_abroad": 2.1,
+     "unemp": 14.7
+    },
+    {
+     "pop": 260881,
+     "born_abroad": 1.7,
+     "unemp": 13.0
+    },
+    {
+     "pop": 392485,
+     "born_abroad": 1.5,
+     "unemp": 13.2
+    },
+    {
+     "pop": 310237,
+     "born_abroad": 1.4,
+     "unemp": 10.7
+    },
+    {
+     "pop": 444656,
+     "born_abroad": 2.0,
+     "unemp": 12.5
+    }
+   ],
+   "2001": [
+    {
+     "pop": 372588,
+     "born_abroad": 3.0,
+     "unemp": 8.8
+    },
+    {
+     "pop": 255981,
+     "born_abroad": 2.3,
+     "unemp": 8.5
+    },
+    {
+     "pop": 391186,
+     "born_abroad": 2.2,
+     "unemp": 7.4
+    },
+    {
+     "pop": 314391,
+     "born_abroad": 2.2,
+     "unemp": 6.7
+    },
+    {
+     "pop": 436486,
+     "born_abroad": 2.5,
+     "unemp": 8.5
+    }
+   ],
+   "2011": [
+    {
+     "pop": 390927,
+     "born_abroad": 6.6,
+     "unemp": 8.9
+    },
+    {
+     "pop": 250399,
+     "born_abroad": 3.2,
+     "unemp": 8.8
+    },
+    {
+     "pop": 398206,
+     "born_abroad": 3.8,
+     "unemp": 8.0
+    },
+    {
+     "pop": 325950,
+     "born_abroad": 3.6,
+     "unemp": 7.2
+    },
+    {
+     "pop": 454037,
+     "born_abroad": 4.0,
+     "unemp": 9.6
+    }
+   ]
+  }
+ }
+}

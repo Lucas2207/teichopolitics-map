@@ -1,0 +1,221 @@
+{
+ "bands": [
+  "Under 250 m",
+  "250–500 m",
+  "500 m–1 km",
+  "1–2 km",
+  "Over 2 km"
+ ],
+ "years": {
+  "1971": [
+   {
+    "pop": 109772,
+    "cath_share": 39.1,
+    "homog": 62.9,
+    "male_unemp": 16.7,
+    "moved_1yr": 10.9,
+    "units": 775
+   },
+   {
+    "pop": 80183,
+    "cath_share": 33.6,
+    "homog": 81.9,
+    "male_unemp": 15.4,
+    "moved_1yr": 9.1,
+    "units": 651
+   },
+   {
+    "pop": 82303,
+    "cath_share": 39.2,
+    "homog": 72.8,
+    "male_unemp": 11.8,
+    "moved_1yr": 8.4,
+    "units": 848
+   },
+   {
+    "pop": 83569,
+    "cath_share": 24.3,
+    "homog": 55.4,
+    "male_unemp": 7.1,
+    "moved_1yr": 7.9,
+    "units": 1183
+   },
+   {
+    "pop": 58655,
+    "cath_share": 11.3,
+    "homog": 62.6,
+    "male_unemp": 4.7,
+    "moved_1yr": 6.6,
+    "units": 1286
+   }
+  ],
+  "1981": [
+   {
+    "pop": 55788,
+    "cath_share": 48.7,
+    "homog": 84.9,
+    "male_unemp": 32.2,
+    "moved_1yr": 5.3,
+    "units": 656
+   },
+   {
+    "pop": 48882,
+    "cath_share": 36.6,
+    "homog": 90.9,
+    "male_unemp": 28.6,
+    "moved_1yr": 5.7,
+    "units": 573
+   },
+   {
+    "pop": 58161,
+    "cath_share": 37.4,
+    "homog": 86.0,
+    "male_unemp": 23.8,
+    "moved_1yr": 5.9,
+    "units": 750
+   },
+   {
+    "pop": 68722,
+    "cath_share": 25.4,
+    "homog": 69.0,
+    "male_unemp": 13.8,
+    "moved_1yr": 7.2,
+    "units": 1113
+   },
+   {
+    "pop": 47982,
+    "cath_share": 12.1,
+    "homog": 64.7,
+    "male_unemp": 9.3,
+    "moved_1yr": 6.1,
+    "units": 1150
+   }
+  ],
+  "1991": [
+   {
+    "pop": 53953,
+    "cath_share": 59.7,
+    "homog": 89.1,
+    "male_unemp": 40.3,
+    "moved_1yr": 6.4,
+    "units": 670
+   },
+   {
+    "pop": 44377,
+    "cath_share": 51.9,
+    "homog": 91.7,
+    "male_unemp": 35.7,
+    "moved_1yr": 6.9,
+    "units": 566
+   },
+   {
+    "pop": 53668,
+    "cath_share": 51.8,
+    "homog": 88.0,
+    "male_unemp": 28.5,
+    "moved_1yr": 7.3,
+    "units": 715
+   },
+   {
+    "pop": 65249,
+    "cath_share": 38.2,
+    "homog": 64.8,
+    "male_unemp": 15.4,
+    "moved_1yr": 7.8,
+    "units": 1119
+   },
+   {
+    "pop": 48506,
+    "cath_share": 19.4,
+    "homog": 55.4,
+    "male_unemp": 10.5,
+    "moved_1yr": 7.3,
+    "units": 1173
+   }
+  ],
+  "2011": [
+   {
+    "pop": 52118,
+    "cath_share": 68.3,
+    "homog": 80.8,
+    "male_unemp": 21.2,
+    "moved_1yr": null,
+    "units": 150
+   },
+   {
+    "pop": 40018,
+    "cath_share": 56.6,
+    "homog": 76.6,
+    "male_unemp": 17.3,
+    "moved_1yr": null,
+    "units": 119
+   },
+   {
+    "pop": 58159,
+    "cath_share": 59.1,
+    "homog": 59.5,
+    "male_unemp": 12.4,
+    "moved_1yr": null,
+    "units": 162
+   },
+   {
+    "pop": 73706,
+    "cath_share": 54.9,
+    "homog": 39.3,
+    "male_unemp": 8.5,
+    "moved_1yr": null,
+    "units": 218
+   },
+   {
+    "pop": 56961,
+    "cath_share": 36.8,
+    "homog": 24.0,
+    "male_unemp": 6.1,
+    "moved_1yr": null,
+    "units": 167
+   }
+  ],
+  "2021": [
+   {
+    "pop": 52439,
+    "cath_share": 65.8,
+    "homog": 64.8,
+    "male_unemp": 10.8,
+    "moved_1yr": 8.9,
+    "units": 114
+   },
+   {
+    "pop": 43329,
+    "cath_share": 62.1,
+    "homog": 70.9,
+    "male_unemp": 10.8,
+    "moved_1yr": 10.9,
+    "units": 96
+   },
+   {
+    "pop": 66700,
+    "cath_share": 65.0,
+    "homog": 58.3,
+    "male_unemp": 8.4,
+    "moved_1yr": 15.6,
+    "units": 143
+   },
+   {
+    "pop": 72879,
+    "cath_share": 57.9,
+    "homog": 34.7,
+    "male_unemp": 6.9,
+    "moved_1yr": 19.2,
+    "units": 154
+   },
+   {
+    "pop": 36723,
+    "cath_share": 49.5,
+    "homog": 16.0,
+    "male_unemp": 4.3,
+    "moved_1yr": 10.8,
+    "units": 79
+   }
+  ]
+ }
+}

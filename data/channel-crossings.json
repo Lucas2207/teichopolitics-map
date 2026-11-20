@@ -17,6 +17,9 @@
 "awaiting": 0,
 "lorry_ports": 8309,
 "air": 4769,
+"ports": 1052,
+"in_uk": 7257,
+"all_routes": 13377,
 "top": [
 [
 "Iran",
@@ -66,6 +69,9 @@
 "awaiting": 5,
 "lorry_ports": 9451,
 "air": 5237,
+"ports": 959,
+"in_uk": 8492,
+"all_routes": 16531,
 "top": [
 [
 "Iran",
@@ -115,6 +121,9 @@
 "awaiting": 71,
 "lorry_ports": 6236,
 "air": 2328,
+"ports": 808,
+"in_uk": 5428,
+"all_routes": 17030,
 "top": [
 [
 "Iran",
@@ -164,6 +173,9 @@
 "awaiting": 288,
 "lorry_ports": 5698,
 "air": 2561,
+"ports": 662,
+"in_uk": 5036,
+"all_routes": 36785,
 "top": [
 [
 "Iran",
@@ -213,6 +225,9 @@
 "awaiting": 789,
 "lorry_ports": 3670,
 "air": 5130,
+"ports": 291,
+"in_uk": 3379,
+"all_routes": 54574,
 "top": [
 [
 "Albania",
@@ -262,6 +277,9 @@
 "awaiting": 613,
 "lorry_ports": 3072,
 "air": 3854,
+"ports": 236,
+"in_uk": 2836,
+"all_routes": 36363,
 "top": [
 [
 "Afghanistan",
@@ -311,6 +329,9 @@
 "awaiting": 1807,
 "lorry_ports": 3125,
 "air": 3349,
+"ports": 225,
+"in_uk": 2900,
+"all_routes": 43290,
 "top": [
 [
 "Afghanistan",
@@ -360,6 +381,9 @@
 "awaiting": 4508,
 "lorry_ports": 2020,
 "air": 3016,
+"ports": 204,
+"in_uk": 1816,
+"all_routes": 46508,
 "top": [
 [
 "Eritrea",
@@ -409,6 +433,9 @@
 "awaiting": null,
 "lorry_ports": null,
 "air": null,
+"ports": null,
+"in_uk": null,
+"all_routes": null,
 "top": [
 [
 "Eritrea",
@@ -444,6 +471,12 @@
 "nat_basis": "Jan–Jun"
 }
 ],
+"h1_2026_routes": {
+"Inadequately documented air arrivals": 929,
+"Recorded detections at UK ports": 139,
+"Recorded detections in the UK": 1015,
+"Small boat arrivals": 11884
+},
 "since2018": {
 "total": 204517,
 "to": "2026-06-30",

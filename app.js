@@ -293,9 +293,9 @@ const THEMES = {
     colors: ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
     note: "Share of residents born in another Mexican state. Urban areas (AGEB) drawn over whole municipalities", source: "INEGI, Census 2020" },
 };
-// Belfast by 2001 ward, 1971–2001, for the side-by-side maps only: one theme per indicator and census year,
+// Belfast by ward (1993 boundaries, as used for the 2001 and 2011 censuses), 1971–2021, for the side-by-side maps only: one theme per indicator and census year,
 // with the same colour scale in every year so that years can be compared
-const WARD_YEARS = ["1971", "1981", "1991", "2001"];
+const WARD_YEARS = ["1971", "1981", "1991", "2001", "2011", "2021"];
 const WARD_INDICATORS = {
   cath_share: { label: "Religion: Catholic share", breaks: [20, 40, 60, 80], colors: THEMES.community.colors,
     labels: ["Over 80% Protestant", "60–80% Protestant", "Mixed (40–60%)", "60–80% Catholic", "Over 80% Catholic"],
@@ -310,9 +310,32 @@ const WARD_INDICATORS = {
   moved_1yr: { label: "Migration: moved home in the past year", breaks: [5, 8, 11, 15], colors: THEMES.minority.colors, note: "Share of residents who changed address in the past year (2001 also counts moves from outside the UK)" },
 };
 Object.entries(WARD_INDICATORS).forEach(([k, ind]) => WARD_YEARS.forEach((y) => {
-  THEMES[`bw_${k}_${y}`] = { region: "ni", compareOnly: true, group: `Belfast by ward · ${ind.label}`, label: `Belfast wards, ${y} · ${ind.label}`,
-    src: "bw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, labels: ind.labels, unit: ind.unit, note: `${ind.note}. ${y}, 2001 ward boundaries` };
+  THEMES[`bw_${k}_${y}`] = { region: "ni", compareOnly: true, group: `Belfast by ward, 1971–2021 · ${ind.label}`, label: `Belfast wards, ${y} · ${ind.label}`, series: `bw_${k}`, year: y,
+    src: "bw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, labels: ind.labels, unit: ind.unit, note: `${ind.note}. ${y}, 1993 ward boundaries${y === "2021" ? " (2021 data zones given to the ward covering most of each; Cherryvalley has none)" : ""}` };
 }));
+// Did a ward's community make-up freeze or change, 1971-2021? From its Catholic share (of Catholics and Protestants) at each census
+const TRAJECTORIES = [
+  ["Over 90% Protestant at every census from 1991", "#5e3c99"],
+  ["Protestant majority, little change", "#b2abd2"],
+  ["Protestant majority, becoming mixed (Catholic share up 15 points or more)", "#e0d9ec"],
+  ["Switched from a Protestant to a Catholic majority", "#f4a582"],
+  ["Became over 90% Catholic (mixed or slight majority in 1971)", "#80cdc1"],
+  ["Over 90% Catholic at every census from 1991", "#018571"],
+];
+function wardTrajectory(s) {
+  const v = s.filter((x) => x != null);
+  if (v.length < 4) return null;
+  const later = s.slice(2).filter((x) => x != null), first = v[0], last = v[v.length - 1];
+  if (later.every((x) => x <= 10)) return 0;
+  if (later.every((x) => x >= 90)) return first >= 80 ? 5 : 4;
+  if ((first - 50) * (last - 50) < 0) return last > 50 ? 3 : 1;
+  if (first < 50 && last - first >= 15) return 2;
+  if (first > 50 && last >= 90) return 4;
+  return first < 50 ? 1 : 5;
+}
+THEMES.bw_trajectory = { region: "ni", compareOnly: true, group: "Belfast by ward, 1971–2021 · Froze or changed", label: "Belfast wards, 1971–2021 · Froze or changed",
+  src: "bw", field: "trajectory", breaks: [0.5, 1.5, 2.5, 3.5, 4.5], colors: TRAJECTORIES.map((x) => x[1]), labels: TRAJECTORIES.map((x) => x[0]), unit: "category",
+  note: "Each ward classed by its Catholic share (of people stating Catholic or Protestant) at the six censuses, 1971–2021, on the same 1993 ward boundaries. 1981 is understated in West Belfast (census boycott)" };
 // Hadrian's Wall: small areas (LSOAs, 2021 boundaries) in England within 50 km north or south of the wall line, at each census since 2001,
 // with income from 2014 and crime for the latest year. Latest figures are in the layer box; earlier years only in the side-by-side maps
 const HW_INDICATORS = {
@@ -333,11 +356,11 @@ const HW_INCOME_YEARS = ["2014", "2016", "2018", "2020", "2023"];
 THEMES.hw_side = { region: "hw", label: "Side of the wall", src: "hw", field: "side_n", breaks: [0.5], colors: ["#d8b365", "#5ab4ac"],
   labels: ["South of the wall", "North of the wall"], note: "Small areas in England within 50 km of the wall line (measured from its nearest point). Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (Annan and Dumfries north, the Cumbrian coast south). Scottish areas are in the 1 km squares, 1971–2011" };
 Object.entries(HW_INDICATORS).forEach(([k, ind]) => HW_YEARS.forEach((y) => {
-  THEMES[`hw_${k}_${y}`] = { region: "hw", compareOnly: y !== "2021", group: y === "2021" ? null : `Hadrian's Wall · ${ind.label}`, label: `${ind.label} (${y})`,
+  THEMES[`hw_${k}_${y}`] = { region: "hw", compareOnly: y !== "2021", group: y === "2021" ? null : `Hadrian's Wall, small areas 2001–2021 · ${ind.label}`, label: `${ind.label} (${y})`, series: `hw_${k}`, year: y,
     src: "hw", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, note: `${ind.note}. Census ${y}${y === "2021" ? "" : ", carried onto 2021 small areas"}` };
 }));
 HW_INCOME_YEARS.forEach((y) => {
-  THEMES[`hw_income_${y}`] = { region: "hw", compareOnly: y !== "2023", group: y === "2023" ? null : "Hadrian's Wall · Income", label: `Income: household income after tax (${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`})`,
+  THEMES[`hw_income_${y}`] = { region: "hw", compareOnly: y !== "2023", group: y === "2023" ? null : "Hadrian's Wall, small areas · Income", series: "hw_income", year: y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`, label: `Income: household income after tax (${y === "2023" ? "2022/23" : `${Number(y) - 1}/${y.slice(2)}`})`,
     src: "hw", field: `income_${y}`, unit: "£", breaks: [25000, 30000, 35000, 40000], colors: ["#b30000", "#e34a33", "#fc8d59", "#fdcc8a", "#fef0d9"],
     labels: ["Under £25,000", "£25,000–30,000", "£30,000–35,000", "£35,000–40,000", "£40,000 and over"],
     note: "Mean net household income before housing costs, equivalised (adjusted for household size), a year, in pounds of that year (not adjusted for inflation). ONS model-based estimate for the wider area (MSOA) each small area lies in" };
@@ -355,10 +378,10 @@ const HWG_INDICATORS = {
   no_car: { label: "Housing: households without a car", breaks: [20, 35, 50, 65], colors: THEMES.income.colors, note: "Share of households with no car or van" },
 };
 Object.entries(HWG_INDICATORS).forEach(([k, ind]) => HWG_YEARS.filter((y) => !ind.from || y >= ind.from).forEach((y) => {
-  THEMES[`hwg_${k}_${y}`] = { region: "hw", compareOnly: true, group: `Hadrian's Wall within 50 km, 1 km squares · ${ind.label}`, label: `1 km squares, ${y} · ${ind.label}`,
+  THEMES[`hwg_${k}_${y}`] = { region: "hw", compareOnly: true, group: `Hadrian's Wall within 50 km, 1 km squares, 1971–2011 · ${ind.label}`, label: `1 km squares, ${y} · ${ind.label}`, series: `hwg_${k}`, year: y,
     src: "hwg", field: `${k}_${y}`, breaks: ind.breaks, colors: ind.colors, labels: ind.labels, unit: ind.unit, note: `${ind.note}. Census ${y}, England and Scotland, squares with at least 10 residents` };
 }));
-THEMES.hwg_side = { region: "hw", compareOnly: true, group: "Hadrian's Wall within 50 km, 1 km squares · Side of the wall", label: "1 km squares · Side of the wall (50 km)", src: "hwg", field: "side_n",
+THEMES.hwg_side = { region: "hw", compareOnly: true, group: "Hadrian's Wall within 50 km, 1 km squares, 1971–2011 · Side of the wall", label: "1 km squares · Side of the wall (50 km)", src: "hwg", field: "side_n",
   breaks: [0.5], colors: THEMES.hw_side.colors, labels: THEMES.hw_side.labels, note: "1 km squares within 50 km of the wall line (measured from its nearest point); the north side reaches into southern Scotland. Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (Annan and Dumfries north, the Cumbrian coast south). Only squares with at least 10 residents at one of the censuses are drawn (7,869 squares, holding over 99% of residents); the empty areas are moors, hills and forest. Residents within 50 km, counting every square: in 2011, 764,379 north of the wall and 1,823,705 south of it; in 1971, 718,260 north and 1,927,272 south" };
 THEMES.hw_crime = { region: "hw", label: "Crime: recorded crime per 1,000 residents (2025–26)", src: "hw", field: "crime_rate", unit: "per 1,000", breaks: [25, 50, 100, 200],
   colors: THEMES.crime.colors, labels: THEMES.crime.labels, note: "Crimes recorded by Northumbria, Durham and Cumbria police from October 2025 to September 2026, excluding anti-social behaviour, per 1,000 residents (Census 2021). Locations are snapped to anonymous points, and areas with shops, pubs or few residents have high rates", source: "police.uk" };
@@ -473,6 +496,7 @@ function loadThemeData(src) {
         const w = h.wards_2001[f.properties.ward] || {};
         f.properties.name = `${f.properties.ward} (ward)`;
         WARD_YEARS.forEach((y) => Object.keys(WARD_INDICATORS).forEach((k) => { f.properties[`${k}_${y}`] = w[y] ? w[y][k] : null; }));
+        f.properties.trajectory = wardTrajectory(WARD_YEARS.map((y) => (w[y] ? w[y].cath_share : null)));
       });
       return fc;
     });
@@ -502,6 +526,8 @@ const US_RELIGION_REFS = [
 const BELFAST_WARD_REFS = [
   "Shuttleworth, I. and Lloyd, C.D. (2007) Linking Northern Ireland Census of Population Data, 1971-2001 [data collection]. UK Data Service. SN: 5672. doi:10.5255/UKDA-SN-5672-1. Used under the End User Licence; only ward totals and shares derived from it are shown.",
   "Northern Ireland Statistics and Research Agency (2004) Census 2001 Key Statistics and Migration tables, ward level. Available at: https://www.nisra.gov.uk/publications/2001-census-bulk-download-files (Accessed: 17 November 2026).",
+  "Northern Ireland Statistics and Research Agency (2013) Census 2011 Key Statistics and Quick Statistics, electoral wards. Available at: https://www.nisra.gov.uk/publications/2011-census-key-statistics-wards-and-small-areas-northern-ireland (Accessed: 19 November 2026).",
+  "Northern Ireland Statistics and Research Agency (2023) Census 2021 Flexible Table Builder, by Data Zone (each zone given to the 1993 ward covering most of it). Available at: https://build.nisra.gov.uk/ (Accessed: 19 November 2026).",
   "Ordnance Survey of Northern Ireland (2025) OSNI Open Data – Largescale Boundaries – Wards (1993). Open Government Licence. Available at: https://www.data.gov.uk/dataset/aa140654-cbd8-45b9-82ed-4aeb05725929/osni-open-data-largescale-boundaries-wards-1993 (Accessed: 18 November 2026). Simplified to about 6 m.",
 ];
 const POPCHANGE_REFS = [
@@ -678,6 +704,35 @@ const layerControl = L.control.layers(baseLayers, {
   "Place names": labelLayer,
 }, { collapsed: false }).addTo(map);
 
+// Crossing points of the Gaza Strip (OCHA positions), coloured by status; offered in the layer box
+const CROSSING_STATUS = { open: ["#1a9850", "Operating"], restricted: ["#fdae61", "Restricted (medical evacuations only)"], closed: ["#7f7f7f", "Closed"], unknown: ["#ffffff", "Status not reported"] };
+const crossingsLayer = L.layerGroup();
+let crossingsData = null;
+fetch("data/gaza-crossings.json").then((r) => r.json()).then((d) => {
+  crossingsData = d;
+  d.crossings.forEach((c) => {
+    const [col, label] = CROSSING_STATUS[c.status];
+    L.circleMarker([c.lat, c.lon], { radius: 7, color: "#111", weight: 2, fillColor: col, fillOpacity: 1, dashArray: c.approx ? "2 2" : null })
+      .bindTooltip(`<strong>${c.name}</strong><br>${c.between} · ${label}`)
+      .on("click", (e) => { L.DomEvent.stopPropagation(e); showInfoCard(crossingCardHtml(c)); })
+      .addTo(crossingsLayer);
+  });
+  layerControl.addOverlay(crossingsLayer, "Gaza crossing points");
+}).catch(() => {});
+function crossingCardHtml(c) {
+  const [col, label] = CROSSING_STATUS[c.status];
+  return `<div class="fiche"><h2 class="fiche-title">${c.name}</h2>
+    <p class="fiche-text"><span class="cx-dot" style="background:${col}"></span>${label}${c.approx ? " · position approximate" : ""}</p>
+    <dl><dt>Between</dt><dd>${c.between}</dd><dt>Used for</dt><dd>${c.use}</dd><dt>Status</dt><dd>${c.status_text}</dd></dl>
+    <p class="cite">${crossingsData.note}</p>
+    <p class="cite">In-text: ${c.src}</p>
+    <ol class="refs">
+      <li>OCHA oPt (2019; 2021) State of Palestine – Crossing Points; Palestine Crossings with Israel (CC BY). Humanitarian Data Exchange. Available at: https://data.humdata.org/dataset/b8d45c0f-15e6-43ba-af44-e61b3001059e (Accessed: 19 November 2026).</li>
+      <li>OCHA oPt (2026) Humanitarian Situation Report, 29 October 2026. Available at: https://www.ochaopt.org/content/humanitarian-situation-report-29-october-2026 (Accessed: 19 November 2026).</li>
+      <li>Wikipedia contributors (2026a) Gaza–Israel barrier. Available at: https://en.wikipedia.org/wiki/Gaza%E2%80%93Israel_barrier (Accessed: 19 November 2026).</li>
+      <li>Wikipedia contributors (2026b) Egypt–Gaza border. Available at: https://en.wikipedia.org/wiki/Egypt%E2%80%93Gaza_border (Accessed: 19 November 2026).</li>
+    </ol></div>`;
+}
 // Israeli settlements and outposts in the occupied West Bank and East Jerusalem (OCHA, from Peace Now data),
 // the former settlements of the Gaza Strip (evacuated in 2005) and the settlements of the occupied Syrian Golan Heights.
 // Offered in the layer box when the map shows the area, like the neighbourhood themes; filtered by the year slider.
@@ -1142,7 +1197,7 @@ function cityPopupHtml(en, meta) {
     ${fold("Religion", f.religion)}
     ${fold("Income and employment", income)}
     ${fold("Criminality", f.crime)}
-    ${en === "Belfast" ? belfastHistoryHtml() + belfast7101Html() : ""}
+    ${en === "Belfast" ? belfastHistoryHtml() + belfast7101Html() + belfastBandsHtml() : ""}
     ${region === "ni" ? niJobsHtml(en === "Belfast") : ""}
     ${nationalHtml(meta.country)}
     <details>
@@ -1257,10 +1312,18 @@ function chooseCity(city) {
   } else showCity(city);
 }
 infoBody.addEventListener("click", (e) => {
+  if (e.target.closest("[data-show-crossings]")) { e.stopPropagation(); crossingsLayer.addTo(map); map.fitBounds([[31.21, 34.2], [31.6, 34.58]]); return; }
+  if (e.target.closest("[data-channel-page]")) { e.stopPropagation(); showInfoCard(channelPageHtml(), "wide-page"); return; }
+  if (e.target.closest("[data-back-calais]")) {
+    e.stopPropagation();
+    const b = barriers.find((x) => /^Calais port/.test(x.feature.properties.name || ""));
+    if (b) showInfoCard(popupHtml(b.feature.properties));
+    return;
+  }
   const lcBtn = e.target.closest("[data-layer-compare]");
   if (lcBtn) {
     e.stopPropagation();
-    openLayerCompare(lcBtn.dataset.layerCompare);
+    openLayerCompare(lcBtn.dataset.layerCompare, lcBtn.dataset.play);
     return;
   }
   const pick = e.target.closest("[data-pick]");
@@ -1545,9 +1608,9 @@ function belfastHistoryHtml() {
     <ol class="refs"><li>General Register Office (Northern Ireland) (1938; 1953; 1965; 1975) Census of Population of Northern Ireland: County Borough of Belfast reports, 1937, 1951, 1961 and 1971. Belfast: HMSO. Available at: https://www.nisra.gov.uk/statistics/census/2011-and-earlier-censuses (Accessed: 9 November 2026).</li></ol>
   </details>`;
 }
-// Belfast by 2001 ward, 1971–2001: 1971–1991 summed from the 100 m census grid squares (Shuttleworth and Lloyd, UK Data Service SN 5672)
+// Belfast by ward, 1971–2021: 1971–1991 summed from the 100 m census grid squares (Shuttleworth and Lloyd, UK Data Service SN 5672)
 // into 2001 wards; 2001 from NISRA's ward key statistics. Only ward shares and totals are published, never grid-square counts (End User Licence).
-const B7101_YEARS = ["1971", "1981", "1991", "2001"];
+const B7101_YEARS = ["1971", "1981", "1991", "2001", "2011", "2021"];
 const B7101_THEMES = {
   cath_share: { label: "Religion: % Catholic (of people stating Catholic or Protestant)", unit: "%" },
   not_stated: { label: "Religion: % not stating a religion (or no religion)", unit: "%" },
@@ -1593,32 +1656,92 @@ function channelChartSvg(d) {
   }).join("");
   return `<svg class="nij-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="People detected arriving in the UK by small boat each year, 2018 to 2026: 299 in 2018, 45,774 in 2022, 41,472 in 2025; detections in lorries and at ports fell from 8,309 in 2018 to 2,020 in 2025">${grid}${bars}</svg>`;
 }
+let originData = null;
+fetch("data/origin-countries.json").then((r) => r.json()).then((d) => { originData = d; }).catch(() => {});
+// Short summary on the Calais card; the full figures open as a wide page
 function channelHtml() {
   const d = channelData;
+  if (!d) return "";
+  const y25 = d.years.find((r) => r.year === "2025");
+  return `<details open>
+    <summary>Channel crossings to the UK, 2018–2026</summary>
+    <p class="fiche-text">Since the port and the Eurotunnel terminal were fenced in 2015, crossings have moved to small boats: ${y25.arrivals.toLocaleString("en")} people arrived by small boat in 2025, against 299 in 2018.</p>
+    <button type="button" class="compare-btn compare-maps-btn" data-channel-page>Open the Channel crossings page: arrivals, nationalities, arrests and origin countries compared with the UK</button>
+  </details>`;
+}
+function channelPageHtml() {
+  const d = channelData, o = originData;
   if (!d) return "";
   const f = (v) => (v == null ? "–" : v.toLocaleString("en"));
   const pc = (v) => (v == null ? "–" : `${v}%`);
   const dm = (s) => new Date(s).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
-  const rows = d.years.map((r) => `<tr><th>${r.year}${r.final ? "" : "*"}</th><td>${f(r.arrivals)}</td><td>${f(r.boats)}</td><td>${f(r.per_boat)}</td><td>${f(r.prevented)}${r.year === "2024" ? "†" : ""}</td><td>${f(r.lorry_ports)}</td><td>${pc(r.women_pct)}</td><td>${pc(r.children_pct)}</td><td>${pc(r.asylum_pct)}</td><td>${pc(r.granted_pct)}</td></tr>`).join("");
+  const rows = d.years.map((r) => `<tr><th>${r.year}${r.final ? "" : "*"}</th><td>${f(r.arrivals)}</td><td>${f(r.boats)}</td><td>${f(r.per_boat)}</td><td>${f(r.prevented)}${r.year === "2024" ? "†" : ""}</td><td>${pc(r.women_pct)}</td><td>${pc(r.children_pct)}</td><td>${pc(r.asylum_pct)}</td><td>${pc(r.granted_pct)}</td></tr>`).join("");
+  const routes = d.years.filter((r) => r.final).map((r) => `<tr><th>${r.year}</th><td>${f(r.arrivals)}</td><td>${f(r.in_uk)}</td><td>${f(r.ports)}</td><td>${f(r.air)}</td><td><strong>${f(r.all_routes)}</strong></td><td>${Math.round((100 * r.arrivals) / r.all_routes)}%</td></tr>`).join("");
+  const h26 = d.h1_2026_routes || {};
   const nat = d.years.map((r) => `<tr><th>${r.year}${r.final ? "" : " (Jan–Jun)"}</th><td>${r.top.map(([n, c, s]) => `${n} ${f(c)} (${s}%)`).join(", ")}</td></tr>`).join("");
-  const all = d.since2018.top.map(([n, c, s]) => `<tr><th>${n}</th><td>${f(c)}</td><td>${s}%</td></tr>`).join("");
-  return `<details>
-    <summary>Channel crossings to the UK, 2018–2026</summary>
-    <p class="fiche-text">After the port and the Eurotunnel terminal were fenced in 2015, the routes changed: fewer people are detected arriving hidden in lorries and trains, and far more come by small boat from the beaches of northern France. In 2018, 8,309 people were detected arriving hidden in vehicles or at UK ports and 299 by small boat. In 2025 it was 2,020 and 41,472. Hover over a bar for each year.</p>
-    <div class="nij-wrap chx-wrap">${channelChartSvg(d)}<div class="nij-tip" hidden></div></div>
-    <p class="fiche-text"><span class="nij-key chx-boat"></span>small boat <span class="nij-key chx-lorry"></span>lorries, trains and ports (detected in the UK or at UK ports)</p>
-    <p class="fiche-text"><strong>How many cross?</strong> The UK counts the people it detects: those landing or picked up in the Channel and brought ashore. It says some people evade border controls, but makes no estimate of how many (Home Office, 2026c). On the French side, the interior minister told the National Assembly that more than 60,000 people tried to cross in 2025: about 41,000 crossed and more than 20,000 were stopped, with more than 6,000 rescued at sea. 31 people died at sea in 2025, against 78 in 2024 (Assemblée nationale, 2026).</p>
-    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Arrived by small boat</th><th>Boats</th><th>People per boat</th><th>Stopped by France</th><th>Lorries and ports</th><th>Women</th><th>Children (under 18)</th><th>Claimed asylum</th><th>Granted (of decisions)</th></tr></thead><tbody>${rows}</tbody></table></div>
-    <p class="cite">* 2026 to ${dm(d.last_day)} (provisional daily figures; stopped by France to the week ending ${dm(d.last_week)}); women and children for January–June. † From 29 April 2024 only. Stopped by France: people prevented from leaving or returned to France, as estimated by the French authorities and passed to the UK; general dispersal of camps is not counted. Lorries and ports: people detected at UK ports, or in the UK shortly after arriving hidden, for example in a vehicle; not available yet for 2026. Granted: protection or other leave as a share of initial decisions on claims made by people who arrived that year; many claims from 2024 and 2025 were still awaiting a decision.</p>
-    <p class="fiche-text"><strong>Arrests.</strong> France: 450 smugglers arrested, 19 smuggling networks broken up and 157 boats found in 2025 (Assemblée nationale, 2026). United Kingdom: from June 2022, when steering a small boat became an offence, to May 2024, more than 190 people identified as small boat pilots were arrested, more than 160 charged and more than 110 convicted (Tomlinson, 2024). Almost all people who arrive by small boat claim asylum (see the table). No official yearly series of UK arrests was found in the sources checked.</p>
-    <p class="fiche-text"><strong>Where they come from</strong>: the largest nationalities among people arriving by small boat each year.</p>
-    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Nationality, number and share of arrivals</th></tr></thead><tbody>${nat}</tbody></table></div>
-    <details><summary>All arrivals, January 2018 to June 2026: ${f(d.since2018.total)} people</summary>
-      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Nationality</th><th>People</th><th>Share</th></tr></thead><tbody>${all}</tbody></table></div>
-    </details>
-    <p class="cite">Nationality is as recorded by the Home Office on arrival. The French figure of about 41,000 crossings in 2025 matches the UK count of 41,472. In-text: (Home Office, 2026a; 2026b; 2026c; Assemblée nationale, 2026; Tomlinson, 2024)</p>
-    <ol class="refs">${CHANNEL_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
-  </details>`;
+  return `<div class="fiche wide-page-body">
+    <button type="button" class="compare-btn" data-back-calais>← Back to the Calais fencing</button>
+    <h2 class="fiche-title">Channel crossings to the UK, 2018–2026</h2>
+    <div class="wp-grid">
+      <section>
+        <p class="fiche-text">After the port and the Eurotunnel terminal were fenced in 2015, the routes changed: fewer people are detected arriving hidden in lorries and trains, and far more come by small boat from the beaches of northern France. In 2018, 8,309 people were detected arriving hidden in vehicles or at UK ports and 299 by small boat; in 2025, 2,020 and 41,472. Hover over a bar for each year.</p>
+        <div class="nij-wrap chx-wrap">${channelChartSvg(d)}<div class="nij-tip" hidden></div></div>
+        <p class="fiche-text"><span class="nij-key chx-boat"></span>small boat <span class="nij-key chx-lorry"></span>lorries, trains and ports (detected in the UK or at UK ports)</p>
+      </section>
+      <section>
+        <p class="fiche-text"><strong>How many cross?</strong> The UK counts the people it detects: those landing or picked up in the Channel and brought ashore. It says some people evade border controls, but makes no estimate of how many (Home Office, 2026c). On the French side, the interior minister told the National Assembly that more than 60,000 people tried to cross in 2025: about 41,000 crossed and more than 20,000 were stopped, with more than 6,000 rescued at sea. 31 people died at sea in 2025, against 78 in 2024 (Assemblée nationale, 2026).</p>
+        <p class="fiche-text"><strong>Arrests.</strong> France: 450 smugglers arrested, 19 smuggling networks broken up and 157 boats found in 2025 (Assemblée nationale, 2026). United Kingdom: from June 2022, when steering a small boat became an offence, to May 2024, more than 190 people identified as small boat pilots were arrested, more than 160 charged and more than 110 convicted (Tomlinson, 2024). Almost all people who arrive by small boat claim asylum (see below). No official yearly series of UK arrests was found in the sources checked.</p>
+      </section>
+    </div>
+    <h3 class="wp-h">Small boats, year by year</h3>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Arrived by small boat</th><th>Boats</th><th>People per boat</th><th>Stopped by France</th><th>Women</th><th>Children (under 18)</th><th>Claimed asylum</th><th>Granted (of decisions)</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="cite">* 2026 to ${dm(d.last_day)} (provisional daily figures; stopped by France to the week ending ${dm(d.last_week)}); women and children for January–June. † From 29 April 2024 only. Stopped by France: people prevented from leaving or returned to France, as estimated by the French authorities and passed to the UK; general dispersal of camps is not counted. Granted: protection or other leave as a share of initial decisions on claims made by people who arrived that year; many claims from 2024 and 2025 were still awaiting a decision.</p>
+    <h3 class="wp-h">All irregular arrivals, by route</h3>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Small boat</th><th>Detected in the UK after arriving hidden</th><th>Detected at UK ports</th><th>By air without proper documents</th><th>All routes</th><th>Small boat share</th></tr></thead><tbody>${routes}</tbody></table></div>
+    <p class="cite">January–June 2026: ${f(h26["Small boat arrivals"])} by small boat, ${f(h26["Recorded detections in the UK"])} detected in the UK, ${f(h26["Recorded detections at UK ports"])} at ports and ${f(h26["Inadequately documented air arrivals"])} by air. Detections in the UK and at ports include people hidden in lorries, trains and ferries, many of them coming through Calais and Coquelles; the statistics do not give the port of departure.</p>
+    <h3 class="wp-h">Where people come from</h3>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Largest nationalities among small boat arrivals: number and share</th></tr></thead><tbody>${nat}</tbody></table></div>
+    ${originCompareHtml(o, d)}
+    <p class="cite">Nationality is as recorded by the Home Office on arrival. The French figure of about 41,000 crossings in 2025 matches the UK count of 41,472. In-text: (Home Office, 2026a; 2026b; 2026c; Assemblée nationale, 2026; Tomlinson, 2024; World Bank, 2026a; 2026b)</p>
+    <ol class="refs">${CHANNEL_REFS.map((r) => `<li>${r}</li>`).join("")}${ORIGIN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
+  </div>`;
+}
+const ORIGIN_REFS = [
+  "World Bank (2026a) World Development Indicators: GDP per capita, PPP (NY.GDP.PCAP.PP.KD); unemployment, ILO modelled estimate (SL.UEM.TOTL.ZS); life expectancy at birth (SP.DYN.LE00.IN); under-5 mortality (SH.DYN.MORT); maternal mortality (SH.STA.MMRT); adult literacy (SE.ADT.LITR.ZS); intentional homicides, UNODC (VC.IHR.PSRC.P5); battle-related deaths, UCDP (VC.BTL.DETH); population (SP.POP.TOTL). Washington, DC: World Bank. Available at: https://data.worldbank.org/ (Accessed: 19 November 2026).",
+  "World Bank (2026b) Poverty and Inequality Platform: median daily income or consumption per person, and share of people living on under $3.00 a day (2021 PPP). Available at: https://pip.worldbank.org/ (Accessed: 19 November 2026).",
+];
+// Origin countries of small boat arrivals beside the UK (destination) and France (transit): latest year published for each figure
+function originCompareHtml(o) {
+  if (!o) return "";
+  const order = ["GBR", "FRA", ...Object.keys(o).filter((c) => o[c].arrivals_since2018 != null).sort((a, b) => o[b].arrivals_since2018 - o[a].arrivals_since2018)];
+  const COLS = [
+    ["arrivals_2025", "Arrived by small boat, 2025", (v) => v.toLocaleString("en"), null],
+    ["grant_rate", "Asylum granted (initial decisions, arrivals 2018–25)", (v) => `${v}%`, null],
+    ["gdp_pc_ppp", "GDP per head (PPP, 2021 $)", (v) => `$${Math.round(v).toLocaleString("en")}`, "hi"],
+    ["median_day", "Median income per person a day (PPP $)", (v) => `$${v}`, "hi"],
+    ["extreme_poor", "Living on under $3 a day", (v) => `${v}%`, "lo"],
+    ["unemp", "Unemployment", (v) => `${v}%`, "lo"],
+    ["life_exp", "Life expectancy (years)", (v) => v.toFixed(1), "hi"],
+    ["u5_mort", "Under-5 deaths per 1,000 births", (v) => v, "lo"],
+    ["mat_mort", "Maternal deaths per 100,000 births", (v) => v, "lo"],
+    ["literacy", "Adults who can read and write", (v) => `${v}%`, "hi"],
+    ["homicide", "Homicides per 100,000", (v) => v, "lo"],
+    ["battle_deaths", "Battle deaths (latest year)", (v) => v.toLocaleString("en"), "lo"],
+  ];
+  const max = Object.fromEntries(COLS.map(([k]) => [k, Math.max(...order.map((c) => { const x = o[c][k]; return x == null ? 0 : typeof x === "object" ? x.v : x; }))]));
+  const cell = (c, [k, , fmt, dir]) => {
+    let x = o[c][k];
+    if (k === "battle_deaths" && x && (x.v < 25 || ["GBR", "FRA"].includes(c))) x = null; // below the conflict threshold of the Uppsala data
+    if (x == null) return `<td class="oc-na">${k === "literacy" && ["GBR", "FRA"].includes(c) ? "not measured" : "–"}</td>`;
+    const v = typeof x === "object" ? x.v : x, yr = typeof x === "object" ? x.y : null;
+    const w = max[k] ? Math.round((100 * v) / max[k]) : 0;
+    return `<td class="oc-v${dir ? ` oc-${dir}` : ""}" style="--w:${w}%">${fmt(v)}${yr ? `<small>${yr}</small>` : ""}</td>`;
+  };
+  const rows = order.map((c) => `<tr class="${c === "GBR" ? "oc-uk" : c === "FRA" ? "oc-fr" : ""}"><th>${o[c].name}</th>${COLS.map((col) => cell(c, col)).join("")}</tr>`).join("");
+  return `<h3 class="wp-h">Origin countries compared with the UK</h3>
+    <p class="fiche-text">The main nationalities arriving by small boat since 2018, in order of arrivals, beside the United Kingdom (the destination) and France (where the crossings start). Each figure is the latest the World Bank publishes, with its year; the bar shows the value against the highest in the column.</p>
+    <div class="hist-wrap"><table class="hist-table oc-table"><thead><tr><th>Country</th>${COLS.map(([, h]) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="cite">How to read it, and what is left out on purpose. Wealth: GDP per head at purchasing-power parity measures what an economy produces, not what households own; the median income from household surveys is closer to how people live, but it is missing where there has been no recent survey (Afghanistan, Eritrea, Somalia) and old for Sudan (2014). Unemployment is the ILO's modelled estimate; in countries where most work is informal it says little about earnings. Crime: recorded crime rates are not shown because laws, reporting and police recording differ too much between countries to compare; the homicide rate is the one crime figure that compares reasonably well, but for Eritrea, Sudan, Iraq and Ethiopia the latest is ten or more years old, and it excludes deaths in war, so battle deaths (Uppsala Conflict Data Program, shown when 25 or more) are given beside it. Literacy is not measured in the UK or France. The figures describe the countries, not the people who leave them, who are often younger and better educated than the average.</p>`;
 }
 document.addEventListener("pointermove", (e) => {
   const hit = e.target.closest && e.target.closest(".chx-hit");
@@ -1636,11 +1759,143 @@ document.addEventListener("pointermove", (e) => {
   const box = hit.getBBox();
   tip.style.left = `${Math.min(wrap.clientWidth - 160, Math.max(0, ((box.x + box.width) / 320) * wrap.clientWidth + 4))}px`;
 });
+// Migration from Mexico to the United States before and after the border fences: Mexican-born residents of the US,
+// in number and per 100 residents of Mexico, with the main fencing dates marked. One measure per chart (no second axis).
+let usMexMigration = null;
+fetch("data/us-mexico-migration.json").then((r) => r.json()).then((d) => { usMexMigration = d; }).catch(() => {});
+const MINI_CHARTS = {};
+function miniLineSvg(id, pts, opt) {
+  // pts: [[x, y], ...] sorted by x; gaps in the data (e.g. no 1940–1950 figures) are drawn as a dashed join
+  MINI_CHARTS[id] = { pts, opt };
+  const W = 320, H = 170, L = 38, R = 10, T = 10, B = 22;
+  const x0 = opt.x0, x1 = opt.x1, yMax = opt.yMax;
+  const x = (v) => L + ((v - x0) * (W - L - R)) / (x1 - x0), y = (v) => T + ((yMax - v) * (H - T - B)) / yMax;
+  const grid = opt.yTicks.map((v) => `<line class="nij-grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="nij-axis" x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${opt.yFmt(v)}</text>`).join("");
+  const ticks = opt.xTicks.map((v) => `<text class="nij-axis" x="${x(v)}" y="${H - 6}" text-anchor="middle">${v}</text>`).join("");
+  let d = "", dash = "";
+  pts.forEach(([a, b], i) => {
+    const prev = pts[i - 1];
+    if (prev && a - prev[0] > (opt.gap || 15)) dash += `M${x(prev[0]).toFixed(1)},${y(prev[1]).toFixed(1)}L${x(a).toFixed(1)},${y(b).toFixed(1)}`;
+    d += `${!prev || a - prev[0] > (opt.gap || 15) ? "M" : "L"}${x(a).toFixed(1)},${y(b).toFixed(1)}`;
+  });
+  const marks = (opt.marks || []).map((m) => `<line class="mlc-mark" x1="${x(m.year)}" x2="${x(m.year)}" y1="${T}" y2="${H - B}"/><text class="mlc-marklabel" x="${x(m.year) + 2}" y="${T + 8}">${m.year}</text>`).join("");
+  return `<svg class="nij-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${opt.aria}">${grid}${ticks}${marks}
+    <path class="mlc-dash" d="${dash}"/><path class="nij-line nij-p" d="${d}"/>
+    ${pts.map(([a, b]) => `<circle class="mlc-pt" cx="${x(a).toFixed(1)}" cy="${y(b).toFixed(1)}" r="2.2"/>`).join("")}
+    <line class="nij-cross" x1="0" x2="0" y1="${T}" y2="${H - B}" visibility="hidden"/><circle class="nij-dot nij-p-dot" r="4" visibility="hidden"/>
+    <rect class="mlc-hit" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" data-chart="${id}" data-l="${L}" data-w="${W - L - R}" data-t="${T}" data-h="${H - T - B}"/></svg>`;
+}
+document.addEventListener("pointermove", (e) => {
+  const hit = e.target.closest && e.target.closest(".mlc-hit");
+  document.querySelectorAll(".mlc-wrap").forEach((wrap) => {
+    if (hit && wrap.contains(hit)) return;
+    wrap.querySelectorAll(".nij-cross,.nij-dot").forEach((el) => el.setAttribute("visibility", "hidden"));
+    wrap.querySelector(".nij-tip").hidden = true;
+  });
+  if (!hit) return;
+  const svg = hit.ownerSVGElement, wrap = svg.parentNode, c = MINI_CHARTS[hit.dataset.chart];
+  const pt = svg.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY;
+  const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+  const l = Number(hit.dataset.l), w = Number(hit.dataset.w), t = Number(hit.dataset.t), h = Number(hit.dataset.h), o = c.opt;
+  const yr = o.x0 + ((p.x - l) / w) * (o.x1 - o.x0);
+  const [a, b, extra] = c.pts.reduce((best, q) => (Math.abs(q[0] - yr) < Math.abs(best[0] - yr) ? q : best));
+  const X = l + ((a - o.x0) * w) / (o.x1 - o.x0), Y = t + ((o.yMax - b) * h) / o.yMax;
+  const cross = svg.querySelector(".nij-cross"); cross.setAttribute("x1", X); cross.setAttribute("x2", X); cross.setAttribute("visibility", "visible");
+  const dot = svg.querySelector(".nij-dot"); dot.setAttribute("cx", X); dot.setAttribute("cy", Y); dot.setAttribute("visibility", "visible");
+  const tip = wrap.querySelector(".nij-tip");
+  tip.innerHTML = `<strong>${a}</strong><br>${o.tip(b, a, extra)}`;
+  tip.hidden = false;
+  tip.style.left = `${Math.min(wrap.clientWidth - 170, Math.max(0, (X / 320) * wrap.clientWidth + 10))}px`;
+});
+function usMexMigrationHtml() {
+  const d = usMexMigration;
+  if (!d) return "";
+  const rows = d.mexborn;
+  const ptsN = rows.map((r) => [r.year, r.mexborn / 1e6, r]);
+  const ptsR = rows.filter((r) => r.per100 != null).map((r) => [r.year, r.per100, r]);
+  const app = Object.entries(d.apprehensions_sw).map(([y, v]) => [Number(y), v / 1e6]);
+  const marks = d.fence;
+  const f = (v) => v.toLocaleString("en");
+  const src = (r) => (r.src === "acs" ? "survey estimate" : "census");
+  const table = rows.map((r) => `<tr><th>${r.year}</th><td>${f(r.mexborn)}</td><td>${r.mx_pop ? f(r.mx_pop) : "–"}${r.mx_pop_estimated ? "*" : ""}</td><td>${r.per100 ?? "–"}</td><td>${src(r)}</td></tr>`).join("");
+  return `<details>
+    <summary>Migration from Mexico before and after the fences, 1850–2024</summary>
+    <p class="fiche-text">Mexican-born people living in the United States, counted at each census and, from 2005, by the yearly American Community Survey. This is the number living there at a date, not the number crossing: it rises with arrivals and falls with returns and deaths, and it counts people who came legally as well as without permission. The fences are marked. The number grew fastest between 1970 and 2000, while fencing was confined to a few cities; it peaked at 11.7 million in 2007, as the Secure Fence Act fencing went up and the US entered recession, and has stayed near 11 million since. Relative to Mexico's own population it peaked at 11 per 100 in 2006–2007 and fell to about 8.4 per 100 by 2021–2024. Hover over the charts for each year.</p>
+    <p class="fiche-text"><strong>Mexican-born residents of the US (millions)</strong></p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("mx_n", ptsN, { x0: 1850, x1: 2026, yMax: 12, yTicks: [0, 3, 6, 9, 12], yFmt: (v) => `${v}m`, xTicks: [1850, 1900, 1950, 2000], marks, gap: 15,
+      aria: "Mexican-born residents of the United States, 1850 to 2024: 13,000 in 1850, 0.6 million in 1930, 0.8 million in 1970, 9.2 million in 2000, 11.7 million in 2007, 11.1 million in 2024",
+      tip: (v, y, r) => `${f(r.mexborn)} (${src(r)})` })}<div class="nij-tip" hidden></div></div>
+    <p class="fiche-text"><strong>Per 100 residents of Mexico</strong></p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("mx_r", ptsR, { x0: 1850, x1: 2026, yMax: 12, yTicks: [0, 3, 6, 9, 12], yFmt: (v) => v, xTicks: [1850, 1900, 1950, 2000], marks, gap: 15,
+      aria: "Mexican-born residents of the US per 100 residents of Mexico, 1900 to 2024: under 1 in 1900, about 4 in 1930, 1.6 in 1960 and 1970, 9.4 in 2000, 11 in 2006 and 2007, 8.4 in 2024",
+      tip: (v, y, r) => `${v} per 100 residents of Mexico` })}<div class="nij-tip" hidden></div></div>
+    <p class="fiche-text"><strong>Border Patrol apprehensions on the south-west border (millions, fiscal years)</strong>: people caught crossing, a measure of attempts rather than of settlement; one person can be caught several times.</p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("mx_app", app, { x0: 1850, x1: 2026, yMax: 2.4, yTicks: [0, 0.6, 1.2, 1.8, 2.4], yFmt: (v) => `${v}m`, xTicks: [1850, 1900, 1950, 2000], marks, gap: 2,
+      aria: "Border Patrol apprehensions on the south-west border by fiscal year, 1960 to 2026",
+      tip: (v, y) => `${f(Math.round(v * 1e6))} apprehensions${y === 2026 ? " (fiscal year so far)" : ""}` })}<div class="nij-tip" hidden></div></div>
+    <details><summary>Table: Mexican-born residents of the US and Mexico's population</summary>
+      <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Mexican-born in the US</th><th>Mexico's population</th><th>Per 100 in Mexico</th><th>US source</th></tr></thead><tbody>${table}</tbody></table></div>
+      <p class="cite">Mexico's population is from its censuses and counts; between them it is interpolated, and after 2020 (*) it is projected at the 2010–2020 growth rate. There are no US figures by country of birth for 1940 and 1950 (dashed). The 2020 survey is missing because of the pandemic. Survey figures have a margin of error of a few tens of thousands.</p>
+    </details>
+    <p class="cite">In-text: (Gibson and Jung, 2006; U.S. Census Bureau, 2025; INEGI, 2021)</p>
+    <ol class="refs">
+      <li>Gibson, C. and Jung, K. (2006) Historical Census Statistics on the Foreign-Born Population of the United States: 1850 to 2000. Population Division Working Paper No. 81, Table 4. Washington, DC: U.S. Census Bureau. Available at: https://www.census.gov/library/working-papers/2006/demo/POP-twps0081.html (Accessed: 19 November 2026).</li>
+      <li>U.S. Census Bureau (2025) American Community Survey 1-year estimates, table B05006 (place of birth for the foreign-born population), 2005–2024. Census Data API. Available at: https://api.census.gov/data.html (Accessed: 19 November 2026).</li>
+      <li>INEGI (2021) Censos y Conteos de Población y Vivienda: series históricas, población total 1900–2020, as tabulated in SEMARNAT, Compendio de Estadísticas Ambientales 2021. Available at: https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/04_demografia/d1_demograf01_01_d.pdf (Accessed: 19 November 2026).</li>
+      <li>U.S. Customs and Border Protection (2026) U.S. Border Patrol apprehensions by sector, fiscal years 1960–2026 (see the border timeline's references).</li>
+    </ol>
+  </details>`;
+}
 // Hadrian's Wall: residents within 50 km north and south (England) of the wall, census by census
 let hadrianSummary = null;
 fetch("data/hadrian-summary.json").then((r) => r.json()).then((d) => { hadrianSummary = d; }).catch(() => {});
 let hadrianGridSummary = null;
 fetch("data/hadrian-grid.json").then((r) => r.json()).then((d) => { hadrianGridSummary = d.summary; }).catch(() => {});
+let hadrianBands = null;
+fetch("data/hadrian-bands.json").then((r) => r.json()).then((d) => { hadrianBands = d; }).catch(() => {});
+function hadrianBandsHtml() {
+  const b = hadrianBands;
+  if (!b) return "";
+  const Y = HWG_YEARS;
+  const ch = (a, z) => (a ? `${z >= a ? "+" : ""}${Math.round((100 * (z - a)) / a)}%` : "–");
+  const rows = (side) => b.bands.map((band, i) => `<tr><th>${side === "north" ? "N" : "S"} · ${band}</th>${Y.map((y) => `<td>${b.sides[side][y][i].pop.toLocaleString("en")}</td>`).join("")}<td>${ch(b.sides[side]["1971"][i].pop, b.sides[side]["2011"][i].pop)}</td></tr>`).join("");
+  return `<p class="fiche-text"><strong>Residents by distance from the wall</strong>, north (N) and south (S), 1971–2011. Most people on both sides live within 5 km of the line, around Newcastle and Carlisle, which grew up along it.</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Side · distance</th>${Y.map((y) => `<th>${y}</th>`).join("")}<th>1971–2011</th></tr></thead><tbody>${rows("north")}${rows("south")}</tbody></table></div>`;
+}
+let hadrianBirth = null;
+fetch("data/hadrian-birthplace.json").then((r) => r.json()).then((d) => { hadrianBirth = d; }).catch(() => {});
+const HADRIAN_BIRTH_REFS = [
+  "Office for National Statistics (2023) Census 2021: country of birth (60 categories) by middle layer super output area. Create a custom dataset API. Available at: https://api.beta.ons.gov.uk/v1/population-types/UR/census-observations (Accessed: 20 November 2026).",
+  "Office for National Statistics (2013) 2011 Census: KS204EW Country of birth by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 20 November 2026).",
+  "Office for National Statistics (2003) 2001 Census: KS005 Country of birth by lower layer super output area. Nomis. Available at: https://www.nomisweb.co.uk/ (Accessed: 20 November 2026).",
+  "National Records of Scotland (2024) Scotland's Census 2022: UV204b Country of birth by sex by age, output areas. Available at: https://www.scotlandscensus.gov.uk/documents/2022-output-area-data/ (Accessed: 20 November 2026).",
+  "National Records of Scotland (2014) Scotland's Census 2011: KS204SC Country of birth, output areas. Available at: https://www.scotlandscensus.gov.uk/documents/2011-census-table-data-output-area-2011 (Accessed: 20 November 2026).",
+  "General Register Office for Scotland (2003) Scotland's Census 2001: UV08 Country of birth, output areas. Available at: https://www.scotlandscensus.gov.uk/documents/2001-census-table-data-output-area (Accessed: 20 November 2026).",
+  "National Records of Scotland (2025) Output area population-weighted centroids, censuses 2001, 2011 and 2022. Spatial Data Scotland map service, Open Government Licence. Available at: https://maps.gov.scot/server/rest/services/NRS/ (Accessed: 20 November 2026).",
+];
+function hadrianBirthHtml() {
+  const b = hadrianBirth;
+  if (!b) return "";
+  const pct = (v) => (v == null ? "–" : `${v.toFixed(1)}%`);
+  const engYears = ["2001", "2011", "2021"], scoYears = ["2001", "2011", "2022"];
+  const rowsS = ["all", ...b.bands].map((k) => `<tr><th>${k === "all" ? "All within 50 km" : k}</th>${engYears.map((y) => `<td>${pct(b.scot_in_england.south[k][y].scot_pct)}</td>`).join("")}<td>${b.scot_in_england.south[k]["2021"].scotland.toLocaleString("en")}</td></tr>`).join("");
+  const rowsN = ["all", ...b.bands].map((k) => `<tr><th>${k === "all" ? "All within 50 km" : k}</th>${scoYears.map((y) => `<td>${pct(b.eng_in_scotland[k][y].eng_pct)}</td>`).join("")}<td>${b.eng_in_scotland[k]["2022"].england.toLocaleString("en")}</td></tr>`).join("");
+  const nE = b.national.scot_in_england, nS = b.national.eng_in_scotland;
+  const natS = `<tr class="hist-nat"><th>All of England</th>${engYears.map((y) => `<td>${pct(nE[y].pct)}</td>`).join("")}<td>${nE["2021"].scotland.toLocaleString("en")}</td></tr>`;
+  const natN = `<tr class="hist-nat"><th>All of Scotland</th>${scoYears.map((y) => `<td>${pct(nS[y].pct)}</td>`).join("")}<td>${nS["2022"].england.toLocaleString("en")}</td></tr>`;
+  const nn = b.scot_in_england.north.all;
+  return `<details>
+    <summary>Crossing the line: where people were born, 2001–2022</summary>
+    <p class="fiche-text">The wall was built to control movement from the north. The census can only show where people were born, not when or why they moved. In numbers, the two groups are of similar size: about 29,000 people born in Scotland live within 50 km south of the wall, and about 23,500 born in England live within 50 km north of it in Scotland. But the south has fifteen times the people, so the north is far more shaped by arrivals from the other side. <strong>North of the wall in Scotland, about one resident in five was born in England</strong>: 15.2% in 2001, 18.8% in 2022, twice the rate for Scotland as a whole, and close to 30% between 5 and 20 km from the line. <strong>South of the wall, fewer than one in fifty was born in Scotland</strong> (1.8% in 2001, 1.6% in 2021). That is above the rate for England as a whole, and falling at both scales.</p>
+    <p class="fiche-text"><strong>Born in Scotland, living in England south of the wall</strong></p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Distance from the wall</th>${engYears.map((y) => `<th>${y}</th>`).join("")}<th>People, 2021</th></tr></thead><tbody>${rowsS}${natS}</tbody></table></div>
+    <p class="fiche-text"><strong>Born in England, living in Scotland north of the wall</strong></p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Distance from the wall</th>${scoYears.map((y) => `<th>${y}</th>`).join("")}<th>People, 2022</th></tr></thead><tbody>${rowsN}${natN}</tbody></table></div>
+    <p class="fiche-text">In the part of England north of the wall (Northumberland and North Tyneside), ${pct(nn["2001"].scot_pct)} of residents were born in Scotland in 2001 and ${pct(nn["2021"].scot_pct)} in 2021, reaching ${pct(b.scot_in_england.north["35–50 km"]["2001"].scot_pct)} in the band 35–50 km out, nearest the Scottish border.</p>
+    <p class="cite">${b.note} Census birthplace counts everyone living there on census day, whatever their age or how long ago they moved; it is not a count of moves. Moves between censuses (origin–destination tables) and the 1851–1911 censuses would show movement directly; they are being requested from the UK Data Service. In-text: (Office for National Statistics, 2003; 2013; 2023; General Register Office for Scotland, 2003; National Records of Scotland, 2014; 2024; 2025)</p>
+    <ol class="refs">${HADRIAN_BIRTH_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
+  </details>`;
+}
 function hadrianGridHtml() {
   const s = hadrianGridSummary;
   if (!s) return "";
@@ -1652,6 +1907,8 @@ function hadrianGridHtml() {
     <summary>Either side of the wall, 1971–2011 (within 50 km)</summary>
     <p class="fiche-text">Residents of the 1 km squares within 50 km of the wall line, north (N) or south (S) of it. North of the wall this reaches into southern Scotland (Dumfries and Galloway, the Scottish Borders) as well as Northumberland and North Tyneside; south of it, Cumbria with its west coast, County Durham, Gateshead, South Tyneside and Sunderland. Beyond the wall's two ends, the side follows the Tyne to the sea in the east (North Shields and Tynemouth north, South Shields and Sunderland south) and the middle of the Solway Firth in the west (Annan and Dumfries north, the Cumbrian coast south). The censuses did not ask about religion before 2001 or about ethnicity before 1991, and have never asked about income.</p>
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Census</th>${head}</tr></thead><tbody>${rows}</tbody></table></div>
+    ${hadrianBandsHtml()}
+    <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="hw" data-play="hwg_pop">▶ Play the 1 km square maps over time, 1971–2011</button>
     <p class="cite">The 1971 population counts people present on census night, later censuses usual residents. Each census's small areas were reallocated to 1 km squares by the PopChange project, so all years share the same squares. In-text: (Lloyd et al., 2017; 2018)</p>
     <ol class="refs">${POPCHANGE_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
   </details>`;
@@ -1677,22 +1934,47 @@ function hadrianSidesHtml() {
     <ol class="refs">${HADRIAN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
   </details>`;
 }
+let belfastBands = null;
+fetch("data/belfast-bands.json").then((r) => r.json()).then((d) => { belfastBands = d; }).catch(() => {});
+function belfastBandsHtml() {
+  const b = belfastBands;
+  if (!b) return "";
+  const Y = Object.keys(b.years);
+  const f = (v, u = "%") => (v == null ? "–" : u ? `${v}${u}` : v.toLocaleString("en"));
+  const table = (k, u, label) => `<tr class="hist-total"><th colspan="${Y.length + 1}">${label}</th></tr>` + b.bands.map((band, i) => `<tr><th>${band}</th>${Y.map((y) => `<td>${f(b.years[y][i][k], u)}</td>`).join("")}</tr>`).join("");
+  return `<details>
+    <summary>Did the walls freeze where people live? Belfast by distance from the walls, 1971–2021</summary>
+    <p class="fiche-text">Residents grouped by how far they live from the nearest peace wall on the map. Between 1971 and 1991, the years of the Troubles and of most wall building, the population within 250 m of a wall halved (${f(b.years["1971"][0].pop, "")} to ${f(b.years["1991"][0].pop, "")}), while beyond 2 km it fell by about a sixth. Near the walls, the share of people living in places at least 90% one community rose from ${f(b.years["1971"][0].homog)} to ${f(b.years["1991"][0].homog)}. In 1971, two years after the first walls, people near them moved house more than anyone else (${f(b.years["1971"][0].moved_1yr)} in a year, against ${f(b.years["1971"][4].moved_1yr)} beyond 2 km); by 1981 and 1991 they moved the least: the areas emptied and then set.</p>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Distance from a wall</th>${Y.map((y) => `<th>${y}</th>`).join("")}</tr></thead><tbody>
+      ${table("pop", "", "Residents")}
+      ${table("homog", "%", "Living in places at least 90% Catholic or 90% Protestant")}
+      ${table("cath_share", "%", "Catholic share (of Catholics and Protestants)")}
+      ${table("male_unemp", "%", "Male unemployment")}
+      ${table("moved_1yr", "%", "Moved home in the past year")}
+    </tbody></table></div>
+    <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="ni" data-play="bw_cath_share">▶ Play the ward maps over time, 1971–2021</button>
+    <p class="cite">How to read it: 1971–1991 use 100 m census squares, 2011 Small Areas (about 300 people) and 2021 Data Zones (about 450 people), each placed by its centre, so the "90% one community" share is measured on larger places from 2011 and is lower partly for that reason. Distance is to the walls on the map today; many were built after 1971. 1981 is understated in West Belfast (census boycott). Moving home in 1971–1991 counts moves within and into the district; 2021 also counts moves from outside Northern Ireland; the 2011 small-area tables do not include it. Squares withheld for confidentiality are left out (about 6% of residents). Only totals for each distance band are shown (UK Data Service End User Licence). In-text: (Shuttleworth and Lloyd, 2007; NISRA, 2013; 2023)</p>
+  </details>`;
+}
 function belfast7101Html() {
   if (!belfastHistory || !belfastHistory.wards_2001) return "";
   const c = belfastHistory.city_2001;
   return `<details>
-    <summary>Belfast by ward, 1971–2001 (after the walls)</summary>
-    <p class="fiche-text">The same 51 wards (2001 boundaries) at each census, so areas can be compared through time. 1971, 1981 and 1991 are added up from 100 m census grid squares; 2001 comes from the census ward tables. The peace walls multiplied from 1969 onwards. In bold: wards along the Falls–Shankill and North Belfast walls.</p>
+    <summary>Belfast by ward, 1971–2021 (after the walls)</summary>
+    <p class="fiche-text">The same 51 wards (1993 boundaries, used for the 2001 and 2011 censuses) at each census, so areas can be compared through time. 1971, 1981 and 1991 are added up from 100 m census grid squares; 2001 and 2011 come from the census ward tables; 2021 is built from the 2021 data zones, each given to the ward that covers most of it (Cherryvalley, a small ward, gets none and is left blank). The peace walls multiplied from 1969 onwards. In bold: wards along the Falls–Shankill and North Belfast walls.</p>
     <label class="dep-toggle">Theme
       <select class="theme-select b7101-select">${Object.entries(B7101_THEMES).map(([k, t]) => `<option value="${k}">${t.label}</option>`).join("")}</select>
     </label>
+    <button type="button" class="compare-btn compare-maps-btn" data-layer-compare="ni" data-play="bw_cath_share">▶ Play the ward maps over time, 1971–2021</button>
     <div class="hist-wrap"><table class="hist-table b7101-table">${belfast7101Table("cath_share")}</table></div>
-    <p class="fiche-text">Segregation index, Catholics against Protestants (0 = evenly mixed, 1 = fully separate). Across wards: ${B7101_YEARS.map((y) => `${y}: ${c[y].dissimilarity_wards}`).join("; ")}. Across 100 m squares: ${["1971", "1981", "1991"].map((y) => `${y}: ${c[y].dissimilarity_100m}`).join("; ")} (no 2001 squares in the dataset).</p>
-    <p class="cite">How to read it: squares withheld for confidentiality are left out, so 1971–1991 figures cover about 94% of residents and population counts are slightly low. 1981 is the least reliable year: many people refused the census or the religion question (a boycott linked to the hunger strikes), especially in Catholic West Belfast, so 1981 population counts are understated there and more people left religion blank. Catholic shares leave out people who stated no religion, another religion or none, so they compare the two main communities. Moving home in 1971–1991 counts moves within and into the district (from age 1); 2001 also counts moves from outside the UK, so 2001 is higher partly by definition. 2001 public renting is the Housing Executive only; 2001 rooms include kitchens, so crowding is slightly lower by definition. The censuses did not ask about income.</p>
-    <p class="cite">In-text: (Shuttleworth and Lloyd, 2007; NISRA, 2004)</p>
+    <p class="fiche-text">Segregation index, Catholics against Protestants (0 = evenly mixed, 1 = fully separate). Across wards: ${B7101_YEARS.map((y) => `${y}: ${c[y].dissimilarity_wards}`).join("; ")}. Across 100 m squares: ${["1971", "1981", "1991"].map((y) => `${y}: ${c[y].dissimilarity_100m}`).join("; ")} (no squares after 1991 in the dataset).</p>
+    <p class="cite">How to read it: squares withheld for confidentiality are left out, so 1971–1991 figures cover about 94% of residents and population counts are slightly low. 1981 is the least reliable year: many people refused the census or the religion question (a boycott linked to the hunger strikes), especially in Catholic West Belfast, so 1981 population counts are understated there and more people left religion blank. Catholic shares leave out people who stated no religion, another religion or none, so they compare the two main communities. Moving home in 1971–1991 counts moves within and into the district (from age 1); 2001 also counts moves from outside the UK, so 2001 is higher partly by definition. Public renting is the Housing Executive only from 2001; 2001 and 2011 rooms include kitchens, so crowding is slightly lower by definition, and 2021 published rooms only in bands, so crowding is not shown for 2021. The 2011 ward tables do not include moves in the past year. Religion is the religion people belong to (not the one they were brought up in), as in earlier censuses. Unemployment for 2011 and 2021 counts men aged 16–74 and 16+ respectively, including full-time students looking for work. The censuses did not ask about income.</p>
+    <p class="cite">In-text: (Shuttleworth and Lloyd, 2007; NISRA, 2004; 2013; 2023)</p>
     <ol class="refs">
       <li>Shuttleworth, I. and Lloyd, C.D. (2007) Linking Northern Ireland Census of Population Data, 1971-2001 [data collection]. UK Data Service. SN: 5672. doi:10.5255/UKDA-SN-5672-1. Used under the UK Data Service End User Licence; only ward totals and shares derived from it are shown here.</li>
       <li>Northern Ireland Statistics and Research Agency (2004) Census 2001 Key Statistics (KS01, KS07a, KS09b, KS17, KS18, KS19) and Migration table KS25, ward level. Available at: https://www.nisra.gov.uk/publications/2001-census-bulk-download-files (Accessed: 17 November 2026).</li>
+      <li>Northern Ireland Statistics and Research Agency (2013) Census 2011 Key Statistics (KS101NI, KS211NI, KS402NI, KS405NI, KS602NI) and Quick Statistics (QS406NI), electoral wards. Available at: https://www.nisra.gov.uk/publications/2011-census-key-statistics-wards-and-small-areas-northern-ireland (Accessed: 19 November 2026).</li>
+      <li>Northern Ireland Statistics and Research Agency (2023) Census 2021 Flexible Table Builder: religion, sex by economic activity, address one year ago, tenure and car or van availability, by Data Zone. Available at: https://build.nisra.gov.uk/ (Accessed: 19 November 2026).</li>
     </ol>
   </details>`;
 }
@@ -1713,6 +1995,7 @@ let layerCompare = null;
 function themeValueText(th, v) {
   if (v == null) return "not available";
   if (th.field === "side_n") return v ? "north of the wall" : "south of the wall";
+  if (th.unit === "category") return th.labels[v];
   if (th.unit === "£") return `£${Math.round(v).toLocaleString("en")}`;
   if (th.unit === "people") return `${Math.round(v).toLocaleString("en")} residents`;
   return th.field === "income" ? `$${Math.round(v).toLocaleString("en")}` : th.unit ? `${v} ${th.unit}` : `${v}%`;
@@ -1722,24 +2005,28 @@ function compareOptionsHtml(lc, key) {
   const plain = lc.keys.filter((k) => !THEMES[k].group);
   const groups = [...new Set(lc.keys.map((k) => THEMES[k].group).filter(Boolean))];
   return `<optgroup label="Latest figures (by small area)">${plain.map(opt).join("")}</optgroup>` +
-    groups.map((g) => `<optgroup label="${g}, 1971–2001">${lc.keys.filter((k) => THEMES[k].group === g).map(opt).join("")}</optgroup>`).join("");
+    groups.map((g) => `<optgroup label="${g}">${lc.keys.filter((k) => THEMES[k].group === g).map(opt).join("")}</optgroup>`).join("");
 }
 function compareLegendHtml(th) {
   return `<div class="lc-legend">${themeLabels(th).map((l, i) => `<span><i style="background:${th.colors[i]}"></i>${l}</span>`).join("")}</div>`;
 }
-function openLayerCompare(region) {
+// Themes that form a time series (same indicator, several years), in year order: animated by the play button
+function seriesKeys(series) {
+  return Object.keys(THEMES).filter((k) => THEMES[k].series === series);
+}
+function openLayerCompare(region, playSeries) {
   closeLayerCompare();
   const group = COMPARE_GROUPS[region];
   const keys = Object.keys(THEMES).filter((k) => group.includes(THEMES[k].region));
-  const defaults = COMPARE_DEFAULTS[group[0]].filter((k) => keys.includes(k));
+  const defaults = playSeries ? [seriesKeys(playSeries)[0]] : COMPARE_DEFAULTS[group[0]].filter((k) => keys.includes(k));
   const box = document.createElement("div");
   box.className = "layer-compare";
   box.setAttribute("role", "dialog");
   box.setAttribute("aria-label", "Compare themes side by side");
   box.innerHTML = `<div class="lc-bar">
       <strong>Compare themes side by side</strong>
-      <label>Maps <select class="lc-count">${[2, 3, 4].map((n) => `<option${n === 2 ? " selected" : ""}>${n}</option>`).join("")}</select></label>
-      <span class="lc-hint">The maps move together. Hover or tap an area to read its value; the black lines are the walls.</span>
+      <label>Maps <select class="lc-count">${[1, 2, 3, 4].map((n) => `<option${n === (playSeries ? 1 : 2) ? " selected" : ""}>${n}</option>`).join("")}</select></label>
+      <span class="lc-hint">The maps move together. Hover or tap an area to read its value; the black lines are the walls. Layers with several years have a ▶ button to play them over time.</span>
       <button type="button" class="lc-close" aria-label="Close the side-by-side maps">×</button>
     </div>
     <div class="lc-grid"></div>
@@ -1753,14 +2040,15 @@ function openLayerCompare(region) {
   box.querySelector(".lc-close").addEventListener("click", closeLayerCompare);
   box.querySelector(".lc-count").addEventListener("change", (e) => setComparePanels(Number(e.target.value)));
   document.addEventListener("keydown", layerCompareKey);
-  setComparePanels(2);
+  setComparePanels(playSeries ? 1 : 2);
+  if (playSeries) togglePlay(layerCompare.panels[0]);
 }
 function layerCompareKey(e) {
   if (e.key === "Escape") closeLayerCompare();
 }
 function closeLayerCompare() {
   if (!layerCompare) return;
-  layerCompare.panels.forEach((p) => p.map.remove());
+  layerCompare.panels.forEach((p) => { clearInterval(p.timer); p.map.remove(); });
   layerCompare.box.remove();
   document.removeEventListener("keydown", layerCompareKey);
   layerCompare = null;
@@ -1770,7 +2058,7 @@ function setComparePanels(n) {
   const grid = lc.box.querySelector(".lc-grid");
   const view = lc.panels.length ? { c: lc.panels[0].map.getCenter(), z: lc.panels[0].map.getZoom() } : lc.centre;
   const kept = lc.panels.map((p) => p.key);
-  lc.panels.forEach((p) => p.map.remove());
+  lc.panels.forEach((p) => { clearInterval(p.timer); p.map.remove(); });
   lc.panels = [];
   grid.innerHTML = "";
   grid.className = `lc-grid lc-${n}`;
@@ -1806,30 +2094,88 @@ function setComparePanels(n) {
       lc.panels.forEach((p) => { if (p.map !== m) p.map.setView(m.getCenter(), m.getZoom(), { animate: false }); });
       lc.syncing = false;
     });
-    cell.querySelector(".lc-theme").addEventListener("change", (e) => drawComparePanel(panel, e.target.value));
+    cell.querySelector(".lc-theme").addEventListener("change", (e) => { stopPlay(panel); drawComparePanel(panel, e.target.value); });
     lc.panels.push(panel);
     drawComparePanel(panel, key);
   }
   setTimeout(() => lc.panels.forEach((p) => p.map.invalidateSize()), 0);
 }
+// Play over time: step a panel through the years of its indicator, one census every 1.6 seconds, on a fixed colour scale
+function stopPlay(panel) {
+  clearInterval(panel.timer);
+  panel.timer = null;
+  const b = panel.cell.querySelector(".lc-play-btn");
+  if (b) { b.textContent = "▶"; b.setAttribute("aria-label", "Play over time"); }
+}
+function togglePlay(panel) {
+  if (panel.timer) { stopPlay(panel); return; }
+  const keys = seriesKeys(THEMES[panel.key].series);
+  if (keys.length < 2) return;
+  if (keys.indexOf(panel.key) === keys.length - 1) drawComparePanel(panel, keys[0]);
+  panel.timer = setInterval(() => {
+    const i = keys.indexOf(panel.key);
+    if (i >= keys.length - 1) { stopPlay(panel); return; }
+    drawComparePanel(panel, keys[i + 1]);
+  }, 1600);
+  const b = panel.cell.querySelector(".lc-play-btn");
+  if (b) { b.textContent = "❚❚"; b.setAttribute("aria-label", "Pause"); }
+}
+function playControlsHtml(th) {
+  const keys = th.series ? seriesKeys(th.series) : [];
+  if (keys.length < 2) return "";
+  const i = keys.indexOf(Object.keys(THEMES).find((k) => THEMES[k] === th));
+  return `<div class="lc-play"><button type="button" class="lc-play-btn" aria-label="Play over time">▶</button>
+    <input type="range" class="lc-slider" min="0" max="${keys.length - 1}" step="1" value="${i}" aria-label="Year">
+    <span class="lc-years">${keys.map((k, j) => `<span${j === i ? ' class="on"' : ""}>${THEMES[k].year}</span>`).join("")}</span></div>`;
+}
 function drawComparePanel(panel, key) {
   const th = THEMES[key];
+  const prev = panel.key && THEMES[panel.key];
   panel.key = key;
+  const sel = panel.cell.querySelector(".lc-theme");
+  if (sel && sel.value !== key) sel.value = key;
+  const keyBox = panel.cell.querySelector(".lc-key");
+  keyBox.innerHTML = `${playControlsHtml(th)}${compareLegendHtml(th)}<p class="lc-note">${th.note}${th.source ? ` (${th.source})` : ""}</p>`;
+  const playBtn = keyBox.querySelector(".lc-play-btn");
+  if (playBtn) {
+    if (panel.timer) { playBtn.textContent = "❚❚"; playBtn.setAttribute("aria-label", "Pause"); }
+    playBtn.addEventListener("click", () => togglePlay(panel));
+    keyBox.querySelector(".lc-slider").addEventListener("input", (e) => { stopPlay(panel); drawComparePanel(panel, seriesKeys(th.series)[Number(e.target.value)]); });
+  }
+  // Year shown large on the map while a series is on screen
+  if (!panel.badge) {
+    panel.badge = L.control({ position: "topright" });
+    panel.badge.onAdd = () => L.DomUtil.create("div", "lc-yearbadge");
+    panel.badge.addTo(panel.map);
+  }
+  panel.badge.getContainer().textContent = th.series ? th.year : "";
+  panel.badge.getContainer().hidden = !th.series;
+  // Same areas as before (another year of the same data): recolour in place instead of redrawing
+  if (prev && prev.src === th.src && th.src !== "mxageb" && panel.geo) {
+    panel.geo.setStyle((f) => ({ fillColor: themeColor(th, f.properties[th.field]) }));
+    panel.geo.eachLayer((lyr) => lyr.setTooltipContent(compareTip(th, lyr.feature.properties)));
+    compareRefs(panel);
+    return;
+  }
   panel.theme.clearLayers();
-  panel.cell.querySelector(".lc-key").innerHTML = `${compareLegendHtml(th)}<p class="lc-note">${th.note}${th.source ? ` (${th.source})` : ""}</p>`;
+  panel.geo = null;
   const draw = (src, opacity) => loadThemeData(src).then((fc) => {
     if (panel.key !== key) return;
-    L.geoJSON(fc, {
+    const geo = L.geoJSON(fc, {
       style: (f) => ({ fillColor: themeColor(th, f.properties[th.field]), fillOpacity: opacity, color: "#ffffff", weight: 0.4, opacity: 0.7 }),
-      onEachFeature: (f, lyr) => {
-        const p = f.properties;
-        const name = p.name || (p.area ? String(p.area).replace(/_/g, " ") : "") || p.mun || "";
-        lyr.bindTooltip(`${name ? `<strong>${name}</strong><br>` : ""}${th.label}: ${themeValueText(th, p[th.field])}`, { sticky: true });
-      },
+      onEachFeature: (f, lyr) => lyr.bindTooltip(compareTip(THEMES[panel.key], f.properties), { sticky: true }),
     }).addTo(panel.theme);
+    if (src === th.src) panel.geo = geo;
   });
   if (th.src === "mxageb") draw("mx", 0.4).then(() => draw("mxageb", 0.75));
   else draw(th.src, 0.65);
+  compareRefs(panel);
+}
+function compareTip(th, p) {
+  const name = p.name || (p.area ? String(p.area).replace(/_/g, " ") : "") || p.mun || "";
+  return `${name ? `<strong>${name}</strong><br>` : ""}${th.label}: ${themeValueText(th, p[th.field])}`;
+}
+function compareRefs(panel) {
   // References for the themes on screen
   const lc = layerCompare;
   const refs = [...new Set(lc.panels.concat(lc.panels.includes(panel) ? [] : [panel]).flatMap((p) => [...THEME_REFS[THEMES[p.key].src](), ...(THEMES[p.key].unit === "per 1,000" && THEMES[p.key].src === "dz" ? POLICE_REFS : [])]))];
@@ -1902,10 +2248,13 @@ function popupHtml(p) {
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
     ${wallRegion(p) && wallRegion(p).includes("us") && window.borderTimelineHtml ? single("Border over time", window.borderTimelineHtml()) : ""}
-    ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() : ""}
+    ${wallRegion(p) && wallRegion(p).includes("us") ? usMexMigrationHtml() : ""}
+    ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() + belfastBandsHtml() : ""}
     ${wallRegion(p) && wallRegion(p)[0] === "ni" ? niJobsHtml(/Belfast/.test(p.countries || "")) : ""}
-    ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() : ""}
+    ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() + hadrianBirthHtml() : ""}
     ${/^Calais port/.test(p.name || "") ? channelHtml() : ""}
+    ${p.effectiveness ? single("Does it work? Stated aims and evidence", p.effectiveness) : ""}
+    ${/Gaza/.test(p.countries || "") ? `<button type="button" class="compare-btn compare-maps-btn" data-show-crossings>Show the Gaza crossing points on the map</button>` : ""}
     ${p.note ? single("Notes", p.note) : ""}
     <details class="refs-box">
       <summary>References (Harvard)</summary>

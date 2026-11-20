@@ -1,0 +1,76 @@
+{
+ "note": "Crossing points of the Gaza Strip. Positions from OCHA oPt (HDX, 2019 and 2021) except where marked approximate. Status as reported by OCHA on 29 October 2026 and the sources named. Not plotted (positions not published in the sources checked): Zikim (aid, opened April 2024, closed 24 May 2026, OCHA), Kissufim and Gate 96 (emergency aid routes opened in 2024).",
+ "crossings": [
+  {
+   "name": "Rafah crossing",
+   "lon": 34.25744,
+   "lat": 31.24806,
+   "between": "Gaza – Egypt",
+   "use": "People (and, during the 2023–25 war, aid trucks)",
+   "status": "restricted",
+   "status_text": "Reopened on 2 February 2026; used for medical evacuations (2,746 patients and 4,065 companions by 29 October 2026, WHO via OCHA)",
+   "src": "OCHA oPt (2026); OCHA oPt (2019)"
+  },
+  {
+   "name": "Kerem Shalom (Karm Abu Salem)",
+   "lon": 34.27079,
+   "lat": 31.22398,
+   "between": "Gaza – Israel (by the Egyptian border)",
+   "use": "Goods: the main crossing for cargo",
+   "status": "open",
+   "status_text": "The crossing for UN and partner aid cargo: 586 trucks offloaded on 19–25 October 2026 (OCHA); also used for medical evacuations",
+   "src": "OCHA oPt (2026); OCHA oPt (2021)"
+  },
+  {
+   "name": "Erez (Beit Hanoun)",
+   "lon": 34.54332,
+   "lat": 31.5583,
+   "between": "Gaza – Israel",
+   "use": "People with Israeli permits (workers, patients, aid staff)",
+   "status": "closed",
+   "status_text": "Destroyed in the attack of 7 October 2023; reopened for aid trucks on 1 May 2024 (Times of Israel, via Wikipedia); not listed as operating by OCHA in October 2026",
+   "src": "Wikipedia contributors (2026a); OCHA oPt (2021)"
+  },
+  {
+   "name": "Karni (Al Montar)",
+   "lon": 34.48306,
+   "lat": 31.47834,
+   "between": "Gaza – Israel",
+   "use": "Goods",
+   "status": "closed",
+   "status_text": "Closed since June 2007 (OCHA); dismantled 2011",
+   "src": "OCHA oPt (2021); Wikipedia contributors (2026a)"
+  },
+  {
+   "name": "Sufa",
+   "lon": 34.3263,
+   "lat": 31.25802,
+   "between": "Gaza – Israel",
+   "use": "Goods (construction materials)",
+   "status": "closed",
+   "status_text": "Closed since September 2008 (OCHA)",
+   "src": "OCHA oPt (2021)"
+  },
+  {
+   "name": "Nahal Oz (Ash Shuja'iyyeh)",
+   "lon": 34.49164,
+   "lat": 31.48502,
+   "between": "Gaza – Israel",
+   "use": "Fuel pipeline",
+   "status": "closed",
+   "status_text": "Closed since January 2010 (OCHA)",
+   "src": "OCHA oPt (2021)"
+  },
+  {
+   "name": "Salah al-Din gate",
+   "lon": 34.24488,
+   "lat": 31.28338,
+   "between": "Gaza – Egypt",
+   "use": "Goods (commercial), since February 2018",
+   "status": "unknown",
+   "status_text": "Carried about 36% of Gaza's imports in 2023 (UNSCO, via Wikipedia); current status not reported by OCHA. Position approximate: about 4 km north-west of the Rafah crossing along the border",
+   "src": "Wikipedia contributors (2026b)",
+   "approx": true
+  }
+ ]
+}

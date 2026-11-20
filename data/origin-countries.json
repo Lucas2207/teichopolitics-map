@@ -1,0 +1,777 @@
+{
+ "GBR": {
+  "name": "United Kingdom",
+  "gdp_pc_ppp": {
+   "v": 53993.12,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 64210,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 4.75,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 81.39,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 4.7,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 8,
+   "y": 2023
+  },
+  "homicide": {
+   "v": 1.12,
+   "y": 2021
+  },
+  "battle_deaths": {
+   "v": 1,
+   "y": 2019
+  },
+  "pop": {
+   "v": 69487000,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 0.4,
+   "y": 2021
+  },
+  "median_day": {
+   "v": 54.55,
+   "y": 2021,
+   "welfare": "income",
+   "ppp": ""
+  }
+ },
+ "FRA": {
+  "name": "France",
+  "gdp_pc_ppp": {
+   "v": 55124.54,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 65110,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 7.54,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 82.98,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 4.3,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 7,
+   "y": 2023
+  },
+  "homicide": {
+   "v": 1.34,
+   "y": 2023
+  },
+  "battle_deaths": {
+   "v": 4,
+   "y": 2018
+  },
+  "pop": {
+   "v": 68720337,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 0.1,
+   "y": 2023
+  },
+  "median_day": {
+   "v": 57.21,
+   "y": 2023,
+   "welfare": "income",
+   "ppp": ""
+  }
+ },
+ "IRN": {
+  "name": "Iran",
+  "gdp_pc_ppp": {
+   "v": 16833.78,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 19660,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 8.3,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 77.85,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 11.3,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 16,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 88.92,
+   "y": 2023
+  },
+  "homicide": {
+   "v": 2.38,
+   "y": 2014
+  },
+  "battle_deaths": {
+   "v": 123,
+   "y": 2024
+  },
+  "pop": {
+   "v": 92417681,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 2.5,
+   "y": 2023
+  },
+  "median_day": {
+   "v": 10.19,
+   "y": 2023,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 4505,
+  "arrivals_since2018": 31122,
+  "grant_rate": 64
+ },
+ "AFG": {
+  "name": "Afghanistan",
+  "gdp_pc_ppp": {
+   "v": 1964.45,
+   "y": 2024
+  },
+  "gni_pc_ppp": {
+   "v": 2250,
+   "y": 2024
+  },
+  "unemp": {
+   "v": 13.35,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 66.29,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 53,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 521,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 37.27,
+   "y": 2021
+  },
+  "homicide": {
+   "v": 4.03,
+   "y": 2021
+  },
+  "battle_deaths": {
+   "v": 260,
+   "y": 2024
+  },
+  "pop": {
+   "v": 43844111,
+   "y": 2025
+  },
+  "arrivals_2025": 4801,
+  "arrivals_since2018": 29057,
+  "grant_rate": 57
+ },
+ "ERI": {
+  "name": "Eritrea",
+  "gni_pc_ppp": {
+   "v": 1720,
+   "y": 2011
+  },
+  "unemp": {
+   "v": 5.98,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 68.89,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 34.3,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 291,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 64.66,
+   "y": 2008
+  },
+  "homicide": {
+   "v": 15.61,
+   "y": 2012
+  },
+  "battle_deaths": {
+   "v": 4,
+   "y": 2022
+  },
+  "pop": {
+   "v": 3607003,
+   "y": 2025
+  },
+  "arrivals_2025": 7583,
+  "arrivals_since2018": 20977,
+  "grant_rate": 89
+ },
+ "IRQ": {
+  "name": "Iraq",
+  "gdp_pc_ppp": {
+   "v": 12191.56,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 14290,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 15.48,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 72.42,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 21.8,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 66,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 84.06,
+   "y": 2021
+  },
+  "homicide": {
+   "v": 9.46,
+   "y": 2013
+  },
+  "battle_deaths": {
+   "v": 396,
+   "y": 2024
+  },
+  "pop": {
+   "v": 47020774,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 0.5,
+   "y": 2023
+  },
+  "median_day": {
+   "v": 10.89,
+   "y": 2023,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 1706,
+  "arrivals_since2018": 19640,
+  "grant_rate": 31
+ },
+ "ALB": {
+  "name": "Albania",
+  "gdp_pc_ppp": {
+   "v": 22724.29,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 28170,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 10.93,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 79.78,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 9.2,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 7,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 97.68,
+   "y": 2023
+  },
+  "homicide": {
+   "v": 1.39,
+   "y": 2023
+  },
+  "battle_deaths": {
+   "v": 6,
+   "y": 1999
+  },
+  "pop": {
+   "v": 2349580,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 0.3,
+   "y": 2020
+  },
+  "median_day": {
+   "v": 12.84,
+   "y": 2020,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 264,
+  "arrivals_since2018": 15422,
+  "grant_rate": 2
+ },
+ "SYR": {
+  "name": "Syria",
+  "gdp_pc_ppp": {
+   "v": 4579.44,
+   "y": 2022
+  },
+  "gni_pc_ppp": {
+   "v": 4740,
+   "y": 2022
+  },
+  "unemp": {
+   "v": 13.57,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 72.56,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 18.4,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 20,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 94.42,
+   "y": 2021
+  },
+  "homicide": {
+   "v": 2.06,
+   "y": 2010
+  },
+  "battle_deaths": {
+   "v": 2732,
+   "y": 2024
+  },
+  "pop": {
+   "v": 25620427,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 18,
+   "y": 2022
+  },
+  "median_day": {
+   "v": 4.61,
+   "y": 2022,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 1531,
+  "arrivals_since2018": 14916,
+  "grant_rate": 62
+ },
+ "SDN": {
+  "name": "Sudan",
+  "gdp_pc_ppp": {
+   "v": 1873.39,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 2140,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 7.53,
+   "y": 2022
+  },
+  "life_exp": {
+   "v": 66.52,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 61.6,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 256,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 53.52,
+   "y": 2008
+  },
+  "homicide": {
+   "v": 5.15,
+   "y": 2008
+  },
+  "battle_deaths": {
+   "v": 4680,
+   "y": 2024
+  },
+  "pop": {
+   "v": 51662147,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 10.1,
+   "y": 2014
+  },
+  "median_day": {
+   "v": 5.92,
+   "y": 2014,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 4447,
+  "arrivals_since2018": 14481,
+  "grant_rate": 92
+ },
+ "VNM": {
+  "name": "Vietnam",
+  "gdp_pc_ppp": {
+   "v": 15457.35,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 17580,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 1.52,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 74.74,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 17.3,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 48,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 96.13,
+   "y": 2022
+  },
+  "homicide": {
+   "v": 1.54,
+   "y": 2011
+  },
+  "pop": {
+   "v": 101598527,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 1.6,
+   "y": 2022
+  },
+  "median_day": {
+   "v": 13.32,
+   "y": 2022,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 1440,
+  "arrivals_since2018": 8750,
+  "grant_rate": 17
+ },
+ "TUR": {
+  "name": "Türkiye",
+  "gdp_pc_ppp": {
+   "v": 37300.75,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 44630,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 8.52,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 77.42,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 9.6,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 15,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 97.26,
+   "y": 2021
+  },
+  "homicide": {
+   "v": 3.23,
+   "y": 2023
+  },
+  "battle_deaths": {
+   "v": 34,
+   "y": 2024
+  },
+  "pop": {
+   "v": 85878556,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 0.2,
+   "y": 2023
+  },
+  "median_day": {
+   "v": 27.75,
+   "y": 2023,
+   "welfare": "income",
+   "ppp": ""
+  },
+  "arrivals_2025": 1158,
+  "arrivals_since2018": 7542,
+  "grant_rate": 17
+ },
+ "SOM": {
+  "name": "Somalia",
+  "gdp_pc_ppp": {
+   "v": 1403.81,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 1640,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 18.95,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 58.97,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 101.1,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 563,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 54.12,
+   "y": 2022
+  },
+  "battle_deaths": {
+   "v": 2284,
+   "y": 2024
+  },
+  "pop": {
+   "v": 19654739,
+   "y": 2025
+  },
+  "arrivals_2025": 3806,
+  "arrivals_since2018": 6967,
+  "grant_rate": 33
+ },
+ "ETH": {
+  "name": "Ethiopia",
+  "gdp_pc_ppp": {
+   "v": 3094.87,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 3620,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 3.32,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 67.6,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 44.5,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 195,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 60.46,
+   "y": 2022
+  },
+  "homicide": {
+   "v": 8.51,
+   "y": 2012
+  },
+  "battle_deaths": {
+   "v": 2824,
+   "y": 2024
+  },
+  "pop": {
+   "v": 135472051,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 38.6,
+   "y": 2021
+  },
+  "median_day": {
+   "v": 3.49,
+   "y": 2021,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 1745,
+  "arrivals_since2018": 4112,
+  "grant_rate": 64
+ },
+ "EGY": {
+  "name": "Egypt",
+  "gdp_pc_ppp": {
+   "v": 17265.15,
+   "y": 2025
+  },
+  "gni_pc_ppp": {
+   "v": 19330,
+   "y": 2025
+  },
+  "unemp": {
+   "v": 6.78,
+   "y": 2025
+  },
+  "life_exp": {
+   "v": 71.81,
+   "y": 2024
+  },
+  "u5_mort": {
+   "v": 22.4,
+   "y": 2024
+  },
+  "mat_mort": {
+   "v": 17,
+   "y": 2023
+  },
+  "literacy": {
+   "v": 79.45,
+   "y": 2022
+  },
+  "homicide": {
+   "v": 1.31,
+   "y": 2017
+  },
+  "battle_deaths": {
+   "v": 231,
+   "y": 2022
+  },
+  "pop": {
+   "v": 118365995,
+   "y": 2025
+  },
+  "extreme_poor": {
+   "v": 1.4,
+   "y": 2021
+  },
+  "median_day": {
+   "v": 7.61,
+   "y": 2021,
+   "welfare": "consumption",
+   "ppp": ""
+  },
+  "arrivals_2025": 493,
+  "arrivals_since2018": 3460,
+  "grant_rate": 10
+ },
+ "_meta": {
+  "gdp_pc_ppp": {
+   "code": "NY.GDP.PCAP.PP.KD",
+   "name": "GDP per capita, PPP (constant 2021 international $)"
+  },
+  "gni_pc_ppp": {
+   "code": "NY.GNP.PCAP.PP.CD",
+   "name": "GNI per capita, PPP (current international $)"
+  },
+  "unemp": {
+   "code": "SL.UEM.TOTL.ZS",
+   "name": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+  },
+  "life_exp": {
+   "code": "SP.DYN.LE00.IN",
+   "name": "Life expectancy at birth, total (years)"
+  },
+  "u5_mort": {
+   "code": "SH.DYN.MORT",
+   "name": "Mortality rate, under-5 (per 1,000 live births)"
+  },
+  "mat_mort": {
+   "code": "SH.STA.MMRT",
+   "name": "Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+  },
+  "literacy": {
+   "code": "SE.ADT.LITR.ZS",
+   "name": "Literacy rate, adult total (% of people ages 15 and above)"
+  },
+  "homicide": {
+   "code": "VC.IHR.PSRC.P5",
+   "name": "Intentional homicides (per 100,000 people)"
+  },
+  "battle_deaths": {
+   "code": "VC.BTL.DETH",
+   "name": "Battle-related deaths (number of people)"
+  },
+  "pop": {
+   "code": "SP.POP.TOTL",
+   "name": "Population, total"
+  },
+  "extreme_poor": {
+   "code": "SI.POV.DDAY",
+   "name": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+  }
+ },
+ "_arrivals_2025_total": 41472
+}
