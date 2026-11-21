@@ -766,6 +766,11 @@ input:focus-visible {
 .mlc-dash { fill: none; stroke: var(--nij-p); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.7; }
 .mlc-pt { fill: var(--nij-p); }
 .mlc-hit { fill: transparent; cursor: crosshair; }
+.tlc-hit { fill: transparent; cursor: crosshair; }
+.nat-line { fill: none; stroke-width: 1.2; stroke-dasharray: 4 3; opacity: 0.75; }
+.nat-line.nij-p { stroke: var(--nij-p); }
+.nat-line.nij-c { stroke: var(--nij-c); }
+.nij-key.nat-key { background: none; border-top: 2px dashed var(--muted); height: 0; }
 
 /* Wide information page (same translucent card, wider) */
 .info-card.wide-page { width: min(1100px, calc(100vw - 40px)); }

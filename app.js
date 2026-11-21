@@ -2014,6 +2014,108 @@ function usMexMigrationHtml() {
     </ol>
   </details>`;
 }
+// Both sides of the border: OECD regions on each side of a wall, population-weighted, one measure per chart
+// (two lines on the same scale, never a second axis), with the national figures as thin dashed lines.
+let oecdRegions = null;
+fetch("data/oecd-border-regions.json").then((r) => r.json()).then((d) => { oecdRegions = d; }).catch(() => {});
+const TWO_CHARTS = {};
+function twoLineSvg(id, s, opt) {
+  // s: { a: {year: v}, b: {...}, natA: {...}, natB: {...} }
+  TWO_CHARTS[id] = { s, opt };
+  const W = 320, H = 170, L = 44, R = 10, T = 10, B = 22;
+  const yrs = [...new Set([...Object.keys(s.a), ...Object.keys(s.natA), ...Object.keys(s.natB)].map(Number))];
+  const x0 = opt.x0, x1 = opt.x1;
+  const all = [s.a, s.b, s.natA, s.natB].flatMap((o) => Object.entries(o).filter(([y]) => y >= x0 && y <= x1).map(([, v]) => v));
+  const lo = opt.zero === false ? Math.min(...all) : Math.min(0, ...all), hiRaw = Math.max(...all);
+  const step = niceStep((hiRaw - lo) / 4), yMax = Math.ceil(hiRaw / step) * step, yMin = Math.floor(lo / step) * step;
+  opt.yMin = yMin; opt.yMax = yMax;
+  const x = (v) => L + ((v - x0) * (W - L - R)) / (x1 - x0), y = (v) => T + ((yMax - v) * (H - T - B)) / (yMax - yMin);
+  const ticks = []; for (let v = yMin; v <= yMax + 1e-9; v += step) ticks.push(+v.toFixed(6));
+  const grid = ticks.map((v) => `<line class="nij-grid" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/><text class="nij-axis" x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${opt.yFmt(v)}</text>`).join("");
+  const xt = opt.xTicks.map((v) => `<text class="nij-axis" x="${x(v)}" y="${H - 6}" text-anchor="middle">${v}</text>`).join("");
+  const path = (o) => Object.entries(o).map(([k, v]) => [Number(k), v]).filter(([k]) => k >= x0 && k <= x1).sort((p, q) => p[0] - q[0])
+    .map(([k, v], i, arr) => `${i === 0 || k - arr[i - 1][0] > 1 ? "M" : "L"}${x(k).toFixed(1)},${y(v).toFixed(1)}`).join("");
+  const marks = (opt.marks || []).filter((m) => m.year >= x0 && m.year <= x1).map((m) => `<line class="mlc-mark" x1="${x(m.year)}" x2="${x(m.year)}" y1="${T}" y2="${H - B}"/><text class="mlc-marklabel" x="${x(m.year) + 2}" y="${T + 8}">${m.year}</text>`).join("");
+  return `<svg class="nij-chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${opt.aria}">${grid}${xt}${marks}
+    <path class="nat-line nij-c" d="${path(s.natB)}"/><path class="nat-line nij-p" d="${path(s.natA)}"/>
+    <path class="nij-line nij-c" d="${path(s.b)}"/><path class="nij-line nij-p" d="${path(s.a)}"/>
+    ${[["b", "nij-c-dot"], ["a", "nij-p-dot"]].map(([k, cls]) => Object.entries(s[k]).filter(([yy]) => yy >= x0 && yy <= x1).map(([yy, v]) => `<circle class="${cls}" cx="${x(Number(yy)).toFixed(1)}" cy="${y(v).toFixed(1)}" r="1.8"/>`).join("")).join("")}
+    <line class="nij-cross" x1="0" x2="0" y1="${T}" y2="${H - B}" visibility="hidden"/>
+    <circle class="nij-dot nij-c-dot" r="4" visibility="hidden"/><circle class="nij-dot nij-p-dot" r="4" visibility="hidden"/>
+    <rect class="tlc-hit" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" data-chart="${id}" data-l="${L}" data-w="${W - L - R}" data-t="${T}" data-h="${H - T - B}"/></svg>`;
+}
+function niceStep(raw) {
+  const p = 10 ** Math.floor(Math.log10(raw || 1)), m = raw / p;
+  return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10) * p;
+}
+document.addEventListener("pointermove", (e) => {
+  const hit = e.target.closest && e.target.closest(".tlc-hit");
+  document.querySelectorAll(".tlc-wrap").forEach((wrap) => {
+    if (hit && wrap.contains(hit)) return;
+    wrap.querySelectorAll(".nij-cross,.nij-dot").forEach((el) => el.setAttribute("visibility", "hidden"));
+    wrap.querySelector(".nij-tip").hidden = true;
+  });
+  if (!hit) return;
+  const svg = hit.ownerSVGElement, wrap = svg.parentNode, c = TWO_CHARTS[hit.dataset.chart];
+  const pt = svg.createSVGPoint(); pt.x = e.clientX; pt.y = e.clientY;
+  const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+  const l = Number(hit.dataset.l), w = Number(hit.dataset.w), t = Number(hit.dataset.t), h = Number(hit.dataset.h), o = c.opt, s = c.s;
+  const yr = o.x0 + ((p.x - l) / w) * (o.x1 - o.x0);
+  const years = [...new Set([s.a, s.b, s.natA, s.natB].flatMap((q) => Object.keys(q).map(Number)))].filter((k) => k >= o.x0 && k <= o.x1);
+  if (!years.length) return;
+  const a = years.reduce((best, k) => (Math.abs(k - yr) < Math.abs(best - yr) ? k : best));
+  const X = l + ((a - o.x0) * w) / (o.x1 - o.x0), Y = (v) => t + ((o.yMax - v) * h) / (o.yMax - o.yMin);
+  const cross = svg.querySelector(".nij-cross"); cross.setAttribute("x1", X); cross.setAttribute("x2", X); cross.setAttribute("visibility", "visible");
+  [["nij-p-dot", s.a[a]], ["nij-c-dot", s.b[a]]].forEach(([cls, v]) => {
+    const dot = svg.querySelector(`.${cls}`);
+    if (v == null) { dot.setAttribute("visibility", "hidden"); return; }
+    dot.setAttribute("cx", X); dot.setAttribute("cy", Y(v)); dot.setAttribute("visibility", "visible");
+  });
+  const fv = (v) => (v == null ? "–" : o.fmt(v));
+  const tip = wrap.querySelector(".nij-tip");
+  tip.innerHTML = `<strong>${a}</strong><br><span class="nij-key nij-p"></span>${o.la} ${fv(s.a[a])}<br><span class="nij-key nij-c"></span>${o.lb} ${fv(s.b[a])}${s.natA[a] != null ? `<br>${o.na} ${fv(s.natA[a])}` : ""}${s.natB[a] != null ? `<br>${o.nb} ${fv(s.natB[a])}` : ""}`;
+  tip.hidden = false;
+  tip.style.left = `${Math.min(wrap.clientWidth - 190, Math.max(0, (X / 320) * wrap.clientWidth + 10))}px`;
+});
+const OECD_TEXT = {
+  us: "The four US border states (California, Arizona, New Mexico, Texas) against the six Mexican border states (Baja California, Sonora, Chihuahua, Coahuila, Nuevo León, Tamaulipas), each side averaged by population. The OECD puts both on the same definitions, so the gap can be read directly: output per head on the US side is about two and a half times the Mexican side, and the Mexican border states have been richer than Mexico as a whole for the whole period, as the factories along the border would suggest. Homicide rates moved apart after 2007, when Mexico's drug war began, and again after 2015. Household income is left out: the Mexican regional series is defined too differently to compare.",
+  evros: "Evros, the Greek regional unit along the fence, against Edirne province across the river. Where the OECD has no figures for these two (unemployment, life expectancy, born abroad) it uses the larger regions that contain them: Eastern Macedonia and Thrace against Western Marmara North (Edirne, Kırklareli, Tekirdağ). Output per head in Edirne overtook Evros in the 2010s, as Greece's crisis cut Greek output and Türkiye's grew.",
+  hadrian: "Northumberland, Tyneside and Cumberland, on the English side, against the Scottish Borders and Dumfries and Galloway on the Scottish side, each averaged by population; where Cumberland has no figures it is left out of the English side. The dashed lines are the United Kingdom (purple) and Scotland (teal). Born abroad is left out because the OECD has no figures for these areas.",
+};
+function oecdRegionsHtml(gk) {
+  const d = oecdRegions;
+  if (!d || !d.groups[gk]) return "";
+  const G = d.groups[gk], names = d.names;
+  const marks = gk === "us" && usMexMigration ? usMexMigration.fence.filter((m) => m.year >= 1995) : gk === "evros" ? [{ year: 2012 }, { year: 2020 }] : [];
+  const charts = Object.entries(G.measures).map(([mk, M]) => {
+    const m = d.measures[mk], dec = m.dec;
+    const money = /dollars/.test(m.unit), pct = m.unit.startsWith("%");
+    const fmt = (v) => (money ? `$${Math.round(v).toLocaleString("en")}` : `${v.toFixed(dec)}${pct ? "%" : ""}`);
+    const yFmt = (v) => (money ? `${Math.round(v / 1000)}k` : `${+v.toFixed(2)}`);
+    const unitsTxt = (u) => u.map((c) => names[c] || c).join(", ");
+    const levelNote = G.measures[mk].unitsA.length === 1 && gk === "evros" ? ` (${unitsTxt(M.unitsA)} · ${unitsTxt(M.unitsB)})` : gk === "hadrian" && !M.unitsA.includes("UKD13") ? " (English side without Cumberland)" : "";
+    const ys = Object.keys(M.a).map(Number);
+    const last = Math.max(...ys);
+    const table = [...M.unitsA, ...M.unitsB].map((c) => {
+      const s = M.units[c] || {}, ky = Object.keys(s).map(Number), ly = ky.length ? Math.max(...ky) : null;
+      return `<tr><th>${names[c] || c}</th><td>${M.unitsA.includes(c) ? G.a : G.b}</td><td>${ly ? fmt(s[ly]) : "–"}</td><td>${ly || "–"}</td></tr>`;
+    }).join("");
+    return `<p class="fiche-text"><strong>${m.label}</strong>, ${m.unit}${levelNote}</p>
+      <div class="nij-wrap tlc-wrap">${twoLineSvg(`oecd_${gk}_${mk}`, { a: M.a, b: M.b, natA: M.natA, natB: M.natB }, {
+        x0: 1995, x1: 2025, xTicks: [2000, 2010, 2020], marks, yFmt, fmt, zero: mk !== "lifeexp", la: G.a, lb: G.b, na: G.natA, nb: G.natB,
+        aria: `${m.label}, ${G.a} against ${G.b}: ${fmt(M.a[last])} against ${fmt(M.b[last])} in ${last}`,
+      })}<div class="nij-tip" hidden></div></div>
+      <details><summary>Table: ${m.label.toLowerCase()} by region, latest year</summary><div class="hist-wrap"><table class="hist-table"><thead><tr><th>Region</th><th>Side</th><th>Value</th><th>Year</th></tr></thead><tbody>${table}</tbody></table></div></details>`;
+  }).join("");
+  return `<details>
+    <summary>Both sides of the border: regions compared, 1995–2025</summary>
+    <p class="fiche-text">${OECD_TEXT[gk]} Regional figures cover whole states or counties, so they show the regions the wall divides, not the strip along it. Hover over the charts for each year.</p>
+    <p class="fiche-text"><span class="nij-key nij-p"></span>${G.a} <span class="nij-key nij-c"></span>${G.b} <span class="nij-key nat-key"></span>dashed: ${G.natA === G.natB ? G.natA : `${G.natA} and ${G.natB}`} as a whole</p>
+    ${charts}
+    <p class="cite">In-text: (OECD, 2026)</p>
+    <ol class="refs"><li>OECD (2026) OECD Regional Database: regional economy (GDP), regional income, regional labour market (rates), regional social conditions (safety), regional demography (life expectancy, mobility, population) and regional migrant population, territorial levels 2 and 3. OECD Data Explorer, SDMX API (sdmx.oecd.org, agency OECD.CFE.EDS). Available at: https://data-explorer.oecd.org/ (Accessed: 21 November 2026).</li></ol>
+  </details>`;
+}
 // Hadrian's Wall: residents within 50 km north and south (England) of the wall, census by census
 let hadrianSummary = null;
 fetch("data/hadrian-summary.json").then((r) => r.json()).then((d) => { hadrianSummary = d; }).catch(() => {});
@@ -2542,10 +2644,11 @@ function popupHtml(p) {
     ${section("Purpose and status", `${row("Stated purpose", or(p.purpose))}${row("Status", `${p.status ? `${p.status}. ` : ""}${or(p.term_note, "No term or removal recorded")}`)}`)}
     ${wallRegion(p) ? single("Income, employment and population by neighbourhood", themePickerHtml(wallRegion(p))) : ""}
     ${wallRegion(p) && wallRegion(p).includes("us") && window.borderTimelineHtml ? single("Border over time", window.borderTimelineHtml()) : ""}
-    ${wallRegion(p) && wallRegion(p).includes("us") ? usMexMigrationHtml() : ""}
+    ${wallRegion(p) && wallRegion(p).includes("us") ? usMexMigrationHtml() + oecdRegionsHtml("us") : ""}
     ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() + belfastBandsHtml() : ""}
     ${wallRegion(p) && wallRegion(p)[0] === "ni" ? niJobsHtml(/Belfast/.test(p.countries || "")) : ""}
-    ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() + hadrianBirthHtml() : ""}
+    ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() + hadrianBirthHtml() + oecdRegionsHtml("hadrian") : ""}
+    ${/Evros|Meriç/.test(p.name || "") ? oecdRegionsHtml("evros") : ""}
     ${/^Calais port/.test(p.name || "") ? channelHtml() : ""}
     ${p.effectiveness ? single("Does it work? Stated aims and evidence", p.effectiveness) : ""}
     ${/Gaza/.test(p.countries || "") ? `<button type="button" class="compare-btn compare-maps-btn" data-show-crossings>Show the Gaza crossing points on the map</button>` : ""}
