@@ -1869,9 +1869,10 @@ function channelPageHtml() {
     <p class="cite">January–June 2026: ${f(h26["Small boat arrivals"])} by small boat, ${f(h26["Recorded detections in the UK"])} detected in the UK, ${f(h26["Recorded detections at UK ports"])} at ports and ${f(h26["Inadequately documented air arrivals"])} by air. Detections in the UK and at ports include people hidden in lorries, trains and ferries, many of them coming through Calais and Coquelles; the statistics do not give the port of departure.</p>
     <h3 class="wp-h">Where people come from</h3>
     <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Largest nationalities among small boat arrivals: number and share</th></tr></thead><tbody>${nat}</tbody></table></div>
+    ${channelAsylumHtml()}
     ${originCompareHtml(o, d)}
     <p class="cite">Nationality is as recorded by the Home Office on arrival. The French figure of about 41,000 crossings in 2025 matches the UK count of 41,472. In-text: (Home Office, 2026a; 2026b; 2026c; Assemblée nationale, 2026; Tomlinson, 2024; World Bank, 2026a; 2026b)</p>
-    <ol class="refs">${CHANNEL_REFS.map((r) => `<li>${r}</li>`).join("")}${ORIGIN_REFS.map((r) => `<li>${r}</li>`).join("")}</ol>
+    <ol class="refs">${CHANNEL_REFS.map((r) => `<li>${r}</li>`).join("")}${ORIGIN_REFS.map((r) => `<li>${r}</li>`).join("")}<li>${OECD_MIG_REF}</li></ol>
   </div>`;
 }
 const ORIGIN_REFS = [
@@ -2001,16 +2002,21 @@ function usMexMigrationHtml() {
     <div class="nij-wrap mlc-wrap">${miniLineSvg("mx_app", app, { x0: 1850, x1: 2026, yMax: 2.4, yTicks: [0, 0.6, 1.2, 1.8, 2.4], yFmt: (v) => `${v}m`, xTicks: [1850, 1900, 1950, 2000], marks, gap: 2,
       aria: "Border Patrol apprehensions on the south-west border by fiscal year, 1960 to 2026",
       tip: (v, y) => `${f(Math.round(v * 1e6))} apprehensions${y === 2026 ? " (fiscal year so far)" : ""}` })}<div class="nij-tip" hidden></div></div>
+    ${oecdMig ? `<p class="fiche-text"><strong>Mexicans granted permanent residence in the US each year (thousands)</strong>: legal immigration only (green cards). Many of those granted it already lived in the US. Mexico was the largest single country of origin in every year from 1995 to 2024, with between 115,000 and 220,000 a year from 1996 to 2019, about 100,000 in 2020–2021 when processing slowed during the pandemic, and 198,000 in 2024. The fences did not change this legal flow much.</p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("mx_lpr", Object.entries(oecdMig.usa_lpr_mex).map(([y, v]) => [Number(y), v / 1000]).sort((a, b) => a[0] - b[0]), { x0: 1994, x1: 2026, yMax: 250, yTicks: [0, 50, 100, 150, 200, 250], yFmt: (v) => `${v}k`, xTicks: [2000, 2010, 2020], marks: marks.filter((m) => m.year >= 1994), gap: 2,
+      aria: "Mexicans granted permanent residence in the US by year, 1995 to 2024, between about 90,000 and 220,000 a year",
+      tip: (v, y) => `${f(Math.round(v * 1000))} (${Math.round((100000 * v) / oecdMig.usa_lpr[y])}% of all new permanent residents)` })}<div class="nij-tip" hidden></div></div>` : ""}
     <details><summary>Table: Mexican-born residents of the US and Mexico's population</summary>
       <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Mexican-born in the US</th><th>Mexico's population</th><th>Per 100 in Mexico</th><th>US source</th></tr></thead><tbody>${table}</tbody></table></div>
       <p class="cite">Mexico's population is from its censuses and counts; between them it is interpolated, and after 2020 (*) it is projected at the 2010–2020 growth rate. There are no US figures by country of birth for 1940 and 1950 (dashed). The 2020 survey is missing because of the pandemic. Survey figures have a margin of error of a few tens of thousands.</p>
     </details>
-    <p class="cite">In-text: (Gibson and Jung, 2006; U.S. Census Bureau, 2025; INEGI, 2021)</p>
+    <p class="cite">In-text: (Gibson and Jung, 2006; U.S. Census Bureau, 2025; INEGI, 2021; OECD, 2026)</p>
     <ol class="refs">
       <li>Gibson, C. and Jung, K. (2006) Historical Census Statistics on the Foreign-Born Population of the United States: 1850 to 2000. Population Division Working Paper No. 81, Table 4. Washington, DC: U.S. Census Bureau. Available at: https://www.census.gov/library/working-papers/2006/demo/POP-twps0081.html (Accessed: 19 November 2026).</li>
       <li>U.S. Census Bureau (2025) American Community Survey 1-year estimates, table B05006 (place of birth for the foreign-born population), 2005–2024. Census Data API. Available at: https://api.census.gov/data.html (Accessed: 19 November 2026).</li>
       <li>INEGI (2021) Censos y Conteos de Población y Vivienda: series históricas, población total 1900–2020, as tabulated in SEMARNAT, Compendio de Estadísticas Ambientales 2021. Available at: https://apps1.semarnat.gob.mx:8443/dgeia/compendio_2021/archivos/04_demografia/d1_demograf01_01_d.pdf (Accessed: 19 November 2026).</li>
       <li>U.S. Customs and Border Protection (2026) U.S. Border Patrol apprehensions by sector, fiscal years 1960–2026 (see the border timeline's references).</li>
+      <li>${OECD_MIG_REF}</li>
     </ol>
   </details>`;
 }
@@ -2114,6 +2120,58 @@ function oecdRegionsHtml(gk) {
     ${charts}
     <p class="cite">In-text: (OECD, 2026)</p>
     <ol class="refs"><li>OECD (2026) OECD Regional Database: regional economy (GDP), regional income, regional labour market (rates), regional social conditions (safety), regional demography (life expectancy, mobility, population) and regional migrant population, territorial levels 2 and 3. OECD Data Explorer, SDMX API (sdmx.oecd.org, agency OECD.CFE.EDS). Available at: https://data-explorer.oecd.org/ (Accessed: 21 November 2026).</li></ol>
+  </details>`;
+}
+// OECD International Migration Database: asylum claims in the UK, France and Greece by nationality, and Mexicans
+// granted permanent residence in the US each year
+let oecdMig = null;
+fetch("data/oecd-migration.json").then((r) => r.json()).then((d) => { oecdMig = d; }).catch(() => {});
+const OECD_MIG_REF = "OECD (2026) International Migration Database: inflows of asylum seekers (B13) and inflows of foreign population (B11) by nationality, 1995–2025. OECD Data Explorer, SDMX API (sdmx.oecd.org, dataflow OECD.ELS.IMD DSD_MIG@DF_MIG). Available at: https://data-explorer.oecd.org/ (Accessed: 21 November 2026).";
+function channelAsylumHtml() {
+  const m = oecdMig, o = originData;
+  if (!m) return "";
+  const f = (v) => (v == null ? "–" : v.toLocaleString("en"));
+  const Y = 2024;
+  const codes = Object.keys(m.asylum_by.GBR).sort((a, b) => ((o && o[b] && o[b].arrivals_since2018) || 0) - ((o && o[a] && o[a].arrivals_since2018) || 0));
+  const rows = codes.map((c) => {
+    const uk = m.asylum_by.GBR[c][Y], fr = m.asylum_by.FRA[c][Y];
+    const sh = uk != null && fr != null && uk + fr > 0 ? `${Math.round((100 * uk) / (uk + fr))}%` : "–";
+    return `<tr><th>${m.names[c] || c}</th><td>${f(uk)}</td><td>${f(fr)}</td><td>${sh}</td></tr>`;
+  }).join("");
+  const last = (s) => Math.max(...Object.keys(s).map(Number));
+  return `<h3 class="wp-h">Asylum claims in the UK and France, 1995–2025</h3>
+    <div class="wp-grid">
+      <section>
+        <p class="fiche-text">People claiming asylum in each country every year. The UK received more claims until 2002; France has received more every year since 2003, and about three times as many in 2018 and 2019. The UK's claims tripled between 2020 and 2024, from 36,000 to 108,000, as small boat arrivals rose. Hover over the chart for each year.</p>
+        <div class="nij-wrap tlc-wrap">${twoLineSvg("asy_ukfr", { a: m.asylum.GBR, b: m.asylum.FRA, natA: {}, natB: {} }, {
+          x0: 1995, x1: 2025, xTicks: [2000, 2010, 2020], marks: [{ year: 2015 }, { year: 2018 }], yFmt: (v) => `${Math.round(v / 1000)}k`, fmt: (v) => v.toLocaleString("en"), la: "UK", lb: "France", na: "", nb: "",
+          aria: `Asylum claims in the UK and France, 1995 to 2025: ${f(m.asylum.GBR[last(m.asylum.GBR)])} in the UK and ${f(m.asylum.FRA[last(m.asylum.FRA)])} in France in the latest year`,
+        })}<div class="nij-tip" hidden></div></div>
+        <p class="fiche-text"><span class="nij-key nij-p"></span>UK <span class="nij-key nij-c"></span>France · marked: 2015, port and tunnel fenced; 2018, small boats begin</p>
+      </section>
+      <section>
+        <p class="fiche-text"><strong>Who claims where?</strong> For the nationalities that cross most by small boat, claims made in each country in ${Y}. Some groups claim almost only in the UK (Iranians, Vietnamese, Eritreans, Iraqis); others claim in large numbers in France too (Afghans, Sudanese, Somalis), and Turkish nationals claim more in France. A claim in France does not stop a later crossing, and the two counts are of different people.</p>
+        <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Nationality</th><th>Claims in the UK</th><th>Claims in France</th><th>UK share</th></tr></thead><tbody>${rows}</tbody></table></div>
+      </section>
+    </div>
+    <p class="cite">The UK counts everyone named on a claim, dependants included; France's count follows the EU definition of first-time applicants. Claims are counted where they are made, whatever the route of arrival. In-text: (OECD, 2026)</p>`;
+}
+function evrosAsylumHtml() {
+  const m = oecdMig;
+  if (!m) return "";
+  const pts = Object.entries(m.asylum.GRC).map(([y, v]) => [Number(y), v / 1000]).sort((a, b) => a[0] - b[0]);
+  const f = (v) => v.toLocaleString("en");
+  const yrs = Object.keys(m.grc_top).map(Number).filter((y) => [2010, 2012, 2015, 2016, 2019, 2020, 2022, 2024, 2025].includes(y));
+  const rows = yrs.map((y) => `<tr><th>${y}</th><td>${f(m.asylum.GRC[y])}</td><td>${m.grc_top[y].map(([c, v]) => `${m.names[c] || c} ${f(v)}`).join(", ")}</td></tr>`).join("");
+  return `<details>
+    <summary>Asylum claims in Greece, 1996–2025</summary>
+    <p class="fiche-text">People claiming asylum in Greece each year, whatever their route; most come by sea to the Aegean islands, not over the Evros, so the fences are one influence among several. Claims stayed near 10,000 a year after the 2012 fence, even as crossings moved to the islands: in 2015 most of the people who arrived travelled on through the Balkans without claiming in Greece. They jumped to 50,000 in 2016, when the Balkan route closed and the EU–Turkey statement kept new arrivals on the islands, peaked at 75,000 in 2019, fell to 23,000 in 2021 after the border closure of March 2020, the pandemic and the extended fence, and rose again to 69,000 in 2024. Hover over the chart for each year.</p>
+    <div class="nij-wrap mlc-wrap">${miniLineSvg("grc_asy", pts, { x0: 1995, x1: 2026, yMax: 80, yTicks: [0, 20, 40, 60, 80], yFmt: (v) => `${v}k`, xTicks: [2000, 2010, 2020], marks: [{ year: 2012 }, { year: 2020 }], gap: 2,
+      aria: "Asylum claims in Greece by year, 1996 to 2025, peaking at about 75,000 in 2019",
+      tip: (v) => `${f(Math.round(v * 1000))} claims` })}<div class="nij-tip" hidden></div></div>
+    <div class="hist-wrap"><table class="hist-table"><thead><tr><th>Year</th><th>Claims</th><th>Largest nationalities</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="cite">In-text: (OECD, 2026)</p>
+    <ol class="refs"><li>${OECD_MIG_REF}</li></ol>
   </details>`;
 }
 // Hadrian's Wall: residents within 50 km north and south (England) of the wall, census by census
@@ -2648,7 +2706,7 @@ function popupHtml(p) {
     ${/Northern Ireland \(Belfast|within Belfast/.test(p.countries || "") ? belfastHistoryHtml() + belfast7101Html() + belfastBandsHtml() : ""}
     ${wallRegion(p) && wallRegion(p)[0] === "ni" ? niJobsHtml(/Belfast/.test(p.countries || "")) : ""}
     ${p.name === "Hadrian's Wall" ? hadrianSidesHtml() + hadrianGridHtml() + hadrianBirthHtml() + oecdRegionsHtml("hadrian") : ""}
-    ${/Evros|Meriç/.test(p.name || "") ? oecdRegionsHtml("evros") : ""}
+    ${/Evros|Meriç/.test(p.name || "") ? evrosAsylumHtml() + oecdRegionsHtml("evros") : ""}
     ${/^Calais port/.test(p.name || "") ? channelHtml() : ""}
     ${p.effectiveness ? single("Does it work? Stated aims and evidence", p.effectiveness) : ""}
     ${/Gaza/.test(p.countries || "") ? `<button type="button" class="compare-btn compare-maps-btn" data-show-crossings>Show the Gaza crossing points on the map</button>` : ""}
